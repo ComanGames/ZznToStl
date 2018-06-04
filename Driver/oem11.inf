@@ -1,0 +1,47 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider    = %exo16f.Provider%
+DriverVer   = 07/19/2010,6.01.0002
+CatalogFile = exo16f.cat
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %exo16f.DiskID%,,,""
+
+[SourceDisksFiles]
+exo16f.sys = 1,,
+
+[Manufacturer]
+%exo16f.Group% = Standard,NTamd64
+
+[Standard.NTamd64]
+%exo16f.DevDescr% = exo16f_Device, root\exo16f
+
+[exo16f_Device.NT]
+CopyFiles = Drivers_Dir
+
+[Drivers_Dir]
+exo16f.sys
+
+[exo16f_Device.NT.Services]
+AddService = exo16f, 0x00000002, exo16f_Svc_Install
+
+[exo16f_Svc_Install]
+DisplayName    = %exo16f.SvcDescr%
+ServiceType    = 1
+StartType      = 2
+ErrorControl   = 1
+ServiceBinary  = %12%\exo16f.sys
+LoadOrderGroup = Extended Base
+
+
+[Strings]
+exo16f.Provider = "requestcrack.xyz"
+exo16f.Group    = "(Standard system devices)"
+exo16f.DiskId   = "requestcrack.xyz   : Installation Disk #1"
+exo16f.DevDescr = "requestcrack.xyz   : Virtual Device"
+exo16f.SrvDescr = "requestcrack.xyz   : Virtual Service"
