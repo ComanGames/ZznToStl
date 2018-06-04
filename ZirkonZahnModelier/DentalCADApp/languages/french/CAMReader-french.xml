@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Aucun fichier fao spécifiée pour le chargement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>Chaîne spécifiée '{0}' n'est ni fichier ni un répertoire existant.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Peut pas résoudre l'extension pour le fichier '{0}'.
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Peut pas résoudre répertoire pour le fichier '{0}'.
+Erreur: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Peut pas résoudre nom du projet pour le fichier fao '{0}'.
+Erreur: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Peut pas résoudre type de project pour le fichier fao type '{0}'. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>Le fichier cam {0} semble avoir un format de projet inconnu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Peut pas obtenir les fichiers génériques {0} à partir du répertoire {1}.
+erreur:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>Informations insuffisantes pour importer du projet fao</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Erreur lors du chargement du fichier {0}.
+erreur:
+{1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Erreur de lecture du fichier des limites {0}.
+Erreur:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Limite {0} introuvable dans le fichier des limites.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Erreurr lors de la division des donées de limite. Nom de la limite '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Peut pas convertir une chaîne vide pour coordonnées xyz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Peut pas convertir la chaîne '{0}' aux coordonnées xyz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>Fichier '{0}' introuvable.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>Erreur lors de la lecture du fichier ini {0}.
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>
+Infos du projet CAO sont pas présents dans {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>Le fichier {0} est trop grand pour être fichier de projet fao</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Erreur s'est produite lors de la récupération d'informations sur le fichier {0}.
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Décalage sur la courbe de comptage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Données d'angle de courbe pour l'angle de {0} est introuvable </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Données de la courbe {0} sont introuvable</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Informations sur les données de maillage sont introuvables dans le fichier projet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Information sur les données des limites est introuvable dans le fichier projet. Fichier limites {0} est manquant.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Erreur de lecture des limites à partir du fichier {0}.
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>La ligne suivante ne contient pas de points:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Donées de maillage introuvables.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

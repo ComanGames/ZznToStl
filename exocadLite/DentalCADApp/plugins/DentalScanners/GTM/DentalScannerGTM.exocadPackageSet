@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PackageSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Packages>
+    <Package>
+      <Prerequisites>
+        <Need64BitSoftware>true</Need64BitSoftware>
+      </Prerequisites>
+      <Files>
+        <File>GTMedicalControlLayer.dll</File>
+      </Files>
+      <PackageName>scanner-GTM-base64-v1</PackageName>
+      <SubDirectory>plugins\DentalScanners\GTM</SubDirectory>
+      <PackageCreationDate>2015-06-25-00-00</PackageCreationDate>
+    </Package>
+  </Packages>
+  <PackageSetCreationDate>2015-06-25-00-00</PackageSetCreationDate>
+</PackageSet>

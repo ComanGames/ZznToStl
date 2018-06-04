@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>CAM 파일이 불러오기 용도로 지정되지 않았습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>명시된 문자열 '{0}' 은 존재하는 파일도 디렉토리도 아닙니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>파일 '{0}'에 관한 파일 확장자를 해결할 수 없습니다.
+에러:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>파일 '{0}'에 관한 디렉토리를 해결할 수 없습니다.
+에러:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>CAM 파일 '{0}' 에 관한 project 이름을 해결할 수 없습니다.
+에러:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>CAM 파일 형식 '{0}' 에 관한 project 형식을 해결할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>CAM 파일 {0} 이 미확인 프로젝트 포멧을 가지고 있는듯 보입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>디렉토리 {1}에서 와일드 카드 {0} 에 일치하는 파일을 얻을 수 없습니다.
+에러:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>CAM project를 가져오기에는 정보가 불충분합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>파일 {0} 불러오기 에러.
+에러:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Margin 파일 {0} 읽기 에러.
+에러:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Margin 파일에서 마진 {0} 을 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>마진 데이터 분할하기 에러. 마진 이름 '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>빈 문자열을 xyz 좌표로 변환할 수 없습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>문자열 '{0}' 를 xyz 좌표로 변환할 수 없습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>파일 '{0}'을 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>INI 파일 {0} 을 읽을때 에러가 발생했습니다.
+에러: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>CAM 프로젝트 정보들이 {0} 에 존재하지 않습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>CAM 프로젝트 파일을 만들기에 파일 {0} 이 너무 큽니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>파일 {0} 에 관한 정보를 검색하던 중 에러가 발생했습니다.
+에러: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>곡선 연산이 올바르지 않습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>각도 {0} 에 관한 굴곡각도 데이터를 찾을 수 없습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>곡선 {0} 에 관한 곡선 데이터를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Project 파일에서 mesh 데이터에 관한 정보를 찾을 수 없습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Project 파일에서 margin 관련 정보를 찾을 수 없습니다. Margin line 파일 {0} 이 누락되었습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>파일 {0} 에서 margin line 읽기 에러.
+에러: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>아래의 라인(line)이 point 데이터를 포함하고 있지 않습니다:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Mesh 데이터를 분실했습니다.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

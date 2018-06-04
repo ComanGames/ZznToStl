@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Conmet® Internal Hex platform</DisplayInformation>
+  <Producer>Conmet®</Producer>
+  <SystemName>Internal Hex platform®</SystemName>
+  <MarkerFilename>../serie CM-IN_ConmetTM_Internal-Hex/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Conmet® Internal Hex series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>2.2 Internal Hexagon</DisplayInformation>
+      <Keyword>cm22IHX</Keyword>
+      <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7831</LibraryIdentifier>
+      <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2cscr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.05-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2hfs.stl</SupportFilename>
+          <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.050-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2nhfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB7881</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2pctbz.stl</SupportFilename>
+          <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7881</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7831</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2cctb.stl</SupportFilename>
+          <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>2.2 Internal Hexagon White Scanmarkers</DisplayInformation><Keyword>cm22IHXmkmk</Keyword><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anl.stl</ImplantFilename><LibraryIdentifier>ZBCD7831</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>0</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2mkm.stl</MarkerFilename><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2cscr.stl</ScrewFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.0502-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2hfs.stl</SupportFilename><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2zscr.stl</ScrewFilename><LibraryIdentifier>BSAE7831</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.05021-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2nhfs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2zscr.stl</ScrewFilename><LibraryIdentifier>BSAE7831</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.002-Parallel</Keyword><DisplayInformation>Parallel BSAB7881</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2pctbz.stl</SupportFilename><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anlp.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB7881</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.002-Conical</Keyword><DisplayInformation>Conical BSAD7831</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2cctb.stl</SupportFilename><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.2anlc.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD7831</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>2.7 Internal Hexagon</DisplayInformation>
+      <Keyword>cm27IHX</Keyword>
+      <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7832</LibraryIdentifier>
+      <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7cscr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.912-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7hfs.stl</SupportFilename>
+          <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9102-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7nhfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.902-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB7882</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7pctbz.stl</SupportFilename>
+          <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7882</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.902-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7832</DisplayInformation>
+          <SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7cctb.stl</SupportFilename>
+          <ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>2.7 Internal Hexagon White Scanmarkers</DisplayInformation><Keyword>cm27IHXmkmk</Keyword><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anl.stl</ImplantFilename><LibraryIdentifier>ZBCD7832</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>0</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7mkm.stl</MarkerFilename><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7cscr.stl</ScrewFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.9121-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7hfs.stl</SupportFilename><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7zscr.stl</ScrewFilename><LibraryIdentifier>BSAE7832</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.91021-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7nhfs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7zscr.stl</ScrewFilename><LibraryIdentifier>BSAE7832</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.9021-Parallel</Keyword><DisplayInformation>Parallel BSAB7882</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7pctbz.stl</SupportFilename><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anlp.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB7882</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.9021-Conical</Keyword><DisplayInformation>Conical BSAD7832</DisplayInformation><SupportFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7cctb.stl</SupportFilename><ImplantFilename>../serie CM-IN_ConmetTM_Internal-Hex/2.7anlc.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD7832</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

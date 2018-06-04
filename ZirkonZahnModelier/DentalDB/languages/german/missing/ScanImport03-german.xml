@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ScanImport03.LabMissing</Keyword>
+      <Text>Could not obtain default lab.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>Practice specified could not be found or is not unique. Please complete the data to continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>TRIOS project scan data format could not be detected:
+Project directory: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Requires confirmation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Data copied partially</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Assign to practice</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.Success.Title</Keyword>
+      <Text>Imported</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectLoadError</Keyword>
+      <Text>An error occurred while loading project from path '{0}'.
+Error details:
+{1}
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectValidationError</Keyword>
+      <Text>TRIOS project is not complete.
+Error details:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissingUsingDefault</Keyword>
+      <Text>Tooth {0}: material {1} is not mapped. Using {2} instead.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingDefault</Keyword>
+      <Text>Tooth {0}: no material defined. Using default material - {1} instead</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingAndNoDefaultUsingFirst</Keyword>
+      <Text>Tooth {0}: no material is specified in TRIOS project and no default fallback material is configured. The material '{1}' is used as first available for restoration type '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingFirst</Keyword>
+      <Text>Tooth {0}: material {1} is not permitted with reconstruction {2}. Using {3} instead</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WortTypeHasNoMaterialsAssigned</Keyword>
+      <Text>Tooth {0}: work name has no material assigned. Tooth skipped</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileCorrupt</Keyword>
+      <Text>An error occurred loading TRIOS configuration file {0}:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixTemplateNotFound</Keyword>
+      <Text>Specified scan data transformation matrix could not be found.
+Look up path: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixCopyFailed</Keyword>
+      <Text>An error occurred while copying scan data transformation matrix to project directory:
+Source file: {0}
+Destination file: {1}
+Error: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowSourceFolder</Keyword>
+      <Text>Open source folder</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MarginDatabaseParseError</Keyword>
+      <Text>An error occurred parsing margin line file '{0}'.
+Error details:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportSetupFailed</Keyword>
+      <Text>An error occurred congiguring automatic TRIOS project import:
+Observed directory: {0}
+Observation mode: {1}
+Error details: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportWatchDirectoriesPointsToSameDirectory</Keyword>
+      <Text>An error occurred configuring automatic TRIOS import:
+ScanImport03WatchDir and ScanImport03WatchDir2 point to same directory, but are configured to use different import modes.
+Please ensure that ScanImport03WatchDir and ScanImport03WatchDir2 points to diffrent directories.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ErrorProcessingDirectFormat</Keyword>
+      <Text>An error occurred processing direct format file {0}.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.GenericImportError</Keyword>
+      <Text>An error occurred proceeding TRIOS project {0}.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DirectoryCreationFailed</Keyword>
+      <Text>An error occurred creating directory: {0}
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet</Keyword>
+      <Text>Back up directory for imported TRIOS projects is not configured. Please configure the back up directory and try again. 
+Automatic TRIOS project import is deactivated.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet.Ok</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ModelOrderWarning</Keyword>
+      <Text>Imported case contains model order. Use the model creator button to design a model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Warning</Keyword>
+      <Text>WARNING:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissing</Keyword>
+      <Text>Provided value {0} for  reconstruction type was not found in the database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissing</Keyword>
+      <Text>Could not create restoration from work type {0} and material {1}.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

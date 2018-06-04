@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Mappings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Antagonists>
+    <Antagonist>
+      <Type>ArticulatorMunich</Type>
+      <FolderName>Type_S</FolderName>
+    </Antagonist>
+    <Antagonist>
+      <Type>ArticulatorPforzheimLegacy</Type>
+      <FolderName>Type_A</FolderName>
+    </Antagonist>
+    <Antagonist>
+      <Type>ArticulatorPforzheim</Type>
+      <FolderName>Type_A</FolderName>
+    </Antagonist>
+    <Antagonist>
+      <Type>ArticulatorBiberach</Type>
+      <FolderName>Type_P</FolderName>
+    </Antagonist>
+  </Antagonists>
+  <Articulators>
+	<Articulator>
+	  <FolderName>bio-art A7 Plus</FolderName>
+      <TypeInXML>bio-art_A7_Plus</TypeInXML>
+      <Assignments />
+    </Articulator>
+	<Articulator>
+	  <FolderName>bio-art A7 Plus_Adjustable</FolderName>
+      <TypeInXML>bio-art_A7_Plus_Adjustable</TypeInXML>
+      <Assignments />
+    </Articulator>
+	<Articulator>
+      <FolderName>Denar Mark 330</FolderName>
+      <TypeInXML>Denar_Mark_330</TypeInXML>
+		<Assignments>
+			<Assignment>
+				<Key>red</Key>
+				<Value>BennettInsertRed</Value>
+			</Assignment>
+        </Assignments>
+    </Articulator>
+    <Articulator>
+      <FolderName>Type_P</FolderName>
+      <TypeInXML>kavo_protar</TypeInXML>
+      <Assignments />
+    </Articulator>
+    <Articulator>
+      <FolderName>Type_A</FolderName>
+      <TypeInXML>amman_girrbach_artex</TypeInXML>
+      <Assignments />
+    </Articulator>
+    <Articulator>
+      <FolderName>Type_A_Adjustable</FolderName>
+      <TypeInXML>amman_girrbach_artex</TypeInXML>
+      <Assignments />
+    </Articulator>
+    <Articulator>
+      <FolderName>Type_S</FolderName>
+      <TypeInXML>sam</TypeInXML>
+      <Assignments>
+        <Assignment>
+          <Key>insert_1</Key>
+          <Value>BennettInsertMetal</Value>
+        </Assignment>
+        <Assignment>
+          <Key>green</Key>
+          <Value>CondylarInsertWhite</Value>
+        </Assignment>
+        <Assignment>
+          <Key>red</Key>
+          <Value>CondylarInsertRed</Value>
+        </Assignment>
+      </Assignments>
+    </Articulator>
+  </Articulators>
+</Mappings>

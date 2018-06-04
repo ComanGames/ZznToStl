@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<ScannerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--For ORI (Outlier Removal Intensity): ORI_Low=0, ORI_Standard=1, ORI_High=2-->
+  <!--For LOD: Low=0, Medium=1, High=2, VeryHigh=3-->
+  <!--If Decimate is false, DecimateToleranceand DecimateMaxTri is not used-->
+
+  <ScanStrategies>
+
+    <ScanStrategy ScanType="PreviewScan" >
+      <ScanPosition a="0" b="0" />
+      <ScanPosition a="-10" b="180" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="StandardScan" ORI="2" Tolerance="0.005" LOD="0" SmoothingStrength="4" MaxHoleSize="100" Decimate="true" DecimateTolerance="0.02" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0"  b="0" />
+      <ScanPosition a="10"  b="60" />
+      <ScanPosition a="0"   b="120" />
+      <ScanPosition a="-10" b="180" />
+      <ScanPosition a="0"   b="240" />
+      <ScanPosition a="10"  b="320" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="PreparationScan" ORI="2" Tolerance="0.001" LOD="1" SmoothingStrength="4" MaxHoleSize="100" Decimate="false" DecimateTolerance="0.01" DecimateMaxTri="1000000" MinDiscRatio="0.05">
+      <ScanPosition a="0"    b="0" />
+      <ScanPosition a="15"   b="30" />
+      <ScanPosition a="0"    b="60" />
+      <ScanPosition a="15"   b="90" />
+      <ScanPosition a="0"    b="120" />
+      <ScanPosition a="15"   b="150" />
+      <ScanPosition a="0"    b="180" />
+      <ScanPosition a="15"   b="270" />
+      <ScanPosition a="0"    b="300" />
+      <ScanPosition a="15"   b="330" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="ScanAbutmentScan" ORI="2" Tolerance="0.001" LOD="1" SmoothingStrength="3" MaxHoleSize="100" Decimate="false" DecimateTolerance="0.01" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0"    b="0" />
+      <ScanPosition a="15"   b="30" />
+      <ScanPosition a="15"   b="90" />
+      <ScanPosition a="15"   b="150" />
+      <ScanPosition a="15"   b="330" />
+	  <ScanPosition a="5"    b="300" />
+      <ScanPosition a="15"   b="270" />
+      <ScanPosition a="5"    b="240" />
+      <ScanPosition a="15"   b="210" />
+	  <ScanPosition a="5"    b="180" />
+	  <ScanPosition a="5"    b="120" />
+	  <ScanPosition a="5"    b="60" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="VestibularRegistrationScan" ORI="2" Tolerance="0.01" LOD="2" SmoothingStrength="3" MaxHoleSize="100" Decimate="true" DecimateTolerance="0.01" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0"   b="0" />
+      <ScanPosition a="10"   b="50" />
+      <ScanPosition a="10"   b="310" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="BiteImpressionScan" ORI="2" Tolerance="0.005" LOD="2" SmoothingStrength="4" MaxHoleSize="200" Decimate="false" DecimateTolerance="0.01" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0" 	 b="0" />
+      <ScanPosition a="-5"   b="72" />
+      <ScanPosition a="-5"   b="144" />
+      <ScanPosition a="-15"  b="180" />
+      <ScanPosition a="-5"   b="216" />
+      <ScanPosition a="-15"  b="252" />
+      <ScanPosition a="-5"   b="288" />
+      <ScanPosition a="-15"  b="324" />
+      <ScanPosition a="-15"  b="108" />
+      <ScanPosition a="-15"  b="36" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="Impression" ORI="2" Tolerance="0.005" LOD="2" SmoothingStrength="4" MaxHoleSize="100" Decimate="true" DecimateTolerance="0.01" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0"   b="0" />
+      <ScanPosition a="10"    b="0" />
+      <ScanPosition a="-5"   b="0" />
+      <ScanPosition a="-10"  b="0" />
+      <ScanPosition a="-15"  b="0" />
+      <ScanPosition a="-25"  b="0" />
+      <ScanPosition a="-22"  b="30" />
+      <ScanPosition a="-22"  b="90" />
+      <ScanPosition a="-22"  b="150" />
+      <ScanPosition a="-22"  b="210" />
+      <ScanPosition a="-22"  b="270" />
+      <ScanPosition a="-22"  b="330" />
+      <ScanPosition a="-12"  b="330" />
+      <ScanPosition a="0"    b="300" />
+      <ScanPosition a="-12"  b="270" />
+      <ScanPosition a="0"    b="240" />
+      <ScanPosition a="-12"  b="210" />
+      <ScanPosition a="0"    b="180" />
+      <ScanPosition a="-12"  b="150" />
+      <ScanPosition a="0"    b="120" />
+      <ScanPosition a="-12"  b="90" />
+      <ScanPosition a="0"    b="60" />
+      <ScanPosition a="-12"  b="30" />
+    </ScanStrategy>
+
+   <ScanStrategy ScanType="ContactPointScan" ORI="2" Tolerance="0.005" LOD="2" SmoothingStrength="4" MaxHoleSize="100" Decimate="false" DecimateTolerance="0.02" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0"  b="0" />
+      <ScanPosition a="10"  b="60" />
+      <ScanPosition a="0"   b="120" />
+      <ScanPosition a="-10" b="180" />
+      <ScanPosition a="0"   b="240" />
+      <ScanPosition a="10"  b="320" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="ArticulatorPlate" ORI="2" Tolerance="0.005" LOD="2" SmoothingStrength="4" MaxHoleSize="100" Decimate="true" DecimateTolerance="0.02" DecimateMaxTri="500000" MinDiscRatio="0.05">
+      <ScanPosition a="0" b="0" />
+      <ScanPosition a="-10" b="80" />
+      <ScanPosition a="0"   b="180" />
+      <ScanPosition a="-10" b="280" />
+    </ScanStrategy>
+
+  </ScanStrategies>
+</ScannerConfiguration>

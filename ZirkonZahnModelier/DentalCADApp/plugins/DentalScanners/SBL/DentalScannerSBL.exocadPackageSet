@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PackageSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Packages>
+    <Package>
+      <Prerequisites>
+        <Need64BitOS>true</Need64BitOS>
+      </Prerequisites>
+      <Files>
+        <File>DentalScannerSBL.ScannerConf</File>
+        <File>PS_LavaST2.dll</File>
+      </Files>
+      <PackageName>scanner-sbl-x64-v1</PackageName>
+      <SubDirectory>plugins\DentalScanners\SBL</SubDirectory>
+      <PackageCreationDate>2013-11-08-12-40</PackageCreationDate>
+    </Package>
+  </Packages>
+  <PackageSetCreationDate>2013-11-08-12-40</PackageSetCreationDate>
+</PackageSet>

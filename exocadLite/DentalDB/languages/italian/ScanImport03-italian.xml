@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport03.LabMissing</Keyword>
+      <Text>Impossibile ottenere laboratorio di predefinito.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportFailed</Keyword>
+      <Text>Si è verificato un errore durante la creazione del  lavoro da progetto TRIOS.
+         Messaggio di errore:
+         {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportedWithWarnings</Keyword>
+      <Text>Bozza di progetto DentalDB è stato creato da TRIOS file: {0} Alcuni dati non possono essere trattati e, pertanto, non sono presenti nel progetto: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AddPracticeFirst</Keyword>
+      <Text>Cliente specificato nel file di progetto TRIOS non è stato trovato nel database.
+         Si prega di compilare il seguente modulo per creare cliente con il nome specificato.
+         Per procedere, senza creare nuovi clienti e assegnare cliente esistente per
+      lavoro creato dal progetto TRIOS chiudere la finestra.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>Nessun tipo di ricostruzione con ID '{0}'. Contattare il proprio distributore per i dettagli. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMappingMissing</Keyword>
+      <Text>Nessun tipo di ricostruzione con ID '{0}'. Contattare il proprio distributore per i dettagli. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Valore fornito {0} per il tipo di ricostruzione  non è stato trovato nel database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AntagonistDataInvalid</Keyword>
+      <Text>Impossibile creare antagonista  {0} e {1} materiale. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissing</Keyword>
+      <Text>Materiale {0} non riconosciuto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WorkDefinitionMissing</Keyword>
+      <Text>Tipo di lavoro '{0}' non consentire l'uso di materiale '{1}'.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.CaseId</Keyword>
+      <Text>ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.InternalCaseId</Keyword>
+      <Text>ID progetto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ExternalCaseId</Keyword>
+      <Text>Ordine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.Notes</Keyword>
+      <Text>Note</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromTrios.ToolTip</Keyword>
+      <Text>Creare un nuovo lavoro dal file di progetto TRIOS </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromTrios</Keyword>
+      <Text>Importazione TRIOS </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.InsufficientAccessRights.Project</Keyword>
+      <Text>Autorizzazioni utente insufficiente per copiare i file di progetto TRIOS nella directory del progetto {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Project</Keyword>
+      <Text>Errore durante la copia di file di progetto TRIOS da {0} a {1}. Errore {2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Data</Keyword>
+      <Text>Errore durante la copia del file di dati TRIOS da {0} a {1}. Errore {2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileTransferIncomplete</Keyword>
+      <Text>Sono verificati i seguenti errori durante la copia di file di riferimento da progetto TRIOS: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotSpecified</Keyword>
+      <Text>File di progetto TRIOS non è specificato. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotFound</Keyword>
+      <Text>File di progetto TRIOS di importazione non è stato trovato.
+         Nome file: {0}  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TRIOSProjectFileCorrupt</Keyword>
+      <Text>Si è verificato un errore durante l'analisi del file di progetto TRIOS. Nome file: {0} Messaggio di errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotSpecified</Keyword>
+      <Text>File di riconoscimento TRIOS  nel DentalDB non è specificato. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotFound</Keyword>
+      <Text>File di riconoscimento TRIOS restauri per il DentalDB non è stato trovato. Nome file: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TriosMappingDBFileCorrupt</Keyword>
+      <Text>Si è verificato un errore durante l'analisi di restauri TRIOS. Nome file: {0} Messaggio di errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothSkipped</Keyword>
+      <Text>Dente {0} ignorato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothDataNotFound</Keyword>
+      <Text>Dati non trovati </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothNumberNotFound</Keyword>
+      <Text>Numerazione dente non trovata: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothRecoTypeNotFound</Keyword>
+      <Text>Ricostruzione dente non trovata: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialDescrNotFound</Keyword>
+      <Text>Materiale per dente non trovata: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialNotFound</Keyword>
+      <Text>Materiale per dente non trovata: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothInfoCreationFailed</Keyword>
+      <Text>Si è verificato un errore durante l'elaborazione denti informazioni per dente {0}. Errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NoTriosScanData</Keyword>
+      <Text>Nessun dati di scansione TRIOS è stato trovato. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RecentlyArrivedJobs</Keyword>
+      <Text>Trios: nuovo lavoro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ProjectId</Keyword>
+      <Text>Trios: ID progetto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Info</Keyword>
+      <Text>Trios: info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NewProjects</Keyword>
+      <Text>Progetto importato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Conflicts</Keyword>
+      <Text>Conflitti:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ActionRequired</Keyword>
+      <Text>Azione richiesta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>Tecnico specificato non è stato trovato o non è univoco. Si prega di compilare i dati per continuare.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RemoveFromArrivedList</Keyword>
+      <Text>Rimuovi da lista</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PracticeDataEnrichment</Keyword>
+      <Text>Completare lavoro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ViewInDentalDB</Keyword>
+      <Text>Visualizzare in DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OpenInExplorer</Keyword>
+      <Text>Aprire con explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OverrideExisting</Keyword>
+      <Text>Sovrascrittura esistente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.KeepExisting</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowChanges</Keyword>
+      <Text>Mostra cambiamenti in explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OriginalDataBackupFailed</Keyword>
+      <Text>Si è verificato un errore durante la backup del progetto TRIOS.
+Directory del progetto TRIOS: {0}
+Directory di destinazione: {1}
+Errore: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNoWritePermissions</Keyword>
+      <Text>Directory di backup progetto TRIOS è di sola lettura. Assicurarsi che la directory '{0}' è scrivibile e riprovare. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirCreationError</Keyword>
+      <Text>Errore durante la creazione della directory di backup progetto TRIOS '{0}'.
+Errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PatientCreationFailed</Keyword>
+      <Text>Si è verificato un errore durante il salvataggio dei dati del paziente:
+{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobCreationFailed</Keyword>
+      <Text>Si è verificato un errore durante il salvataggio:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.LowerJawScanMissing</Keyword>
+      <Text>Scansione arcata inferiore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UpperJawScanMissing</Keyword>
+      <Text>Scansione arcata superiore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.VestibularScanMissing</Keyword>
+      <Text>Scansione vestibolare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>Non è stato possibile rilevarei dati di scansione TRIOS:
+Directory del progetto: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RepeatDataImport</Keyword>
+      <Text>Riprova importazione dati di scansione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DataTransferIncomplete</Keyword>
+      <Text>Trasferimento dati incompleto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobArrived</Keyword>
+      <Text>TRIOS: Lavoro arrivato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TrayIcon.Tip</Keyword>
+      <Text>Clicca per ulteriori opzioni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ColorSchema</Keyword>
+      <Text>Colore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedMaterials</Keyword>
+      <Text>Materiali</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedReconstructions</Keyword>
+      <Text>Ricostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.CompleteNewClientData</Keyword>
+      <Text>Cliente è stato creato automaticamente durante l'importazione di lavoro da TRIOS.
+Si prega di compilare i dati mancanti per completare l'importazione. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Richiesta conferma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Dati copiati parzialmente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Assegnare un tecnico</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.Success.Title</Keyword>
+      <Text>Importato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectLoadError</Keyword>
+      <Text>Si è verificato un errore durante il caricamento progetto dal percorso '{0}'.
+Dettagli circa l'errore:
+{1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectValidationError</Keyword>
+      <Text>TRIOS progetto non è completo.
+Dettagli circa l'errore:
+{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissingUsingDefault</Keyword>
+      <Text>Dente {0}: materiale {1} non è conosciuto. Utilizzare alternativa {2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingFirst</Keyword>
+      <Text>Dente {0}: materiale {1} non permesso. Utilizzare alternativa {2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingAndNoDefaultUsingFirst</Keyword>
+      <Text>Dente {0}: nessun materiale è specificato nel progetto TRIOS e nessun materiale predefinito è configurato. Il materiale '{1}' viene usato come primo disponibile per tipo di restauro '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingDefault</Keyword>
+      <Text>Dente {0}: nessun materiale definito. Utilizzando materiale predefinito - {1} in alternativa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WortTypeHasNoMaterialsAssigned</Keyword>
+      <Text>Dente {0}: Nome lavoro non ha materiale assegnato. dente saltato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileCorrupt</Keyword>
+      <Text>Si è verificato un errore del file di configurazione TRIOS nel caricamento {0}:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixTemplateNotFound</Keyword>
+      <Text>Matrice di scansione non specificata e non trovata.
+cercare la posizione : {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixCopyFailed</Keyword>
+      <Text>Si è verificato un errore durante la copia scansione matrice di trasformazione dei dati per la directory di progetto:
+File di origine: {0}
+File di destinazione: {1}
+Errore: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowSourceFolder</Keyword>
+      <Text>Cartella non criptata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MarginDatabaseParseError</Keyword>
+      <Text>Errore durante l'analisi del file linea di margine '{0}'.
+Dettagli circa l'errore:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportSetupFailed</Keyword>
+      <Text>Si è verificato un errore di configurazione di importazione automatica progetto TRIOS:
+Elenco osservato: {0}
+Modalità di osservazione: {1}
+Dettagli errore: {2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportWatchDirectoriesPointsToSameDirectory</Keyword>
+      <Text>Si è verificato un errore di configurazione di importazione automatica TRIOS:
+ScanImport03WatchDir e ScanImport03WatchDir2 puntano la  stessa directory, ma sono configurati per utilizzare diverse modalità di importazione.
+Assicurarsi che ScanImport03WatchDir e ScanImport03WatchDir2 puntino a directory differenti.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ErrorProcessingDirectFormat</Keyword>
+      <Text>Si è verificato un errore di file in  elaborazione dati {0}.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.GenericImportError</Keyword>
+      <Text>Si è verificato un errore di progetto  TRIOS {0}.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DirectoryCreationFailed</Keyword>
+      <Text>Verificato un errore durante la creazione di directory: {0}
+Errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet</Keyword>
+      <Text>Il backup della directory per progetti TRIOS importati non è configurato. Si prega di configurare la directory di backup e riprovare.
+Importazione automatica progetto TRIOS è disattivato.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ModelOrderWarning</Keyword>
+      <Text>Caso importato contiene ordine per realizzare modello. Utilizzare il pulsante Model Creator per progettare un modello.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Warning</Keyword>
+      <Text>ATTENZIONE:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissing</Keyword>
+      <Text>Valore fornito {0} per il tipo di ricostruzione non è stato trovato nel database. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissing</Keyword>
+      <Text>Impossibile creare restauro dal tipo di lavoro {0} e {1} materiale. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JawModelScanNotDetected</Keyword>
+      <Text>Nessun scansione trovata. Impossibile creare il modello di lavoro.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UnknownScanFileTypeDetected</Keyword>
+      <Text>Uno o più file di scansione non possono essere trattati come dovuto.
+Questo può portare in seguito a malfunzionamento del Dental CAD.
+Tipi di file: {0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImport03-italian-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

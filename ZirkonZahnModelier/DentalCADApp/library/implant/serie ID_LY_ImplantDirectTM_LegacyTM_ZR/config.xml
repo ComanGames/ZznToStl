@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Implant Direct® Legacy®</DisplayInformation>
+  <Producer>Implant Direct®</Producer>
+  <SystemName>Legacy®</SystemName>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Implant Direct® Legacy® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>3.0IDL</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5731</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.002-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0h.stl</SupportFilename><LibraryIdentifier>BSAE5701</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.0021-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0nh.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5701</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.302-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5781</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5781</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6402-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5731</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5731</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 White Scanmarker</DisplayInformation>
+      <Keyword>3.0IDLmmk</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0anlg.stl</ImplantFilename>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr.stl</ScrewFilename>
+      <MarkerFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5731</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.0020-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0h.stl</SupportFilename><LibraryIdentifier>BSAE5701</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.00210-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0nh.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5701</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.3020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5781</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5781</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.64020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5731</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5731</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5</DisplayInformation>
+      <Keyword>3.5IDL</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5732</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.701-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.701-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.602-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5782</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.802-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5732</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5 White Scanmarker</DisplayInformation>
+      <Keyword>3.5IDLmmk</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5anlg.stl</ImplantFilename>
+      <MarkerFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5732</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7010-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.70100-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5782</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5732</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5</DisplayInformation>
+      <Keyword>4.5IDL</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5733</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5502-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.55020-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5783</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5733</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5 White Scanmarker</DisplayInformation>
+      <Keyword>4.5IDLmmk</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5anlg.stl</ImplantFilename>
+      <MarkerFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5733</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.55021-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.55022-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.60210-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5783</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80210-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5733</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/4.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7</DisplayInformation>
+      <Keyword>5.7IDL</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5734</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8002-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8002-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.5002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5784</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.2002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5734</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7 White Scanmarker</DisplayInformation>
+      <Keyword>5.7IDLmmk</Keyword>
+      <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7anlg.stl</ImplantFilename>
+      <MarkerFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5734</LibraryIdentifier>
+      <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80020-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80021-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.50020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5784</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7pctbhz.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.20021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5734</DisplayInformation>
+          <SupportFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7cctb.stl</SupportFilename>
+          <ImplantFilename>../serie ID_LY_ImplantDirectTM_LegacyTM/5.7cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

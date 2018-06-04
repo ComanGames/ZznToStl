@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    <Translation>
+      <Keyword></Keyword>
+      <Text></Text>
+    </Translation>
+-->
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>불러올 CAM 파일이 지정되지 않았습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>지정된 문자열 '{0}'은 파일 또는 폴더가 존재하지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>파일 '{0}'의 확장자는 사용할 수 없는 확장자입니다..
+오류:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>파일 '{0}'을 불러올 수 없습니다.
+오류:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>CAM 파일 '{0}'의 프로젝트명이 올바르지 않습니다.
+오류:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>파일 '{0}' 은 사용할 수 없는 프로젝트 종류 입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>CAM 파일 {0} 은 알 수 없는 프로젝트 형식 입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>{1} 폴더에서 {0}과 일치하는 파일을 찾을 수 없습니다..
+오류:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>CAM 프로젝트의 정보가 부족하여 불러올 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>파일 {0} 불러오기 오류!
+오류:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>마진 파일 {0}을 읽는 과정에서 오류가 발생하였습니다.
+오류:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>마진 파일에서 마진 {0} 을 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>마진 데이터 분할 오류. 마진 '{0}''</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>비어있는 문자열을 xyz 함수로 전환할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>문자열 '{0}' 을 xyz 함수로 전환할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>파일 '{0}'을 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>ini 파일 {0}을 읽는 과정에서 오류가 발생하였습니다.
+오류: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>폴더 {0} 에 CAM 프로젝트 정보가 존재하지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>파일{0} 은 CAM 프로젝트 파일로 사용하기에 너무 큽니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>파일 {0} 에 대한 복구 정보에 오류가 발생하였습니다.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>곡선 카운트 불일치</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>각도값 {0} 의 곡선 각도 데이터를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>곡선값 {0} 의 곡선 데이터를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>프로젝트 파일에서 메쉬 데이터 정보를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>프로젝트 파일에서 마진 데이터 정보를 찾을 수 없습니다. 마진 파일 {0}이 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>파일 {0}에서 마진을 읽어 올 수 없습니다.
+오류: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>아래 파일은 점 데이터를 포함하고 있지 않습니다:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>메쉬 데이터를 찾을 수 없습니다.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\CAMReader-korean-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

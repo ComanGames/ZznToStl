@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>FTP.Code.502</Keyword>
+      <Text>Comando non esistente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload</Keyword>
+      <Text>Cancella Upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain</Keyword>
+      <Text>Upload ancora</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload.Description</Keyword>
+      <Text>Nessun file caricato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded</Keyword>
+      <Text>I file che vuoi caricare sono gia esistenti sul server</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain.Description</Keyword>
+      <Text>I file selezionati saranno caricati dinuovo. I files sul server saranno sovrascritti.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProgress</Keyword>
+      <Text>Avanzamento globale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaitForConnection</Keyword>
+      <Text>Collegamento con server, attendere prego...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToUpload</Keyword>
+      <Text>Prego selezionare file per l´upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMessageFromServer</Keyword>
+      <Text>Errore da server:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCodeFromServer</Keyword>
+      <Text>Codice errore da server:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.ChangeUserPass</Keyword>
+      <Text>Cambia utente/password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.IncompleteTransfer</Keyword>
+      <Text>Errore - impossibile trasferire tutti i file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AfterWait</Keyword>
+      <Text> secondi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.ConfigMissing</Keyword>
+      <Text>File configurazioen FTP manca</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BaseDirMissing</Keyword>
+      <Text>La traccia per upload specificata non esiste.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.RetryCountExceeded</Keyword>
+      <Text>
+        Upload assicurato. nr. max.di tentativi raggiunto
+prego controllare le impostazioni internet.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Username</Keyword>
+      <Text>Utente:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Password</Keyword>
+      <Text>Password:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.RememberPassword</Keyword>
+      <Text>Ricorda Password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupText</Keyword>
+      <Text>Non ha un account?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupLinkDescription</Keyword>
+      <Text>Clica qui per registrarti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.EnterUsernamePassword</Keyword>
+      <Text>Utente e password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.150</Keyword>
+      <Text>FTP error 150</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BeginFileUpload</Keyword>
+      <Text>Inizio upload file ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.FileUploaded</Keyword>
+      <Text>Upload file ha funzionato.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Header</Keyword>
+      <Text>Interrompi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Message</Keyword>
+      <Text>Chiudendo la finestra si interrompe l´upload! Clicca 'Si' per chiudere la finestra, 'No' per continuare l´upload.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.Wait</Keyword>
+      <Text>Riprova in </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.StartTry</Keyword>
+      <Text>Tentativo nr. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.from</Keyword>
+      <Text> da </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TemporaryFailure</Keyword>
+      <Text>Avviso: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.PermanentError</Keyword>
+      <Text>Purtroppo non ha funzionato l´operazione di upload.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.NoResponse</Keyword>
+      <Text>Nessuna risposta dal server</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.UserAbort</Keyword>
+      <Text>Upload interrotto dall´operatore!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TranserComplete</Keyword>
+      <Text>Trasferimento completato!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Header</Keyword>
+      <Text>WpfFTP-Start...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Start</Keyword>
+      <Text>Inizio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Close</Keyword>
+      <Text>Chiudi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Header</Keyword>
+      <Text>Upload in corso</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.AbortUpload</Keyword>
+      <Text>Interrompi upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.ShowDetail</Keyword>
+      <Text>Dettagli &gt;&gt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.HideDetail</Keyword>
+      <Text>Dettagli &lt;&lt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Header</Keyword>
+      <Text>Upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Buttons.StartUpload</Keyword>
+      <Text>Inizio upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.NothingToUpload</Keyword>
+      <Text>Non è stato selezionato nulla per l'upload</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

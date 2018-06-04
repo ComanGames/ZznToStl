@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Nenhum ficheiro CAM foi escolhido para abrir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>O string escolhido '{0}' não é nem ficheiro existente nem diretório.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Erro ao abrir ficheiro {0}.
+Error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Erro ao ler ficheiro das margens  {0}.
+Error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Não foi possível executar a extensão do arquivo '{0}'.
+Erro: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Não foi possível encontrar a  pasta do arquivo '{0}'.
+Erro: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Não foi possível encontrar o nome do projeto do ficheiro CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Não foi possivél encontrar o tipo de projeto para o tipo de arquivo CAM '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>O ficheiro CAM {0} parece ter um formato de projeto desconhecido </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Não foi possível obter os arquivos de wildcard {0} a partir do diretório {1} correspondentes.
+Erro:
+{2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>A informação é insuficiente para importar projeto CAM.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Margem {0} não pôde ser encontrada no seu ficheiro. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Erro ao dividir dados da margem. Nome '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Não é possivél converter um fio vazio nas coordenadas xyz </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Não é possivél converter o fio '{0}' para as coordenadas xyz </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>Ficheiro '{0}' não encontrado.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>Ocorreu um erro ler o ficheiro ini {0}.
+Erro: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>Informação do projeto CAM não está presente no {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>Ficheiro {0} grande demais para um projeto CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Erro ao recuperar informações sobre o arquivo {0}.
+Erro: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Incompatibilidade de contagem de curva </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Os dados do ângulo de curva do ângulo {0} não foram encontrados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Dados de curva p/curva {0} não foram encontrados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Informações sobre dados de malha não foram encontradas no arquivo de projeto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Informações sobre dados de margem não foi encontrado no ficheiro de projeto. Ficheiro de Margem {0}  ausente.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Erro ao ler o ficheiro de margem {0}.
+Erro: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>A seguinte linha não contém dados de ponto:
+{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Dados de malha ausentes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.ProjectNotFound</Keyword>
+      <Text>Projeto de leitura CAM não encontrado</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles></IncludeFiles>
+</TranslationContainer>

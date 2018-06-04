@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>Το προκαθορισμένο εργαστήριο δεν μπόρεσε να προσδιοριστεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>Δόντι {0} αγνοήθηκε.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text><![CDATA[Η αποκατάσταση δημιουργήθηκε απο το i-Tero Projekt {0} .Κάποια δεδομένα δεν μπορεσάν να επεξεγασθουν το οποιό μπορεί να δημιουργήσει ελλείψης στην εργασία μας:
+        {1}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>Ένα λάθος εμφανίστηκε κατα την επεξεργασία τησ αποκατάστασηςαπο το iTero Projekt .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>Η αποκατάσταση ανακατασκευάστηκε  επιτυχημένα απο το iTero Projekt {0} .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>Επιλογή πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        Στο iTero Projekt ο παραπάνω πελάτης δεν βρέθηκε στη βάση δεδομένων.
+        Παρακαλώ συμπληρώστε την φόρα για την δημιουργεία ως νέου πελάτη.
+        Για την εκκίνηση χωρίς την δημιουργεία νέου πελάτη συνδεστε την εργασία με έναν υπάρχον πελάτη.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>Το είδος της εργασίας με κωδικό {0} δεν υπάρχει στο iTero Projekt.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>Το είδος της εργασίας με κωδικό {0} δεν βρέθηκε.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Η δοθείσα τιμή {0} για το είδος της εργασίας δεν βρέθηκε στην βάση δεδομένων.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>Ο ανταγωνιστής δεν μπόρεσε να δημιουργηθεί ούτε απο τον τύπο της εργασίας {0} ούτε απο τον είδος του υλικού {1} .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>iTero υλικό με κωδικό {0} δεν υπάρχει στο αρχείο του iTero.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>Το υλικό με  κωδικό {0} ο τύπος του iTero με όνομα {1} δεν έχουν δημιουργηθεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>Δεν υπάρχουν δεδομένα για τον τύπο της αποκατάστασης {0} και το υλικό {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>Επιπλέον πληροφορίες </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>Προδιαγραφές υλικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>Υλικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Κοπτική απόχρωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Μέση απόχρωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Ουλική απόχρωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>Σχεδίαση αυχένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>Εμφύτευμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>Δόντι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Title</Keyword>
+      <Text>Παρακαλώ επιλέξτε το υλικό </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>εσωτερικό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>Συνδυασμός χρωμάτων </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>Συνδυασμός χρωμάτων </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>Ημερομηνία λήξης </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>ID περιστατικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Παρακαλώ ελέγξτε το εισαγόμενο σύνολο δεδομένων για την πληρότητα και ορθότητα τους, πριν να συνεχίσετε με την κατασκευή σας.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorParsingMarginLineFile</Keyword>
+      <Text>Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου αυχενικής γραμμής {0}.
+Μήνυμα σφάλματος:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>Παρουσιάστηκε σφάλμα κατά την ανάλυση των δεδομένων της αυχενικής γραμμής:
+Αρχείο: {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>Παρουσιάστηκε σφάλμα κατά την αποθήκευση των τροποιημένων δεδομένων της αυχενικής γραμμής στο αρχείο {0}.
+Μήνυμα σφάλματος:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>Ο κατάλογος υλικών στο περιστατικό iTero είναι ελλιπής. Ως εκ τούτου, το αρχικό όνομα του υλικού δεν μπορεί να προσδιοριστεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Description</Keyword>
+      <Text>Διαφορετικά υλικά είναι ορισμένα στο περιστατικό iTero για μια ομάδα δόντιών που αναφέρονται παρακάτω, αν και για κάθε ομάδα μόνο ένα υλικό μπορεί να χρησιμοποιηθεί στο DentalCAD.
+Παρακαλώ επιλέξτε ένα υλικό για τις αποκαταστάσεις.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>Για να συνεχίσετε, θα πρέπει να επιλέξετε ένα υλικό για κάθε ομάδα δοντιών. </Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImport01-greek-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

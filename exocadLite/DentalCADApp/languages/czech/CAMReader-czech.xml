@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Není specifikován soubor CAM pro nahrání</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>Uvedený řetězec '{0}' není existující soubor ani adresář.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Nerozpoznána přípona souboru '{0}'.
+Chyba:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Adresář souboru '{0}' nebyl nalezen.
+Chyba:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Název projektu pro CAM soubor '{0}' nebyl rozpoznán.
+Chyba:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Nebyl rozeznán typ projektu pro CAM soubor '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>Zdá se, že CAM soubor {0} má neznámý formát projektu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Nelze nahrát soubory odpovídající zástupnému znaku {0} z adresáře '{0}.
+Chyba:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>Nedostatečné informace pro import projektu CAM.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Chyba při nahrávání souboru {0}.
+Chyba:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Chyba při čtení souboru marginu {0}.
+Chyba:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Margin {0} nebyl v souboru marginu nalezen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Chyba při rozdělování dat marginu. Název marginu '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Nelze převést prázdný řetězec na souřadnice XYZ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Řetězec '{0}' nelze převést na souřadnice XYZ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>Soubor '{0}' nenalezen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>Při čtení ini souboru {0} se vyskytla chyba.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>Projektové informace CAM v {0} nejsou přítomny</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>Soubor {0} je na projektový soubor CAM příliš veliký</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Při získávání informací o souboru {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Neshoda počtu křivek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Nenalezena data úhlu křivky pro úhel {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Data křivky pro křivku {0} nenalezena</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Informace o datech objektu nebyly v projektovém souboru nalezeny</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Informace o datech marginu nebyly v projektovém souboru nalezeny. Soubor prep. linie {0} chybí.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Chyba čtení prep. linií ze souboru {0}.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>Následující řádek neobsahuje bodová data:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Chybějí data objektu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.ProjectNotFound</Keyword>
+      <Text>Nenalezen CAM reader projekt</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

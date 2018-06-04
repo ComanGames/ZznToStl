@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+
+  <Translations>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed</Keyword>
+      <Text>Copying of the check sum file failed. Would you like to continue the data transfer?</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue</Keyword>
+      <Text>Continue data transfer</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue.Description</Keyword>
+      <Text>Copy project data without transfering the check sum file. The data integrity cannot be verified.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Abort</Keyword>
+      <Text>Abort data transfer</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Abort.Description</Keyword>
+      <Text>The data transfer will be aborted. No data will be copied.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkCopying.CopyingSucceded</Keyword>
+      <Text>Copying complete without errors</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkCopying.CopyingFailed</Keyword>
+      <Text>
+        <![CDATA[complete with errors.
+Error message details:
+      ]]>
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>TransferDetails</Keyword>
+      <Text>File copying details</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>OneOrManyFilesNotCopiedOfOperationAbort</Keyword>
+      <Text>One or more files were not copied because of canceling by user.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ComputingFileCheckSums</Keyword>
+      <Text>Computing file check sums</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ComputingFileCheckSums.Description</Keyword>
+      <Text>Start computing the file check sums</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished</Keyword>
+      <Text>File check sums computation finished</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished.Description</Keyword>
+      <Text>File check sums computation finished</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>FileTransferStarted</Keyword>
+      <Text>Start file copying</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>FileTransferStarted.Description</Keyword>
+      <Text>File copying started...</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>FileTransferFinished</Keyword>
+      <Text>File copying finished</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>FileTransferFinished.Description</Keyword>
+      <Text>File copying finished. Please check output for further details.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>Information</Keyword>
+      <Text>Information</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>Warning</Keyword>
+      <Text>Warning</Text>
+    </Translation>
+
+
+    <Translation>
+      <Keyword>NetworkCopying.SelectFilterDefinitionsToApply</Keyword>
+      <Text>Select project files to share over the network</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkCopying.ProgressWindow.Header</Keyword>
+      <Text>Copying progress</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>FileTransferDestinationFolder</Keyword>
+      <Text>Copying project data to path {0}</Text>
+    </Translation>    
+
+    <Translation>
+      <Keyword>FileTransferDestinationFolderCreationFailed</Keyword>
+      <Text>Cannot create directory {0}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkFileTransferFailed</Keyword>
+      <Text>Cannot create directory {0}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkCopying.ErrorLoadingConfigFile</Keyword>
+      <Text>An error occurred while loading the config file '{0}' from path '{1}'.
+Error details:
+{2}
+	  </Text>
+    </Translation>
+   
+
+    <Translation>
+      <Keyword>NetworCopying.NoValidUploadPathProvided</Keyword>
+      <Text>Misconfigured network copying function. 
+Upload path is not specified.
+Please contact your software supplier to repair the configuration.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NetworkCopying.NoValidConfigFileFound</Keyword>
+      <Text>Misconfigured network copying function. 
+Configuration file is not specified or does not exist.
+Please contact your software supplier to repair the configuration.</Text>
+    </Translation>
+    
+  </Translations>                                     
+
+</TranslationContainer>

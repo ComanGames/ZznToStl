@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>기본값을 가진 기공소를 생성할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>iTero project에서 작업물을 생성하던 중 에러가 발생했습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>i-Tero file {0} 에서 작업 초안이 성공적으로 생성되었습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>Tooth {0} 가 생략됨.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text> i-Tero file {0}에서 초안이 생성되었습니다. 몇몇 데이터는 진행되지 않고 프로젝트 안에서 분실될 것입니다:
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>치과 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreatePractice</Keyword>
+      <Text>진행하려면 치과정보를 생성하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreatePracticeAdvice</Keyword>
+      <Text>진행하려면 치과정보를 생성하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        데이터베이스에서 iTero 프로젝트 파일에 명시된 치과 정보를 찾을 수 없습니다.
+        특정 이름을 가진 치과정보를 생성하려면 다음의 양식을 작성해주세요.
+        iTero 프로젝트에서 만들어진 작업물을 새로운 치과정보를 생성하지 않고
+        기존 치과정보에 배정하려면 창을 닫으세요.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>{0} ID를 가진 수복물 유형이 없습니다. 자세한 내용은 공급업체에 문의하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>{0} ID를 가진 수복물 유형이 없습니다. 자세한 내용은 공급업체에 문의하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>기본 수복물 형태의 주어진 값 {0} 을 데이터베이스에서 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>작업 유형 {0} 과 재료 {1}로 보아 대합치를 생성할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>ID {0} 의 iTero 재료가 iTero 프로젝트에서 발견되지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>ID {0} 재료와 iTero 이름 {1} 는 만들어지지 않았습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>선택한 작업유형 {0} 와(과) 재료 {1}는 사용할 수 없는 데이터입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>만기일</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>추가 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>재료 설명서</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>Color 도해</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>Color 도해</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>재료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>절단부 쉐이드</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>중간색</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingiva 쉐이드</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>Margin 디자인</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>internal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Ext</Keyword>
+      <Text>순면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>Implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>Tooth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>작업을 계속하기 전에 가지고 온 데이터 세트의 완성도와 정확성을 체크해주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.EmptyMatrixString</Keyword>
+      <Text>Transformation matrix string from iTero file is empty. Non empty string containing 16 doubles expected</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.InvalidMatrixString</Keyword>
+      <Text>Transformation matrix string is in invalid format: non empty string containing 16 doubles expected.
+Given: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>iTero 프로젝트에 재료{0}가 설정되지 않았습니다. 치아 ID {1}</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

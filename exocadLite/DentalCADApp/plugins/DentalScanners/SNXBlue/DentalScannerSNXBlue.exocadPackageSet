@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PackageSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Packages>
+    <Package>
+      <Prerequisites>
+        <Need64BitOS>true</Need64BitOS>
+      </Prerequisites>
+      <Files>
+        <File>Drivers/exoScan-SNXBlue-plugin-prerequisites-Win64.exe</File>
+      </Files>
+      <PackageName>scanner-snxBlue-drivers-x64-v4</PackageName>
+      <SubDirectory>plugins\DentalScanners\SNXBlue</SubDirectory>
+      <PackageCreationDate>2015-11-01-00-00</PackageCreationDate>
+    </Package>
+    
+    <Package>
+      <Prerequisites>
+        <Need64BitSoftware>true</Need64BitSoftware>
+      </Prerequisites>
+      <Files>
+        <File>snx.dental.dll</File>
+      </Files>
+      <PackageName>scanner-snxBlue-base64-v5</PackageName>
+      <SubDirectory>plugins\DentalScanners\SNXBlue</SubDirectory>
+      <PackageCreationDate>2015-11-01-00-00</PackageCreationDate>
+    </Package>
+    
+  </Packages>
+  <PackageSetCreationDate>2015-11-01-00-00</PackageSetCreationDate>
+</PackageSet>

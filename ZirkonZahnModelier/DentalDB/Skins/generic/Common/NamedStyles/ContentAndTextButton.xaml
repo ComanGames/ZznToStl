@@ -1,0 +1,144 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DentalGUIHelper;assembly=DentalConfig">
+
+    <!-- ========================= -->
+    <!--        Converters         -->
+    <!-- ========================= -->
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    <SolidColorBrush x:Key="ContentAndTextButtonDescriptionTextBrush">#FF7E7E7E</SolidColorBrush>
+
+    <!-- ============================== -->
+    <!--   ContentAndTextButton Style   -->
+    <!-- ============================== -->
+    <Style x:Key="ImageAndTextButtonBase" TargetType="{x:Type local:ImageAndTextButton}">
+        <Setter Property="Background" Value="{DynamicResource ButtonBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+		<Setter Property="SnapsToDevicePixels" Value="true"/>
+		<Setter Property="RenderOptions.BitmapScalingMode" Value="HighQuality" />		
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Width" Value="Auto" />
+        <Setter Property="Height" Value="32" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="TextDock" Value="Right" />
+        <Setter Property="TextMargin" Value="5,2,5,2" />
+        <Setter Property="ContentWidth" Value="18" />
+        <Setter Property="ContentHeight" Value="18" />     
+		<Setter Property="Padding" Value="7,7,2,7" />     
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ImageAndTextButton}">
+					<Grid>
+                    <DockPanel Background="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                        <!-- Content (= Image) -->
+                        <Grid x:Name="grid"  Margin="{TemplateBinding Padding}" DockPanel.Dock="Left" 
+                              Visibility="{TemplateBinding ShowContent, Converter={StaticResource BooleanToVisibilityConverter}}">
+                            
+                                    <!-- Content, e.g. Icon -->
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+														Width="{TemplateBinding ContentWidth}" Height="{TemplateBinding ContentHeight}"
+														SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"	UseLayoutRounding="true"
+														VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>                            
+                        </Grid>
+
+                        <!-- Text -->
+                        <Grid Name="textContainer"  VerticalAlignment="Center" Margin="{TemplateBinding TextMargin}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Name="PART_TextBlockMain" Text="{TemplateBinding Text}" Foreground="{TemplateBinding Foreground}"
+                                       FontSize="{TemplateBinding FontSize}" FontFamily="{DynamicResource ButtonFontFamily}"
+                                    TextWrapping="WrapWithOverflow"
+                                   Visibility="{TemplateBinding ShowText, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="1"  x:Name="PART_TextBlockDescription" Text="{TemplateBinding Description}" Foreground="{DynamicResource ContentAndTextButtonDescriptionTextBrush}"
+                                   FontSize="{DynamicResource NormalFontSize}"  FontFamily="{DynamicResource ButtonFontFamily}" Margin="0 2 0 0"
+                                   TextWrapping="WrapWithOverflow"
+                                   Visibility="{TemplateBinding ShowDescription, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+
+                        </Grid>
+                    </DockPanel>
+					<Border Name="OuterBorder" BorderBrush="{DynamicResource BrandBrush2BorderMouseOver}" Opacity="0" BorderThickness="{TemplateBinding BorderThickness}" />
+					</Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="TextDock" Value="Right">
+                            <Setter TargetName="grid" Property="DockPanel.Dock" Value="Left" />
+                            <Setter TargetName="textContainer" Property="HorizontalAlignment" Value="Left" />
+                        </Trigger>
+                        <Trigger Property="TextDock" Value="Left">
+                            <Setter TargetName="grid" Property="DockPanel.Dock" Value="Right" />
+                            <Setter TargetName="textContainer" Property="HorizontalAlignment" Value="Right" />
+                        </Trigger>
+                        <Trigger Property="TextDock" Value="Top">
+                            <Setter TargetName="grid" Property="DockPanel.Dock" Value="Bottom" />
+                            <Setter TargetName="textContainer" Property="HorizontalAlignment" Value="Center" />
+                        </Trigger>
+                        <Trigger Property="TextDock" Value="Bottom">
+                            <Setter TargetName="grid" Property="DockPanel.Dock" Value="Top" />
+                            <Setter TargetName="textContainer" Property="HorizontalAlignment" Value="Center" />
+                        </Trigger>
+						 <Trigger Property="IsMouseOver" Value="true">
+							<Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="OuterBorder" Storyboard.TargetProperty="Opacity" To="1" Duration="0:00:0.1" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="OuterBorder" Storyboard.TargetProperty="Opacity" To="0" Duration="0:00:0.1" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>														
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">                           
+							<Setter TargetName="OuterBorder" Property="Opacity" Value="1" />
+							<Setter TargetName="OuterBorder" Property="BorderBrush" Value="{DynamicResource BrandBrush2Border}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+	<Style TargetType="{x:Type local:ImageAndTextButton}" BasedOn="{StaticResource ImageAndTextButtonBase}" />
+	
+	
+	<Style x:Key="CenterControlButtons" TargetType="{x:Type local:ImageAndTextButton}" BasedOn="{StaticResource ImageAndTextButtonBase}">
+		<Setter Property="Background" Value="{DynamicResource DisabledTextBoxOuterBorder}" />
+		<Setter Property="Width" Value="290" />
+        <Setter Property="Height" Value="64" />
+		<Setter Property="ContentWidth" Value="24" />
+        <Setter Property="ContentHeight" Value="24" />
+		<Setter Property="Padding" Value="14" />     
+		<Setter Property="TextDock" Value="Right" />
+		<Setter Property="UseLayoutRounding" Value="true" />
+	</Style>
+	
+	<Style x:Key="ElementMessageBoxButton" TargetType="{x:Type local:ImageAndTextButton}" BasedOn="{StaticResource CenterControlButtons}">
+		<Setter Property="Margin" Value="0,5"/>
+		<Setter Property="Width" Value="600" />
+	</Style>
+	
+	<Style x:Key="ButtonWithoutText" TargetType="{x:Type local:ImageAndTextButton}" BasedOn="{StaticResource ImageAndTextButtonBase}">
+		<Setter Property="ShowText" Value="false" />
+		<Setter Property="Width" Value="32" />
+		<Setter Property="Padding" Value="7.5,7.5,2,7" />
+	</Style>
+
+	
+	<Style x:Key="TopControlbutton" TargetType="{x:Type local:ImageAndTextButton}" BasedOn="{StaticResource ImageAndTextButtonBase}" >
+		<Setter Property="TextDock" Value="Bottom" />		
+	</Style>
+
+</ResourceDictionary>

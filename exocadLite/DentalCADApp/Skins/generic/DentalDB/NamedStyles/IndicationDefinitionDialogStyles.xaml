@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:doConv="clr-namespace:DentalDB.DentalObjects.Converters;assembly=DentalDB.DentalObjects"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <doConv:DPIWidthAwareConverter x:Key="DPIConverter"/>
+  
+  <ItemsPanelTemplate x:Key="IndicationDefinitionMaterialContainer">
+    <UniformGrid Columns="2" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+  </ItemsPanelTemplate>
+  
+  <DataTemplate x:Key="IndicationDefinitionMaterialTemplate">
+    <Grid Width="{Binding Converter={StaticResource DPIConverter}, ConverterParameter=135}" Height="{Binding Converter={StaticResource DPIConverter}, ConverterParameter=135}">
+      <Image Source="{Binding Path=Material.Image}" Stretch="UniformToFill"/>
+      <Label Height="{Binding Converter={StaticResource DPIConverter}, ConverterParameter=37}" Background="{DynamicResource MaterialLabelBackgroundBrush}" VerticalAlignment="Bottom" VerticalContentAlignment="Center" Foreground="{DynamicResource MaterialLabelForegroundBrush}"  FontFamily="{DynamicResource BoldFontFamily}"  FontSize="{Binding Converter={StaticResource DPIConverter}, ConverterParameter=16}" Content="{Binding Path=Material.FullName, Mode=OneWay}"/>
+    </Grid>
+  </DataTemplate>
+
+</ResourceDictionary>

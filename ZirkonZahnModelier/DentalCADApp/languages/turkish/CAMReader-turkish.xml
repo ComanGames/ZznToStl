@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Yükleme için belirtilen CAM dosyası yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>Belirtilen dize '{0}' ne dosyada nede rehberde mevcut değil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Dosya için dosya uzantısı '{0}' çözülemiyor.
+Hata: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Dosya '{0}' için ayrılmış dizin çözülemiyor.
+Hata: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Proje ismi cam dosyası için çözümlenemedi '{0}'.
+Error:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Proje şekli, cam dosyası tipi için çözümlenemiyor '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>cam dosyasını {0} bilinmeyen proje formatı gibi görüyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Rehber, wildcard {0} ile eşleşen dosyaları bulabıyor {1}.
+Hata:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>Cam projesini içe aktarabilmek için yetersiz bilgi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Yüklenen dosyada hata {0}.
+Hata:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Kole dosyasını okurken hata oluştu {0}.
+Hata:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Kole {0}, kole dosyasında bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Kole verisinde ayırma hatası. Kole adı {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Boş dize, xyz konrdinatlarına dönüştürülemez</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Boş dize '{0}' xyz kordinatlarına dönüştüremezsiniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>Dosya '{0}' bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>ini dosyası {0} okunurken hata oluştu.
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>Cam projesi bilgileri mevcut değil {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>Dosya {0} cam proje dosyası olması için büyük olması gerekli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Dosya {0} ile igili bilgiler alınırken hata oluştu.
+Hata: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Eğri sayısı eşleşmiyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Açı {0} için açı eğri verisi bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Eğri {0} için eğri verisi bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Proje dosyasında, örgü verileri hakkında bilgi bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Kole verisi, proje dosyasında bulunamıyor. Kole dosyası {0} kayıp.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Dosyadan, koleler okunurken hata oluştu {0}.
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>Aşağıdaki satır nokta verisi içermez: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Eşleşme verileri eksik.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

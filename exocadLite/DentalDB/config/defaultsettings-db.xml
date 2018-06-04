@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettingsDB>
+  <Culture>
+    <language>de</language>
+    <country>de</country>
+  </Culture>
+
+  <ShowPrintButton>true</ShowPrintButton>
+  <MultiDieEnabled>true</MultiDieEnabled>
+  <MultiDiePluginName>MultiDiePlugin.Demo</MultiDiePluginName>
+  <HideHelpButton>false</HideHelpButton>
+  <UserCADDataDirAsDBLocation>true</UserCADDataDirAsDBLocation>
+  <!--  <BatchProjectName>BATCH</BatchProjectName>-->
+  <CAMFilespec>*.dentalProjectMilling</CAMFilespec>
+  <TechnicianSelectionRequired>false</TechnicianSelectionRequired>
+  <SkinFile>generic\Theme-db.xaml</SkinFile>
+  <ScanImport01Enabled>1</ScanImport01Enabled>
+  
+  <ScanImport03Enabled>1</ScanImport03Enabled>
+  <ScanImport03ImportMode>All</ScanImport03ImportMode>
+  <ScanImport03Fallback2dcm>true</ScanImport03Fallback2dcm>
+
+  <VendorProductName>DentalDB</VendorProductName>
+  <WorkTypeGroupDefFileName>worktypegroup.def</WorkTypeGroupDefFileName>
+  <!-- Possible settings see https://www.hibernate.org/361.html -->
+  <!--<SQLSettings>
+  	<ConnectionString>Data Source=..\db\DentalDB_V3.db;Version=3</ConnectionString>
+  	<SQLDialect>NHibernate.Dialect.SQLiteDialect</SQLDialect>
+  	<DriverClass>NHibernate.Driver.SQLite20Driver</DriverClass>
+  </SQLSettings>-->
+  <!--mysql-->
+  <!--<SQLSettings>
+  	<ConnectionString>Server=localhost;Database=dentaldb;User ID=test;Password=test</ConnectionString>
+  	<SQLDialect>NHibernate.Dialect.MySQLDialect</SQLDialect>
+  	<DriverClass>NHibernate.Driver.MySqlDataDriver</DriverClass>
+  </SQLSettings>-->
+  <!--mssql2005-->
+  <!--<SQLSettings>
+  	<ConnectionString>server=exopc04\SQLEXPRESS2005; database=dentaldb;user=sa;pwd=sa</ConnectionString>
+  	<SQLDialect>NHibernate.Dialect.MsSql2005Dialect</SQLDialect>
+  	<DriverClass>NHibernate.Driver.SqlClientDriver</DriverClass>
+  </SQLSettings>-->
+
+  <!--mssql2008-->
+  <!--<SQLSettings>
+    <ConnectionString>server=exopc04\SQLEXPRESS2008; database=dentaldb;user=sa;pwd=sa123123</ConnectionString>
+    <SQLDialect>NHibernate.Dialect.MsSql2005Dialect</SQLDialect>
+    <DriverClass>NHibernate.Driver.SqlClientDriver</DriverClass>
+  </SQLSettings>-->
+
+  <!--Work params database (a xml file)-->
+  <!--<WorkParamsDB>q:\WorkParamsDB.xml</WorkParamsDB>-->
+
+  <ScanImport02Enabled>true</ScanImport02Enabled>
+
+  <DataStoragePath>..\CAD-Data</DataStoragePath>
+  <!-- storage path for data received using dentalshare. By default path defined in DataStoragePath is used-->
+  <!--<DataStoragePathReceived>c:\CAD-Data-Received</DataStoragePathReceived>-->
+  <!--
+  In case drive for cad-data dir does not exist setting this option to true, forces dialog for selection of new path for cad data.
+  This is stored in (local) user settings file
+   -->
+  <!--<AllowUserToSelectDataStoragePath>true</AllowUserToSelectDataStoragePath>-->
+  <!--<PatientImageDataPath>pictures</PatientImageDataPath>-->
+  <!--
+    GlobalShortName,
+    ParamTypeThenShortName,
+    ParamTypeThenDB
+  -->
+
+  <ExoViewer3DPath>..\..\DentalCadApp\bin\exoviewer3d.exe</ExoViewer3DPath>
+
+  <TeethWorkParamsSortOrder>ParamTypeThenDB</TeethWorkParamsSortOrder>
+  <MaterialParamsSortOrder>ParamTypeThenShortName</MaterialParamsSortOrder>
+  <!-- Name,
+       Custom,
+       Database
+  -->
+  <!--<MaterialSortOrder>Custom</MaterialSortOrder>-->
+  <!--<WorkTypeSortOrder>Custom</WorkTypeSortOrder>-->
+  <!--
+  If is set to true Universal Numbering System (american dental notation) is used.
+  otherwise  FDI Two Digit,
+  
+  -->
+
+  <!--here we can group reco types in reco type selection dialog-->
+  <!--<WorkTypeGroupDefFileName>worktypegroup.def</WorkTypeGroupDefFileName>-->
+
+  <UseUniversalNumberingSystem>false</UseUniversalNumberingSystem>
+
+  <!--dentalPrj, iniPrj -->
+  <ProjectFormat>dentalPrj</ProjectFormat>
+
+  <!-- to store patient (extended) informations set to : 1, yes, on or true-->
+  <StorePatientInfos>1</StorePatientInfos>
+  <StorePracticeInfos>1</StorePracticeInfos>
+  <!-- 
+  keys for FilenameTemplate and PathTemplate
+                 %d: date
+                 %n: practice number
+                 %p: practice name
+                 %f: patient first name
+                 %l: patient last name
+                 %c: country
+                 %s: Schalennr
+                 %tc: tooth color for whole job
+
+  This default setting is recommended by Exocad:
+  <PathTemplate>%d_%p-%l</PathTemplate>
+
+  Characters like  |,<,>,:,\,"/,*,? and some other are not supported due to restrictions of file names on windows.
+
+  Those will be replaced as follow:
+  " by ' 
+  > by )
+  < by (
+  all other invalid characters are replaced by _				 
+  -->
+
+  <FilenameTemplate>%d_%p-%l</FilenameTemplate>
+  <PathTemplate>%d_%p-%l</PathTemplate>
+  <ExternalNestingQueueDir>C:\TEMP\QUEUE</ExternalNestingQueueDir>
+
+  <Shadowing>0</Shadowing>
+  <ShowButtonLabel>1</ShowButtonLabel>
+  <Highlighting>1</Highlighting>
+
+  <SavePosition>0</SavePosition>
+
+  <LanguageId>english</LanguageId>
+  <AllowImport>true</AllowImport>
+
+  <!--<AllowCustomPatientNumbering>true</AllowCustomPatientNumbering>-->
+  <!-- key for Params value: %p - complete path of project file -->
+  <!-- key for Params value: %l - language id -->
+  <!-- key for Params value: %m - multidie plugin name -->
+  <!-- key for Params value: %mfn - multidie plugin full file name -->
+  <!-- key for Params value: %ci - complete path of construction info file -->
+  <!-- key for Params value: %dn - dental notation to use -->
+  <!-- key for Params value: %un - DEPRECATED, USE %dn INSTEAD: whether to use UseUniversalNumberingSystem -->
+  <StartButtonList>
+    <StartButton ImageColor="#FFD98000">
+      <Icon>ScanIcon</Icon>
+      <Caption>Scannen</Caption>
+      <!-- Replace '..Scanner.exe' below by the complete path to your scanner software executable.
+           Contact your scanner software supplier for info on what additional configuration / command line
+           is necessary to enable exocad integration. You may need a special version of the scanner software
+           to enable integration with exocad -->
+      <ExecPath value="..\..\DentalCadApp\bin\Scanner.exe">
+        <Params value="%p /MultiDiePluginDLLName=%mfn"/>
+      </ExecPath>
+    </StartButton>
+
+    <StartButton ImageColor="#FF473A6D">
+      <Icon>CADIcon</Icon>
+      <Caption>CAD</Caption>
+      <ExecPath value="..\..\DentalCadApp\bin\DentalCadApp2.exe">
+        <Params value="%p /MultiDiePluginName=%mfn"/>
+      </ExecPath>
+    </StartButton>
+
+    <StartButton ImageColor="#FF072996">
+      <Icon>CAMIcon</Icon>
+      <Caption>CAM</Caption>
+      <!-- Replace '..Nesting.exe' below by the complete path to your CAM software executable.
+           Contact your CAM software supplier for info on what additional configuration / command line
+           is necessary to enable exocad integration -->
+      <ExecPath value="..\..\DentalCadApp\bin\Nesting.exe">
+        <Params value="%p /MultiDiePluginName=%mfn"/>
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>ModelCreatorIcon</Icon>
+      <Caption>ModelCreator</Caption>
+      <ExecPath value="..\..\DentalCadApp\bin\DentalCadApp2.exe">
+        <Params value="/ModelCreatorMode %p /MultiDiePluginName=%mfn"/>
+      </ExecPath>
+    </StartButton>
+
+	<StartButton ImageColor="#FF003F80">
+		<Icon>PartialIcon</Icon>
+		<Caption>Partial Preview</Caption>
+		<HideIfFileDoesntExist>..\..\PartialTechPreview\ExocadTechnologyPreview.exe</HideIfFileDoesntExist>
+		<ExecPath value="..\..\PartialTechPreview\ExocadTechnologyPreview.exe">
+		        <Params value="%p"/>
+		</ExecPath>
+	</StartButton>
+    <Separator/>
+    <ActionButton ButtonAction="DentalShareUpload" ImageColor="#FF377400"/>
+
+	<!-- FTP upload button is only shown if ftpconfig.xml exists - to make the button 
+	visible, create your ftpconfig.xml, e.g. based on sample "ftpconfig.xml.sample". -->
+	
+    <ActionButton ButtonAction="FTPUpload" ImageColor="#FFD98000"/>
+    <ActionButton ButtonAction="NetworkCopying" ImageColor="#FF008BA4"/>
+    <Separator/>
+    <ActionButton ButtonAction="Print" ImageColor="#FFA0008F"/>
+
+
+  </StartButtonList>
+
+  <ConstrStorage></ConstrStorage>
+
+</ApplicationSettingsDB>
+

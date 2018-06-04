@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport02.LabMissing</Keyword>
+      <Text>No se pudo obtener el laboratorio predeterminado.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothSkipped</Keyword>
+      <Text>Diente {0} omitido.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportedWithWarnings</Keyword>
+      <Text>
+        El tratamiento ha sido creado a partir del proyecto de 3M
+        Archivo de proyecto 3M:
+        {0}
+
+        Algunos datos no han podido ser procesados y puede ser que falten algunas informaciones de la reconstrucción:
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportFailed</Keyword>
+      <Text>
+         Se produjo un error mientras se creaba el tratamiento del proyecto de 3M.
+         Mensaje de error:
+         {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportSuccessed</Keyword>
+      <Text>El tratamiento fue creado satisfactoriamente mediante el proyecto de 3M {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectPractice.Header</Keyword>
+      <Text>Seleccionar cliente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AddPracticeFirst</Keyword>
+      <Text>
+        El cliente especificado en el proyecto de 3M no ha sido encontrado en la base de datos.
+        Por favor, rellene el siguiente formulario para crear el cliente con el nombre especificado.
+        Para continuar sin crear un nuevo cliente y asignar el proyecto a un cliente existente, cierre la ventana.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>No está disponible el tipo de reconstrucción con el id '{0}'. Por favor, contacte con su distribuidor para más información.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMappingMissing</Keyword>
+      <Text>No se encontró un tipo de reconstrucción con el id {0}. Por favor, contacte con su distribuidor para más información.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Valor asignado {0} para el tipo de reconstrucción predeterminado no ha sido encontrado en la base de datos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AntagonistDataInvalid</Keyword>
+      <Text>No se pudo crear antagonista a partir del tipo de reconstrucción {0} y el material {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportMaterialMissing</Keyword>
+      <Text>El material de 3M con el número {0} no ha sido encontrado en el proyecto de 3M.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialMappingMissing</Keyword>
+      <Text>No existe ninguna correspondencia para el material con el número {0} y el nombre de 3M {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionMissing</Keyword>
+      <Text>
+         No hay datos disponibles para el tipo de reconstrucción '{0}' y el material '{1}'.
+         Se usará el primer material disponible para el tipo de trabajo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CaseId</Keyword>
+      <Text>ID del caso</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DueDate</Keyword>
+      <Text>Fecha de terminación</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.AdditionalInfo</Keyword>
+      <Text>Información adicional</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MaterialSpecification</Keyword>
+      <Text>Especificaciones del material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Colorspecification</Keyword>
+      <Text>Esquema de color</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema</Keyword>
+      <Text>Esquema de color</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedMaterials</Keyword>
+      <Text>Materiales</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Tono color incisal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Tono color medio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Tono color encía</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign</Keyword>
+      <Text>Diseño del borde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Int</Keyword>
+      <Text>interno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Implant</Keyword>
+      <Text>Implante</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Tooth</Keyword>
+      <Text>Diente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Por favor, compruebe la integridad y exactitud de los datos importados antes de pasar con la construcción con CAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.EmptyMatrixString</Keyword>
+      <Text>El fichero con la cadena de la matriz de transformación de 3M está vacía. Se esperaba una cadena que no estuviera vacía, conteniendo 16 dobles.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InvalidMatrixString</Keyword>
+      <Text>El fichero con la cadena de la matriz de transformación tiene un formato no válido: Se esperaba una cadena que no estuviera vacía, conteniendo 16 dobles.
+Datos proporcionados: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>No se ha definido ningún mapeado de material para el material {0} en el proyecto de iTero. Id de diente {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorParsingMarginLineFile</Keyword>
+      <Text>Ha ocurrido un error al leer el archivo de la línea de margen [0].
+Mensaje de error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>Ha ocurrido un error al analizar los datos de la línea de margen:
+Archivo: {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>Ha ocurrido un error al almacenar los datos de la línea de margen transformados en el archivo {0}.
+Mensaje de error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>La lista de materiales en el proyecto de iTero no está completa, por lo cual no se puede determinar el nombre original del material.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.Title</Keyword>
+      <Text>Por favor, seleccione el material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.Description</Keyword>
+      <Text>Se han especificado distintos materiales en el proyecto iTero para un grupo de dientes listado más abajo, a pesar de que en DentalCAD solamente se puede usar un mismo material para cada grupo.
+Por favor, elija un material para los trabajos siguientes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>Para continuar debe seleccionar un material para cada grupo de dientes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RestorationSkipped</Keyword>
+      <Text>Trabajo {0} omitido. Dientes afectados: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromThreeM.ToolTip</Keyword>
+      <Text>Crear un nuevo trabajo desde un archivo de proyecto 3M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InsufficientAccessRights.Project</Keyword>
+      <Text>Permisos de usuario insuficientes para copiar los archivos de proyecto 3M en el directorio de proyectos {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Project</Keyword>
+      <Text>Error al copiar el fichero de proyecto 3M de {0} a {1}. Error {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Data</Keyword>
+      <Text>Error al copiar el fichero de datos 3M de {0} a {1}. Error {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileTransferIncomplete</Keyword>
+      <Text>
+        Han ocurrido los siguientes errores al copiar los ficheros referenciados del proyecto 3M:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.BillingAddress</Keyword>
+      <Text>Direccón de facturación:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ShippingAddress</Keyword>
+      <Text>Dirección de entrega:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CreationDate</Keyword>
+      <Text>Creado el:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.RxDate</Keyword>
+      <Text>Fecha recepción:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DateRequested</Keyword>
+      <Text>Fecha de pedido:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.GuidConversionFailed</Keyword>
+      <Text>
+        La cadena guid del proyecto no se puede convertir a Guid.
+        cadena guid: {0}
+        Mensaje de error:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema</Keyword>
+      <Text>El esquema de numeración de dientes no se puede determinar desde el archivo de proyecto. Por favor, defina el esquema manualmente.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema</Keyword>
+      <Text>Esquema de numeración universal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema.Description</Keyword>
+      <Text>Se asumirá que los dientes definidos en el archivo de proyecto 3M están en formato de numeración universal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental.Description</Keyword>
+      <Text>Se asumirá que los dientes definidos en el archivo de proyecto 3M están en formato de numeración FDI</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental</Keyword>
+      <Text>FDI World Dental Federation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel</Keyword>
+      <Text>Cancelar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel.Description</Keyword>
+      <Text>Se cancelará la importación</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeNoMapping</Keyword>
+      <Text>No existe ninguna correspondencia para el tipo de trabajo '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotSpecified</Keyword>
+      <Text>No se ha especificado el archivo de proyecto de 3M.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotFound</Keyword>
+      <Text>
+        No se ha podido encontrar el archivo de proyecto 3M a importar.
+        Nombre del archivo: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileCorrupt</Keyword>
+      <Text>Se ha producido un error al analizar el archivo del proyecto 3M.
+Nombre de archivo: {0}
+
+Mensaje de error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotSpecified</Keyword>
+      <Text>No se ha especificado la correspondencia de los archivos de trabajo de 3M con los tipos de DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotFound</Keyword>
+      <Text>No se ha encontrado la correspondencia del archivo de trabajo de 3M con los tipos de DentalDB.
+Nombre del archivo: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileCorrupt</Keyword>
+      <Text>Se ha producido un error al analizar las correspondencias entre los trabajos de 3M y los tipos de DentalDB.
+Nombre del archivo: {0}
+
+Mensaje de error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMaterialNotMappedFirstUsed</Keyword>
+      <Text>No se ha definido la correspondencia entre el material {0} de 3M y los materiales de DentalDB.
+Se utilizará el material predeterminado '{1}'.
+Dientes afectados: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionFallbackDefault</Keyword>
+      <Text>El tipo de trabajo '{0}' no permite el uso del material '{1}'.
+Se utilizará el material predeterminado '{2}' para el tipo de trabajo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.InternalCaseId</Keyword>
+      <Text>Id de trabajo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ExternalCaseId</Keyword>
+      <Text>Orden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Notes</Keyword>
+      <Text>Observaciones</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothDataNotFound</Keyword>
+      <Text>Datos de diente no encontrados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothNumberNotFound</Keyword>
+      <Text>Número de diente no encontrado en:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothRecoTypeNotFound</Keyword>
+      <Text>Tipo de trabajo no encontrado para el diente {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialDescrNotFound</Keyword>
+      <Text>Descripción del tipo de material no encontrada para el diente {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialNotFound</Keyword>
+      <Text>Material no encontrado para el diente {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothInfoCreationFailed</Keyword>
+      <Text>Se ha producido un error al procesar la información del diente para el diente {0}.
+Error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RecentlyArrivedJobs</Keyword>
+      <Text>3M: nuevos trabajos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ProjectId</Keyword>
+      <Text>Id de proyecto 3M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Info</Keyword>
+      <Text>información 3M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NewProjects</Keyword>
+      <Text>Proyectos importados:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Conflicts</Keyword>
+      <Text>Conflictos:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ActionRequired</Keyword>
+      <Text>Se requiere intervención</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>El cliente especificado no se ha podido encontrar, o no tiene una id única. Por favor, complete los datos para continuar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RemoveFromArrivedList</Keyword>
+      <Text>Eliminar de la lista</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PracticeDataEnrichment</Keyword>
+      <Text>Trabajo completo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ViewInDentalDB</Keyword>
+      <Text>Ver en DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OpenInExplorer</Keyword>
+      <Text>Abrir en el explorador</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OverrideExisting</Keyword>
+      <Text>Sobrescribir existente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.KeepExisting</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowChanges</Keyword>
+      <Text>Mostrar cambios en el explorador</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OriginalDataBackupFailed</Keyword>
+      <Text>Se ha producido un error al hacer la copia de seguridad del proyecto 3M.
+Directorio de proyecto 3M: {0}
+Directorio de destino: {1}
+Error: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNoWritePermissions</Keyword>
+      <Text>El directorio de copia de seguridad de proyectos 3M es de solo lectura. Por favor, asegúrese de que el directorio '{0}' permite la escritura e inténtelo de nuevo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirCreationError</Keyword>
+      <Text>Se ha producido un error al crear el directorio de copia de seguridad del proyecto 3M '{0}'.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PatientCreationFailed</Keyword>
+      <Text>Se ha producido un error al guardar los datos de paciente:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobCreationFailed</Keyword>
+      <Text>Se ha producido un error al guardar los datos de trabajo:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.LowerJawScanMissing</Keyword>
+      <Text>Escaneado mandíbula</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.UpperJawScanMissing</Keyword>
+      <Text>Escaneado maxilar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.VestibularScanMissing</Keyword>
+      <Text>Escaneado vestibular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>No se ha podido detectar el formato de los datos escaneados del proyecto 3M:
+Directorio del proyecto: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RepeatDataImport</Keyword>
+      <Text>Volver a intentar la importación de los datos escaneados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.DataTransferIncomplete</Keyword>
+      <Text>Transferencia de datos incompleta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobArrived</Keyword>
+      <Text>3M: trabajo recibido</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TrayIcon.Tip</Keyword>
+      <Text>Pulse para opciones adicionales</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedReconstructions</Keyword>
+      <Text>Trabajos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.CompleteNewClientData</Keyword>
+      <Text>Al importar el trabajo de 3M se ha creado el cliente automáticamente.
+Por favor, rellene los datos que faltan para completar la importación.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Precisa de confirmación</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Datos copiados parcialmente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Asignar al cliente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.Success.Title</Keyword>
+      <Text>Importado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowSourceFolder</Keyword>
+      <Text>Abrir carpeta de origen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AutomaticImportSetupFailed</Keyword>
+      <Text>Se ha producido un error al configurar la importación automática del proyecto 3M:
+Directorio observado: {0}
+Modo de observación: {1}
+Detalles del error: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorProcessingDirectFormat</Keyword>
+      <Text>Se ha producido un error al procesar el ficehor de formato directo {0}.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.GenericImportError</Keyword>
+      <Text>Se ha producido un error al proceder con el proyecto 3M {0}.
+Error {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.DirectoryCreationFailed</Keyword>
+      <Text>Se ha producido un error al crear el directorio: {0}.
+Error {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNotSet</Keyword>
+      <Text>No está configurado el directorio de copias de seguridad para los proyectos 3M importados. Por favor, configure el directorio de copia de seguridad e inténtelo de nuevo.
+La importación automática de proyectos 3M está desactivada.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNotSet.Ok</Keyword>
+      <Text>Aceptar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkType.EmptyMaterialList</Keyword>
+      <Text>No hay ningún material asignado al trabajo {0}. Por favor, contacte con su distribuidor para que le configure correctamente la "base de datos de trabajos".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NoMaterialForReconstructionFound</Keyword>
+      <Text>No se ha podido crear el trabajo para el diente '{0}'. El trabajo '{1}' no permite el uso del material '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>Para el trabajo de 3M '{0}' no se ha definido el material '{1}' o éste no se ha asignado al material del proyecto.
+En su lugar se utilizará el material predeterminado '{2}'.  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>Para el trabajo de 3M '{0}' no se ha definido el material '{1}' o éste no se ha asignado al material del proyecto.
+En su lugar se utilizará el primer material disponible '{2}'.  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.CouldnotResolveJawForFile</Keyword>
+      <Text>No se ha podido determinar la arcada para el fichero '{0}'. Archivo omitido.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileNotFound</Keyword>
+      <Text>No se ha podido encontrar el fichero de escaneado '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataCheckFailed</Keyword>
+      <Text>Se ha producido un error al verificar que los datos escaneados estuvieran completos.
+Proceso de copia de los datos escaneados cancelado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataIncomplete</Keyword>
+      <Text>Los datos escaneados del proyecto no están completos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BiteSplintOrderWarning</Keyword>
+      <Text>El caso importado contiene una orden de trabajo de férula de descarga. Antes de iniciar el CAD, por favor verifique la ubicación de la férula de descarga en observaciones.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ModelOrderWarning</Keyword>
+      <Text>El caso importado contiene una orden de trabajo de creación de modelo. Utilice el botón de model creator para diseñar un modelo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ProvisionalsOrderWarning</Keyword>
+      <Text>Antes de iniciar el CAD, por favor marque como provisionales aquellos dientes para los que desee diseñar los provisionales.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OtherOrderWarning</Keyword>
+      <Text>El caso importado contiene una orden de trabajo para un tipo de dispositivo no soportado '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Warning</Keyword>
+      <Text>PRECAUCION:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.UnknownRestorationsSkipped</Keyword>
+      <Text>Los siguientes tipos de trabajo son desconocidos, y se omitirán: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ModelAndApplianciesMissing</Keyword>
+      <Text>Se esperaban encontrar 'Modelos y dispositivos', pero no ha sido posible hallarlos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ModelAndApplianciesSubtypeMissing</Keyword>
+      <Text>No se ha podido determinar el tipo de 'Modelos y dispositivos', ya que la etiqueta del sub-tipo no se encuentra.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FailedToCreateHealthy</Keyword>
+      <Text>Se ha producido un error al crear la información para los dientes sanos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.HealthyRecoNotDefined</Keyword>
+      <Text>No se ha definido el trabajo que representa los dientes sanos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FailedToCreateBiteSplint</Keyword>
+      <Text>Se ha producido un error al crear la información para la férula de descarga.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BiteSplintRecoNotDefined</Keyword>
+      <Text>No se ha definido el trabajo que representa la férula de descarga.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ModelAndApplianciesImportFailed</Keyword>
+      <Text>Se ha producido un error al crear el trabajo para el proyecto 'modelos y dispositivos':
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MarginLineProcessingError</Keyword>
+      <Text>Se ha producido un error al procesar la linea de margen para el diente {0}.
+Mensaje de error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialNotDefined.UsingFirst</Keyword>
+      <Text>Para el trabajo de 3M '{0}' no se ha definido el material '{1}'.
+En su lugar se utilizará el primer material disponible '{2}'.  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NoMaterialInfoAvail</Keyword>
+      <Text>No especificado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Bridges</Keyword>
+      <Text>Puentes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NotConfiguredForBridges</Keyword>
+      <Text>El proyecto 3M importado no está configurado adecuadamente para importar proyectos que contengan puentes.
+Contacte con su distribuidor para más información.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BridgeCouldNotBeConnected</Keyword>
+      <Text>Los dientes pertenecientes al puente definido en el proyecto original no pueden conectarse. Id de puente: {0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles></IncludeFiles>
+</TranslationContainer>

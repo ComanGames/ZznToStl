@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>Could not obtain default lab.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>An error occurred while creating a project from an iTero project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>The project draft was successfully created from the iTero file {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>Tooth {0} skipped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text> draft was created from iTero file {0}. Some data may not be proceeded and therefore are missing in project:
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>Select client</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        The customer specified in the iTero project file was not found in the database.
+        Please fill out the following form to create a customer with a specified name.
+        To proceed without creating a new customer and to assign an existing customer to
+        a project created from an iTero project, close the window.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>There is no reconstruction type with ID {0}. Please contact your distributor for details.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>There is no reconstruction type with ID {0}. Please contact your distributor for details.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>The provided value {0} for the default reconstruction type was not found in the database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>Could not create antagonist from work type {0} and material {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>iTero material with ID {0} was not found in the iTero project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>Material with ID {0} and iTero name {1} is not mapped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>No data is available for selected work type {0} and material {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>Due date</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>Additional information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>Material specification</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>Materials</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Incisal shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Middle shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingival shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>Margin design</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>internal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>Implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>Tooth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Please check the imported dataset for completeness and correctness before you continue with your construction.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.EmptyMatrixString</Keyword>
+      <Text>The transformation matrix string from the iTero file is empty. A non-empty string containing 16 doubles is expected.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.InvalidMatrixString</Keyword>
+      <Text>The transformation matrix string is in an invalid format: A non-empty string containing 16 doubles is expected.
+Given: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>No material mapping for the material {0} defined in the iTero project. Tooth ID {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorParsingMarginLineFile</Keyword>
+      <Text>An error occurred while reading the margin line file {0}.
+Error message:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>An error occurred parsing the margin line data:
+File: {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>An error occurred while storing the transformed margin line data to file {0}.
+Error message:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>The material list in the iTero project is incomplete. Therefore the original material name cannot be determined.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Title</Keyword>
+      <Text>Please choose material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Description</Keyword>
+      <Text>Different materials are specified in the iTero project for a tooth group listed below, although for each group only a single material can be used in DentalCAD. 
+Please choose a material for reconstructions.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>In order to continue, you need to select a material for each tooth group.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>Tooth {0}: The material defined in the project to import is not mapped. The default material will be used instead.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>Tooth {0}: The material defined in the project to import is not mapped. The first material defined for the restoration will be used.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

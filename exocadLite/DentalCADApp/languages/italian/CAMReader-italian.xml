@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Nessun file CAM specificato da importare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>Stringa specificata '{0}' non è né il file o la directory esistente. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Impossibile risolvere il problema dell'estensione per il file '{0}'.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Impossibile risolvere il problema della directory per il file '{0}'.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Impossibile risolvere il problema dell nome CAM per il file '{0}'.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Impossibile risolvere il problema dell nome di progetto per il CAM file '{0}'.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>Il file Cam {0} sembra che abbia un formato sconosciuto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Impossibile ottenere file che corrispondono da {0} dalla directory {1}.
+Errore:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>Informazioni insufficenti per importare il file Cam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Errore carico file {0}.
+Errore:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Errore di file margine lettura {0}.
+Errore:
+{1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Margine {0} non è stato trovato nel file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Errore dati di margine. Nome margine di '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Impossibile convertire una stringa vuota a coordinate XYZ </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Impossibile convertire la stringa '{0}' a coordinate XYZ </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>File '{0}' non trovato. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>Si è verificato un errore durante la lettura del file ini {0}.
+Errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>Informazioni di progetto CAM non sono presenti in {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>File {0} troppo grande da essere file di progetto cam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Si è verificato un errore durante il recupero informazioni sui file {0}.
+Errore: {1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Curve conteggio non corrispondente </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Dati angolo della curva  {0} non è stato trovato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Dati della curva  {0} non è stato trovato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Informazioni sulla mesh non è stato trovato nel file di progetto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Informazioni sui dati di margine non è stato trovato nel file di progetto. File Linea limite {0} mancante. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Errore linea margine in lettura da file {0}.
+Errore: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>Seguendo la linea non contiene dati punto:
+{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Dati mesh non presenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.ProjectNotFound</Keyword>
+      <Text>CAM progetto  non trovato</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

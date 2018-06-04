@@ -1,0 +1,115 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="DefaultColors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+	
+	<!-- Branding Colors: Feel free to edit colors below, to match your CI. Keep the keywords as they are! -->
+    
+	<Color x:Key="BrandColor1">#222223</Color>    <!-- Should be dark color. E.g. exocad Purple -->
+    <Color x:Key="BrandColor1MouseOver">#4f4f51</Color>    <!-- slightly lighter variant -->
+	<Color x:Key="ToolWindowTitleColor">#00000000</Color>    <!-- tool window title. can be same as BrandColor1MouseOver -->
+
+	<Color x:Key="ExostyleProgressBarColor">#f4ab37</Color>    <!-- background color for progress bar. -->
+	
+	<Color x:Key="ButtonColor">#222223</Color>    <!-- Should be dark color. Can be same as BrandColor1 -->
+    <Color x:Key="ButtonColorMouseOver">#4f4f51</Color>    <!-- slightly lighter variant. Can be same as BrandColor1MouseOver -->
+	
+    <Color x:Key="BrandColor2">#f4ab37</Color>    <!-- Should be dark and 'highlighty'. E.g. exocad Orange -->
+    <Color x:Key="BrandColor2MouseOver">#f3c57d</Color>    <!-- slightly lighter variant -->
+	<Color x:Key="BrandColor2Border">#f79b0a</Color>    <!-- darker variant -->
+	
+	<Color x:Key="ToolbarBackgroundColor">#000000</Color>    <!-- Tool bar on the right. Should be dark color, we strongly recommend to keep it black! -->
+	<Color x:Key="ToolbarForegroundColor">#ffffff</Color>    <!-- Tool bar on the right. Should be light color, white recommended -->
+	
+	<Color x:Key="ToolWindowBackgroundColor">#DE000000</Color>    <!-- tool window background color. White or very light color -->	
+	<Color x:Key="GroupBoxBackgroundColor">#AA000000</Color>    <!-- slightly darker variant -->
+	
+	
+	<SolidColorBrush x:Key="BrandBrush2Border" Color="#f6aa37" /> <!-- this is clicked or highlighted! -->
+	<SolidColorBrush x:Key="BrandBrush2BorderMouseOver" Color="#969696" /> <!-- this is clicked or highlighted! -->
+	
+	<SolidColorBrush x:Key="BrandBrush2BorderDisabled" Color="#866026" />	
+	
+	<Color x:Key="Gray5">#FF282828</Color>
+	<Color x:Key="Gray7">#FF464646</Color>
+	<Color x:Key="Gray12">#FF232323</Color>
+	<Color x:Key="Gray13">#C8C8C8</Color>
+	<Color x:Key="Gray14">#FF323232</Color>
+	<Color x:Key="MessageBoxBackgroundColor">#DE000000</Color>    <!-- message box background color -->
+	<Color x:Key="MessageBoxOuterBackgroundColor">#33FFFFFF</Color>    <!-- message box background color -->
+	
+	<Color x:Key="ExpertToolbarBackgroundColor">#efefee</Color>    <!-- background color for expert mode toolbar. Can be dark or light, but must have good contrast to all three colors below -->
+	<Color x:Key="ExpertModeToolbarMenu">#FFFFFF</Color>    <!-- foreground color for expert mode toolbar. Should have good contrast to ExpertToolbarBackgroundColor -->
+	<Color x:Key="ExpertModeToolbarAdvancedMenu">#cdcbd8</Color>    <!-- foreground color for expert mode toolbar. Should have good contrast to ExpertToolbarBackgroundColor -->
+	<Color x:Key="ExpertModeToolbarMenuHighlight">#ef895f</Color>    <!-- foreground color for expert mode toolbar.  Should have good contrast to ExpertToolbarBackgroundColor -->
+
+	<Color x:Key="GroupSelectorDefaultColor">#FFf4ab37</Color> <!-- group selector: default item background color (if not determined by group or part color -->
+	
+	<SolidColorBrush x:Key="SecondarySceneViewTitleFontColor" Color="#FF000000" />
+	
+	<SolidColorBrush x:Key="LightBackgroundBrush" Color="Transparent"/>
+	
+	<SolidColorBrush x:Key="TextBrush" Color="{DynamicResource WhiteColor}" />    
+	<SolidColorBrush x:Key="LightTextBrush" Color="#FF969696" />    
+    <SolidColorBrush x:Key="LabelTextBrush" Color="{DynamicResource WhiteColor}" />
+		
+	
+	<LinearGradientBrush x:Key="ButtonBrush" StartPoint="0.7,0" EndPoint="0.7,1">
+        <GradientStop Color="#5a5a5a" Offset="0"/>
+        <GradientStop Color="#464646" Offset="0.4"/>
+        <GradientStop Color="#323232" Offset="1"/>
+    </LinearGradientBrush>
+	<SolidColorBrush x:Key="ButtonBorderBrush" Color="#f6aa37" />
+	
+	<LinearGradientBrush x:Key="ScrollBarBackgroundBrush" StartPoint="0.7,0" EndPoint="0.7,1" >
+        <GradientStop Color="#5a5a5a" Offset="0"/>
+        <GradientStop Color="#464646" Offset="0.4"/>
+        <GradientStop Color="#323232" Offset="1"/>
+    </LinearGradientBrush>	
+	<SolidColorBrush x:Key="BackgroundNormalBrush" Color="#222222"/>
+	
+	<LinearGradientBrush x:Key="DisabledBackgroundBrush" StartPoint="0.7,0" EndPoint="0.7,1">
+		<GradientStop Color="#4b4b4b" Offset="0"/>
+		<GradientStop Color="#373737" Offset="0.4"/>
+		<GradientStop Color="#232323" Offset="1"/>
+	  </LinearGradientBrush>
+	  
+	  <LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0.7,0" StartPoint="0.7,1">
+        <GradientStop Color="#5a5a5a" Offset="0"/>
+        <GradientStop Color="#464646" Offset="0.4"/>
+        <GradientStop Color="#323232" Offset="1"/>
+    </LinearGradientBrush>
+	
+	<SolidColorBrush x:Key="CheckBoxBackgroundBrush" Color="Black" />	
+
+	<SolidColorBrush x:Key="DisabledForegroundBrush" Color="#808080" />
+	
+	<Color x:Key="FormBackgroundColor" >#DE000000</Color>	
+	<SolidColorBrush x:Key="FormBackground" Color="{DynamicResource FormBackgroundColor}"/>
+	<SolidColorBrush x:Key="FormBackground1" Color="#080808"/>
+	<SolidColorBrush x:Key="FormBorderBrush" Color="#e6e6e6"/>	
+	
+	<!--BEGIN: DentalDB window colors  -->
+    <Color x:Key="Background1">#FFF4F4F4</Color> <!-- dark -->
+    <Color x:Key="Background2">#FFFFFFFF</Color> <!-- light -->
+	<Color x:Key="Background3">#FFF4F4F4</Color> <!-- DentalDB right panel -->
+
+	<!-- Alternating colors for zebra tables (e.g. 'Load' in DentalDB)  -->
+    <Color x:Key="ZebraTable1">#FFFFFFFF</Color> <!-- should be white or very light color -->
+    <Color x:Key="ZebraTable2">#FFE0E0E0</Color> <!-- still light, but slightly darker -->
+	
+	<!-- Border color for floating windows - READ COMMENT BELOW -->
+	<Color x:Key="FloatingWindowBorderColor">#FF473A6D</Color>
+	
+	<!-- Border is disabled by default, so the above color definition will not have an effect unless you also
+	     change the border thickness below - set the four values Top, Left, Right, Bottom to "1" or "2" to add a border -->
+	
+	<Thickness x:Key="FloatingWindowBorderThickness" Top="0" Left="0" Right="0" Bottom="0" />
+	
+	<!-- end of customer-editable area -->
+	
+</ResourceDictionary>

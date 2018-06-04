@@ -1,0 +1,2059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>Nesting.Material Block Transponder Active</Keyword>
+      <Text>Aktif</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Archive</Keyword>
+      <Text>Arşiv</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowSupportToPreparationArea</Keyword>
+      <Text>Hazırlık izin verdiği destekler </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutBlockHealing</Keyword>
+      <Text>Orijinal boş şekli güncelle </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutBlockHealingQuestion</Keyword>
+      <Text>Orijinal boş şekli yeniden istediğinizden emin misiniz? Bu boş öğütülmüş alanların tarihi kaybolur!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.OnlyOneConstructionAllowedForThisMaterialType</Keyword>
+      <Text>Sadece tek bir parça malzeme boş bu tür yerleştirmeye izin verilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.OnlySingleTeethAllowedForThisMaterialType</Keyword>
+      <Text>Sadece tek diş malzeme boş bu tür iç içe izin verilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromView</Keyword>
+      <Text>Bakış açısından belirle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
+      <Text>Blok kitaplığının yenilenmesini iptal etmek istiyor musunuz? Yeni boş blok yaratamayabilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
+      <Text>Blok kitaplığı yenilenmeli. Bu sadece bir kereliğine yapılır, fakat uzun sürebilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachine</Keyword>
+      <Text>Yapılandır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCMachineSelector</Keyword>
+      <Text>Makineyi Seç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
+      <Text>CNC Strateji Dosyasını seç!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowCNC</Keyword>
+      <Text>CNC yi Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNC</Keyword>
+      <Text>CNC yi Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
+      <Text>Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlHide</Keyword>
+      <Text>Gizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClose</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlCancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlExecute</Keyword>
+      <Text>Başlat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControl</Keyword>
+      <Text>CNC Yaratıcı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategySelector</Keyword>
+      <Text>{0} için yüzey detaylandırmasını seç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFile</Keyword>
+      <Text>CNC Kaynak Dosyası:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingData</Keyword>
+      <Text>Dosyaları içe aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectVisualize</Keyword>
+      <Text>Yerleştirme - Parçalar - Görselleştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectInfo</Keyword>
+      <Text>Yerleştirme - Parçalar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
+      <Text>Yerleşim sırası mevcut dosya(lar) kullanır:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
+      <Text>Blok (orijinal)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
+      <Text>Belirtilen dosyalar artık geçerli değil. Şimdi silinecekler!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
+      <Text>Yerleşim İçeriği Bilgisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
+      <Text>Lütfen bir Parti No atayın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
+      <Text>Bir CNC dosyası mevcut. Görüntülemek ister misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
+      <Text>(cnc mevcut)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
+      <Text>Silindi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsProduced</Keyword>
+      <Text>İşlendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
+      <Text>Zaten CNC Dosyasının içinde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsNested</Keyword>
+      <Text>Yerleştirildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
+      <Text>Bloğun içerisine sığmayabilir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
+      <Text>Mevcut Yerleşimde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNestingQueue</Keyword>
+      <Text>Sırayı Gizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UnloadFromQueue</Keyword>
+      <Text>Yerleştirmeden kaldır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadFromQueue</Keyword>
+      <Text>Yerleştirmeye yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueue</Keyword>
+      <Text>Sıradan kaldır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshNestingQueue</Keyword>
+      <Text>Sırayı yenile</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
+      <Text>Kütüphaneyi yenile</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlock</Keyword>
+      <Text>Bloğu içe aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
+      <Text>Tarih</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
+      <Text>Proje Klasörü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
+      <Text>İsim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
+      <Text>Rekonstrüksiyonlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reconstruction</Keyword>
+      <Text>Rekonstrüksiyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
+      <Text>Yerleştirme sırası başlatılamadı. Lütfen 'Uygulama Ayarları' nda Yerleştirme sırası klasörünü kontrol edin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibrary</Keyword>
+      <Text>Blok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueDir</Keyword>
+      <Text>Yerleştirme Sırası Dizini: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueEmpty</Keyword>
+      <Text>Yerleştirme Sırası boş.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
+      <Text>Blok Kütüphanesi Dizini: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Enqueue</Keyword>
+      <Text>Yerleştirme sırasına ekle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
+      <Text>Bu proje zaten yerleştirme sırasında var. Üzerine yazmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
+      <Text>Bu bloğu yerleştirmeden çıkartmak istediğinizden emin misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
+      <Text>Bu işi yerleştirmeden kaldırmak istediğinize emin misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
+      <Text>Bu materyal bloğu zaten mevcut.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
+      <Text>Bu bloğu kitaplıktan kaldırmak istediğinizden emin misiniz (blokta kullanılabilir yer kalmadığından emin olun)?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
+      <Text>Şu bloklar şimdi silinecek:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixedReconstruction</Keyword>
+      <Text>Sabit rekonstrüksiyon (değiştirilemez)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
+      <Text>Bunu sıradan çıkarmak istediğinize emin misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.UnknownMaterial</Keyword>
+      <Text>_Bilinmeyen Malzeme_</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialDescriptor.Unknown</Keyword>
+      <Text>???BİLİNMEYEN???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Zirkon</Keyword>
+      <Text>ZrO2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Unknown</Keyword>
+      <Text>Bilinmeyen Malzeme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.All</Keyword>
+      <Text>Herhangi Malzeme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
+      <Text>Geçerli olarak ayarla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
+      <Text>Mevcut CNC dosyasını sil?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
+      <Text>CNC'yi Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction</Keyword>
+      <Text>İşle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeCAM</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Destroy</Keyword>
+      <Text>Çıkar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Register</Keyword>
+      <Text>Kayıt et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
+      <Text>Yerleşimi Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
+      <Text>Üretilmişleri Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
+      <Text>Üretilmiş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
+      <Text>Kalıt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
+      <Text>Yeni Blok başarıyla tanımlandı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
+      <Text>Blok numarasını yeni bloğunuzun üzerine de yazdığınıza emin olun:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
+      <Text>Lütfen özgün bir Blok Numarası girin!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
+      <Text>Lütfen şu değerler arasında özgün bir Materyal Blok Numarası tanımlayın:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
+      <Text>Lütfen buraya özgün bir Blok Numarası tanımlayın!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
+      <Text>Kabul Et ve Kullan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAccept</Keyword>
+      <Text>Kabul Et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseButton</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton</Keyword>
+      <Text>Temizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton</Keyword>
+      <Text>Yerleşimi kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignScaleFactor</Keyword>
+      <Text>Lütfen ölçek faktörünü ya da küçülme yüzdesini buraya girin!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
+      <Text>Geçersiz Ölçek Faktörü / Küçülme Yüzdesi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
+      <Text>Parti No Gir: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
+      <Text>Blok No Gir:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Load</Keyword>
+      <Text>Yükle...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.View3D</Keyword>
+      <Text>3B Yerleştirme
+Görüntüle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCreator</Keyword>
+      <Text>Yeni Blok Kayıt Et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockReject</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockAccept</Keyword>
+      <Text>Tamam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
+      <Text>Tip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
+      <Text>Tarih</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
+      <Text>Küçülme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
+      <Text>Ölçek Faktörü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
+      <Text>Yükseklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
+      <Text>Çap Ø</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
+      <Text>Renk Tipi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
+      <Text>Blok No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
+      <Text>Parti No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
+      <Text>Açıklayıcı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
+      <Text>Uygun Bloklar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
+      <Text>Uygun Malzeme Blokları:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialType</Keyword>
+      <Text>Malzeme Türünü Seçin:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterNewBlock</Keyword>
+      <Text>Yeni blok kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateNewBlock</Keyword>
+      <Text>Yeni blok yarat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
+      <Text>Rekonstrüksiyon genel bakışı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
+      <Text>Rekonstrüksiyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
+      <Text>Blok kitaplığı genel bakış</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
+      <Text>İşlerin yüksekliği:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
+      <Text>Malzeme bloğu yaratılamadı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
+      <Text>Sıradaki malzeme prototipleri yenüz yaratıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
+      <Text>Mevcut yerleşimi temizlemek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
+      <Text>Yerleştirme yazılımını kapatmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueView</Keyword>
+      <Text>Yerleştirme sırası</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorLoadingFile</Keyword>
+      <Text>Dosya yüklenemedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
+      <Text>Malzeme Bloğunu değiştirmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
+      <Text>Bu blok zaten kullanımda. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
+      <Text>Malzeme açıklayıcı veya Malzeme numarası kayıp!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
+      <Text>Bir blok seçmeden malzeme kitaplığını kapatmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSelector</Keyword>
+      <Text>Malzeme seçici</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
+      <Text>Malzeme Kitaplığı Genel Bakış</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
+      <Text>Kayıp Malzeme Açıklayıcı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue</Keyword>
+      <Text>Sırayı Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowSpacer</Keyword>
+      <Text>Kumpas</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
+      <Text>Şimdi CAM Yazılımını çalıştırmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
+      <Text>Bu proje dosyalarını yerleştirme sırasından çıkarmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
+      <Text>Mevcut malzemeyi bloktan çıkarmak için, 'İşleri bloktan çıkar' tuşu önceden kullanılmalıdır. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
+      <Text>Verilen dosyada yerleştirilebilir bir parça bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
+      <Text>Mevcut sahneden yerleştirmeye verilebilecek herhangi bir yerleştirilebilir parça bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
+      <Text>Mevcut projede yerleştirilecek bir şey yok. Başka bir mevcut projeyi yerleştirmek ister misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
+      <Text>Bu işi şimdi yerleştirmek istiyor musunuz [Evet], bu işi daha sonra yerleştirmek istiyor musunuz [Hayır], veya işe devam etmek istiyor musunuz? [İptal]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueFailed</Keyword>
+      <Text>Sıralama başarısız!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
+      <Text>Dosyaya başarıyla sıralandı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingNesting</Keyword>
+      <Text>Mevcut yerleştirmeyi kaydetmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
+      <Text>Sonra tekrar işlemek için bloğu kaydetmek istiyor musunuz? Aksi takdirde blok tekrar kullanılamaz!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView.Button</Keyword>
+      <Text>Varsayılan Görünüm</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView</Keyword>
+      <Text>Varsayılan Görünüm</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DumpData</Keyword>
+      <Text>Veriyi yığ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Duplicate</Keyword>
+      <Text>Çoğalt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyObject</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FinishNesting</Keyword>
+      <Text>Yerleşimi kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
+      <Text>İşler izin verilen bölgenin dışında! Lütfen işaretli işlerimevcut Malzemenin içine yerleştirin (gerekirse 'Düzlemi ayarla' yı kapatın)!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
+      <Text>İşler bloğun dışında yer alıyor! Devam etmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNesting</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting</Keyword>
+      <Text>Yerleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNesting</Keyword>
+      <Text>Kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RestrictToZ</Keyword>
+      <Text>serbest hareket ettir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupports</Keyword>
+      <Text>Desteği sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ModifySupports</Keyword>
+      <Text>Desteği değiştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
+      <Text>Yerleştirilen iş üzerine tıklayıp Fareyi bloğun destek oluşturmak istediğiniz noktasına doğru çekerek destekleri oluşturun
+ Klavye seçenekleri:
+ - Shift: Mevcut desteği yeni bir konuma taşı (çapı güncelle)
+ - Ctrl:  Mevcut desteği sil
+ - Shift + Ctrl: İşlem sonrasında desteğin otomatik kesilmesini aç/kapat.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports</Keyword>
+      <Text>Destekleri yarat/sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
+      <Text>Nesneleri Fare ile düzenle
+ Klavye seçenekleri:
+ - Ctrl: çevir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PositionReconstructions</Keyword>
+      <Text>Fare ile düzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameter</Keyword>
+      <Text>Destek çapı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UpdateSupports</Keyword>
+      <Text>Destekleri güncelle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock</Keyword>
+      <Text>Yeniden yaplandırma etrafındaki aralığı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlockNormal</Keyword>
+      <Text>Kes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingScene</Keyword>
+      <Text>Yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNestingScene</Keyword>
+      <Text>Kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadBlock</Keyword>
+      <Text>Blok yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveBlock</Keyword>
+      <Text>Dosyaya kaydet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlock</Keyword>
+      <Text>Yeni malzeme yarat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor</Keyword>
+      <Text>Açıklayıcı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialColor</Keyword>
+      <Text>Renk:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialType</Keyword>
+      <Text>Tip:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
+      <Text>???BELİRLENEMEYENTNM???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
+      <Text>???BELİRLENEMEYENNO???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCode</Keyword>
+      <Text>Kod</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
+      <Text>Parti No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID</Keyword>
+      <Text>Blok No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
+      <Text>Lütfen Blok Numarası girin!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShrinkPercentage</Keyword>
+      <Text>% küçülme:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ScalingFactor</Keyword>
+      <Text>Boyut faktörü:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
+      <Text>Yükseklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
+      <Text>Çap:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
+      <Text>Malzeme Açısı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpace</Keyword>
+      <Text>Malzeme Boşluğu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
+      <Text>Should the transponder be destroyed? The material block can not be reused after milling!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
+      <Text>Çip (silindi)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
+      <Text>İşlem sonrasında bağlantıyı kes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Supports</Keyword>
+      <Text>Destek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowColliders</Keyword>
+      <Text>Tutucuyu göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowMachineParts</Keyword>
+      <Text>Yörüngeyi göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Stabilizer</Keyword>
+      <Text>Stabilizör</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers</Keyword>
+      <Text>Stabilize et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlockProperties</Keyword>
+      <Text>Blok özellikleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
+      <Text>Mevcut işleri dosyadan yerleştirme ile birleştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerProblem</Keyword>
+      <Text>Stabilizör yaratılamadı. Lütfen iş üzerindeki desteklerin yerlerini veya doğrultularını değiştirin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingActions</Keyword>
+      <Text>Yerleştirme faaliyetleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNestingScene</Keyword>
+      <Text>Yerleştrme sahnesini kaydet...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingScene</Keyword>
+      <Text>Yerleştirme sahnesini yükle...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingAction</Keyword>
+      <Text>Yerleştirme faaliyetleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AngledWalls</Keyword>
+      <Text>Açılı malzeme duvarları</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateMillingAngles</Keyword>
+      <Text>FREZELEME AÇILARINI HESAPLA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingOnlyFailed</Keyword>
+      <Text>Nesneler yerleştirilemiyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
+      <Text>Yerleştirme için sıraya koy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
+      <Text>Yerleştirme için sıraya koy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
+      <Text>Yerleştirme için sıraya koy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
+      <Text>Sıra</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
+      <Text>Yerleştiriyor...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
+      <Text>Yerleştiriyor...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
+      <Text>Yerleştiriyor...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
+      <Text>Yerleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestAngle</Keyword>
+      <Text>Açı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
+      <Text>Dışsal CAM hatası</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
+      <Text>CAM bitti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
+      <Text>Çalışıyor.,,</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
+      <Text>Durdu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
+      <Text>Bitir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CalculateSimulationFile</Keyword>
+      <Text>Simülasyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
+      <Text>CNC hesaplaması hala çalışıyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.HideCNCGraphics</Keyword>
+      <Text>Takım yollarını gizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
+      <Text>CNC yi tekrar yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateSupports</Keyword>
+      <Text>Destek yarat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingIsCreatingPrototypes</Keyword>
+      <Text>Boş kütüphane başlatılıyor </Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_connection combined</Keyword>
+      <Text>Birleşik bağlantı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_external connection</Keyword>
+      <Text>Dış bağlantı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained</Keyword>
+      <Text>Vida ile tutturulan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_combined</Keyword>
+      <Text>BİRLEŞİK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_interface connection</Keyword>
+      <Text>Arayüz bağlantısı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_internal connection</Keyword>
+      <Text>İç Bağlantı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_crowns</Keyword>
+      <Text>Abutmentlar/Kronlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained</Keyword>
+      <Text>Abutments/ScrewRetained</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained_and_crowns</Keyword>
+      <Text>Abutmentlar/Vida ile tutturulan/Kronlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained_and_crowns</Keyword>
+      <Text>Vida ile tutturulan/Kronlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment</Keyword>
+      <Text>ABUTMENTLAR</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_Special Strategies</Keyword>
+      <Text>ÖZEL STRATEJİLER</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl</Keyword>
+      <Text>Takım yolu görünümü kontrolü </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.Header</Keyword>
+      <Text>Takım yolu dosyası</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.CNCProcessHeader</Keyword>
+      <Text>Proses adımları </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToolCollisionCheck</Keyword>
+      <Text>Araç alanını görselleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SimulateMilling</Keyword>
+      <Text>CAM sonucu simülasyonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCView.TimeSlider</Keyword>
+      <Text>Zaman</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCToolSimulation</Keyword>
+      <Text>Simülasyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNC.ShowHideCNC</Keyword>
+      <Text>Takşm yollarını Gizle/Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNC.ShowHideTool</Keyword>
+      <Text>Takımları Gizle/Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.RevertHistory</Keyword>
+      <Text>Geri al</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteStabilizer</Keyword>
+      <Text>Sabitleyiciyi sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToggleStabilizerSide</Keyword>
+      <Text>Sabitleyici geçiş tarafı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.EnqueueForProduction</Keyword>
+      <Text>Üretimi Kuyruğa al</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControlRecoToolTip</Keyword>
+      <Text>Devre dışı bırakmak için SHIFT'e ve fareye tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterStrategyMaterial</Keyword>
+      <Text>Malzemeyi filtrele</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueMaterial</Keyword>
+      <Text>Malzeme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByMaterial</Keyword>
+      <Text>Malzemeyi filtrele</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.ByReconstructions</Keyword>
+      <Text>Tasarımlardan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.QueueHideImpossible</Keyword>
+      <Text>Gizleme çok büyük</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowAxes</Keyword>
+      <Text>Eksenleri Göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestUndercut</Keyword>
+      <Text>Mesafe (mm):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateUndercuts</Keyword>
+      <Text>Tahmini ters açılar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerUseRotationQuestion</Keyword>
+      <Text>Mevcut sabitleyici yönünü korumak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.IsSupportUsedForNextStabilizer</Keyword>
+      <Text>Sonraki sabitleyiciyi bağlayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerInvalidCannotBeSaved</Keyword>
+      <Text>Bir sabitleyici doğru oluşturulmadı ve CAM için saklanamaz. Yerleştirmeyi silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers.ToolTip</Keyword>
+      <Text>Ters yönde stabilizör yaratmak için SHIFT - Tuşunu basılı tutun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectPercentage</Keyword>
+      <Text>Yüzde kes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
+      <Text>Çip (aktif)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderReactivateQuestion</Keyword>
+      <Text>Transponder hala sağlam mı ? ve tekrar aktive edilmesi gerekiyor mu ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportPosition</Keyword>
+      <Text>Destek pozisyonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupport</Keyword>
+      <Text>Desteği sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.ToolTip</Keyword>
+      <Text>Yuvalama için hazır tüm inşaat ile pencere göster.
+İpucu: yuvalama kuyruğa dosyalarını almak için, iç içe kuyruğa eklemek için bu düğmeye üzerine explorer fare ile dosyaları sürükle / bırak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton.ToolTip</Keyword>
+      <Text>Yuvalama tüm tasarımlar kaldırmak için tıklatın.
+Iç içe boş kendisini kaldırmak için sağ tıklatın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowLegacy</Keyword>
+      <Text>Geçmişi Göster </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameterFromTopOrBottom</Keyword>
+      <Text>Çapı bırak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccuredWarningMessage</Keyword>
+      <Text>Uyarı: takım yolu hesaplama sırasında bir sorun meydana; üretim sorunları oluşabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccured</Keyword>
+      <Text>Takım yolu Sorunu </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemCancelProduction</Keyword>
+      <Text>Bu takım yolu dosyası için üretim iptal edin. (önerilir)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemContinueProduction</Keyword>
+      <Text>Takım yolu dosyası için üretimi iptal edin (tehlikeli)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.GenericCollisionOrToolSizeProblem</Keyword>
+      <Text>Çarpışma var ya da takım uzun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.Collision</Keyword>
+      <Text>Çarpışma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReactivateFixedConstruction</Keyword>
+      <Text>Değişiklik yapılması yeniden etkinleştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRevertToPreviousStateQuestion</Keyword>
+      <Text>Gerçekten önceki durumuna malzeme blok dönmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCFileName</Keyword>
+      <Text>Takım yolu dosya adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingOverview</Keyword>
+      <Text>Yerleştirme Detayları </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestedReconstructions</Keyword>
+      <Text>Yerleştirilmiş tasarımlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueFiles</Keyword>
+      <Text>Yerleştirme sırası verileri </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedUnknownMaterialBlockType</Keyword>
+      <Text>Yüklenen Boş bilinmeyen tiptedir oldu. Malzeme blok kütüphanesi güncel olabilir, ya da bu blok dosya çok eski olabilir. ('Yeni Blok Kayıt' tıklatın) deneyin yeniden kayıt türünü için lütfen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowFeatureLines</Keyword>
+      <Text>Kole tasarımlarını göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByProjectName</Keyword>
+      <Text>Proje adına göre filtrele</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNestingNestingModuleNotActivated</Keyword>
+      <Text>Hata: Yerleştirme modülü dongle üzerinde aktif değil </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSelectStrategy</Keyword>
+      <Text>Lütfen strateji seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion</Keyword>
+      <Text>Bu boş gelen malzeme kesip ve tasarımlar kaldıracaktır. Gerçek boş zaten bu konumda öğütülür emin olun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.OnlyCNC</Keyword>
+      <Text>Sadece hesaplanmış bir takım yolu var.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.All</Keyword>
+      <Text>Bütün tasarımları sil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveConstructionFromNestingThatIsInCNCQuestion</Keyword>
+      <Text>Tasarım zaten cnc dosyada. CNC dosyayı silebilir veya bloktan tasarımı çıkarabilirsiniz. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCooling</Keyword>
+      <Text>Su soğutma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineProperties</Keyword>
+      <Text>Makine özellikleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion</Keyword>
+      <Text>Su soğutma makine üzerinde etkin mi? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous</Keyword>
+      <Text>Makine ne tür kullanmalıdır?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes</Keyword>
+      <Text>Su soğutma ile</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.No</Keyword>
+      <Text>Su soğutmasız</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion.QueryMachineSoftware</Keyword>
+      <Text>Makine sorgulama yazılımı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingDefaultSetting</Keyword>
+      <Text>Su soğutmayı gizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination</Keyword>
+      <Text>Eğim sınırlarını koruyun </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination.Description</Keyword>
+      <Text>Makinenin açısı sınırları içinde eğim değiştirmek için yerleştirilmiş parçaları otomatik döndür.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination</Keyword>
+      <Text>Eğimi sıfırla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination.Description</Keyword>
+      <Text>Sıfır eğimi (mill dikey) için Sıfırla.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis</Keyword>
+      <Text>4. ekseni Sıfırla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis.Description</Keyword>
+      <Text>Otomatik olarak, makinenin 4-inci eksen olan freze eksen uyum için iç içe geçmiş parçaları döndürmek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetNestAxesButton</Keyword>
+      <Text>Eksenleri Resetle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixNestAxesQuestion</Keyword>
+      <Text>Yerleştirilmiş parçalar otomatik döndürülsünmü?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDoesNotWorkForPartsThatWereNotSaved</Keyword>
+      <Text>Yerleştirilmiş parçaların kaydedilmediğini tespit etti. Gerçekten devam etmek istiyormusunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterMaterialBlocksByMachine</Keyword>
+      <Text>Makineye göre filtre</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineIsNotConfiguredForInterop</Keyword>
+      <Text>Uyarı: Seçilen Makine exocam için yapılandırılmamış, yani takım yolu hesaplama engelli ve Yerleştirme herhangi bir makine sınırlarını bilmiyor. Seçilen makine kullanmak için yazılım desteği başvurun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineNotAvailableForToothPathCalculation</Keyword>
+      <Text>Uyarı: Seçilen Makine exocam takım yolu hesaplama ile yüklü değil. Seçilen makine kullanmak için yazılım desteği başvurun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineFromSceneFileDoesNotExist</Keyword>
+      <Text>Uyarı: Yüklenen sahne dosyasının orijinal Makine bu yazılım için yapılandırılmamış. Manuel olarak doğru makine seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInterOpImportUnknownMachinesWarning</Keyword>
+      <Text>Bilinmeyen makineler için yerleştirme uyarı verir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectedMachineTypeWasInvalid</Keyword>
+      <Text>Makine seçimini kontrol edin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachineTools</Keyword>
+      <Text>Takımları yapılandırma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConstructionTransparency</Keyword>
+      <Text>Tasarımlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSimulationTransparency</Keyword>
+      <Text>Simülasyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportInMiddle</Keyword>
+      <Text>Orta desteği kes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportOnReconstruction</Keyword>
+      <Text>Yüzeydeki desteği trimle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableCopyToClipboard</Keyword>
+      <Text>Panoya kopyalayın. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTable</Keyword>
+      <Text>Takım tablosu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableEmpty</Keyword>
+      <Text>Boş takım tablosu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FreeToolSlot</Keyword>
+      <Text>- Serbest -</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolSetConfigurationName</Keyword>
+      <Text>Takım yapılandırma adı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCreateNew</Keyword>
+      <Text>Yeni yapılandırma oluştur </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDelete</Keyword>
+      <Text>Yapılandırmayı sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSlot</Keyword>
+      <Text>Takım yuvası </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolName</Keyword>
+      <Text>Takımın adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolType</Keyword>
+      <Text>Takımın şekli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDiameter</Keyword>
+      <Text>Takımın çapı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolFluteLength</Keyword>
+      <Text>Takımın kesme uzunluğu (çalışma alanı)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftLength</Keyword>
+      <Text>Takımın şaft uzunluğu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameter</Keyword>
+      <Text>Takımın şaft çapı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLength</Keyword>
+      <Text>Takımın uzunluğu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolArbor</Keyword>
+      <Text>Takımın mili (çalışma alanı geometrisi)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolInvalidArborWarning</Keyword>
+      <Text>Uyarı: Takım mili geçersiz görünüyor. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLengthIncompatible</Keyword>
+      <Text>Uyarı: Takım uzunluğu mevcut makine ile uyumlu değil gibi görünüyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameterIncompatible</Keyword>
+      <Text>Uyarı: Takımın şaft çapı mevcut makine ile uyumlu değil gibi görünüyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDescription</Keyword>
+      <Text>Takım tanımı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReplace</Keyword>
+      <Text>Makinede takımı değiştirin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAdd</Keyword>
+      <Text>Makineye takım ekleyin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetRemove</Keyword>
+      <Text>Takımı sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetUp</Keyword>
+      <Text>Yukarı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDown</Keyword>
+      <Text>Aşağı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAccept</Keyword>
+      <Text>Yapılandırmayı kabul et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReject</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseEnterMachineToolSetConfigurationName</Keyword>
+      <Text>Aracı yapılandırmak için açıklama girin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidMachineToolSetConfiguration</Keyword>
+      <Text>Geçersiz makine yapılandırmasını ayarlayın. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WarningMachineToolIsIncompatibleToMachine</Keyword>
+      <Text>Uyarı: Bu ​​araç konfigürasyonu, makine (örneğin geçersiz Takım uzunlukları veya mil çapı) ile uyumlu değil gibi görünüyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineToolSetConfiguration</Keyword>
+      <Text>Takım tezgahı yapılandırması</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DuplicateMachineToolError</Keyword>
+      <Text>Bu takım, zaten takım yapılandırılmasında kullanılıyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCloneQuestion</Keyword>
+      <Text>Varolan yapılandırmanın bir kopyasını oluşturmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteMachineConfigurationQuestion</Keyword>
+      <Text>Gerçekten mevcut yapılandırmaları silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMachineToolInLibrary</Keyword>
+      <Text>Takım oluştur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMachineToolFromLibrary</Keyword>
+      <Text>Takımı sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloneMachineToolFromLibrary</Keyword>
+      <Text>Clone takımı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolWithSameNameAlreadyExists</Keyword>
+      <Text>Aynı adı taşıyan bir takım zaten var.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveMachineToolQuestion</Keyword>
+      <Text>Gerçekten kütüphaneden takımı kaldırmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolEditor</Keyword>
+      <Text>Takım tezgahı editörü </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetConfigurator</Keyword>
+      <Text>Tezgah Yapılandırmalarını ayarlayın </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolLibraryView</Keyword>
+      <Text>Takımı kütüphanede Göster/Gizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineToolSettings</Keyword>
+      <Text>Takımın paremetre tanımı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteMachineConfigurationQuestion</Keyword>
+      <Text>Seçili makine yapılandırmasını silmek istiyor musunuz? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverwriteMachineConfigurationQuestion</Keyword>
+      <Text>Seçili makine yapılandırması üzerine kaydetmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingMachineToolPathCalculationBy</Keyword>
+      <Text>takım yolu tarafından </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCStrategyParameter</Keyword>
+      <Text>Strateji parametreleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButton</Keyword>
+      <Text>İçe aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButtoningQueue.ToolTip</Keyword>
+      <Text>Yuvalama sıra kullanmadan yuvalama dışında inşa dosyaları doğrudan manuel.
+İpucu: Ayrıca bu düğmeye üzerine veya doğrudan ithalat başlatmak için 3d-yuvalama içine sürükleyin / explorer fare ile dosyaları bırakabilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportNotPossibleForSelectedFiles</Keyword>
+      <Text>Yerleştirmeye aktarma seçilen dosya türleri herhangi biri için mümkün değildir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarning</Keyword>
+      <Text>Sorunları yuvalama için dış veri dışa atım sırasında oluştu.
+Bu işleme içe atılan kısmına tavsiye edilmez.
+Kendi risk devam!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportError</Keyword>
+      <Text>Hatalar yuvalama için dış veri ithalat sırasında oluştu. Ne yazık ki, İthalat bu veri seti için mümkün değildir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportTypeContextMenu</Keyword>
+      <Text>İçe aktarma tipi:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarningContextMenu</Keyword>
+      <Text>İçe aktarma uyarısı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FoundInvalidSupportsReallyContinue</Keyword>
+      <Text>Yuvalama geçersiz destekler (Kırmızı renk ile işaretli) vardır.
+Devam ederseniz, size takım yolu hesaplama ya da kötü öğütme sonuçları sırasında hata alabilirsiniz.
+
+Eğer gerçekten devam etmek istiyor musunuz? (önerilmez)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed</Keyword>
+      <Text>4 Eksenli düzenlemeye tut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed.ToolTip</Keyword>
+      <Text>Aktive edilmiş ise, yazılım, makinenin eksenine sınırlı inşaat eksenleri kılavuzu rotasyonlar relativ izin vermez.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AbutmentTop</Keyword>
+      <Text>Custom Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CrownBottom</Keyword>
+      <Text>Crown</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InlayBottom</Keyword>
+      <Text>Inlay/Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.BiteSplint</Keyword>
+      <Text>BiteSplint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ReducedWaxup</Keyword>
+      <Text>ReducedWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Attachment</Keyword>
+      <Text>Attachment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.PrimaryTelescope</Keyword>
+      <Text>Telescope</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AnatomicWaxup</Keyword>
+      <Text>AnatomicWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Coping</Keyword>
+      <Text>Coping</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CylinderCutting</Keyword>
+      <Text>Screw Channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantDescriptor</Keyword>
+      <Text>Implant Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutHex</Keyword>
+      <Text>OutHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InHex</Keyword>
+      <Text>InHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutNoHex</Keyword>
+      <Text>OutNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InNoHex</Keyword>
+      <Text>InNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceConical</Keyword>
+      <Text>InterfaceConical</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceParallel</Keyword>
+      <Text>InterfaceParallel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Manual</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeContextMenu</Keyword>
+      <Text>Ters açıları görselleştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeRefreshAllQuestion</Keyword>
+      <Text>Artık tüm iç içe geçmiş yapılar için undercut'lar görselleştirmek istiyor musunuz?
+İpucu: Her zaman fare bağlam menü seçeneğini kullanarak bir inşaat görselleştirme yenileyebilirsiniz: 'Visualize Undercut'lar'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockSlotNumber</Keyword>
+      <Text>Tutucu Yuvası seçiniz </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
+      <Text>Slot ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowEditReconstructionControlContextMenu</Keyword>
+      <Text>Tasarım Parametrelerini Düzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.Title</Keyword>
+      <Text>Yerleştirilmiş Tasarım Parametrelerini Düzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.ClosingQuestion</Keyword>
+      <Text>Yeniden yapılandırma penceresini kapat ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.AcceptChanges</Keyword>
+      <Text>Mevcut yerleştirmede tüm değişiklikleri kabul et ve kullan.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.RejectChanges</Keyword>
+      <Text>Reddet ve tüm değişiklikleri geri al.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180</Keyword>
+      <Text>180 derece döndür</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180.Description</Keyword>
+      <Text>180 derece z-Eksen etrafında döndürün. boyutunu geliştirmek ancak 4-eksen sınırlarını tutmak için.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingImportObject</Keyword>
+      <Text>Yerleştirilmiş tasarımları içe aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickOnNestingPreparationMargin</Keyword>
+      <Text>Koleye tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection1</Keyword>
+      <Text>Tanımlamak için en az dört nokta seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection2</Keyword>
+      <Text>Koledeki dizayn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingPreparationMargin.FoundLine</Keyword>
+      <Text>Bulunan kole</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingPreparationMargin.Title</Keyword>
+      <Text>Yerleştirme ithalat marjı tespit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowInExplorer</Keyword>
+      <Text>Explorer göster </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowOverview</Keyword>
+      <Text>Genel bilgileri göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.PrintOverview</Keyword>
+      <Text>Genel bilgileri yazdır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnail</Keyword>
+      <Text>Yuva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot1</Keyword>
+      <Text>Merkez - 1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot2</Keyword>
+      <Text>Sol - 2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot3</Keyword>
+      <Text>Sağ - 3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UndefinedReconstructionType</Keyword>
+      <Text>Bilinmeyen/desteklenmeyen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox</Keyword>
+      <Text>Tasarlanmış yeniden yapılanma türünü seçin. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox.CurrentSelected</Keyword>
+      <Text>Güncel tip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChangeConstructionType</Keyword>
+      <Text>Dizayn tipini değiştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowEditMarginByMouse</Keyword>
+      <Text>Fare ile koleyi düzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AddNewPreparationMarginToReconstructionQuestion</Keyword>
+      <Text>Eğer inşa tasarım için belirlenen marj kabul etmek istiyor musunuz? Bu işlem geri alınamaz, ama hazırlık marjı ve yerleştirme yönünü daha sonra düzeltilebilir lütfen unutmayın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PreparationMarginBottom</Keyword>
+      <Text>Dip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetNoneButton.Text</Keyword>
+      <Text>Sadece göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetInsertionDirectionButton.Text</Keyword>
+      <Text>Giriş açısını belirle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_ModifyMarginsButton.Text</Keyword>
+      <Text>Koleyi değiştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_AddPreparationMarginButton.Text</Keyword>
+      <Text>Kole ekle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetOcclusalDirectionButton.Text</Keyword>
+      <Text>Oklüzal yönü ayarla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditReconstructionHeader</Keyword>
+      <Text>CAM için dosyayı içe aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromAxisZ</Keyword>
+      <Text>Z eksenini kullan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ObjectLoadedWithoutMargins</Keyword>
+      <Text>Uyarı: Marj hat / eksen bilgileri eksik.
+
+Bu sorunu önlemek için: STL dosyaları kopyalarken,
+Ayrıca eşlik eden dosyaları eklemeyi unutmayın
+Bu aynı dizinde,:
+
+*. constructionInfo, *. pol, *. artan, *. cam, *. xml
+
+Geçici bir çözüm olarak, artık elle tanımlamanız gerekir
+"Ekle marjın" düğmesini kullanarak kenar çizgi
+aşağıda.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSetInsertionDirectionHelp</Keyword>
+      <Text>Aşağıdaki düğmeleri kullanarak ekleme yönünü ayarlama:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp</Keyword>
+      <Text>Lütfen kole çizgilerinin doğru
+ayarlandığından emin olun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowBlock</Keyword>
+      <Text>Blok göster </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingValueFromInterop</Keyword>
+      <Text>(Interop)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingViewRotationAngle</Keyword>
+      <Text>Dönme açısını göster </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowClosingQuestion</Keyword>
+      <Text>Uygulamayı kapatmak ya da çalışan CAD ​​yapımına dönmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowReturnToCAD</Keyword>
+      <Text>CAD'e dön</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion</Keyword>
+      <Text>Yerleştirme görüntüsünü saklamak istiyormusunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion.Title</Keyword>
+      <Text>Yerleştirmeyi kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined</Keyword>
+      <Text>Tüm tasarım türleri henüz tanımlanmadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Description</Keyword>
+      <Text>Not: tüm tasarım türlü tanımlanır zaman İmar Yerleştirme ithal edilemez.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Ignore</Keyword>
+      <Text>Önceki tüm tasarım bilgilerini atmak istediğinizden emin misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.AddMargin</Keyword>
+      <Text>Kenar boşlukları şimdi yapabilirsiniz Fareyle tıklayarak tanımlayabilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.ModifyMargins</Keyword>
+      <Text>Mevcut koleleri fare ile modifiye edebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetInsertion</Keyword>
+      <Text>Ekleme tarifi olabilir okları sürükleyerek değiştirilebilir a da aşağıdaki üç düğmeyi kullanarak değiştirebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetOcclusal</Keyword>
+      <Text>İkincil freze tarifi okları sürükleyerek değiştirilebilir ya da aşağıdaki üç düğmeyi kullanarak değiştirebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button.Tooltip</Keyword>
+      <Text>Yerleştirmeyi aç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessorControls.CNCPathControl.Title</Keyword>
+      <Text>Takım yolları</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Abutment</Keyword>
+      <Text>Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.InsideHex</Keyword>
+      <Text>Vida içinde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.WithoutHex</Keyword>
+      <Text>Vida olmadan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OcclusalBridge</Keyword>
+      <Text>Oklüzal Köprü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FixNestAxes</Keyword>
+      <Text>Eksenleri Sabitle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ExtraStrategySelection</Keyword>
+      <Text>Ekstra strateji seçimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingView</Keyword>
+      <Text>Yerleştirme görünümü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BlockOutAngle</Keyword>
+      <Text>Doldurma açısı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OutsideHex</Keyword>
+      <Text>Vida dışında</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock.Title</Keyword>
+      <Text>Kes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateCNCFiles</Keyword>
+      <Text>CNC DOSYASI YARAT</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.S</Keyword>
+      <Text>Yapılandır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButtonPremium</Keyword>
+      <Text>PREMIUM PLASTİK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeBasicButton</Keyword>
+      <Text>BASİT PLASTİK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButton</Keyword>
+      <Text>BASİT</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderLength</Keyword>
+      <Text>Uzunluk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Material</Keyword>
+      <Text>Malzeme:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpecialStrategySelection</Keyword>
+      <Text>Özel strateji seç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Standart</Keyword>
+      <Text>Standart</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StandardStrategySelection</Keyword>
+      <Text>Standart stratejiyi seç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderStatus</Keyword>
+      <Text>Durum</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSpecialStrategySelector</Keyword>
+      <Text>{0} için strateji seç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyButton</Keyword>
+      <Text>Strateji Seç.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaxButton</Keyword>
+      <Text>MUM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNCFileWithDifferentBlockInNesting</Keyword>
+      <Text>CNC dosyasını başka bir malzeme bloğu ile göster.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ZirkonButton</Keyword>
+      <Text>ZİRKONYA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishederrorMessage</Keyword>
+      <Text>CAM yazılımı HATASI!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueButtons</Keyword>
+      <Text>Yerleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantGeometry</Keyword>
+      <Text>ImplantGeometry</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialCommands</Keyword>
+      <Text>? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlockQuestion</Keyword>
+      <Text>Malzeme bloğu içe aktarılmasın?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialColor</Keyword>
+      <Text>Renk Seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SlotsInProductionQueue</Keyword>
+      <Text>Yuvalar üretim sırasında</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Bar</Keyword>
+      <Text>Bar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionSelector</Keyword>
+      <Text>Dizayn seçimi:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DirectoriesWithNoValidDataDetectedDeleteQuestion</Keyword>
+      <Text>Yerleştirme kütüphane directoriesthat yuvalama için geçerli bir veri içeren tespit. Eğer bundan dolayı aşağıdaki dizinleri silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion</Keyword>
+      <Text>Mevcut yerleştirme geçerli değil ve kaydedilemez.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard</Keyword>
+      <Text>Mevcut yerleştime değişikliklerini atın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard.Description</Keyword>
+      <Text>Mevcut yerleştirmediki tüm değişiklikler kaybolacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel.Description</Keyword>
+      <Text>Manuel düzeltmek için mevcut yerleştirmeyi tutun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineSelectorNoMachineAvailable</Keyword>
+      <Text>Makine yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndDiscardCurrentConstructions</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndDiscardCurrentConstructions.Description</Keyword>
+      <Text>Mevcut yerleştirmeyi saklayın. Yerlleştirimiş parçaları yeni malzeme bloğuna aktarılamaz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndKeepCurrentConstructions</Keyword>
+      <Text>Evet, ve yeni yerleştirilmiş parçaları aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndKeepCurrentConstructions.Description</Keyword>
+      <Text>Yerleştirilmiş parçaları kaydetmeden bırak ve yeni malzeme bloğuna parçaları aktar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SetCurrentNotPossibleWithCurrentLoadedBlock</Keyword>
+      <Text>"Şu Set" şu anda yüklü boş ile mümkün değildir. Hiçbir blok aynı kimlik olduğu iç içe yerleştirildiğinde daha sonra tekrar deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.ReconstructionType</Keyword>
+      <Text>CAM-OtomatikAlgılama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Description</Keyword>
+      <Text>Uyarı: Otomatik algılama otomatik takım yolu hesaplama sırasında Plath alır, böylece kullanıcılar ne otomatik tespit tasarımları etkilemek veya değiştirmek, kontrol edebilirsiniz.
+Bu nedenle, bu özelliği kullanmak için tavsiye edilmez, eğer diğer dosya import mümkün örneğin bir . constructionInfo, sahne,. art. puan veya benzer dosyaları kullanarak veya manuel hazırlama marjları ve yeniden türleri tanımlayarak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Question</Keyword>
+      <Text>Gerçekten CAM'de Otomatik algılama kullanmak istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingMergePartEngineBuildLabel</Keyword>
+      <Text>Birleştirilmiş: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Text</Keyword>
+      <Text>CAM'de Otomatik algılama</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

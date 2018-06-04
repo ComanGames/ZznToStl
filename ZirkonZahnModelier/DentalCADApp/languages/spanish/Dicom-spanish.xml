@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
+      <Text>Vista Dicom</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.CloseToolWindowsQuestion</Keyword>
+      <Text>¿Desea realmente cerrar el visor Dicom?. Todos los datos Dicom cargados se descargarán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Data</Keyword>
+      <Text>Elección de datos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.View</Keyword>
+      <Text>Vista</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SurfaceGeneration</Keyword>
+      <Text>Triangulación</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Patients</Keyword>
+      <Text>Pacientes:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.PatientName</Keyword>
+      <Text>Nombre del paciente:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SlicesAvailable</Keyword>
+      <Text>Datos gráficos disponibles:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SlicesCount</Keyword>
+      <Text>Número de capas:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FileName</Keyword>
+      <Text>Nombre del archivo:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Description</Keyword>
+      <Text>Nombre</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Value</Keyword>
+      <Text>Valor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Comment</Keyword>
+      <Text>Comentarios:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Study</Keyword>
+      <Text>Estudio:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Series</Keyword>
+      <Text>Series gráficas:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectDicom</Keyword>
+      <Text>Seleccionar datos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadDicom</Keyword>
+      <Text>Cargar datos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadDicom.ToolTip</Keyword>
+      <Text>Mantener Ctrl+Shift pulsado para cargar sólo la selección</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnloadDicom</Keyword>
+      <Text>Cerrar datos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.CancelDataLoad</Keyword>
+      <Text>Cancelar carga</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRay</Keyword>
+      <Text>Rayos-X</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Isosurface</Keyword>
+      <Text>Superficie equipotencial</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Media</Keyword>
+      <Text>Media</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Options</Keyword>
+      <Text>Opciones</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.UsePreviewMode</Keyword>
+      <Text>Previsualizar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.VoxelSize</Keyword>
+      <Text>Tamaño Voxel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Registration</Keyword>
+      <Text>Registro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Clip</Keyword>
+      <Text>Planos de sección</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
+      <Text>Introducir aquí la matriz del registro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Inverse</Keyword>
+      <Text>Invertir matriz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Min</Keyword>
+      <Text>Mínimo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Max</Keyword>
+      <Text>Máximo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.UseGradientMode</Keyword>
+      <Text>Utilizar textura gradiente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SurfaceType</Keyword>
+      <Text>Tipo de malla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FaceSurface</Keyword>
+      <Text>Cara</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.GingivaSurface</Keyword>
+      <Text>Encía</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.TeethSurface</Keyword>
+      <Text>Dientes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.BoneSurface</Keyword>
+      <Text>Hueso</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.GenerateSurface</Keyword>
+      <Text>Generar malla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.DeleteSurface</Keyword>
+      <Text>Borrar malla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FlipSurface</Keyword>
+      <Text>Intercambiar parte interior/exterior</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.ToogleLookThrough</Keyword>
+      <Text>Activar a través de</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.LastGeneratedSurface</Keyword>
+      <Text>Última malla generada</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Preview</Keyword>
+      <Text>Vista previa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Solid</Keyword>
+      <Text>Sólido</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.XRay</Keyword>
+      <Text>Valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.Solid</Keyword>
+      <Text>Valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.Iso</Keyword>
+      <Text>Valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.Media</Keyword>
+      <Text>Valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold.Iso</Keyword>
+      <Text>Valor umbral secundario</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold.Media</Keyword>
+      <Text>Valor umbral secundario</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold.Solid</Keyword>
+      <Text>Valor umbral secundario</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity.XRay</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity.Iso</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity.Media</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth.Media</Keyword>
+      <Text>Filtro de anchura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth.Solid</Keyword>
+      <Text>Filtro de anchura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent.Media</Keyword>
+      <Text>Filtro de exponente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
+      <Text>Ajusta la barra de desplazamiento de umbral al valor de referencia del aire actual</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
+      <Text>Ajusta la barra de desplazamiento de umbral al valor de referencia del tejido blando actual</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
+      <Text>Ajusta la barra de desplazamiento de umbral al valor de referencia del hueso actual</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
+      <Text>Ajusta la barra de desplazamiento de umbral al valor de referencia de los dientes actual</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
+      <Text>Aire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToTissueReferenceButton.Text</Keyword>
+      <Text>Tejido blando</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToBoneReferenceButton.Text</Keyword>
+      <Text>Hueso</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToToothReferenceButton.Text</Keyword>
+      <Text>Diente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
+      <Text>Ajuste</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
+      <Text>Ajusta la barra de desplazamiento de umbral a su valor predeterminado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToThresholdReferenceButton.Text</Keyword>
+      <Text>Umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ResultInformationGroupBoxHeader</Keyword>
+      <Text>Información de resultados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageBelowLabelContent</Keyword>
+      <Text>Tolerancia inferior:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageInsideLabelContent</Keyword>
+      <Text>Tolerancia interior:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageAboveLabelContent</Keyword>
+      <Text>Tolerancia superior:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.IsoOptions</Keyword>
+      <Text>Opciones isosuperficie</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRayOptions</Keyword>
+      <Text>Opciones rayos X</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaOptions</Keyword>
+      <Text>Opciones multimedia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidOptions</Keyword>
+      <Text>Opciones de sólido</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaCustomOptions</Keyword>
+      <Text>Opciones multimedia (usuario)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaCustom</Keyword>
+      <Text>Multimedia (usuario)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.MediaCustom</Keyword>
+      <Text>Umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity.MediaCustom</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
+      <Text>Marrón</Text>
+    </Translation>
+    <Translation>
+      <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
+      <Text>Verde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClearReferencesButton_Tooltip</Keyword>
+      <Text>¿Eliminar las referencias establecidas actualmente?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold</Keyword>
+      <Text>Valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold</Keyword>
+      <Text>Valor umbral secundario</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth</Keyword>
+      <Text>Filtro de anchura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent</Keyword>
+      <Text>Filtro de exponente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomViewerMediaGraphicMemoryWarningMessage</Keyword>
+      <Text>Dispone de menos de los 2GB de memoria de video recomendados para poder utilizar el modo multimedia. ¿Desea continuar de todos modos?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomViewerMediaGraphicMemoryWarningCaption</Keyword>
+      <Text>Alerta de memoria de video</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.BoneDensityReferences</Keyword>
+      <Text>Referencias de densidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.StartBoneDensityReferenceDefinitionProcessor</Keyword>
+      <Text>Inicio definición de referencia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Window</Keyword>
+      <Text>Ventana:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRayBlacklevel</Keyword>
+      <Text>Umbral de ruido</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRayDensity</Keyword>
+      <Text>Densidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.IsoPrimaryThreshold</Keyword>
+      <Text>Umbral de superfície</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.IsoSecondaryThreshold</Keyword>
+      <Text>Segundo umbral de superfície</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.IsoPrimaryOpacity</Keyword>
+      <Text>Opacidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaThreshold</Keyword>
+      <Text>Umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaDenseThreshold</Keyword>
+      <Text>Material denso</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaScale</Keyword>
+      <Text>Suavidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaExponent</Keyword>
+      <Text>Dureza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaDensity</Keyword>
+      <Text>Densidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidHighlightValue</Keyword>
+      <Text>Resaltar dureza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidHighlightWidth</Keyword>
+      <Text>Resaltar borrosidad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidFalseColorGradientContrast</Keyword>
+      <Text>Aumentar contraste de bordes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidFalseColorOptions</Keyword>
+      <Text>Opciones de sólido (natural)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidFalseColor</Keyword>
+      <Text>Sólido (natural)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.UseStippleAlpha</Keyword>
+      <Text>Usar semitransparencia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultipleDicomSeries</Keyword>
+      <Text>El conjunto de archivos DICOM contiene varias series. Por favor elija de la lista la que desea visualizar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultipleDicomSeries.Title</Keyword>
+      <Text>DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSeriesNotFound</Keyword>
+      <Text>No se han podido encontrar las series DICOM. Quizá se haya cargado un conjunto de archivos incorrecto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSeriesNotFound.Title</Keyword>
+      <Text>DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetNotFound</Keyword>
+      <Text>No se ha podido encontrar el conjunto de archivos DICOM asociado a esta escena.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LocateDicomFilesetManually</Keyword>
+      <Text>Buscar manualmente el conjunto de archivos DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProceedWithoutDicom</Keyword>
+      <Text>Continuar sin DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoClosingWhileLoadingDicom.Title</Keyword>
+      <Text>DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetAssociatedWithProjectNotFound</Keyword>
+      <Text>No se ha podido encontrar el conjunto de archivos DICOM asociado a esta proyecto.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.CustomWindowRangeSliderDescription</Keyword>
+      <Text>Ventana DICOM personalizada</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetEmpty</Keyword>
+      <Text>El conjunto de archivos seleccionado no contiene ningún dato DICOM utilizable.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSurfaceGenerationOutOfMemory</Keyword>
+      <Text>Ha fallado la generación de superfícies debido a un problema de falta de memoria.
+Consejo: El motivo podría ser un ajuse incorrecto de algún valor de IsoSuperfície en el control de vista de Dicom.
+      Intente modificar el umbral para evitar visualizar elementos con ruido.
+
+      Durante el registro, intente modificar el umbral para visualizar únicamente las superfícies de dientes correctas</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSurfaceGenerationNoDataCreated</Keyword>
+      <Text>La generación de superfícies no ha genrado ningún dato.
+Consejo: El motivo podría ser un ajuse incorrecto de algún umbral en el control de vista de Dicom.
+      Intente modificar el umbral de IsoSuperfície para asegurarse de que  los datos correctos son visibles en el visor dicom.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSeriesFromProjectAlreadyLoaded</Keyword>
+      <Text>Las series cargadas actualmente se corresponden con una serie del conjunto de archivos DICOM asociado al proyecto, que fué ignorada.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomSeriesFromProjectAlreadyLoaded.Title</Keyword>
+      <Text>DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetConflictOnLoadProject</Keyword>
+      <Text>Se ha cargado un conjunto de archivos DICOM, pero el proyecto viene con su propio conjunto de archivos DICOM.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetConflictOnLoadProject.Replace</Keyword>
+      <Text>Usar el conjunto de archivos DICOM asociado con el proyecto (recomendado)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomFilesetConflictOnLoadProject.Keep</Keyword>
+      <Text>Conservar el conjunto de archivos DICOM cargado actualmente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomLoadFilesErrorFew</Keyword>
+      <Text>Los siguientes archivos no se han podido leer, ya que no parecen ser archivos apropiados de DICOM: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomLoadFilesErrorMany</Keyword>
+      <Text>Los siguientes archivos no se han podido leer, ya que no parecen ser archivos apropiados de DICOM: {0} y {1} más</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomMultipleFilesInludeDicomdir</Keyword>
+      <Text>El conjunto de archivos especificado incluye el archivo de directorio "{0}". Pro favor, seleccione exclusivamente este archivo individual.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomReferencedFileNotFound</Keyword>
+      <Text>No se ha podido abrir el archivo {0} referenciado para el directorio DICOM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomBadSliceSpacing</Keyword>
+      <Text>La serie tiene un espaciado entre imágenes incorrecto, por tanto no se va a poder visualizar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomInconsistentOrientation</Keyword>
+      <Text>La serie tiene orientaciones de imagen inconsistentes y por tanto no se puede visualizar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomReferencedFileIsInvalid</Keyword>
+      <Text>El archivo {0} referenciado desde DICOMDIR no es válido.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.RestrictThreshold</Keyword>
+      <Text>Retener el valor umbral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaModeWarning.Title</Keyword>
+      <Text>Aviso sobre el Rendimiento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaModeWarning</Keyword>
+      <Text>Media may be very slow or even malfunction depending on the graphics hardware and driver, and it may take significant time to initialize.
+El fichero multimedia puede cargarse muy lentamente, o incluso tener un comportamiento inesperado, dependiendo del driver y el hardware de gráficos. Puede tardar en inicializarse un tiempo considerable.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaModeIgnoreWarning</Keyword>
+      <Text>Activar multimedia de todos modos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaModeCancel</Keyword>
+      <Text>Cancelar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DicomPleaseSelectTypeOfSurface</Keyword>
+      <Text>Por favor, seleccione el tipo de superfície DICOM.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VoxelationObject.CreateVolumeTextureFailed</Keyword>
+      <Text>No se ha podido transferir los datos de volumen al procesador gráfico:</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

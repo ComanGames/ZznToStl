@@ -1,0 +1,2082 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved</Keyword>
+  <Text>由于项目文件夹命名允许同一文件夹中的储存多个项目文件， 
+删除一个项目文件数据会删除同一个文件夹里其他的项目文件数据。</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Remove</Keyword>
+  <Text>删除项目文件中的数据</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Description</Keyword>
+  <Text>删除此项目所有的项目文件数据包括文件夹。</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>Yes</Keyword>
+  <Text>是</Text>
+</Translation>
+<Translation>
+  <Keyword>No</Keyword>
+  <Text>否</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.NewTextualParameterForToothWork</Keyword>
+  <Text>由于上次更新，工作牙齿添加了一个或多个新的文本参数。 
+这些参数没有添加到其他的文本参数。 
+如果要添加此文本参数，你必须重新创建牙齿工作。 
+参数表： 
+{0}</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.NewNumericParameterForToothWork</Keyword>
+  <Text>由于上次更新此工作牙齿添加了一个或多个新的数字参数。 
+这些参数没有添加到其他数字参数。 
+如果要添加此参数，你必须重新创建牙齿工作。 
+参数列表： 
+{0}</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.NewMaterialParameterForToothWork</Keyword>
+  <Text>由于上次更新此牙齿添加了新的材料属性“{0}”。 
+它已经与其他的材料属性出现在列表数值“{1}”。 
+如果你不点击“保存”此新材料的属性将不会被应用到此牙齿工作。</Text>
+</Translation>
+<Translation>
+  <Keyword>QueueDirNotExist</Keyword>
+  <Text>特定的队列目录“{0}”不存在。</Text>
+</Translation>
+<Translation>
+  <Keyword>Legend.Treatment.TimeLine</Keyword>
+  <Text>说明</Text>
+</Translation>
+<Translation>
+  <Keyword>MaterialAbutment.DependentParameter</Keyword>
+  <Text>基台材料</Text>
+</Translation>
+<Translation>
+  <Keyword>TimeInterval.Today</Keyword>
+  <Text>今天</Text>
+</Translation>
+<Translation>
+  <Keyword>TimeInterval.ThisWeek</Keyword>
+  <Text>本周</Text>
+</Translation>
+<Translation>
+  <Keyword>TimeInterval.LastWeek</Keyword>
+  <Text>上周</Text>
+</Translation>
+<Translation>
+  <Keyword>TimeInterval.Older</Keyword>
+  <Text>旧数据</Text>
+</Translation>
+<Translation>
+  <Keyword>Color.MaterialProperty</Keyword>
+  <Text>颜色</Text>
+</Translation>
+<Translation>
+  <Keyword>AboutWindow</Keyword>
+  <Text>关于</Text>
+</Translation>
+<Translation>
+  <Keyword>SettingsWindow</Keyword>
+  <Text>设置</Text>
+</Translation>
+<Translation>
+  <Keyword>WorkParamsDBInitError</Keyword>
+  <Text>材料配置数据库初始化时发生错误。 
+错误详细信息： 
+{0}</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicCrown.WorkDescription</Keyword>
+  <Text>解剖全冠</Text>
+</Translation>
+<Translation>
+  <Keyword>Coping.WorkDescription</Keyword>
+  <Text>解剖内冠</Text>
+</Translation>
+<Translation>
+  <Keyword>OffsetCoping.WorkDescription</Keyword>
+  <Text>内冠</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicPontic.WorkDescription</Keyword>
+  <Text>解剖缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedPontic.WorkDescription</Keyword>
+  <Text>回切缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicInlay.WorkDescription</Keyword>
+  <Text>高嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedInlay.WorkDescription</Keyword>
+  <Text>回切嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>PrimaryTelescope.WorkDescription</Keyword>
+  <Text>套筒冠第一层</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressCrown.WorkDescription</Keyword>
+  <Text>铸瓷牙冠</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressPontic.WorkDescription</Keyword>
+  <Text>铸瓷缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicWaxup.WorkDescription</Keyword>
+  <Text>蜡型</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedWaxup.WorkDescription</Keyword>
+  <Text>回切蜡型</Text>
+</Translation>
+<Translation>
+  <Keyword>WaxupPontic.WorkDescription</Keyword>
+  <Text>蜡型缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>MissingTooth.WorkDescription</Keyword>
+  <Text>天然缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>Antagonist.WorkDescription</Keyword>
+  <Text>对颌牙</Text>
+</Translation>
+<Translation>
+  <Keyword>HealthyTooth.WorkDescription</Keyword>
+  <Text>邻牙</Text>
+</Translation>
+<Translation>
+  <Keyword>PrettauBridge.WorkDescription</Keyword>
+  <Text>生物仿真牙桥</Text>
+</Translation>
+<Translation>
+  <Keyword>Attachment.WorkDescription</Keyword>
+  <Text>精密附着体阳件</Text>
+</Translation>
+<Translation>
+  <Keyword>OffsetInlay.WorkDescription</Keyword>
+  <Text>嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>CustomBar.WorkDescription</Keyword>
+  <Text>杆卡</Text>
+</Translation>
+<Translation>
+  <Keyword>BarPillar.WorkDescription</Keyword>
+  <Text>杆卡支柱</Text>
+</Translation>
+<Translation>
+  <Keyword>BarPillar.WorkDescriptionPrint</Keyword>
+  <Text>
+        杆卡
+        支柱</Text>
+</Translation>
+<Translation>
+  <Keyword>BarSegment.WorkDescription</Keyword>
+  <Text>杆卡桥段</Text>
+</Translation>
+<Translation>
+  <Keyword>BarSegment.WorkDescriptionPrint</Keyword>
+  <Text>
+        杆卡
+        桥段</Text>
+</Translation>
+<Translation>
+  <Keyword>Duplicate.FilterGroupInfoFileParseError</Keyword>
+  <Text>
+      在解析复制组群信息文件过滤器时出错。 
+
+        文件路径：{0} 
+
+
+        错误详细信息： 
+        {1}</Text>
+</Translation>
+<Translation>
+  <Keyword>Duplicate.FilterGroupInfoFileNotFound</Keyword>
+  <Text>找不到复制组群信息文件过滤器的路径{0}。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Header</Keyword>
+  <Text>选择项目文件复制</Text>
+</Translation>
+<Translation>
+  <Keyword>SelectFilesToCopyOnDuplicate</Keyword>
+  <Text>复制项目文件</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Ok</Keyword>
+  <Text>确定</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.AddLabFirst</Keyword>
+  <Text>         
+        你导入的没有实验室信息的路径已在数据库中找到。 
+        请填写以下表格创建新的实验室和指定的ID。 
+        若要继续而无需创建新的实验室，并分配工作导入到其它实验室 
+        只需关闭该窗口。</Text>
+</Translation>
+<Translation>
+  <Keyword>CreateLaboratory</Keyword>
+  <Text>创建技工所并继续</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers</Keyword>
+  <Text>此诊所的编号和名称已经存在。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting</Keyword>
+  <Text>替换已存在的信息</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting.Description</Keyword>
+  <Text>用导入的牙科项目提供的名称替换现有的名字称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent</Keyword>
+  <Text>保留原有的名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent.Description</Keyword>
+  <Text>保留已存在的诊所名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel</Keyword>
+  <Text>取消导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel.Description</Keyword>
+  <Text>取消导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.CreatePractice</Keyword>
+  <Text>诊所名不存在</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.CreatePractice.Create</Keyword>
+  <Text>新建诊所</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.CreatePractice.Create.Description</Keyword>
+  <Text>使用项目文件特定的数据新建诊所</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.CreatePractice.Cancel</Keyword>
+  <Text>取消导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.CreatePractice.Cancel.Description</Keyword>
+  <Text>取消导入项目文件无法被加载</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.ImportSuccessed</Keyword>
+  <Text>路径{0}工作已成功导入！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Continue</Keyword>
+  <Text>继续</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.SelectLaboratory.Header</Keyword>
+  <Text>指定技工所</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.EntryAlreadyExists</Keyword>
+  <Text>项目已存在，你想替换它吗？ 
+ 取消替换导入将被中止。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.AmbiguousType</Keyword>
+  <Text>不明确的参数：无法解析标签{0}</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.UnknownTag_Treatment</Keyword>
+  <Text>无法解析数值“{1}”的标签&lt;{0}&gt;，此数值将被忽略。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.UnknownParentParameter_Treatment</Keyword>
+  <Text>数值“{1}”的标签&lt;{0}&gt;似乎是依赖参数，依赖文本参数“{2}”已不存在，此数值将被忽略。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.UnknownParameter</Keyword>
+  <Text>无法解析的一个或多个数字参数。参数没有名字！工作牙齿{0}</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InvalidParameterValue</Keyword>
+  <Text>参数{0}为无效的输入值（输入值是不是数字）。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.ToothWorkListMissing</Keyword>
+  <Text>牙齿工作列表丢失</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.UserAborted</Keyword>
+  <Text>用户中止</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.Parsing.NoDateTagOrInvalid</Keyword>
+  <Text>
+   项目文件中没有创建日期或日期不是在有效的格式。是否使用当前的日期？ 
+    如果选择否，导入将被中止 
+    ！！！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.Parsing.NoNotesTag</Keyword>
+  <Text>项目文件中没有找到注释。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InvalidTrayNo</Keyword>
+  <Text>&lt;托盘号&gt;标签中包含无效的（整数）托盘号。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InvalidTechnicianId</Keyword>
+  <Text>&lt;技师编号&gt;标签中包含无效的（整数）的技师编号。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.TechnicianTagMissing</Keyword>
+  <Text>无法解析技师。 &lt;技师编号&gt;标签不存在！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Warning.TechnicianTagMissing</Keyword>
+  <Text>项目文件中没有指定技师。是否继续？在这种情况下你需要手动选择的技术人员。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InsufficientPatientData</Keyword>
+  <Text>无法从项目文件中提取患者编号。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InvalidPatientId</Keyword>
+  <Text>&lt;患者编号&gt;标签中包含无效的（整数）患者编号。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.PatientTagMissing</Keyword>
+  <Text>无法解析患者.&lt;患者编号&gt;和&lt;患者&gt;标签已存在！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.InvalidPracticeId</Keyword>
+  <Text>&lt;诊所编号&gt;标签中包含无效的（整数）诊所编号。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.PracticeTagMissing</Keyword>
+  <Text>无法解析诊所。 &lt;诊所编号&gt;标签不存在！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Error.ImportErrorHeader</Keyword>
+  <Text>工作导入错误！</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.JobSelection.Title</Keyword>
+  <Text>导入项目文件</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.Filter.Description</Keyword>
+  <Text>项目文件</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Import.ImportedItem</Keyword>
+  <Text>已导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentlDb.Import.SelectLaboratory.Header</Keyword>
+  <Text>技工所选择框</Text>
+</Translation>
+<Translation>
+  <Keyword>DentlDb.Import.Continue</Keyword>
+  <Text>继续</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.InsufficientAccessRights</Keyword>
+  <Text>在路径{1}里您没有读取或写入数据库文件{0}的权限。请检查读写权限，然后重新启动该应用程序。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.InsufficientAccessRights.Project</Keyword>
+  <Text>在路径 {0}里您没有读取或写入项目文件的权限。请检查读写权限，然后重新启动该应用程序。</Text>
+</Translation>
+<Translation>
+  <Keyword>CriticalError</Keyword>
+  <Text>严重错误。 
+      错误详细信息： 
+      {0}</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.NoDBatPath.Header</Keyword>
+  <Text>严重错误 </Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.NoDBatPath</Keyword>
+  <Text>
+    没有找到数据库（{0}）。 
+    请确保提供的数据库路径是有效并且数据库文件存在。 
+    应用将被终止。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.ReadOnlyDB.Header</Keyword>
+  <Text>严重错误 </Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.ReadOnlyDB</Keyword>
+  <Text>
+    数据库（{0}）是只读文件。 
+    请确保你有读写访问数据库（文件）的权限。 
+    应用将被终止。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Error.JobDirRemovalFailed</Keyword>
+  <Text>删除目录{0}构建数据清理工作是发生错误。 
+      错误详细信息： 
+      {1}</Text>
+</Translation>
+<Translation>
+  <Keyword>Connectors.Lock.InsufficientDetails</Keyword>
+  <Text>没有足够的信息使用连接杆</Text>
+</Translation>
+<Translation>
+  <Keyword>Connectors.Lock.DifferentMaterials</Keyword>
+  <Text>无法连接这些牙齿，因为牙齿材料不同。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.ConnectTeeth</Keyword>
+  <Text>连接牙齿</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.TeethConnected</Keyword>
+  <Text>牙齿已连接</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectCustomer</Keyword>
+  <Text>请先选择客户</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectTechJob</Keyword>
+  <Text>选择技师和工作信息并继续</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectTreatmentParam</Keyword>
+  <Text>请选择：</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectToothWork</Keyword>
+  <Text>请选择修复体适应症</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SaveJob</Keyword>
+  <Text>点击“保存”并继续</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectActionToolbar</Keyword>
+  <Text>在工具栏选择需要的操作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Warning.UnsavedLaboratoryData</Keyword>
+  <Text>新的技工所更改未保存。 
+是否保存更改？ 
+单击是保存新的技工所， 
+取消返回技工所编辑表格。</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedClientData</Keyword>
+  <Text>新的客户更改未保存。</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedClientData.SaveChanges</Keyword>
+  <Text>保存新客户</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedClientData.DiscardChanges</Keyword>
+  <Text>取消更改</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedClientData.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedPatientData</Keyword>
+  <Text>新的患者更改未保存。</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedPatientData.SaveChanges</Keyword>
+  <Text>保存新的患者数据</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedPatientData.DiscardChanges</Keyword>
+  <Text>取消更改</Text>
+</Translation>
+<Translation>
+  <Keyword>UnsavedPatientData.Cancel</Keyword>
+  <Text>返回到患者列表</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Warning.UnsavedTechnicianData</Keyword>
+  <Text>新的技师更改未保存。 
+是否保存更改？ 
+单击是保存新的技师数据， 
+取消返回到技师列表。</Text>
+</Translation>
+<Translation>
+  <Keyword>LegacyMaterial</Keyword>
+  <Text>此工作牙齿的材料不可用，请选择别的材料。</Text>
+</Translation>
+<Translation>
+  <Keyword>CategoryInUse</Keyword>
+  <Text>至少有一个属于该类别的数值被某些工作使用，无法删除该类别。</Text>
+</Translation>
+<Translation>
+  <Keyword>WorkTypeInUse</Keyword>
+  <Text>某些工作使用了此工作类型，无法删除此工作类型。</Text>
+</Translation>
+<Translation>
+  <Keyword>MaterialInUse</Keyword>
+  <Text>某些工作使用了这种材料，无法删除此材料。</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueInUse</Keyword>
+  <Text>某些工作使用了这些数值，无法删除此数值。</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkType</Keyword>
+  <Text>此数值作为默认值被下列工作类型所使用：</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkType.Details</Keyword>
+  <Text>简称{0};说明{1}</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkType.AdviceForResolveProblem</Keyword>
+  <Text>请首先选择其他默认值。</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion</Keyword>
+  <Text>此数值作为默认值被下面的工作定义所使用：</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkDefinition.Details</Keyword>
+  <Text>工作类型：{0}（{1}），材料{0}（{1}）</Text>
+</Translation>
+<Translation>
+  <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion.AdviceForResolveProblem</Keyword>
+  <Text>请首先选择其他默认值。</Text>
+</Translation>
+<Translation>
+  <Keyword>PrjInNotepad</Keyword>
+  <Text>记事本打开prj</Text>
+</Translation>
+<Translation>
+  <Keyword>Export</Keyword>
+  <Text>高级模式</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorCountryConstraint</Keyword>
+  <Text>请选择国家！</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorTechnicianConstraint</Keyword>
+  <Text>请输入姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorTechnicianNonUniqueId</Keyword>
+  <Text>此编号已被指定给不同的技师。</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorTechnicianNonUniqueName</Keyword>
+  <Text>
+        此姓名已经被指定给不同的技师。 
+        是否仍使用此姓名创建技师？</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorPatientConstraint</Keyword>
+  <Text>请输入姓或名。</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorPatientPracticeMissing</Keyword>
+  <Text>为了添加患者你需要先选择客户！</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorPatientNonUniqueId</Keyword>
+  <Text>此编号已指定给不同的患者。</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorPatientNonUniqueName</Keyword>
+  <Text>
+        此姓名已指定给不同的患者。
+       是否仍使用此姓名创建患者?</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorCustomerConstraint</Keyword>
+  <Text>下列空格需填写完整并继续：</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorCustomerIdConstraint</Keyword>
+  <Text>请检查用户编号。 
+允许的最小长度为：{0}， 
+允许的最大长度为：{1}， 
+允许的空白编号：{2}。</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorPracticeNonUniqueId</Keyword>
+  <Text>此编号已经指定给不同的客户。</Text>
+</Translation>
+<Translation>
+  <Keyword>PracticeUsedByTreatment</Keyword>
+  <Text>
+        一个或多个工作使用此客户。是否要删除这些工作？如果否，则该客户将不会被删除。</Text>
+</Translation>
+<Translation>
+  <Keyword>PracticeUsedByTreatmentCaption</Keyword>
+  <Text>删除客户</Text>
+</Translation>
+<Translation>
+  <Keyword>PatientUsedByTreatment</Keyword>
+  <Text>
+        一个或多个工作使用此患者。是否要删除此患者？如果否则该患者将不会被删除。</Text>
+</Translation>
+<Translation>
+  <Keyword>PatientUsedByTreatmentCaption</Keyword>
+  <Text>删除患者</Text>
+</Translation>
+<Translation>
+  <Keyword>TechnicianUsedByTreatment</Keyword>
+  <Text>
+        一个或多个工作使用此技师。是否要删除此技师？如果否则该技师将不会被删除。</Text>
+</Translation>
+<Translation>
+  <Keyword>TechnicianUsedByTreatmentCaption</Keyword>
+  <Text>删除技师</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Dialog.AlreadyLoaded</Keyword>
+  <Text>已载入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Dialog.SaveFirst</Keyword>
+  <Text>您正在加载的工作也已装入，并且有未保存的更改。是否放弃修改并重新加载此工作。如果否加载将被中止。</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged</Keyword>
+  <Text>
+       保存当前的项目到项目目录?</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.SaveChanges</Keyword>
+  <Text>保存牙科项目文件</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.SaveChanges.Description</Keyword>
+  <Text>下一次打开此牙科项目，你可以继续工作</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.DiscardChanges</Keyword>
+  <Text>不保存</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.DiscardChanges.Description</Keyword>
+  <Text>牙科项目的当前状态将丢失</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentDataChanged.Cancel.Description</Keyword>
+  <Text>继续编辑牙科项目</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Dialog.IncompleteTreatmentData</Keyword>
+  <Text>
+      提供的信息是不足以形成 
+      一个数据集。 
+      可能的原因例如： 
+           - 未指定工作 
+           - 未指定客户</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.CountrySelection</Keyword>
+  <Text>选择技工所所在的国家。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Messages.CountrySelection</Keyword>
+  <Text>请选择技工所所在的国家。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.Practice</Keyword>
+  <Text>编辑客户数据</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.Patient</Keyword>
+  <Text>患者</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.Technician</Keyword>
+  <Text>技师</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.LoadTreatment</Keyword>
+  <Text>加载工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.ToothWork</Keyword>
+  <Text>选择牙齿适应症</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.WindowHeader.PrintWindow</Keyword>
+  <Text>打印</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Lab</Keyword>
+  <Text>技工所</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Client</Keyword>
+  <Text>客户</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Patient</Keyword>
+  <Text>患者</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Technician</Keyword>
+  <Text>技师</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.TreatmentFlags</Keyword>
+  <Text>标记</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Treatment</Keyword>
+  <Text>工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.PatientImageData</Keyword>
+  <Text>图片</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Preview</Keyword>
+  <Text>数据</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.ToothColor.Name</Keyword>
+  <Text>牙齿颜色</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.New</Keyword>
+  <Text>新建</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromiTero</Keyword>
+  <Text>iTero导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Save</Keyword>
+  <Text>保存</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Duplicate</Keyword>
+  <Text>复制</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Load</Keyword>
+  <Text>加载</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Import</Keyword>
+  <Text>导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Upload</Keyword>
+  <Text>上传</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.Print</Keyword>
+  <Text>打印</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.MultiDie.Treatment</Keyword>
+  <Text>批量工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.MultiDie.Name</Keyword>
+  <Text>姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.MultiDie.Treatment.BatchNr</Keyword>
+  <Text>批量工作编号</Text>
+</Translation>
+<Translation>
+  <Keyword>EditPatient</Keyword>
+  <Text>编辑患者</Text>
+</Translation>
+<Translation>
+  <Keyword>EditTechnician</Keyword>
+  <Text>编辑技师</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Patient.PatientId</Keyword>
+  <Text>患者编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Patient.LastName</Keyword>
+  <Text>姓</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Patient.FirstName</Keyword>
+  <Text>名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Patient.FullName</Keyword>
+  <Text>姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>EditPractice</Keyword>
+  <Text>编辑客户</Text>
+</Translation>
+<Translation>
+  <Keyword>PatientsForThisPractice</Keyword>
+  <Text>此客户的患者...</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues</Keyword>
+  <Text>删除客户特定参数</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeId</Keyword>
+  <Text>客户编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeName</Keyword>
+  <Text>姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeLanguage</Keyword>
+  <Text>语言</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeCountry</Keyword>
+  <Text>国家</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeStreet</Keyword>
+  <Text>街道名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeHouseId</Keyword>
+  <Text>街道号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeZip</Keyword>
+  <Text>邮编</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeCity</Keyword>
+  <Text>城市</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Practice.PracticeEMail</Keyword>
+  <Text>邮箱地址</Text>
+</Translation>
+<Translation>
+  <Keyword>CreateLaboratoryAdvice</Keyword>
+  <Text>创建技工所并继续</Text>
+</Translation>
+<Translation>
+  <Keyword>EditLaboratory</Keyword>
+  <Text>编辑技工所</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorLaboratoryConstraint</Keyword>
+  <Text>
+        请输入姓名、国家和语言。 
+        如果你提供技工所编号，请检查此编号为整数。</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorLaboratoryNonUniqueId</Keyword>
+  <Text>此编号已指定给不同的技工所了。</Text>
+</Translation>
+<Translation>
+  <Keyword>EditLab</Keyword>
+  <Text>编辑技工所</Text>
+</Translation>
+<Translation>
+  <Keyword>PracticesForThisLab</Keyword>
+  <Text>此技工所的客户...</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.RemoveClientSpecificValues</Keyword>
+  <Text>删除此客户特定的数据。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabId</Keyword>
+  <Text>技工所编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabName</Keyword>
+  <Text>姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabLanguage</Keyword>
+  <Text>语言</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabCountry</Keyword>
+  <Text>国家</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabStreet</Keyword>
+  <Text>街道名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabHouseId</Keyword>
+  <Text>街道号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabZip</Keyword>
+  <Text>邮编</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Lab.LabCity</Keyword>
+  <Text>城市</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.Close</Keyword>
+  <Text>关闭</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.Remove</Keyword>
+  <Text>删除</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.Save</Keyword>
+  <Text>保存</Text>
+</Translation>
+<Translation>
+  <Keyword>OK</Keyword>
+  <Text>确定</Text>
+</Translation>
+<Translation>
+  <Keyword>Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.CancelEdit</Keyword>
+  <Text>取消编辑</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.Clear</Keyword>
+  <Text>删除</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.Edit</Keyword>
+  <Text>编辑</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Global.NewEntry</Keyword>
+  <Text>新输入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Technician.TechnicianId</Keyword>
+  <Text>技师编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Technician.FirstName</Keyword>
+  <Text>名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Technician.LastName</Keyword>
+  <Text>姓</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Technician.FullName</Keyword>
+  <Text>姓名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.SchalenNr</Keyword>
+  <Text>托盘号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.LaboratoryId</Keyword>
+  <Text>技工所编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.LaboratoryName</Keyword>
+  <Text>技工所名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.PracticeId</Keyword>
+  <Text>客户编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.DateTime</Keyword>
+  <Text>日期/时间</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Date</Keyword>
+  <Text>日期</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Time</Keyword>
+  <Text>时间</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Notes</Keyword>
+  <Text>注释</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Name</Keyword>
+  <Text>客户</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.PatientId</Keyword>
+  <Text>患者编号</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.PatientName</Keyword>
+  <Text>患者名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.TechnicianId</Keyword>
+  <Text>技师名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.TechnicianName</Keyword>
+  <Text>技师名称</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.ToothColorName</Keyword>
+  <Text>牙齿颜色</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Language</Keyword>
+  <Text>语言</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.UseArticulator</Keyword>
+  <Text>使用咬合架</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.MarkedRemoved</Keyword>
+  <Text>隐藏</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Hide</Keyword>
+  <Text>删除</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Restore</Keyword>
+  <Text>恢复</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Remove</Keyword>
+  <Text>清理删除的数据集</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Load</Keyword>
+  <Text>加载</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.ParameterName</Keyword>
+  <Text>参数名</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.ParameterValue</Keyword>
+  <Text>数值</Text>
+</Translation>
+<Translation>
+  <Keyword>ShowHiddenTreatments</Keyword>
+  <Text>显示删除的数据集</Text>
+</Translation>
+<Translation>
+  <Keyword>Purge</Keyword>
+  <Text>粉碎数据集</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.LocalList</Keyword>
+  <Text>本地工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Treatment.ImportedList</Keyword>
+  <Text>已导入 的工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.RemoveAction.Client.EditedByOther</Keyword>
+  <Text>
+        使用此客户的工作被一些用户锁定。 
+        如果您想使用当前的客户编辑任何工作 - 请先将其关闭。 
+        稍后再试。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.RemoveAction.Patient.EditedByOther</Keyword>
+  <Text>
+       
+        使用此患者的工作被一些用户锁定。 
+        如果您想使用当前的患者编辑任何工作 - 请先将其关闭。 
+        稍后再试。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.RemoveAction.Technician.EditedByOther</Keyword>
+  <Text>
+       
+        使用此技师的工作被一些用户锁定。 
+        如果您想使用当前的技师编辑任何工作 - 请先将其关闭。 
+        稍后再试。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ReallyPurgeDeletedQuestion</Keyword>
+  <Text>确定要销毁被删除的数据集吗？</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWork</Keyword>
+  <Text>请先选择客户</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.Treatment.StoragePathCreationError</Keyword>
+  <Text>生成项目目录时出错，细节：</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.PurgeImpossibleTreatmentInUse</Keyword>
+  <Text>此工作不能被删除因为此工作已打开。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment</Keyword>
+  <Text>警告！ 
+      你将从数据库中删除当前工作。 
+      你确定从你的硬盘中删除构建数据吗？</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes</Keyword>
+  <Text>是</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes.Description</Keyword>
+  <Text>“是” - 从数据库中删除工作并从硬盘中删除构建数据。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No</Keyword>
+  <Text>否</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No.Description</Keyword>
+  <Text>“否”-从数据库删除工作，但保留硬盘上的构建数据。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel.Description</Keyword>
+  <Text>“取消” - 中止删除当前工作。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ValueForbiddenByMaterialRestriction</Keyword>
+  <Text>参数“{1}”的数值“{0}”目前是禁用的，请谨慎使用此数值。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.ToothWork.InUse</Keyword>
+  <Text>此牙齿的弹出窗口已经打开。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Grouping.Notes</Keyword>
+  <Text>注释</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadySelectedQuestion</Keyword>
+  <Text>是否更新此牙齿的选择？</Text>
+</Translation>
+<Translation>
+  <Keyword>StartingUp</Keyword>
+  <Text>开启中....</Text>
+</Translation>
+<Translation>
+  <Keyword>SelectTreatmentFirst</Keyword>
+  <Text>请选择工作并“加载”</Text>
+</Translation>
+<Translation>
+  <Keyword>VendorVersion</Keyword>
+  <Text>3.0</Text>
+</Translation>
+<Translation>
+  <Keyword>SaveTreatment.ToolTip</Keyword>
+  <Text>保存当前的工作</Text>
+</Translation>
+<Translation>
+  <Keyword>Settings.ToolTip</Keyword>
+  <Text>设置</Text>
+</Translation>
+<Translation>
+  <Keyword>About.ToolTip</Keyword>
+  <Text>关于</Text>
+</Translation>
+<Translation>
+  <Keyword>UploadTreatment.ToolTip</Keyword>
+  <Text>上传当前的工作</Text>
+</Translation>
+<Translation>
+  <Keyword>NewTreatment.ToolTip</Keyword>
+  <Text>开始新工作</Text>
+</Translation>
+<Translation>
+  <Keyword>NewTreatmentFromiTero.ToolTip</Keyword>
+  <Text>从iTero项目文件新建工作</Text>
+</Translation>
+<Translation>
+  <Keyword>LoadTreatment.ToolTip</Keyword>
+  <Text>加载工作</Text>
+</Translation>
+<Translation>
+  <Keyword>Scannen</Keyword>
+  <Text>扫描</Text>
+</Translation>
+<Translation>
+  <Keyword>Scannen.ToolTip</Keyword>
+  <Text>扫描</Text>
+</Translation>
+<Translation>
+  <Keyword>CAD.ToolTip</Keyword>
+  <Text>设计</Text>
+</Translation>
+<Translation>
+  <Keyword>NC.ToolTip</Keyword>
+  <Text>排版计算</Text>
+</Translation>
+<Translation>
+  <Keyword>Upload.ToolTip</Keyword>
+  <Text>加载修复体数据</Text>
+</Translation>
+<Translation>
+  <Keyword>CAM.ToolTip</Keyword>
+  <Text>研磨加工</Text>
+</Translation>
+<Translation>
+  <Keyword>ModelEditor.ToolTip</Keyword>
+  <Text>牙齿文档编辑</Text>
+</Translation>
+<Translation>
+  <Keyword>PrintTreatment.ToolTip</Keyword>
+  <Text>打印</Text>
+</Translation>
+<Translation>
+  <Keyword>ImportTreatment.ToolTip</Keyword>
+  <Text>导入工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DuplicateTreatment.ToolTip</Keyword>
+  <Text>复制工作</Text>
+</Translation>
+<Translation>
+  <Keyword>Updates.ToolTip</Keyword>
+  <Text>升级</Text>
+</Translation>
+<Translation>
+  <Keyword>Close.ToolTip</Keyword>
+  <Text>关闭</Text>
+</Translation>
+<Translation>
+  <Keyword>CustomerNumberToLong</Keyword>
+  <Text>客户编号太长</Text>
+</Translation>
+<Translation>
+  <Keyword>CustomerNumberToShort</Keyword>
+  <Text>客户编号太短</Text>
+</Translation>
+<Translation>
+  <Keyword>PatientNumberTooLong</Keyword>
+  <Text>患者编号太长</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Parameter</Keyword>
+  <Text>对颌牙类型</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.MushBite</Keyword>
+  <Text>蜡堤</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+  <Text>注册颌骨（无咬合架）</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+  <Text>A型咬合架</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+  <Text>A型咬合架（老式）</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+  <Text>B型咬合架</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+  <Text>S型咬合架</Text>
+</Translation>
+<Translation>
+  <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+  <Text>P型咬合架</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Parameter</Keyword>
+  <Text>牙齿颜色</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.A1</Keyword>
+  <Text>A1</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.A2</Keyword>
+  <Text>A2</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.A3</Keyword>
+  <Text>A3</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.A3.5</Keyword>
+  <Text>A3.5</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.A4</Keyword>
+  <Text>A4</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.B1</Keyword>
+  <Text>B1</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.B2</Keyword>
+  <Text>B2</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.B3</Keyword>
+  <Text>B3</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.B4</Keyword>
+  <Text>B4</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.C1</Keyword>
+  <Text>C1</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.C2</Keyword>
+  <Text>C2</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.C3</Keyword>
+  <Text>C3</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.C4</Keyword>
+  <Text>C4</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.D2</Keyword>
+  <Text>D2</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.D3</Keyword>
+  <Text>D3</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothColor.Value.D4</Keyword>
+  <Text>D4</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicCrown.WorkDescriptionPrint</Keyword>
+  <Text>
+        解刨
+        全冠</Text>
+</Translation>
+<Translation>
+  <Keyword>Coping.WorkDescriptionPrint</Keyword>
+  <Text>
+        解刨
+        内冠</Text>
+</Translation>
+<Translation>
+  <Keyword>OffsetCoping.WorkDescriptionPrint</Keyword>
+  <Text>
+        内冠
+        </Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicPontic.WorkDescriptionPrint</Keyword>
+  <Text>
+        解刨
+        缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedPontic.WorkDescriptionPrint</Keyword>
+  <Text>
+        回切
+        缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicInlay.WorkDescriptionPrint</Keyword>
+  <Text>
+        高嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedInlay.WorkDescriptionPrint</Keyword>
+  <Text>
+        回切
+        嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>PrimaryTelescope.WorkDescriptionPrint</Keyword>
+  <Text>
+        套筒冠
+        第一层</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressCrown.WorkDescriptionPrint</Keyword>
+  <Text>
+        铸瓷
+        牙冠</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressPontic.WorkDescriptionPrint</Keyword>
+  <Text>
+        铸瓷
+        缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>AnatomicWaxup.WorkDescriptionPrint</Keyword>
+  <Text>
+        解刨
+        蜡型</Text>
+</Translation>
+<Translation>
+  <Keyword>ReducedWaxup.WorkDescriptionPrint</Keyword>
+  <Text>
+        回切
+        蜡型</Text>
+</Translation>
+<Translation>
+  <Keyword>MissingTooth.WorkDescriptionPrint</Keyword>
+  <Text>
+        天然
+        缺失牙</Text>
+</Translation>
+<Translation>
+  <Keyword>Antagonist.WorkDescriptionPrint</Keyword>
+  <Text>对颌牙</Text>
+</Translation>
+<Translation>
+  <Keyword>HealthyTooth.WorkDescriptionPrint</Keyword>
+  <Text>邻牙</Text>
+</Translation>
+<Translation>
+  <Keyword>CementGapThickness.Parameter</Keyword>
+  <Text>黏结剂厚度</Text>
+</Translation>
+<Translation>
+  <Keyword>MinThickness.Parameter</Keyword>
+  <Text>牙冠最小厚度</Text>
+</Translation>
+<Translation>
+  <Keyword>SituScan.Value.false</Keyword>
+  <Text>否</Text>
+</Translation>
+<Translation>
+  <Keyword>SituScan.Value.true</Keyword>
+  <Text>是</Text>
+</Translation>
+<Translation>
+  <Keyword>SituScan.Parameter</Keyword>
+  <Text>术前扫描</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Parameter</Keyword>
+  <Text>种植类型</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.None</Keyword>
+  <Text>无种植</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.CustomAbutment</Keyword>
+  <Text>个性化基台</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.WithoutAbutment</Keyword>
+  <Text>螺丝固位</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.CustomAbutmentManual</Keyword>
+  <Text>个性化基台（手动定位）</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.WithoutAbutmentManual</Keyword>
+  <Text>螺丝固位（手动定位）</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.CustomAbutmentWithImport</Keyword>
+  <Text>个性化基台（种植规划导入）</Text>
+</Translation>
+<Translation>
+  <Keyword>ImplantType.Value.WithoutAbutmentWithImport</Keyword>
+  <Text>螺丝固位（种植规划导入）</Text>
+</Translation>
+<Translation>
+  <Keyword>SeparateGingivaScan.Parameter</Keyword>
+  <Text>分离牙龈扫描?</Text>
+</Translation>
+<Translation>
+  <Keyword>SeparateGingivaScan.Value.false</Keyword>
+  <Text>否</Text>
+</Translation>
+<Translation>
+  <Keyword>SeparateGingivaScan.Value.true</Keyword>
+  <Text>是</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownBorderHorizontalSize.Parameter</Keyword>
+  <Text>牙冠边缘水平距离</Text>
+</Translation>
+<Translation>
+  <Keyword>Shrinking.Parameter</Keyword>
+  <Text>回切</Text>
+</Translation>
+<Translation>
+  <Keyword>de.Country</Keyword>
+  <Text>德国</Text>
+</Translation>
+<Translation>
+  <Keyword>en.Country</Keyword>
+  <Text>英格兰 </Text>
+</Translation>
+<Translation>
+  <Keyword>it.Country</Keyword>
+  <Text>意大利</Text>
+</Translation>
+<Translation>
+  <Keyword>uk.Country</Keyword>
+  <Text>大不列颠 </Text>
+</Translation>
+<Translation>
+  <Keyword>fr.Country</Keyword>
+  <Text>法国</Text>
+</Translation>
+<Translation>
+  <Keyword>at.Country</Keyword>
+  <Text>奥地利</Text>
+</Translation>
+<Translation>
+  <Keyword>es.Country</Keyword>
+  <Text>西班牙</Text>
+</Translation>
+<Translation>
+  <Keyword>pt.Country</Keyword>
+  <Text>葡萄牙</Text>
+</Translation>
+<Translation>
+  <Keyword>hu.Country</Keyword>
+  <Text>匈牙利</Text>
+</Translation>
+<Translation>
+  <Keyword>ru.Country</Keyword>
+  <Text> 俄罗斯</Text>
+</Translation>
+<Translation>
+  <Keyword>us.Country</Keyword>
+  <Text>美国</Text>
+</Translation>
+<Translation>
+  <Keyword>ca.Country</Keyword>
+  <Text>加拿大</Text>
+</Translation>
+<Translation>
+  <Keyword>ch.Country</Keyword>
+  <Text>瑞士</Text>
+</Translation>
+<Translation>
+  <Keyword>de.Language</Keyword>
+  <Text>德语</Text>
+</Translation>
+<Translation>
+  <Keyword>en.Language</Keyword>
+  <Text>英语</Text>
+</Translation>
+<Translation>
+  <Keyword>fr.Language</Keyword>
+  <Text>法语</Text>
+</Translation>
+<Translation>
+  <Keyword>it.Language</Keyword>
+  <Text>意大利语</Text>
+</Translation>
+<Translation>
+  <Keyword>None.MaterialDescriptionPrint</Keyword>
+  <Text>无牙齿</Text>
+</Translation>
+<Translation>
+  <Keyword>Healthy.MaterialDescriptionPrint</Keyword>
+  <Text>健康牙</Text>
+</Translation>
+<Translation>
+  <Keyword>es.Language</Keyword>
+  <Text>西班牙语</Text>
+</Translation>
+<Translation>
+  <Keyword>default.Language</Keyword>
+  <Text>标准语言</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Search</Keyword>
+  <Text>搜索</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.SearchIn</Keyword>
+  <Text>范围</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.NotYetSaved</Keyword>
+  <Text>工作没有保存</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.PathDoesNotExistError</Keyword>
+  <Text>错误信息 - 这些项目数据文件不可用。</Text>
+</Translation>
+<Translation>
+  <Keyword>NoTreatmentsToPurge</Keyword>
+  <Text>没有需要删除的工作。</Text>
+</Translation>
+<Translation>
+  <Keyword>CementGapStart.Parameter</Keyword>
+  <Text>粘结空间起始</Text>
+</Translation>
+<Translation>
+  <Keyword>CementGapEnd.Parameter</Keyword>
+  <Text>粘结空间结束</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownAdditionalSpacingZ.Parameter</Keyword>
+  <Text>增加颌面方向距离</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownAdditionalSpacingX.Parameter</Keyword>
+  <Text>增加近/远中方向距离</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownBorderAngledSize.Parameter</Keyword>
+  <Text>牙冠边缘角度</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownBorderAngle.Parameter</Keyword>
+  <Text>角度</Text>
+</Translation>
+<Translation>
+  <Keyword>CrownBorderVerticalSize.Parameter</Keyword>
+  <Text>牙冠颈缘线垂直高度</Text>
+</Translation>
+<Translation>
+  <Keyword>ConnectorArea.Parameter</Keyword>
+  <Text>连接杆横截面</Text>
+</Translation>
+<Translation>
+  <Keyword>InlayThicknessRunOutDistance.Parameter</Keyword>
+  <Text>颈缘线宽度</Text>
+</Translation>
+<Translation>
+  <Keyword>AdvancedParameters</Keyword>
+  <Text>高级参数</Text>
+</Translation>
+<Translation>
+  <Keyword>Default</Keyword>
+  <Text>可用颜色</Text>
+</Translation>
+<Translation>
+  <Keyword>ShowInExplorer</Keyword>
+  <Text>打开资源管理器</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressMinThickness.Parameter</Keyword>
+  <Text>最小铸瓷空间</Text>
+</Translation>
+<Translation>
+  <Keyword>OverpressAdditionalSpacing.Parameter</Keyword>
+  <Text>铸瓷空间</Text>
+</Translation>
+<Translation>
+  <Keyword>WarrantyInsurance.Parameter</Keyword>
+  <Text>保证</Text>
+</Translation>
+<Translation>
+  <Keyword>WarrantyInsurance.Value.true</Keyword>
+  <Text>是</Text>
+</Translation>
+<Translation>
+  <Keyword>WarrantyInsurance.Value.false</Keyword>
+  <Text>否</Text>
+</Translation>
+<Translation>
+  <Keyword>NoAvailableFilesForUpload</Keyword>
+  <Text>下列选择上传的文件不在项目目录里：</Text>
+</Translation>
+<Translation>
+  <Keyword>UnableToMoveSFVFile</Keyword>
+  <Text>检验文件不能被转移到项目目录。</Text>
+</Translation>
+<Translation>
+  <Keyword>Scan.WatchdogLabel</Keyword>
+  <Text>已扫描</Text>
+</Translation>
+<Translation>
+  <Keyword>CAM.WatchdogLabel</Keyword>
+  <Text>排版计算</Text>
+</Translation>
+<Translation>
+  <Keyword>CAD.WatchdogLabel</Keyword>
+  <Text>设计</Text>
+</Translation>
+<Translation>
+  <Keyword>Upload.WatchdogLabel</Keyword>
+  <Text>上传</Text>
+</Translation>
+<Translation>
+  <Keyword>UntouchableZoneNearPreparationMargin.Parameter</Keyword>
+  <Text>禁止填除倒凹</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.TreatmentLocked.Message.CurrentUser</Keyword>
+  <Text> 
+       工作数据集似乎被你锁定。 
+       软件将忽略锁定并加载文档。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.TreatmentLocked.Message.AnotherUser</Keyword>
+  <Text>
+       工作数据集被其他用户锁定： 
+          机器/用户：{0}。 
+       
+       如果你想解除锁定，请单击“是”。 
+       但是这会导致数据不一致。 
+       
+       否则单击“否”</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Messages.TreatmentLocked.Caption</Keyword>
+  <Text>警告！</Text>
+</Translation>
+<Translation>
+  <Keyword>OffsetInlay.WorkDescriptionPrint</Keyword>
+  <Text>
+        嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>CustomBar.WorkDescriptionPrint</Keyword>
+  <Text>杆卡</Text>
+</Translation>
+<Translation>
+  <Keyword>DistanceToAntagonist.Parameter</Keyword>
+  <Text>到对颌距离</Text>
+</Translation>
+<Translation>
+  <Keyword>DistanceToGingiva.Parameter</Keyword>
+  <Text>到牙龈距离</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.MaterialQueueDirSelection</Keyword>
+  <Text>选择研磨材料</Text>
+</Translation>
+<Translation>
+  <Keyword>MaterialQueueDirSelection</Keyword>
+  <Text>材料选择</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWork.ToolTip.WorkType</Keyword>
+  <Text>工作类型</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWork.ToolTip.Material</Keyword>
+  <Text>材料</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectJobDetails</Keyword>
+  <Text>选择工作详情</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.Help.Workflow.SelectTechnician</Keyword>
+  <Text>选择技师</Text>
+</Translation>
+<Translation>
+  <Keyword>MaterialReplaceForPreparations</Keyword>
+  <Text>你已经更改某颗工作牙齿的材料。 
+你需要改变其他牙齿的材料：</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForThisToothOnly</Keyword>
+  <Text>仅更改此牙齿材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForThisToothOnly.Description</Keyword>
+  <Text>其他牙齿将保留先前的材料设置</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialInBridge</Keyword>
+  <Text>更改牙桥材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialInBridge.Description</Keyword>
+  <Text>牙桥里包含的所有其他牙齿将被切换至新的材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForRecosWithSameMaterial</Keyword>
+  <Text>更改此牙齿和其他牙齿材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForRecosWithSameMaterial.Description</Keyword>
+  <Text>所有选择相同材料的牙齿将被切换到新材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial</Keyword>
+  <Text>更改牙桥和其他牙齿材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial.Description</Keyword>
+  <Text>所有选择相同材料的牙齿将被切换到新材料</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists</Keyword>
+  <Text>你要导入的工作被标记为本地工作导入。 
+拥有相同日期、诊所号和托盘ID号的工作已经存在。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew</Keyword>
+  <Text>新建复制</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew.Description</Keyword>
+  <Text>使用当前日期、新托盘新建的工作数据集将被分配。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite</Keyword>
+  <Text>覆盖当前工作</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite.Description</Keyword>
+  <Text>覆盖当前工作，先前所有数据将丢失。</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort</Keyword>
+  <Text>取消导入</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort.Description</Keyword>
+  <Text>导入将被取消，没有数据保存到数据集里。</Text>
+</Translation>
+<Translation>
+  <Keyword>Inlay.Group</Keyword>
+  <Text>嵌体</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDie.ProductionMode</Keyword>
+  <Text>多模盘模式</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDie.DiesDoNotFeetDiePlate</Keyword>
+  <Text>
+此多模盘工作存储的独立代型不适合此多模盘。也许这份工作使用别的多模盘。</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDie.MultiDiePlateFileNotFound</Keyword>
+  <Text>
+无法加载多模盘{0}。请确认
+文件{0}.dll与DentalDB.exe存在同一个目录里。</Text>
+</Translation>
+<Translation>
+  <Keyword>Patient.ProductionMode</Keyword>
+  <Text>患者模式</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning</Keyword>
+  <Text>警告</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorAddingPatient</Keyword>
+  <Text>添加患者错误</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorRemoveingPatient</Keyword>
+  <Text>删除患者错误</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorAddingPractice</Keyword>
+  <Text>添加诊所错误</Text>
+</Translation>
+<Translation>
+  <Keyword>SelectAlternativeFolderForConstructionData</Keyword>
+  <Text>CAD数据目录 {1}的驱动{0}不存在。请选择CAD数据目录的新路径。</Text>
+</Translation>
+<Translation>
+  <Keyword>FileTransfer.ASCandSTL</Keyword>
+  <Text>STL和ASC数据</Text>
+</Translation>
+<Translation>
+  <Keyword>FileTransfer.STLCconstructionOnly</Keyword>
+  <Text>仅修复体信息</Text>
+</Translation>
+<Translation>
+  <Keyword>DentalDB.UI.Main.Treatment.NetworkCopying</Keyword>
+  <Text>复制</Text>
+</Translation>
+<Translation>
+  <Keyword>NetworkCopyingTreatment.ToolTip</Keyword>
+  <Text>从网络驱动器或另外的驱动器上复制数据</Text>
+</Translation>
+<Translation>
+  <Keyword>NetworkCopyingPath</Keyword>
+  <Text>网络上传路径</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadyUploadedWarning</Keyword>
+  <Text>
+注意！ 
+
+此工作生产订单已发送。 
+
+为了再次生产此工作，你需要新建订单。 
+复制当前工作并执行上传复制的工作。</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadyUploadedWarning.Duplicate</Keyword>
+  <Text>复制</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadyUploadedWarning.Duplicate.Description</Keyword>
+  <Text>创建新的订单复制并上传此工作。</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadyUploadedWarning.Cancel</Keyword>
+  <Text>取消</Text>
+</Translation>
+<Translation>
+  <Keyword>TreatmentAlreadyUploadedWarning.Cancel.Description</Keyword>
+  <Text>取消上传，不执行任何操作。</Text>
+</Translation>
+<Translation>
+  <Keyword>FileCopyError</Keyword>
+  <Text>复制文件 
+{0}到{1}时出错。 
+错误消息：{2}</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePluginName</Keyword>
+  <Text>多模盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.Demo</Keyword>
+  <Text>样板盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.SmartOptics</Keyword>
+  <Text>Smartoptics 盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.Medit</Keyword>
+  <Text>Medit/Solutionix 盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.Maestro</Keyword>
+  <Text>Maestro 盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.IMetric.D102</Keyword>
+  <Text>Imetric D102 盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MultiDiePlugin.IMetric.D100</Keyword>
+  <Text>Imetric D100 盘</Text>
+</Translation>
+<Translation>
+  <Keyword>MaterialPropertyValueNotSelectableSelectAnotherValue</Keyword>
+  <Text>一个或多个参数没有设置或设置使用值无法选择。 
+请从{0}中选择不同的值。</Text>
+</Translation>
+<Translation>
+  <Keyword>CADDesignData.FilterName</Keyword>
+  <Text>CAD设计数据：</Text>
+</Translation>
+<Translation>
+  <Keyword>ScanAndCADDesignData.FilterName</Keyword>
+  <Text>扫描数据+CAD设计数据</Text>
+</Translation>
+<Translation>
+  <Keyword>Scenes.FilterName</Keyword>
+  <Text>场景文件：</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWorkParams.SelectMaterial</Keyword>
+  <Text>材料</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWorkParams.OptionsParams</Keyword>
+  <Text>选项&amp;参数</Text>
+</Translation>
+<Translation>
+  <Keyword>OKGotoCAD</Keyword>
+  <Text>进行设计</Text>
+</Translation>
+<Translation>
+  <Keyword>ReallyCloseWithoutSaving</Keyword>
+  <Text>确定不保存吗？</Text>
+</Translation>
+<Translation>
+  <Keyword>ErrorLaunching</Keyword>
+  <Text>启动错误</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Remove.Description</Keyword>
+  <Text>删除项目中的项目文件数据，并包括同一文件夹下所有其他项目和文件夹本身。</Text>
+</Translation>
+<Translation>
+  <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Cancel.Description</Keyword>
+  <Text>没有文件/文件夹可删除，您可以手动选择删除项目文件。</Text>
+</Translation>
+<Translation>
+  <Keyword>ResetParameterValuesToDefault</Keyword>
+  <Text>恢复
+材料默认值</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWorkParams.Clear</Keyword>
+  <Text>清除</Text>
+</Translation>
+<Translation>
+  <Keyword>ToothWorkParams.OK</Keyword>
+  <Text>确定</Text>
+</Translation>
+<Translation>
+  <Keyword>LingualBandHeight.Parameter</Keyword>
+  <Text>舌侧加强带高度</Text>
+</Translation>
+</Translations>
+  <IncludeFiles>
+    <IncludeFile>ConfigControl-chinese-simplified.xml</IncludeFile>
+    <IncludeFile>RecoGroups-chinese-simplified.xml</IncludeFile>
+    <IncludeFile>materials-chinese-simplified.xml</IncludeFile>
+    <IncludeFile>..\customer.xml</IncludeFile>
+    <IncludeFile>customer-chinese-simplified.xml</IncludeFile>
+</IncludeFiles>
+</TranslationContainer>

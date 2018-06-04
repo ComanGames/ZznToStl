@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RenderEffectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" RenderEffectName="CAM_Block">
+  <DoubleParameter Name="discrete_layers" Value="0.71" />
+  <DoubleParameter Name="ambient" Value="0.1" />
+  <DoubleParameter Name="background" Value="0.4" />
+  <DoubleParameter Name="light_source" Value="0.5" />
+  <DoubleParameter Name="label_epsilon" Value="0" />
+  <IntParameter Name="mode" Value="2" />
+  <IntParameter Name="labeled_faces" Value="0" />
+  <Vec3Parameter Name="sigma" x="1.3" y="1.5" z="2.5" />
+  <Vec3Parameter Name="sigma2" x="1.1" y="1.2" z="1.5" />
+</RenderEffectSettings>

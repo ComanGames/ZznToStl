@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Mozo-Grau® MG Osseous® Tapered Abutments</DisplayInformation>
+  <Producer>Mozo-Grau®</Producer>
+  <SystemName>MG Osseous® Tapered Abutments®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Mozo-Grau® MG Osseous® Tapered Abutments series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Mini 3.4 Tapered 10°</DisplayInformation>
+      <Keyword>3.4_10deg</Keyword>
+      <ImplantFilename>Mini_Impl.stl</ImplantFilename>
+      <ScrewFilename>Schrzom.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5131</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>Mini10_NoHexCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5101</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.60-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>Mini10_NoHexFS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5131</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.600-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>Mini10_NoHexCSWide.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5101</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6000-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>Mini10_NoHexFSWide.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5131</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0-Parallel</Keyword><DisplayInformation>Parallel BSAB5181</DisplayInformation><SupportFilename>Mini10_Parallel.stl</SupportFilename><ImplantFilename>Mini_ImplPar.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB5181</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5131</DisplayInformation>
+          <SupportFilename>Mini10_Conical.stl</SupportFilename>
+          <ImplantFilename>Mini_ImplCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5131</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Standard 4.1 Tapered 10°</DisplayInformation>
+      <Keyword>4.1_10deg</Keyword>
+      <ImplantFilename>STD10_Impl.stl</ImplantFilename>
+      <ScrewFilename>Schrzom.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5132</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>STD10_HexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5102</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>STD10_HexFS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5132</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>STD10_NoHexCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5102</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.100-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>STD10_NoHexFS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5132</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>STD10_NoHexCSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5102</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1010-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>STD10_NoHexFSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5132</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00-Parallel</Keyword><DisplayInformation>Parallel BSAB5182</DisplayInformation><SupportFilename>STD10_Parallel.stl</SupportFilename><ImplantFilename>STD10_ImplPar.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB5182</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5132</DisplayInformation>
+          <SupportFilename>STD10_Conical.stl</SupportFilename>
+          <ImplantFilename>STD10_ImplCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5132</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Standard 4.1 Tapered 30°</DisplayInformation>
+      <Keyword>4.1_30deg</Keyword>
+      <ImplantFilename>STD30_Impl.stl</ImplantFilename>
+      <ScrewFilename>Schrzom30.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5133</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1011-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>STD30_NoHexCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5103</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1012-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>STD30_NoHexFS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Schrzr30.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1013-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>STD30_NoHexCSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5103</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1014-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>STD30_NoHexFSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Schrzr30.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.000-Parallel</Keyword><DisplayInformation>Parallel BSAB5183</DisplayInformation><SupportFilename>STD30_Parallel.stl</SupportFilename><ImplantFilename>STD30_ImplPar.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB5183</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5133</DisplayInformation>
+          <SupportFilename>STD30_Conical.stl</SupportFilename>
+          <ImplantFilename>STD30_ImplCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Maxi 5.0 Tapered 10°</DisplayInformation>
+      <Keyword>5.0_10deg</Keyword>
+      <ImplantFilename>MX10_Impl.stl</ImplantFilename>
+      <ScrewFilename>Schrzom.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5134</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>MX10_HexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5104</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>MX10_HexFS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5134</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.000-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>MX10_NoHexCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5104</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0000-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>MX10_NoHexFS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5134</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0010-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>MX10_NoHexCSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5104</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0011-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>MX10_NoHexFSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5134</LibraryIdentifier>
+          <ScrewFilename>Schrzr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.364-Parallel</Keyword><DisplayInformation>Parallel BSAB5184</DisplayInformation><SupportFilename>MX10_Parallel.stl</SupportFilename><ImplantFilename>MX10_ImplPar.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB5184</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.364-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5134</DisplayInformation>
+          <SupportFilename>MX10_Conical.stl</SupportFilename>
+          <ImplantFilename>MX10_ImplCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5134</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Maxi 5.0 Tapered 30°</DisplayInformation>
+      <Keyword>5.0_30deg</Keyword>
+      <ImplantFilename>MX30_Impl.stl</ImplantFilename>
+      <ScrewFilename>Schrzom30.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5135</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0001-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>MX30_NoHexCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5105</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0002-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>MX30_NoHexFS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Schrzr30.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5135</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0003-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>MX30_NoHexCSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5105</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0004-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>MX30_NoHexFSW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Schrzr30.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5135</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.3640-Parallel</Keyword><DisplayInformation>Parallel BSAB5185</DisplayInformation><SupportFilename>MX30_Parallel.stl</SupportFilename><ImplantFilename>MX30_ImplPar.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB5185</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.3640-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5135</DisplayInformation>
+          <SupportFilename>MX30_Conical.stl</SupportFilename>
+          <ImplantFilename>MX30_ImplCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5135</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

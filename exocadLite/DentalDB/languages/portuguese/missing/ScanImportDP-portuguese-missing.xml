@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNotDefinedAndCannotBeAutoset</Keyword>
+      <Text>The project to be imported does not contain client information and the DentalDB is not configured for chair side mode and/or has no ChairSideClientId specified. Project ID {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientAddFailed</Keyword>
+      <Text>An error occurred while adding client '{0}' for case {1}.
+Error: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch</Keyword>
+      <Text>The client name specified in the project to import does not match the client name in the DentalDB. 
+Old name: {0} 
+New name: {1}
+Please choose an action below:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName</Keyword>
+      <Text>Use existing name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName.Description</Keyword>
+      <Text>The client name stored in the DentalDB will be used.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject</Keyword>
+      <Text>Use new name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject.Description</Keyword>
+      <Text>The client name secified in project to import will be used. All projects referencing this client will be updated.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel</Keyword>
+      <Text>Abort import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel.Description</Keyword>
+      <Text>Import will be aborted, but on next DentalDB startup you will be able to resume the import.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.PatientAddFailed</Keyword>
+      <Text>An error occurred while adding patient with last name '{0}', first name '{1}' for case {2}.
+Error: {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.MultidieProjectButMultidieDisabled</Keyword>
+      <Text>Multidie version of DentalDB is required. Project ID {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ErrorMovingProjectFiles</Keyword>
+      <Text>Could not move project data for project {0}. Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.Notes.ShadeScheme</Keyword>
+      <Text>Shade system: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.VCL</Keyword>
+      <Text>VITA classical A1-D4®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.V3DM</Keyword>
+      <Text>Vita 3D Master®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.ToothProperties</Keyword>
+      <Text>Tooth {0}: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Middle</Keyword>
+      <Text>M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Incisal</Keyword>
+      <Text>I</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Gingival</Keyword>
+      <Text>G</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

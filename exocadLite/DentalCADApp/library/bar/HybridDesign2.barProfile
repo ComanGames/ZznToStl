@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BarProfileFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile xsi:type="BarProfileStandard">
+    <DisplayName>HybridDesign2</DisplayName>
+    <DisplayIndex>10</DisplayIndex>
+    <Parameters>
+      <BarProfileParameter Name="Width" Visible="true" Configurable="true" Min="0.5" Max="15" Decimals="1" Value="6" />
+      <BarProfileParameter Name="BottomWidth" Visible="true" Configurable="true" Min="0.5" Max="15" Decimals="1" Value="3" />
+      <BarProfileParameter Name="BottomStepUpVest" Visible="true" Configurable="true" Min="0" Max="10" Decimals="2" Value="0.5" />
+      <BarProfileParameter Name="BottomStepSideVest" Visible="true" Configurable="true" Min="0" Max="10" Decimals="2" Value="0.5" />
+      <BarProfileParameter Name="HeightVest" Visible="true" Configurable="true" Min="0" Max="10" Decimals="2" Value="0.5" />
+      <BarProfileParameter Name="Height" Visible="true" Configurable="true" Min="1" Max="15" Decimals="2" Value="3" />
+      <BarProfileParameter Name="MinWidth" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="1" />
+      <BarProfileParameter Name="MinHeight" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="2" />
+      <BarProfileParameter Name="VariableSides" Visible="true" Configurable="false" Min="0" Max="1" Decimals="0" Value="0" />
+      <BarProfileParameter Name="VariableBottom" Visible="true" Configurable="true" Min="0" Max="1" Decimals="0" Value="1" />
+    </Parameters>
+    <BarProfileStandardType>HybridDesign2</BarProfileStandardType>
+  </Profile>
+</BarProfileFile>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® MIS® C1®</DisplayInformation>
+  <Producer>MIS®</Producer>
+  <SystemName>C1®</SystemName>
+  <MarkerFilename>../serie MI-C_MisTM_C1TM/scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with MIS® C1® implant series</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Narrow Platform</DisplayInformation>
+      <Keyword>npC1</Keyword>
+      <ImplantFilename>../serie MI-C_MisTM_C1TM/Nanl.stl</ImplantFilename>
+      <ScrewFilename>../serie MI-C_MisTM_C1TM/Nsc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5831</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>2.79-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF5881/BSAF5881D14</DisplayInformation>
+          <SupportFilename>../serie MI-C_MisTM_C1TM/Nhra.stl</SupportFilename>
+          <InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename>
+          <LibraryIdentifier>BSAF5881;BSAF5881D14</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.33-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Nhmc.stl</SupportFilename><LibraryIdentifier>BSAE5801 </LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.33-InNohex</Keyword><DisplayInformation>No hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Nnhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5801 </LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>Narrow Platform White Scanmarker</DisplayInformation><Keyword>npC1mmk</Keyword><ImplantFilename>../serie MI-C_MisTM_C1TM/Nanl.stl</ImplantFilename><ScrewFilename>../serie MI-C_MisTM_C1TM/Nsc.stl</ScrewFilename><RegistrationClickCenter><x>0</x><y>2</y><z>6</z></RegistrationClickCenter><LibraryIdentifier>ZBCD5831</LibraryIdentifier><MarkerFilename>../serie MI-C_MisTM_C1TM/Nsmkpk.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>2.790-Raw</Keyword><DisplayInformation>Hex Raw Abutment BSAF5881/BSAF5881D14</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Nhra.stl</SupportFilename><InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename><LibraryIdentifier>BSAF5881;BSAF5881D14</LibraryIdentifier></ImplantSubtypeConfig>/*<ImplantSubtypeConfig><Keyword>3.330-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Nhmc.stl</SupportFilename><LibraryIdentifier>BSAE5801 </LibraryIdentifier></ImplantSubtypeConfig>*//*<ImplantSubtypeConfig><Keyword>3.330-InNohex</Keyword><DisplayInformation>No hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Nnhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5801 </LibraryIdentifier></ImplantSubtypeConfig>*/</SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>Standard Platform</DisplayInformation>
+      <Keyword>spC1</Keyword>
+      <ImplantFilename>../serie MI-C_MisTM_C1TM/Sanl.stl</ImplantFilename>
+      <ScrewFilename>../serie MI-C_MisTM_C1TM/Ssc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5832</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.2-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF5882/BSAF5882D14</DisplayInformation>
+          <SupportFilename>../serie MI-C_MisTM_C1TM/Shra.stl</SupportFilename>
+          <InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename>
+          <LibraryIdentifier>BSAF5882;BSAF5882D14</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.75-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Shmc.stl</SupportFilename><LibraryIdentifier>BSAE5802</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.75-InNohex</Keyword><DisplayInformation>No hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Snhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5802</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>Standard Platform White Scanmarker</DisplayInformation><Keyword>spC1mmk</Keyword><ImplantFilename>../serie MI-C_MisTM_C1TM/Sanl.stl</ImplantFilename><ScrewFilename>../serie MI-C_MisTM_C1TM/Ssc.stl</ScrewFilename><RegistrationClickCenter><x>0</x><y>2</y><z>6</z></RegistrationClickCenter><LibraryIdentifier>ZBCD5832</LibraryIdentifier><MarkerFilename>../serie MI-C_MisTM_C1TM/Ssmkpk.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.20-Raw</Keyword><DisplayInformation>Hex Raw Abutment BSAF5882/BSAF5882D14</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Shra.stl</SupportFilename><InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename><LibraryIdentifier>BSAF5882;BSAF5882D14</LibraryIdentifier></ImplantSubtypeConfig>/*<ImplantSubtypeConfig><Keyword>3.750-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Shmc.stl</SupportFilename><LibraryIdentifier>BSAE5802</LibraryIdentifier></ImplantSubtypeConfig>*//*<ImplantSubtypeConfig><Keyword>3.750-InNohex</Keyword><DisplayInformation>No hex</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Snhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5802</LibraryIdentifier></ImplantSubtypeConfig>*/</SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>Wide Platform</DisplayInformation>
+      <Keyword>wpC1</Keyword>
+      <ImplantFilename>../serie MI-C_MisTM_C1TM/Wanl.stl</ImplantFilename>
+      <ScrewFilename>../serie MI-C_MisTM_C1TM/Wsc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5833</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.02-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF5883/BSAF5883D14</DisplayInformation>
+          <SupportFilename>../serie MI-C_MisTM_C1TM/Whra.stl</SupportFilename>
+          <InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename>
+          <LibraryIdentifier>BSAF5883;BSAF5883D14</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0-InHex</Keyword><DisplayInformation>Hex conical screw</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Whmc.stl</SupportFilename><LibraryIdentifier>BSAE5803</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.0-InNohex</Keyword><DisplayInformation>No hex conical screw</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Wnhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5803</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>Wide Platform White Scanmarker</DisplayInformation><Keyword>wpC1mmk</Keyword><ImplantFilename>../serie MI-C_MisTM_C1TM/Wanl.stl</ImplantFilename><ScrewFilename>../serie MI-C_MisTM_C1TM/Wsc.stl</ScrewFilename><LibraryIdentifier>ZBCD5833</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>2.5</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie MI-C_MisTM_C1TM/Wsmkpk.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>4.020-Raw</Keyword><DisplayInformation>Hex Raw Abutment BSAF5883/BSAF5883D14</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Whra.stl</SupportFilename><InterfaceFilename>../serie MI-C_MisTM_C1TM/Nanra.stl</InterfaceFilename><LibraryIdentifier>BSAF5883;BSAF5883D14</LibraryIdentifier></ImplantSubtypeConfig>/*<ImplantSubtypeConfig><Keyword>5.00-InHex</Keyword><DisplayInformation>Hex conical screw</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Whmc.stl</SupportFilename><LibraryIdentifier>BSAE5803</LibraryIdentifier></ImplantSubtypeConfig>*//*<ImplantSubtypeConfig><Keyword>5.00-InNohex</Keyword><DisplayInformation>No hex conical screw</DisplayInformation><SupportFilename>../serie MI-C_MisTM_C1TM/Wnhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE5803</LibraryIdentifier></ImplantSubtypeConfig>*/</SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

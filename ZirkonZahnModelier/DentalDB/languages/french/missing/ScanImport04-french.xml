@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromE4D</Keyword>
+      <Text>Planmeca PlanScan import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.LabMissing</Keyword>
+      <Text>Could not obtain default lab.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportSuccessed</Keyword>
+      <Text>Job draft was successfully created from PlanScan project {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.RestorationSkipped</Keyword>
+      <Text>Restoration {0} skipped. Affected Teeth: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothSkipped</Keyword>
+      <Text>Tooth {0} skipped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportedWithWarnings</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectPractice.Header</Keyword>
+      <Text>Select practice</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.AddPracticeFirst</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>No reconstruction type with id '{0}'. Please contact your distributor for details.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ReconstructionTypeMappingMissing</Keyword>
+      <Text>No reconstruction type with id '{0}'. Please contact your distributor for details.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Provided value {0} for default reconstruction type was not found in the database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.AntagonistDataInvalid</Keyword>
+      <Text>Could not create antagonist from work type {0} and material {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportMaterialMissing</Keyword>
+      <Text>PlanScan material with id {0} was not found in the PlanScan project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.MaterialMappingMissing</Keyword>
+      <Text>Material with id {0} and PlanScan name {1} is not mapped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.WorkDefinitionMissing</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.DueDate</Keyword>
+      <Text>Due date</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.AdditionalInfo</Keyword>
+      <Text>Additional Information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.MaterialSpecification</Keyword>
+      <Text>Material specification</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.Colorspecification</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ColorSchema</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.UsedMaterials</Keyword>
+      <Text>Materials</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Incisal Shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Middle shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingival shade</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.MarginDesign</Keyword>
+      <Text>Margin design</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.MarginDesign.Int</Keyword>
+      <Text>internal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.Implant</Keyword>
+      <Text>Implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.Tooth</Keyword>
+      <Text>Tooth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>[CDATA[Please check the imported dataset for completeness and correctness before you continue with your construction.]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.EmptyMatrixString</Keyword>
+      <Text>Transformation matrix string from PlanScan file is empty. Non empty string containing 16 doubles expected</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.InvalidMatrixString</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.InsufficientAccessRights.Project</Keyword>
+      <Text>Insufficient user permissions to copy PlanScan project files into project directory {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileCopyFailed.Project</Keyword>
+      <Text>Error coping PlanScan project file from {0} to {1}. Error {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileCopyFailed.Data</Keyword>
+      <Text>Error coping PlanScan data file from {0} to {1}. Error {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileTransferIncomplete</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.BillingAddress</Keyword>
+      <Text>Billing address:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ShippingAddress</Keyword>
+      <Text>Shipping address:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.CreationDate</Keyword>
+      <Text>Created on:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.RxDate</Keyword>
+      <Text>Rx date:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.DateRequested</Keyword>
+      <Text>Requested on:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.GuidConversionFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema</Keyword>
+      <Text>The tooth numbering scheme can not be determined from project file. Please select the scheme manually.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.UniversalNumberingSchema</Keyword>
+      <Text>Universal numbering scheme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.UniversalNumberingSchema.Description</Keyword>
+      <Text>Teeth defined in PlanScan project file will be assumed to be universal numbered</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.FDIDental</Keyword>
+      <Text>FDI World Dental Federation notation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.FDIDental.Description</Keyword>
+      <Text>Teeth defined in PlanScan project file will be assumed to be FDI numbered</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.SelectUsedToothNumberingSchema.Cancel.Description</Keyword>
+      <Text>Import will be canceled</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ReconstructionTypeNoMapping</Keyword>
+      <Text>Restoration type '{0}' is not mapped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DProjectFileNotSpecified</Keyword>
+      <Text>PlanScan project file is not specified.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DProjectFileNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DProjectFileCorrupt</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DMappingDBFileNotSpecified</Keyword>
+      <Text>File mapping PlanScan restorations to DentalDB types is not specified.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DMappingDBFileNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DMappingDBFileCorrupt</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.MaterialSelection.Title</Keyword>
+      <Text>Material selection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.WorkDefinitionFallbackDefault</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.InternalCaseId</Keyword>
+      <Text>Project id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.ExternalCaseId</Keyword>
+      <Text>Order</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.Notes</Keyword>
+      <Text>Notes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothDataNotFound</Keyword>
+      <Text>Tooth data not found</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothNumberNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothRecoTypeNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothMaterialDescrNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothMaterialNotFound</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ToothInfoCreationFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.RecentlyArrivedJobs</Keyword>
+      <Text>PlanScan: new jobs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ProjectId</Keyword>
+      <Text>PlanScan project id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Info</Keyword>
+      <Text>PlanScan info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.NewProjects</Keyword>
+      <Text>Projects imported:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Conflicts</Keyword>
+      <Text>Conflicts:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ActionRequired</Keyword>
+      <Text>Action required</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>Practice specified could not be found or is not unique. Please complete the data to continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.RemoveFromArrivedList</Keyword>
+      <Text>Remove from list</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.PracticeDataEnrichment</Keyword>
+      <Text>Complete job</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ViewInDentalDB</Keyword>
+      <Text>View in DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.OpenInExplorer</Keyword>
+      <Text>Open in explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.OverrideExisting</Keyword>
+      <Text>Overwrite existing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.KeepExisting</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ShowChanges</Keyword>
+      <Text>Show changes in explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.OriginalDataBackupFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BackupDirNoWritePermissions</Keyword>
+      <Text>PlanScan project backup directory is read-only. Please make sure that the directory '{0}' is writeable and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BackupDirCreationError</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.PatientCreationFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.JobCreationFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.LowerJawScanMissing</Keyword>
+      <Text>Lower jaw scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.UpperJawScanMissing</Keyword>
+      <Text>Upper jaw scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.VestibularScanMissing</Keyword>
+      <Text>Vestibular scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.RepeatDataImport</Keyword>
+      <Text>Retry import scan data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataTransferIncomplete</Keyword>
+      <Text>Data transfer incomplete</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.JobArrived</Keyword>
+      <Text>PlanScan: job arrived</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.TrayIcon.Tip</Keyword>
+      <Text>Click for further options</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Notes.UsedReconstructions</Keyword>
+      <Text>Reconstructions</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.CompleteNewClientData</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Requires confirmation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Data copied partially</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Assign to practice</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ImportState.Success.Title</Keyword>
+      <Text>Imported</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ShowSourceFolder</Keyword>
+      <Text>Open source folder</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.AutomaticImportSetupFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ErrorProcessingDirectFormat</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.GenericImportError</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DirectoryCreationFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BackupDirNotSet</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BackupDirNotSet.Ok</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.WorkType.EmptyMaterialList</Keyword>
+      <Text>Reconstruction {0} does not have materials assigned to. Please contact your distributor to get the "reconstruction database" configured propertly.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.MaterialNotDefined.UsingFirst</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.NoMaterialForReconstructionFound</Keyword>
+      <Text>Restoration for tooth '{0}' could not be created. Reconstruction '{1}' does not allow usage of material '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>For PlanScan reconstruction '{0}' material '{1}' is not defined or mapped to dental project material. Using default material '{2}' instead. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.E4DMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>For PlanScan reconstruction '{0}' material '{1}' is not defined or mapped to dental project material. Using first available material '{2}' instead. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.CouldnotResolveJawForFile</Keyword>
+      <Text>Could not resolve jaw for file '{0}'. File skipped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileNotFound</Keyword>
+      <Text>Scan file '{0}' could not be found.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ScanDataCheckFailed</Keyword>
+      <Text>An error occurred while checking scan data completeness. Scan data copy proccess canceled.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ScanDataIncomplete</Keyword>
+      <Text>Project scan data are not complete.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BiteSplintOrderWarning</Keyword>
+      <Text>Imported case contains bitesplint order. Before proceeding to CAD, please check bitesplint location in notes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ModelOrderWarning</Keyword>
+      <Text>Imported case contains model order. Use the model creator button to design a model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.ProvisionalsOrderWarning</Keyword>
+      <Text>Before proceeding to CAD, please mark those teeth as provisionals that you would like to design provisionals for.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.OtherOrderWarning</Keyword>
+      <Text>Imported case contains an order for unsupported appliance type '{0}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.Warning</Keyword>
+      <Text>WARNING:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.UnknownRestorationsSkipped</Keyword>
+      <Text>Following restoration types are unknown and will be skipped: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FailedToCreateHealthy</Keyword>
+      <Text>An error occurred while creating information for healthy tooth.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.HealthyRecoNotDefined</Keyword>
+      <Text>Restoration representing healthy tooth not defined.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FailedToCreateBiteSplint</Keyword>
+      <Text>An error occurred while creating information for bite splint.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.BiteSplintRecoNotDefined</Keyword>
+      <Text>Restoration representing bite splint not defined.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.MarginLineProcessingError</Keyword>
+      <Text>An error occurred processing margin line for tooth {0}. Error message: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataImportFailed</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataImportFailed.UnknownReason</Keyword>
+      <Text>Unknown error.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataStorageError</Keyword>
+      <Text>Data storage error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataImportedWithWarnings</Keyword>
+      <Text>
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.DataStorageWarning</Keyword>
+      <Text>Data storage warning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileFormats.PMProjectFile</Keyword>
+      <Text>Planmeca project file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.FileFormats.PMAllSupported</Keyword>
+      <Text>Planmeca (All)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport04.NoRestorationsDefined</Keyword>
+      <Text>No restorations are defined in Planmeca project file. Please review the scan data and define restorations to proceed.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

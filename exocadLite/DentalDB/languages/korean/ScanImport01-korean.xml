@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>기공소를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>iTero 작업을 생성하는 과정에 오류가 발생하였습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>iTero 파일 {0}에 대한 작업 데이터를 생성하였습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>치아 {0} 건너뛰기.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text><![CDATA[ i-Tero 파일 {0}에 대한 작업이 생성되었습니다. 그러나 일부 데이터가 손상되어 적용되지 않을 수 있습니다:
+      {1}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>작업 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        iTero 프로젝트 파일에 거래처가 지정되어 있지 않습니다.
+        아래 양식에 맞도록 거래처를 지정하여 주십시오.
+        새로운 거래처를 등록하지 않거나 기존에 등록되어 있는 거래처를 지정하지 않으면
+        더 이상 진행할 수 없으며 창이 닫힙니다.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>ID{0}에 해당하는보철물 유형이 없습니다. 더 자세한 내용은 판매처에 문의하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>ID{0}에 해당하는보철물 유형이 없습니다. 더 자세한 내용은 판매처에 문의하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>데이터 베이스에서 기본 보철물의 변수값 {0}을 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>작업 유형 {0}과 보철물 재료 {1}에서는 대합치를 적용할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>iTero 프로젝트에서 ID {0}의 iTero 보철물 재료를 찾을 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>보철물 재료 ID {0}과 iTero 작업명 {1}은 호환되지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>작업 유형 {0}과 보철물 재료 {1}을 적용할 수 있는 데이터가 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>케이스 ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>납기일</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>부가 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>보철물 재료 지정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>색 구성표</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>색 구성표</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>보철물 재료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>절단부 색조(Shade)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>중간부 색조(Shade)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>치은부 색조(Shade)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>마진 디자인</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>내부</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Ext</Keyword>
+      <Text>전정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>임플란트</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>치아</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>보철물 제작 작업을 진행하기 전에 불러온 데이터의 정확도 및 정밀도를 확인하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.EmptyMatrixString</Keyword>
+      <Text>iTero 파일의 변환 행열 문자열이 비어 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.InvalidMatrixString</Keyword>
+      <Text>iTero 파일의 변환 행열 문자열이 비어 있습니다.
+Given: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>iTero 프로젝트에 재료{0}가 설정되지 않았습니다. 치아 ID {1}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImport01-korean-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

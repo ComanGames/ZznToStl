@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <IncludeFiles></IncludeFiles>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNotDefinedAndCannotBeAutoset</Keyword>
+      <Text>Das zu importierende Projekt enthält eine Kundeninformationen. Die DentalDB ist nicht für den Chairside-Modus konfiguriert und/oder hat keine ChairSideClientId. Projekt-ID {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientAddFailed</Keyword>
+      <Text>Fehler beim Hinzufügen von Kunde '{0}' für Fall {1}.
+Fehler: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch</Keyword>
+      <Text>Der Kundenname im zu importierenden Projekt stimmt nicht mit dem Kundennamen in der DentalDB überein.
+Alter Name: {0}
+Neuer Name: {1}
+Bitte wählen Sie eine Aktion:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName</Keyword>
+      <Text>Alten Namen verwenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName.Description</Keyword>
+      <Text>Der in der DentalDB hinterlegte Kundenname wird verwendet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject</Keyword>
+      <Text>Neuen Namen verwenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject.Description</Keyword>
+      <Text>Der Kundenname im zu importierenden Projekt wird verwendet. Alle Projekte, die sich auf diesen Kunden beziehen, werden aktualisiert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel.Description</Keyword>
+      <Text>Der Import wird abgebrochen. Sie können ihn beim nächsten Start der DentalDB wieder aufnehmen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.PatientAddFailed</Keyword>
+      <Text>Fehler beim Hinzufügen von Patient mit Nachnamen '{0}' und Vornamen '{1}' für Fall {2}.
+Fehler: {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.MultidieProjectButMultidieDisabled</Keyword>
+      <Text>Die Multidie-Version der DentalDB wird benötigt. Projekt-ID {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ErrorMovingProjectFiles</Keyword>
+      <Text>Projektdaten für Projekt {0} konnten nicht entfernt werden. Fehler: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.Notes.ShadeScheme</Keyword>
+      <Text>Farbsystem: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.VCL</Keyword>
+      <Text>VITA classical A1-D4®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.V3DM</Keyword>
+      <Text>Vita 3D Master®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.ToothProperties</Keyword>
+      <Text>Zahn {0}: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Middle</Keyword>
+      <Text>M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Incisal</Keyword>
+      <Text>I</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Gingival</Keyword>
+      <Text>G</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

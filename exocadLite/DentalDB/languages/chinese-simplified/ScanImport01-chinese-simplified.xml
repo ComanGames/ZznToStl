@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>牙齿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>种植体</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>继续设计前请检查导入的数据是否完整和正确。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>不能获取默认技工所</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>内部的</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>边缘设计</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>配色方案</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>附加信息</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>材料规格</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>选择诊所</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.EmptyMatrixString</Keyword>
+      <Text>来自iTero文件的转换模型字符串为空.预期非空字符串其中包含16个双倍字符串</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>跳过的牙 {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>从i-Tero文件 {0} 成功建立任务草稿.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.InvalidMatrixString</Keyword>
+      <Text>转换模型字符串的格式无效: 非空字符串包括16个双倍字符串
+鉴于: {0}      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>配色方案</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>从iTero项目建立任务时出错.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>对选择的工作类型 {0} 和材料 {1} 没数据可用.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Ext</Keyword>
+      <Text>前庭的</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>牙龈色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>此号码 {0} 的iTero材料未在iTero项目中找到.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>此号码 {0} 的材料和iTero名 {1} 没有对应.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>不能从工作类型 {0} 和材料 {1} 建立对颌.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>没有修复体类型号 {0} . 详细细节请联系您的经销商.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>没有修复体类型号 {0} ，详细细节请联系您的经销商。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>在数据库中没有找到为默认重建类型提供的数值 {0} .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>到期日</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>病例号</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text>从 i-Tero文件 {0} 建立了草稿.  部分数据可能没有被处理因此不存在方案中:
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        在iTero项目文件中指定的顾客没有在数据库中找到.
+        请填写下列表格以建立顾客.
+        关闭窗口将不建立新顾客并为从iTero项目建立的任务指定存在的顾客.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>中部色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>切端颜色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>没有匹配材料定义iTero项目中的材料{0}。牙齿ID{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorParsingMarginLineFile</Keyword>
+      <Text>读取颈缘线文件时出错{0}。 
+错误消息： 
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>解析边缘线数据时发生错误： 
+文件：{0}。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>存储转换颈缘线数据到文件{0}时发生错误。 
+错误消息： 
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>itero项目材料清单不完整，因此原材料名称不能确定。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Title</Keyword>
+      <Text>请选择材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Description</Keyword>
+      <Text>尽管在DentalCAD中每颗牙齿只可使用一种材料，iTero项目组群列表中的牙齿被指定为不同的材料。
+请选择下修复体的材料。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>你需要选择每个牙齿组群材料并继续。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>牙齿{0}：没有与导入项目定义的材料相匹配的，使用默认材料来代替。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>牙齿{0}：没有与导入项目定义的材料相匹配的，使用第一默认材料。</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

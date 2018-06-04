@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ScannerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!--For LOD: Low=0, Medium=1, High=2, VeryHigh=3-->
+	<!--If Decimate is false, DecimateToleranceand DecimateMaxTri is not used-->
+
+	<ScanStrategies>
+
+		<ScanStrategy ScanType="PreviewScan" Resolution="5.0">
+			<ScanPosition a="45" b="0"/>
+		</ScanStrategy>
+
+		<ScanStrategy ScanType="StandardScan" Resolution="60.0">
+			<ScanPosition a="15" b="270"/>
+			<ScanPosition a="10" b="330"/>
+			<ScanPosition a="10" b="30"/>
+			<ScanPosition a="10" b="90"/>
+			<ScanPosition a="15" b="150"/>
+			<ScanPosition a="15" b="210"/>
+			<ScanPosition a="45" b="180"/>
+		</ScanStrategy>
+
+		<ScanStrategy ScanType="PreparationScan" Resolution="80.0">
+			<ScanPosition a="0" b="0"/>
+			<ScanPosition a="0" b="60"/>
+			<ScanPosition a="0" b="120"/>
+			<ScanPosition a="0" b="180"/>
+			<ScanPosition a="0" b="240"/>
+			<ScanPosition a="0" b="300"/>
+			<ScanPosition a="20" b="45"/>
+			<ScanPosition a="20" b="105"/>
+			<ScanPosition a="20" b="165"/>
+			<ScanPosition a="20" b="225"/>
+			<ScanPosition a="20" b="285"/>
+			<ScanPosition a="20" b="345"/>
+		</ScanStrategy>
+
+		<ScanStrategy ScanType="VestibularRegistrationScan" Resolution="40.0">
+			<ScanPosition a="15" b="0"/>
+			<ScanPosition a="15" b="40"/>
+			<ScanPosition a="15" b="-40"/>
+		</ScanStrategy>
+
+	</ScanStrategies>
+
+</ScannerConfiguration>

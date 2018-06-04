@@ -1,0 +1,34 @@
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:gui="clr-namespace:DentalGUIHelper;assembly=DentalConfig">
+
+    <!-- Stlye for all Buttons in the Toolbar of the MainWindow -->
+    <Style x:Key="ToolBarButton" TargetType="{x:Type gui:ImageAndTextButton}">
+        <Setter Property="ContentWidth" Value="56" />
+        <Setter Property="ContentHeight" Value="56" />
+        <Setter Property="BorderBrush" Value="White" />
+        <Setter Property="Foreground" Value="{DynamicResource ToolbarButtonForegroundBrush}" />
+        <Setter Property="Background" Value="{DynamicResource ToolbarButtonBackgroundBrush}" />
+        <Setter Property="Margin" Value="0,5" />
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}" />
+        <Setter Property="FontFamily" Value="{DynamicResource BoldFontFamily}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="TextDock" Value="Bottom" />
+    </Style>
+	  
+    <!-- Stlye for all ToggleButtons in the Toolbar of the MainWindow -->
+    <Style x:Key="ToolBarToggleButton" TargetType="{x:Type gui:ImageAndTextToggleButton}">
+        <Setter Property="ContentWidth" Value="56" />
+        <Setter Property="ContentHeight" Value="56" />
+        <Setter Property="BorderBrush" Value="White" />
+        <Setter Property="Foreground" Value="{DynamicResource ToolbarButtonForegroundBrush}" />
+        <Setter Property="Background" Value="{DynamicResource ToolbarButtonBackgroundBrush}" />
+        <Setter Property="Margin" Value="0,5" />
+        <Setter Property="FontSize" Value="{DynamicResource NormalFontSize}" />
+        <Setter Property="FontFamily" Value="{DynamicResource BoldFontFamily}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="TextDock" Value="Bottom" />
+    </Style>
+
+</ResourceDictionary>

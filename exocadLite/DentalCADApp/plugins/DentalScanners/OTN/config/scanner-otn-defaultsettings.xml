@@ -1,0 +1,21 @@
+<!-- DO NOT MODIFY THIS FILE!
+   
+     It will be overwritten during update process
+     
+     Instead, copy it to "scanner-otn-settings.xml" and make your changes there
+     (you can remove the tags that remain unchanged - entries in scanner-otn-settings.xml
+     will override entries in scanner-otn-defaultsettings.xml) -->
+
+<!--(0 - No Movement Scanner, 1 - Only Rotating Scanner, 2 - First Basculation Scanner (Sinergia), 3 - New Basculation Scanner (Actual) , 4... for future use)-->
+
+<DentalScannerSettingsProviderOTN>
+  <DentalScanner_OTN_LocalConfigurationDirectory>DentalScannerOTN</DentalScanner_OTN_LocalConfigurationDirectory>
+  <DentalScanner_OTN_CalibFileExtension>.xml</DentalScanner_OTN_CalibFileExtension>
+  <DentalScanner_OTN_OptconfFileExtension>.optconf</DentalScanner_OTN_OptconfFileExtension>
+  <DentalScanner_OTN_CalibrationTimeOutDays>7</DentalScanner_OTN_CalibrationTimeOutDays>
+  <DentalScanner_OTN_CamerasRenderMode>1</DentalScanner_OTN_CamerasRenderMode>  <!--//0 is the real camera image //1 is the inverted camera image (OTN view)-->
+ <DentalScanner_OTN_EnableIcpAlignmentAtScan>true</DentalScanner_OTN_EnableIcpAlignmentAtScan>
+  <DentalScanner_OTN_ShowImpressionScanOption>true</DentalScanner_OTN_ShowImpressionScanOption>
+
+  <DentalScanner_OTN_IsReleaseVersion>false</DentalScanner_OTN_IsReleaseVersion>
+</DentalScannerSettingsProviderOTN>

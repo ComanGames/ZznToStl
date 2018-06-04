@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport02.ImportSuccessed</Keyword>
+      <Text>3Mファイル {0}からジョプドラフトJob draftの作成は成功されました</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RestorationSkipped</Keyword>
+      <Text>回復｛0｝は、スキップしました。影響を受けた歯： {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectPractice.Header</Keyword>
+      <Text>実践を選択ｋ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportMaterialMissing</Keyword>
+      <Text>ＩＤ｛0｝の3Ｍマテリアルは3Ｍプロジェクトの中で見つけられませんでした。3M material with id {0} was not found in the 3M project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DueDate</Keyword>
+      <Text>期日</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.AdditionalInfo</Keyword>
+      <Text>追加情報</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MaterialSpecification</Keyword>
+      <Text>マテリアル仕様</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Colorspecification</Keyword>
+      <Text>色彩の配合</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema</Keyword>
+      <Text>色彩の配合</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedMaterials</Keyword>
+      <Text>マテリアル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>インサイザル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>歯頚部</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>ガムシェード</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign</Keyword>
+      <Text>マージンデザインMargin design</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Int</Keyword>
+      <Text>インターナル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Ext</Keyword>
+      <Text>前庭vestibular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Implant</Keyword>
+      <Text>インプラント</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Tooth</Keyword>
+      <Text>歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text><![CDATA[コンストラクションを用いて続ける前に完全性と正しさのためにインポートされたデータセットをご確認下さい。Please check the imported dataset for completeness and correctness before you continue with your construction.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.EmptyMatrixString</Keyword>
+      <Text>3Mファイルからのマトリックス・ストリングは、空です。16ダブルスを含んでいる空きのないストリングが予想されています。Transformation matrix string from 3M file is empty. Non empty string containing 16 doubles expected</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InvalidMatrixString</Keyword>
+      <Text>
+        変換マトリックス・ストリングは、無効なフォーマットです。16ダブルスを含んでいる空きのないストリングが予想されています。 与えられたもの: {0}：Transformation matrix string is in invalid format: non empty string containing 16 doubles expected.
+        Given: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromThreeM.ToolTip</Keyword>
+      <Text>３Ｍプロジェクトファイルから新しいジョブを作成して下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.BillingAddress</Keyword>
+      <Text>請求先住所:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ShippingAddress</Keyword>
+      <Text>配送先住所:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CreationDate</Keyword>
+      <Text>作成日:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.RxDate</Keyword>
+      <Text>Rx日:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DateRequested</Keyword>
+      <Text>依頼日:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.GuidConversionFailed</Keyword>
+      <Text>
+        プロジェクトguidストリングは、Guidに変わることができません。guid string: {0}
+        Error message:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema</Keyword>
+      <Text>ユニバーサル付番方式</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema</Keyword>
+      <Text>    歯番号付け計画は、プロジェクト・ファイルから決定されることができません。 手で計画を選んでください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema.Description</Keyword>
+      <Text>3Mプロジェクト・ファイルで定められる歯は、数えられて一般的であるとされますTeeth defined in 3M project file will be assumed to be universal numbered</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental</Keyword>
+      <Text>FDI 世界歯科連盟記号法World Dental Federation notation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental.Description</Keyword>
+      <Text>3Mプロジェクト・ファイルで定められる歯は、数えられるFDIであるとされますTeeth defined in 3M project file will be assumed to be FDI numbered</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel</Keyword>
+      <Text>キャンセル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel.Description</Keyword>
+      <Text>インポートはキャンセルされます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeNoMapping</Keyword>
+      <Text>回復タイプ『｛0｝』は、図にされません。Restoration type '{0}' is not mapped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotSpecified</Keyword>
+      <Text>3Mプロジェクト・ファイルは、指定されません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotFound</Keyword>
+      <Text>
+        インポートするための3Mプロジェクト・ファイルは、見つからなかったです。 File name: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileCorrupt</Keyword>
+      <Text>
+        3Mプロジェクト・ファイルを解析している間、エラーが起こりました。 ファイル名： {0}
+        エラーメッセージ:{1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotSpecified</Keyword>
+      <Text>3M修復をDentalDBタイプにマップしているファイルは、指定されません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotFound</Keyword>
+      <Text>
+       DentalDBタイプへのファイル・マッピング3M修復は、見つからなかったです。ファイル名： {0} 
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileCorrupt</Keyword>
+      <Text>
+        3M修復をDentalDBタイプにマップしているFileを解析している間、エラーは起こりました。ファイル名： {0}An error occured while parsing File mapping 3M restorations to DentalDB types.
+        File name: {0}
+
+        Error message:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMaterialNotMappedFirstUsed</Keyword>
+      <Text>3M　マテリアル｛0｝は、DentalDＢマテリアルに対応づけされません。
+        回復のためのデフォルトマテリアル『｛1｝』が、使われます。
+        影響を受けた歯： {2}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.Title</Keyword>
+      <Text>マテリアル選択</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionFallbackDefault</Keyword>
+      <Text>
+        ワークタイプ『｛0｝』は、マテリアル『｛1｝』の使用を許しません。
+        ワークタイプのためのデフォルトマテリアル『｛2｝』が、使われます。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.LabMissing</Keyword>
+      <Text>デフォルトラボを習得できませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportFailed</Keyword>
+      <Text>
+       ３Ｍプロジェクトからジョブを作成している間にエラーは起こりました。
+        エラーメセージ:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportedWithWarnings</Keyword>
+      <Text>
+        デンタルプロジェクトドラフトは3Mプロジェクトから創られました。 3M project file:
+        {0}
+
+
+        いくつかのﾃﾞｰﾀｰが続行されない場合はプロジェクト内{1}で見つからないでしょう。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AddPracticeFirst</Keyword>
+      <Text>
+        3Mプロジェクト・ファイルに明記されているカスタマーは、データベースで見つかりませんでした。
+        指定された名前でカスタマーをつくるために、以下のフォームを記入してください。
+        新しいカスタマーをつくることなく、そして３Ｍプロジェクトからジョプクリエイトされた既存のカスタマーを選定しないで、
+　　　　続行させるにはウインドを閉じて下さい。 
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>ID『｛0｝』によるリコンストラクションタイプReconstructionTypeではない. 詳細はディストリビューターにお尋ね下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMappingMissing</Keyword>
+      <Text>ID『｛0｝』によるリコンストラクションタイプReconstructionTypeではない. 詳細はディストリビューターにお尋ね下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>デフォルトリコンストラクションタイプのための提供されたバリュー｛0｝は、データベースで見つかりませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AntagonistDataInvalid</Keyword>
+      <Text>ワークタイプ｛0｝とマテリアル｛1｝からアンタゴニストをつくることができませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialMappingMissing</Keyword>
+      <Text>Material with id {0}/{1} is not mapped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionMissing</Keyword>
+      <Text>
+        ワークタイプ{0}はマテリアル{1}の使用を許可しませんでした。
+        ワークタイプのための最初の利用できるマテリアルが、使われます。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.InternalCaseId</Keyword>
+      <Text>プロジェクトID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ExternalCaseId</Keyword>
+      <Text>Order</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Notes</Keyword>
+      <Text>Notes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InsufficientAccessRights.Project</Keyword>
+      <Text>不十分なユーザー許可は、プロジェクト・ディレクトリに3Mプロジェクト・ファイルをコピーすることになっています。 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Project</Keyword>
+      <Text>エラー対処3Ｍデーターファイル{0} から{1}。エラー{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Data</Keyword>
+      <Text>エラー対処3Ｍデーターファイル{0} から{1}。エラー{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileTransferIncomplete</Keyword>
+      <Text>
+        ３Ｍプロジェクト {0}からの参照されたファイルをコピーしている間にエラーが起こりました。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothSkipped</Keyword>
+      <Text>歯{0}はスッキプされました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothDataNotFound</Keyword>
+      <Text>歯のデーターが見つかりませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothNumberNotFound</Keyword>
+      <Text>
+        {0}の中に歯のナンバーが見つかりませんでした。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothRecoTypeNotFound</Keyword>
+      <Text>
+        歯のレコタイプは歯 {0}のために見つかりませんでした。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialDescrNotFound</Keyword>
+      <Text>
+        歯材料descrは、歯｛0｝のために見つかりません。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialNotFound</Keyword>
+      <Text>
+        歯マテリアルは、歯{0}のために見つかりません。
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothInfoCreationFailed</Keyword>
+      <Text>
+       エラーは歯{0}のための情報処理中に起こりました。
+        Error:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RecentlyArrivedJobs</Keyword>
+      <Text>3M: new jobs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ProjectId</Keyword>
+      <Text>3M Project id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Info</Keyword>
+      <Text>3M info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NewProjects</Keyword>
+      <Text>インポート済プロジェクト:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Conflicts</Keyword>
+      <Text>不一致:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ActionRequired</Keyword>
+      <Text>実行してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>指定される実行は、見つからなかったか、ユニークでありません。続けるために、データを完成してください。Practice specified could not be found or is not unique. Please complete the data to continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RemoveFromArrivedList</Keyword>
+      <Text>リストから削除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PracticeDataEnrichment</Keyword>
+      <Text>ジョブの完成</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ViewInDentalDB</Keyword>
+      <Text>DentalDBの中で確認する</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OpenInExplorer</Keyword>
+      <Text>エクスプローラーの中で開く</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OverrideExisting</Keyword>
+      <Text>存在するものに上書きして下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.KeepExisting</Keyword>
+      <Text>いいえ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowChanges</Keyword>
+      <Text>エクスプローラーの中で変化を示して下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OriginalDataBackupFailed</Keyword>
+      <Text>エラーは３Ｍプロジェクトがバックアップされている間に起こりました。
+3M プロジェクト ディレクトリ: {0}
+目的ディレクトリ: {1}
+エラー: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNoWritePermissions</Keyword>
+      <Text>3M プロジェクト・バックアップ・ディレクトリは読み込み専用です。
+ディレクトリ『｛0｝』が書き込み可能なことを確認して、もう一度ためしてください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirCreationError</Keyword>
+      <Text>エラーは、3Mプロジェクト・バックアップ・ディレクトリ『｛0｝』を作成中に起こりました。
+エラー: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PatientCreationFailed</Keyword>
+      <Text>エラーは患者のデーター{0}保存中に起こりました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobCreationFailed</Keyword>
+      <Text>エラーはジョブデーター{0}保存中に起こりました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.LowerJawScanMissing</Keyword>
+      <Text>下顎スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.UpperJawScanMissing</Keyword>
+      <Text>上顎スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.VestibularScanMissing</Keyword>
+      <Text>前庭スキャン　Vestibular scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>3Mプロジェクトスキャンデータフォーマットは、見つけられることができませんでした。
+プロジェクト　ディレクトリーProject directory: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RepeatDataImport</Keyword>
+      <Text>スキャンデーターの取り込みをもう一度試して下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.DataTransferIncomplete</Keyword>
+      <Text>データーの移動不完全</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobArrived</Keyword>
+      <Text>3M: ジョブ到着job arrived</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TrayIcon.Tip</Keyword>
+      <Text>オプションはクリックして下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedReconstructions</Keyword>
+      <Text>再構成</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.CompleteNewClientData</Keyword>
+      <Text>患者は自動的に3Ｍからインポート中に作成されました。
+インポートを完成させるために足りないデーターを埋めて下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>確認要求</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>データーは部分的にコピーされました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>実践するために割り当てて下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.Success.Title</Keyword>
+      <Text>インポートされました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowSourceFolder</Keyword>
+      <Text>元のホルダーを開いて下さい。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AutomaticImportSetupFailed</Keyword>
+      <Text>エラーは、自動3Mプロジェクトインポートを構成している時に起こりました。
+Observed directory: {0}
+Observation mode: {1}
+Error details: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorProcessingDirectFormat</Keyword>
+      <Text>エラーは直接的なフォーマットファイル{0}の処理中に起こりました。
+Error: {1}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImport02-japanese-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

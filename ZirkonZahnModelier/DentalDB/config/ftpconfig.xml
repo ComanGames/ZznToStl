@@ -1,0 +1,55 @@
+<Config>
+  <FTPAccess>
+    <ftpuser></ftpuser>
+    <ftppass></ftppass>
+    <ftpdir>/incoming/</ftpdir>
+    <ftpHost>ftp://ftp.zirkonzahn.biz</ftpHost>
+    <showFTPMessages>true</showFTPMessages>
+    <showNetworkMessages>true</showNetworkMessages>
+  </FTPAccess>
+  <Tries>
+    <repeatsNumber>10</repeatsNumber>
+    <!--Seconds -->
+    <WaitTime>1</WaitTime>
+  </Tries>
+   <StartUploadFiles>
+    <UploadFiles>
+      <Caption>CADDesignData</Caption>
+      <StartFilesList>
+        <FilesList>*_cad.stl</FilesList>
+        <FilesList>*.dentalProject</FilesList>
+        <FilesList>*.constructionInfo</FilesList>
+        <FilesList optional="true">*.iges</FilesList>
+      </StartFilesList>
+      <CheckedByDefault>true</CheckedByDefault>
+    </UploadFiles>
+    <UploadFiles>
+      <Caption>ScanAndCADDesignData</Caption>
+      <StartFilesList>
+        <FilesList>*.stl</FilesList>
+        <FilesList>*.dentalProject</FilesList>
+        <FilesList>*.constructionInfo</FilesList>
+        <FilesList optional="true">*.iges</FilesList>
+        <FilesList optional="true">*.implantPosition</FilesList>
+      </StartFilesList>
+      <CheckedByDefault>false</CheckedByDefault>
+    </UploadFiles>
+    <UploadFiles>
+      <Caption>Scenes</Caption>
+      <StartFilesList>
+        <FilesList>*.dentalCAD</FilesList>
+      </StartFilesList>
+      <CheckedByDefault>false</CheckedByDefault>
+    </UploadFiles>
+
+    <UploadFiles>
+      <Caption>Screenshots</Caption>
+      <StartFilesList>
+        <FilesList optional="true">*.png</FilesList>
+        <FilesList optional="true">*.jpg</FilesList>
+        <FilesList optional="true">*.jpeg</FilesList>
+      </StartFilesList>
+      <CheckedByDefault>true</CheckedByDefault>
+    </UploadFiles>
+   </StartUploadFiles>
+</Config>

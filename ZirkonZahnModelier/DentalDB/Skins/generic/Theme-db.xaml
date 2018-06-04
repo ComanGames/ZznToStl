@@ -1,0 +1,40 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:converters="clr-namespace:DentalDB.Converters;assembly=DentalDB"
+    xmlns:DentalGUIHelper="clr-namespace:DentalGUIHelper;assembly=DentalConfig"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Resource dictionary entries should be defined here. -->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Common/commons.xaml"/>
+        <ResourceDictionary Source="Common/NamedStyles/PlainListViewStyle.xaml"/>
+		<ResourceDictionary Source="DentalDB/ValueSliderStyle.xaml" />
+		<!-- keep it here as it overrides ListViewStyle from BaseControlStyles -->	
+		<ResourceDictionary Source="DentalDB/NamedStyles/ListView.xaml"/>
+    	<ResourceDictionary Source="DentalDB/NamedStyles/DentalToolWindowStyleBase.xaml"/>
+    	<ResourceDictionary Source="DentalDB/NamedStyles/DentalDBToolWindow.xaml"/>
+    	<ResourceDictionary Source="DentalDB/NamedStyles/LoadTreatmentStyle.xaml"/>
+    	<ResourceDictionary Source="DentalDB/customer.xaml"/>
+	
+
+    </ResourceDictionary.MergedDictionaries>
+    <converters:DateToIntervallConverter x:Key="dateToIntervalConverter"/>
+
+    <Style x:Key="StartButtonSeparator" TargetType="{x:Type Separator}">
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Background" Value="{DynamicResource Background1Brush}"/>
+        <Setter Property="Height" Value="20"/>
+    </Style>
+    <!--
+			<SolidColorBrush x:Key="ProgressBarSpinnerLeaderBrush" Color="Blue"/>
+			<SolidColorBrush x:Key="ProgressBarSpinnerTailBrush" Color="Orange"/>
+
+			<SolidColorBrush x:Key="BizzySpinnerLeaderBrush" Color="Blue"/>
+			<SolidColorBrush x:Key="BizzySpinnerTailBrush" Color="Orange"/>
+
+			-->
+    <Style TargetType="{x:Type DentalGUIHelper:AutoCompleteComboBox}" BasedOn="{StaticResource {x:Type ComboBox}}"/>
+
+
+	
+	
+</ResourceDictionary>

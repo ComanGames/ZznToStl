@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>QueueDirNotExist</Keyword>
+      <Text>Η παρακάτω λίστα αναμονής '{0}' δεν υπάρχει.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Legend.Treatment.TimeLine</Keyword>
+      <Text>Ιστορικό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialAbutment.DependentParameter</Keyword>
+      <Text>Υλικό κολοβώματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Today</Keyword>
+      <Text>Σήμερα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.ThisWeek</Keyword>
+      <Text>βδομάδα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.LastMonth</Keyword>
+      <Text>μήνας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Older</Keyword>
+      <Text>Ηλικία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Color.MaterialProperty</Keyword>
+      <Text>Χρώμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RestartToApplyChanges</Keyword>
+      <Text>Οι αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση της εφαρμοφής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsWindow</Keyword>
+      <Text>Επιλογές</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInitError</Keyword>
+      <Text>Σημαντικό λάθος εμφανίστηκε κατα την επεξεργασία των δεδομένων της αποκατάστασης.
+Λεπτομέριες λάθους:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescription</Keyword>
+      <Text>Υποδοχή inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescription</Keyword>
+      <Text>Μπάρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileParseError</Keyword>
+      <Text>
+       Λάθος κατα την επεξεργασία του αρχείου ντουμπλαρίσματος.
+
+        Κωδικός: {0}
+
+
+        Fehlerdetails:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileNotFound</Keyword>
+      <Text>Το αρχείο ντου μπλαρίσματος με κωδικό {0} δεν μπόρεσε να βρεθεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Header</Keyword>
+      <Text>Επιλογή του αρχείου για ντουμπλάρισμα.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToCopyOnDuplicate</Keyword>
+      <Text>Δεδομένα για ντουμπλάρισμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Ok</Keyword>
+      <Text>Ντουμπλάρισμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.AddLabFirst</Keyword>
+      <Text>
+        Λόγω της εισαγωσης δεδομένων δεν μπόρεσε στην βάση δεδομένων να βρεθεί συνεργαζόμενο εργαστήριο.
+        Παρακαλούμε συμπληρώστε την φόρμα,ώστε να δημιουργήσετε κωδικό εργαστηρίου.
+        Για να προχωρήσετε χωρίς την επιλογή εργαστηρίου κλείστε το παράθυρο.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateLaboratory</Keyword>
+      <Text>Δημιουργεία εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportSuccessed</Keyword>
+      <Text> Αποκατάσταση απο το αρχείο  {0} εισάχθηκε επιτυχώς.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Continue</Keyword>
+      <Text>Εκκίνηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.SelectLaboratory.Header</Keyword>
+      <Text>Δώστε εργαστήριο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.EntryAlreadyExists</Keyword>
+      <Text>Η αποκατάσταση υπάρχει ήδη θέλετε να σώσετε αυτήν διαγράφοντας την προηγούμενη? 
+      Αν επιλέξετε 'οχι' ,θα διακοπεί η εισαγωγή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.AmbiguousType</Keyword>
+      <Text> Πολλαπλή αξία :Επισύναψη&lt;{0}&gt; δεν αναγνωρίστηκε</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownTag_Treatment</Keyword>
+      <Text>Επισύναψη &lt;{0}&gt; με αξία'{1}' δεν αναγνωρίστηκε. Αυτή η αξία θα αγνοηθεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParentParameter_Treatment</Keyword>
+      <Text>Επισύναψη &lt;{0}&gt; με αξία '{1}' δείχνει εξαρτόμενη αξία, η οποία δεν υπάρχει στην κάτωθι (εξαρτόμενο) Παράμετρο '{2}' . Θα αγνοηθεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParameter</Keyword>
+      <Text>Μία οι περισσότερες ποσοτικές αξίες δεν μπόρεσαν να επεξεργαστούν.Αυτές δεν έχουν όνομα αποκατάστασης για το δόντι {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidParameterValue</Keyword>
+      <Text>Παράμετρος {0} έχει λάθος αξία - Η αξία δεν είναι αριθμός.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ToothWorkListMissing</Keyword>
+      <Text>Λίστα αποκαταστάσεων δεν υπάρχει</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UserAborted</Keyword>
+      <Text>Διακοπή απο χρήστη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoDateTagOrInvalid</Keyword>
+      <Text>
+      Ημερομηνία δημιουργείας της αποκατάστασης δεν βρέθηκε η δεν έχει σωστή διαμόρφωση.
+      Θέλετε να χρησιμοποιήσετε την σημερινή ημερομηνία?
+      
+      Αν 'οχι' - διακόπτεται η εισαγωγή.
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoNotesTag</Keyword>
+      <Text>ΔΕν υπάρχουν σημειώσεις στην εισαγωσή.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTrayNo</Keyword>
+      <Text>&lt;TrayNo&gt; Η Επισύναψη δεν περιέχει σωστό αριθμό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTechnicianId</Keyword>
+      <Text>&lt;TechnicianId&gt; Η Επισύναψη δεν περιέχει σωστό αριθμό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.TechnicianTagMissing</Keyword>
+      <Text>Δεν μπόρεσε να καταχωρηθεί όνομα τεχνίτη. &lt;TechnicianId&gt; δεν έχει δοθεί Επισύναψη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InsufficientPatientData</Keyword>
+      <Text>Δεν μπόρεσε να ανακτιθεί ο κωδικός του πελάτη απο το αρχείο.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPatientId</Keyword>
+      <Text>&lt;PatientId&gt; Επισύναψη δεν περιλαμβάνει έγκυρο αριθμό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PatientTagMissing</Keyword>
+      <Text>Δεν μπόρεσε να υπάρξει συσχετισμός ασθενή. Μήτε &lt;PatientId&gt; ούτε &lt;Patient&gt; υπάρχει.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPracticeId</Keyword>
+      <Text>&lt;PracticeId&gt; Επισύναψη δεν περιέχει έγκυρο αριθμό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PracticeTagMissing</Keyword>
+      <Text>Δεν μπόρεσε να συσχετιστεί πελάτης. &lt;PracticeId&gt; Επισύναψη δεν υπάρχει.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ImportErrorHeader</Keyword>
+      <Text>Λάθος κατα την εισαγωγή μίας αποκατάστασης.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.JobSelection.Title</Keyword>
+      <Text>Εισαγωγή του αρχείου της οδοντιατρικής εργασίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Filter.Description</Keyword>
+      <Text>Οδοντιατρική εργασία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportedItem</Keyword>
+      <Text>Εισαγωγή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.SelectLaboratory.Header</Keyword>
+      <Text>Επιλογη εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.Continue</Keyword>
+      <Text>Εκκίνηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.JobDirRemovalFailed</Keyword>
+      <Text>Εμφανίστηκε λάθος κατα την διαγραφή της εργασίαςs {0} για την αποκατάσταση προς διαγραφή.      
+      Μύνημα λάθους: 
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.InsufficientDetails</Keyword>
+      <Text>Δεν υπάρχουν αρκετές πληροφορίες ,για την τοποθέτηση του μεσοδόντιου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.DifferentMaterials</Keyword>
+      <Text>Δεν μπόρεσαν να ναρθικοποιηθούν τα δόντια μια και τα χρησιμοποιούμενα υλικά είναι διαφορετικά.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ConnectTeeth</Keyword>
+      <Text>Ναρθικοποίηση δοντιών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.TeethConnected</Keyword>
+      <Text>Τα δόντια ναρθικοποιήθηκαν</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectCustomer</Keyword>
+      <Text>Παρακαλώ επιλέξτε πρώτα πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTechJob</Keyword>
+      <Text>Επιλογή Ασθενή,Τεχνίτη και είδος αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectToothWork</Keyword>
+      <Text>Επιλογή αποκατάστασης κάτω</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SaveJob</Keyword>
+      <Text>'Σώσιμο' πατήστε για εκκίνηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectActionToolbar</Keyword>
+      <Text>Επιλογή ενέργειας στην μπάρα εργαλείων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedLaboratoryData</Keyword>
+      <Text>Η αλλαγή δεν αποθηκέυτηκε. 
+Θέλετε να αποθηκεύσετε την αλλαγή?
+Πατήστε ναι για αποθήκευση,όχι για διαγραφή της αλλαγής,
+Διακοπή για την συμπλήρωση της εγγραφής.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedClientData</Keyword>
+      <Text>Η αλλαγή δεν αποθηκέυτηκε. 
+Θέλετε να αποθηκεύσετε την αλλαγή?
+Πατήστε ναι για αποθήκευση,όχι για διαγραφή της αλλαγής,
+Διακοπή για την συμπλήρωση της εγγραφής.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedPatientData</Keyword>
+      <Text>Η αλλαγή δεν αποθηκέυτηκε. 
+Θέλετε να αποθηκεύσετε την αλλαγή?
+Πατήστε ναι για αποθήκευση,όχι για διαγραφή της αλλαγής,
+Διακοπή για την συμπλήρωση της εγγραφής.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedTechnicianData</Keyword>
+      <Text>Η αλλαγή δεν αποθηκέυτηκε. 
+Θέλετε να αποθηκεύσετε την αλλαγή?
+Πατήστε ναι για αποθήκευση,όχι για διαγραφή της αλλαγής,
+Διακοπή για την συμπλήρωση της εγγραφής.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.AlreadyLoaded</Keyword>
+      <Text>Φόρτωση της αποκατάστασης.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.SaveFirst</Keyword>
+      <Text>Προσπαθήτε να φορτώσετε μία αποκατάσταση η οποία έχει φορτωθεί και επεξεργαστεί ήδη.Θέλετε να διαγράψετε αυτή την επεξεργασία και να επαναφορτώσετε την αποκατάσταση?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.ToothWork</Keyword>
+      <Text>Επιλογή αποκατάστασης για δόντι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.PatientImageData</Keyword>
+      <Text>Φωτογραφίες</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Preview</Keyword>
+      <Text>Δεδομένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Import</Keyword>
+      <Text>Εισαγωγή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateLaboratoryAdvice</Keyword>
+      <Text>Δημιουργεία εργαστηρίου για συνέχεια</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLaboratory</Keyword>
+      <Text>Επεξεργασία εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OK</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryId</Keyword>
+      <Text>Αριθμός εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryName</Keyword>
+      <Text>Επωνυμία εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientId</Keyword>
+      <Text>Αριθμός ασθενή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianId</Keyword>
+      <Text>Αριθμός τεχνίτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LocalList</Keyword>
+      <Text>Τοπική αποκατάσταση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ImportedList</Keyword>
+      <Text>Εισαγώμενη αποκατάσταση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWork</Keyword>
+      <Text>Παρακαλώ επιλέξτε πρώτα πελάτη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment</Keyword>
+      <Text>
+      Προσοχή!
+
+       Είστε έτοιμοι να διαγράψετε την αποκατάσταση απο την βάση δεδομένων.
+      Θέλετε να διαγράψετε τα στοιχεία τις αποκατάστασεις απο τον δίσκο? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes</Keyword>
+      <Text>Ναι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No</Keyword>
+      <Text>Οχι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ValueForbiddenByMaterialRestriction</Keyword>
+      <Text>Η τιμή '{0}' της παραμέτρου '{1}' δεν είναι δυνατή αυτη τη στιγμή. Προσοχή στην χρήση αυτών των τιμών.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ToothWork.InUse</Keyword>
+      <Text>Το παράθυρο επιλογών για αυτό το δόντι είναι ανοιχτό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Settings.ToolTip</Keyword>
+      <Text>Ρυθμίσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NC.ToolTip</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportTreatment.ToolTip</Keyword>
+      <Text>Εισαγωγή αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DuplicateTreatment.ToolTip</Keyword>
+      <Text>Ντουμπλάρισμα ενεργής αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Updates.ToolTip</Keyword>
+      <Text>Ενημερώσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>btnCloseNestingInformation.Text</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Close.ToolTip</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Υποδοχή
+        Inlay.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescriptionPrint</Keyword>
+      <Text>Μπάρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonist.Parameter</Keyword>
+      <Text>Απόσταση απο τους ανταγωνιστές</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToGingiva.Parameter</Keyword>
+      <Text>Απόσταση απο τα ούλα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialQueueDirSelection</Keyword>
+      <Text>Επιλογή υλικού για φρεζάρισμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialQueueDirSelection</Keyword>
+      <Text>Επιλογή υλικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LegacyMaterial</Keyword>
+      <Text>Το υλικό που επιλέξατε για αυτό το δόντι δεν χρησιμοποιήτε πια παρακαλώ αλλάξτε την επιλογή σας.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CategoryInUse</Keyword>
+      <Text>Μία απο τις τιμές αυτης της κατηγορίας χρησιμοποιείτε απο μία αποκατάσταση. Δεν μπορούμε να διαγράψουμε την κατηγορία.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkTypeInUse</Keyword>
+      <Text>Αυτός ο τύπος εργασίας χρησιμοποιείτε και δεν μπορεί να διαγραφεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialInUse</Keyword>
+      <Text>Αυτός το υλικό χρησιμοποιείτε και δεν μπορεί να διαγραφεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrjInNotepad</Keyword>
+      <Text>prj στο Notepad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Export</Keyword>
+      <Text>Εξαγωγή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCountryConstraint</Keyword>
+      <Text>Παρακαλούμε εισάγετε χώρα!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianConstraint</Keyword>
+      <Text>Πρέπει να δοθεί όνομα η επίθετο.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianNonUniqueId</Keyword>
+      <Text>Υπάρχει ήδη εργαστήριο με αυτόν τον κωδικό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientConstraint</Keyword>
+      <Text>Πρέπει να δοθεί όνομα η επίθετο.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientNonUniqueId</Keyword>
+      <Text>Υπάρχει ήδη ασθενής με αυτο τον κωδικό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCustomerConstraint</Keyword>
+      <Text>Ονομα ,χώρα και γλώσσα πρέπει αν συμπληρωθούν απαραίτητως.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeNonUniqueId</Keyword>
+      <Text>Υπάρχει ήδη πελάτης με αυτόν τον κωδικό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatment</Keyword>
+      <Text>
+        Μία οι περισσότερες αποκαταστάσεις έχουν αυτον τον πελάτη.Θέλετε να διαγραφού και αυτές?
+        Σε αρνητική περίπτωση δεν μπορεί να διαγραφεί και ο πελάτης.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatmentCaption</Keyword>
+      <Text>Διαγραφή πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatment</Keyword>
+      <Text>
+        Μία οι περισσότερες αποκαταστάσεις έχουν αυτον τον ασθενή.Θέλετε να διαγραφού και αυτές?
+        Σε αρνητική περίπτωση δεν μπορεί να διαγραφεί και ο ασθενής.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatmentCaption</Keyword>
+      <Text>Διαγραφή ασθενή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatment</Keyword>
+      <Text>
+        Μία οι περισσότερες αποκαταστάσεις έχουν αυτον τον τεχνίτη.Θέλετε να διαγραφού και αυτές?
+        Σε αρνητική περίπτωση δεν μπορεί να διαγραφεί και ο τεχνίτης.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatmentCaption</Keyword>
+      <Text>Διαγραφή τεχνίτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.TreatmentDataChanged</Keyword>
+      <Text>Έχει αλλάξει το αρχείο.Θέλετε να κρατήσετε αυτές τις αλλαγές ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.IncompleteTreatmentData</Keyword>
+      <Text>
+        Οι δοθείσες πληροφορίες δεν έιναι αρκετές για την δημιουργεία της εργασίας.
+        Πιθανοί λόγοι:
+        - Δεν υπάρχει αποκατάσταση
+        - Δεν έχει δοθεί πελάτης
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.CountrySelection</Keyword>
+      <Text>Εισάγετε χώρα προέλευσης εργαστηρίου.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Messages.CountrySelection</Keyword>
+      <Text>Παρακαλώ εισάγετε χώρα προέλευσης εργαστηρίου.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Practice</Keyword>
+      <Text>Επεξεργασία πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Technician</Keyword>
+      <Text>Τεχνίτης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.LoadTreatment</Keyword>
+      <Text>Φόρτωση αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.PrintWindow</Keyword>
+      <Text>Εκτύπωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Patient</Keyword>
+      <Text>Ασθενείς</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Lab</Keyword>
+      <Text>Εργαστήρια</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Client</Keyword>
+      <Text>Πελάτης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Patient</Keyword>
+      <Text>Ασθενής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Technician</Keyword>
+      <Text>Τεχνίτης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.TreatmentFlags</Keyword>
+      <Text>Σημεία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Treatment</Keyword>
+      <Text>Ασθενής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ToothColor.Name</Keyword>
+      <Text>Χρώμα δοντιού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.New</Keyword>
+      <Text>Νέο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Save</Keyword>
+      <Text>Αποθήκευση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Duplicate</Keyword>
+      <Text>Ντουμπλάρισμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Load</Keyword>
+      <Text>Φόρτωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Upload</Keyword>
+      <Text>Αποστολή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Print</Keyword>
+      <Text>Εκτύπωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPatient</Keyword>
+      <Text>Επεξεργασία ασθενή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditTechnician</Keyword>
+      <Text>Επεξεργασία τεχνίτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.PatientId</Keyword>
+      <Text>Αριθμός ασθενή.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.LastName</Keyword>
+      <Text>Επίθετο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FirstName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FullName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPractice</Keyword>
+      <Text>Επεξεργασία πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientsForThisPractice</Keyword>
+      <Text>Ασθενείς πελάτη ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues</Keyword>
+      <Text>διαγραφή των δεδομένων πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeId</Keyword>
+      <Text>Αριθμός πελάτη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeLanguage</Keyword>
+      <Text>Γλώσσα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCountry</Keyword>
+      <Text>Χώρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeStreet</Keyword>
+      <Text>Οδός</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeHouseId</Keyword>
+      <Text>Αριθμός.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeZip</Keyword>
+      <Text>Τ.Κ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCity</Keyword>
+      <Text>Πόλη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeEMail</Keyword>
+      <Text>Email</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLab</Keyword>
+      <Text>Επεξεργασία εργαστηρίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticesForThisLab</Keyword>
+      <Text>Πελάτες αυτού του εργαστηρίου...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.RemoveClientSpecificValues</Keyword>
+      <Text>Διαγραφή δεδομένων πελάτη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabId</Keyword>
+      <Text>Αριθμός πελάτη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabLanguage</Keyword>
+      <Text>Γλώσσα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCountry</Keyword>
+      <Text>Χώρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabStreet</Keyword>
+      <Text>Όδος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabHouseId</Keyword>
+      <Text>Αριθμός</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabZip</Keyword>
+      <Text>Τ.Κ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCity</Keyword>
+      <Text>Πόλη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Close</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Remove</Keyword>
+      <Text>Διαγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Save</Keyword>
+      <Text>Αποθήκευση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Cancel</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Clear</Keyword>
+      <Text>Διαγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Edit</Keyword>
+      <Text>Επεξεργασία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.NewEntry</Keyword>
+      <Text>Νέα εγγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.TechnicianId</Keyword>
+      <Text>Αριθμός τεχνίτη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FirstName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.LastName</Keyword>
+      <Text>Επίθετο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FullName</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.SchalenNr</Keyword>
+      <Text>Αριθμός επιφάνειας.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PracticeId</Keyword>
+      <Text>Πελάτης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.DateTime</Keyword>
+      <Text>Ημερομηνία/Ώρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Date</Keyword>
+      <Text>Ημερομηνία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Time</Keyword>
+      <Text>Ώρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Notes</Keyword>
+      <Text>Σημειώσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Name</Keyword>
+      <Text>Πελάτης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientName</Keyword>
+      <Text>Όνομα ασθενή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientNameShort</Keyword>
+      <Text>Ασθενή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianName</Keyword>
+      <Text>Όνομα τεχνίτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianNameShort</Keyword>
+      <Text>τεχνίτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ToothColorName</Keyword>
+      <Text>Χρώμα δοντιού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Language</Keyword>
+      <Text>Γλώσσα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.UseArticulator</Keyword>
+      <Text>Χρήση αρθρωτήρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.MarkedRemoved</Keyword>
+      <Text>Απόκρυψη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Hide</Keyword>
+      <Text>Διαγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Restore</Keyword>
+      <Text>Επανακατασκευή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Remove</Keyword>
+      <Text>Καταστροφή διαγεγραμμένων δεδομένων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Load</Keyword>
+      <Text>Φόρτωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Cancel</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterName</Keyword>
+      <Text>Όνομα παραμετρου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterValue</Keyword>
+      <Text>Αξία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowHiddenTreatments</Keyword>
+      <Text>διαγεγραμμένων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Purge</Keyword>
+      <Text>Καταστροφή δεδομένων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.EditedByOther</Keyword>
+      <Text>
+Ο πελάτης χρησιμοποιήται απο μία άλλη εργασία,την οποία επεξεργάζεται άλλος χρήστης.
+        Σε περίπτωση που επεξεργάζεστε εργασία που χρησιμοποιέι αυτον τον πελάτη -κλείστε την πρώτα πριν προχωρήσετε.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse</Keyword>
+      <Text>
+Μία οι περισσότερες εργασίες παραπέμπουν σε πελάτες τους οποίους θέλετε να διαγράψετε:        
+        
+        -Για να ξεκινήσετε πατήστε "Ναι".
+         στην περίπτωση αυτή όλες οι εργασίες που παραπέμπουν σε αυτούσ τους πελάτες θα διαγραφούν και αυτές. 
+        
+        - Διαφορετικά επιλέξτε "Οχι".
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.Header</Keyword>
+      <Text>Προσοχή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.EditedByOther</Keyword>
+      <Text>
+        Ο ασθενής χρησιμοποιήται απο μία άλλη εργασία,την οποία επεξεργάζεται άλλος χρήστης.
+        Σε περίπτωση που επεξεργάζεστε εργασία που χρησιμοποιέι αυτον τον ασθενή -κλείστε την πρώτα πριν προχωρήσετε.
+
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse</Keyword>
+      <Text>
+Μία οι περισσότερες εργασίες παραπέμπουν σε αθενείς τους οποίους θέλετε να διαγράψετε:        
+        
+        -Για να ξεκινήσετε πατήστε "Ναι".
+         στην περίπτωση αυτή όλες οι εργασίες που παραπέμπουν σε αυτούς τους ασθενεις θα διαγραφούν και αυτές. 
+        
+        - Διαφορετικά επιλέξτε "Οχι".
+ 
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.Header</Keyword>
+      <Text>Προσοχή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.EditedByOther</Keyword>
+      <Text>
+Ο τεχνίτης χρησιμοποιήται απο μία άλλη εργασία,την οποία επεξεργάζεται άλλος χρήστης.
+        Σε περίπτωση που επεξεργάζεστε εργασία που χρησιμοποιέι αυτον τον τεχνίτη -κλείστε την πρώτα πριν προχωρήσετε.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse</Keyword>
+      <Text>
+Μία οι περισσότερες εργασίες παραπέμπουν σε τεχνίτες τους οποίους θέλετε να διαγράψετε:        
+        
+        -Για να ξεκινήσετε πατήστε "Ναι".
+         στην περίπτωση αυτή όλες οι εργασίες που παραπέμπουν σε αυτούς τους τεχνίτες θα διαγραφούν και αυτές. 
+        
+        - Διαφορετικά επιλέξτε "Οχι".
+ 
+   
+
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.Header</Keyword>
+      <Text>Προσοχή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ReallyPurgeDeletedQuestion</Keyword>
+      <Text>Αλήθεια θέλετε να καταστρέψετε τα διαγραμμένα δεδομένα?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.StoragePathCreationError</Keyword>
+      <Text>Κατα την δημιουργεία του φακέλου της εργασίας εμφανίστηκε λάθος. Λεπτομέριες:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.PurgeImpossibleTreatmentInUse</Keyword>
+      <Text>Δεν μπορεί αν διαγραφεί η αποκατάσταση,διότι δεν έχει φορτωθεί ακόμη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Notes</Keyword>
+      <Text>Σημειώσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadySelectedQuestion</Keyword>
+      <Text>Πραγματοποίηση υπάρχουσων επιλογών για το δόντι?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartingUp</Keyword>
+      <Text>Starte...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectTreatmentFirst</Keyword>
+      <Text>Παρακαλώ επιλέξτε αποκατάσταση, κατόπιν πατήστε 'Φόρτωση' .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VendorVersion</Keyword>
+      <Text>3.0</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveTreatment.ToolTip</Keyword>
+      <Text>Αποθήκευση ενεργής αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UploadTreatment.ToolTip</Keyword>
+      <Text>Αποστολή της ενεργής αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatment.ToolTip</Keyword>
+      <Text>Δημιουργεία νέας αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadTreatment.ToolTip</Keyword>
+      <Text>Φόρτωση αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scannen.ToolTip</Keyword>
+      <Text>Σάρωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.ToolTip</Keyword>
+      <Text>Σχεδιασμός CAD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.ToolTip</Keyword>
+      <Text>Αποστολή αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.ToolTip</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelEditor.ToolTip</Keyword>
+      <Text>Εργαλείο διορθώσης Βιβλιοθήκης δοντίων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintTreatment.ToolTip</Keyword>
+      <Text>Εκτύπωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomerNumberToLong</Keyword>
+      <Text>Πολύ μεγάλο όνομα πελάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientNumberTooLong</Keyword>
+      <Text>Πολύ μεγάλος αριθμός μεπλάτη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Parameter</Keyword>
+      <Text>Είδος ανταγωνιστών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite</Keyword>
+      <Text>Καμία/προγναθισμός</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+      <Text>καταχωρημένη γνάθος (χωρίς αρθρωτήρα)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+      <Text>Type A</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+      <Text>Type A (old)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+      <Text>Type B</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+      <Text>Articulator</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+      <Text>Type P</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.SelectedScanModus.SaveAsDefault</Keyword>
+      <Text>Προκαθορισμένη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Parameter</Keyword>
+      <Text>Χρώμα δοντίων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A1</Keyword>
+      <Text>A1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A2</Keyword>
+      <Text>A2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3</Keyword>
+      <Text>A3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3.5</Keyword>
+      <Text>A3.5</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A4</Keyword>
+      <Text>A4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B1</Keyword>
+      <Text>B1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B2</Keyword>
+      <Text>B2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B3</Keyword>
+      <Text>B3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B4</Keyword>
+      <Text>B4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C1</Keyword>
+      <Text>C1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C2</Keyword>
+      <Text>C2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C3</Keyword>
+      <Text>C3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C4</Keyword>
+      <Text>C4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D2</Keyword>
+      <Text>D2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D3</Keyword>
+      <Text>D3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D4</Keyword>
+      <Text>D4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Ανατομική 
+        κορώνα
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Ανατομική 
+        στεφάνη.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Καλύπτρα.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Ανατομικό
+        Ενδιάμεσο
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Σμικρυμένο.
+        Ενδιάμεσο
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Inlay
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Σμικρυμένο.
+        Inlay
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescriptionPrint</Keyword>
+      <Text>
+        Πρωτεύον
+        Τηλεσκοπικό
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Πρεσσαριστή
+        Κορώνα
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Πρεσσαριστό
+        Ενδιάμεσο
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Ανατομικό
+        Κέρωμα
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Σμικρυμένο
+        Κέρωμα
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescriptionPrint</Keyword>
+      <Text>
+        Εκλείπον
+        Δόντι
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescriptionPrint</Keyword>
+      <Text>Ανταγωνιστής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescriptionPrint</Keyword>
+      <Text>
+        Παρακείμενο
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescription</Keyword>
+      <Text>Ανατομική κορώνα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescription</Keyword>
+      <Text>Aνατομική στεφάνη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescription</Keyword>
+      <Text>Καλύπτρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescription</Keyword>
+      <Text>Aνατομικό ενδιάμεσο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescription</Keyword>
+      <Text>απλό ενδιάμεσο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescription</Keyword>
+      <Text>Inlay/Onlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescription</Keyword>
+      <Text>Απλό Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescription</Keyword>
+      <Text>Πρωτεύον τηλεσκοπικό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescription</Keyword>
+      <Text>Πρεσσαριστή στεφάνη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescription</Keyword>
+      <Text>Πρεσσαριστό ενδιάμεσο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescription</Keyword>
+      <Text>Κέρωμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescription</Keyword>
+      <Text>σιμκρυμένο κέρωμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescription</Keyword>
+      <Text>Εκλείπων δόντι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescription</Keyword>
+      <Text>Ανταγωνιστής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescription</Keyword>
+      <Text>Παρακείμενο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapThickness.Parameter</Keyword>
+      <Text>Χώρος κωνίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MinThickness.Parameter</Keyword>
+      <Text>Ελάχιστο πάχος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.false</Keyword>
+      <Text>Οχι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.true</Keyword>
+      <Text>Ναί</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Parameter</Keyword>
+      <Text>Ξεχωριστή σάρωση Θέσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Parameter</Keyword>
+      <Text>Τύπος εμφυτεύματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.None</Keyword>
+      <Text>Κανένα εμφύτευμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutment</Keyword>
+      <Text>Εξατομικευμένο κολόβωμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutment</Keyword>
+      <Text>Μασητική κοχλίωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Parameter</Keyword>
+      <Text>Ξεχωριστή σάρωση ούλων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.false</Keyword>
+      <Text>Οχι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.true</Keyword>
+      <Text>Ναί</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderHorizontalSize.Parameter</Keyword>
+      <Text>Οριζόντια γραμμή αυχένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Shrinking.Parameter</Keyword>
+      <Text>Συρίκνωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>de.Country</Keyword>
+      <Text>Γερμανία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>en.Country</Keyword>
+      <Text>Αγγλία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>it.Country</Keyword>
+      <Text>Iταλία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>uk.Country</Keyword>
+      <Text>Μεγάλη Βρετανία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>fr.Country</Keyword>
+      <Text>Γαλλία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>at.Country</Keyword>
+      <Text>Αυστρία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>es.Country</Keyword>
+      <Text>Ισπάνια</Text>
+    </Translation>
+    <Translation>
+      <Keyword>pt.Country</Keyword>
+      <Text>Πορτογαλλία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>hu.Country</Keyword>
+      <Text>Ουγγαρία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ru.Country</Keyword>
+      <Text>Ρωσία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>us.Country</Keyword>
+      <Text>USA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ca.Country</Keyword>
+      <Text>Καναδάς</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ch.Country</Keyword>
+      <Text>Ελβετία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>de.Language</Keyword>
+      <Text>Γερμανίκα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>en.Language</Keyword>
+      <Text>Αγγλικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>fr.Language</Keyword>
+      <Text>Γαλλικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>it.Language</Keyword>
+      <Text>Iταλικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>None.MaterialDescriptionPrint</Keyword>
+      <Text>Kανένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Healthy.MaterialDescriptionPrint</Keyword>
+      <Text>Δόντι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>es.Language</Keyword>
+      <Text>Ισπανικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>default.Language</Keyword>
+      <Text>Προκαθορισμένη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Search</Keyword>
+      <Text>Αναζήτηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.SearchIn</Keyword>
+      <Text>Μέσα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.NotYetSaved</Keyword>
+      <Text>Δεν αποθηκευτεί η παραγγελία.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.PathDoesNotExistError</Keyword>
+      <Text>Λάθος - Ο φάκελος με τα αρχεία δεν υπάρχει: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoTreatmentsToPurge</Keyword>
+      <Text>Δεν έχει διαγραφεί καμία αποκατάσταση η οποία δεν μπορεί να ανακτηθεί.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapStart.Parameter</Keyword>
+      <Text>Έναρξη χώρου κωνίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapEnd.Parameter</Keyword>
+      <Text>Τελείωμα χώρου κωνίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingZ.Parameter</Keyword>
+      <Text>Επιπλεόν χώρος μασητικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingX.Parameter</Keyword>
+      <Text>Spacing X/Y</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngledSize.Parameter</Keyword>
+      <Text>Γωνία οριού αυχένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngle.Parameter</Keyword>
+      <Text>Γωνία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderVerticalSize.Parameter</Keyword>
+      <Text>Κάθετη διάσταση ορίου αυχένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorArea.Parameter</Keyword>
+      <Text>Τομή μεσοδόντιου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InlayThicknessRunOutDistance.Parameter</Keyword>
+      <Text>Πάχος ορίου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedParameters</Keyword>
+      <Text>Πρόσθετες Ρυθμίσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothShades.Default</Keyword>
+      <Text>Διαθέσιμα χρώματα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowInExplorer</Keyword>
+      <Text>Άνοιγμα στον Explorer </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressMinThickness.Parameter</Keyword>
+      <Text>Ελάχιστο πάχος πρεσσαριστής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressAdditionalSpacing.Parameter</Keyword>
+      <Text>Απόσταση πρεσσαρίσματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrettauBridge.WorkDescription</Keyword>
+      <Text>Prettau-Γέφυρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrettauBridge.WorkDescriptionPrint</Keyword>
+      <Text>Prettau
+Γέφυρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Attachment.WorkDescription</Keyword>
+      <Text>Πρωτεύον σύνδεσμος ακριβείας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Parameter</Keyword>
+      <Text>Ασφάλεια εγγύησης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.true</Keyword>
+      <Text>Ναι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.false</Keyword>
+      <Text>Οχι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoAvailableFilesForUpload</Keyword>
+      <Text>Τα κάτωθι αρχεία έχουν επιλεχθεί για αποστολή αλλα λείπουν απο τον φάκελο εργασίας: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnableToMoveSFVFile</Keyword>
+      <Text>Το αρχείο ελέγχου παραμέτρων δεν μπόρεσε να καταχωριθεί στον φάκελο εργασίας.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.WatchdogLabel</Keyword>
+      <Text>Σάρωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.WatchdogLabel</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.WatchdogLabel</Keyword>
+      <Text>Modellier</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.WatchdogLabel</Keyword>
+      <Text>Αποστολή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UntouchableZoneNearPreparationMargin.Parameter</Keyword>
+      <Text>Χωρίς ένθεση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.CurrentUser</Keyword>
+      <Text> 
+       Το δεδομένα έιναι κλειδωμένα και ξεκλειδώθηκαν απο εσάς.
+       </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.AnotherUser</Keyword>
+      <Text>
+       Τα δεδομένα είνει κλειδωμένα απο τον:
+          Compuer/User: {0}. 
+       
+       Για να τα ξεκλειδώσετε πατήστε,  "Ναι". 
+       Η ενέργεια αυτή μπορεί να οδηγήσει σε απώλεια δεδομένων. 
+       
+       Αλλιώς πατήστε "Οχί".
+       </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Caption</Keyword>
+      <Text>Προσοχή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaxupPontic.WorkDescription</Keyword>
+      <Text>Κέρωμα ενδιάμεσου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescription</Keyword>
+      <Text>Τεταρτημόριο μπάρας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescriptionPrint</Keyword>
+      <Text>
+        Τεταρτημόριο
+        μπάρας
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescription</Keyword>
+      <Text>Τμήμα μπάρας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescriptionPrint</Keyword>
+      <Text>
+        Τμήμα
+        μπάρας
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTreatmentParam</Keyword>
+      <Text>Παρακαλώ επιλέξτε: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromiTero</Keyword>
+      <Text>Νέο (iTero)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromiTero.ToolTip</Keyword>
+      <Text>Δημιουργεία αποκατάστασης απο το iTero Projekt </Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>../materials.xml</IncludeFile>
+    <IncludeFile>ConfigControl-greek.xml</IncludeFile>
+    <IncludeFile>missing\DentalDB-greek.xml</IncludeFile>
+    <IncludeFile>missing\materials-greek.xml</IncludeFile>
+    <IncludeFile>OnlineHelp-greek.xml</IncludeFile>
+    <IncludeFile>missing\ConfigControl-greek.xml</IncludeFile>
+    <IncludeFile>missing\customer-greek.xml</IncludeFile>
+    <IncludeFile>missing\NetworkCopying-greek.xml</IncludeFile>
+    <IncludeFile>missing\RecoGroups-greek.xml</IncludeFile>
+    <IncludeFile>ScanImport01-greek.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport01-greek.xml</IncludeFile>
+    <IncludeFile>materials-greek.xml</IncludeFile>
+    <IncludeFile>missing\dentalshare-greek.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport02-greek.xml</IncludeFile>
+    <IncludeFile>missing\WpfFTP-greek.xml</IncludeFile>
+    <IncludeFile>WpfFTP-greek.xml</IncludeFile>
+    <IncludeFile>missing\CopyAndOpen-greek.xml</IncludeFile>
+    <IncludeFile>missing\OnlineHelp-greek.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport03-greek.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport04-greek.xml</IncludeFile>
+    <IncludeFile>countries-greek.xml</IncludeFile>
+    <IncludeFile>missing\countries-greek.xml</IncludeFile>
+    <IncludeFile>missing\languages-greek.xml</IncludeFile>
+    <IncludeFile>missing\MiniDentalDB-greek.xml</IncludeFile>
+    <IncludeFile>missing\Materials-greek.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

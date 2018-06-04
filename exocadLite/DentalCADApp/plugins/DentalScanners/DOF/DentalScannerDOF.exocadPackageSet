@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PackageSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Packages>
+    <Package>
+      <Prerequisites>
+        <Need64BitSoftware>true</Need64BitSoftware>
+      </Prerequisites>
+      <Files>
+        <File>DOFScanProcessing64.dll</File>
+      </Files>
+      <PackageName>scanner-DOF-base64-v4</PackageName>
+      <SubDirectory>plugins\DentalScanners\DOF</SubDirectory>
+      <PackageCreationDate>2016-06-30-00-00</PackageCreationDate>
+    </Package>
+  </Packages>
+  <PackageSetCreationDate>2016-06-30-00-00</PackageSetCreationDate>
+</PackageSet>

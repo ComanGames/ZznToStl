@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>SetFromView</Keyword>
+      <Text>Τοποθέτηση στον άξονα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
+      <Text>Θέλετε στα αλήθεια να διακόψετε την επαναδιαμόρφωση της βιβλιοθήκης των μπλόκ? Θα είναι τότε αδύνατο να εισάγετε νέα άδεια μπλόκ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
+      <Text>Η βιβλιοθήκη των μπλοκ πρεπεί να επαναδιαμορφωθεί. Αυτό πρέπει να γίνει μόνο μία φορά, χρειάζεται όμως αρκετό χρόνο.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachine</Keyword>
+      <Text>Διαμόρφωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCMachineSelector</Keyword>
+      <Text>Επιλογή μηχανήματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
+      <Text>Επιλογή CNC - Αρχείου διεργασίας!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowCNC</Keyword>
+      <Text>Εμφάνιση CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNC</Keyword>
+      <Text>Εμφάνιση CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
+      <Text>Αντιστάθμιση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlHide</Keyword>
+      <Text>Απόκρυψη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClose</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlCancel</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlExecute</Keyword>
+      <Text>Εκκίνηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControl</Keyword>
+      <Text>Δημιουργεία CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategySelector</Keyword>
+      <Text>Επιλογή διεργασίας: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFile</Keyword>
+      <Text>Αρχείο δεδομένων CNC:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingData</Keyword>
+      <Text>Εισαγώμενα δεδομένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectVisualize</Keyword>
+      <Text>Εμφάνιση τεμαχίων προς κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectInfo</Keyword>
+      <Text>Τεμάχια προς κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
+      <Text>Η αναμονη τεμαχίων προς κοπή χρησιμοποιεί ήδη τα δεδομένα(gr): </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
+      <Text>Μπλοκ υλικού (Πρότυπο)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
+      <Text>Τα κάτωθι αρχεία δεν χρειάζονται πια. Διαγράφονται!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
+      <Text>Δώστε Περιεχόμενο προς κοπή </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
+      <Text>Παρακαλώ δώστε Αρ.Παρ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
+      <Text>Αρχείο CNC με οδηγούς φρεζαρίσματος  είναι έτοιμο.  αν εμφανιστεί?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
+      <Text>(έτοιμα για κοπή)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
+      <Text>(διεγραμμένα λόγω αναμονής)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsProduced</Keyword>
+      <Text>(παραγμένα)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
+      <Text>(ήδη στο αρχείο του CNC)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsNested</Keyword>
+      <Text>τοποθετημένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
+      <Text>(πολύ μεγάλο για το μπλόκ)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
+      <Text>στο υπάρων μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNestingQueue</Keyword>
+      <Text>Απόκρυψη αναμονής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UnloadFromQueue</Keyword>
+      <Text>Διαγραφή απο τα προς κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadFromQueue</Keyword>
+      <Text>Αποθήκευση στα προς κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueue</Keyword>
+      <Text>Απομάκρυνση απο την αναμονή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshNestingQueue</Keyword>
+      <Text>Φόρτωση αναμονής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
+      <Text>Φόρτωση βιβλιοθήκης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlock</Keyword>
+      <Text>Εισαγωγή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
+      <Text>Ημερομηνία αναμονής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
+      <Text>Διεύθυνση εργασίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
+      <Text>Όνομα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
+      <Text>Αποκαταστάσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reconstruction</Keyword>
+      <Text>Αποκατάσταση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
+      <Text>Δέν μπόρεσε να γίνει η επεξεργασία της αναμόνης εργασιών κοπής. Παρακαλούμε ελέγξτε τον φάκελο αναμονής κοπής στις 'ρυθμίσεις εφαρμογής'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibrary</Keyword>
+      <Text>Βιβλιόθήκη υλικών κοπής (Εμφάνιση/Απόκρυψη)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueDir</Keyword>
+      <Text>Λίστα-αναμονής τοποθέτησεις εργασιών στο μπλόκ: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueEmpty</Keyword>
+      <Text>Η αναμονή τοποθέτησεις εργασιών στο μπλόκ είναι άδεια.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
+      <Text>Βιβλιοθήκη μπλόκ: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Enqueue</Keyword>
+      <Text>Σε αναμονή τοποθέτησεις εργασιών στο μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
+      <Text>Αυτή η εργασία υπάρχει ήδη στην αναμονή. Θέλετε να τα διορθώσετε?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
+      <Text>Θέλετε να απομακρύνεται αυτό το μπλόκ απο την εργασία κοπής?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
+      <Text>Θέλετε στα αλήθεια να απομακρύνεται αυτη την εργασία απο το μπλόκ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
+      <Text>Αυτο το μπλόκ υπάρχει ήδη.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
+      <Text>Θέλετε στα αλήθεια να απομακρύνετε αυτό το μπλόκ απο την βιβλιοθήκη (βεβαιωθήτε οτι το χρησιμοποιούμενο υλικό είναι στην σωστή κατάσταση)?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
+      <Text>Τα κάτωθι αρχεία των μπλόκ θα διαγραφούν:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixedReconstruction</Keyword>
+      <Text>Σταθερή αποκατάσταση (δεν επιδέχεται αλλαγές)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
+      <Text>Θέλετε στα αλήθεια να το απομακρύνεται απο την αναμονή?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.UnknownMaterial</Keyword>
+      <Text>_Άγνωστο υλικό_</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialDescriptor.Unknown</Keyword>
+      <Text>???Άγνωστο???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Zirkon</Keyword>
+      <Text>ZrO2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Unknown</Keyword>
+      <Text>Άγνωστο υλικό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.All</Keyword>
+      <Text>Όλα τα υλικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
+      <Text>Δώσε ενεργό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
+      <Text>υπάρχον CNC - Διαγραφή αρχείου?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
+      <Text>Απομάκρυνση CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction</Keyword>
+      <Text>Κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeCAM</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Destroy</Keyword>
+      <Text>Απομάκρυνση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Register</Keyword>
+      <Text>Καταχώρηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
+      <Text>Δείξε τοποθετημένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
+      <Text>Δείξε παραγώμενα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
+      <Text>(Παραχθέντα)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
+      <Text>(Παρελθόν)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
+      <Text>Το νέο μπλόκ καταχωρήθηκε με επιτυχία.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
+      <Text>Παρακαλώ καταχωρήστε το αληθινό μλόκ με των παρακάτω κωδικό:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
+      <Text>Παρακαλώ επιλέξτε εδώ τον κωδικό του μπλόκ!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
+      <Text>Παρακαλώ επιλέξτε εδώ τον κωδικό του μπλόκ ανάμεσα στα κάτωθι νούμερα:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
+      <Text>Παρακαλώ επιλέξτε εδώ τον κωδικό του μπλόκ!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
+      <Text>Άμεση χρήση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAccept</Keyword>
+      <Text>Χρήση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseButton</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton</Keyword>
+      <Text>Άδειασμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton</Keyword>
+      <Text>Αποθήκευση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignScaleFactor</Keyword>
+      <Text>Παρακαλώ δώστε τον βαθμό μεταβολής της εργασίας εδώ!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
+      <Text>Λάθος Κλίμακα / Συρίκνωση </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
+      <Text>Αρ. Παρ: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
+      <Text>Ορισμός μπλόκ: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Load</Keyword>
+      <Text>Φόρτωση...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.View3D</Keyword>
+      <Text> 3D εμφάνιση μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCreator</Keyword>
+      <Text>Καταχώρηση του υλικού μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockReject</Keyword>
+      <Text>Διακοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockAccept</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
+      <Text>Τύπος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
+      <Text>Ημερομηνία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
+      <Text>Συρίκνωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
+      <Text>Κλίμακα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
+      <Text>Ύψος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
+      <Text>Διάμετρος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
+      <Text>Χρωματικός τύπος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
+      <Text>Κωδικός μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
+      <Text>Αρ.Παρ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
+      <Text>Περιγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
+      <Text>Διαθέσιμοι τυποι μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
+      <Text>Διαθέσιμοι τύποι μπλόκ:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialType</Keyword>
+      <Text>Επιλογή είδους υλικού:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterNewBlock</Keyword>
+      <Text>καταχώρηση νέου μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateNewBlock</Keyword>
+      <Text>δημιουργεία μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
+      <Text>Επιλογή αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
+      <Text>Τοποθέτηση αποκατάστασησ στο μπλόκ </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
+      <Text>Επιλογή της βιβλιοθήκης υλικών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
+      <Text>Ύψος τεμαχίων:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
+      <Text>Το ελάχιστο ένα μλόκ δεν μπόρεσε να δημιουργηθεί!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
+      <Text>Δημιουργήθηκέ το πρωτότυπο μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
+      <Text>Θέλετε να αδειάσετε το συγκεκριμένο μπλόκ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
+      <Text>Θέλετε στα αλήθεια να κλείσετε το αρχείο κοπής?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueView</Keyword>
+      <Text>Αναμονή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorLoadingFile</Keyword>
+      <Text>Δεν μπόρεσε να φορτωθεί το αρχείο.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
+      <Text>Θέλετε στα αλήθεια να αλλάξετε μπλόκ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
+      <Text>Αυτό το μπλόκ μόλις χρησιμοποιήται. Θέλετε στα αλήθεια να το διαγράψετε απο την βιβλιοθήκη?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
+      <Text>Ελλιπές κωδικός μπλόκ η τύπου υλικού!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
+      <Text>Θέλετε να κλείσετε την βιβλιοθήκη χωρίς να έχετε επιλέξει υλικό?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSelector</Keyword>
+      <Text>Επιλογή υλικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
+      <Text>Βιβλιοθήκη υλικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
+      <Text>Λάθος χαρακτηρισμός υλικού!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue</Keyword>
+      <Text>Αναμονή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowSpacer</Keyword>
+      <Text>Μετρητής αποστάσεων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
+      <Text>Θέλετε να ξεκινήση ο υπολογισμός του προγράμματος κοπής ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
+      <Text>Θέλετε να απομακρυνθούν τα επιλεγμένα τεμάχια μετα το σώσιμο απο την αναμονή?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
+      <Text>Το κουμπί 'τοποθέτηση εργασίας' έπρεπε να χρησιμοποιηθεί νωρίτερα, ώστε να απομακρυνθεί το χρησιμοποιημένο υλικό.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
+      <Text>Δεν μπόρεσαν να βρεθούν τέμαχια στο συγκεκριμένο αρχείο ώστε να τοποθετηθούν στο μπλόκ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
+      <Text>Διστυχώς δεν μπόρεσαν να τοποθετηθούν τεμάχια στο υπάρχων μπλόκ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
+      <Text>Στο ενεργό αρχείο δεν μπορεί να τοποθετηθεί η εργασία. Θέλετε παόλα αυτά να το κάνετε?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
+      <Text>Θέλετε να ενσωματώσετε την αποκατάσταση στο μπλόκ τώρα [Ναι], η θέλετε να το κάνετε αργότερα [Οχι], η δεν θέλετε καθόλου ? [Διακοπή]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueFailed</Keyword>
+      <Text>Πρόβλημα με το αρχείο σε αναμονή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
+      <Text>Αρχείο σε αναμονή:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingNesting</Keyword>
+      <Text>Αποθύκευση ενεργής εργασίας προς κοπή?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
+      <Text>Αποθύκευση μπλόκ για μελλοντική χρήση? Αλλιώς δεν θα μπορέσετε να το ξαναχρησιμοποιήσετε!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView.Button</Keyword>
+      <Text>Προκαθορισμένη οπτική γωνία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DumpData</Keyword>
+      <Text>Συλλογή δεδομένων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Duplicate</Keyword>
+      <Text>Ντουμπλάρισμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyObject</Keyword>
+      <Text>Καταστροφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FinishNesting</Keyword>
+      <Text>Αποθύκευση εργασιών προς κοπή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
+      <Text>Υπάχουν αποκαταστάσεις εκτός των επιτρεπτών ορίων του μπλοκ! Παρακαλώ τοποθετήστε τα επιλεγμένα τμήματα (με απενεργοποιημένο  το'αυτοματο') μέσα στα όρια του μπλόκ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
+      <Text>Υπάρχουν αποκαταστάσης εκτός μπλόκ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNesting</Keyword>
+      <Text>Κλείσιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting</Keyword>
+      <Text>Μπλοκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNesting</Keyword>
+      <Text>Αποθηκευση εργασίας προς κοπή </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RestrictToZ</Keyword>
+      <Text>Δημιουργεία φοράς  ένθεσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupports</Keyword>
+      <Text>Διαγραφή άξονα συγκράτισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ModifySupports</Keyword>
+      <Text>Αλλαγή άξονα συγκράτισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
+      <Text>Δημιουργεία στηριγμάτων μέσω πατημα κουμπιού και μετακίνηση του μπλόκ στο επιθυμητό σημείο συναρμογής
+ Επιλογές πληκτρολογίου:
+ - Shift: Αλλαγή συγκρατιτικών (και αλλαγή πάχους)
+ - Control:  Απομάκρυνση συγκρατιτικών
+ - Shift + Control: Ανοιγο/κλεινο των αυτόματων επιλογών των συγκρατιτικών.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports</Keyword>
+      <Text>Αλλαγή συγκρατητικών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
+      <Text>Μετακίνηση τεμαχίων με το ποντίκι
+ Keyboard Optionen:
+ - Control: Περιστροφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PositionReconstructions</Keyword>
+      <Text>Διόρθωση με το ποντίκι</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameter</Keyword>
+      <Text>διάμτερος συγκρατητικών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UpdateSupports</Keyword>
+      <Text>Δημιουργεία συγκρατιτικών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlockNormal</Keyword>
+      <Text>Δημιουργεία αποκατάστασης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingScene</Keyword>
+      <Text>Φόρτωση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNestingScene</Keyword>
+      <Text>Αποθήκευση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadBlock</Keyword>
+      <Text>Φόρτωση μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveBlock</Keyword>
+      <Text>Αποθήκευση σε αρχείο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlock</Keyword>
+      <Text>Νέο μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor</Keyword>
+      <Text>Περιγραφή υλικού:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialColor</Keyword>
+      <Text>Χρώμα:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialType</Keyword>
+      <Text>Τύπος:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
+      <Text>???Αγνωστος Κωδικός???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
+      <Text>???Αγνωστο ΙD???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCode</Keyword>
+      <Text>Κωδικός</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
+      <Text>Αρ.Παρ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID</Keyword>
+      <Text>Κωδικός μπλόκ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
+      <Text>Δώστε τον κωδικό του μπλόκ!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShrinkPercentage</Keyword>
+      <Text>Συρίκνωση %:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ScalingFactor</Keyword>
+      <Text>Κλίμακα:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
+      <Text>Ύψος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
+      <Text>Διάμετρος:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
+      <Text>Γωνία τοιχώματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpace</Keyword>
+      <Text>Απόσταση υλικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
+      <Text>Θέλετε στα αλήθεια να καταστρέψετε τον σύνδεσμο ? Το μπλόκ του υλικού δεν θα μπορέσει να χρησιμοποιηθεί ξανά μετα την κοπή!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
+      <Text>Επιφάνειες τριβής (ανενεργες)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
+      <Text>Διαχωρήστε μετά την παραγωγή.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Supports</Keyword>
+      <Text>interlock</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowColliders</Keyword>
+      <Text>Δείξε επιφάνειες πρόσφυσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowMachineParts</Keyword>
+      <Text>Δείξε περιφέρια</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Stabilizer</Keyword>
+      <Text>Πόδι σταθεροποιητή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers</Keyword>
+      <Text>Δημιουργεία σταθεροποιητών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlockProperties</Keyword>
+      <Text>Ιδιότητες του υλικού κοπής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
+      <Text>Θέλετε να συμπτυχθούν η εργασία με τα δευτερέυοντα?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerProblem</Keyword>
+      <Text>Δεν μπόρεσε να δημιουργηθεί ένα interlock. Παρακαλώ δημιουργήστε το ελάχιστο δυο interlock.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingActions</Keyword>
+      <Text>Επιλογές δευτερέυον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNestingScene</Keyword>
+      <Text>Αποθήκευση δευτερέυον τμήματος...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingScene</Keyword>
+      <Text>Φόρτωση δευτερεύον τμήματος...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingAction</Keyword>
+      <Text>Επιλογές δευτερέυον </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AngledWalls</Keyword>
+      <Text>Τοιχώματα φρεζαριστού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateMillingAngles</Keyword>
+      <Text>Ορισμός γωνίας φρεζαρίσματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingOnlyFailed</Keyword>
+      <Text>Δευτερεύον δεν μπόρεσε να φορτωθεί</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
+      <Text>Προετοιμασία δευτερεύον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
+      <Text>Προετοιμασία δευτερεύον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
+      <Text>Προετοιμασία δευτερεύον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
+      <Text>Προετοιμασία δευτερεύον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
+      <Text>Δευτερεύον...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
+      <Text>Δευτερεύον...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
+      <Text>Δευτερεύον...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
+      <Text>Δευτερεύον</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestAngle</Keyword>
+      <Text>Γωνία:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
+      <Text>Εξωτερικό λάθος CAM :</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
+      <Text>CAM έτοιμο!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
+      <Text>Φορτώνει...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
+      <Text>Στάση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
+      <Text>Έτοιμο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CalculateSimulationFile</Keyword>
+      <Text>Επισκόπηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
+      <Text>Ο υπολογισμός CNC δεν τελείωσε.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
+      <Text>Επαναφόρτωση CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateSupports</Keyword>
+      <Text>Δημιουργεία άξονα συγκράτισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
+      <Text>Επιφάνειες τριβής (ενεργές)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AbutmentTop</Keyword>
+      <Text>Custom Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CrownBottom</Keyword>
+      <Text>Crown</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InlayBottom</Keyword>
+      <Text>Inlay/Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.BiteSplint</Keyword>
+      <Text>BiteSplint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ReducedWaxup</Keyword>
+      <Text>ReducedWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Attachment</Keyword>
+      <Text>Attachment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.PrimaryTelescope</Keyword>
+      <Text>Telescope</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AnatomicWaxup</Keyword>
+      <Text>AnatomicWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Coping</Keyword>
+      <Text>Coping</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CylinderCutting</Keyword>
+      <Text>Screw Channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantDescriptor</Keyword>
+      <Text>Implant Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutHex</Keyword>
+      <Text>OutHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InHex</Keyword>
+      <Text>InHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutNoHex</Keyword>
+      <Text>OutNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InNoHex</Keyword>
+      <Text>InNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceConical</Keyword>
+      <Text>InterfaceConical</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceParallel</Keyword>
+      <Text>InterfaceParallel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Manual</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
+      <Text>Slot ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingValueFromInterop</Keyword>
+      <Text>(Interop)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingView</Keyword>
+      <Text>Οπτική γωνία</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantGeometry</Keyword>
+      <Text>ImplantGeometry</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Bar</Keyword>
+      <Text>Bar</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

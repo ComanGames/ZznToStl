@@ -1,0 +1,18 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<!-- 
+!!!WARNING!!!
+
+YOU HAVE TO KEEP THIS FILE AS OTHERWISE IMAGE SCALING USES PERFORMANCE OPTIMIZED SCALING MODE WHICH LEADS TO POOR QUALITY
+
+-->
+
+
+<!-- Keep this style if you modify the skin -->
+<Style TargetType="{x:Type Image}">
+     <Setter Property="RenderOptions.BitmapScalingMode" 
+                Value="HighQuality" />
+</Style>
+
+</ResourceDictionary>

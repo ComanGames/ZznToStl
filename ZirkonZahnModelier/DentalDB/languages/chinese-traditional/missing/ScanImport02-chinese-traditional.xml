@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ScanImport02.WorkType.EmptyMaterialList</Keyword>
+      <Text>Reconstruction {0} does not have materials assigned to. Please contact your distributor to get the "reconstruction database" configured propertly.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NoMaterialForReconstructionFound</Keyword>
+      <Text>Restoration for tooth '{0}' could not be created. Reconstruction '{1}' does not allow usage of material '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>For 3M reconstruction '{0}' material '{1}' is not defined or mapped to dental project material. Using default material '{2}' instead. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>For 3M reconstruction '{0}' material '{1}' is not defined or mapped to dental project material. Using first available material '{2}' instead. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.CouldnotResolveJawForFile</Keyword>
+      <Text>Could not resolve jaw for file '{0}'. File skipped.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileNotFound</Keyword>
+      <Text>Scan file '{0}' could not be found.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataCheckFailed</Keyword>
+      <Text>An error occurred while checking scan data completeness. Scan data copy proccess canceled.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataIncomplete</Keyword>
+      <Text>Project scan data are not complete.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

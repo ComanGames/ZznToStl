@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImportDP-turkish-missing.xml</IncludeFile>
+  </IncludeFiles>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject</Keyword>
+      <Text>Yeni kullanıcı adı </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName</Keyword>
+      <Text>Mevcut adı kullanın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel</Keyword>
+      <Text>İçe aktarma iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.MultidieProjectButMultidieDisabled</Keyword>
+      <Text>DentalDB multidie sürümü gereklidir. Proje ID {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNotDefinedAndCannotBeAutoset</Keyword>
+      <Text>İçe aktarılacak proje müşteri bilgilerini içermiyor ve DentalDB chairside modu için yapılandırılmamış ve / veya belirtilen hiçbir chairside müşteri kimliği belirtilmemiş. Proje Kimliği {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientAddFailed</Keyword>
+      <Text>müşteri '{0}' eklenirken durum {1} için bir hata oluştu 
+Hata: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch</Keyword>
+      <Text>İçeri aktarılmak için projede belirtilen müşteri ismi DentalDB içindeki müşteri ismi ile eşleşmiyor.                 Eski adı: {0}
+Yeni adı: {1}
+Aşağıdan bir işlem seçiniz:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName.Description</Keyword>
+      <Text>DentalDB'de  saklanan müşteri adı kullanılacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject.Description</Keyword>
+      <Text>İçeri aktarmak için projede belirtilen müşteri ismi kullanılacak. Bu müşteriyi refere eden tüm projeler güncellenecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel.Description</Keyword>
+      <Text>İçe aktarım iptal edilecek, ancak bir sonraki DentalDB açılışında içe aktarıma devam ettirebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.PatientAddFailed</Keyword>
+      <Text>'{0}' Soyadı ile hasta eklenirken bir hata oluştu , Adı '{1}', {2} durum için .
+Hata: {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ErrorMovingProjectFiles</Keyword>
+      <Text>Proje {0} için proje verisi taşınamıyor. Hata {1}</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

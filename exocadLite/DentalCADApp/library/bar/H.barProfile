@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BarProfileFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile xsi:type="BarProfileStandard">
+    <DisplayName>Keyhole</DisplayName>
+    <DisplayIndex>2</DisplayIndex>
+    <Parameters>
+      <BarProfileParameter Name="Radius" Visible="true" Configurable="true" Min="0.1" Max="10" Decimals="2" Value="1" />
+      <BarProfileParameter Name="BottomWidth" Visible="true" Configurable="true" Min="0.5" Max="15" Decimals="2" Value="1" />
+      <BarProfileParameter Name="EggFactor" Visible="true" Configurable="true" Min="0" Max="1" Decimals="1" Value="0" />
+      <BarProfileParameter Name="CapsuleHeight" Visible="true" Configurable="true" Min="0" Max="2" Decimals="2" Value="0" />
+      <BarProfileParameter Name="FixedWidth" Visible="false" Configurable="false" Min="0" Max="1" Decimals="0" Value="1" />
+      <BarProfileParameter Name="Height" Visible="true" Configurable="true" Min="1" Max="15" Decimals="2" Value="4" />
+      <BarProfileParameter Name="MinWidth" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="1" />
+      <BarProfileParameter Name="MinHeight" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="2" />
+      <BarProfileParameter Name="VariableSides" Visible="true" Configurable="false" Min="0" Max="1" Decimals="0" Value="0" />
+      <BarProfileParameter Name="VariableBottom" Visible="true" Configurable="true" Min="0" Max="1" Decimals="0" Value="1" />
+      <BarProfileParameter Name="BottomStepHeight" Visible="true" Configurable="true" Min="0" Max="5" Decimals="2" Value="0" />
+      <BarProfileParameter Name="BottomStepWidth" Visible="true" Configurable="true" Min="0" Max="5" Decimals="2" Value="0" />
+    </Parameters>
+    <BarProfileStandardType>H</BarProfileStandardType>
+  </Profile>
+</BarProfileFile>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScannerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScanStrategies>
+
+    <!-- 
+    ScanTypes:
+    StandardScan, PreparationScan, ScanAbutmentScan, VestibularRegistrationScan, BiteImpressionScan, Impression
+    -->
+
+    <!-- From Shining3D downcrown.ph -->
+    <ScanStrategy ScanType="StandardScan">
+      <ScanPosition a="0"  b="0" />
+      <ScanPosition a="20"  b="75" />
+      <ScanPosition a="92"  b="75" />
+      <ScanPosition a="164" b="75" />
+      <ScanPosition a="236" b="75" />
+      <ScanPosition a="308" b="75" />
+      <ScanPosition a="286" b="90" />
+      <ScanPosition a="236" b="90" />
+      <ScanPosition a="186" b="90" />
+    </ScanStrategy>
+
+    <!-- From Shining3D abutment.ph -->
+    <ScanStrategy ScanType="ScanAbutmentScan">
+      <ScanPosition a="10"  b="60" />
+      <ScanPosition a="55"  b="60" />
+      <ScanPosition a="100" b="60" />
+      <ScanPosition a="145" b="60" />
+      <ScanPosition a="190" b="60" />
+      <ScanPosition a="235" b="60" />
+      <ScanPosition a="280" b="60" />
+      <ScanPosition a="325" b="60" />
+      <ScanPosition a="348" b="90" />
+      <ScanPosition a="303" b="90" />
+      <ScanPosition a="258" b="90" />
+      <ScanPosition a="213" b="90" />
+      <ScanPosition a="168" b="90" />
+      <ScanPosition a="123" b="90" />
+      <ScanPosition a="78"  b="90" />
+      <ScanPosition a="33"  b="90" />
+    </ScanStrategy>
+
+    <!-- From Shining3D inlay.ph -->
+    <ScanStrategy ScanType="PreparationScan">
+      <ScanPosition a="0"   b="50" />
+      <ScanPosition a="45"  b="50" />
+      <ScanPosition a="60"  b="80" />
+      <ScanPosition a="90"  b="50" />
+      <ScanPosition a="135" b="50" />
+      <ScanPosition a="170" b="90" />
+      <ScanPosition a="180" b="50" />
+      <ScanPosition a="225" b="80" />
+      <ScanPosition a="225" b="50" />
+      <ScanPosition a="270" b="50" />
+      <ScanPosition a="315" b="50" />
+      <ScanPosition a="320" b="80" />
+      <ScanPosition a="320" b="60" />
+      <ScanPosition a="320" b="40" />
+      <ScanPosition a="320" b="20" />
+      <ScanPosition a="320" b="0" />
+    </ScanStrategy>
+
+    <!-- TODO: Not sure about these mappings below -->
+
+    <!-- From Shining3D upcrown.ph -->
+    <ScanStrategy ScanType="BiteImpressionScan">
+      <ScanPosition a="0"   b=" 75" />
+      <ScanPosition a="45"  b=" 75" />
+      <ScanPosition a="90"  b=" 75" />
+      <ScanPosition a="135" b=" 75" />
+      <ScanPosition a="180" b=" 75" />
+      <ScanPosition a="225" b=" 75" />
+      <ScanPosition a="270" b=" 75" />
+      <ScanPosition a="315" b=" 75" />
+      <ScanPosition a="235" b=" 15" />
+      <ScanPosition a="315" b=" 100" />
+      <ScanPosition a="260" b=" 100" />
+      <ScanPosition a="210" b=" 100" />
+      <ScanPosition a="160" b=" 100" />
+      <ScanPosition a="110" b=" 100" />
+      <ScanPosition a="60"  b=" 100" />
+      <ScanPosition a="0"   b=" 100" />
+    </ScanStrategy>
+
+    <!-- From Shining3D tooth.ph -->
+    <ScanStrategy ScanType="Impression">
+      <ScanPosition a="45"  b="30" />
+      <ScanPosition a="45"  b="80" />
+      <ScanPosition a="105" b="80" />
+      <ScanPosition a="165" b="80" />
+      <ScanPosition a="225" b="80" />
+      <ScanPosition a="285" b="80" />
+      <ScanPosition a="345" b="80" />
+      <ScanPosition a="225" b="30" />
+    </ScanStrategy>
+
+    <!-- From Shining3D totalcrown.ph -->
+    <ScanStrategy ScanType="VestibularRegistrationScan">
+      <ScanPosition a="180"  b="100" />
+      <ScanPosition a="225"  b="100" />
+      <ScanPosition a="270"  b="100" />
+      <ScanPosition a="310"  b="100" />
+    </ScanStrategy>
+
+  </ScanStrategies>
+</ScannerConfiguration>

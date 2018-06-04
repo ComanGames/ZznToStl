@@ -1,0 +1,2735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkParameterDB>
+  <Materials>
+    <MaterialList>
+      <Material>
+        <ShortName>None</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Healthy</ShortName>
+      </Material>
+      <Material>
+        <ShortName>PMMA</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Wax</ShortName>
+      </Material>
+      <Material>
+        <ShortName>ZI</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Glass</ShortName>
+      </Material>
+      <Material>
+        <ShortName>CompositeGlass_Blocks</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Titan_Abutment</ShortName>
+      </Material>
+      <Material>
+        <ShortName>SinterMetal</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Titan</ShortName>
+      </Material>
+      <Material>
+        <ShortName>CrCo</ShortName>
+      </Material>
+    </MaterialList>
+    <MaterialProperties />
+  </Materials>
+  <WorkTypes>
+    <NumericParameters>
+      <NumericParameter>
+        <ShortName>Shrinking</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBlockoutAngle</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>15</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>°</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>UntouchableZoneNearPreparationMargin</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MinThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.3</DefaultValue>
+        <MinValue>0.3</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.02</DefaultValue>
+        <MinValue>0.02</MinValue>
+        <MaxValue>0.1</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapStart</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>6</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapEnd</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>6</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownAdditionalSpacingZ</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.02</DefaultValue>
+        <MinValue>-0.5</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownAdditionalSpacingX</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.02</DefaultValue>
+        <MinValue>-0.5</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderHorizontalSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.2</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderAngledSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderAngle</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>90</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>°</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderVerticalSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MillingDiameter</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>0.05</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MillingMachineAxes</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>
+        </Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>ConnectorArea</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>6</DefaultValue>
+        <MinValue>6</MinValue>
+        <MaxValue>30</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>InlayThicknessRunOutDistance</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>InlayAdditionalSpacing</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.00</DefaultValue>
+        <MinValue>-0.5</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>OverpressMinThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>3</DefaultValue>
+        <MinValue>0.1</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>OverpressAdditionalSpacing</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>DistanceToGingiva</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>-1</DefaultValue>
+        <MinValue>-1</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>DistanceToAntagonist</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>TelescopeMillingDiameterFriction</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1.1</DefaultValue>
+        <MinValue>1.1</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBlockOutAngle</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>50</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBlockOutOffset</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.03</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintTopDesiredImpressionDepth</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.4</DefaultValue>
+        <MinValue>-1</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintMaxAllowedUndercut</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.1</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintThicknessOcclusal</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>2.5</DefaultValue>
+        <MinValue>0.4</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintThicknessPeripheral</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>0.4</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBottomMorphologicalClosureRadius</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintTopMorphologicalClosureRadius</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>3</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>10</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+    </NumericParameters>
+    <TextualParameters>
+      <TextualParameter>
+        <ShortName>SituScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>false</Value>
+            <Value>true</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>false</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>SeparateGingivaScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>false</Value>
+            <Value>true</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>false</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>PreparationType</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>Crown</Value>
+            <Value>Inlay</Value>
+            <Value>Pontic</Value>
+            <Value>Missing</Value>
+            <Value>Healthy</Value>
+            <Value>Antagonist</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>Crown</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>SeparateWaxupScan</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>true</Value>
+            <Value>false</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>true</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>ImplantType</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DependentParameterList>
+          <DependentTextualParameter>
+            <ShortName>ScanAbutmentScan</ShortName>
+            <HiddenFromUser>true</HiddenFromUser>
+            <ValueGroup valueId="CustomAbutment">
+              <Value>true</Value>
+            </ValueGroup>
+            <ValueGroup valueId="None">
+              <Value>false</Value>
+            </ValueGroup>
+            <ValueGroup valueId="WithoutAbutment">
+              <Value>true</Value>
+            </ValueGroup>
+            <ValueGroup valueId="CustomAbutmentManual">
+              <Value>false</Value>
+            </ValueGroup>
+            <ValueGroup valueId="WithoutAbutmentManual">
+              <Value>false</Value>
+            </ValueGroup>
+          </DependentTextualParameter>
+        </DependentParameterList>
+        <TextualParameterValues>
+          <Values>
+            <Value>None</Value>
+            <Value>CustomAbutment</Value>
+            <Value>WithoutAbutment</Value>
+            <Value>CustomAbutmentManual</Value>
+            <Value>WithoutAbutmentManual</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>None</DefaultValue>
+      </TextualParameter>
+    </TextualParameters>
+    <WorkTypeList>
+      <WorkType>
+        <ShortName>Coping</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MaxValue>2</MaxValue>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>0.8</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.15</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.3</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+			<Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.3</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA" />
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+			  <MinValue>0</MinValue>
+                <Value>0.02</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BarPillar</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.12</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax" />
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.12</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicCrown</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="DistanceToAntagonist" />
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.15</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+			<Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.02</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>OffsetCoping</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MaxValue>2</MaxValue>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.15</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.3</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.3</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <MaxValue>2</MaxValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.15</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.02</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>OverpressCrown</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>0.8</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressMinThickness">
+            <MaxValue>3</MaxValue>
+            <MinValue>0.1</MinValue>
+            <StepSize>0.1</StepSize>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressAdditionalSpacing">
+            <MaxValue>0.2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.15</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="OverpressMinThickness">
+                <MinValue>0.1</MinValue>
+                <Value>0.3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.15</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="OverpressMinThickness">
+                <MinValue>0.1</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>5</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="OverpressMinThickness">
+                <MinValue>0.1</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.1</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.02</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ReducedPontic</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <MinValue>-2</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Wax" />
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BarSegment</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <MaxValue>2</MaxValue>
+                <MinValue>-2</MinValue>
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <MaxValue>2</MaxValue>
+                <MinValue>-2</MinValue>
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <MaxValue>2</MaxValue>
+                <MinValue>-2</MinValue>
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <MaxValue>2</MaxValue>
+                <MinValue>-2</MinValue>
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <MaxValue>2</MaxValue>
+                <MinValue>-2</MinValue>
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicPontic</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <Value>0</Value>
+            <MinValue>-2</MinValue>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>OverpressPontic</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>0.8</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressMinThickness">
+            <MinValue>0.1</MinValue>
+            <StepSize>0.1</StepSize>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressAdditionalSpacing">
+            <MaxValue>0.2</MaxValue>
+          </WorkTypeNumericParameter>
+          <MaterialNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <MinValue>-2</MinValue>
+            <Value>0</Value>
+          </MaterialNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicInlay</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MinValue>0.05</MinValue>
+            <Value>0.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.025</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <MinValue>5</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="InlayAdditionalSpacing" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.035</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <Value>0.3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngle">
+                <Value>65</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>Veneer</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MinValue>0.05</MinValue>
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.025</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <MinValue>5</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="InlayAdditionalSpacing" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.05</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ReducedInlay</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MinValue>0.05</MinValue>
+            <Value>0.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.025</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <MinValue>5</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="InlayAdditionalSpacing" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax" />
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.035</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngledSize">
+                <Value>0.3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderAngle">
+                <Value>65</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>0.2</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>OffsetInlay</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MinValue>0.05</MinValue>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.025</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <MinValue>5</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="InlayAdditionalSpacing" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <Value>0.2</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.035</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Glass">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CompositeGlass_Blocks">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.05</MinValue>
+                <MaxValue>2</MaxValue>
+                <Value>1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>0.7</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA" />
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+      </WorkType>
+      <WorkType>
+        <ShortName>PrimaryTelescope</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.12</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="TelescopeMillingDiameterFriction" />
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.15</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI" />
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicWaxup</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd">
+            <MaxValue>5</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <MinValue>-2</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="InlayThicknessRunOutDistance" />
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax" />
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ReducedWaxup</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <MinValue>0</MinValue>
+            <Value>0.035</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking" />
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0.01</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.1</MinValue>
+            <Value>0.15</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <MinValue>-2</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <Value>0.1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist" />
+          <WorkTypeNumericParameter ParamId="CrownBlockoutAngle" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Wax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.02</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan_Abutment">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBlockoutAngle">
+                <Value>4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>PrettauBridge</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>TorontoBridge</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>Attachment</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva">
+            <MaxValue>2</MaxValue>
+            <MinValue>-2</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+          <Material Id="Titan">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="CrCo">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.55</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="SinterMetal" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>MissingTooth</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ConnectorCanConnectThrough>true</ConnectorCanConnectThrough>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Missing</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="None" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>HealthyTooth</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Healthy" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>Antagonist</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Antagonist</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Healthy" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BiteSplint</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+            <MinValue>0.05</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutOffset" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutAngle" />
+          <WorkTypeNumericParameter ParamId="BiteSplintMaxAllowedUndercut" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBottomMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessOcclusal" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessPeripheral" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopDesiredImpressionDepth" />
+        </WorkTypeNumericParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BiteSplintGap</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Missing</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutOffset" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutAngle" />
+          <WorkTypeNumericParameter ParamId="BiteSplintMaxAllowedUndercut" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBottomMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessOcclusal" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessPeripheral" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopDesiredImpressionDepth" />
+        </WorkTypeNumericParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>WaxupPontic</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Titan" />
+          <Material Id="CrCo" />
+          <Material Id="SinterMetal" />
+          <Material Id="Wax" />
+          <Material Id="ZI" />
+          <Material Id="PMMA" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ProvisionalCrown</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ProvisionalPontic</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutOffset" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutAngle" />
+          <WorkTypeNumericParameter ParamId="BiteSplintMaxAllowedUndercut" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBottomMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessOcclusal" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessPeripheral" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopDesiredImpressionDepth" />
+        </WorkTypeNumericParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+          <Material Id="Wax" />
+        </MaterialList>
+      </WorkType>
+    </WorkTypeList>
+  </WorkTypes>
+  <TreatmentParameterList>
+    <TreatmentParameter>
+      <ShortName>ToothColor</ShortName>
+      <TreatmentParameterValues>
+        <TreatmentParameterCategory>
+          <ShortName>Default</ShortName>
+          <Values>
+            <Value>A1</Value>
+            <Value>A2</Value>
+            <Value>A3</Value>
+            <Value>A3.5</Value>
+            <Value>A4</Value>
+            <Value>B1</Value>
+            <Value>B2</Value>
+            <Value>B3</Value>
+            <Value>B4</Value>
+            <Value>C1</Value>
+            <Value>C2</Value>
+            <Value>C3</Value>
+            <Value>C4</Value>
+            <Value>D2</Value>
+            <Value>D3</Value>
+            <Value>D4</Value>
+          </Values>
+        </TreatmentParameterCategory>
+      </TreatmentParameterValues>
+      <DefaultValue>A1</DefaultValue>
+    </TreatmentParameter>
+    <TreatmentParameter>
+      <ShortName>AntagonistType</ShortName>
+      <TreatmentParameterValues>
+        <TreatmentParameterCategory>
+          <ShortName>Default</ShortName>
+          <Values>
+            <Value>ArticulatorMunich</Value>
+            <Value>RegisteredJaws</Value>
+            <Value>MushBite</Value>
+          </Values>
+        </TreatmentParameterCategory>
+      </TreatmentParameterValues>
+      <DefaultValue>RegisteredJaws</DefaultValue>
+    </TreatmentParameter>
+  </TreatmentParameterList>
+</WorkParameterDB>

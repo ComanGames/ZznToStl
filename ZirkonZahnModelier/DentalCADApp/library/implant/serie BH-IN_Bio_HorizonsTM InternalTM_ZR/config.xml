@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Bio Horizons® Internal®</DisplayInformation>
+  <Producer>Bio Horizons®</Producer>
+  <SystemName>Internal®</SystemName>
+  <MarkerFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Bio Horizons® Internal® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>bHi3</Keyword>
+      <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD3731</LibraryIdentifier>
+      <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3sc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.502-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3hz.stl</SupportFilename>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.502-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB3781</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3plz.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3apl.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB3781</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD3731</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3cn.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3acn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD3731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>3.0 White Scanmarker</DisplayInformation><Keyword>bHi3mmk</Keyword><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3anl.stl</ImplantFilename><RegistrationClickCenter><x>0</x><y>2</y><z>6</z></RegistrationClickCenter><LibraryIdentifier>ZBCD3731</LibraryIdentifier><MarkerFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3smmk.stl</MarkerFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3sc.stl</ScrewFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.50201-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3hz.stl</SupportFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3scz.stl</ScrewFilename><LibraryIdentifier>BSAE3731</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.50201-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3nhz.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3scz.stl</ScrewFilename><LibraryIdentifier>BSAE3731</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.70201-Parallel</Keyword><DisplayInformation>Parallel BSAB3781</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3plz.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3apl.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB3781</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.00201-Conical</Keyword><DisplayInformation>Conical BSAD3731</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3cn.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3acn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD3731</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5</DisplayInformation>
+      <Keyword>bHi35</Keyword>
+      <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD3732</LibraryIdentifier>
+      <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.14052-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5hz.stl</SupportFilename>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.14052-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB3782</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5plz.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5apl.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB3782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD3732</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5cn.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5acn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD3732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>3.5 White Scanmarker</DisplayInformation><Keyword>bHi35mmk</Keyword><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5anl.stl</ImplantFilename><LibraryIdentifier>ZBCD3732</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>2</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5smmk.stl</MarkerFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>4.1405201-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5hz.stl</SupportFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3732</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.1405201-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5nhz.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3732</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.700201-Parallel</Keyword><DisplayInformation>Parallel BSAB3782</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5plz.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5apl.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB3782</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.000201-Conical</Keyword><DisplayInformation>Conical BSAD3732</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5cn.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5acn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD3732</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5</DisplayInformation>
+      <Keyword>bHi45</Keyword>
+      <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD3733</LibraryIdentifier>
+      <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.024-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5hz.stl</SupportFilename>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0242-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB3783</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5plz.stl</SupportFilename>
+          <ImplantFilename>4.5apl.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB3783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00022-Conical</Keyword>
+          <DisplayInformation>Conical BSAD3733</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5cn.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5acn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD3733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>4.5 White Scanmarker</DisplayInformation><Keyword>bHi45mmk</Keyword><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5anl.stl</ImplantFilename><RegistrationClickCenter><x>0</x><y>2</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5smmk.stl</MarkerFilename><LibraryIdentifier>ZBCD3733</LibraryIdentifier><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>5.02401-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5hz.stl</SupportFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3733</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.024201-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5nhz.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3733</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.00201-Parallel</Keyword><DisplayInformation>Parallel BSAB3783</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5plz.stl</SupportFilename><ImplantFilename>4.5apl.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB3783</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.0002201-Conical</Keyword><DisplayInformation>Conical BSAD3733</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5cn.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/4.5acn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD3733</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7</DisplayInformation>
+      <Keyword>bHi57</Keyword>
+      <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD3734</LibraryIdentifier>
+      <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0133-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7hz.stl</SupportFilename>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.01332-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE3734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB3784</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7plz.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7apl.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB3784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.802-Conical</Keyword>
+          <DisplayInformation>Conical BSAD3734</DisplayInformation>
+          <SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7cn.stl</SupportFilename>
+          <ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7acn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD3734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>5.7 White Scanmarker</DisplayInformation><Keyword>bHi57mmk</Keyword><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7anl.stl</ImplantFilename><LibraryIdentifier>ZBCD3734</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>2.2</y><z>6</z></RegistrationClickCenter><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5sc.stl</ScrewFilename><MarkerFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7smmk.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>6.013301-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7hz.stl</SupportFilename><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3734</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>6.0133201-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7nhz.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/3.5scz.stl</ScrewFilename><LibraryIdentifier>BSAE3734</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>6.00201-Parallel</Keyword><DisplayInformation>Parallel BSAB3784</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7plz.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7apl.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB3784</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.80201-Conical</Keyword><DisplayInformation>Conical BSAD3734</DisplayInformation><SupportFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7cn.stl</SupportFilename><ImplantFilename>../serie BH-IN_Bio_HorizonsTM InternalTM/5.7acn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD3734</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

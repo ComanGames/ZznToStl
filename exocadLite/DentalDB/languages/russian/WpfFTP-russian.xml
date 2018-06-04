@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>TotalProgress</Keyword>
+      <Text>Общий ход процесса</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaitForConnection</Keyword>
+      <Text>Осуществляется соединение с сервером, пожалуйста подождите...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToUpload</Keyword>
+      <Text>Выбрать файлы для загрузки</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMessageFromServer</Keyword>
+      <Text>Сообщение об ошибке с сервера:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCodeFromServer</Keyword>
+      <Text>Код ошибки с сервера:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UsernamePasswordWindow</Keyword>
+      <Text>Полномочия</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.ChangeUserPass</Keyword>
+      <Text>Изменить имя пользователя/пароль</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.IncompleteTransfer</Keyword>
+      <Text>Ошибка - переместить удалось не все файлы.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AfterWait</Keyword>
+      <Text>секунд</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.ConfigMissing</Keyword>
+      <Text>Файл конфигурации FTP отсутствует</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BaseDirMissing</Keyword>
+      <Text>Указанная директория загрузки базы не существует.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.RetryCountExceeded</Keyword>
+      <Text>Загрузка не удалась. Максимальное количество повторных попыток исчерпано. Убедитесь, что нет нарушений в работе сети.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Username</Keyword>
+      <Text>Имя пользователя:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Password</Keyword>
+      <Text>Пароль:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.RememberPassword</Keyword>
+      <Text>Запомнть пароль</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupText</Keyword>
+      <Text>Все еще нет учетной записи?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupLinkDescription</Keyword>
+      <Text>Создать учетную запись.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.EnterUsernamePassword</Keyword>
+      <Text>Имя пользователя и пароль</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.150</Keyword>
+      <Text>150 Ошибка ftp</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.502</Keyword>
+      <Text>Команда не реализована</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BeginFileUpload</Keyword>
+      <Text>Начинается загрузка файла...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.FileUploaded</Keyword>
+      <Text>Файл загружен успешно.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Header</Keyword>
+      <Text>Прервать подтверждение</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Message</Keyword>
+      <Text>
+        Если вы закроете данное окно, загрузка будет отменена.
+
+        Нажмите Да, чтобы закрыть окно; Нет, чтобы продолжить загрузку.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.Wait</Keyword>
+      <Text>Попытка повторится через</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.StartTry</Keyword>
+      <Text>Номер повторной попытки</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.from</Keyword>
+      <Text> of </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TemporaryFailure</Keyword>
+      <Text>Предупреждение:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.PermanentError</Keyword>
+      <Text>К сожалению загрузка не удалась.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.NoResponse</Keyword>
+      <Text>Сервер не отвечает</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.UserAbort</Keyword>
+      <Text>Загрузка отменена пользователем!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TranserComplete</Keyword>
+      <Text>Передача завершена</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Header</Keyword>
+      <Text>Запуск WpfFTP...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Start</Keyword>
+      <Text>Пуск</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Close</Keyword>
+      <Text>Закрыть</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Header</Keyword>
+      <Text>Загрузка продолжается</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.AbortUpload</Keyword>
+      <Text>Отменить загрузку</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.ShowDetail</Keyword>
+      <Text>Подробности &gt;&gt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.HideDetail</Keyword>
+      <Text>Подробности &lt;&lt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Header</Keyword>
+      <Text>Загрузить</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Buttons.StartUpload</Keyword>
+      <Text>Начать загрузку</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded</Keyword>
+      <Text>Данные, которые Вы хотите загрузить, уже существуют на FTP-сервере</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain</Keyword>
+      <Text>Загрузить файлы повторно</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain.Description</Keyword>
+      <Text>Выбранные файлы будут загружены повторно. Файлы на FTP-сервере будут замещены</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload</Keyword>
+      <Text>Отменить загрузку</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload.Description</Keyword>
+      <Text>Файлы не будут загружены</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

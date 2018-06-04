@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.LabMissing</Keyword>
+      <Text>Nepodařilo se získat výchozí laboratoř.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportFailed</Keyword>
+      <Text>Při vytváření práce z projektu iTero došlo k chybě.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportSuccessed</Keyword>
+      <Text>Návrh práce byl úspěšně vytvořen ze souboru i-Tero {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ToothSkipped</Keyword>
+      <Text>Zub {0} vynechán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportedWithWarnings</Keyword>
+      <Text>  návrh byl vytvořen ze souboru i-Tero {0}. Některá data možná nebyla zpracována, proto chybějí v projektu:
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.SelectPractice.Header</Keyword>
+      <Text>Zvolit ordinaci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AddPracticeFirst</Keyword>
+      <Text>
+        Zákazník specifikovaný v projektovém souboru iTero nebyl v databázi nalezen.
+        Prosím vyplňte následující formulář pro vytvoření zákazníka s daným jménem.
+        Pro pokračování bez vytvoření nového zákazníka a přiřazení již existujícího zák.
+        k práci vytvořené z projektu i-Tero zavřete okno.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>Žádný typ rekonstrukce nemá ID {0}. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissing</Keyword>
+      <Text>Žádný typ rekonstrukce nemá ID {0}. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Zadaná hodnota {0} pro výchozí typ rekonstrukce nebyla v databázi nalezena.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.AntagonistDataInvalid</Keyword>
+      <Text>Pro typ práce {0} a materiál {1} nebylo možné vytvořit antagonistu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ImportMaterialMissing</Keyword>
+      <Text>i-Tero materiál s ID {0} nebyl v i-Tero projektu nalezen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialMappingMissing</Keyword>
+      <Text>Materiál s ID {0} a iTero názvem {1} není namapován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.WorkDefinitionMissing</Keyword>
+      <Text>Pro zvolený typ práce {0} a materiál {1} nejsou k dispozici žádná data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.CaseId</Keyword>
+      <Text>ID případu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.DueDate</Keyword>
+      <Text>Datum dodání</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>Dodatečné informace</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MaterialSpecification</Keyword>
+      <Text>Specifikace materiálu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Colorspecification</Keyword>
+      <Text>Barevné schéma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema</Keyword>
+      <Text>Barevné schéma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.UsedMaterials</Keyword>
+      <Text>Materiály</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Incizální odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Střední odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingivální odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign</Keyword>
+      <Text>Návrh marginu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Int</Keyword>
+      <Text>vnitřní</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibulární</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Implant</Keyword>
+      <Text>Implantát</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.Tooth</Keyword>
+      <Text>Zub</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Dříve než budete pokračovat s konstruováním, zkontrolujte prosím úplnost a správnost importované datové sady.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.EmptyMatrixString</Keyword>
+      <Text>Řetězec transformační matice ze souboru iTero je prázdný. Byl očekáván neprázdný řetězec obsahující 16 dvojic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.InvalidMatrixString</Keyword>
+      <Text>Řetězec transformační matice je v neplatném formátu: byl očekáván neprázdný řetězec obsahující 16 dvojic.
+Dáno: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ReconstructionTypeMappingMissingInConfigFile</Keyword>
+      <Text>V iTero projektu není definováno materiálové mapování pro materiál {0}. ID zubu {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorParsingMarginLineFile</Keyword>
+      <Text>Během čtení cervikálního uzávěru v souboru {0} došlo k chybě.
+Chybová zpráva:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>Došlo k chybě při analýze dat cervikálního uzávěru:
+Soubor: {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>Došlo k chybě při ukládání transformovaných dat cervikálního uzávěru do souboru {0}.
+Chybová zpráva:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>Seznam materiálů v Itero je neúplný. Proto jméno originálního materiálu není možné určit.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Title</Keyword>
+      <Text>Prosím, vyberte materiál </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Description</Keyword>
+      <Text>V projektu iTero jsou vybrány různé materiály pro jednu skupinu zubů. pro skupinu zubů může být vybrán jen jeden materiál. 
+Níže vyberte materiál.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>Aby bylo možné pokračovat budete muset vybrat materiál pro každou skupinu zubů.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>Zub {0}: V importu není mapován materiál. Místo toho se použije výchozí materiál.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>Zub {0}: V importu není mapován materiál. Prvně definovaný materiál bude použit.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

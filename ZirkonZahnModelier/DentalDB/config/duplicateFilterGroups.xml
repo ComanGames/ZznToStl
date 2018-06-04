@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DuplicateFilterGroupDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DuplicateFilterGroup>
+    <Keyword>constructedFiles</Keyword>
+    <FilterList>
+      <Filter>%p*_cad.stl</Filter>
+      <Filter>%p.constructionInfo</Filter>
+      <Filter>*.png</Filter>
+      <Filter>*.jpg</Filter>
+    </FilterList>
+    <CheckedByDefault>false</CheckedByDefault>
+  </DuplicateFilterGroup>
+  <DuplicateFilterGroup>
+    <Keyword>scanData</Keyword>
+    <FilterList>
+      <Filter>%p*.stl</Filter>
+      <Filter>%p*.off</Filter>
+      <Filter>%p*.implantPosition</Filter>
+      <Filter>*.png</Filter>
+      <Filter>*.jpg</Filter>
+      <Filter>*.obj</Filter>
+    </FilterList>
+    <CheckedByDefault>false</CheckedByDefault>
+  </DuplicateFilterGroup>
+</DuplicateFilterGroupDescription>

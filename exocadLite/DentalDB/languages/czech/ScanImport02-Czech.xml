@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport02.LabMissing</Keyword>
+      <Text>Nepodařilo se získat výchozí laboratoř.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportFailed</Keyword>
+      <Text>
+        Při vytváření práce z projektu 3M došlo k chybě,
+        Chybová hláška:
+        {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportSuccessed</Keyword>
+      <Text>Návrh práce byl úspěšně vytvořen ze souboru 3M {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RestorationSkipped</Keyword>
+      <Text>Náhrada {0} vynechána. Dotčené zuby: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothSkipped</Keyword>
+      <Text>Zub {0} vynechán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportedWithWarnings</Keyword>
+      <Text>
+        Návrh dentálního projektu byl vytvořen z projektu 3M
+        Projektový soubor 3M:
+        {0}
+
+
+        Některá data možná nebyla zpracována, a proto chybějí v projektu:
+        {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectPractice.Header</Keyword>
+      <Text>Zvolit ordinaci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AddPracticeFirst</Keyword>
+      <Text>
+        Zákazník specifikovaný v projektu 3M nebyl v databázi nalezen.
+        Pro vytvoření zákazníka s daným jménem prosím vyplňte následující formulář.
+        Pro pokračování bez vytvoření nového zákazníka a přiřazení již existujícího zák.
+        k práci vytvořené z projektu 3M zavřete okno.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>Žádný typ rekonstrukce nemá ID '{0}'. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMappingMissing</Keyword>
+      <Text>Žádný typ rekonstrukce nemá ID '{0}'. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Uvedená hodnota {0} pro výchozí typ rekonstrukce nebyla v databázi nalezena.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AntagonistDataInvalid</Keyword>
+      <Text>Nebylo možné vytvořit antagonistu pro typ práce {0} a materiál {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportMaterialMissing</Keyword>
+      <Text>Ve 3M projektu nebyl nalezen 3M materiál s ID {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialMappingMissing</Keyword>
+      <Text>Materiál s ID {0} a 3M názvem {1} není namapován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionMissing</Keyword>
+      <Text>
+        Typ práce '{0}' neumožňuje použít materiál '{1}'.
+        Je použit první dostupný materiál pro daný typ práce.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CaseId</Keyword>
+      <Text>ID případu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DueDate</Keyword>
+      <Text>Datum odevzdání</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.AdditionalInfo</Keyword>
+      <Text>Dodatečné informace</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MaterialSpecification</Keyword>
+      <Text>Materiálová specifikace</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Colorspecification</Keyword>
+      <Text>Barevné schéma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema</Keyword>
+      <Text>Barevné schéma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedMaterials</Keyword>
+      <Text>Materiály</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Incizální odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Střední odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingivální odstín</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign</Keyword>
+      <Text>Návrh marginu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Int</Keyword>
+      <Text>interní</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibulární</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Implant</Keyword>
+      <Text>Implantát</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Tooth</Keyword>
+      <Text>Zub</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Než budete pokračovat v konstruování, zkontrolujte prosím úplnost a správnost importované datové sady.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.EmptyMatrixString</Keyword>
+      <Text>Řetězec transformační matice ze souboru 3M je prázdný. Je očekáván neprázdný řetězec obsahující 16 dvojic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InvalidMatrixString</Keyword>
+      <Text>
+        Řetězec transformační matice je v neplatném formátu: je očekáván neprázdný řetězec obsahující 16 dvojic.
+        Dáno: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromThreeM.ToolTip</Keyword>
+      <Text>Vytvořit novou práci z projektového souboru 3M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.InsufficientAccessRights.Project</Keyword>
+      <Text>Nedostatečná uživatelská práva pro kopírování proj. souborů 3M do projektového adresáře {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Project</Keyword>
+      <Text>Chyba při kopírování projektového souboru 3M z {0} do {1}. Chyba {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Data</Keyword>
+      <Text>Chyba při kopírování datového souboru 3M z {0} do {1}. Chyba {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.FileTransferIncomplete</Keyword>
+      <Text>
+        Následující chyby se objevily během kopírování referenčních souborů z projektu 3M:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.BillingAddress</Keyword>
+      <Text>Fakturační adresa:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ShippingAddress</Keyword>
+      <Text>Adresa pro zasílání:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.CreationDate</Keyword>
+      <Text>Vytvořeno:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.RxDate</Keyword>
+      <Text>Datum přijetí:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DateRequested</Keyword>
+      <Text>Vyžádáno:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.GuidConversionFailed</Keyword>
+      <Text>
+        Projektový řetězec GUID nelze převést na GUID.
+        řetězec GUID: {0}
+        Chybová hláška:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema</Keyword>
+      <Text>Z projektového souboru nelze určit systém číslování zubů. Prosím zvolte systém ručně.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema</Keyword>
+      <Text>Univerzální systém číslování</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema.Description</Keyword>
+      <Text>Zuby definované v projektovém souboru 3M budou pokládány za univerzálně číslované</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental</Keyword>
+      <Text>Notace dle FDI World Dental Federation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental.Description</Keyword>
+      <Text>Zuby definované v projektovém souboru 3M budou pokládány za číslované podle FDI</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel</Keyword>
+      <Text>Zrušit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel.Description</Keyword>
+      <Text>Import bude zrušen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeNoMapping</Keyword>
+      <Text>Typ rekonstrukce '{0}' není namapován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotSpecified</Keyword>
+      <Text>Projektový soubor 3M není specifikován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotFound</Keyword>
+      <Text>
+        Projektový soubor 3M pro import nebyl nalezen.
+        Název souboru: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileCorrupt</Keyword>
+      <Text>
+        Při analýze proj. souboru 3M došlo k chybě.
+        Název souboru: {0}
+
+        Chybová hláška:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotSpecified</Keyword>
+      <Text>Soubor mapující rekonstrukce 3M na typy v DentalDB není specifikován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotFound</Keyword>
+      <Text>
+        Soubor mapující rekonstrukce 3M na typy v DentalDB nebyl nalezen.
+        Název souboru: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileCorrupt</Keyword>
+      <Text>
+        Při analýze souboru mapujícího 3M rekonstrukce na DentalDB typy došlo k chybě.
+        Název souboru: {0}
+
+        Chybová hláška:
+        {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMaterialNotMappedFirstUsed</Keyword>
+      <Text>
+        3M materiál {0} není namapován na materiál v DentalDB.
+        Pro rekonstrukci bude použit výchozí materiál '{1}'.
+        Dotčené zuby: {2}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.Title</Keyword>
+      <Text>Výběr materiálu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionFallbackDefault</Keyword>
+      <Text>
+        Typ práce '{0}' neumožňuje použít materiál '{1}'.
+        Bude použit výchozí materiál '{2}' pro tento typ práce.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.InternalCaseId</Keyword>
+      <Text>ID projektu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.ExternalCaseId</Keyword>
+      <Text>Objednávka</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.Notes</Keyword>
+      <Text>Pozn.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothDataNotFound</Keyword>
+      <Text>Nenalezena data zubu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothNumberNotFound</Keyword>
+      <Text>
+        Číslo zubu nenalezeno v:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothRecoTypeNotFound</Keyword>
+      <Text>
+        Typ rekon. zubu nenalezen pro zub {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialDescrNotFound</Keyword>
+      <Text>
+        Popis mater. zubu nenalezen pro zub {0}
+   </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialNotFound</Keyword>
+      <Text>
+        Materiál zubu nenalezen pro zub {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothInfoCreationFailed</Keyword>
+      <Text>
+        Při zpracování informací pro zub {0} došlo k chybě.
+        Chyba:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RecentlyArrivedJobs</Keyword>
+      <Text>3M: nové práce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ProjectId</Keyword>
+      <Text>3M ID projektu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Info</Keyword>
+      <Text>3M info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.NewProjects</Keyword>
+      <Text>Importované projekty:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Conflicts</Keyword>
+      <Text>Konflikty:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ActionRequired</Keyword>
+      <Text>Požadovaná akce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>Specifikovaná ordinace nebyla nalezena nebo není unikátní. Pro pokračování doplňte data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RemoveFromArrivedList</Keyword>
+      <Text>Odstranit ze seznamu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PracticeDataEnrichment</Keyword>
+      <Text>Hotová práce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ViewInDentalDB</Keyword>
+      <Text>Zobrazit v DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OpenInExplorer</Keyword>
+      <Text>Otevřít v exploreru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OverrideExisting</Keyword>
+      <Text>Přepsat existující</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.KeepExisting</Keyword>
+      <Text>Ne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowChanges</Keyword>
+      <Text>Zobrazit změny v exploreru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.OriginalDataBackupFailed</Keyword>
+      <Text>Při zálohování 3M projektu došlo k chybě.
+Projektový adresář 3M: {0}
+Cílový adresář: {1}
+Chyba: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNoWritePermissions</Keyword>
+      <Text>Záložní adresář 3M projektu je pouze pro čtení. Prosím zajistěte, aby do adresáře '{0}' bylo možné zapisovat a zkuste to znovu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirCreationError</Keyword>
+      <Text>Při vytváření záložního adresáře 3M projektu '{0}' došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.PatientCreationFailed</Keyword>
+      <Text>Při ukládání dat pacienta došlo k chybě:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobCreationFailed</Keyword>
+      <Text>Při ukládání pracovních dat došlo k chybě:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.LowerJawScanMissing</Keyword>
+      <Text>Sken dolní čelisti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.UpperJawScanMissing</Keyword>
+      <Text>Sken horní čelisti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.VestibularScanMissing</Keyword>
+      <Text>Vestibulární sken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>Formát naskenovaných dat 3M projektu se nepodařilo určit:
+Projektový adresář: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.RepeatDataImport</Keyword>
+      <Text>Znovu zkusit import dat skenu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.DataTransferIncomplete</Keyword>
+      <Text>Přenos dat nedokončen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.JobArrived</Keyword>
+      <Text>3M: práce dorazila</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TrayIcon.Tip</Keyword>
+      <Text>Klikněte pro další možnosti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedReconstructions</Keyword>
+      <Text>Rekonstrukce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.CompleteNewClientData</Keyword>
+      <Text>Zákazník byl automaticky vytvořen během importu práce ze 3M.
+Pro dokončení importu prosím doplňte chybějící data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Vyžaduje potvrzení</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Data zkopírována částečně</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Přidělit ordinaci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ImportState.Success.Title</Keyword>
+      <Text>Importováno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ShowSourceFolder</Keyword>
+      <Text>Otevřít zdrojový adresář</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.AutomaticImportSetupFailed</Keyword>
+      <Text>Při konfiguraci autom. importu 3M projektu došlo k chybě:
+Sledovaný adresář: {0}
+Režim sledování: {1}
+Detaily chyby: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ErrorProcessingDirectFormat</Keyword>
+      <Text>Při zrpacování souboru přímého formátu {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.GenericImportError</Keyword>
+      <Text>Při pokračování 3M projektu {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.DirectoryCreationFailed</Keyword>
+      <Text>Při vytváření adresáře {0} došlo k chybě
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNotSet</Keyword>
+      <Text>Záložní adresář pro importované 3M projekty není konfigurován. Prosím konfigurujte záložní adresář a zkuste to znovu.
+Autom. import 3M projektu je deaktivováno.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.BackupDirNotSet.Ok</Keyword>
+      <Text>OK</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\ScanImport02-czech-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>FilesHaveBeenQueuedForDentalshareUpload</Keyword>
+      <Text>The data set has been queued for upload.
+
+Number of files being uploaded:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed</Keyword>
+      <Text>Login to dentalshare has failed. Please make sure that:
+
+- The username and password you entered are correct
+- The group configuration matches your account
+
+Configured group:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Implant Planner</Keyword>
+      <Text>Implant Planner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Implant Planner.ToolTip</Keyword>
+      <Text>Implant Planner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.Error</Keyword>
+      <Text>Job import failed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Dentalshare</Keyword>
+      <Text>Material configuration (dentalshare)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.ChangeWorkParams</Keyword>
+      <Text>Change...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.DentalShare</Keyword>
+      <Text>Material configuration (dentalshare)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.NoSelection</Keyword>
+      <Text>Select...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBSwitchFailed</Keyword>
+      <Text>An error occured loading material configuration.
+Errror details:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsIsEmptyOrDoesNotExist</Keyword>
+      <Text>User-default material configuration '{0}' could not be found or is corrupt.
+Falling back to the default material configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.MakeDefault</Keyword>
+      <Text>Make default</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsUpdated</Keyword>
+      <Text>Your default material configuration has been updated by your partner. 
+It was automatically downloaded and applied.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsUpdated.Title</Keyword>
+      <Text>Material configuration updated</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsMismatch</Keyword>
+      <Text>Warning: This receipient uses a different material configuration than the one you have chosen for this project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsMismatch.Title</Keyword>
+      <Text>Material configuration differs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.WorkParamsDataValidationError</Keyword>
+      <Text>The given data are not a valid material configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UserWorkParamsDataNotFound</Keyword>
+      <Text>User default material configuration could not be found. Falling back to default one.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DentalProjectFileStorageError</Keyword>
+      <Text>An error occured storing dental project to '{0}'.
+Error details:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsHashMismatch</Keyword>
+      <Text>The imported project was created with different material configuration and does not match current one. This may lead to inaccurate result in design process.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsSignatureMismatch</Keyword>
+      <Text>The imported project was created with verified material configuration. Material configuration used for import is not verified or provided in different version.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ImportSucceeded</Keyword>
+      <Text>Dental job import succeeded</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Information.Title</Keyword>
+      <Text>Information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SignatureVerificationWorkParamsError</Keyword>
+      <Text>The material configuration file to be used could not be verified and therefore cannot be used in this version of DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.SignatureVerificationWorkParamsError</Keyword>
+      <Text>The dental project cannot be imported as  material configuration used to create it could not be verified and therefore cannot be used in this version of DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParams.VerficationError.Title</Keyword>
+      <Text>Material configuration prohibited.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.WorkParamsDBLoadFailed</Keyword>
+      <Text>An error occurred processing material configuration data:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialConfiguration.MaterialFilterLoadFailed</Keyword>
+      <Text>An error occurred loading material filter from material configuration:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InvalidMailInput</Keyword>
+      <Text>The email you have entered does not seem to be a valid email address.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UserWorkParamsIsInvalid</Keyword>
+      <Text>User default material configuration seems to be corrupt. Falling back to default one.
+Additional information:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditParams</Keyword>
+      <Text>Change Data of Treatment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Mill.WatchdogLabel</Keyword>
+      <Text>Mill</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.EnlargeToolTip</Keyword>
+      <Text>DoubleClick to Enlarge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ShrinkToolTip</Keyword>
+      <Text>DoubleClick to Shrink</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Import</Keyword>
+      <Text>Import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Edit</Keyword>
+      <Text>Edit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Center.Open</Keyword>
+      <Text>Open Zirkonzahn Archiv</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.Back</Keyword>
+      <Text>Back to Clientlist</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.New.Back</Keyword>
+      <Text>Back</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientPic</Keyword>
+      <Text>Patient Pictures</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.New.ToothColor</Keyword>
+      <Text>Tooth Color</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ToothColor.Other</Keyword>
+      <Text>Other</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Technician.Save.Text</Keyword>
+      <Text>Save and Continue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Technician.EnterName</Keyword>
+      <Text>Select Technician or enter new Technician</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Edit.Practice</Keyword>
+      <Text>Edit Practice Data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ScanData</Keyword>
+      <Text>Scan data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.Treatment</Keyword>
+      <Text>Define treatment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.SpecialOptions</Keyword>
+      <Text>Special options</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.DeleteTreatment</Keyword>
+      <Text>Delete treatment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.PicPatient</Keyword>
+      <Text>Pictures of the Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Lang</Keyword>
+      <Text>Language Settings</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.SelectFilterDefinitionsToApply</Keyword>
+      <Text>Select project files to duplicate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.NoFileMatchFound</Keyword>
+      <Text>No files matching duplicate filters were found.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Confirm</Keyword>
+      <Text>Do you really want to clear client-specific parameters? Please note that the action cannot be undone.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Done</Keyword>
+      <Text>Client-specific parameters have been cleared.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Confirm.Title</Keyword>
+      <Text>Confirm: Clear client-specific parameters</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.Laboratory</Keyword>
+      <Text>Laboratory</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.UniqueId</Keyword>
+      <Text>Global Unique ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.OriginalId</Keyword>
+      <Text>Original case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Mod.WatchdogLabel</Keyword>
+      <Text>Mod</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterExpression</Keyword>
+      <Text>Search pattern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExcludeMatchingFilesFromResult</Keyword>
+      <Text>Exclude from result</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilesHaveNotBeenUpdateSinceLastUpload</Keyword>
+      <Text>The files you want to upload have not been changed since the last upload. Therefore, the files won't be uploaded!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.PracticeOriginal</Keyword>
+      <Text>Original Client</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialConfiguration.MaterialSwitchNotAllowed</Keyword>
+      <Text>Material configuration can only be switched if no restorations are defined for the job.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ResetParameterValuesToDefault</Keyword>
+      <Text>Reset values 
+to material defaults</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ResetParameterValuesToDefault.ToolTip</Keyword>
+      <Text>Resets values of all numeric parameters to default value for selected restoration and material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToRenameOnProjectNameChange</Keyword>
+      <Text>Select project files to rename</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UpdateMetaDataFileFailed</Keyword>
+      <Text>Error occurred while updating '{0}'.
+Error: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DuplicateActionFileCopyingFailed</Keyword>
+      <Text>One or more errors occurred while processing data of the duplicated dental project:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterGroupRequiredMissing.ToolTip</Keyword>
+      <Text>Could not detect data marked as required. Please ensure that the data exists and try again.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DuplicateFilterGroupDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FilterGroup>
+    <Keyword>scanData</Keyword>
+    <FilterDefinition>%p*.%{meshes_scan}</FilterDefinition>
+    <FilterDefinition>%p*.%{pointclouds}</FilterDefinition>
+    <FilterDefinition>%p*.scanInfo</FilterDefinition>
+    <FilterDefinition>%p*.implantPosition</FilterDefinition>
+    <FilterDefinition>%p*.implantReference</FilterDefinition>
+    <FilterDefinition>*.png</FilterDefinition>
+    <FilterDefinition>*.jpg</FilterDefinition>
+    <FilterDefinition>%p*.matrix4</FilterDefinition>
+    <FilterDefinition>itero_export*.xml</FilterDefinition>
+  </FilterGroup>
+  <FilterGroup>
+    <Keyword>constructedFiles</Keyword>
+    <FilterDefinition>%p*_cad.%{meshes_cad}</FilterDefinition>
+    <FilterDefinition>%p.constructionInfo</FilterDefinition>
+    <FilterDefinition>*.png</FilterDefinition>
+    <FilterDefinition>*.jpg</FilterDefinition>
+  </FilterGroup>
+</DuplicateFilterGroupDescription>

@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+	<ResourceDictionary Source="Common/commons.xaml" />
+        <ResourceDictionary Source="DentalCAD/NamedStyles/DentalToolWindowStyle.xaml" />
+        <ResourceDictionary Source="DentalCAD/NamedStyles/GroupSelectorStyles.xaml" />
+        <ResourceDictionary Source="DentalCAD/NamedStyles/NestingStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- Other Styles -->
+    <SolidColorBrush x:Key="ScanManagerBackground" Color="{DynamicResource WhiteColor}" />
+    <SolidColorBrush x:Key="ScanManagerBorder" Color="{DynamicResource WhiteColor}" />
+    <Style x:Key="SMRadioButtonStyle" BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}" />   
+    <SolidColorBrush x:Key="MultiMessageBoxWindowWithOptionsBackground" Color="Red"/>
+</ResourceDictionary>

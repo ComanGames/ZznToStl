@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>0</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy®</SystemName>
+  <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - NOT FOR PRODUCTION
+Compatible with Brånemark System® by Nobel Biocare®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm</DisplayInformation>
+      <Keyword>NBB3.5mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant3.5.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_3.5.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0231</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.502-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.502-OutHex/2.5</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hex.stl</SupportFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.5020-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5020-OutNohex/2.5</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.502-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.502-OutNohex/2.5</Keyword><DisplayInformation>No Hex 1.5mm Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.5020-OutNohex</Keyword>
+          <DisplayInformation>No Hex (for bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5020-OutNohex/2.5</Keyword><DisplayInformation>No Hex (for bridges) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.50200-OutNohex</Keyword>
+          <DisplayInformation>No Hex (for bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.50200-OutNohex/2.5</Keyword><DisplayInformation>No Hex (for bridges 1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0281</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0251.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0281</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0281 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_3.5.stl</SupportFilename><ImplantFilename>BSAD0251.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0281</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0291 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0291</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Parallel/2.5</Keyword><DisplayInformation>Parallel BSCB0291 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSCB0291</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70201-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L10  Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70202-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70202-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70203-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70203-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70204-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70204-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.602-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0281.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.602-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0281.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0231</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0241 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0241</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Conical/2.5</Keyword><DisplayInformation>Conical BSCD0241 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSCD0241</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L2.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.0201-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L2.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70202-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L3.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70202-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L3.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.70203-Conical</Keyword><DisplayInformation>Conical BSAD0231L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.70203-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB3.5mmk</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant3.5.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_3.5.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0201</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_SMm.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5021-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5021-OutHex/2.5</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hex.stl</SupportFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.50201-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.50201-OutNohex/2.5</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.5021-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5021-OutNohex/2.5</Keyword><DisplayInformation>No Hex 1.5mm Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.50201-OutNohex</Keyword>
+          <DisplayInformation>No Hex (for bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.50201-OutNohex/2.5</Keyword><DisplayInformation>No Hex (for bridges) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.502001-OutNohex</Keyword>
+          <DisplayInformation>No Hex (for bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.502001-OutNohex/2.5</Keyword><DisplayInformation>No Hex (for bridges 1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridges1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0281</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0251.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0281</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0281 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_3.5.stl</SupportFilename><ImplantFilename>BSAD0251.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0281</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0291 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0291</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70201-Parallel/2.5</Keyword><DisplayInformation>Parallel BSCB0291 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSCB0291</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702011-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L10  Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_nZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702031-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702031-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702041-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702041-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0291L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_3.5_L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK3.5L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0291L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.6021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0281.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.6021-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0281.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0231</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0241 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0241</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Conical/2.5</Keyword><DisplayInformation>Conical BSCD0241 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSCD0241</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70201-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L2.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.02011-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L2.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L3.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702021-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L3.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.702031-Conical</Keyword><DisplayInformation>Conical BSAD0231L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.702031-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0231L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_3.5_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 3.9 mm (4.1 platform switched)</DisplayInformation>
+      <Keyword>NBB4.1mmPS</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.202-OutHex</Keyword>
+          <DisplayInformation>Hex Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_SP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.202-OutHex/2.8</Keyword><DisplayInformation>Hex Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_SP.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2020-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mmSP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2020-OutHex/2.8</Keyword><DisplayInformation>Hex 1.5mm Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mmSP.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20201-OutNohex</Keyword>
+          <DisplayInformation>No Hex Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_roundSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20201-OutNohex/2.8</Keyword><DisplayInformation>../serie NB-B_Nobel BiocareTM-BranemarkTM/No Hex Platform Switching Sealing Thread</DisplayInformation><SupportFilename>4.1_roundSP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20202-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mmSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20202-OutNohex/2.8</Keyword><DisplayInformation>No Hex 1.5mm Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mmSP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 3.9 mm White Scanmarker (4.1 platform switched)</DisplayInformation>
+      <Keyword>NBB4.1PSmmk</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0202</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarkerpk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2021-OutHex</Keyword>
+          <DisplayInformation>Hex Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_SP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2021-OutHex/2.8</Keyword><DisplayInformation>Hex Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_SP.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20201-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mmSP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20201-OutHex/2.8</Keyword><DisplayInformation>Hex 1.5mm Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mmSP.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.202011-OutNohex</Keyword>
+          <DisplayInformation>No Hex Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_roundSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.202011-OutNohex/2.8</Keyword><DisplayInformation>../serie NB-B_Nobel BiocareTM-BranemarkTM/No Hex Platform Switching Sealing Thread</DisplayInformation><SupportFilename>4.1_roundSP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.202021-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mmSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.202021-OutNohex/2.8</Keyword><DisplayInformation>No Hex 1.5mm Platform Switching Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mmSP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm</DisplayInformation>
+      <Keyword>NBB4.1mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.102-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.102-OutHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex.stl</SupportFilename><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1020-OutHex</Keyword>
+          <DisplayInformation>Hex (1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mm.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1020-OutHex/2.8</Keyword><DisplayInformation>Hex (1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mm.stl</SupportFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0232</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.102-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.102-OutNohex/2.8</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1020-OutNohex</Keyword>
+          <DisplayInformation>No Hex (1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1020-OutNohex/2.8</Keyword><DisplayInformation>No Hex (1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10201-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10201-OutNohex/2.8</Keyword><DisplayInformation>No Hex (Bridges) Sealing Thread</DisplayInformation><SupportFilename>4.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10202-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges-1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10202-OutNohex/2.8</Keyword><DisplayInformation>No Hex (Bridges 1.5mm)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges-1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0282* (*Expired Item)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_4.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0252.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0282* (*Expired Item) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_4.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0252.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292 - BSCB0292 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0292</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292 - BSCB0292 (Gold Plated)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCB0292</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_N.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10202-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10202-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10203-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10203-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L40</LibraryIdentifier><ScrewFilename>OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0282.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232/BSAD0282 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0282.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0020-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0242 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0242 </LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0020-Conical/2.8</Keyword><DisplayInformation>Conical BSCD0242 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCD0242 </LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00202-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L2.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00202-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L2.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00203-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L3.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00203-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L3.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.00204-Conical</Keyword><DisplayInformation>Conical BSAD0232L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.00204-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB4.1mmk</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0202</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarkerpk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1021-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1021-OutHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex.stl</SupportFilename><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10201-OutHex</Keyword>
+          <DisplayInformation>Hex (1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mm.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10201-OutHex/2.8</Keyword><DisplayInformation>Hex (1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hex_1.5mm.stl</SupportFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0232</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1021-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1021-OutNohex/2.8</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10201-OutNohex</Keyword>
+          <DisplayInformation>No Hex (1.5mm)</DisplayInformation>
+          <SupportFilename>4.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10201-OutNohex/2.8</Keyword><DisplayInformation>No Hex (1.5mm) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_1.5mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.102011-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.102011-OutNohex/2.8</Keyword><DisplayInformation>No Hex (Bridges) Sealing Thread</DisplayInformation><SupportFilename>4.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.102021-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges-1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.102021-OutNohex/2.8</Keyword><DisplayInformation>No Hex (Bridges 1.5mm)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges-1.5.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0232</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0282* (*Expired Item)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_4.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0252.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0282* (*Expired Item) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_4.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0252.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292 - BSCB0292 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0292</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292 - BSCB0292 (Gold Plated)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCB0292</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_NZ.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_N.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102011-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102031-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102031-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0292L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/Parallel_4.1_L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK4.1L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0292L40</LibraryIdentifier><ScrewFilename>OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0282.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232/BSAD0282 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0282.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00201-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0242 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_n.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0242 </LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00201-Conical/2.8</Keyword><DisplayInformation>Conical BSCD0242 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_n.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCD0242 </LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002011-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L2.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L2.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002031-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L3.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002031-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L3.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.002041-Conical</Keyword><DisplayInformation>Conical BSAD0232L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.002041-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0232L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_4.1_L4.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarker_5.1.stl</MarkerFilename>
+      <DisplayInformation>WP 5.1 mm</DisplayInformation>
+      <Keyword>NBB5.1mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant5.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_5.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0233</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-OutHex/3.6</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hex.stl</SupportFilename><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-OutNohex/3.6</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-OutNohex/3.6</Keyword><DisplayInformation>No Hex 1.5mm Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_1.5mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-OutNohex/3.6</Keyword><DisplayInformation>No Hex (Bridges)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-OutNohex/3.6</Keyword><DisplayInformation>No Hex (Bridges 1.5mm)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.202-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0283</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0253.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0283</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.202-Parallel/3.6</Keyword><DisplayInformation>Parallel  BSAB0283 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0253.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0283</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.402-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSCB0293 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0293</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.402-Parallel/3.6</Keyword><DisplayInformation>Parallel  BSCB0293 (Gold Plated)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename><LibraryIdentifier>BSCB0293</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.4020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.4020-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename><LibraryIdentifier>BSAB0293L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.40201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.40201-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.402202-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.40202-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.40203-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.40203-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.202-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0283.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.202-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0283.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.802-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0243 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1N.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0243</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.802-Conical/3.6</Keyword><DisplayInformation>Conical BSCD0243 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1N.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCD0243</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L10.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8020-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L10.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.80201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80201-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L20.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.80202-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80202-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L30.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L30</LibraryIdentifier><ScrewFilename>OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.80203-Conical</Keyword><DisplayInformation>Conical BSAD0233L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L40.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.80203-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L40.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP 5.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB5.1mmk</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant5.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_5.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0203</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.50</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_SMm.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-OutHex/3.6</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hex.stl</SupportFilename><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-OutNohex/3.6</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-OutNohex/3.6</Keyword><DisplayInformation>No Hex 1.5mm Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_1.5mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-OutNohex/3.6</Keyword><DisplayInformation>No Hex (Bridges)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102011-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102011-OutNohex/3.6</Keyword><DisplayInformation>No Hex (Bridges 1.5mm)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.2021-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0283</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0253.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0283</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.2021-Parallel/3.6</Keyword><DisplayInformation>Parallel  BSAB0283 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/cemented_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAB0253.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0283</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.4021-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSCB0293 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0293</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.4021-Parallel/3.6</Keyword><DisplayInformation>Parallel  BSCB0293 (Gold Plated)Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename><LibraryIdentifier>BSCB0293</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.40201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.40201-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename><LibraryIdentifier>BSAB0293L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.402011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.402011-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L20Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L2.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.4022021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.402021-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L30Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L3.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L30</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.402031-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L40</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L40Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.402031-Parallel/3.6</Keyword><DisplayInformation>Parallel BSAB0293L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/parallel_5.1L40Z.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantPAR_FK5.1L4.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0293L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.2021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0283.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.2021-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/BSAD0283.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8021-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0243 (Gold Plated)</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1N.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0243</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8021-Conical/3.6</Keyword><DisplayInformation>Conical BSCD0243 (Gold Plated) Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1N.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSCD0243</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.80201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L10</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L10.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80201-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L10 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L10.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L1.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L10</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.802011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L20</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.802011-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L20.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L2.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L20</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.802021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L30</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.802021-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L30.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L3.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L30</LibraryIdentifier><ScrewFilename>OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.802031-Conical</Keyword><DisplayInformation>Conical BSAD0233L40</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L40.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.802031-Conical/3.6</Keyword><DisplayInformation>Conical BSAD0233L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/conical_5.1L40.stl</SupportFilename><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/OGew3.6.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

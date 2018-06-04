@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BarProfileFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile xsi:type="BarProfileStandard">
+    <DisplayName>Circular</DisplayName>
+    <Parameters>
+      <BarProfileParameter Name="Radius" Visible="true" Configurable="true" Min="0" Max="10" Decimals="2" Value="2" />
+      <BarProfileParameter Name="EggFactor" Visible="false" Configurable="false" Min="0" Max="1" Decimals="1" Value="0" />
+      <BarProfileParameter Name="EggHeight" Visible="false" Configurable="false" Min="0" Max="2" Decimals="2" Value="0" />
+      <BarProfileParameter Name="Height" Visible="false" Configurable="false" Min="1" Max="15" Decimals="2" Value="4" />
+      <BarProfileParameter Name="Width" Visible="false" Configurable="false" Min="1" Max="15" Decimals="2" Value="2" />
+      <BarProfileParameter Name="MinWidth" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="1" />
+      <BarProfileParameter Name="MinHeight" Visible="true" Configurable="true" Min="0.2" Max="10" Decimals="2" Value="2" />
+      <BarProfileParameter Name="VariableSides" Visible="true" Configurable="true" Min="0" Max="1" Decimals="0" Value="0" />
+      <BarProfileParameter Name="VariableBottom" Visible="true" Configurable="true" Min="0" Max="1" Decimals="0" Value="1" />
+    </Parameters>
+    <BarProfileStandardType>Circular</BarProfileStandardType>
+  </Profile>
+</BarProfileFile>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NetworkCopyingSettings>
+  <CopyRules>
+    <CopyRule>
+      <Caption>FileTransfer.ASCandSTL</Caption>
+      <FilterList>
+        <Filter IncludeSubdirectories="true">*.dentalProject</Filter>
+        <Filter IncludeSubdirectories="true">*.asc</Filter>
+        <Filter IncludeSubdirectories="true">*.stl</Filter>
+        <Filter IncludeSubdirectories="true">*.png</Filter>
+        <Filter IncludeSubdirectories="true">*.jpg</Filter>
+      </FilterList>
+      <CheckedByDefault>false</CheckedByDefault>
+    </CopyRule>
+    <CopyRule>
+      <Caption>FileTransfer.STLCconstructionOnly</Caption>
+      <FilterList>
+        <Filter IncludeSubdirectories="true">*.dentalProject</Filter>
+        <Filter IncludeSubdirectories="true">*_CAD.stl</Filter>
+        <Filter IncludeSubdirectories="true">*.png</Filter>
+        <Filter IncludeSubdirectories="true">*.jpg</Filter>
+      </FilterList>
+      <CheckedByDefault>false</CheckedByDefault>
+    </CopyRule>
+  </CopyRules>
+</NetworkCopyingSettings>
+

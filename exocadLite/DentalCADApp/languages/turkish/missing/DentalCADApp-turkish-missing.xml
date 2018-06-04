@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>BridgeConnectorToothToTooth.ApplyManuallyNotificationNew</Keyword>
+      <Text>Press 'Apply' to join tooth shapes directly.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.MergePartsProcessor.Error</Keyword>
+      <Text>Merge Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.ShapeChangeNotApplied</Keyword>
+      <Text>You have selected a different connector cross section/shape but not yet applied it to the connectors. Do you really want to continue (and lose current changes)?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.ShapeChangeNotApplied.Title</Keyword>
+      <Text>Connector Cross Section/Shape Changed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.AutomaticallyApplyChanges</Keyword>
+      <Text>Adapt Connectors</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.ShapeChangeNotApplied.DoNotApply</Keyword>
+      <Text>Proceed with current connector design. Shape changes will not be applied.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.ShapeChangeNotApplied.AutomaticallyApplyChanges</Keyword>
+      <Text>Apply shape changes and proceed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.ShapeChangeNotApplied.Cancel</Keyword>
+      <Text>Return to connector step. Shape changes will not be applied.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.NoConnectorsForGingiva</Keyword>
+      <Text>Delete connectors above gingiva parts only</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.NoConnectorsForGingiva.ToolTip</Keyword>
+      <Text>Delete only the connectors for which the two neighboring teeth are connected via the virtual gingiva design part.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ConnectorProcessor.BridgeConnectorNoConnectors.Tooltip</Keyword>
+      <Text>Delete connectors</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BrideConnectorToothToTooth.Error.Title</Keyword>
+      <Text>Direct tooth to tooth connection failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BrideConnectorToothToTooth.SizeWarning</Keyword>
+      <Text>Connection area for these connectors seems to be too small:
+{0}
+
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BrideConnectorToothToTooth.HintDisableCheckbox</Keyword>
+      <Text>Hint: Consider disabling the "{0}" checkbox to try to enforce larger connectors.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BrideConnectorToothToTooth.HintFreeform</Keyword>
+      <Text>Hint: Consider choosing a different connector type or freeform the teeth to allow for a larger connection area.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BrideConnectorToothToTooth.SizeWarning.Title</Keyword>
+      <Text>Warning: Small connection area</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergedPontic</Keyword>
+      <Text>Pontic Restoration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SceneWasSavedWithThisProcessorOpenNotification</Keyword>
+      <Text>Note: The scene was saved inside the step {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AddRemoveMeshProcessor.NotApplicableForSelectedTeeth</Keyword>
+      <Text>Sorry, 'Add/Remove Mesh' is not applicable for the tooth selection {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AddRemoveMeshProcessor.SelectedTeeth</Keyword>
+      <Text>Changed teeth: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolExpectedDistToolTip</Keyword>
+      <Text>Allows to enter a desired distance here for coloring purposes. 
+Typical value is zero to have both parts match exactly.
+Parts will colored in blue/green that meet that distance. 
+Parts that do not meet that distance at all will be colored red/pink.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolDeviationRangeToolTip</Keyword>
+      <Text>Adjust range for coloring of minimum distance and maximum distance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolClearToolTip</Keyword>
+      <Text>Clear everything</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolUndoToolTip</Keyword>
+      <Text>Undo last movement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolUpdateColorsToolTip</Keyword>
+      <Text>Click to update color manually when something changed in viewer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolBackToolTip</Keyword>
+      <Text>Undo setting a point</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DToolStartToolTip</Keyword>
+      <Text>Do mesh registration using click points only</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorReportOpenInExplorer</Keyword>
+      <Text>Show crash report in explorer ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.CorrectJawRelationProcessor.Title</Keyword>
+      <Text>Correct Jaw Scan Relation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.CorrectJawRelationProcessor.MenuEntry</Keyword>
+      <Text>Correct Jaw Scan Relation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.CorrectJawRelationProcessor.MenuEntry.Plural</Keyword>
+      <Text>Correct Jaw Scan Relation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.CorrectJawRelationProcessor.DescriptionText</Keyword>
+      <Text>Correct Jaw Scan Relation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.FreeformEmergenceProfileProcessor.BelowImplantWarning.Message</Keyword>
+      <Text>Be cautious when freeforming below implant. Software can not maintain meaningful limits. Freeforming such emergence profiles is therefore suggested for experts only.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.FreeformEmergenceProfileProcessor.BelowImplantWarning.Title</Keyword>
+      <Text>Emergence profile is below implant.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformEmergenceProfileProcessor.ChangesWereDiscardedWarning</Keyword>
+      <Text>Warning: Free-form emergence profile changes are discarded during this step.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AbutmentScrewChannelManualPreparation</Keyword>
+      <Text>Preparation after screw channel definition</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AbutmentScrewChannelManualBottom</Keyword>
+      <Text>Bottom after screw channel definition</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentScrewChannelManualBottomProcessor.DescriptionText</Keyword>
+      <Text>Generating bottoms with manual screw channels</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentScrewChannelManualBottomProcessor.Title</Keyword>
+      <Text>Crown bottoms with screw</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentScrewChannelManualBottomProcessor.MenuEntry</Keyword>
+      <Text>Crown bottoms with screw channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentScrewChannelManualBottomProcessor.MenuEntry.Plural</Keyword>
+      <Text>Crown bottoms with screw channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShrinkAutoSelectGingiva</Keyword>
+      <Text>Auto select
+gingiva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShrinkAutoSelectGingiva.Tooltip</Keyword>
+      <Text>Automatically keep some gingiva parts fixed during shrinking</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ShrinkGingivaProcessorPartialShrinkSelectControl.Title</Keyword>
+      <Text>Preserve area around teeth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplint.AllowDesignOnPalate.ToolTip</Keyword>
+      <Text>Control if bite splint material shall be generated everywhere inside the drawn curve.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AcceptNewValue</Keyword>
+      <Text>Accept new value</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdjustNewValue</Keyword>
+      <Text>Adjust new value</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.ShowDeviation</Keyword>
+      <Text>Show distance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.ShowDeviation.ToolTip</Keyword>
+      <Text>Use colors on meshes to visualize distance.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.Brush.ToolTip</Keyword>
+      <Text>Allow mark important areas or ignored areas by brush on surfaces.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.ExpectedDist</Keyword>
+      <Text>Expected distance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.DeviationRange</Keyword>
+      <Text>accepted/maximal distance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Registration3DTool.UpdateColors</Keyword>
+      <Text>Update colors</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.Load2DImageProcessor.Rescale.DistanceMeasurement.Header</Keyword>
+      <Text>Distance Measurement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.Load2DImageProcessor.SplineBehavior.Header</Keyword>
+      <Text>Spline Behavior</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.Load2DImageProcessor.SplineBehavior.Text</Keyword>
+      <Text>Close spline with double-click or 'Clip' button.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergePartsAttachmentOperationError</Keyword>
+      <Text>Error merging attachments or bolts into final mesh</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergePartsAttachmentOperationFailedForParts</Keyword>
+      <Text>Merging attachments or bolts failed for the following parts:
+{0}
+    
+Hint: 
+Go back to freeform to attachment step to adjust the intersecting areas or the placement.
+Make sure that attachment geometry correctly intersects the desired target reconstruction.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CopyAndPasteToothProcessor.Selected</Keyword>
+      <Text>Selected</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CopyAndPasteToothProcessor.ProvisionalUnsupported</Keyword>
+      <Text>You have selected an provisional tooth as target of your copy. Unfortunately provisionals are currently not supported as library model target. You can use pre-op as target instead.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawMovementFiles.AD</Keyword>
+      <Text>Jaw movement AD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawMovementFiles.ZS</Keyword>
+      <Text>Jaw movement Zebris</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawMovementFiles.PM</Keyword>
+      <Text>Jaw movement Planmeca</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdditionalWaxupScanNotAdaptedToTeethYet</Keyword>
+      <Text>Error: An additional waxup scan was not yet adapted to the teeth.
+Hint: Either adapt the waxup, or delete the waxup scan.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdditionalWaxupScanNotAdaptedToTeethYet.MergeAnyways</Keyword>
+      <Text>Merge anyways using the tooth models instead of waxup scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergePartsToWaxupStillRequiredForAToothOrBridge</Keyword>
+      <Text>Generate virtual waxup is required before merging.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergePartsToWaxupProcessorFailedInGui</Keyword>
+      <Text>An error occured, 
+please go to expert mode to change the design.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxupBottomDesignRunningUnrelatedToVirtualGingiva</Keyword>
+      <Text>Note: 
+This step will design the bottom shape used for gingiva adaptation purposes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxupBottomProcessor.TeethNumberDescription</Keyword>
+      <Text>Design for teeth: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformVirtualGingiva.ThicknessSlider</Keyword>
+      <Text>Desired thickness</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformVirtualGingiva.EnforceThickness</Keyword>
+      <Text>Interactivly enforce thickness</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformVirtualGingiva.EnforceThicknessToolTip</Keyword>
+      <Text>The program tries to preserve the thickness relative to the bottom during freeforming. Note: You can turn that off for manual finishing of hard edges that might occur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformVirtualGingiva.BottomCheckbox</Keyword>
+      <Text>Keep bottom and boundary fixed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FreeformVirtualGingiva.BottomCheckbox.ToolTip</Keyword>
+      <Text>If checked, then bottom and its boundary is kept fixed during freeform, 
+even when you click or drag on the boundary or bottom parts.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBase.GingivaAroundTeeth</Keyword>
+      <Text>Gingiva around tooth models</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChangesQuestion.Title</Keyword>
+      <Text>Discard free-forming changes?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChangesQuestion</Keyword>
+      <Text>The gingiva design was already modified by the free-forming tool. Recreating the initial gingiva design will discard those modifications.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChanges_Yes.Title</Keyword>
+      <Text>Discard changes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChanges_Yes</Keyword>
+      <Text>Continue and discard free-forming changes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChanges_No.Title</Keyword>
+      <Text>Keep changes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualWaxUpBaseProcessorControl.DiscardFreeformingChanges_No</Keyword>
+      <Text>Abort and keep free-forming changes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteRegister_JawMovementMissing</Keyword>
+      <Text>Movement marker scan file missing!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualTooth</Keyword>
+      <Text>Placement disc</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.Setting.ToolTip</Keyword>
+      <Text>Cut settings</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.SetMainViewerToCut</Keyword>
+      <Text>Focus cut in main viewer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.MoveByClick</Keyword>
+      <Text>Follow mouse cursor (right click to lock)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.DefineByClicksFirstHint</Keyword>
+      <Text>Click on the object you would like to cut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.DefineByClicksSecondHint</Keyword>
+      <Text>Set second point to define size and direction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.MoveByClickExtraTooltip</Keyword>
+      <Text>Left click an object to place the cut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.UseOcclusalCut</Keyword>
+      <Text>occlusal cut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.UseFacialVestibularCut</Keyword>
+      <Text>facial/vestibular cut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CutViewPrototypeWarning</Keyword>
+      <Text>Warning: Cut view is still a prototype</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.AutoRotateCut</Keyword>
+      <Text>Auto-rotate cut:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ToolTip.DisableAutoRotation</Keyword>
+      <Text>Disable auto-rotation.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ToolTip.DiscreteRotation</Keyword>
+      <Text>Rotate the cut in 90° steps.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ToolTip.SmoothRotation</Keyword>
+      <Text>Smoothly rotate the cut.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ZoomOutUntilEverythingIsVisible</Keyword>
+      <Text>Complete scene</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ZoomTo</Keyword>
+      <Text>Zoom to</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.ShowCutHere</Keyword>
+      <Text>Show cut here</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothCutView.MoveByClickLockedText</Keyword>
+      <Text>Cut follows mouse automatically</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AbutmentBottomNeedsDesignUpdateWarningMessage</Keyword>
+      <Text>The abutment bottom design needs to be updated manually before you can continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InvalidSystemClockError</Keyword>
+      <Text>Error: Please check your Window System's clock.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LicenseSystemClockInconsistencies</Keyword>
+      <Text>Warning: The system detected a license inconsistency issue related to the system clock.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArticulatorProcessor.ArticulatorAllowShowVirtualImprint.MenuEntry</Keyword>
+      <Text>Visualize virtual articulator imprint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArticulatorProcessor.ArticulatorDeleteVirtualImprint.MenuEntry</Keyword>
+      <Text>Delete virtual jaw imprint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprints</Keyword>
+      <Text>Virtual imprints</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_Laterotrusion_Right</Keyword>
+      <Text>Virtual imprint ( lat. right )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_Laterotrusion_Left</Keyword>
+      <Text>Virtual imprint ( lat. left )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_Retrusion</Keyword>
+      <Text>Virtual imprint ( retrusion )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_Protrusion</Keyword>
+      <Text>Virtual imprint ( protrusion )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RangeImageObject</Keyword>
+      <Text>Distance image</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_JawMovementPathData_UpperJaw</Keyword>
+      <Text>Virtual jaw movement imprint ( upper )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VirtualJawImprint_JawMovementPathData_LowerJaw</Keyword>
+      <Text>Virtual jaw movement imprint ( lower )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedLicenseErrorInformationHeader</Keyword>
+      <Text>Advanced license error information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportantToothBottoms</Keyword>
+      <Text>Bottom of designs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Articulator Jaw Correction</Keyword>
+      <Text>Articulator Jaw Correction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Options</Keyword>
+      <Text>Options</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.WaitToRestart</Keyword>
+      <Text>Please wait. The software will be automatically restarted in {0} seconds.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.WaitToRestart.Title</Keyword>
+      <Text>Software restart required</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.DongleActivationFailed</Keyword>
+      <Text>Dongle activation required, but external activation service has failed.
+
+Reason:
+External activation service could not be started. Please contact your reseller for further information.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.DongleActivationError</Keyword>
+      <Text>Dongle activation required, but external activation service has failed.
+
+Reason:
+External activation service exited with error code {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.ManualSoftwareRestartRequired</Keyword>
+      <Text>Dongle activation succeeded, however automatic software restart has failed. Please restart the software to continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalCADApp.DongleActivationSoftwareMissing</Keyword>
+      <Text>Dongle activation required, but external activation service has failed.
+
+Reason:
+External activation service could not be found at:
+{0}
+Please contact your reseller for further information.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveSceneAfterCrashReportNotification</Keyword>
+      <Text>A crash report scene was sucessfully saved here: 
+{0}
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveSceneAfterCrashReportNotificationTitle</Keyword>
+      <Text>Crash report information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FeatureDescriptionImplantTypeSubstructureScan</Keyword>
+      <Text>Design (virtual) waxups on substructure scan</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

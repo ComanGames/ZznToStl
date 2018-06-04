@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed</Keyword>
+      <Text>검사 값 파일을 복사하는데 실패하였습니다. 데이터 전송을 계속하겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue</Keyword>
+      <Text>데이터 전송을 계속합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue.Description</Keyword>
+      <Text>검사 값 파일을 전송하지 않고 작업 데이터를 복사합니다. 하지만 데이터를 검증할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Abort</Keyword>
+      <Text>데이터 전송 중지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingSucceded</Keyword>
+      <Text>복사 성공</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingFailed</Keyword>
+      <Text><![CDATA[오류가 발생하였습니다.
+오류 상세 내용:
+      ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>TransferDetails</Keyword>
+      <Text>파일 복사 상세 내용</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OneOrManyFilesNotCopiedOfOperationAbort</Keyword>
+      <Text>하나 이상의 파일이 복사되지 않았습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSums</Keyword>
+      <Text>파일 검사 값 연산</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSums.Description</Keyword>
+      <Text>파일 검사 값 연산 시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished</Keyword>
+      <Text>파일 검사 값 연산 종료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished.Description</Keyword>
+      <Text>파일 검사 값 연산 종료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferStarted</Keyword>
+      <Text>파일 복사 시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferStarted.Description</Keyword>
+      <Text>파일 복사를 시작합니다...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferFinished</Keyword>
+      <Text>파일 복사를 종료합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferFinished.Description</Keyword>
+      <Text>파일 복사가 끝났습니다. 출력물을 확인하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Information</Keyword>
+      <Text>정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning</Keyword>
+      <Text>경고</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.FileSelectionWindow.Header</Keyword>
+      <Text>파일 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.ProgressWindow.Header</Keyword>
+      <Text>복사 과정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferDestinationFolder</Keyword>
+      <Text>데이터를 경로 {0}으로 복사하고 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferDestinationFolderCreationFailed</Keyword>
+      <Text>경로 {0}을 생성할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkFileTransferFailed</Keyword>
+      <Text>경로 {0}을 생성할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.ErrorLoadingConfigFile</Keyword>
+      <Text>경로'{1}'에서 파일 '{0}'을 불러오는 과정에서 오류가 발생하였습니다.
+오류 상세 내용:
+{2}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworCopying.NoValidUploadPathProvided</Keyword>
+      <Text>네트워크 복사 기능이 잘못 구성되었습니다.
+업로드 경로가 지정되지 않았습니다.
+설정을 복구하려면 판매처에 문의하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.NoValidConfigFileFound</Keyword>
+      <Text>네트워크 복사 기능이 잘못 구성되었습니다.
+구성된 파일이 지정되지 않았거나 존재하지 않습니다.
+구성을 복구하려면 판매처에 문의하십시오.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\NetworkCopying-korean-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

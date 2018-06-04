@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Camlog Biotechnologies® Conelog®</DisplayInformation>
+  <Producer>Camlog®</Producer>
+  <SystemName>Conelog®</SystemName>
+  <MarkerFilename>../serie CB_CL_CamlogTM_ConelogTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Camlog® Coneloge® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.3 mm</DisplayInformation>
+      <Keyword>CL_3.3</Keyword>
+      <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3A.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD4731</LibraryIdentifier>
+      <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3S-m.stl</ScrewFilename>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.2702-InHex</Keyword><DisplayInformation>Hex flat screw (J &amp; K)</DisplayInformation><SupportFilename>3.3_Hex.stl</SupportFilename><ScrewFilename>3.3-4.3_ZrSC.stl</ScrewFilename><LibraryIdentifier>BSAE2031</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.2702-InHex</Keyword><DisplayInformation>Hex conical screw (J &amp; K)</DisplayInformation><SupportFilename>3.3_HexCS.stl</SupportFilename><LibraryIdentifier>BSAE2001</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>2.83202-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3S-z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.902-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4781</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3P-k.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3anP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4781</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.502-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4731</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3C.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.3anC.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.8 mm</DisplayInformation>
+      <Keyword>CL_3.8</Keyword>
+      <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8A.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD4732</LibraryIdentifier>
+      <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8S-m.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0452-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8S-z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4782</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8P-k.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8anP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4732</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8C.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8anC.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.3 mm</DisplayInformation>
+      <Keyword>../serie CB_CL_CamlogTM_ConelogTM/CL_4.3</Keyword>
+      <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/4.3A.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD4733</LibraryIdentifier>
+      <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8S-m.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.045020-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8S-z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4783</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8P-k.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8anP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4733</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8C.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/3.8anC.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 mm</DisplayInformation>
+      <Keyword>CL_5.0</Keyword>
+      <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0A.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD4734</LibraryIdentifier>
+      <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0S-m.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0702-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0S-z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.902-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4784</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0P-k.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0anP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4734</DisplayInformation>
+          <SupportFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0C.stl</SupportFilename>
+          <ImplantFilename>../serie CB_CL_CamlogTM_ConelogTM/5.0anC.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

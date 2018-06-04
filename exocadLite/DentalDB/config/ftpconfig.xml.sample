@@ -1,0 +1,58 @@
+<Config>
+  <SignupLink>www.exocad.com</SignupLink>
+  <FTPAccess>
+    <ftpuser></ftpuser>
+    <ftppass></ftppass>
+    <ftpdir>/incoming/</ftpdir>
+    <ftpHost>ftp://your.server.com</ftpHost>
+    <showFTPMessages>true</showFTPMessages>
+    <showNetworkMessages>true</showNetworkMessages>
+    <!--<FTPEncryptionType>TryEncryptAll</FTPEncryptionType>-->
+  </FTPAccess>
+  <Tries>
+    <repeatsNumber>10</repeatsNumber>
+    <!--Seconds -->
+    <WaitTime>1</WaitTime>
+  </Tries>
+  <StartUploadFiles>
+    <!--
+	%p - project name
+    %{meshes} - all supported mesh extensions	 
+    %{meshes_cad} - all supported output mesh extensions (cad design meshes)
+	%{meshes_scan} - all supported input mesh extensions (scan meshes)
+	%{pointclouds} - all supported pointcloud extensions
+	%{pointcloudsN} - Pointcloud extensions with normals
+	-->
+
+    <FilterGroup Preselected="true">
+      <Keyword>CADDesignData</Keyword>
+        <FilterDefinition Required="true">*_cad.%{meshes_cad}</FilterDefinition>
+        <FilterDefinition Required="true">*.dentalProject</FilterDefinition>
+        <FilterDefinition Required="true">*.constructionInfo</FilterDefinition>
+        <FilterDefinition>*.iges</FilterDefinition>
+    </FilterGroup>
+    <FilterGroup>
+      <Keyword>ScanAndCADDesignData</Keyword>
+        <FilterDefinition Required="true">*.%{meshes}</FilterDefinition>
+        <FilterDefinition Required="true">*.dentalProject</FilterDefinition>
+        <FilterDefinition Required="true">*.constructionInfo</FilterDefinition>
+        <FilterDefinition>*.%{pointclouds}</FilterDefinition>
+        <FilterDefinition>*.iges</FilterDefinition>
+        <FilterDefinition>*.implantPosition</FilterDefinition>
+        <FilterDefinition>*.implantReference</FilterDefinition>
+        <FilterDefinition>*.scanInfo</FilterDefinition>
+        <FilterDefinition>*.matrix4</FilterDefinition>
+        <FilterDefinition>itero_export*.xml</FilterDefinition>
+    </FilterGroup>
+    <FilterGroup>
+      <Keyword>Scenes</Keyword>
+        <FilterDefinition Required="true">*.dentalCAD</FilterDefinition>
+    </FilterGroup>
+    <FilterGroup Preselected="true">
+      <Keyword>Screenshots</Keyword>
+        <FilterDefinition>*.png</FilterDefinition>
+        <FilterDefinition>*.jpg</FilterDefinition>
+        <FilterDefinition>*.jpeg</FilterDefinition>
+    </FilterGroup>
+  </StartUploadFiles>
+</Config>

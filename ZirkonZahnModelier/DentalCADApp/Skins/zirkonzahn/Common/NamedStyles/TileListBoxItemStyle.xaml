@@ -1,0 +1,67 @@
+<ResourceDictionary	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- This Style will make a ListBoxItem look like a Metro-Tile (Windows 8) -->
+    <Style x:Key="TileListBoxItemStyle" TargetType="{x:Type ListBoxItem}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource BrandBrush1}"/>
+        <Setter Property="HorizontalContentAlignment" Value="{Binding Path=HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+        <Setter Property="VerticalContentAlignment" Value="{Binding Path=VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                    <Grid Background="{TemplateBinding Background}">
+
+                        <!-- Outer Border -->
+                        <Border x:Name="OuterBorder" Opacity="0" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" />
+
+                        <!-- Content i.e. the item itself (normally defined by the DataTemplate) -->
+                        <ContentPresenter Margin="2" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                        <!-- Inner Border with Checkmark -->
+                        <Grid Name="SelectionMarker" Margin="2" Visibility="Hidden">
+                            <Border BorderThickness="5" BorderBrush="{TemplateBinding BorderBrush}"/>
+                            <Grid Margin="0,4,4,0" VerticalAlignment="Top" HorizontalAlignment="Right">
+                                <!-- Triangle -->
+                                <Path Fill="{TemplateBinding BorderBrush}" Data="m 0 0 31 0 0 31 z" />
+                                <!-- Check Mark -->
+                                <Path Fill="{DynamicResource WhiteBrush}" Data="m 17 12 2 -2 3 3 6 -8 2 2 -8 10 z" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <!-- We use a nice animation on mouse over to fade the outer boder in/out -->
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="OuterBorder" Storyboard.TargetProperty="Opacity" To="1" Duration="0:00:0.1" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="OuterBorder" Storyboard.TargetProperty="Opacity" To="0" Duration="0:00:0.1" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>                            
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter TargetName="SelectionMarker" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled"
+                                 Value="false">
+                            <Setter Property="Foreground"
+                                    Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                        </Trigger>
+						<Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

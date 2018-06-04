@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ScanImport03.LabMissing</Keyword>
+      <Text>无法获得默认实验室。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportFailed</Keyword>
+      <Text>在创建来自第三方的项目时发生错误。
+错误消息：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportedWithWarnings</Keyword>
+      <Text>从第三方创建牙科项目：
+第三方项目文件： {0} 有些数据可能不会进行，因此缺少项目： {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AddPracticeFirst</Keyword>
+      <Text>第三方项目文件中指定的客户中没有发现数据库。
+请填写下面的表单来创建客户指定的名字。
+ 要继续而不创建新客户和现有客户请关闭该窗口从第三方的项目创建。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>没有修复体类型编号为“{0}”。有关详细信息，请联系您的经销商。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMappingMissing</Keyword>
+      <Text>没有修复体类型编号为“{0}/{1}”。有关详细信息，请联系您的经销商。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>默认修复体类型提供的值{0}在数据库中没有找到。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AntagonistDataInvalid</Keyword>
+      <Text>无法创建对颌的工作类型{0}和材料{1}。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissing</Keyword>
+      <Text>材质编号{0}/{1}没有被找到。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WorkDefinitionMissing</Keyword>
+      <Text>工作类型“{0}'不允许使用的材料”{1}“。
+ 工作类型的第一个可用的材料已被使用。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.CaseId</Keyword>
+      <Text>案例编号</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.InternalCaseId</Keyword>
+      <Text>项目编号</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ExternalCaseId</Keyword>
+      <Text>订单</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.Notes</Keyword>
+      <Text>注释</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromTrios.ToolTip</Keyword>
+      <Text>从第三方项目文件创建新的工作。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromTrios</Keyword>
+      <Text>导入第三方</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.InsufficientAccessRights.Project</Keyword>
+      <Text>用户权限不足于复制第三方项目文件到项目目录{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Project</Keyword>
+      <Text>从{0}复制项目文件到{1}是发生错误。错误{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Data</Keyword>
+      <Text>从{0}复制数据文件到{1}是发生错误。错误{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileTransferIncomplete</Keyword>
+      <Text>从第三方项目复制引用文件时发生以下错误： {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotSpecified</Keyword>
+      <Text>第三方项目文件没有指定。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotFound</Keyword>
+      <Text>导入第三方项目可能不会被发现。文件名：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TRIOSProjectFileCorrupt</Keyword>
+      <Text>解析第三方项目文件时发生错误。
+        文件名：{0}
+
+        错误消息：
+        {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotSpecified</Keyword>
+      <Text>没有指定文件映射的第三方修复体到DentalDB类型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotFound</Keyword>
+      <Text>找不到文件映射第三方修复体到DentalDB类型。
+        文件名：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TriosMappingDBFileCorrupt</Keyword>
+      <Text>解析文件映射的第三方修复体到DentalDB类型时发生错误。
+        文件名：{0}
+
+        错误消息： {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothSkipped</Keyword>
+      <Text>牙齿{0}被跳过。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothDataNotFound</Keyword>
+      <Text>没有找到牙齿数据</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothNumberNotFound</Keyword>
+      <Text>在{0}中没有找到牙齿编号</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothRecoTypeNotFound</Keyword>
+      <Text>牙齿{0}没有在牙齿记录类型中找到!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialDescrNotFound</Keyword>
+      <Text>没有找到适合牙齿{0}的材料块！</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialNotFound</Keyword>
+      <Text>没有找到适合牙齿{0}的材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothInfoCreationFailed</Keyword>
+      <Text>处理牙齿{0}信息时发生错误。
+错误： {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NoTriosScanData</Keyword>
+      <Text>没有找到第三方的扫描数据</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RecentlyArrivedJobs</Keyword>
+      <Text>第三方：新工作</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ProjectId</Keyword>
+      <Text>第三方项目编号</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Info</Keyword>
+      <Text>第三方信息</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NewProjects</Keyword>
+      <Text>已导入的项目：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Conflicts</Keyword>
+      <Text>冲突：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ActionRequired</Keyword>
+      <Text>采取行动</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>找不到指定或不是唯一的数据。请完成数据再继续。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RemoveFromArrivedList</Keyword>
+      <Text>从列表删除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PracticeDataEnrichment</Keyword>
+      <Text>完成工作</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ViewInDentalDB</Keyword>
+      <Text>在DentalDB 浏览</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OpenInExplorer</Keyword>
+      <Text>打开资源管理器</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OverrideExisting</Keyword>
+      <Text>覆盖已存在的</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.KeepExisting</Keyword>
+      <Text>否</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowChanges</Keyword>
+      <Text>在资源管理器了查看更改</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OriginalDataBackupFailed</Keyword>
+      <Text>备份第三方项目时发生错误。
+第三方项目目录：{0}
+目标目录：{1}
+错误：{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNoWritePermissions</Keyword>
+      <Text>第三方项目备份目录是只读文件。请确保该目录'{0}'是可写文件，然后再试一次。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirCreationError</Keyword>
+      <Text>创建第三方项目备份目录“{0}”时发生错误。
+错误：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PatientCreationFailed</Keyword>
+      <Text>保存患者数据时发生错误：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobCreationFailed</Keyword>
+      <Text>保存工作数据是发生错误{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.LowerJawScanMissing</Keyword>
+      <Text>下颌模型扫描</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UpperJawScanMissing</Keyword>
+      <Text>上颌模型扫描</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.VestibularScanMissing</Keyword>
+      <Text>前庭扫描</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>第三方项目扫描数据格式不能被检测到：
+项目目录：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RepeatDataImport</Keyword>
+      <Text>重试导入扫描数据</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DataTransferIncomplete</Keyword>
+      <Text>没有完成数据转换</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobArrived</Keyword>
+      <Text>第三方：工作已存在</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TrayIcon.Tip</Keyword>
+      <Text>点击更多选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ColorSchema</Keyword>
+      <Text>颜色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedMaterials</Keyword>
+      <Text>材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedReconstructions</Keyword>
+      <Text>修复体</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.CompleteNewClientData</Keyword>
+      <Text>从第三方导入工作是客户端自动创建。
+请填写丢失的数据以完成导入。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>请求确认</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>复制部分数据</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>执行分配</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.Success.Title</Keyword>
+      <Text>已导入的</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectLoadError</Keyword>
+      <Text>从路径“{0}”载入项目时发生错误。
+错误详细信息：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectValidationError</Keyword>
+      <Text>第三方项目不完整。
+错误详细信息：
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissingUsingDefault</Keyword>
+      <Text>牙齿{0}：材料{2}与第三方创建的位置编号{1}不匹配。使用 {3}代替。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingDefault</Keyword>
+      <Text>牙齿{0}：没有设定材料。使用默认的材料 - {1}代替</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingAndNoDefaultUsingFirst</Keyword>
+      <Text>牙齿{0}：在第三方项目里没有指定材料，并没有配置默认的备用材料。材料“{1}”将第一个被用作为修复体类型“{2}”的材料。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingFirst</Keyword>
+      <Text>牙齿{0}：材料{1}不允许用于修复体{2}。 使用{3}代替</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WortTypeHasNoMaterialsAssigned</Keyword>
+      <Text>牙齿{0}：工作名称没有选择材料。牙齿被跳过</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileCorrupt</Keyword>
+      <Text>载体第三方配置文件{0}时发生错误：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixTemplateNotFound</Keyword>
+      <Text>找不到指定的扫描数据变换矩阵。
+查找路径：{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixCopyFailed</Keyword>
+      <Text>扫描数据变换矩阵复制到项目目录时发生错误：
+源文件：{0}
+目标文件：{1}
+错误：{2} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowSourceFolder</Keyword>
+      <Text>打开源文件夹 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MarginDatabaseParseError</Keyword>
+      <Text>解析边缘线文件时发生错误“{0}”。
+错误详细信息：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportSetupFailed</Keyword>
+      <Text>自动导入第三方项目配置时发生错误：
+观察到的目录：{0}
+观察模式：{1}
+错误详细信息：{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportWatchDirectoriesPointsToSameDirectory</Keyword>
+      <Text>配置第三方自动导入时发生错误：
+ScanImport03WatchDir1和ScanImport03WatchDir2导入到相同的目录，但被配置为使用不同的导入模式。
+请确保ScanImport03WatchDir和ScanImport03WatchDir2导入到不同的目录。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ErrorProcessingDirectFormat</Keyword>
+      <Text>直接处理格式文件时发生错误{0}。
+错误：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.GenericImportError</Keyword>
+      <Text>处理第三方项目时发生错误{0}。
+错误：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DirectoryCreationFailed</Keyword>
+      <Text>创建目录时发生错误：{0}
+错误：{1} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet</Keyword>
+      <Text>没有配置为导入的第三方项目备份目录。请配置备份目录，然后再试一次。
+自动导入第三方项目被关闭。
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet.Ok</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

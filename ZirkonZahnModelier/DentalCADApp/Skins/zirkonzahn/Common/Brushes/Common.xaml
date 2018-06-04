@@ -1,0 +1,279 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Resource dictionary entries should be defined here. -->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Fonts.xaml" />
+        <ResourceDictionary Source="Colors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <SolidColorBrush x:Key="LabelForeground" Color="#343434"/>
+    <SolidColorBrush x:Key="DisabledLabelForeground" Color="#9e9e9e"/>
+
+    <!--NORMAL-->
+    <SolidColorBrush x:Key="ButtonForeground" Color="#5c5c5c"/>
+
+    <SolidColorBrush x:Key="ButtonOuterBorder" Color="#c9c9c9"/>
+    <LinearGradientBrush x:Key="ButtonOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#f3f3f3" Offset="1"/>
+    </LinearGradientBrush>
+
+
+    <SolidColorBrush x:Key="ButtonInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="ButtonInnerBorder" Color="Transparent"/>
+
+    <!--HOVER-->
+    <SolidColorBrush x:Key="HoverButtonForeground" Color="#3c3c3c"/>
+
+    <SolidColorBrush x:Key="HoverButtonOuterBorder" Color="#8a8a8a"/>
+    <LinearGradientBrush x:Key="HoverButtonOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#eeeeee" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="HoverButtonInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="HoverButtonInnerBorder" Color="Transparent"/>
+
+    <!--PRESSED-->
+    <SolidColorBrush x:Key="PressedButtonForeground" Color="#3c3c3c"/>
+
+    <SolidColorBrush x:Key="PressedToggleButtonOuterBorder" Color="#5F18A9"/>
+
+    <SolidColorBrush x:Key="PressedButtonOuterBorder" Color="#8a8a8a"/>
+    <LinearGradientBrush x:Key="PressedButtonOuterBackground" EndPoint="0,0" StartPoint="0,1">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#eeeeee" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="PressedButtonInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="PressedButtonInnerBorder" Color="Transparent"/>
+
+
+    <!--DISABLED-->
+    <SolidColorBrush x:Key="DisabledButtonForeground" Color="#c9c9c9"/>
+
+    <SolidColorBrush x:Key="DisabledButtonOuterBorder" Color="#c2c2c2"/>
+    <LinearGradientBrush x:Key="DisabledButtonOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#ededed" Offset="0"/>
+        <GradientStop Color="#dfdfdf" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="DisabledButtonInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledButtonInnerBorder" Color="Transparent"/>
+
+
+
+    <!--NORMAL-->
+    <SolidColorBrush x:Key="TextBoxForeground" Color="#ffffff"/>
+
+    <SolidColorBrush x:Key="TextBoxOuterBackground" Color="#464646" />
+	
+    <SolidColorBrush x:Key="TextBoxOuterBorder" Color="#464646"/>
+
+
+    <SolidColorBrush x:Key="TextBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="TextBoxInnerBorder" Color="Transparent"/>
+
+    <!--HOVER-->
+    <SolidColorBrush x:Key="HoverTextBoxForeground" Color="#ffffff"/>
+
+    <SolidColorBrush x:Key="HoverTextBoxOuterBackground" Color="#000000"/>
+    <SolidColorBrush x:Key="HoverTextBoxOuterBorder" Color="#7F7F7F"/>
+
+    <SolidColorBrush x:Key="HoverTextBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="HoverTextBoxInnerBorder" Color="Transparent"/>
+
+    <!--FOCUSED-->
+    <SolidColorBrush x:Key="FocusedTextBoxForeground" Color="#000000"/>
+
+    <SolidColorBrush x:Key="FocusedTextBoxOuterBackground" Color="#000000"/>
+    <SolidColorBrush x:Key="FocusedTextBoxOuterBorder" Color="#464646"/>
+
+    <SolidColorBrush x:Key="FocusedTextBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="FocusedTextBoxInnerBorder" Color="Transparent"/>
+
+
+    <!--DISABLED-->
+    <SolidColorBrush x:Key="DisabledTextBoxForeground" Color="#A5A5A5"/>
+
+    <SolidColorBrush x:Key="DisabledTextBoxOuterBackground" Color="#373737"/>
+    <SolidColorBrush x:Key="DisabledTextBoxOuterBorder" Color="#232323"/>
+
+    <SolidColorBrush x:Key="DisabledTextBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledTextBoxInnerBorder" Color="Transparent"/>
+
+
+
+
+    <!--NORMAL-->
+
+    <SolidColorBrush x:Key="GroupBoxOuterBackground" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="GroupBoxOuterBorder" Color="#dcdddf"/>
+
+    <SolidColorBrush x:Key="GroupBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="GroupBoxInnerBorder" Color="Transparent"/>
+
+    <!--DISABLED-->
+
+    <SolidColorBrush x:Key="DisabledGroupBoxOuterBackground" Color="#f8f8f8"/>
+    <SolidColorBrush x:Key="DisabledGroupBoxOuterBorder" Color="#ebebeb"/>
+
+    <SolidColorBrush x:Key="DisabledGroupBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledGroupBoxInnerBorder" Color="Transparent"/>
+
+    <!--GOUPBOX HEADER NORMAL-->
+    <LinearGradientBrush x:Key="GroupBoxHeaderOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#f8f8f8" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="GroupBoxHeaderForeground" Color="#626262"/>
+
+
+    
+    <!--GOUPBOX HEADER DISABLED-->
+    <SolidColorBrush x:Key="DisabledGroupBoxHeaderOuterBackground" Color="#ebebeb"/>
+
+    
+    
+    <!--SCROLLBAR-->
+    <!--NORMAL-->
+    <SolidColorBrush x:Key="ScrollBarBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="ScrollBarHorizontalBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="ScrollBarBorder" Color="Transparent"/>
+
+    <!--DISABLED-->
+    <SolidColorBrush x:Key="DisabledScrollBarBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledScrollBarHorizontalBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledScrollBarBorder" Color="Transparent"/>
+
+    <!--Normal-->
+    <LinearGradientBrush x:Key="ScrollBarBtnOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#f0f0f0" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="ScrollBarBtnOuterBorder" Color="#e7e7e7"/>
+    <SolidColorBrush x:Key="ScrollBarBtnInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="ScrollBarBtnInnerBorder" Color="Transparent"/>
+    <SolidColorBrush x:Key="ScrollBarForeground" Color="#f0a800"/>
+
+    <!--Hover-->
+    <LinearGradientBrush x:Key="HoverScrollBarBtnOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#f0f0f0" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="HoverScrollBarBtnOuterBorder" Color="#e7e7e7"/>
+    <SolidColorBrush x:Key="HoverScrollBarBtnInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="HoverScrollBarBtnInnerBorder" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="HoverScrollBarForeground" Color="#626262"/>
+
+    <!--Pressed-->
+    <LinearGradientBrush x:Key="PressedScrollBarBtnOuterBackground" EndPoint="0,0" StartPoint="0,1">
+        <GradientStop Color="#90ffffff" Offset="0"/>
+        <GradientStop Color="#f0f0f0" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="PressedScrollBarBtnOuterBorder" Color="#e7e7e7"/>
+    <SolidColorBrush x:Key="PressedScrollBarBtnInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="PressedScrollBarBtnInnerBorder" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="PressedScrollBarForeground" Color="#626262"/>
+
+    <!--Disabled-->
+    <SolidColorBrush x:Key="DisabledScrollBarBtnOuterBackground" Color="#c8c8c8"/>
+    <SolidColorBrush x:Key="DisabledScrollBarBtnOuterBorder" Color="#b0b0b0"/>
+    <SolidColorBrush x:Key="DisabledScrollBarBtnInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledScrollBarBtnInnerBorder" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledScrollBarForeground" Color="#e6e6e6"/>
+
+    
+    
+    <!--TABITEM-->
+    <!--Normal-->
+    <SolidColorBrush x:Key="TabItemForeground" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="TabItemOuterBackground" Color="#626262"/>
+    <SolidColorBrush x:Key="TabItemOuterBorder" Color="#626262"/>
+    <SolidColorBrush x:Key="TabItemInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="TabItemInnerBorder" Color="#626262"/>
+
+    <!--Hover-->
+    <SolidColorBrush x:Key="HoverTabItemForeground" Color="#90ffffff"/>
+    <LinearGradientBrush x:Key="HoverTabItemOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#f0a800" Offset="0"/>
+        <GradientStop Color="#c98800" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="HoverTabItemOuterBorder" Color="#626262"/>
+    <SolidColorBrush x:Key="HoverTabItemInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="HoverTabItemInnerBorder" Color="#90ffffff"/>
+
+    <!--Selected-->
+    <SolidColorBrush x:Key="SelectedTabItemForeground" Color="#626262"/>
+    <SolidColorBrush x:Key="SelectedTabItemOuterBackground" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="SelectedTabItemOuterBorder" Color="#626262"/>
+    <SolidColorBrush x:Key="SelectedTabItemInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="SelectedTabItemInnerBorder" Color="Transparent"/>
+
+    <!--Disabled-->
+    <SolidColorBrush x:Key="DisabledTabItemForeground" Color="#9e9e9e"/>
+    <SolidColorBrush x:Key="DisabledTabItemOuterBackground" Color="#f8f8f8"/>
+    <SolidColorBrush x:Key="DisabledTabItemOuterBorder" Color="#ebebeb"/>
+    <SolidColorBrush x:Key="DisabledTabItemInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledTabItemInnerBorder" Color="Transparent"/>
+
+
+    <!--CHECKBOX RADIOBUTTONS-->
+    <!--NULL-->
+    <LinearGradientBrush x:Key="NullCheckBoxOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#969696" Offset="1"/>
+        <GradientStop Color="#90ffffff" Offset="0"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="DisabledNullCheckBoxOuterBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#969696" Offset="1"/>
+        <GradientStop Color="#90ffffff" Offset="0"/>
+    </LinearGradientBrush>
+
+    <!--Normal-->
+    <LinearGradientBrush x:Key="CheckBoxOuterBackground" EndPoint="1,1" StartPoint="0,0">
+        <GradientStop Color="#969696" Offset="0"/>
+        <GradientStop Color="#90ffffff" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="CheckBoxOuterBorder" Color="#333333"/>
+    <SolidColorBrush x:Key="CheckBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="CheckBoxInnerBorder" Color="#90ffffff"/>
+
+    <!--Disabled-->
+    <LinearGradientBrush x:Key="DisabledCheckBoxOuterBackground" EndPoint="1,1" StartPoint="0,0">
+        <GradientStop Color="#9e9e9e" Offset="0"/>
+        <GradientStop Color="#90ffffff" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="DisabledCheckBoxOuterBorder" Color="#9e9e9e"/>
+    <SolidColorBrush x:Key="DisabledCheckBoxInnerBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="DisabledCheckBoxInnerBorder" Color="#90ffffff"/>
+
+
+    <!--COMBOBOX-->
+    <LinearGradientBrush x:Key="ComboBoxPopUpBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#eae9e5" Offset="0"/>
+        <GradientStop Color="#90ffffff" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ComboBoxItemForeground" Color="#626262"/>
+    <SolidColorBrush x:Key="HoverComboBoxItemForeground" Color="#90ffffff"/>
+    <SolidColorBrush x:Key="HoverComboBoxItemBackground" Color="#ffaf00"/>
+    <LinearGradientBrush x:Key="SelectedComboBoxItemBackground" EndPoint="0,1" StartPoint="0,0">
+        <GradientStop Color="#666666" Offset="0"/>
+        <GradientStop Color="#7d7c7d" Offset="1"/>
+    </LinearGradientBrush>
+
+    <DrawingBrush x:Key="ComboBoxItemBorder" TileMode="Tile" Viewbox="0,0,4,4" ViewboxUnits="Absolute" Viewport="0,0,4,4" ViewportUnits="Absolute">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="#90ffffff " Geometry="F1 M 7.94729e-008,0L 1.33333,0L 1.33333,1.33333L 7.94729e-008,1.33333L 7.94729e-008,0 Z "/>
+                    <GeometryDrawing Brush="#666666" Geometry="F1 M 1.33333,0L 2.66667,0L 2.66667,1.33333L 1.33333,1.33333L 1.33333,0 Z "/>
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+</ResourceDictionary>

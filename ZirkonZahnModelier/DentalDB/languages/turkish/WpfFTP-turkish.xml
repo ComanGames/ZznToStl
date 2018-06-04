@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>FTP.Code.502</Keyword>
+      <Text>Komut uygulanamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload</Keyword>
+      <Text>yükleme iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain</Keyword>
+      <Text>Tekrar dosya yükleyin </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload.Description</Keyword>
+      <Text>Hiçbir içerik yüklenemiyecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded</Keyword>
+      <Text>Yüklemek istediğiniz dosya FTP sunucusunda zaten var</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain.Description</Keyword>
+      <Text>Seçtiğiniz dosyalar yeniden yüklenecektir. FTP-Server dosyaları üzerine yazılacaktır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProgress</Keyword>
+      <Text>Toplam ilerleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaitForConnection</Keyword>
+      <Text>Sunucuya bağlanılıyor, lütfen bekleyin ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToUpload</Keyword>
+      <Text>Yükleme için dosyaları seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMessageFromServer</Keyword>
+      <Text>Sunucu hatası:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCodeFromServer</Keyword>
+      <Text>Sunucu hatası kodu:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.ChangeUserPass</Keyword>
+      <Text>Kullanıcı adı/şifre değiştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.IncompleteTransfer</Keyword>
+      <Text>Hata - tüm dosyaları başarıyla transfer olmamış olabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AfterWait</Keyword>
+      <Text>saniye</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.ConfigMissing</Keyword>
+      <Text>FTP-konfirigasyon dosyası eksik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BaseDirMissing</Keyword>
+      <Text>Bu temel dizin mevcut değil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.RetryCountExceeded</Keyword>
+      <Text>        
+         Yükleme başarısız oldu. Bu denemelerinin maksimum sayısına ulaştınız.
+         İnternet ayarlarınızı kontrol edin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Username</Keyword>
+      <Text>Kullanıcı adı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Password</Keyword>
+      <Text>Şifre:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.RememberPassword</Keyword>
+      <Text>Şifreyi sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupText</Keyword>
+      <Text>Henüz bir kullanıcı adı yok mu?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupLinkDescription</Keyword>
+      <Text>Kaydolmak için buraya tıklayınız.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.EnterUsernamePassword</Keyword>
+      <Text>Kullanıcı adı ve şifre</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.150</Keyword>
+      <Text>ftp hatası 150</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BeginFileUpload</Keyword>
+      <Text>Dosya yükleme işlemi başlıyor ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.FileUploaded</Keyword>
+      <Text>Dosya başarıyla yüklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Header</Keyword>
+      <Text>Doğrulama iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Message</Keyword>
+      <Text>Eğer bu pencere kapatılırsa ftp yüklemesi iptal edilecek. İşleme girmek için evet'e, devam etmek için
+hayır'a basın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.Wait</Keyword>
+      <Text>Bilinmeyen mesaj</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.StartTry</Keyword>
+      <Text>Başlatma tekrarlanamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.from</Keyword>
+      <Text>Gelen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TemporaryFailure</Keyword>
+      <Text>Geçici Arıza: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.PermanentError</Keyword>
+      <Text>Kalıcı hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.NoResponse</Keyword>
+      <Text>Sunucu yanıt vermiyor </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.UserAbort</Keyword>
+      <Text>Yükleme kullanıcı tarafından iptal edildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TranserComplete</Keyword>
+      <Text>Transfer tamamlandı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Header</Keyword>
+      <Text>WpfFTP-Başlangıç...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Start</Keyword>
+      <Text>Başlangıç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Close</Keyword>
+      <Text>Kapalı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Header</Keyword>
+      <Text>İletim durumu pencereleri </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.AbortUpload</Keyword>
+      <Text>Yükleme iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.ShowDetail</Keyword>
+      <Text>Detaylar &gt;&gt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.HideDetail</Keyword>
+      <Text>Detaylar &lt;&lt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Header</Keyword>
+      <Text>Filtreler Mevcut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Buttons.StartUpload</Keyword>
+      <Text>Yüklemeye başla</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

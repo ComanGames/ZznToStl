@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StrategySelectionRuleset>
+  <Rules>
+    <!-- first match wins! -->
+    <StrategySelectionRule>
+      <!--parallel intefaces-->
+      <IsWithInterface>true</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>parallel</GeometryTypeRegex>
+      <SuggestedStrategy>InterfaceParallel</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--conical interfaces-->
+      <IsWithInterface>true</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>conical</GeometryTypeRegex>
+      <SuggestedStrategy>InterfaceConical</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!-- internal hex, engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>internal</GeometryTypeRegex>
+      <SuggestedStrategy>InHex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--external hex, engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>external</GeometryTypeRegex>
+      <SuggestedStrategy>OutHex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!-- internal hex, not engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>internal</GeometryTypeRegex>
+      <SuggestedStrategy>InNohex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--external hex, not engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>external</GeometryTypeRegex>
+      <SuggestedStrategy>OutNohex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--manual positioning-->
+      <ImplantDescriptor>Manual</ImplantDescriptor>
+      <SuggestedStrategy>Manual</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--no strategy-->
+      <SuggestedStrategy>all</SuggestedStrategy>
+    </StrategySelectionRule>
+  </Rules>
+</StrategySelectionRuleset>

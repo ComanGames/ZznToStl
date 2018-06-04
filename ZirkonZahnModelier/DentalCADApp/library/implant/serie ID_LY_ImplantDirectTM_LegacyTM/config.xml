@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Implant Direct® Legacy®</DisplayInformation>
+  <Producer>Implant Direct®</Producer>
+  <SystemName>Legacy®</SystemName>
+  <ScrewFilename>Std_screw.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Implant Direct® Legacy® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>3.0IDL</Keyword>
+      <ImplantFilename>3.0anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5731</LibraryIdentifier>
+      <ScrewFilename>3.0schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.0h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5701</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.00-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.0nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5701</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5781</DisplayInformation>
+          <SupportFilename>3.0pctbh.stl</SupportFilename>
+          <ImplantFilename>3.0pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5781</LibraryIdentifier>
+          <ScrewFilename>3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.64-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5731</DisplayInformation>
+          <SupportFilename>3.0cctb.stl</SupportFilename>
+          <ImplantFilename>3.0cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5731</LibraryIdentifier>
+          <ScrewFilename>3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 White Scanmarker</DisplayInformation>
+      <Keyword>3.0IDLmmk</Keyword>
+      <ImplantFilename>3.0anlg.stl</ImplantFilename>
+      <ScrewFilename>3.0schr.stl</ScrewFilename>
+      <MarkerFilename>3.0smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5731</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.001-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.0h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5701</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0010-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.0nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5701</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.30-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5781</DisplayInformation>
+          <SupportFilename>3.0pctbh.stl</SupportFilename>
+          <ImplantFilename>3.0pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5781</LibraryIdentifier>
+          <ScrewFilename>3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.640-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5731</DisplayInformation>
+          <SupportFilename>3.0cctb.stl</SupportFilename>
+          <ImplantFilename>3.0cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5731</LibraryIdentifier>
+          <ScrewFilename>3.0schr_mc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5</DisplayInformation>
+      <Keyword>3.5IDL</Keyword>
+      <ImplantFilename>3.5anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5732</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.5h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5702</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.70-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>3.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.5nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5702</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.70-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>3.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5782</DisplayInformation>
+          <SupportFilename>3.5pctbh.stl</SupportFilename>
+          <ImplantFilename>3.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5732</DisplayInformation>
+          <SupportFilename>3.5cctb.stl</SupportFilename>
+          <ImplantFilename>3.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5 White Scanmarker</DisplayInformation>
+      <Keyword>3.5IDLmmk</Keyword>
+      <ImplantFilename>3.5anlg.stl</ImplantFilename>
+      <MarkerFilename>3.5smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5732</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7001-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.5h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5702</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.70010-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>3.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7001-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.5nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5702</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.70010-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>3.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5732</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.60-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5782</DisplayInformation>
+          <SupportFilename>3.5pctbh.stl</SupportFilename>
+          <ImplantFilename>3.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5782</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5732</DisplayInformation>
+          <SupportFilename>3.5cctb.stl</SupportFilename>
+          <ImplantFilename>3.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5732</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5</DisplayInformation>
+      <Keyword>4.5IDL</Keyword>
+      <ImplantFilename>4.5anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5733</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.55-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.5h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5703</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.550-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>4.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.55-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.5nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5703</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.550-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>4.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.600-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5783</DisplayInformation>
+          <SupportFilename>4.5pctbh.stl</SupportFilename>
+          <ImplantFilename>4.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.800-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5733</DisplayInformation>
+          <SupportFilename>4.5cctb.stl</SupportFilename>
+          <ImplantFilename>4.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5 White Scanmarker</DisplayInformation>
+      <Keyword>4.5IDLmmk</Keyword>
+      <ImplantFilename>4.5anlg.stl</ImplantFilename>
+      <MarkerFilename>4.5smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5733</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5500-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.5h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5703</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5501-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>4.5hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5500-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.5nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5703</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5501-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>4.5nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5733</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.601-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5783</DisplayInformation>
+          <SupportFilename>4.5pctbh.stl</SupportFilename>
+          <ImplantFilename>4.5pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5783</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.801-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5733</DisplayInformation>
+          <SupportFilename>4.5cctb.stl</SupportFilename>
+          <ImplantFilename>4.5cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5733</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7</DisplayInformation>
+      <Keyword>5.7IDL</Keyword>
+      <ImplantFilename>5.7anlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5734</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.7h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5704</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>5.7hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.7nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5704</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>5.7nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.5-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5784</DisplayInformation>
+          <SupportFilename>5.7pctbh.stl</SupportFilename>
+          <ImplantFilename>5.7pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.2-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5734</DisplayInformation>
+          <SupportFilename>5.7cctb.stl</SupportFilename>
+          <ImplantFilename>5.7cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7 White Scanmarker</DisplayInformation>
+      <Keyword>5.7IDLmmk</Keyword>
+      <ImplantFilename>5.7anlg.stl</ImplantFilename>
+      <MarkerFilename>5.7smkmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD5734</LibraryIdentifier>
+      <ScrewFilename>3.5schr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.800-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.7h.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5704</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.801-InHex</Keyword>
+          <DisplayInformation>Hex wide screwhead</DisplayInformation>
+          <SupportFilename>5.7hz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.800-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.7nh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5704</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.801-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screwhead</DisplayInformation>
+          <SupportFilename>5.7nhz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5734</LibraryIdentifier>
+          <ScrewFilename>3.5schrz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.50-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5784</DisplayInformation>
+          <SupportFilename>5.7pctbh.stl</SupportFilename>
+          <ImplantFilename>5.7pctbhAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5784</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.20-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5734</DisplayInformation>
+          <SupportFilename>5.7cctb.stl</SupportFilename>
+          <ImplantFilename>5.7cctbAnlg.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5734</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

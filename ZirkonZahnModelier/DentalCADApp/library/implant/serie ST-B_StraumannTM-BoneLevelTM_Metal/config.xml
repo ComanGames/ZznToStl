@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Straumann® Bone Level®</DisplayInformation>
+  <Producer>Straumann®</Producer>
+  <SystemName>Bone Level®</SystemName>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Bone Level® series from Straumann Institute®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NC 3.3mm</DisplayInformation>
+      <Keyword>BLNC3.3mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/mscrmc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>2.815-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0581</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCHex_mc.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0581;BSAF0581D14</LibraryIdentifier>
+          <InterfaceFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCRC_RA10-14.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.52203-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCHex_Nmc.stl</SupportFilename><LibraryIdentifier>BSAE0501</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.52203-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCNoHex_Nmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0501</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NC 3.3mm White Scanmarker</DisplayInformation>
+      <Keyword>BLNC_wskmkm3.3mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/mscrmc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0531</LibraryIdentifier>
+      <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>2.8151-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0581</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCHex_mc.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0581;BSAF0581D14</LibraryIdentifier>
+          <InterfaceFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCRC_RA10-14.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.522031-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCHex_Nmc.stl</SupportFilename><LibraryIdentifier>BSAE0501</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.522031-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCNoHex_Nmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0501</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RC 4.1mm</DisplayInformation>
+      <Keyword>BLRC4.1mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/../serie ST-B_StraumannTM-BoneLevelTM/implantRC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/mscrmc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0532</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.3497-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0582</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCHex_mc.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0582;BSAF0582D14</LibraryIdentifier>
+          <InterfaceFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCRC_RA10-14.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.383503-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCHex_Nmc.stl</SupportFilename><LibraryIdentifier>BSAE0502</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.383503-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCNoHex_Nmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0502</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RC 4.1mm White Scanmarker</DisplayInformation>
+      <Keyword>BLRC_wskmkm4.1mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/../serie ST-B_StraumannTM-BoneLevelTM/implantRC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/mscrmc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0532</LibraryIdentifier>
+      <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.34971-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0582</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCHex_mc.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0582;BSAF0582D14</LibraryIdentifier>
+          <InterfaceFilename>../serie ST-B_StraumannTM-BoneLevelTM/NCRC_RA10-14.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.3835031-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCHex_Nmc.stl</SupportFilename><LibraryIdentifier>BSAE0502</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.3835031-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RCNoHex_Nmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0502</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

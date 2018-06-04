@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Astratech® Osseospeed®</DisplayInformation>
+  <Producer>Astratech®</Producer>
+  <SystemName>Osseospeed®</SystemName>
+  <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Osseospeed System® from Astratech Institute®</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 mm</DisplayInformation>
+      <Keyword>3.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-Mschr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0131</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.506-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0101</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>2.506-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0101</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>2.339-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0181</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0181</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.3391-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0131</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0131</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>3.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-Mschr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.0.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0smkPK.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD0131</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.50601-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0101</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>2.50601-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0101</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>2.33901-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0181</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0181</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.339101-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0131</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0131</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5-4.0 mm</DisplayInformation>
+      <Keyword>3.5-4.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.5-4.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.5-4.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0132</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.2-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0102</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.2-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0102</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>2.8789-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0182</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0182</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.87891-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0132</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0132</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5-4.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>3.5-4.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.5-4.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.5-4.0.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5smkPK.stl</MarkerFilename>
+      <LibraryIdentifier>ZBC0132</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.201-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0102</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.201-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0102</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>2.878901-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0182</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0182</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.8789101-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0132</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0132</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5-5.0 mm</DisplayInformation>
+      <Keyword>4.5-5.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.0-5.0_PM-Mschr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant4.5-5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0132</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.11-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0103</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.11-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0103</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.8685-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0183</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0183</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.86851-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0133</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0133</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5-5.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>4.5-5.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.0-5.0_PM-Mschr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant4.5-5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD0132</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5smkPK.stl</MarkerFilename>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1101-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename><LibraryIdentifier>BSAE0103</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.1101-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0103</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.868501-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0183</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_PM-Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0183</LibraryIdentifier>
+          <InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0PM_Alias.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.8685101-Raw</Keyword><DisplayInformation>No Hex Raw Abutment BSAF0133</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_PM-NoHex.stl</SupportFilename><LibraryIdentifier>BSAF0133</LibraryIdentifier><InterfaceFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0PM_Alias.stl</InterfaceFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Klockner Implant System® SK2®</DisplayInformation>
+  <Producer>Klockner Implant System®</Producer>
+  <SystemName>SK2®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>4.0-4.7_schr_M.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Klockner Implant System® SK2® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.2 (3.3/3.8/4.2)</DisplayInformation>
+      <Keyword>StandardP</Keyword>
+      <ImplantFilename>4.0_analogue.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD2931</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.552-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>4.0_Hex-FS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2931</LibraryIdentifier>
+          <ScrewFilename>4.0-4.7_schr_Z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.552-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>4.0_NoHex-FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2931</LibraryIdentifier>
+          <ScrewFilename>4.0-4.7_schr_Z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2981</DisplayInformation>
+          <SupportFilename>4.0_ParallelL0-10Z.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueP0-10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2981</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2981L20</DisplayInformation>
+          <SupportFilename>4.0_ParallelL20Z.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2981L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2981L30</DisplayInformation>
+          <SupportFilename>4.0_ParallelL30Z.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2981L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.402-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2931</DisplayInformation>
+          <SupportFilename>4.0_ConicalL0-10.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueC0-10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2931</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.4020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2931L20</DisplayInformation>
+          <SupportFilename>4.0_ConicalL20.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueC20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2931L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.4021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2931L30</DisplayInformation>
+          <SupportFilename>4.0_ConicalL30.stl</SupportFilename>
+          <ImplantFilename>4.0_analogueC30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2931L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.5 (4.7)</DisplayInformation>
+      <Keyword>WideP</Keyword>
+      <ImplantFilename>4.7_analogue.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD2932</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.502-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>4.7_Hex-FS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2932</LibraryIdentifier>
+          <ScrewFilename>4.0-4.7_schr_Z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.502-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>4.7_NoHex-FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2932</LibraryIdentifier>
+          <ScrewFilename>4.0-4.7_schr_Z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2982</DisplayInformation>
+          <SupportFilename>4.7_ParallelL0Z.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueP0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2982</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2982L10</DisplayInformation>
+          <SupportFilename>4.7_ParallelL10Z.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueP10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2982L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2982L20</DisplayInformation>
+          <SupportFilename>4.7_ParallelL20Z.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2982L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2982L30</DisplayInformation>
+          <SupportFilename>4.7_ParallelL30Z.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2982L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2932</DisplayInformation>
+          <SupportFilename>4.7_ConicalL0.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueC0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2932</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6022-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2932L10</DisplayInformation>
+          <SupportFilename>4.7_ConicalL10.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueC10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2932L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2932L20</DisplayInformation>
+          <SupportFilename>4.7_ConicalL20.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueC20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2932L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6023-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2932L30</DisplayInformation>
+          <SupportFilename>4.7_ConicalL30.stl</SupportFilename>
+          <ImplantFilename>4.7_analogueC30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2932L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

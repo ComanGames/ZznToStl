@@ -1,0 +1,2116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>Nesting.Material Block Transponder Active</Keyword>
+      <Text>Attivo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Archive</Keyword>
+      <Text>Archiva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailIsMarkedLegacy</Keyword>
+      <Text>Passato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromView</Keyword>
+      <Text>Posiziona in prospettiva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
+      <Text>Sei sicuro di voler annullare l'aggiornamento della libreria di blocchi di materiale? Lei non sarebbe in grado di creare nuovi blocchi vuoti.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
+      <Text>La libreria di blocchi materiale deve essere aggiornata. Questo è solo fatto una volta, ma può richiedere molto tempo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachine</Keyword>
+      <Text>Configura macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCMachineSelector</Keyword>
+      <Text>Seleziona macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
+      <Text>Selezione il file di strategia-CNC!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowCNC</Keyword>
+      <Text>Mostra percorsi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNC</Keyword>
+      <Text>Mostra percorsi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
+      <Text>Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlHide</Keyword>
+      <Text>Annulla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClose</Keyword>
+      <Text>Chiudi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlCancel</Keyword>
+      <Text>Annulla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlExecute</Keyword>
+      <Text>Crea CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControl</Keyword>
+      <Text>Creatore CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategySelector</Keyword>
+      <Text>Seleziona lavorazione della superficie di "{0}"</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFile</Keyword>
+      <Text>Sorgente e nome del file CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingData</Keyword>
+      <Text>Importa i file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectVisualize</Keyword>
+      <Text>Nesting-Parte-Visualizza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectInfo</Keyword>
+      <Text>Nesting-Parte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
+      <Text>Usare i seguenti file in Coda per il nesting (s):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
+      <Text>Blocco materiale (originale)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
+      <Text>I seguenti file non sembrano essere più validi. Saranno ora cancellati!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
+      <Text>Nesting Informazioni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
+      <Text>Perfavore assegna un LotNr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
+      <Text>Un file CNC è utilizzabile. Vuoi visualizzarlo?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
+      <Text>(CNC disponibile)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
+      <Text>(Rimuovi )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsProduced</Keyword>
+      <Text>(Già prodotto)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
+      <Text>(Già nel file cnc)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsNested</Keyword>
+      <Text>Nestato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
+      <Text>(potrebbe non attaccare sul blocco)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsPossible</Keyword>
+      <Text>possibile sul blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
+      <Text>nel nesting corrente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNestingQueue</Keyword>
+      <Text>Nascondere Coda </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UnloadFromQueue</Keyword>
+      <Text>Scarica</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadFromQueue</Keyword>
+      <Text>Carica</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueue</Keyword>
+      <Text>Rimuovere dalla Coda </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshNestingQueue</Keyword>
+      <Text>Aggiorna coda </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
+      <Text>Aggiorna libreria</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlock</Keyword>
+      <Text>Importa blocco materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
+      <Text>Data inserimento in Coda </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
+      <Text>Sorgente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
+      <Text>Nome</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
+      <Text>Ricostruzioni dispon.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reconstruction</Keyword>
+      <Text>Ricostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
+      <Text>Non è possibile inizializzare la coda per il Nesting. Per favore controllare i parametri nell "Applicazione setting".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibrary</Keyword>
+      <Text>Blocchi materiali</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueDir</Keyword>
+      <Text>Nesting Coda  Directory:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueEmpty</Keyword>
+      <Text>La Coda è vuota .</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
+      <Text>Cartella libreria blocco materiale:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Enqueue</Keyword>
+      <Text>Coda a  Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
+      <Text>Questo progetto esiste già in processo . Vuoi sovrascriverlo?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
+      <Text>Vuoi veramente rimuovere questo blocco materiale dal nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
+      <Text>Vuoi veramente rimuovere questa ricostruzione dal nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
+      <Text>Questo blocco material esiste già.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
+      <Text>Vuoi realmente rimuovere questo blocco materiale dalla libreria (assicurati che nessuno spazio sia lasciato su questo blocco)?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
+      <Text>I seguenti file di blocco material saranno ora cancellati:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixedReconstruction</Keyword>
+      <Text>Ricostruzione fissata (non cambiabile)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
+      <Text>Vuole rimuovere dalla Coda ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.UnknownMaterial</Keyword>
+      <Text>_Materiale sconosciuto_</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialDescriptor.Unknown</Keyword>
+      <Text>???SCONOSCIUTO???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.PMMA</Keyword>
+      <Text>Resina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Zirkon</Keyword>
+      <Text>ZrO2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Unknown</Keyword>
+      <Text>Materiale sconosciuto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.All</Keyword>
+      <Text>Qualsiasi materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
+      <Text>marca come fresato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
+      <Text>Cancella il corrente file CNC esistente?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
+      <Text>Cancella file CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction</Keyword>
+      <Text>partire con il fresaggio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeCAM</Keyword>
+      <Text>crea CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Destroy</Keyword>
+      <Text>Rimuovi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Register</Keyword>
+      <Text>Registratore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
+      <Text>Mostra blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
+      <Text>Mostra prodotto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
+      <Text>Creato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
+      <Text>Passato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
+      <Text>Nuovo blocco materiale registrato con successo!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
+      <Text>Assicurati, di marcare il tuo blocco material fisico con il suo ID-blocco:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
+      <Text>Perfavore definisci un unico ID del blocco materiale qui!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
+      <Text>Perfavore definisci un unico Id dle blocco material qui tra la seguenti variabili:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
+      <Text>Definire un unico ID del blocco materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
+      <Text>Registra e usa subito</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAccept</Keyword>
+      <Text>Registra</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseButton</Keyword>
+      <Text>Chiudi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton</Keyword>
+      <Text>Pulisci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton</Keyword>
+      <Text>Salva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignScaleFactor</Keyword>
+      <Text>Settare riduzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
+      <Text>Invalida Fattore / Riduzione percentuale di scala</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
+      <Text>Inserisci LotNr:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
+      <Text>Inserisci ID blocco:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Load</Keyword>
+      <Text>Carica...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.View3D</Keyword>
+      <Text>Visualisazzione in 3Ddell Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCreator</Keyword>
+      <Text>Registra nuovo blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockReject</Keyword>
+      <Text>Cancella</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockAccept</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
+      <Text>Tipo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
+      <Text>Data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
+      <Text>Riduzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
+      <Text>Fattore scala</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
+      <Text>Altezza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
+      <Text>Diametro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
+      <Text>Colore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
+      <Text>ID-blocco-materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
+      <Text>LotNr</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
+      <Text>Codice articolo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
+      <Text>Blocchi disponibili</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
+      <Text>Filtrare blocchi materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialType</Keyword>
+      <Text>Tipo del materiale:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterNewBlock</Keyword>
+      <Text>Registra nuovo blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateNewBlock</Keyword>
+      <Text>Crea nuovo blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
+      <Text>Panoramica sulla ricostruzine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
+      <Text>Ricostruzione del 
+nesting corrente </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
+      <Text>Panoramica libreria blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
+      <Text>Altezza ricostr.:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
+      <Text>Potrebbe non creare un blocco materiale!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
+      <Text>I seguenti prototipi materiali sono stati appena create</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
+      <Text>Vuole pulire il nesting corrente?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
+      <Text>Vuole chiudere il  Nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueView</Keyword>
+      <Text>Nesting Coda </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorLoadingFile</Keyword>
+      <Text>Potrebbe non caricare il file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
+      <Text>Vuoi veramente scambiare il blocco materiale?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
+      <Text>Questo blocco materiale è al momento in uso. Vuoi veramente cancellarlo?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
+      <Text>ID blocco materiale o Materiale descrittore mancante!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
+      <Text>Vuoi chiudere la libreria del material senza scegliere un blocco materiale?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSelector</Keyword>
+      <Text>Selettore del materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
+      <Text>Panoramica libreria dei materiali</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
+      <Text>Materiale descrittore mancante!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue</Keyword>
+      <Text>Coda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowSpacer</Keyword>
+      <Text>Misura distanze</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
+      <Text>Vuoi eseguire il programma CAM ora?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
+      <Text>Vuoi rimuovere questi file di progetti dal nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
+      <Text>Il bottone 'Bloccare ricostruzioni' necessita di essere usato prima, per rimuovere materiale esistente dal blocco.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
+      <Text>Potresti non trovare  nessuna parte nestabile nel file dato.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
+      <Text>Non è possibile mettere in coda nessuna parte per il nesting di questo progetto.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
+      <Text>Non c´è niente da nestare  nel progetto corrente. Vuoi nestare  un altro progetto esistente?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
+      <Text>Vuoi nestare questo progetto ora [Si],  dopo [No], o vuoi continuare a lavorare? [Cancel]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueFailed</Keyword>
+      <Text>Pianificazione Coda  fallito!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
+      <Text>File in coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingNesting</Keyword>
+      <Text>Salva nesting attuale?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
+      <Text>Salvare il materiale per fresature future? Altrimenti il blocco non sarà più utilizzabile!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView.Button</Keyword>
+      <Text>Vista standart</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView</Keyword>
+      <Text>Vista standart</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DumpData</Keyword>
+      <Text>Scarica dati</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Duplicate</Keyword>
+      <Text>Duplica</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyObject</Keyword>
+      <Text>Distruggi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FinishNesting</Keyword>
+      <Text>Salva nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
+      <Text>La costruzione non e possizionata all' interno del grezzo! Prego possizionare all´ interno del grezzo disponibile (switching off 'Arrange Planar' if necessary)!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
+      <Text>Ci sono ricostruzioni al di fuori del materiale disponibile. Continuare?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNesting</Keyword>
+      <Text>Chiudi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting</Keyword>
+      <Text>Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNesting</Keyword>
+      <Text>Salva annidamento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RestrictToZ</Keyword>
+      <Text>Movimento 
+libero</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupports</Keyword>
+      <Text>Elimina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ModifySupports</Keyword>
+      <Text>Modifica</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
+      <Text>Crea supporti trascinando il mouse dal blocco materiale to the nesting object .
+Opzioni tastiera:
+- Shift: Modifica un support esistente (cambia punto ancora o diametro)
+- Control: Cancella un supporto esistente
+- Shift + Control: Interruttore distaccamento automatico del supporto.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports</Keyword>
+      <Text>Modifica 
+supporti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
+      <Text>Muovere gli oggetti in nesting con il mouse
+Keyboard options:
+- Control: Rotate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PositionReconstructions</Keyword>
+      <Text>Posiziona ricostruzioni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameter</Keyword>
+      <Text>Ø di supporto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UpdateSupports</Keyword>
+      <Text>Attualizza supporti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock</Keyword>
+      <Text>Trancia definitivo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlockNormal</Keyword>
+      <Text>Trancia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveOrClear</Keyword>
+      <Text>salva o cancella</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingScene</Keyword>
+      <Text>Carica scena nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNestingScene</Keyword>
+      <Text>Salva scena nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadBlock</Keyword>
+      <Text>Carica da file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveBlock</Keyword>
+      <Text>Salva in file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlock</Keyword>
+      <Text>Crea nuovo blocco materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor</Keyword>
+      <Text>Descrittore:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialColor</Keyword>
+      <Text>Colore:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialType</Keyword>
+      <Text>Tipo:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
+      <Text>Indefinito</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
+      <Text>Indefinito</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCode</Keyword>
+      <Text>Codice</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
+      <Text>Lotto Nr</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID</Keyword>
+      <Text>Block ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
+      <Text>Perfavore inserisci il Block-ID(codice grezzo)!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShrinkPercentage</Keyword>
+      <Text>Riduzione in %:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ScalingFactor</Keyword>
+      <Text>Fattore d´ingrandimento/riduzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
+      <Text>Altezza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
+      <Text>Diametro:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
+      <Text>Angolo materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpace</Keyword>
+      <Text>Spaziatura 
+materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
+      <Text>Vuoi veramente eliminare il Transponder? Il blocco materiale non può essere zigrinato ancora in seguito!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
+      <Text>Transponder (eliminato)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
+      <Text>Separare automaticamente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Supports</Keyword>
+      <Text>Supporto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowColliders</Keyword>
+      <Text>Orbita</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowMachineParts</Keyword>
+      <Text>Anello interno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Stabilizer</Keyword>
+      <Text>Stabilizer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers</Keyword>
+      <Text>Crea sta-
+bilizatore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlockProperties</Keyword>
+      <Text>Caratteristiche del blocco materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionProperties</Keyword>
+      <Text>Altezze della Ricostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectedMachine</Keyword>
+      <Text>Macchina selezionata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
+      <Text>Unificare la ricostruzione attuale con file dal nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerProblem</Keyword>
+      <Text>Non è possibile creare il perno di stabilizzazione. Prego realizzare almeno 2 perni di tenuta palatali, oppure modifichi la posizione o l`orientamento.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingActions</Keyword>
+      <Text>Azioni Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNestingScene</Keyword>
+      <Text>Salva scena da nesting...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingScene</Keyword>
+      <Text>Carica scena da nesting...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingAction</Keyword>
+      <Text>Azioni Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AngledWalls</Keyword>
+      <Text>Pareti angolate del materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateMillingAngles</Keyword>
+      <Text>Mostrare angoli di fresatura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingOnlyFailed</Keyword>
+      <Text>Impossibile caricare l´oggetto nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
+      <Text>Da Coda a  Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
+      <Text>salva nella coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
+      <Text>Coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
+      <Text>Coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
+      <Text>Nesting...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
+      <Text>Nesting...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
+      <Text>Nesting...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
+      <Text>Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestAngle</Keyword>
+      <Text>Angolo:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
+      <Text>Errore CAM esterno:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
+      <Text>CAM finito!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
+      <Text>In esecuzione...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
+      <Text>Fermato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
+      <Text>Fatto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CalculateSimulationFile</Keyword>
+      <Text>Simulazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
+      <Text>Il calcolo-CNC è ancora in esecuzione.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.HideCNCGraphics</Keyword>
+      <Text>Chiudi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
+      <Text>Ricarica CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateSupports</Keyword>
+      <Text>Crea supporto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMissingExclusiveTypeString</Keyword>
+      <Text>Parti che contengono "{0}" possono essere nestate solo con alti parti che contengono "{0}".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNoSupport</Keyword>
+      <Text>Uno o piú pezzi nel Nesting non hanno conettori. Veramente continuare?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingIsCreatingPrototypes</Keyword>
+      <Text>Inizalizzare libreria blocchi </Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_connection combined</Keyword>
+      <Text>Connessione combinata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_external connection</Keyword>
+      <Text>Connessione esterna</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained</Keyword>
+      <Text>Avvitato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_combined</Keyword>
+      <Text>Combinato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_interface connection</Keyword>
+      <Text>Connessione interfaccia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_internal connection</Keyword>
+      <Text>Conessione interna</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_crowns</Keyword>
+      <Text>Abutments/Corone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained</Keyword>
+      <Text>Abutments/Avvitato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained_and_crowns</Keyword>
+      <Text>Abutments/Avvitato/Corone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained_and_crowns</Keyword>
+      <Text>Avvitato/Corone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment</Keyword>
+      <Text>Abutments</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_Special Strategies</Keyword>
+      <Text>Strategie speciali</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl</Keyword>
+      <Text>Percorsi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.Header</Keyword>
+      <Text>Nome del file CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.CNCProcessHeader</Keyword>
+      <Text>Mostri passi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToolCollisionCheck</Keyword>
+      <Text>Visualizzi percorsi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SimulateMilling</Keyword>
+      <Text>Simulare risultato CNC </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCToolSimulation</Keyword>
+      <Text>Simulazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNC.ShowHideTool</Keyword>
+      <Text>attivare simulazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.RevertHistory</Keyword>
+      <Text>Ripristina Blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteStabilizer</Keyword>
+      <Text>Cancella stabilisatore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToggleStabilizerSide</Keyword>
+      <Text>Cambia parte stabilizatore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.EnqueueForProduction</Keyword>
+      <Text>Inserire nella coda di produzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControlRecoToolTip</Keyword>
+      <Text>SHIFT+clicca per disattivare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueMaterial</Keyword>
+      <Text>Materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByMaterial</Keyword>
+      <Text>Filtrare materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.ByReconstructions</Keyword>
+      <Text>per costruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.QueueHideImpossible</Keyword>
+      <Text>nascondi quelli troppo grande</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowAxes</Keyword>
+      <Text>Assi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateUndercuts</Keyword>
+      <Text>Stima sottosquadri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerUseRotationQuestion</Keyword>
+      <Text>Vuole mantenere l'orientamento attuale dell stabilizzatore?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.IsSupportUsedForNextStabilizer</Keyword>
+      <Text>Nell prossimo stabilizzatore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerInvalidCannotBeSaved</Keyword>
+      <Text>Un stabilizzatore e stato creato incompleto.Vuole rimuoverlo dal Nesting?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers.ToolTip</Keyword>
+      <Text>Premere SHIFT per create stabilizer all' altro lato.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectPercentage</Keyword>
+      <Text>percentuale per disconnessione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
+      <Text>Transponder (attiva)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderReactivateQuestion</Keyword>
+      <Text>Il transponder è ancora intatto, volete riattivarlo?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportPosition</Keyword>
+      <Text>Posizione conettore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupport</Keyword>
+      <Text>Elimina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Filter</Keyword>
+      <Text>Filtra coda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Manage</Keyword>
+      <Text>Gestione coda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.ToolTip</Keyword>
+      <Text>Dimostra la finestra con tutte le costruzioni pronti per il Nesting.Proposta:per importare dei dati nella coda di Nesting e possibile trascinare direttamente dal Explorer su questo tasto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList.Manage</Keyword>
+      <Text>Gestire blocchi materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton.ToolTip</Keyword>
+      <Text>Click elimina tutte le  costruzioni dal Nesting. 
+Click con mouse destra elimina il blocco stesso.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowLegacy</Keyword>
+      <Text>Mostra lascito</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFileCalculate</Keyword>
+      <Text>Crea CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameterFromTopOrBottom</Keyword>
+      <Text>Ø drop</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccuredWarningMessage</Keyword>
+      <Text>Attenzione: Problema nel calcolo CAM; Possono apparire problemi nella produzione.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccured</Keyword>
+      <Text>problema CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemCancelProduction</Keyword>
+      <Text>Cancellare la produzione (raccomandato)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemContinueProduction</Keyword>
+      <Text>Prosequire la produzione (pericoloso)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.GenericCollisionOrToolSizeProblem</Keyword>
+      <Text>Collisione o lunghezza stampa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.Collision</Keyword>
+      <Text>Collisione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReactivateFixedConstruction</Keyword>
+      <Text>Reattivare per movimenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRevertToPreviousStateQuestion</Keyword>
+      <Text>Riprestinare il vecchio stato del blocko?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCFileName</Keyword>
+      <Text>File CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingOverview</Keyword>
+      <Text>Visuale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueFiles</Keyword>
+      <Text>Coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedUnknownMaterialBlockType</Keyword>
+      <Text>Il materiale del blocco è sconosciuto. La biblioteca può essere troppo vecchio. Prova registrare il blocco nuovamente (clicca su 'Registrare nuovo blocco')</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowFeatureLines</Keyword>
+      <Text>Mostra bordi costruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByProjectName</Keyword>
+      <Text>Filtrare per progetto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNestingNestingModuleNotActivated</Keyword>
+      <Text>Errore: Il modulo nesting non è attivato sul Dongle.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSelectStrategy</Keyword>
+      <Text>Strategia di fresaggio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion</Keyword>
+      <Text>La costruzione adesso viene tranciata fuori dall blocco.Si assicuri che il pezzo sia fresato realmente in questa posizione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.OnlyCNC</Keyword>
+      <Text>Rimuovere solamente le costruzioni a cui sono gia state calcolate le traiettorie di fresaggio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.All</Keyword>
+      <Text>Rimuovere tutte le costruzioni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveConstructionFromNestingThatIsInCNCQuestion</Keyword>
+      <Text>Per la costruzine esiste gia un file di fresatura.Come vuole procedere?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCooling</Keyword>
+      <Text>Raffreddamento a d'acqua</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineProperties</Keyword>
+      <Text>Proprietra della macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion</Keyword>
+      <Text>E attivo l'affreddamento a d'acqua su questa macchina?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous</Keyword>
+      <Text>Che tipo di macchina deve essere usata?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes</Keyword>
+      <Text>E attivo l'affreddamento a d'acqua? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.No</Keyword>
+      <Text>Niente raffreddamento a d'acqua</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion.QueryMachineSoftware</Keyword>
+      <Text>Domandare al Software di macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingDefaultSetting</Keyword>
+      <Text>Impostazione precedente del raffreddamento a d'acqua</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination</Keyword>
+      <Text>Reimpostare  al massimo l'inclinazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination.Description</Keyword>
+      <Text>Reimmettete l'inclinazione della costruzione nell inclinazione massimali dei assi della macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination</Keyword>
+      <Text>Rimettere l'inclinazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination.Description</Keyword>
+      <Text>Reimmettete l'inclinazione della costruzione nello stato d'origine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis</Keyword>
+      <Text>Rotazione a 4 assi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis.Description</Keyword>
+      <Text>Rotazione automatico per macchine a 4 assi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetNestAxesButton</Keyword>
+      <Text>Reimpostare l'inclinazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixNestAxesQuestion</Keyword>
+      <Text>Rotazione automatica dei pezzi? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDoesNotWorkForPartsThatWereNotSaved</Keyword>
+      <Text>Sono stati rintracciati dei pezzi per il Nesting,che ancora non sono stati salvati.Proccedere comunque?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterMaterialBlocksByMachine</Keyword>
+      <Text>Filtro di macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineIsNotConfiguredForInterop</Keyword>
+      <Text>Avviso:La macchina scelta non e configurata per Exocam,significa che i limiti della macchina non sono noti e che la calcolazione delle traiettorie di fresaggio sono deattivate.Perfavore contattate il vostro supporto Software per usare la macchina scelta </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineNotAvailableForToothPathCalculation</Keyword>
+      <Text>Avviso:la macchina scelta non e instalata in Exocam per la calcolazione delle traiettorie di fresaggio</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineFromSceneFileDoesNotExist</Keyword>
+      <Text>Avviso:la macchina d'origine dei dati-scena non e configurata per questa Software.Perfavore scegliere un altra macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInterOpImportUnknownMachinesWarning</Keyword>
+      <Text>Nesting avverte da macchine sconosciute</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectedMachineTypeWasInvalid</Keyword>
+      <Text>Perfavore controllare scelta macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachineTools</Keyword>
+      <Text>Configurare strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConstructionTransparency</Keyword>
+      <Text>Costruzioni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSimulationTransparency</Keyword>
+      <Text>Simulazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportInMiddle</Keyword>
+      <Text>Tagliare supporto alla metá</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportOnReconstruction</Keyword>
+      <Text>Tagliare supporto alla ricostr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableCopyToClipboard</Keyword>
+      <Text>Copia in clipboard.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTable</Keyword>
+      <Text>Lista tools</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableEmpty</Keyword>
+      <Text>Lista tools vuota</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FreeToolSlot</Keyword>
+      <Text>-Libero-</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolSetConfigurationName</Keyword>
+      <Text>Nome della configurazione strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCreateNew</Keyword>
+      <Text>Immettere nuova configurazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDelete</Keyword>
+      <Text>Cancellare configurazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSlot</Keyword>
+      <Text>Posizione strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolName</Keyword>
+      <Text>Nome strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolType</Keyword>
+      <Text>Forma strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDiameter</Keyword>
+      <Text>Diametro strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolFluteLength</Keyword>
+      <Text>Lunghezza taglio (zona di lavoro)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftLength</Keyword>
+      <Text>Lunghezza stelo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameter</Keyword>
+      <Text>Diametro stelo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLength</Keyword>
+      <Text>Lunghezza strumento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolArbor</Keyword>
+      <Text>Taglio (geometria)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolInvalidArborWarning</Keyword>
+      <Text>Avviso:geometria taglio sembra invalida</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLengthIncompatible</Keyword>
+      <Text>Avviso:lunghezza strumento sembra  non essere compatibile con la macchina attuale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameterIncompatible</Keyword>
+      <Text>Avviso:diametro stelo sembra non essere compatibile con macchina attuale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDescription</Keyword>
+      <Text>Descrizione strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReplace</Keyword>
+      <Text>Sostituire strumento nella macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAdd</Keyword>
+      <Text>Aggiungere strumento nella macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetRemove</Keyword>
+      <Text>Rimuovere strumento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetUp</Keyword>
+      <Text>Alto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDown</Keyword>
+      <Text>Giu
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAccept</Keyword>
+      <Text>Accettare configurazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReject</Keyword>
+      <Text>Abortire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseEnterMachineToolSetConfigurationName</Keyword>
+      <Text>Perfavore dare un nome relativo alla configurazione strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidMachineToolSetConfiguration</Keyword>
+      <Text>Configurazione macchina-strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WarningMachineToolIsIncompatibleToMachine</Keyword>
+      <Text>Avviso:la configurazione strumenti sembra di non essere compatibile con la macchina (lunghezze strumenti o diametro steli)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DuplicateMachineToolError</Keyword>
+      <Text>Questo strumento e gia in uso nella configurazione strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCloneQuestion</Keyword>
+      <Text>Vuole fare una coppia della configurazione attuale?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteMachineConfigurationQuestion</Keyword>
+      <Text>Vuole sostituire la configurazione strumenti attuale?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMachineToolInLibrary</Keyword>
+      <Text>Create tool</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMachineToolFromLibrary</Keyword>
+      <Text>Rimuovere strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloneMachineToolFromLibrary</Keyword>
+      <Text>Duplicare strumenti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolWithSameNameAlreadyExists</Keyword>
+      <Text>Nome gia esistente per questo strumento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveMachineToolQuestion</Keyword>
+      <Text>Veramente rimuovere strumento dalla libreria?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolEditor</Keyword>
+      <Text>Editore macchina-strumento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetConfigurator</Keyword>
+      <Text>Adeguare configurazione macchina-strumento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolLibraryView</Keyword>
+      <Text>Libreria strumenti dimostrare/sostituire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingMachineToolPathCalculationBy</Keyword>
+      <Text>Traiettorie di fresaggio di</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButton</Keyword>
+      <Text>Importa ricostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButtoningQueue.ToolTip</Keyword>
+      <Text>Importazione diretta manuale dei file costruiti esternamente nell Nesting senza coda di Nesting.Suggerimento:Si puo anche trascinare da 'Drag&amp;drop' dall Explorer nell Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportNotPossibleForSelectedFiles</Keyword>
+      <Text>L'importo dei tipi di file scelti non e possibile</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarning</Keyword>
+      <Text>Si sono verificati dei problemi nel importare dei file in Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportError</Keyword>
+      <Text>Si sono verificati dei errori critici nel importare dei file sconosciuti in Nesting.L'importare di questi file purtroppo non e possibile.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportTypeContextMenu</Keyword>
+      <Text>Tipo d'importo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarningContextMenu</Keyword>
+      <Text>Avviso d'importo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FoundInvalidSupportsReallyContinue</Keyword>
+      <Text>Conettori inesistenti nell Nesting (segnati rosso).Se vuole continuare si potrebbero verificarsi dei errori mentre la calcolazione delle traiettorie di fresaggio o l'ottenere di un fresaggio non sodisfacciente.Vuole verramente continuare?(non consigliato)  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed</Keyword>
+      <Text>Tenere ordine di 4-assi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed.ToolTip</Keyword>
+      <Text>Se attivato,la Software non permette rotazioni manuali del asse di costruzione relativamente al limite asse di macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInformation</Keyword>
+      <Text>Informazione Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MillingTools</Keyword>
+      <Text>Frese per {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AbutmentTop</Keyword>
+      <Text>Custom Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CrownBottom</Keyword>
+      <Text>Corona</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InlayBottom</Keyword>
+      <Text>Inlay/Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.BiteSplint</Keyword>
+      <Text>BiteSplint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ReducedWaxup</Keyword>
+      <Text>ReducedWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Attachment</Keyword>
+      <Text>Attachment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.PrimaryTelescope</Keyword>
+      <Text>Telescope</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AnatomicWaxup</Keyword>
+      <Text>AnatomicWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Coping</Keyword>
+      <Text>Coping</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CylinderCutting</Keyword>
+      <Text>Screw Channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantDescriptor</Keyword>
+      <Text>Implant Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutHex</Keyword>
+      <Text>OutHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InHex</Keyword>
+      <Text>InHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutNoHex</Keyword>
+      <Text>OutNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InNoHex</Keyword>
+      <Text>InNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceConical</Keyword>
+      <Text>InterfaceConical</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceParallel</Keyword>
+      <Text>InterfaceParallel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Manual</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ManualImplant</Keyword>
+      <Text>Manual Implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show all CNC paths</Keyword>
+      <Text>Mostra tutti passi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowCNCViewPaths</Keyword>
+      <Text>Mostra percorsi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show/Hide</Keyword>
+      <Text>Passi CNC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Time</Keyword>
+      <Text>Tempo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineSelector</Keyword>
+      <Text>Seleziona macchina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show</Keyword>
+      <Text>Visualizza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeContextMenu</Keyword>
+      <Text>Evidenziare sottosquadri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeRefreshAllQuestion</Keyword>
+      <Text>Evidenziare sottosquadri per tutte le costruzioni nestate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockSlotNumber</Keyword>
+      <Text>Prego selezionare la posizione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
+      <Text>Slot ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowEditReconstructionControlContextMenu</Keyword>
+      <Text>Lavorare costruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.Title</Keyword>
+      <Text>Lavorare costruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.ClosingQuestion</Keyword>
+      <Text>Lavorare costruzione e chiudere finestra</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.AcceptChanges</Keyword>
+      <Text>Aportare tutte le modifice nel Nesting attuale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.RejectChanges</Keyword>
+      <Text>Scartare tutte le modifice</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180</Keyword>
+      <Text>Girare di 180 gradi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180.Description</Keyword>
+      <Text>Girare di 180 gradi lungo l'asse Y</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingImportObject</Keyword>
+      <Text>Importo Nesting-Design</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickOnNestingPreparationMargin</Keyword>
+      <Text>Clic sull margine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection1</Keyword>
+      <Text>Mettere minimo 4 punti intorno a</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection2</Keyword>
+      <Text>Margine del Design</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingPreparationMargin.FoundLine</Keyword>
+      <Text>Trovato margine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingPreparationMargin.Title</Keyword>
+      <Text>Importo riconoscimento margine nel Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowInExplorer</Keyword>
+      <Text>Aprire nel Explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueue.ShowInExplorer</Keyword>
+      <Text>Aprire nel Explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnail</Keyword>
+      <Text>S</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot1</Keyword>
+      <Text>Centro-1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot2</Keyword>
+      <Text>Sinistra-2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot3</Keyword>
+      <Text>Destra-3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UndefinedReconstructionType</Keyword>
+      <Text>Sconosciuto/non sostenuto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox</Keyword>
+      <Text>Perfavore scegliere tipo di recostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox.CurrentSelected</Keyword>
+      <Text>Tipo attuale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChangeConstructionType</Keyword>
+      <Text>Modifica recostruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowEditMarginByMouse</Keyword>
+      <Text>Modifica margine con il Maus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AddNewPreparationMarginToReconstructionQuestion</Keyword>
+      <Text>Vuole accetare il margine definito per la progettazione costruzione?Si ricorda che questa operazione non puo essere annullata,ma il margine di preparazione e la sua direzione d'inserimento puo essere corretta succesivamente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PreparationMarginBottom</Keyword>
+      <Text>Fondo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetNoneButton.Text</Keyword>
+      <Text>Solo visualisazzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetInsertionDirectionButton.Text</Keyword>
+      <Text>Impostare direzione d'inserimento</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_ModifyMarginsButton.Text</Keyword>
+      <Text>Modificare margine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_AddPreparationMarginButton.Text</Keyword>
+      <Text>Adizione margine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetOcclusalDirectionButton.Text</Keyword>
+      <Text>Impostare direzione occlusale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSetInsertionDirectionHelp</Keyword>
+      <Text>Mettere la direzione d'inserimento con l'aiuto delle tastature sottostanti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp</Keyword>
+      <Text>Perfavore controllare che  le curve margini siano messi correttamente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowBlock</Keyword>
+      <Text>Segnare blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRegistration</Keyword>
+      <Text>Registrare blocco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingValueFromInterop</Keyword>
+      <Text>(Interop)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingViewRotationAngle</Keyword>
+      <Text>Angolo di rotazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowClosingQuestion</Keyword>
+      <Text>Vuole chiudere il programma o tornare al corrente costruzione CAD?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowReturnToCAD</Keyword>
+      <Text>Ritornare al CAD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion</Keyword>
+      <Text>Vuole salvare il Nesting come scena?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion.Title</Keyword>
+      <Text>Chiudere Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined</Keyword>
+      <Text>Non sono stati ancora fissati tutti tipi di costruzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Description</Keyword>
+      <Text>Avviso:Costruzioni non possono essere importati in Nesting se i tipi di costruzioni non sono stati definiti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Ignore</Keyword>
+      <Text>Vuole veramente cancellare le precedenti informazioni di costruzione?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.AddMargin</Keyword>
+      <Text>Si puo definire nuove curve di margine cliccando con il Maus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.ModifyMargins</Keyword>
+      <Text>Cliccare esistenti curve di margine per modificarle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetInsertion</Keyword>
+      <Text>Direzioni d'inserzione possono essere modificate tramite le freccie o con i 3 tasti sottostanti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetOcclusal</Keyword>
+      <Text>Direzioni secondarie di fresaggio possono essere modificate tramite le freccie o con i 3 tasti sottostanti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AdvancedMillingOption</Keyword>
+      <Text>Opzioni avanzate per la fresatura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Wet milling</Keyword>
+      <Text>Fresatura bagnata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Lollipop</Keyword>
+      <Text>Usare la fresa 1,5K</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Bur15XL</Keyword>
+      <Text>Usare la fresa 1,5A XL</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InterfaceOffset</Keyword>
+      <Text>Interface Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.TelescopeOffset</Keyword>
+      <Text>Telescope Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset0</Keyword>
+      <Text>Normal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMilling</Keyword>
+      <Text>Calcolo veloce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Bur</Keyword>
+      <Text>Fresa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button.Tooltip</Keyword>
+      <Text>Apri nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessorControls.CNCPathControl.Title</Keyword>
+      <Text>Percorsi frese</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Abutment</Keyword>
+      <Text>Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.InsideHex</Keyword>
+      <Text>Hex interno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.WithoutHex</Keyword>
+      <Text>Senza esagono</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OcclusalBridge</Keyword>
+      <Text>Ponte occlusale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FixNestAxes</Keyword>
+      <Text>Fissaggio asse.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InlayStrategySelection</Keyword>
+      <Text>Inlay/Onlay/Veneers</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNesting.ToolTip</Keyword>
+      <Text>Salva scena nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ExtraStrategySelection</Keyword>
+      <Text>Seleziona strategia speciale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingView</Keyword>
+      <Text>Mostra Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BlockOutAngle</Keyword>
+      <Text>Angolo di scarico</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OutsideHex</Keyword>
+      <Text>Hex esterno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock.Title</Keyword>
+      <Text>Trancia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateCNCFiles</Keyword>
+      <Text>Preparare Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.S</Keyword>
+      <Text>Configura</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButtonPremium</Keyword>
+      <Text>Resing premium</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeBasicButton</Keyword>
+      <Text>Resina basic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButton</Keyword>
+      <Text>Resina</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeGlassButton</Keyword>
+      <Text>Resina Glass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderLength</Keyword>
+      <Text>Lunghezza</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Material</Keyword>
+      <Text>Materiale:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpecialStrategySelection</Keyword>
+      <Text>Seleziona strategia impianti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Standart</Keyword>
+      <Text>Standard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StandardStrategySelection</Keyword>
+      <Text>Seleziona strategia standard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderStatus</Keyword>
+      <Text>Stato</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSpecialStrategySelector</Keyword>
+      <Text>Seleziona strategia per {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyButton</Keyword>
+      <Text>Seleziona strategia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaxButton</Keyword>
+      <Text>Cera</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassButton</Keyword>
+      <Text>Glass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Position</Keyword>
+      <Text>Posizione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WoodButton</Keyword>
+      <Text>Legno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNCFileWithDifferentBlockInNesting</Keyword>
+      <Text>Mostra file CNC con altro blocco materiale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ZirkonButton</Keyword>
+      <Text>Zirconia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishederrorMessage</Keyword>
+      <Text>Errore di produzione esterno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueButtons</Keyword>
+      <Text>Coda di Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertScaleFactor</Keyword>
+      <Text>Immettere fattore di scalazione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertShrinkingPercentage</Keyword>
+      <Text>Immettere restringimento in %</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantGeometry</Keyword>
+      <Text>ImplantGeometry</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialCommands</Keyword>
+      <Text>Commandi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailDiameter</Keyword>
+      <Text>Ø
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailHeight</Keyword>
+      <Text>H</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem1</Keyword>
+      <Text>- 0,01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem2</Keyword>
+      <Text>0</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem3</Keyword>
+      <Text>+ 0,01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialColor</Keyword>
+      <Text>Seleziona Colore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SlotsInProductionQueue</Keyword>
+      <Text>Slots in coda produzione</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Bar</Keyword>
+      <Text>Barra</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionCanNotBeNestedInGlassBlock</Keyword>
+      <Text>Parti che contengono "{0}" non possono essere nestate in un blocco GLASS.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionCanNotBeNestedInThisBlock</Keyword>
+      <Text>Il Nesting di questo elemento non é possibile in questo blocco. Verra rimosso dal blocco ora. Raggione: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarningMergedInOlderVersion</Keyword>
+      <Text>Attenzione!!!
+Il lavoro caricato non è stato composto con questa versione.
+Per evitare problemi aprire la scena e ricomporre nuovamente il lavoro.
+Poi il lavoro può nuovamente essere riportato nel Nesting.
+Premere OK per continuare ugualmente.
+Attenzione, questo proseguimento può portare a risultati indesiderati.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportAsSTLWithConstructionInfo</Keyword>
+      <Text>Attenzione!!!
+Il lavoro caricato è stato caricato come file STL.
+Se possibile caricare il lavoro dal NestingQueue per raggiungere un resultato di fresatura ottimale.
+
+Premere OK per continuare ugualmente.
+Attenzione, questo proseguimento può portare a risultati indesiderati.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateStabilizer</Keyword>
+      <Text>Crea Piedistallo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LabelTemplateNotFound</Keyword>
+      <Text>Imposibile trovare il modello per stampare l'etichetta ({0}).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPrintingLabel</Keyword>
+      <Text>Errore durante il stampo dell' etichetta: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMillingQuestion.Title</Keyword>
+      <Text>utilizzare la calcolazione veloce?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMillingQuestion.Description</Keyword>
+      <Text>Attenzione - solo la fresa 2L verrá utilizata.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

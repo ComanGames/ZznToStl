@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>false</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® Multi Unit Abutment®</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>Multi Unit Abutment®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with MUA® Series by Nobel Biocare®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP-RP</DisplayInformation>
+      <Keyword>NP-RP</Keyword>
+      <ImplantFilename>implantNP-RP.stl</ImplantFilename>
+      <ScrewFilename>screwNP-RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0431</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>np-rp.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>np-rp_wide.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.800-OutNohex</Keyword><DisplayInformation>No Hex Guide Pin</DisplayInformation><SupportFilename>NP-RP_GuidePin.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.8000-OutNohex</Keyword><DisplayInformation>No Hex Wide Guide Pin</DisplayInformation><SupportFilename>NP-RP_wideGuidePin.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.8000-OutNohex</Keyword><DisplayInformation>No Hex Customized</DisplayInformation><SupportFilename>NP-RP_customized.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.2-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0431</DisplayInformation>
+          <SupportFilename>i-coneNP-RP.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantNP-RP_conical.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0441</DisplayInformation>
+          <SupportFilename>i-coneNP-RPn.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantNP-RP_conicaln.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0441</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP-RP White Scanmarker</DisplayInformation>
+      <Keyword>NP-RPmkmk</Keyword>
+      <ImplantFilename>implantNP-RP.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <ScrewFilename>screwNP-RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0431</LibraryIdentifier>
+      <MarkerFilename>NP-RPmkmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8012-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>np-rp.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80120-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>np-rp_wide.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.801-OutNohex</Keyword><DisplayInformation>No Hex Guide Pin</DisplayInformation><SupportFilename>NP-RP_GuidePin.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.8010-OutNohex</Keyword><DisplayInformation>No Hex Wide Guide Pin</DisplayInformation><SupportFilename>NP-RP_wideGuidePin.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.8011-OutNohex</Keyword><DisplayInformation>No Hex Customized</DisplayInformation><SupportFilename>NP-RP_customized.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.20-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0431</DisplayInformation>
+          <SupportFilename>i-coneNP-RP.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantNP-RP_conical.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0441</DisplayInformation>
+          <SupportFilename>i-coneNP-RPn.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantNP-RP_conicaln.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0441</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP</DisplayInformation>
+      <Keyword>WP</Keyword>
+      <ImplantFilename>implantWP.stl</ImplantFilename>
+      <ScrewFilename>screwWP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0432</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>wp.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.00-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>WP_wide.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.5-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0432</DisplayInformation>
+          <SupportFilename>i-coneWP.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantWP_conical.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP White Scanmarker</DisplayInformation>
+      <Keyword>WPmkmk</Keyword>
+      <ImplantFilename>implantWP.stl</ImplantFilename>
+      <ScrewFilename>screwWP.stl</ScrewFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>WPmkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD0432</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.001-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>wp.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0010-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>WP_wide.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.50-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0432</DisplayInformation>
+          <SupportFilename>i-coneWP.stl</SupportFilename>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>implantWP_conical.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>sblReplaceFiltePadsIgnore</Keyword>
+      <Text>Ignore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReplaceFiltePadsDone</Keyword>
+      <Text>Done</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblWarning</Keyword>
+      <Text>Warning:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblError</Keyword>
+      <Text>Error:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFatalError</Keyword>
+      <Text>Fatal Error:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReplaceFiltePadsInfo</Keyword>
+      <Text>
+        The recommended operating hours for filter pads are exceeded!
+        Please turn the device off and proceed as described in the user manual.
+        If already done so, please confirm.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCheckIfFilterPadsMustBeReplacedCrashed</Keyword>
+      <Text>Check if filter pads must be replaced crashed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblScannerShutDownFailed</Keyword>
+      <Text>Error: scanner shut down failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblMatcherShutDownFailed</Keyword>
+      <Text>Error: matcher shut down failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblMesherShutDownFailed</Keyword>
+      <Text>Error: mesher shut down failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFactoryScannerNULL</Keyword>
+      <Text>Factory create scanner returned null</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFactoryMatcherNULL</Keyword>
+      <Text>Factory create matcher returned null</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFactoryMesherNULL</Keyword>
+      <Text>Factory create mesher returned null</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFactoryMeshNULL</Keyword>
+      <Text>Factory create mesh returned null</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblScannerInitFailed</Keyword>
+      <Text>Scanner init failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblMatcherInitFailed</Keyword>
+      <Text>Matcher init failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblMesherInitFailed</Keyword>
+      <Text>Mesher init failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblLoadLibraryCrash</Keyword>
+      <Text>Scanner LoadLibrary(frDWServices.dll) crash dw=</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblFactoriesDoNotExist</Keyword>
+      <Text>Error: some or all factories do not exist</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblInitScannerInterfaceFailed</Keyword>
+      <Text>Init scanner interface failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblSBLLiveImageCallbackInitCrash</Keyword>
+      <Text>Live image callback init crash</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblSBLProgressCallbackInitCrash</Keyword>
+      <Text>Progress callback init crash</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblInvalidStateToStart</Keyword>
+      <Text>Invalid state to start</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblNoScannedPointCloud</Keyword>
+      <Text>No scanned point clouds</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReadingPointCloudsFailed</Keyword>
+      <Text>Reading point clouds from scanner failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblDoScanAsyncFailed</Keyword>
+      <Text>Do scan async failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblDoMatchAsyncFailed</Keyword>
+      <Text>Do match async failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblScanPointCloudsCrash</Keyword>
+      <Text>Scan point clouds crash</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblMatchPointCloudsCrash</Keyword>
+      <Text>Match point clouds crash</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCallMatchWith1PointCloud</Keyword>
+      <Text>Call to match point clouds with less than two point clouds</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCallMesherWith0PointCloud</Keyword>
+      <Text>Call to mesher without existing point clouds</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAddingPointCloudToMatcher</Keyword>
+      <Text>Error adding point cloud to matcher</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAddingPointCloudToMesher</Keyword>
+      <Text>Error adding point cloud to mesher</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblDoScanAsyncCreateMeshFailed</Keyword>
+      <Text>At do scan async: create mesh failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblDoScanAsyncNewScanDataFailed</Keyword>
+      <Text>At do scan async: new scan data failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCrashedDuringMeshDeletion</Keyword>
+      <Text>Crash during SBL mesh deletion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCreatedMeshHasZeroVertices</Keyword>
+      <Text>
+        Created mesh has zero vertices.
+        Possible reasons:
+        The model is below the lower height limit.
+        The scanner brightness is set too low or too high.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblModelDiedDuringScanning</Keyword>
+      <Text>Current temporary model died during scanning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblAtNewScanDatasblMeshHas0Vertices</Keyword>
+      <Text>At new scan data: sblMesh has 0 vertices.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblNewScanDataProblem</Keyword>
+      <Text>At new scan data problem: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblZOrientationProblem</Keyword>
+      <Text>
+        The Z orientation of the scan is out of range [0; 120].
+        Please reduce the angle by rotating the scene.
+        This scanning process will stop now.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAtComputeScanMatchMesherType</Keyword>
+      <Text>Error at compute scan, match and mesher type</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCalibrateFailed</Keyword>
+      <Text>Calibrate failed: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblWriteNewSettingsCanNotOpenFile</Keyword>
+      <Text>At write new settings can not open file: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblWriteNewSettingsCanNotWriteFile</Keyword>
+      <Text>At write new settings can not write to file: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCreatingModelsProblem</Keyword>
+      <Text>SBL does not support creating models from more than one separate mesh.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblSteinbichlerScanner</Keyword>
+      <Text>Steinbichler scanner: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblPleaseRecalibrateAxes</Keyword>
+      <Text>Warning: Please recalibrate axes!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblPleaseReplaceFilterPads1</Keyword>
+      <Text>
+        Warning: Please replace the filter pads!
+        The recommended operating hours are exceeded by {0} hours already.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblPleaseReplaceFilterPads2</Keyword>
+      <Text>
+        Warning: Please replace the filter pads!
+        The recommended operating hours are exceeded.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorNoAxisPositionsConfigured</Keyword>
+      <Text>Error: no axis positions configured for given scanType and connected scannerType!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorPositionsForUserCalibrationInvalid</Keyword>
+      <Text>Error: the axis positions configuration for user calibration is invalid!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAxisCalibrationFailedExceededValue</Keyword>
+      <Text>Error: the axis calibration failed due to exceeded quality value!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAxisCalibrationFailedLowFillFactor</Keyword>
+      <Text>Error: the axis calibration failed due to too low fill factor!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorAxisCalibrationFailedLowOverlap</Keyword>
+      <Text>Error: the axis calibration failed due to too low overlap!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblErrorStandardDeviationMatchingExceeded</Keyword>
+      <Text>
+        The standard deviation from matching exceeded the allowed threshold!
+        System needs recalibration.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblSteinbichlerDongleIssue</Keyword>
+      <Text>
+        Steinbichler dongle issue:
+        Either no dongle was found or there is no free license!
+        Please plug in the Steinbichler dongle or obtain a valid license.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblHardwareProblems</Keyword>
+      <Text>
+        The hardware could not be initialized or there is a misconfiguration:
+        Probably the scanner is not switched on or cables/scanner are not connected appropriately or have a defect!
+        Please  ensure that the scanner is switched on and check cables/scanner.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCommunicationWithSensorFailed</Keyword>
+      <Text>
+        The communication with the sensor could not be established:
+        Probably the scanner is not switched on or cables/scanner are not connected appropriately or have a defect!
+        Please  ensure that the scanner is switched on and check cables/scanner.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblDirNotExist</Keyword>
+      <Text>Directory does not exist.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblPleaseReplaceLamp1</Keyword>
+      <Text>
+        Warning: Please replace the lamp!
+        The recommended operating hours are exceeded by {0} hours already.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblPleaseReplaceLamp2</Keyword>
+      <Text>
+        Warning: Please replace the lamp!
+        The recommended operating hours are exceeded.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReplaceLampIgnore</Keyword>
+      <Text>Ignore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReplaceLampDone</Keyword>
+      <Text>Done</Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblReplaceLampInfo</Keyword>
+      <Text>
+        The recommended operating hours for lamp are exceeded!
+        Please turn the device off and replace the lamp as described in the user manual.
+        If already done so, please confirm.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>sblCheckIfLampMustBeReplacedCrashed</Keyword>
+      <Text>Check if lamp shall be replaced crashed</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

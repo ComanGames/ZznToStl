@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<ScannerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScanStrategies>
+
+    <ScanStrategy ScanType="ArticulatorPlate">
+      <ScanPosition a="0" b="-20" />
+      <ScanPosition a="15" b="-20" />
+      <ScanPosition a="-15" b="-20" />
+      <ScanPosition a="0" b="0" />
+      <ScanPosition a="0" b="15" />
+      <ScanPosition a="0" b="30" />
+      <ScanPosition a="10" b="35" />
+      <ScanPosition a="-10" b="35" />
+      <ScanPosition a="40" b="60" />
+      <ScanPosition a="-40" b="60" />
+      <ScanPosition a="180" b="-35" />
+      <ScanPosition a="160" b="-35" />
+      <ScanPosition a="140" b="-35" />
+      <ScanPosition a="-160" b="-35" />
+      <ScanPosition a="-140" b="-35" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="StandardScan">
+      <ScanPosition a="180" b="20" />
+      <ScanPosition a="180" b="-20" />
+      <ScanPosition a="90" b="-20" />
+
+      <ScanPosition a="0" b="-20" />
+      <ScanPosition a="-90" b="-20" />
+      <ScanPosition a="-180" b="-55" />
+
+      <ScanPosition a="-135" b="-55" />
+      <ScanPosition a="-60" b="-55" />
+      <ScanPosition a="60" b="-55" />
+
+      <ScanPosition a="135" b="-55" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="VestibularRegistrationScan">
+      <ScanPosition a="180" b="-70" />
+      <ScanPosition a="140" b="-70" />
+      <ScanPosition a="-140" b="-70" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="Impression">
+      <ScanPosition a="165" b="10" />
+      <ScanPosition a="135" b="10" />
+      <ScanPosition a="105" b="10" />
+      <ScanPosition a="75" b="10" />
+      <ScanPosition a="45" b="10" />
+      <ScanPosition a="15" b="10" />
+      <ScanPosition a="-15" b="10" />
+      <ScanPosition a="-45" b="10" />
+      <ScanPosition a="-75" b="10" />
+      <ScanPosition a="-105" b="10" />
+      <ScanPosition a="-135" b="10" />
+      <ScanPosition a="-165" b="10" />
+
+      <ScanPosition a="-165" b="-20" />
+      <ScanPosition a="-135" b="-20" />
+      <ScanPosition a="-105" b="-20" />
+      <ScanPosition a="-75" b="-20" />
+      <ScanPosition a="-45" b="-20" />
+      <ScanPosition a="-15" b="-20" />
+      <ScanPosition a="15" b="-20" />
+      <ScanPosition a="45" b="-20" />
+      <ScanPosition a="75" b="-20" />
+      <ScanPosition a="105" b="-20" />
+      <ScanPosition a="135" b="-20" />
+      <ScanPosition a="165" b="-20" />
+
+
+      <ScanPosition a="150" b="-35" />
+      <ScanPosition a="120" b="-35" />
+      <ScanPosition a="90" b="-35" />
+      <ScanPosition a="60" b="-35" />
+      <ScanPosition a="30" b="-35" />
+      <ScanPosition a="0" b="-35" />
+      <ScanPosition a="-30" b="-35" />
+      <ScanPosition a="-60" b="-35" />
+      <ScanPosition a="-90" b="-35" />
+      <ScanPosition a="-120" b="-35" />
+      <ScanPosition a="-150" b="-35" />
+      <ScanPosition a="-180" b="-35" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="ContactPointScan">
+      <ScanPosition a="0" b="-70" />
+      <ScanPosition a="45" b="-70" />
+      <ScanPosition a="90" b="-70" />
+      <ScanPosition a="135" b="-70" />
+      <ScanPosition a="180" b="-70" />
+      <ScanPosition a="225" b="-70" />
+      <ScanPosition a="270" b="-70" />
+      <ScanPosition a="315" b="-70" />
+    </ScanStrategy>
+
+    
+  </ScanStrategies>
+</ScannerConfiguration>
+  

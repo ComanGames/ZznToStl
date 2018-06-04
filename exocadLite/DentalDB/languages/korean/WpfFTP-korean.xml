@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>TotalProgress</Keyword>
+      <Text>업로드 진행률</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaitForConnection</Keyword>
+      <Text>서버에 연결하고 있습니다. 잠시만 기다려 주십시오...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToUpload</Keyword>
+      <Text>업로드할 파일을 선택하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMessageFromServer</Keyword>
+      <Text>서버 오류:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCodeFromServer</Keyword>
+      <Text>서버 오류 코드:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UsernamePasswordWindow</Keyword>
+      <Text>자격</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.ChangeUserPass</Keyword>
+      <Text>사용자명/비밀번호 변경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.IncompleteTransfer</Keyword>
+      <Text>오류 - 일부 파일이 변환에 실패하였습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AfterWait</Keyword>
+      <Text>재 시도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.ConfigMissing</Keyword>
+      <Text>FTP-구성 파일이 존재하지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BaseDirMissing</Keyword>
+      <Text>이 작업 폴더는 존재하지 않습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.RetryCountExceeded</Keyword>
+      <Text>
+        업로드에 실패하였습니다.
+        인터넷 설정을 확인하십시오.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Username</Keyword>
+      <Text>사용자명:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Password</Keyword>
+      <Text>비밀번호:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.RememberPassword</Keyword>
+      <Text>비밀번호 저장</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupText</Keyword>
+      <Text>사용자명을 등록하지 않았습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.SignupLinkDescription</Keyword>
+      <Text>가입하려면 여기를 클릭하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.EnterUsernamePassword</Keyword>
+      <Text>사용자명/비밀번호</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.150</Keyword>
+      <Text>ftp 오류 150</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.Code.502</Keyword>
+      <Text>명령이 실행되지 않았습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.BeginFileUpload</Keyword>
+      <Text>파일 업로드 시작...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.FileUploaded</Keyword>
+      <Text>파일 업로드 완료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Header</Keyword>
+      <Text>확인 취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.AskAbort.Message</Keyword>
+      <Text>업로드를 취소합니다. 취소하려면 '예'를 클릭하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.Wait</Keyword>
+      <Text></Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.StartTry</Keyword>
+      <Text>서버 접속 시도 횟 수:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.from</Keyword>
+      <Text>발신자</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TemporaryFailure</Keyword>
+      <Text>업로드 실패: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.PermanentError</Keyword>
+      <Text>오류</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.NoResponse</Keyword>
+      <Text>서버에서 응답이 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.UserAbort</Keyword>
+      <Text>사용자가 업로드를 취소하였습니다!!!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.Messages.TranserComplete</Keyword>
+      <Text>업로드 성공!!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Header</Keyword>
+      <Text>WpfFTP-시작...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Start</Keyword>
+      <Text>시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.MainWindow.Buttons.Close</Keyword>
+      <Text>닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Header</Keyword>
+      <Text>전송 상태 창</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.AbortUpload</Keyword>
+      <Text>업로드 취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.ShowDetail</Keyword>
+      <Text>상세 내용 &gt;&gt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FTPStateVisualizerWindow.Buttons.HideDetail</Keyword>
+      <Text>상세 내용 &lt;&lt;</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Header</Keyword>
+      <Text>사용가능한 필터</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.UI.FilterVisualizerWindow.Buttons.StartUpload</Keyword>
+      <Text>업로드 시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded</Keyword>
+      <Text>이 파일은 이미 서버에 존재합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain</Keyword>
+      <Text>다시 업로드합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.UploadAgain.Description</Keyword>
+      <Text>이 파일을 다시 업로드하였습니다. 기존 파일을 덮어 씌어 졌습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload</Keyword>
+      <Text>업로드 취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WpfFTP.DataAlreadyUploaded.AbortUpload.Description</Keyword>
+      <Text>업로드가 취소되었습니다.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

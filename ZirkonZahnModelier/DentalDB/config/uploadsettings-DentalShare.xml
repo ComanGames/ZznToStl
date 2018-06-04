@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DentalshareUploadSettings>
+  <UseFTPCredentialsForDentalShare>false</UseFTPCredentialsForDentalShare>  
+  <FilterGroup Preselected="true">
+    <Keyword>CADDesignData</Keyword>
+    <FilterDefinition Required="true">*_cad.%{meshes_cad}</FilterDefinition>
+    <FilterDefinition Required="true">*.dentalProject</FilterDefinition>
+    <FilterDefinition Required="true">*.constructionInfo</FilterDefinition>
+    <FilterDefinition>*.iges</FilterDefinition>
+  </FilterGroup>
+  <FilterGroup>
+    <Keyword>ScanAndCADDesignData</Keyword>
+    <FilterDefinition Required="true">*.%{meshes}</FilterDefinition>
+    <FilterDefinition>*.%{pointclouds}</FilterDefinition>
+    <FilterDefinition Required="true">*.dentalProject</FilterDefinition>
+    <FilterDefinition Required="true">*.constructionInfo</FilterDefinition>
+    <FilterDefinition>*.iges</FilterDefinition>
+    <FilterDefinition>*.implantPosition</FilterDefinition>
+    <FilterDefinition>*.implantReference</FilterDefinition>
+    <FilterDefinition>*.scanInfo</FilterDefinition>
+    <FilterDefinition>*.matrix4</FilterDefinition>
+    <FilterDefinition>itero_export*.xml</FilterDefinition>
+  </FilterGroup>
+  <FilterGroup>
+    <Keyword>Scenes</Keyword>
+    <FilterDefinition Required="true">*.dentalCAD</FilterDefinition>
+  </FilterGroup>
+  <FilterGroup Preselected="true">
+    <Keyword>Screenshots</Keyword>
+    <FilterDefinition>*.png</FilterDefinition>
+    <FilterDefinition>*.jpg</FilterDefinition>
+    <FilterDefinition>*.jpeg</FilterDefinition>
+  </FilterGroup>   
+</DentalshareUploadSettings>
+

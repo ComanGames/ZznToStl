@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>DentalShareImportEnabled</Keyword>
+      <Text>dentalshare Project-Import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.OverwriteAll</Keyword>
+      <Text>Overwrite all data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.OverwriteAll.Description</Keyword>
+      <Text>Backup of existing data will be created, then the data will be overriden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.OverwriteSelected</Keyword>
+      <Text>Overwrite only selected data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.OverwriteSelected.Description</Keyword>
+      <Text>You can choose which data to override. Backup of data to override will be created.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FilesAlreadyExist.Cancel.Description</Keyword>
+      <Text>Project import will be postponed. To restart the import again please restart the DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.FileList</Keyword>
+      <Text>Already existent data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.SelectFilesDescription</Keyword>
+      <Text>Data for the project are already existing.
+Please select data you want to override.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.SelectFilesDescription.Title</Keyword>
+      <Text>dentalshare - conflict resolving</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.OverrideAll</Keyword>
+      <Text>Override all files</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.OverrideAll.Description</Keyword>
+      <Text>All files will be overwritten. Previous versions will be backed up</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.OverrideSelected</Keyword>
+      <Text>Override selected files only</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.OverrideSelected.Description</Keyword>
+      <Text>Override selected files only. Previous versions will be backed up.
+Warning! This may lead to unexpected behavior of DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.CopyNewOnly</Keyword>
+      <Text>Do not overwrite existing files</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.CopyNewOnly.Description</Keyword>
+      <Text>Only added files will be imported.
+Warning! This may lead to unexpected behavior of DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExistingFiles.Cancel.Description</Keyword>
+      <Text>Project import will be postponed. To restart the import again please restart the DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareFileNameTooLongError</Keyword>
+      <Text>Error: Import error ( file name too long). Consider moving dental-share incoming directory.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareNoTargetUsers</Keyword>
+      <Text>Sorry, there's nobody you could send data to. To connect to other dentalshare users, log in to the dentalshare web interface, and specify their username there.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareUpload.NoGroupSpecified</Keyword>
+      <Text>No group is specified in dentalshare settings. Please contact your distributor for details.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareSigningIn</Keyword>
+      <Text>Signing in...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SignIn</Keyword>
+      <Text>Sign in</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.NoAccountCreateAccount</Keyword>
+      <Text>create new account</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SignInOrStartup</Keyword>
+      <Text>Sign me in automatically</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Username</Keyword>
+      <Text>User name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Password</Keyword>
+      <Text>Password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Signout</Keyword>
+      <Text>Sign out...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ManageAccount</Keyword>
+      <Text>Manage account...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Group</Keyword>
+      <Text>Configured group</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Dongle</Keyword>
+      <Text>Dongle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.DesiredLogin</Keyword>
+      <Text>Desired login</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Password</Keyword>
+      <Text>Password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.PasswordConfirmation</Keyword>
+      <Text>Repeat password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Email</Keyword>
+      <Text>Email address</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.EmailConfirmation</Keyword>
+      <Text>Repeat email</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Name</Keyword>
+      <Text>Your or your lab's name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Description</Keyword>
+      <Text>Your description</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.Homepage</Keyword>
+      <Text>Homepage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.CreateAccount</Keyword>
+      <Text>Create account</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.InvalidUsername</Keyword>
+      <Text>User name may only contain latin characters (a-z), digits (0-9), dot ('.') and minus sign ('-')</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.InvalidPassword</Keyword>
+      <Text>Your passwords do not match</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.InvalidEmail</Keyword>
+      <Text>Your email addresses do not match or email address not valid</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FindoutMore</Keyword>
+      <Text>find out more</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.or</Keyword>
+      <Text>or</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.DontHaveAccount</Keyword>
+      <Text>Do not have a dentalshare account yet?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ForgotPassword</Keyword>
+      <Text>Forgot your password?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.LoginFailed</Keyword>
+      <Text>Login to dentalshare has failed. Please make sure that:
+
+- The username and password you entered are correct
+- You have accepted the dentalshare Terms &amp; Conditions
+- The group configuration matches your account</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.ConnectionError</Keyword>
+      <Text>Sorry, unable to connect to dentalshare server. Please try
+again later</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.UnknownGroup</Keyword>
+      <Text>Sorry, configured dentalshare group was not found. Please
+contact technical support</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.SignupForGroupProhibited</Keyword>
+      <Text>Sorry, self-signup to dentalshare is not allowed for group
+{0}. Please contact your software vendor to get access to
+dentalshare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.LoginInUse</Keyword>
+      <Text>Sorry, your desired user name is already
+taken. Please chose another one</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.Password2Weak</Keyword>
+      <Text>Sorry, Password too weak. Please use a
+longer password</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.IllegalMiscData</Keyword>
+      <Text>Sorry, some of the data you entered is invalid. Please
+correct</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.MiscProblems</Keyword>
+      <Text>Misc. problem occurred</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.InvalidDongleId</Keyword>
+      <Text>Sorry, you can't use dentalshare with this dongle. Contact
+technical support for assistance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.GroupDongleMismatch</Keyword>
+      <Text>Sorry, the dongle you're using can't be used with dentalshare group
+{0}. Please contact technical support</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.InvalidDongleMaintenanceContract</Keyword>
+      <Text>Sorry, you can't use dentalshare because there's no service contract for
+your software license. Please contact customer support for further info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.InvalidUsername</Keyword>
+      <Text>Sorry, your desired user name is invalid. Please chose another one</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.InvalidEmail</Keyword>
+      <Text>Sorry, your email address is invalid. Please chose another one</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.RegistrationSucceeded</Keyword>
+      <Text>Thank you! You will receive further information by email.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.NoDongle</Keyword>
+      <Text>Please insert dongle and try again</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.EmptyDescription</Keyword>
+      <Text>Please fill the field "Your description"</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.EmptyName</Keyword>
+      <Text>Please provide your or your lab's name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SecurityConfigurationProblem</Keyword>
+      <Text>The Windows security configuration prevents dentalshare usage.
+
+Do you wish to see additional tips on how to resolve this issue?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SecurityConfigurationProblem.Title</Keyword>
+      <Text>dentalshare not installed correctly</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SecurityConfigurationProblem.Yes</Keyword>
+      <Text>Yes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.SecurityConfigurationProblem.No</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.InvalidHomepage</Keyword>
+      <Text>Please input valid URL for homepage or leave the field blank</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareUploadIncompatibleVersionDetected</Keyword>
+      <Text>An incompatible version of dentalshare is still running. 
+Please exit the old version by right-clicking on the arrow icon in the task bar, and selecting 'Exit dentalshare' in the menu. 
+The correct version of the client will start automatically</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareEmptyContactList</Keyword>
+      <Text>You don't have any contacts on dentalshare to which you could send the data.
+
+Login to the dentalshare web interface and use the 'CONTACTS' tab to connect to your partners. If you don't know their dentalshare username yet, ask them for it, or give them yours, so that they can connect to you!
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareEmptyContactListHeader</Keyword>
+      <Text>No available dentalshare contacts yet!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareEmptyContactListGotoDentalShare</Keyword>
+      <Text>Go to the dentalshare web interface now</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareLoginFailedCheckInternetConnection</Keyword>
+      <Text>Cannot connect to dentalshare. Please check your internet connenction and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareLoginGenericError</Keyword>
+      <Text>An error occurred while connecting to dentalshare.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareServiceNotStarted</Keyword>
+      <Text>Dental share upload could not be started.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.Registration</Keyword>
+      <Text>Registration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.MailMismatch</Keyword>
+      <Text>The mail address does not match.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Registration.NameRequired</Keyword>
+      <Text>Lab's name require.d</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentalshare.SigninError</Keyword>
+      <Text>Registration failed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>dentalshare.WorkParamsDataDownloadError</Keyword>
+      <Text>An error occured validating material configuration data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareFileVerificationFailedRestartToContinue</Keyword>
+      <Text>Unable to check whether project {0} is ready for import.
+Please restart the DentalDB to rerun the check.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

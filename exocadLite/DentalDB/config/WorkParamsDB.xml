@@ -1,0 +1,3989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkParameterDB>
+  <Materials>
+    <MaterialProperties>
+      <MaterialProperty>
+        <ShortName>Color</ShortName>
+      </MaterialProperty>
+    </MaterialProperties>
+    <MaterialList>
+      <Material>
+        <ShortName>None</ShortName>
+      </Material>
+      <Material>
+        <ShortName>Healthy</ShortName>
+      </Material>
+      <Material>
+        <ShortName>NP</ShortName>
+      </Material>
+      <Material>
+        <ShortName>NP_L</ShortName>
+      </Material>
+      <Material>
+        <ShortName>PMMA</ShortName>
+      </Material>
+      <Material>
+        <ShortName>COMP</ShortName>
+        <MaterialParameters>
+          <MaterialParameter MatPropId="Color">
+            <MaterialParameterValues>
+              <Values>
+                <Value>A</Value>
+                <Value>B</Value>
+                <Value>C</Value>
+              </Values>
+            </MaterialParameterValues>
+            <DefaultValue>A</DefaultValue>
+          </MaterialParameter>
+        </MaterialParameters>
+      </Material>
+      <Material>
+        <ShortName>ZI_3ax</ShortName>
+        <MaterialParameters>
+          <MaterialParameter MatPropId="Color">
+            <MaterialParameterValues>
+              <MaterialParameterCategory>
+                <ShortName>A</ShortName>
+                <Values>
+                  <Value>A1</Value>
+                  <Value>A2</Value>
+                  <Value>A3</Value>
+                  <Value>A3.5</Value>
+                  <Value>A4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>B</ShortName>
+                <Values>
+                  <Value>B1</Value>
+                  <Value>B2</Value>
+                  <Value>B3</Value>
+                  <Value>B4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>C</ShortName>
+                <Values>
+                  <Value>C1</Value>
+                  <Value>C2</Value>
+                  <Value>C3</Value>
+                  <Value>C4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>D</ShortName>
+                <Values>
+                  <Value>D2</Value>
+                  <Value>D3</Value>
+                  <Value>D4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName></ShortName>
+                <Values>
+                  <Value>---</Value>
+                </Values>
+              </MaterialParameterCategory>
+            </MaterialParameterValues>
+            <DefaultValue>---</DefaultValue>
+          </MaterialParameter>
+        </MaterialParameters>
+      </Material>
+      <Material>
+        <ShortName>NP_3ax</ShortName>
+      </Material>
+      <Material>
+        <ShortName>PMMA_3ax</ShortName>
+      </Material>
+      <Material>
+        <ShortName>COMP_3ax</ShortName>
+        <MaterialParameters>
+          <MaterialParameter MatPropId="Color">
+            <MaterialParameterValues>
+              <Values>
+                <Value>A</Value>
+                <Value>B</Value>
+                <Value>C</Value>
+              </Values>
+            </MaterialParameterValues>
+            <DefaultValue>A</DefaultValue>
+          </MaterialParameter>
+        </MaterialParameters>
+      </Material>
+      <Material>
+        <ShortName>ZI</ShortName>
+        <MaterialParameters>
+          <MaterialParameter MatPropId="Color">
+            <MaterialParameterValues>
+              <MaterialParameterCategory>
+                <ShortName>A</ShortName>
+                <Values>
+                  <Value>A1</Value>
+                  <Value>A2</Value>
+                  <Value>A3</Value>
+                  <Value>A3.5</Value>
+                  <Value>A4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>B</ShortName>
+                <Values>
+                  <Value>B1</Value>
+                  <Value>B2</Value>
+                  <Value>B3</Value>
+                  <Value>B4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>C</ShortName>
+                <Values>
+                  <Value>C1</Value>
+                  <Value>C2</Value>
+                  <Value>C3</Value>
+                  <Value>C4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName>D</ShortName>
+                <Values>
+                  <Value>D2</Value>
+                  <Value>D3</Value>
+                  <Value>D4</Value>
+                </Values>
+              </MaterialParameterCategory>
+              <MaterialParameterCategory>
+                <ShortName></ShortName>
+                <Values>
+                  <Value>---</Value>
+                </Values>
+              </MaterialParameterCategory>
+            </MaterialParameterValues>
+            <DefaultValue>---</DefaultValue>
+          </MaterialParameter>
+        </MaterialParameters>
+      </Material>
+      <Material>
+        <ShortName>priticrown</ShortName>
+      </Material>
+    </MaterialList>
+  </Materials>
+  <WorkTypes>
+    <NumericParameters>
+      <NumericParameterEnumerative>
+        <ShortName>VirtualGingivaDesignMode</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <PossibleValues>
+          <Value Keyword="ExpertMode">1</Value>
+          <Value Keyword="Wizard">2</Value>
+          <Value Keyword="WizardRequired">3</Value>
+        </PossibleValues>
+      </NumericParameterEnumerative>
+      <NumericParameter>
+        <ShortName>Shrinking</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MinThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.3</DefaultValue>
+        <MinValue>0.3</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapStart</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapEnd</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownAdditionalSpacingZ</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.02</DefaultValue>
+        <MinValue>-0.5</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownAdditionalSpacingX</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.02</DefaultValue>
+        <MinValue>-0.5</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderHorizontalSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.2</DefaultValue>
+        <MinValue>0.1</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderAngledSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderAngle</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>90</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>°</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CrownBorderVerticalSize</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MillingDiameter</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>1.5</MaxValue>
+        <StepSize>0.05</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MillingMachineAxes</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit></Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>ConnectorArea</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>6</DefaultValue>
+        <MinValue>6</MinValue>
+        <MaxValue>30</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>InlayThicknessRunOutDistance</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>OverpressMinThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>3</DefaultValue>
+        <MinValue>3</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>OverpressAdditionalSpacing</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>DistanceToAntagonist</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>DistanceToGingiva</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>-1</DefaultValue>
+        <MinValue>-1</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>CementGapThickness</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.08</DefaultValue>
+        <MinValue>0.02</MinValue>
+        <MaxValue>0.1</MaxValue>
+        <StepSize>0.005</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>UntouchableZoneNearPreparationMargin</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.1</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>TelescopeMillingDiameterFriction</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1.1</DefaultValue>
+        <MinValue>1.1</MinValue>
+        <MaxValue>3</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBlockOutAngle</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>50</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBlockOutOffset</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.03</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>4</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintTopDesiredImpressionDepth</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.4</DefaultValue>
+        <MinValue>-1</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintMaxAllowedUndercut</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.1</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>0.5</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintThicknessOcclusal</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>2.5</DefaultValue>
+        <MinValue>0.4</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintThicknessPeripheral</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>0.4</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintBottomMorphologicalClosureRadius</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>5</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>BiteSplintTopMorphologicalClosureRadius</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>3</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>10</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>ProvisionalCrownShoulderWidth</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0.5</DefaultValue>
+        <MinValue>0.1</MinValue>
+        <MaxValue>2</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit></Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>ProvisionalCrownTaperSlope</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>0</MinValue>
+        <MaxValue>30</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>°</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>ProvisionalCrownShoulderSlope</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>1</DefaultValue>
+        <MinValue>-30</MinValue>
+        <MaxValue>30</MaxValue>
+        <StepSize>0.1</StepSize>
+        <Unit>°</Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>AdditionalBlockOutAngleAfterCementGap</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DefaultValue>0</DefaultValue>
+        <MinValue>-1</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>1</StepSize>
+        <Unit></Unit>
+      </NumericParameter>
+      <NumericParameter>
+        <ShortName>MinThicknessGingivaDesign</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>true</AdvancedParameter>
+        <DefaultValue>0.4</DefaultValue>
+        <MinValue>0.2</MinValue>
+        <MaxValue>1</MaxValue>
+        <StepSize>0.01</StepSize>
+        <Unit>mm</Unit>
+      </NumericParameter>
+    </NumericParameters>
+    <TextualParameters>
+      <TextualParameter>
+        <ShortName>ImplantType</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DependentParameterList>
+          <DependentTextualParameter>
+            <ShortName>MaterialAbutment</ShortName>
+            <ValueGroup valueId="CustomAbutment">
+              <Value>NP</Value>
+              <Value>NP_L</Value>
+              <Value>ZI</Value>
+              <Value>PMMA</Value>
+              <Value>COMP</Value>
+            </ValueGroup>
+            <ValueGroup valueId="CustomAbutmentManual">
+              <Value>NP</Value>
+              <Value>NP_L</Value>
+              <Value>ZI</Value>
+              <Value>PMMA</Value>
+              <Value>COMP</Value>
+            </ValueGroup>
+          </DependentTextualParameter>
+          <DependentTextualParameter>
+            <ShortName>ScanAbutmentScan</ShortName>
+            <HiddenFromUser>true</HiddenFromUser>
+            <ValueGroup valueId="CustomAbutment">
+              <Value>true</Value>
+            </ValueGroup>
+            <ValueGroup valueId="None">
+              <Value>false</Value>
+            </ValueGroup>
+            <ValueGroup valueId="WithoutAbutment">
+              <Value>true</Value>
+            </ValueGroup>
+            <ValueGroup valueId="CustomAbutmentManual">
+              <Value>false</Value>
+            </ValueGroup>
+            <ValueGroup valueId="WithoutAbutmentManual">
+              <Value>false</Value>
+            </ValueGroup>
+          </DependentTextualParameter>
+        </DependentParameterList>
+        <TextualParameterValues>
+          <Values>
+            <Value>None</Value>
+            <Value>CustomAbutment</Value>
+            <Value>WithoutAbutment</Value>
+            <Value>CustomAbutmentManual</Value>
+            <Value>WithoutAbutmentManual</Value>
+            <Value>SubstructureScan</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>None</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>SituScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>false</Value>
+            <Value>true</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>false</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>SeparateGingivaScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>false</Value>
+            <Value>true</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>false</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>PreparationType</ShortName>
+        <HiddenFromUser>true</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <TextualParameterValues>
+          <Values>
+            <Value>Crown</Value>
+            <Value>Inlay</Value>
+            <Value>Pontic</Value>
+            <Value>Missing</Value>
+            <Value>Healthy</Value>
+            <Value>Antagonist</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>Crown</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>AestheticPlateScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <DependentParameterList />
+        <TextualParameterValues>
+          <Values>
+            <Value>true</Value>
+            <Value>false</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>true</DefaultValue>
+      </TextualParameter>
+      <TextualParameter>
+        <ShortName>SeparateWaxupScan</ShortName>
+        <HiddenFromUser>false</HiddenFromUser>
+        <AdvancedParameter>false</AdvancedParameter>
+        <UseLastSelectedValueAsDefaultInProject>true</UseLastSelectedValueAsDefaultInProject>
+        <DependentParameterList />
+        <TextualParameterValues>
+          <Values>
+            <Value>true</Value>
+            <Value>false</Value>
+          </Values>
+        </TextualParameterValues>
+        <DefaultValue>true</DefaultValue>
+      </TextualParameter>
+
+    </TextualParameters>
+    <WorkTypeList>
+      <WorkType>
+        <ShortName>Coping</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>1.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <MinValue>0.01</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>BarPillar</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>1.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <MinValue>0.01</MinValue>
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <MinValue>0.01</MinValue>
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicCrown</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>OffsetCoping</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToAntagonist">
+            <Value>0.8</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>1.5</MinValue>
+                <Value>1.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>OverpressCrown</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>1.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressMinThickness">
+            <MaxValue>3</MaxValue>
+            <MinValue>0.4</MinValue>
+            <StepSize>0.1</StepSize>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressAdditionalSpacing">
+            <MaxValue>0.2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>ReducedPontic</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="Shrinking" />
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes" />
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes" />
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes" />
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes" />
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BarSegment</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="Shrinking" />
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicPontic</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP" />
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI" />
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>Attachment</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <MinValue>0.5</MinValue>
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="DistanceToGingiva" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="DistanceToGingiva">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP" />
+          <Material Id="PMMA" />
+          <Material Id="PMMA_3ax" />
+          <Material Id="NP_3ax" />
+          <Material Id="ZI_3ax" />
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>OverpressPontic</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="Shrinking">
+            <Value>1.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressMinThickness">
+            <MinValue>0.4</MinValue>
+            <StepSize>0.1</StepSize>
+            <Value>0.5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="OverpressAdditionalSpacing">
+            <MaxValue>0.2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicInlay</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="InlayThicknessRunOutDistance">
+            <Value>0.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>Veneer</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="InlayThicknessRunOutDistance">
+            <Value>0.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+            <MaxValue>1</MaxValue>
+            <Value>0.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.2</MinValue>
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.2</MinValue>
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>OffsetInlay</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="InlayThicknessRunOutDistance">
+            <Value>0.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Inlay</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>PrimaryTelescope</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="TelescopeMillingDiameterFriction" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.6</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA" />
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+                <MinValue>0.5</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>AnatomicWaxup</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapStart">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>ReducedWaxup</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="Shrinking" />
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ" />
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX" />
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <MaxValue>2</MaxValue>
+            <Value>0.3</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <Value>60</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize">
+            <MaxValue>2</MaxValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="UntouchableZoneNearPreparationMargin" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <MinValue>0.5</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingDiameter">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.4</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CrownBorderHorizontalSize">
+                <MinValue>0.1</MinValue>
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.5</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>1.2</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0.1</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.4</MinValue>
+                <Value>0.6</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="Shrinking">
+                <Value>0.8</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="UntouchableZoneNearPreparationMargin">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="CementGapThickness">
+                <Value>0.08</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>MissingTooth</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ConnectorCanConnectThrough>true</ConnectorCanConnectThrough>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Missing</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="None" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>HealthyTooth</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Healthy" />
+        </MaterialList>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>Antagonist</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Antagonist</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="Healthy" />
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>BiteSplint</ShortName>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+        </MaterialList>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutOffset" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutAngle" />
+          <WorkTypeNumericParameter ParamId="BiteSplintMaxAllowedUndercut" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBottomMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessOcclusal" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessPeripheral" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopDesiredImpressionDepth" />
+        </WorkTypeNumericParameters>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>BiteSplintGap</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Missing</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+        </MaterialList>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutOffset" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBlockOutAngle" />
+          <WorkTypeNumericParameter ParamId="BiteSplintMaxAllowedUndercut" />
+          <WorkTypeNumericParameter ParamId="BiteSplintBottomMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessOcclusal" />
+          <WorkTypeNumericParameter ParamId="BiteSplintThicknessPeripheral" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopMorphologicalClosureRadius" />
+          <WorkTypeNumericParameter ParamId="BiteSplintTopDesiredImpressionDepth" />
+        </WorkTypeNumericParameters>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>WaxupPontic</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP" />
+          <Material Id="NP" />
+          <Material Id="PMMA" />
+          <Material Id="ZI" />
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_L">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="NP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <ExcludeInMultiDieMode>false</ExcludeInMultiDieMode>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameterEnumerative ParamId="VirtualGingivaDesignMode" />
+          <WorkTypeNumericParameter ParamId="MinThicknessGingivaDesign" />
+        </WorkTypeNumericParameters>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>PreManufacturedCrown</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingZ">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownAdditionalSpacingX">
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle">
+            <MinValue>20</MinValue>
+            <Value>65</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize">
+            <Value>0.19</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapStart">
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.04</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.2</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness">
+            <MinValue>0.8</MinValue>
+            <Value>1</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0.2</MinValue>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="CementGapEnd" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="ImplantType">
+            <Value>None</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SeparateWaxupScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Crown</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="priticrown" />
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>ProvisionalCrown</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownShoulderSlope" />
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownShoulderWidth" />
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownTaperSlope" />
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+          <WorkTypeNumericParameter ParamId="CementGapThickness">
+            <Value>0.05</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderHorizontalSize">
+            <MinValue>0</MinValue>
+            <Value>0</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="CrownBorderVerticalSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngledSize" />
+          <WorkTypeNumericParameter ParamId="CrownBorderAngle" />
+          <WorkTypeNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+            <Value>-1</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <Value>0.5</Value>
+                <MinValue>0.5</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MaxValue>2</MaxValue>
+                <Value>0.5</Value>
+                <MinValue>0.5</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+                <MinValue>0.4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <Value>0.5</Value>
+                <MinValue>0.4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MinThickness">
+                <MinValue>0.2</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="AdditionalBlockOutAngleAfterCementGap">
+                <Value>0</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+      </WorkType>
+      <WorkType>
+        <ShortName>ProvisionalPontic</ShortName>
+        <AutoConnector>true</AutoConnector>
+        <ConnectorPossible>true</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>true</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownShoulderSlope" />
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownShoulderWidth" />
+          <WorkTypeNumericParameter ParamId="ProvisionalCrownTaperSlope" />
+          <WorkTypeNumericParameter ParamId="MillingMachineAxes">
+            <Value>5</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="MillingDiameter">
+            <Value>1.4</Value>
+          </WorkTypeNumericParameter>
+          <WorkTypeNumericParameter ParamId="ConnectorArea">
+            <Value>9</Value>
+          </WorkTypeNumericParameter>
+        </WorkTypeNumericParameters>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="SeparateGingivaScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Healthy</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+        <MaterialList>
+          <Material Id="COMP" />
+          <Material Id="COMP_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="PMMA">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="ConnectorArea">
+                <MinValue>4</MinValue>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+          <Material Id="ZI" />
+          <Material Id="ZI_3ax">
+            <MaterialNumericParameters>
+              <MaterialNumericParameter ParamId="MillingMachineAxes">
+                <Value>3</Value>
+              </MaterialNumericParameter>
+            </MaterialNumericParameters>
+          </Material>
+        </MaterialList>
+      </WorkType>
+      <WorkType>
+        <ShortName>ProstheticTooth</ShortName>
+        <AutoConnector>false</AutoConnector>
+        <ConnectorPossible>false</ConnectorPossible>
+        <ImplantPossible>false</ImplantPossible>
+        <SeparateGingivaScanPossible>false</SeparateGingivaScanPossible>
+        <ExcludeInMultiDieMode>true</ExcludeInMultiDieMode>
+        <WorkTypeNumericParameters>
+          <WorkTypeNumericParameter ParamId="MillingDiameter" />
+          <WorkTypeNumericParameter ParamId="MinThickness" />
+        </WorkTypeNumericParameters>
+        <MaterialList>
+          <Material Id="PMMA" />
+        </MaterialList>
+        <RequiresAdvancedModule>false</RequiresAdvancedModule>
+        <WorkTypeTextualParameters>
+          <WorkTypeTextualParameter ParamId="AestheticPlateScan">
+            <Value>true</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="SituScan">
+            <Value>false</Value>
+          </WorkTypeTextualParameter>
+          <WorkTypeTextualParameter ParamId="PreparationType">
+            <Value>Pontic</Value>
+          </WorkTypeTextualParameter>
+        </WorkTypeTextualParameters>
+      </WorkType>
+    </WorkTypeList>
+  </WorkTypes>
+  <TreatmentParameterList>
+    <TreatmentParameter>
+      <ShortName>ToothColor</ShortName>
+      <TreatmentParameterValues>
+        <TreatmentParameterCategory>
+          <ShortName>Default</ShortName>
+          <Values>
+            <Value>A1</Value>
+            <Value>A2</Value>
+            <Value>A3</Value>
+            <Value>A3.5</Value>
+            <Value>A4</Value>
+            <Value>B1</Value>
+            <Value>B2</Value>
+            <Value>B3</Value>
+            <Value>B4</Value>
+            <Value>C1</Value>
+            <Value>C2</Value>
+            <Value>C3</Value>
+            <Value>C4</Value>
+            <Value>D2</Value>
+            <Value>D3</Value>
+            <Value>D4</Value>
+          </Values>
+        </TreatmentParameterCategory>
+      </TreatmentParameterValues>
+      <DefaultValue>A1</DefaultValue>
+      <DefaultValueOnBothJaws>A1</DefaultValueOnBothJaws>
+    </TreatmentParameter>
+    <TreatmentParameter>
+      <ShortName>AntagonistType</ShortName>
+      <TreatmentParameterValues>
+        <TreatmentParameterCategory>
+          <ShortName>Default</ShortName>
+          <Values>
+            <Value>MushBite</Value>
+            <Value disabledOnSingleJaw="true">RegisteredJaws</Value>
+            <Value disabledOnSingleJaw="true">ArticulatorPforzheim</Value>
+            <Value disabledOnSingleJaw="true">ArticulatorMunich</Value>
+            <Value disabledOnSingleJaw="true">ArticulatorBiberach</Value>
+            <Value>DigitalImpressionScan</Value>
+          </Values>
+        </TreatmentParameterCategory>
+      </TreatmentParameterValues>
+      <DefaultValue>MushBite</DefaultValue>
+    </TreatmentParameter>
+  </TreatmentParameterList>
+</WorkParameterDB>

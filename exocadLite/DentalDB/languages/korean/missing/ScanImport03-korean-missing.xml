@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport03.ModelOrderWarning</Keyword>
+      <Text>The imported case contains a model order. Use the 'Model Creator' button to design a model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Warning</Keyword>
+      <Text>WARNING:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissing</Keyword>
+      <Text>The provided value {0} for the reconstruction type was not found in the database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissing</Keyword>
+      <Text>Could not create a restoration from work type {0} and material {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JawModelScanNotDetected</Keyword>
+      <Text>No jaw scan found. Could not create the model project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UnknownScanFileTypeDetected</Keyword>
+      <Text>One or more scan files could not be proceeded as their type could not be resolved.
+This may lead to malfunction of the DentalCAD as scan data may be missing.
+File types: {0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

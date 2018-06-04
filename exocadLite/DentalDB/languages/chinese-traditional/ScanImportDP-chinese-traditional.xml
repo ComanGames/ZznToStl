@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <IncludeFiles></IncludeFiles>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNotDefinedAndCannotBeAutoset</Keyword>
+      <Text>導入該項目不包含客戶信息且DentalDB沒有被配置為椅旁模式/或者椅客戶沒有指定編號。項目編號{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientAddFailed</Keyword>
+      <Text>為病例{1}添加客戶時發生錯誤“{0}”。
+錯誤：{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch</Keyword>
+      <Text>導入的項目中指定的客戶名稱與DentalDB中的客戶名稱不匹配
+舊名稱：{0}
+新名稱：{1}
+請在下面選擇一個操作：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName</Keyword>
+      <Text>使用現有的名稱</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName.Description</Keyword>
+      <Text>存儲在DentalDB的客戶名稱將被使用。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject</Keyword>
+      <Text>使用新名稱</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject.Description</Keyword>
+      <Text>導入的項目文件中指定的客戶名稱將被使用。所有與此客戶有關的項目將被更新為新的名稱。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel</Keyword>
+      <Text>中止導入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel.Description</Keyword>
+      <Text>導入將被中止，但下次啟動DentalDB時您可以繼續導入。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.PatientAddFailed</Keyword>
+      <Text>為病例{2}添加患者名稱時發生錯誤姓“{0}”，名“{1}”。
+錯誤：{3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.MultidieProjectButMultidieDisabled</Keyword>
+      <Text>DentalDB多模盤模式，項目編號{0}。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ErrorMovingProjectFiles</Keyword>
+      <Text>無法移動項目數據項目{0}。錯誤：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.Notes.ShadeScheme</Keyword>
+      <Text>顏色系統：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.VCL</Keyword>
+      <Text>VITA經典比色板A1-D4®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.V3DM</Keyword>
+      <Text>Vita 3D Master®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.ToothProperties</Keyword>
+      <Text>牙齒{0}：{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Middle</Keyword>
+      <Text>牙體色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Incisal</Keyword>
+      <Text>切端色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Gingival</Keyword>
+      <Text>牙齦色</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

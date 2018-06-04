@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Zimmer Dental® Tapered Screw-Vent®</DisplayInformation>
+  <Producer>Zimmer Dental®</Producer>
+  <SystemName>Tapered Screw-Vent®</SystemName>
+  <ScrewFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/schrz.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Zimmer Dental® Tapered Screw-Vent®</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5 mm</DisplayInformation>
+      <Keyword>ZTS3.5mm</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1131</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1181/BSAF1181D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1181;BSAF1181D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.9762-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1131</LibraryIdentifier>/*<element>NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato</element>*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.9762-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1131</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5 mm White Scanmarker</DisplayInformation>
+      <Keyword>ZTS3.5mmMTmmk</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD1131</LibraryIdentifier>
+      <MarkerFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_wsmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.60-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1181/BSAF1181D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1181;BSAF1181D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.97620-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1131</LibraryIdentifier>/*<element>NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato</element>*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.97620-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/3.5_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1131</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5 mm</DisplayInformation>
+      <Keyword>ZTS4.5mm</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_4.5.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1132</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6002-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1182/BSAF1182D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1182;BSAF1182D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.9071-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1132</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.9071-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1132</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5 mm White Scanmarker</DisplayInformation>
+      <Keyword>ZTS4.5mmMTmmk</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_4.5.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1132</LibraryIdentifier>
+      <MarkerFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_wsmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.60020-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1182/BSAF1182D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1182;BSAF1182D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.90710-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1132</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.90710-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/4.5_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1132</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7 mm</DisplayInformation>
+      <Keyword>ZTS5.7mm</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_5.7.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1133</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.81-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1183/BSAF1183D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1183;BSAF1183D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.18-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1133</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>6.18-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1133</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.7 mm White Scanmarker</DisplayInformation>
+      <Keyword>ZTS5.7mmMTmmk</Keyword>
+      <ImplantFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_5.7.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1133</LibraryIdentifier>
+      <MarkerFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_wsmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.810-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF1183/BSAF1183D14</DisplayInformation>
+          <SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_hex_ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1183;BSAF1183D14</LibraryIdentifier>
+          <InterfaceFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/implant_3.5_5.7RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.180-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_hex_mc.stl</SupportFilename><LibraryIdentifier>BSAE1133</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>6.180-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../serie Z-ST_ZimmerTM-ScrewTaperedTM/5.7_nohex_mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1133</LibraryIdentifier>/*NOTA! La vite utilizzata è quella per zirconia a causa del diametro testa esiguo. Negli originali e nelle basi in titanio il problema non si pone perchè il foro passante è filettato*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

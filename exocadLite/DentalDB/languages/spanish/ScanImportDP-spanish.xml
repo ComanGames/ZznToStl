@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <IncludeFiles></IncludeFiles>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel</Keyword>
+      <Text>Cancelar importación</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName</Keyword>
+      <Text>Usar nombre existente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject</Keyword>
+      <Text>Usar nuevo nombre</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.Notes.ShadeScheme</Keyword>
+      <Text>Sistema de color: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.VCL</Keyword>
+      <Text>VITA clásico A1-D4®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeSheme.V3DM</Keyword>
+      <Text>Vita 3D Master®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.ToothProperties</Keyword>
+      <Text>Diente {0}: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Middle</Keyword>
+      <Text>M</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Incisal</Keyword>
+      <Text>I</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShadeScheme.Region.Gingival</Keyword>
+      <Text>G</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNotDefinedAndCannotBeAutoset</Keyword>
+      <Text>El proyecto a importar no contiene información de cliente y DentalDB no está configurado en modo consultorio y/o no se ha especificado ningun ChairSideClientId. ID de proyecto {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientAddFailed</Keyword>
+      <Text>Se ha producido un error al añadir el cliente '{0}' para el caso {1}.
+Error: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch</Keyword>
+      <Text>El nombre de cliente especificado en el proyecto a importar no se corresponde con el nombre del cliente de DentalDB. 
+Nombre anterior: {0} 
+Nombre nuevo: {1}
+Por favor elija una de las acciones siguientes:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseExistingName.Description</Keyword>
+      <Text>Se usará el nombre de cliente almacenado en DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.UseNameFromImportedProject.Description</Keyword>
+      <Text>Se usará el nombre de cliente especificado en el proyecto a importar. Todos los proyectos referentes a este cliente se actualizarán con los nuevos datos.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ClientNameMismatch.Cancel.Description</Keyword>
+      <Text>Se cancelará la importación, aunque podrá recuperar la importación en el próximo inicio de DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.PatientAddFailed</Keyword>
+      <Text>Se ha producido un error al añadir el paciente con apellido '{0}', nombre '{1}' para el caso {2}.
+Error: {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.MultidieProjectButMultidieDisabled</Keyword>
+      <Text>Se requiere la versión Multidie de DentalDB. ID de proyecto {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImportDP.ErrorMovingProjectFiles</Keyword>
+      <Text>No se han podido mover los datos para el proyecto {0}. Error: {1}</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed</Keyword>
+      <Text>チェックサムファイルのコピーに失敗しました。データ転送を継続しますか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue</Keyword>
+      <Text>データ転送を続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue.Description</Keyword>
+      <Text>チェックサムファイルを転送せずにジョブファイルをコピーします。データの整合性を検証することはできません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Abort</Keyword>
+      <Text>データ転送を中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingSucceded</Keyword>
+      <Text>コピー完了(エラーなし)。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingFailed</Keyword>
+      <Text>コピー完了(エラーあり)。
+エラーメッセージ詳細:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TransferDetails</Keyword>
+      <Text>ファイルコピーの詳細</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OneOrManyFilesNotCopiedOfOperationAbort</Keyword>
+      <Text>1つ以上のファイルがユーザーの取消し操作のためコピーされませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSums</Keyword>
+      <Text>ファイルのチェックサム確認中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSums.Description</Keyword>
+      <Text>ファイルのチェックサム計算開始</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished</Keyword>
+      <Text>ファイルのチェックサム確認終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ComputingFileCheckSumsFinished.Description</Keyword>
+      <Text>ファイルのチェックサム計算終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferStarted</Keyword>
+      <Text>ファイルのコピー開始</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferStarted.Description</Keyword>
+      <Text>ファイルのコピー中...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferFinished</Keyword>
+      <Text>ファイルのコピー終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferFinished.Description</Keyword>
+      <Text>ファイルのコピーが終了しました。詳細については出力を確認してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Information</Keyword>
+      <Text>情報</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning</Keyword>
+      <Text>警告</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.FileSelectionWindow.Header</Keyword>
+      <Text>ファイルの選択</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.ProgressWindow.Header</Keyword>
+      <Text>コピー中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferDestinationFolder</Keyword>
+      <Text>パス {0} にジョブデータをコピー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransferDestinationFolderCreationFailed</Keyword>
+      <Text>ディレクトリー{0}を作成できません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkFileTransferFailed</Keyword>
+      <Text>ディレクトリー{0}を作成できません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.ErrorLoadingConfigFile</Keyword>
+      <Text>パス '{1}'から設定ファイル'{0}'の読み込み時にエラーが発生しました。
+エラー詳細:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworCopying.NoValidUploadPathProvided</Keyword>
+      <Text>ネットワークコピー機能の設定が間違っています。 
+アップロードパスが未指定です。
+設定を修復するには、ソフトウェア·サプライヤにお問い合わせください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.NoValidConfigFileFound</Keyword>
+      <Text>ネットワークコピー機能の設定が間違っています。 
+設定ファイルが指定されていないか、存在しません。
+設定を修復するには、ソフトウェア·サプライヤにお問い合わせください。</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\NetworkCopying-japanese-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

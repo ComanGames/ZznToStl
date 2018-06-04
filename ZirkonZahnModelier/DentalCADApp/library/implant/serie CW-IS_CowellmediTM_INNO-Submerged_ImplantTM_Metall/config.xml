@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Cowellmedi® INNO-Submerged Implant®</DisplayInformation>
+  <Producer>Cowellmedi®</Producer>
+  <SystemName>INNO-Submerged Implant®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>cwimscr.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Cowellmedi® INNO-Submerged Implant® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Submerged type</DisplayInformation>
+      <Keyword>cwmdisi</Keyword>
+      <ImplantFilename>cwianl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD6931</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.39-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF6981 - BSAF6981D14</DisplayInformation>
+          <SupportFilename>cwihra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF6981;BSAF6981D14</LibraryIdentifier>
+          <InterfaceFilename>cwialra.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.4703-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>cwihmc.stl</SupportFilename><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.47031-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>cwinhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Submerged type White Scanmarker</DisplayInformation>
+      <Keyword>cwmdisimmk</Keyword>
+      <ImplantFilename>cwianl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD6931</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>cwimkrmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.391-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF6981 - BSAF6981D14</DisplayInformation>
+          <SupportFilename>cwihra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF6981;BSAF6981D14</LibraryIdentifier>
+          <InterfaceFilename>cwialra.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.47032-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>cwihmc.stl</SupportFilename><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.47032-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>cwinhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>Submerged type HDK</DisplayInformation><Keyword>cwmdisihdk</Keyword><ImplantFilename>cwianl.stl</ImplantFilename><LibraryIdentifier>6-1</LibraryIdentifier><RegistrationClickCenter><x>0.0</x><y>1.8</y><z>8.0</z></RegistrationClickCenter><MarkerFilename>cwi6-1.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.3901-Raw</Keyword><DisplayInformation>Hex Raw Abutment BSAF6981 - BSAF6981D14</DisplayInformation><SupportFilename>cwihra.stl</SupportFilename><LibraryIdentifier>BSAF6981;BSAF6981D14</LibraryIdentifier><InterfaceFilename>cwialra.stl</InterfaceFilename></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.47033-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>cwihmc.stl</SupportFilename><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.47033-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>cwinhmc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE6901</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

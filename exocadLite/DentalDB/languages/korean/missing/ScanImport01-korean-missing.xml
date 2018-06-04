@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport01.ErrorParsingMarginLineFile</Keyword>
+      <Text>An error occurred while reading the margin line file {0}.
+Error message:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorTransformingMarginLinePoint</Keyword>
+      <Text>An error occurred parsing the margin line data:
+File: {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ErrorStoringTransformedMarginLineData</Keyword>
+      <Text>An error occurred while storing the transformed margin line data to file {0}.
+Error message:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.ProjectMaterialDatabaseIncomplete</Keyword>
+      <Text>The material list in the iTero project is incomplete. Therefore the original material name cannot be determined.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Title</Keyword>
+      <Text>Please choose material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.Description</Keyword>
+      <Text>Different materials are specified in the iTero project for a tooth group listed below, although for each group only a single material can be used in DentalCAD. 
+Please choose a material for reconstructions.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.MaterialSelection.ChooseMaterial</Keyword>
+      <Text>In order to continue, you need to select a material for each tooth group.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+      <Text>Tooth {0}: The material defined in the project to import is not mapped. The default material will be used instead.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.iteroMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+      <Text>Tooth {0}: The material defined in the project to import is not mapped. The first material defined for the restoration will be used.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

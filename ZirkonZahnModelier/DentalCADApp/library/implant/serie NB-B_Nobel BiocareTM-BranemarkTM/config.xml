@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>0</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - NOT FOR PRODUCTION
+Compatible with Brånemark System® by Nobel Biocare®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm</DisplayInformation>
+      <Keyword>NBB3.5mm</Keyword>
+      <ImplantFilename>implant3.5.stl</ImplantFilename>
+      <ScrewFilename>screw_3.5.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0231</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5-OutHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>3.5_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50-OutHex</Keyword>
+          <DisplayInformation>Hex Flat Screw</DisplayInformation>
+          <SupportFilename>3.5_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5-OutNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>3.5_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw</DisplayInformation>
+          <SupportFilename>3.5_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.500-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw 1.5mm</DisplayInformation>
+          <SupportFilename>3.5_round1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5000-OutNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw (for bridges)</DisplayInformation>
+          <SupportFilename>3.5_round_bridgesCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50000-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw (for bridges)</DisplayInformation>
+          <SupportFilename>3.5_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.500000-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw (for bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>3.5_round_bridges1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0291 (Gold Plated)</DisplayInformation>
+          <SupportFilename>Parallel_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0291</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0281</DisplayInformation>
+          <SupportFilename>cemented_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0251.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0281</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L10</DisplayInformation>
+          <SupportFilename>Parallel_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L20</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L30</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L40</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231</DisplayInformation>
+          <SupportFilename>conical_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0281.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0241 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0241</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L10</DisplayInformation>
+          <SupportFilename>conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L20</DisplayInformation>
+          <SupportFilename>conical_3.5_L2.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L30</DisplayInformation>
+          <SupportFilename>conical_3.5_L3.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70000-Conical</Keyword><DisplayInformation>Conical BSAD0231L40</DisplayInformation><SupportFilename>conical_3.5_L4.stl</SupportFilename><ImplantFilename>implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.6-Parallel</Keyword><DisplayInformation>Parallel Narrow</DisplayInformation><SupportFilename>3.5_parallel_narrow.stl</SupportFilename>/*<ImplantFilename>implantPAR_FK3.5L4.stl</ImplantFilename>*/<GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface>/*<LibraryIdentifier>BSAB0291L40</LibraryIdentifier>*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.60-Conical</Keyword><DisplayInformation>Conical Narrow</DisplayInformation><SupportFilename>3.5_conical_narrow.stl</SupportFilename>/*<ImplantFilename>BSAD0281.stl</ImplantFilename>*/<IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface>/*<LibraryIdentifier>BSAD0231</LibraryIdentifier>*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB3.5mmk</Keyword>
+      <ImplantFilename>implant3.5.stl</ImplantFilename>
+      <ScrewFilename>screw_3.5.stl</ScrewFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD0201</LibraryIdentifier>
+      <MarkerFilename>3.5_SMm.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.501-OutHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>3.5_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5010-OutHex</Keyword>
+          <DisplayInformation>Hex Flat Screw</DisplayInformation>
+          <SupportFilename>3.5_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.501-OutNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>3.5_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5010-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw</DisplayInformation>
+          <SupportFilename>3.5_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5001-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw 1.5mm</DisplayInformation>
+          <SupportFilename>3.5_round1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50001-OutNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw (for bridges)</DisplayInformation>
+          <SupportFilename>3.5_round_bridgesCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.500001-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw (for bridges)</DisplayInformation>
+          <SupportFilename>3.5_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5000001-OutNohex</Keyword>
+          <DisplayInformation>No Hex Flat Screw (for bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>3.5_round_bridges1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0201</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0291 (Gold Plated)</DisplayInformation>
+          <SupportFilename>Parallel_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0291</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0281</DisplayInformation>
+          <SupportFilename>cemented_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0251.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0281</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L10</DisplayInformation>
+          <SupportFilename>Parallel_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L20</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L30</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7000001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0291L40</DisplayInformation>
+          <SupportFilename>Parallel_3.5_L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK3.5L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0291L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.601-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231</DisplayInformation>
+          <SupportFilename>conical_3.5.stl</SupportFilename>
+          <ImplantFilename>BSAD0281.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0241 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0241</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L10</DisplayInformation>
+          <SupportFilename>conical_3.5_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L20</DisplayInformation>
+          <SupportFilename>conical_3.5_L2.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0231L30</DisplayInformation>
+          <SupportFilename>conical_3.5_L3.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK3.5L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0231L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.700001-Conical</Keyword><DisplayInformation>Conical BSAD0231L40</DisplayInformation><SupportFilename>conical_3.5_L4.stl</SupportFilename><ImplantFilename>implantKON_FK3.5L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0231L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.601-Parallel</Keyword><DisplayInformation>Parallel Narrow</DisplayInformation><SupportFilename>3.5_parallel_narrow.stl</SupportFilename>/*<ImplantFilename>implantPAR_FK3.5L4.stl</ImplantFilename>*/<GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface>/*<LibraryIdentifier>BSAB0291L40</LibraryIdentifier>*/</ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.6010-Conical</Keyword><DisplayInformation>Conical Narrow</DisplayInformation><SupportFilename>3.5_conical_narrow.stl</SupportFilename>/*<ImplantFilename>BSAD0281.stl</ImplantFilename>*/<IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface>/*<LibraryIdentifier>BSAD0231</LibraryIdentifier>*/</ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 3.9 mm (4.1 platform switched)</DisplayInformation>
+      <Keyword>NBB4.1mmPS</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2-OutHex</Keyword>
+          <DisplayInformation>Hex Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_hex_SP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_hex_1.5mmSP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2-OutNohex</Keyword>
+          <DisplayInformation>No Hex Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_roundSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_round_1.5mmSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 3.9 mm White Scanmarker (4.1 platform switched)</DisplayInformation>
+      <Keyword>NBB4.1PSmmk</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0202</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>scanmarkerpk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.201-OutHex</Keyword>
+          <DisplayInformation>Hex Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_hex_SP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2010-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_hex_1.5mmSP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.201-OutNohex</Keyword>
+          <DisplayInformation>No Hex Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_roundSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2010-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm Platform Switching</DisplayInformation>
+          <SupportFilename>4.1_round_1.5mmSP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm</DisplayInformation>
+      <Keyword>NBB4.1mm</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm</DisplayInformation>
+          <SupportFilename>4.1_hex_1.5mm.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>4.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.100-OutNohex</Keyword>
+          <DisplayInformation>No Hex Bridges</DisplayInformation>
+          <SupportFilename>4.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1000-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>4.1_round_bridges-1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0282* (*Expired Item)</DisplayInformation>
+          <SupportFilename>cemented_4.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0252.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0292 (Gold Plated)</DisplayInformation>
+          <SupportFilename>Parallel_4.1_N.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0292</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L10</DisplayInformation>
+          <SupportFilename>Parallel_4.1_N.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.100-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L20</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L30</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L40</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232</DisplayInformation>
+          <SupportFilename>conical_4.1.stl</SupportFilename>
+          <ImplantFilename>BSAD0282.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0242 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_4.1_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0242</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L10</DisplayInformation>
+          <SupportFilename>conical_4.1_L1.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L20</DisplayInformation>
+          <SupportFilename>conical_4.1_L2.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L30</DisplayInformation>
+          <SupportFilename>conical_4.1_L3.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00002-Conical</Keyword><DisplayInformation>Conical BSAD0232L40</DisplayInformation><SupportFilename>conical_4.1_L4.stl</SupportFilename><ImplantFilename>implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB4.1mmk</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0202</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>scanmarkerpk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1010-OutHex</Keyword>
+          <DisplayInformation>Hex 1.5mm</DisplayInformation>
+          <SupportFilename>4.1_hex_1.5mm.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1010-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>4.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1001-OutNohex</Keyword>
+          <DisplayInformation>No Hex Bridges</DisplayInformation>
+          <SupportFilename>4.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10001-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>4.1_round_bridges-1.5.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0202</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0282* (*Expired Item)</DisplayInformation>
+          <SupportFilename>cemented_4.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0252.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-Parallel</Keyword>
+          <DisplayInformation>Parallel BSCB0292 (Gold Plated)</DisplayInformation>
+          <SupportFilename>Parallel_4.1_N.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0292</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L10</DisplayInformation>
+          <SupportFilename>Parallel_4.1_N.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L20</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L30</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0292L40</DisplayInformation>
+          <SupportFilename>Parallel_4.1_L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK4.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0292L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232</DisplayInformation>
+          <SupportFilename>conical_4.1.stl</SupportFilename>
+          <ImplantFilename>BSAD0282.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0010-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0242 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_4.1_n.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0242</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L10</DisplayInformation>
+          <SupportFilename>conical_4.1_L1.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L20</DisplayInformation>
+          <SupportFilename>conical_4.1_L2.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.000011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0232L30</DisplayInformation>
+          <SupportFilename>conical_4.1_L3.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK4.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0232L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.000021-Conical</Keyword><DisplayInformation>Conical BSAD0232L40</DisplayInformation><SupportFilename>conical_4.1_L4.stl</SupportFilename><ImplantFilename>implantKON_FK4.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0232L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <MarkerFilename>scanmarker_5.1.stl</MarkerFilename>
+      <DisplayInformation>WP 5.1 mm</DisplayInformation>
+      <Keyword>NBB5.1mm</Keyword>
+      <ImplantFilename>implant5.1.stl</ImplantFilename>
+      <ScrewFilename>screw_5.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0233</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>5.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>5.1_round_bridges_1mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.100-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>5.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.2-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0283</DisplayInformation>
+          <SupportFilename>cemented_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0253.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0283</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSCB0293 (Gold Plated)</DisplayInformation>
+          <SupportFilename>parallel_5.1.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0293</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.40-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L10</DisplayInformation>
+          <SupportFilename>parallel_5.1.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.400-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L20</DisplayInformation>
+          <SupportFilename>parallel_5.1L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L30</DisplayInformation>
+          <SupportFilename>parallel_5.1L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L40</DisplayInformation>
+          <SupportFilename>parallel_5.1L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.2-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233</DisplayInformation>
+          <SupportFilename>conical_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAD0283.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0243 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_5.1N.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0243</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L10</DisplayInformation>
+          <SupportFilename>conical_5.1L10.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.800-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L20</DisplayInformation>
+          <SupportFilename>conical_5.1L20.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L30</DisplayInformation>
+          <SupportFilename>conical_5.1L30.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80010-Conical</Keyword><DisplayInformation>Conical BSAD0233L40</DisplayInformation><SupportFilename>conical_5.1L40.stl</SupportFilename><ImplantFilename>implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP 5.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB5.1mmk</Keyword>
+      <ImplantFilename>implant5.1.stl</ImplantFilename>
+      <ScrewFilename>screw_5.1.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0203</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.50</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>5.1_SMm.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-OutNohex</Keyword>
+          <DisplayInformation>No Hex 1.5mm</DisplayInformation>
+          <SupportFilename>5.1_round_1.5mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges)</DisplayInformation>
+          <SupportFilename>5.1_round_bridges_1mm.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1001-OutNohex</Keyword>
+          <DisplayInformation>No Hex (Bridges 1.5mm)</DisplayInformation>
+          <SupportFilename>5.1_round_bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0203</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0283</DisplayInformation>
+          <SupportFilename>cemented_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0253.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0283</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.401-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSCB0293 (Gold Plated)</DisplayInformation>
+          <SupportFilename>parallel_5.1.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCB0293</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L10</DisplayInformation>
+          <SupportFilename>parallel_5.1.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L20</DisplayInformation>
+          <SupportFilename>parallel_5.1L20K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L2.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.40001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L30</DisplayInformation>
+          <SupportFilename>parallel_5.1L30K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L3.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.4011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0293L40</DisplayInformation>
+          <SupportFilename>parallel_5.1L40K.stl</SupportFilename>
+          <ImplantFilename>implantPAR_FK5.1L4.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0293L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233</DisplayInformation>
+          <SupportFilename>conical_5.1.stl</SupportFilename>
+          <ImplantFilename>BSAD0283.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.801-Conical</Keyword>
+          <DisplayInformation>Conical BSCD0243 (Gold Plated)</DisplayInformation>
+          <SupportFilename>conical_5.1N.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSCD0243</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L10</DisplayInformation>
+          <SupportFilename>conical_5.1L10.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L1.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L20</DisplayInformation>
+          <SupportFilename>conical_5.1L20.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L2.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0233L30</DisplayInformation>
+          <SupportFilename>conical_5.1L30.stl</SupportFilename>
+          <ImplantFilename>implantKON_FK5.1L3.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0233L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80011-Conical</Keyword><DisplayInformation>Conical BSAD0233L40</DisplayInformation><SupportFilename>conical_5.1L40.stl</SupportFilename><ImplantFilename>implantKON_FK5.1L4.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0233L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

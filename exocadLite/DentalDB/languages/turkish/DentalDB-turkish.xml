@@ -1,0 +1,4200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <!-- Please try to put customer-specific settings in the beginning of the file -->
+    <!--
+    <Translation>
+      <Keyword></Keyword>
+      <Text></Text>
+    </Translation>
+  -->
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved</Keyword>
+      <Text>Proje adlandirmasi coklu projeleri ayni dosya icerisinde saklamaya izin veriyor olmasina ragmen bir proje icin proje veri dosyasinin cikarilmasi ayni dosya icerisindeki diger projelerin de dosya verilerinin cikarilmasina neden olur.
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Remove</Keyword>
+      <Text>Proje dosya verisini cikar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Cancel</Keyword>
+      <Text>iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Description</Keyword>
+      <Text>Hic bir klasor dosya cikarilmayacak. Proje dosyalarini el ile cikarabilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Yes</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>No</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.NewTextualParameterForToothWork</Keyword>
+      <Text>Bu diş calışmasının son guncellemesinden beri bir veya daha fazla metinsel parametre eklendi.
+Diger metinsel parametrelere eklenmediler.
+Bu metinsel parametre(leri) eklemek icin diş calışmasını yeniden olusturmak zorundasınız.
+Parametrelerin listesi:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.NewNumericParameterForToothWork</Keyword>
+      <Text>Bu diş calışmasının son guncellemesinden beri bir veya daha fazla metinsel parametre eklendi.
+Diger metinsel parametrelere eklenmediler.
+Bu metinsel parametre(leri) eklemek icin diş calışmasını yeniden olusturmak zorundasınız.
+Parametrelerin listesi:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.NewMaterialParameterForToothWork</Keyword>
+      <Text><![CDATA[Bu dis calismasinin son guncellemesinden beri yeni materyal ozelligi {0} eklendi. Artik diger ozellikler ile birlikte {1} degeri ile listelenecek.
+Oteyandan bu materyal ozelligini 'Sakla''yi tiklamazsaniz dis calismasina eklenmeyecektir.
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>QueueDirNotExist</Keyword>
+      <Text>Belirtilmis sira dizini '{0}' mevcut degil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Legend.Treatment.TimeLine</Keyword>
+      <Text>Gösterge</Text>
+    </Translation>
+    <!--BEGIN:dependent params-->
+    <Translation>
+      <Keyword>MaterialAbutment.DependentParameter</Keyword>
+      <Text>Malzeme dayanagi</Text>
+    </Translation>
+    <!--END:dependent params-->
+    <!--BEGIN:Time interval-->
+    <Translation>
+      <Keyword>TimeInterval.Today</Keyword>
+      <Text>Bügün</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.ThisWeek</Keyword>
+      <Text>Bu hafta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.LastWeek</Keyword>
+      <Text>Gecen hafta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Older</Keyword>
+      <Text>Daha eski</Text>
+    </Translation>
+    <!--END:Time interval-->
+    <Translation>
+      <Keyword>Color.MaterialProperty</Keyword>
+      <Text>Renk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AboutWindow</Keyword>
+      <Text>Hakkinda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsWindow</Keyword>
+      <Text>Ayarlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>About</Keyword>
+      <Text>Ilgili...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Options</Keyword>
+      <Text>Seçenekler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInitError</Keyword>
+      <Text><![CDATA[Rekonstruksiyon ayarlari veri tabanini baslatirken bir hata olustu.
+ Hata Detaylari:
+{0}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescription</Keyword>
+      <Text>Anatomik kron</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescription</Keyword>
+      <Text>Anatomik alt yapi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescription</Keyword>
+      <Text>kapson altyapi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescription</Keyword>
+      <Text>Anatomik ara govde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescription</Keyword>
+      <Text>Ara govde (alt yapi)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescription</Keyword>
+      <Text>inlay (dolgu)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescription</Keyword>
+      <Text>kucultulmus dolgu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescription</Keyword>
+      <Text>Teleskop (basamak)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescription</Keyword>
+      <Text>Basilmis dis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescription</Keyword>
+      <Text>Bastirilmis ara govde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescription</Keyword>
+      <Text>Anatomik waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescription</Keyword>
+      <Text>waxup (kucultulmus)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaxupPontic.WorkDescription</Keyword>
+      <Text>waxup (ara govde)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescription</Keyword>
+      <Text>Eksik dis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescription</Keyword>
+      <Text>kapanis karsiligi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescription</Keyword>
+      <Text>Bitisik dis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrettauBridge.WorkDescription</Keyword>
+      <Text>Prettau-kopru elemani</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Attachment.WorkDescription</Keyword>
+      <Text>Surgu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescription</Keyword>
+      <Text>Alt yapi dolgu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescription</Keyword>
+      <Text>Cubuk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescription</Keyword>
+      <Text>Bar ana govde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescriptionPrint</Keyword>
+      <Text>
+        Cubuk
+        Kolon
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescription</Keyword>
+      <Text>Bar ara govde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescriptionPrint</Keyword>
+      <Text>
+        Cubuk
+        Parcasi
+      </Text>
+    </Translation>
+    <!--BEGIN:Duplicate-->
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileParseError</Keyword>
+      <Text>
+        Esli filtre grup bilgi dosyasini ayristirirken bir hata olustu.
+
+        Dosya yolu: {0}
+
+
+        Hata Detaylari:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileNotFound</Keyword>
+      <Text>Yol {0} uzerinde esli filtre grup bilgi dosyasini bulamadi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Header</Keyword>
+      <Text>Esi cikarilacak proje dosyalarini secin </Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToCopyOnDuplicate</Keyword>
+      <Text>Sureti cikacak proje dosyalari</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Cancel</Keyword>
+      <Text>Iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Ok</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <!--END:Duplicate-->
+    <!--BEGIN:Import-->
+    <Translation>
+      <Keyword>DentalDB.Import.AddLabFirst</Keyword>
+      <Text>
+        ice aktarma islemini yaptiginiz yol icin veri tabaninda hic laboratuar bilgisi bulunmadi
+        Lutfen belirtilen kimlik ile beraber izleyen formu doldurarak yeni bir laboratuar
+        olusturun. Yeni bir laboratuar olusturmadan devam etmek ve baska bir laboratuari
+        ice aktarmak uzere tedaviyi atamak icin sadece bu bu pencereyi kapatin.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateLaboratory</Keyword>
+      <Text>Devam etmek icin Laboratuari olustur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers</Keyword>
+      <Text> Bu kimlik ve diger adla zaten bir Uygulama mevcut.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting</Keyword>
+      <Text>Var olanin ustune yaz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting.Description</Keyword>
+      <Text>ice aktarilacak dental proje'de sunulan ad ile var olan uygulama adini degistir. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent</Keyword>
+      <Text>Su andakini koru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent.Description</Keyword>
+      <Text>Var olan uygulama adini koru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel</Keyword>
+      <Text>Ice aktarmayi iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel.Description</Keyword>
+      <Text>Ice aktarmayi iptal et ve hic bir sey yapma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice</Keyword>
+      <Text>Uygulama mevcut degil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Create</Keyword>
+      <Text>Uygulama Olustur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Create.Description</Keyword>
+      <Text>Dental projede bildirilen veri ile bir uygulama olustur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Cancel</Keyword>
+      <Text>Ice aktarmayi iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Cancel.Description</Keyword>
+      <Text>Ice aktarmayi iptal et, dental proje ice aktarilmayacak </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportSuccessed</Keyword>
+      <Text>Yol {0}'dan tedavi basarili bir sekilde ice aktarildi!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Continue</Keyword>
+      <Text>Devam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.SelectLaboratory.Header</Keyword>
+      <Text>Laboratuara ata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.EntryAlreadyExists</Keyword>
+      <Text><![CDATA[Tedavi zaten mevcut. Uzerine yazmak ister misiniz?
+ Eger hayir ise tedavi ice aktarma iptal edilecektir.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.AmbiguousType</Keyword>
+      <Text>belirsiz deger: fisi cozemiyor {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownTag_Treatment</Keyword>
+      <Text><![CDATA['{1}'  degerli fis <{0}> cozulemiyor. Yoksayilacak.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParentParameter_Treatment</Keyword>
+      <Text><![CDATA['{1}' degerli fis <{0}> artik olmayan yazinsal (bagimli) '{2}' parametresine bagli gibi gozukuyor. Yok sayilacak.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParameter</Keyword>
+      <Text>Bir veya daha fazla numerik parametre(leri) cozumleyemedi. Parametre(ler)'in bir adi yok! Dis, dis {0} icin calisacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidParameterValue</Keyword>
+      <Text>Parametre {0} gecersiz bir ice aktarma degerine sahip.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ToothWorkListMissing</Keyword>
+      <Text>Dis is listesi eksik.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UserAborted</Keyword>
+      <Text>Kullanici iptal etti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoDateTagOrInvalid</Keyword>
+      <Text><![CDATA[
+    Dental proje olusturma listesi icinde olusturma tarihi bulunamadi veya tarih gecerli formatta degil. Guncel tarih kullanilsin mi?
+    Eger hayir'i secerseniz, ice aktarma iptal edilecektir.
+    !!!]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoNotesTag</Keyword>
+      <Text><![CDATA[Dental proje dosyasi icinde not bulunamadi.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTrayNo</Keyword>
+      <Text><![CDATA[<TrayNo> fis gecerli (tam sayi) takip numarasi icermiyor]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTechnicianId</Keyword>
+      <Text><![CDATA[<TeknisyenKimlik> Fis gecerli olmayan (tamsayi) teknisyen kimligi iceriyor]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.TechnicianTagMissing</Keyword>
+      <Text><![CDATA[Teknisyeni taniyamiyor. <TeknisyenKimlik> fisi gorunmuyor!]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.TechnicianTagMissing</Keyword>
+      <Text><![CDATA[Teknisyen proje dosyasi icinde belirtilmemis. Devam etmek istiyor musunuz? Bu durumda teknisyeni el ile secmek zorundasiniz.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InsufficientPatientData</Keyword>
+      <Text>Saglanan dental projeden hasta kimligi cikarilamiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPatientId</Keyword>
+      <Text><![CDATA[<HastaKimlik> Fis gecerli olmayan bir hasta kimligi iceriyor (tam sayi)]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PatientTagMissing</Keyword>
+      <Text><![CDATA[Hasta taninamiyor.Ne <HastaKimlik> ne <Hasta> kimligi mevcut!]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPracticeId</Keyword>
+      <Text><![CDATA[<UygulamaKimlik> fis gecerli bir uygulama kimligi icermiyor (tam sayi)]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PracticeTagMissing</Keyword>
+      <Text><![CDATA[Uygulama taninmiyor. <UygulamaKimlik> fis mevcut degil!]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ImportErrorHeader</Keyword>
+      <Text>Tedaviyi ice aktarirken hata olustu!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.JobSelection.Title</Keyword>
+      <Text>dental projeyi ice aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Filter.Description</Keyword>
+      <Text>dental proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportedItem</Keyword>
+      <Text>Ice aktarildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.SelectLaboratory.Header</Keyword>
+      <Text>Laboratuar secim diyalogu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.Continue</Keyword>
+      <Text>Devam</Text>
+    </Translation>
+    <!--END:Import-->
+    <Translation>
+      <Keyword>DentalDB.Error.InsufficientAccessRights</Keyword>
+      <Text>{1} yolundaki veri tabani dosyasi {0}'i okuma ve/veya yazma yetkiniz yok. Lutfen okuma ve yazma izinlerinizi kontrol ediniz ve uygulamayi yeniden baslatiniz. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.InsufficientAccessRights.Project</Keyword>
+      <Text>&gt;{1} yolundaki veri tabani dosyasi {0}'i okuma ve/veya yazma yetkiniz yok. Lutfen okuma ve yazma izinlerinizi kontrol ediniz ve uygulamayi yeniden baslatiniz. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CriticalError</Keyword>
+      <Text><![CDATA[Kritik hata meydana geldi.
+      Hata detaylari:
+      {0}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath.Header</Keyword>
+      <Text>Kritik hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath</Keyword>
+      <Text><![CDATA[
+    Veritabani ({0}) bulunamadi.
+    Lutfen veritabanina saglanan yolun gecerli oldugundan ve veritabaninin var oldugundan emin olun.
+    Uygulama sonlandirilacaktir.
+    ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB.Header</Keyword>
+      <Text>Kritik hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB</Keyword>
+      <Text><![CDATA[
+    Veri tabani ({0}) sadece okunabilir.
+    Lutfen veritabanina (dosya) yazim izniniz oldugundan emin olun
+    Uygulama sona erecek.
+    ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.JobDirRemovalFailed</Keyword>
+      <Text><![CDATA[Temizleme amacli isin rekonstruksuyon verisi, Dizin {0} kaldirilirken bir hata olustu.
+      Hata Detaylari:
+      {1}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.InsufficientDetails</Keyword>
+      <Text>Konektor kullanimi icin yeterli bilgi yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.DifferentMaterials</Keyword>
+      <Text>Bu disleri baglayamazsiniz, cunku malzeme farklilik gosteriyor.</Text>
+    </Translation>
+    <!--BEGIN:Workflow advices-->
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ConnectTeeth</Keyword>
+      <Text>Bu disleri birlestir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.TeethConnected</Keyword>
+      <Text>Bu disler baglantilanmis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectCustomer</Keyword>
+      <Text>Lütfen önce bir müşteri seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTreatmentParam</Keyword>
+      <Text>Lutfen secin: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectToothWork</Keyword>
+      <Text>Asagidan rekonstruksuyon tiplerini seciniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SaveJob</Keyword>
+      <Text>Devam etmek icin 'Sakla''ya tiklayiniz </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectActionToolbar</Keyword>
+      <Text>Arac cubugundaki hareketi secin </Text>
+    </Translation>
+    <!--END:Workflow advices-->
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedLaboratoryData</Keyword>
+      <Text><![CDATA[Yeni lavoratuar icin bazi kaydedilmemis degisiklikler var.
+Degisiklikleri kaydetmek istiyor musunuz?
+Yeni laboratuari kaydetmek icin Evet'e tiklayiniz, degisikliklerden vazgecmek icin Hayir'i,
+laboratuar formuna donmek iciniIptal'i tiklayiniz.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData</Keyword>
+      <Text>Yeni musteri icin bazi saklanmamis degisiklikler var.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.SaveChanges</Keyword>
+      <Text>Yeni müşteri sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.SaveChanges.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.DiscardChanges</Keyword>
+      <Text>Degisiklikleri iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.DiscardChanges.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.Cancel.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData</Keyword>
+      <Text><![CDATA[Yeni hasta icin bazi kaydedilmemis degisiklikler var.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.SaveChanges</Keyword>
+      <Text>Yeni hasta verisini sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.SaveChanges.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.DiscardChanges</Keyword>
+      <Text>Degisiklikleri iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.DiscardChanges.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.Cancel</Keyword>
+      <Text>Hasta formuna don</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.Cancel.Description</Keyword>
+      <Text />
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedTechnicianData</Keyword>
+      <Text><![CDATA[Yeni teknisyen icin bazi kaydedilmemis degisiklikler var.
+Degisiklikleri kaydetmek istiyor musunuz?
+Yeni teknisyen verisini kaydetmek icin Evet'e tiklayiniz, degisikliklerden vazgecmek icin Hayir'i,
+teknisyen formuna donmek icin iptal'i tiklayiniz.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>LegacyMaterial</Keyword>
+      <Text>Bu dis calismasi artik mevcut olmayan bir materyali kaynak gosteriyor. Lutfen baska bir materyal seciniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CategoryInUse</Keyword>
+      <Text>Bu kategoriye ait degerlerden en azindan biri bazi tedavi(ler) tarafindan kullaniliyor. Kategori kaldirilamiyor. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkTypeInUse</Keyword>
+      <Text>Bu is tipi bazi tedavi(ler) tarafindan kullaniliyor. Is tipini kaldirilamiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialInUse</Keyword>
+      <Text>Bu materyal bazi tedavi(ler) tarafindan kullaniliyor. Materyal kaldirilamiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueInUse</Keyword>
+      <Text>Deger bazi tedavi(ler) tarafindan kullaniliyor. Deger kaldirilamiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType</Keyword>
+      <Text>Deger izleyen is tipleri icin varsayilan deger olarak kullaniliyor:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.Details</Keyword>
+      <Text>Kisa ad {0}; Tanim{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.AdviceForResolveProblem</Keyword>
+      <Text>once diger varsayilan degerleri secin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion</Keyword>
+      <Text>Izleyen is tanimlari icin Deger varsayilan deger olarak kullanilmistir:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefinition.Details</Keyword>
+      <Text>Is tipi: {0} ( {1} ),  Materyal {0} ( {1} )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion.AdviceForResolveProblem</Keyword>
+      <Text>once diger varsayilan degerleri secin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrjInNotepad</Keyword>
+      <Text>Notepad icinde proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Export</Keyword>
+      <Text>Disa aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCountryConstraint</Keyword>
+      <Text>Lutfen ulkeyi seciniz!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianConstraint</Keyword>
+      <Text>Lutfen ilk VE son adinizi giriniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianNonUniqueId</Keyword>
+      <Text>Bu kimlik zaten farkli bir teknisyene atanmis.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianNonUniqueName</Keyword>
+      <Text>
+        Bu ilk ve son isim zaten farkli bir tenisyene atanmis.
+        Yine de bu isimle bir teknisyen olusturmak istiyor musnuz?
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientConstraint</Keyword>
+      <Text>ilk ve son adi girin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientPracticeMissing</Keyword>
+      <Text>Hasta eklemek icin once musteri secmek zorundasiniz!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientNonUniqueId</Keyword>
+      <Text>Bu kimlik zaten farkli bir hastaya atanmis.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientNonUniqueName</Keyword>
+      <Text>
+        Bu ilk ve son isim zaten farkli bir hastaya atanmis.
+        Hala bu isimle bir hasta olusturmak istiyor musunuz?
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCustomerConstraint</Keyword>
+      <Text>Lutfen ad, ulke ve dili giriniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCustomerIdConstraint</Keyword>
+      <Text><![CDATA[Please check provided customer id.
+Minimal allowed length: {0},
+maximal allowed length: {1},
+Empty id allowed: {2}.
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeNonUniqueId</Keyword>
+      <Text>Bu kimlik zaten farkli bir musteriye atanmis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatment</Keyword>
+      <Text>
+        Bir veya daha fazla is bu musteriye referans edildi. Bu isleri silmek istiyor musunuz? Eger hayir ise bu durumda musteri de silimeyecektir.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatmentCaption</Keyword>
+      <Text>Musteriyi sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatment</Keyword>
+      <Text>
+        Bir veya daha fazla is bu hastaya referans edildi. Bu isleri silmek istiyor musunuz? Eger hayir ise bu durumda hasta da silimeyecektir.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatmentCaption</Keyword>
+      <Text>Hastayi sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatment</Keyword>
+      <Text>
+        Bir veya daha fazla is bu teknisyene referans edildi. Bu isleri silmek istiyor musunuz? Eger hayir ise bu durumda teknisyen de silimeyecektir.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatmentCaption</Keyword>
+      <Text>Teknisyeni sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.AlreadyLoaded</Keyword>
+      <Text>Zaten yuklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.SaveFirst</Keyword>
+      <Text>Zaten yuklenmis ve kaydedilmemis degisiklikleri olan bir dosya yukluyorsunuz. Degisiklikleri iptal edip isi yeniden yuklemek istiyor musunuz? Eger hayir ise yukleme iptal edilecektir. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged</Keyword>
+      <Text>
+        Guncel dental proje, proje dizinine mi saklansin?
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.SaveChanges</Keyword>
+      <Text>Dental projeyi saklayin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.SaveChanges.Description</Keyword>
+      <Text>Bu dental projeyi bir sonraki acisinizda calismaya devam edebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.DiscardChanges</Keyword>
+      <Text>Saklama yapma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.DiscardChanges.Description</Keyword>
+      <Text>Dental projenin guncel durumu atilacaktir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.Cancel</Keyword>
+      <Text>iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.Cancel.Description</Keyword>
+      <Text>Dental projeyi duzenlemeye devam edin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.IncompleteTreatmentData</Keyword>
+      <Text><![CDATA[
+      Bir veri seti dosyalamak icin
+      saglanan bilgi yetersiz
+      Muhtemel nedenlere ornek olarak.:
+          : Hicbir is belirtilmemis
+          : Musteri belirtilmemis
+                 ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.CountrySelection</Keyword>
+      <Text>Lab.'in ulkesini sec</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Messages.CountrySelection</Keyword>
+      <Text>Lutfen Lab.'in ulkesini secin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Practice</Keyword>
+      <Text>Musteri verilerini duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Patient</Keyword>
+      <Text>Hastalar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Technician</Keyword>
+      <Text>Teknisyen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.LoadTreatment</Keyword>
+      <Text>Isi yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.ToothWork</Keyword>
+      <Text>Dis icin isi seciniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.PrintWindow</Keyword>
+      <Text>Yazdir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Lab</Keyword>
+      <Text>Lab</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Client</Keyword>
+      <Text>Musteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Patient</Keyword>
+      <Text>Hasta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Technician</Keyword>
+      <Text>Teknisyen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.TreatmentFlags</Keyword>
+      <Text>Bayraklar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Treatment</Keyword>
+      <Text>Is</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.PatientImageData</Keyword>
+      <Text>Resimler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Preview</Keyword>
+      <Text>Veri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ToothColor.Name</Keyword>
+      <Text>Dis tonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.New</Keyword>
+      <Text>Yeni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromiTero</Keyword>
+      <Text>iTero ice aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Save</Keyword>
+      <Text>Sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Duplicate</Keyword>
+      <Text>Suret cikar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Load</Keyword>
+      <Text>Yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Import</Keyword>
+      <Text>Ice aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Upload</Keyword>
+      <Text>Karsiya yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Print</Keyword>
+      <Text>Yazdir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.MultiDie.Name</Keyword>
+      <Text>Isim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.MultiDie.Treatment.BatchNr</Keyword>
+      <Text>Parca No.</Text>
+    </Translation>
+    <!--BEGIN:Patient-->
+    <Translation>
+      <Keyword>EditPatient</Keyword>
+      <Text>Hastayi duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditTechnician</Keyword>
+      <Text>Teknisyeni duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.PatientId</Keyword>
+      <Text>Hasta kimlik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.LastName</Keyword>
+      <Text>Soyadi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FirstName</Keyword>
+      <Text>ilk adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FullName</Keyword>
+      <Text>Isim</Text>
+    </Translation>
+    <!--END:Patient-->
+    <!--BEGIN:Practice-->
+    <Translation>
+      <Keyword>EditPractice</Keyword>
+      <Text>Musteriyi duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientsForThisPractice</Keyword>
+      <Text>Bu musterinin hastalari ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues</Keyword>
+      <Text>Musteriye ozel parametreleri sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeId</Keyword>
+      <Text>Musteri kimlik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeName</Keyword>
+      <Text>isim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeLanguage</Keyword>
+      <Text>Dil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCountry</Keyword>
+      <Text>Ulke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeStreet</Keyword>
+      <Text>Sokak adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeHouseId</Keyword>
+      <Text>Sokak no.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeZip</Keyword>
+      <Text>PK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCity</Keyword>
+      <Text>Sehir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeEMail</Keyword>
+      <Text>E-posta</Text>
+    </Translation>
+    <!--END:Practice-->
+    <!--BEGIN:Lab-->
+    <Translation>
+      <Keyword>CreateLaboratoryAdvice</Keyword>
+      <Text>Devam etmek ici laboratuar olustur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLaboratory</Keyword>
+      <Text>Laboratuari duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorLaboratoryConstraint</Keyword>
+      <Text>
+        Lutfen isim, sehir ve dil bilgisi giriniz.
+        Laboratuar kimligi sunmaniz durumunda vereceginik kimlik numarasinin tam sayi olmasina dikkat ediniz.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorLaboratoryNonUniqueId</Keyword>
+      <Text>Bu kimlik zaten baska bir laboratuara atanmis.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLab</Keyword>
+      <Text>Laboratuary duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticesForThisLab</Keyword>
+      <Text>Bu laboratuarin musterileri...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.RemoveClientSpecificValues</Keyword>
+      <Text>Musteriye ozel verileri sil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabId</Keyword>
+      <Text>Laboratuar kimlik no</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabName</Keyword>
+      <Text>Isim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabLanguage</Keyword>
+      <Text>Dil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCountry</Keyword>
+      <Text>Ulke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabStreet</Keyword>
+      <Text>Sokak adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabHouseId</Keyword>
+      <Text>Sokak no.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabZip</Keyword>
+      <Text>PK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCity</Keyword>
+      <Text>Sehir</Text>
+    </Translation>
+    <!--END:Lab-->
+    <!--BEGIN:Global-->
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Close</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Remove</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Save</Keyword>
+      <Text>Sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OK</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel</Keyword>
+      <Text>iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.CancelEdit</Keyword>
+      <Text>Duzenlemeyi iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Clear</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Edit</Keyword>
+      <Text>Duzenle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.NewEntry</Keyword>
+      <Text>Yeni giris</Text>
+    </Translation>
+    <!--END:Global-->
+    <!--BEGIN:Technician-->
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.TechnicianId</Keyword>
+      <Text>Teknisyen kimlik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FirstName</Keyword>
+      <Text>ilk adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.LastName</Keyword>
+      <Text>Soyadi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FullName</Keyword>
+      <Text>isim</Text>
+    </Translation>
+    <!--END:Technician-->
+    <!--BEGIN:Treatment-->
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.SchalenNr</Keyword>
+      <Text>Takip numarasi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryId</Keyword>
+      <Text>Laboratuar kimlik numarasi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryName</Keyword>
+      <Text>Laboratuar adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PracticeId</Keyword>
+      <Text>Musteri kimlik no</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.DateTime</Keyword>
+      <Text>Tarih/zaman</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Date</Keyword>
+      <Text>Tarih</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Time</Keyword>
+      <Text>Zaman</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Name</Keyword>
+      <Text>Musteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientId</Keyword>
+      <Text>Hasta kimlik no</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientName</Keyword>
+      <Text>Hasta adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianId</Keyword>
+      <Text>Teknisyen adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianName</Keyword>
+      <Text>Teknisyen adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ToothColorName</Keyword>
+      <Text>Dis tonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Language</Keyword>
+      <Text>Dil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.UseArticulator</Keyword>
+      <Text>Artikulator kullan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.MarkedRemoved</Keyword>
+      <Text>Gizli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Hide</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Restore</Keyword>
+      <Text>Geri al</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Remove</Keyword>
+      <Text> Silinmis veri setlerini yok et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Load</Keyword>
+      <Text>Yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Cancel</Keyword>
+      <Text>iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterName</Keyword>
+      <Text>Parametre adi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterValue</Keyword>
+      <Text>Deger</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowHiddenTreatments</Keyword>
+      <Text>Silinmis veri setlerini goster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Purge</Keyword>
+      <Text>Veri setlerini yok et</Text>
+    </Translation>
+    <!--BEGIN : Error messages, when removing client,patient, technician-->
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.EditedByOther</Keyword>
+      <Text><![CDATA[
+        Tedaviye alinan musteri su anda bir kullanici tarafindan kilitlenmis.
+        Eger guncel hastayi kullanarak bir tedavi duzenleyecekseniz - lutfen once kapatin.
+       Daha sonra tekrar deneyin.
+     ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.EditedByOther</Keyword>
+      <Text><![CDATA[
+        Tedaviye alinan musteri su anda bir kullanici tarafindan kilitlenmis.
+        Eger guncel hastayi kullanarak bir tedavi duzenleyecekseniz : lutfen once kapatin.
+Daha sonra tekrar deneyin.
+     ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.EditedByOther</Keyword>
+      <Text><![CDATA[
+        Tedavi icin kullanilan teknisyen su anda bir kullanici tarafindan kitlenmis.
+        Bu teknisyenin kullandigi herhangi bir tedaviyi duzenlemek icin - lutfen once kapatin.
+        Daha sonra tekrar deneyin.
+     ]]></Text>
+    </Translation>
+    <!--END : Error messages, when removing client,patient, technician-->
+    <Translation>
+      <Keyword>DentalDB.Messages.ReallyPurgeDeletedQuestion</Keyword>
+      <Text>Bu silinmis veri setlerini yok etmek istediginizden emin misiniz? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWork</Keyword>
+      <Text>Lutfen once musteriyi secin. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.StoragePathCreationError</Keyword>
+      <Text>Proje dizinini olustururken hata olustu. Detaylar: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.PurgeImpossibleTreatmentInUse</Keyword>
+      <Text>Is henuz acilmadigindan silinemez. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment</Keyword>
+      <Text><![CDATA[ Uyari!
+      Şu anda seçmiş olduğunuz projeyi tamamen silmek üzeresiniz. Bu eylem geri alınamaz.
+      Tasarım verilerini (vb.) de kendi diskinizden çıkarmak ister misiniz?]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes.Description</Keyword>
+      <Text>Proje(ler) ve tasarım verileri tamamen silinecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No</Keyword>
+      <Text>Sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No.Description</Keyword>
+      <Text>Projeyi tamamen sil ve tasarım verilerini diskte sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel</Keyword>
+      <Text>Iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel.Description</Keyword>
+      <Text>Tamamen silmeyi iptal et. Hiçbir değişiklik yapılmamaktadır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Multiple</Keyword>
+      <Text><![CDATA[ Uyari!
+      Şu anda silmek için işaretlediğiniz tüm projeleri tamamen silmek üzeresiniz. Bu eylem geri alınamaz.
+      Tasarım verilerini (vb.) de kendi diskinizden çıkarmak ister misiniz?]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ValueForbiddenByMaterialRestriction</Keyword>
+      <Text> '{1}' parametresi icin '{0}' degeri su anda yasaklidir. Bu degeri kullanirken dikkatli olunuz.</Text>
+    </Translation>
+    <!--END:Treatment-->
+    <Translation>
+      <Keyword>DentalDB.Messages.ToothWork.InUse</Keyword>
+      <Text>Bu dis icin acilir pencere zaten acik.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadySelectedQuestion</Keyword>
+      <Text>Bu dis icin secimi yenilemek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartingUp</Keyword>
+      <Text>Baslatiliyor...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectTreatmentFirst</Keyword>
+      <Text>Lutfen bir is secin ve 'yukle''ye basin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VendorVersion</Keyword>
+      <Text>3.0</Text>
+    </Translation>
+    <!--BEGIN:ToolTip-->
+    <Translation>
+      <Keyword>SaveTreatment.ToolTip</Keyword>
+      <Text>Guncel isi sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Settings.ToolTip</Keyword>
+      <Text>Ayarlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>About.ToolTip</Keyword>
+      <Text>Hakkinda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UploadTreatment.ToolTip</Keyword>
+      <Text>Guncel isi ice aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatment.ToolTip</Keyword>
+      <Text>Yeni bir is baslat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromiTero.ToolTip</Keyword>
+      <Text>iTero proje dosyasindan yeni bir is baslat </Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadTreatment.ToolTip</Keyword>
+      <Text>Isi yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scannen</Keyword>
+      <Text>Tara</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scannen.ToolTip</Keyword>
+      <Text>Tara</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.ToolTip</Keyword>
+      <Text>CAD-yapim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NC.ToolTip</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.ToolTip</Keyword>
+      <Text>Yapim verisni yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.ToolTip</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelEditor.ToolTip</Keyword>
+      <Text>Dis arsiv editoru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintTreatment.ToolTip</Keyword>
+      <Text>Yazdir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportTreatment.ToolTip</Keyword>
+      <Text>Isi ice aktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DuplicateTreatment.ToolTip</Keyword>
+      <Text>Isin kopyasini cikar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Updates.ToolTip</Keyword>
+      <Text>Guncellemeler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Close.ToolTip</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <!--END:ToolTip-->
+    <Translation>
+      <Keyword>CustomerNumberToLong</Keyword>
+      <Text>Musteri kimligi cok uzun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomerNumberToShort</Keyword>
+      <Text>Musteri kimligi cok kisa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientNumberTooLong</Keyword>
+      <Text>hasta kimligi cok uzun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Parameter</Keyword>
+      <Text>Oklüzyon izlenimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Parameter</Keyword>
+      <Text>Dis Renkleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A1</Keyword>
+      <Text>A1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A2</Keyword>
+      <Text>A2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3</Keyword>
+      <Text>A3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3.5</Keyword>
+      <Text>A3.5</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A4</Keyword>
+      <Text>A4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B1</Keyword>
+      <Text>B1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B2</Keyword>
+      <Text>B2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B3</Keyword>
+      <Text>B3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B4</Keyword>
+      <Text>B4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C1</Keyword>
+      <Text>C1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C2</Keyword>
+      <Text>C2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C3</Keyword>
+      <Text>C3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C4</Keyword>
+      <Text>C4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D2</Keyword>
+      <Text>D2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D3</Keyword>
+      <Text>D3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D4</Keyword>
+      <Text>D4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anatomik
+        Kron
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anatomik
+        altyapi.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Kapson
+        kaplama.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anatomik
+        Sahte dis
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Ara govde
+        (alt yapi)
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        inlay (dolgu)
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Azaltilmis
+        inlay (dolgu).
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescriptionPrint</Keyword>
+      <Text>
+        Birincil
+        teleskop
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Basilmis
+        Kron
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Basilmis
+        Sahte dis
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anatomik
+        mumlama
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Azaltilmis
+        mumlama
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescriptionPrint</Keyword>
+      <Text>
+        dis
+        Yok
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescriptionPrint</Keyword>
+      <Text>Antagonist</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescriptionPrint</Keyword>
+      <Text>Bitisik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapThickness.Parameter</Keyword>
+      <Text>Simam boslugu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MinThickness.Parameter</Keyword>
+      <Text>Et Kalinligi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.false</Keyword>
+      <Text>Hayir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Parameter</Keyword>
+      <Text>Ayri preoperatif tarama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Parameter</Keyword>
+      <Text>Implant tipi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.None</Keyword>
+      <Text>Implant yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutment</Keyword>
+      <Text>ozel dayanak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutment</Keyword>
+      <Text>Vida tutulmus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutmentManual</Keyword>
+      <Text>ozel dayanak (el ile konumlama)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutmentManual</Keyword>
+      <Text>Vida tutulmus (el ile konumlama)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutmentWithImport</Keyword>
+      <Text>ozel dayanak (implant planlama ice aktarma)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutmentWithImport</Keyword>
+      <Text> Vida tutulmus (implant planlama ice aktarma)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Parameter</Keyword>
+      <Text>Ayri diseti taramasi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.false</Keyword>
+      <Text>Hayir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderHorizontalSize.Parameter</Keyword>
+      <Text>Yatay kron siniri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Shrinking.Parameter</Keyword>
+      <Text>Kucult</Text>
+    </Translation>
+    <Translation>
+      <Keyword>None.MaterialDescriptionPrint</Keyword>
+      <Text>Hicbiri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Healthy.MaterialDescriptionPrint</Keyword>
+      <Text>Dis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Search</Keyword>
+      <Text>Ara</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.SearchIn</Keyword>
+      <Text>icerde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.NotYetSaved</Keyword>
+      <Text>is henuz kaydedilmedi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.PathDoesNotExistError</Keyword>
+      <Text>Hata - bu proje verileri ile dosya gecerli degil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoTreatmentsToPurge</Keyword>
+      <Text>Hic bir is geri donulemez sekilde silinmedi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapStart.Parameter</Keyword>
+      <Text>Dolgu maddesi boslugunun baslangici</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapEnd.Parameter</Keyword>
+      <Text>Dolgu maddesi boslugunun sonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingZ.Parameter</Keyword>
+      <Text>Ek isirma mesafesi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingZOnTop.Parameter</Keyword>
+      <Text>Ek isirma mesafesi (yukarıda)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingX.Parameter</Keyword>
+      <Text>Fazladan X/Y mesafesi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngledSize.Parameter</Keyword>
+      <Text>Acili kron siniri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngle.Parameter</Keyword>
+      <Text>Aci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderVerticalSize.Parameter</Keyword>
+      <Text>Dikey kron siniri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorArea.Parameter</Keyword>
+      <Text>Konektorun kesiti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InlayThicknessRunOutDistance.Parameter</Keyword>
+      <Text>Sinir genisligi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedParameters</Keyword>
+      <Text>Gelismis parametreler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Default</Keyword>
+      <Text>Uygun golgeler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowInExplorer</Keyword>
+      <Text>explorer ile ac</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressMinThickness.Parameter</Keyword>
+      <Text>Basim icin en dusuk kalinlik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressAdditionalSpacing.Parameter</Keyword>
+      <Text>Basim icin uzaklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Parameter</Keyword>
+      <Text>Garanti sigortasi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.false</Keyword>
+      <Text>Hayir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnableToMoveSFVFile</Keyword>
+      <Text>Sinama toplami dosyasi proje dizinine aktarilamadi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.WatchdogLabel</Keyword>
+      <Text>Taraniyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.WatchdogLabel</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.WatchdogLabel</Keyword>
+      <Text>CAD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.WatchdogLabel</Keyword>
+      <Text>Karsiya yukle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UntouchableZoneNearPreparationMargin.Parameter</Keyword>
+      <Text>Doldurma yapmayiniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.CurrentUser</Keyword>
+      <Text><![CDATA[
+       Tedavi datasetleri tarafinizdan kitlenmis gibi duruyor.
+       Kilidi yoksayacagim ve sizin icin yukleyecegim
+       ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.AnotherUser</Keyword>
+      <Text><![CDATA[
+       Tedavi dataseti baska bir kullanici tarafindan kitlenmis:
+          Makine/Kullanici: {0}.
+
+       Kilidi kirmak istiyorsaniz lutfen 'Evet''e tiklayiniz.
+       Oteyandan bu tutarsiz veriye yol acacaktir.
+
+       Aksi takdirde 'Hayir''i tiklayiniz.
+       ]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Caption</Keyword>
+      <Text>Uyari!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Kapson
+        inlay (dolgu)
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescriptionPrint</Keyword>
+      <Text>Cubuk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonist.Parameter</Keyword>
+      <Text>kapanis araliklarina uzaklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToGingiva.Parameter</Keyword>
+      <Text>Disetine uzaklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialQueueDirSelection</Keyword>
+      <Text>Kaziyici materyal secin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialQueueDirSelection</Keyword>
+      <Text>Materyal secimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.WorkType</Keyword>
+      <Text>Calisma tipi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.Material</Keyword>
+      <Text>Materyal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectJobDetails</Keyword>
+      <Text>Asagida is detaylarini seciniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTechnician</Keyword>
+      <Text>Teknisyeni seciniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialReplaceForPreparations</Keyword>
+      <Text><![CDATA[Bir dis isi icin materyali degistirdiniz.
+Simdi diger dis isleri icinde materyal degistirme olanagina sahipsiniz:]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForThisToothOnly</Keyword>
+      <Text>Materyali sadece bu dis icin degistir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForThisToothOnly.Description</Keyword>
+      <Text>Diger disler onceden sahip olduklari materyal duzenini koruyacaklar </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialInBridge</Keyword>
+      <Text>Materyali kopru icin degistir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialInBridge.Description</Keyword>
+      <Text><![CDATA[Kopru icerisindeki butun diger disler yeni materyale cevrilecektirl]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForRecosWithSameMaterial</Keyword>
+      <Text>Materyali bu dis icin ve diger disler icin degistir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForRecosWithSameMaterial.Description</Keyword>
+      <Text><![CDATA[Ayni materyal secimine sahip butun disler yeni materyale cevrilecektir.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial</Keyword>
+      <Text>Kopru ve diger disler icin materyali degistir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial.Description</Keyword>
+      <Text><![CDATA[Ayni materyal secimine sahip butun disler yeni materyale cevrilecektir.]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists</Keyword>
+      <Text><![CDATA[Ice aktarilmis yerel tedavi olarak isaretlenmis tedaviyi ice aktariyorsunuz.
+Ayni tarih, tedavi kimlik no ve epsi numarasi baska bir tedavi icin zaten mevcut.
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew</Keyword>
+      <Text>Yeni bir kopya yarat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew.Description</Keyword>
+      <Text>Tarihi guncel tarihe ayarlanmis yeni Takip numarali yeni bir tedavi olustutulup atanacaktir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite</Keyword>
+      <Text>Su anki tedavinin uzerine yaz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite.Description</Keyword>
+      <Text> Su anki tedavinin uzerine yaz. onceki butun veriler silinecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort</Keyword>
+      <Text>Ice aktarmayi iptal et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort.Description</Keyword>
+      <Text>Ice aktarma iptal edilecek ve hicbir veri veritabanina kaydedilmeyecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Inlay.Group</Keyword>
+      <Text>Dolgular</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.ProductionMode</Keyword>
+      <Text>Multidie modu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.DiesDoNotFeetDiePlate</Keyword>
+      <Text><![CDATA[
+Bu bir coklu kalip isidir. Kaliplar bu iste saklanir
+coklu kalip tabagina uygun gelmez. Muhtemelen bu is
+baska bir coklu kalip tabagi ile yapilmis.
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.MultiDiePlateFileNotFound</Keyword>
+      <Text><![CDATA[
+Coklu kalip tabagini yukleyemedi {0}. Lutfen{0}.dll
+dosyasinin DentalDB.exe ile ayni dizinde
+oldugundan emin olun.
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>Patient.ProductionMode</Keyword>
+      <Text>Hasta modu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorAddingPatient</Keyword>
+      <Text>Hasta eklerken hata ile karsilasildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorRemoveingPatient</Keyword>
+      <Text>Hasta cikarirken hata ile karsilasildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorAddingPractice</Keyword>
+      <Text>Uygulama eklerken hata ile karsilasildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectAlternativeFolderForConstructionData</Keyword>
+      <Text>The drive for CAD-Data dizini {1} icin {0} diski bulunmamaktadir. CAD_Veri dizini icin yeni bir yol seciniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransfer.ASCandSTL</Keyword>
+      <Text>STL ve ASC verileri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransfer.STLCconstructionOnly</Keyword>
+      <Text>Sadece yapim verisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NetworkCopying</Keyword>
+      <Text>Kopyala</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopyingTreatment.ToolTip</Keyword>
+      <Text>Veriyi Network surucusune veya baska bir surucuye kopyala</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopyingPath</Keyword>
+      <Text>Network karsiya yukleme yolu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning</Keyword>
+      <Text><![CDATA[
+Dikkat!
+
+Bu urun icin uretim siparisi zaten verildi.
+
+Bu isi tekrar uretmek icin yeni bir siparis vermelisiniz.
+Bunun icin su anki isi kopyalayin ve kopyalanmis isin karsiya yuklenmis halini calistirin]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Duplicate</Keyword>
+      <Text>Suret cikar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Duplicate.Description</Keyword>
+      <Text> Yeni bir siparis olarak yeniden karsiya uklemek icin bu isi kopyalayin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Cancel</Keyword>
+      <Text>iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Cancel.Description</Keyword>
+      <Text>Karsiya yuklemeyi iptal et. Baska eylem gerceklestirilmeyecektir. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileCopyError</Keyword>
+      <Text>{0} dan {1} e dosyayi kopyalarken
+bir hata olustu.
+Hata Mesaji: {2}
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePluginName</Keyword>
+      <Text>Coklu kalip tabagi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Demo</Keyword>
+      <Text>Ornek tabak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOptics</Keyword>
+      <Text>Smartoptics tabagi (7 güdük)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Medit</Keyword>
+      <Text>Medit/Solutionix tabagi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Maestro</Keyword>
+      <Text>Maestro tabagi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D102</Keyword>
+      <Text>Imetric D102/D104 tabagi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D100</Keyword>
+      <Text>Imetric D100 tabagi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialPropertyValueNotSelectableSelectAnotherValue</Keyword>
+      <Text>Bir veya daha fazla parametre ayarlanmadi veya kullanilmasina izin verilmeyen bir deger kullaniyor.
+Lutfen {0}'dan farkli bir deger seciniz.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CADDesignData.FilterName</Keyword>
+      <Text>CAD Tasarim Verisi:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAndCADDesignData.FilterName</Keyword>
+      <Text>Tarama Verisi + CAD Tasarim Verisi:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scenes.FilterName</Keyword>
+      <Text>Gorunum dosyalari</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreManufacturedCrown.WorkDescription</Keyword>
+      <Text>preform diş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrown.WorkDescription</Keyword>
+      <Text>provisional diş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalPontic.WorkDescription</Keyword>
+      <Text>Provisional ara gövde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Preview</Keyword>
+      <Text>Önizleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD</Keyword>
+      <Text>Dizayn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM</Keyword>
+      <Text>İşleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplint.WorkDescription</Keyword>
+      <Text>Gece Plağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintGap.WorkDescription</Keyword>
+      <Text>Gece Plağı (eksik diş)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintThicknessOcclusal.Parameter</Keyword>
+      <Text>Oklüzyon boşluğu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintThicknessPeripheral.Parameter</Keyword>
+      <Text>Çevresel boşluk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBottomMorphologicalClosureRadius.Parameter</Keyword>
+      <Text>Yumuşatma (gece plağı altı)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintTopMorphologicalClosureRadius.Parameter</Keyword>
+      <Text>Yumuşatma (gece plağı üstü)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrown.WorkDescriptionPrint</Keyword>
+      <Text>prov crown</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalPontic.WorkDescriptionPrint</Keyword>
+      <Text>Prov Jron</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.CancelUpload</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.CancelUpload.Description</Keyword>
+      <Text>Yükleme İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadLocation.Default.Name</Keyword>
+      <Text>Varsayılan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadLocation.Default.Description</Keyword>
+      <Text>Varsayılan konuma yükleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Yes</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_No</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImplantPos</Keyword>
+      <Text>Scan implantlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InvalidJobData</Keyword>
+      <Text>Geçersiz giriş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Title</Keyword>
+      <Text>Diş veritabanı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Job</Keyword>
+      <Text>Veri seti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.PrintDate</Keyword>
+      <Text>Yazdırma Tarih/saat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.JobId</Keyword>
+      <Text>No.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.PatientName</Keyword>
+      <Text>Hasta adı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.ClientName</Keyword>
+      <Text>Müşteri:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.TechnicianName</Keyword>
+      <Text>Teknisyen:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Continue</Keyword>
+      <Text>Devam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.AlreadyDone</Keyword>
+      <Text>Önceden yapıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Show</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Cancel</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.UserName</Keyword>
+      <Text>Kullanıcı adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ProjectName</Keyword>
+      <Text>Proje adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Veneer.WorkDescription</Keyword>
+      <Text>Vener</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.KeepCurrent</Keyword>
+      <Text>Güncel tutun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.Cancel</Keyword>
+      <Text>İçe aktarma iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.Cancel.Description</Keyword>
+      <Text>İçe aktarmayı iptal et ve hiçbir şey yapma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothShades.Default</Keyword>
+      <Text>Kullanılabilir renkler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOpticsRound</Keyword>
+      <Text>Smartoptics tabagi (12 güdük)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.GC</Keyword>
+      <Text>GC tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL</Keyword>
+      <Text>Steinbichler ST II tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL_ST1</Keyword>
+      <Text>Steinbichler ST tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.AG</Keyword>
+      <Text>Amann Girrbach tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SingleDie</Keyword>
+      <Text>Tek güdük tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Screenshots.FilterName</Keyword>
+      <Text>Ekran alıntısı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotCreateDirectory</Keyword>
+      <Text>Dizin oluşturulamadı {0}.
+Hata mesajı:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation</Keyword>
+      <Text>Bu yazılımı kullandığınız için teşekkür ederiz! Yeni bir veritabanı başlatıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.Header</Keyword>
+      <Text>İlk başlangıç</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.Failed</Keyword>
+      <Text>Veritabanı yüklermesi başarısız.
+Hata mesajı:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>constructedFiles</Keyword>
+      <Text>Tasarlanmış dosyalar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>scanData</Keyword>
+      <Text>Tarama verisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CannotResolveProgramFilesOptionForStartButton</Keyword>
+      <Text>Program dosyaları seçeneği çözümlenemedi (%x).
+Komut satırı: {0}
+Argüman: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist</Keyword>
+      <Text>Tarama sadece tek çenemi?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.SingleJaw</Keyword>
+      <Text>Evet, sadece tek çene</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.BothJaws</Keyword>
+      <Text>Hayır, kapanış karşılığıda var</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.BothJaws.Description</Keyword>
+      <Text>Kapanış(lar) otomatik olarak eklenecektir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadFromFileFailed</Keyword>
+      <Text>yüklenirken iç ayarlar {modülü: {0}} dosyadan {1} başarısız oldu.
+Hata mesajı:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileFilter</Keyword>
+      <Text>Arama modeli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IncludeSubdirectories</Keyword>
+      <Text>Alt dizinleri ara</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.Default</Keyword>
+      <Text>Varsayılan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.AlwaysAskUserOnStart</Keyword>
+      <Text>Başlangıçta sor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Cancel.Description</Keyword>
+      <Text>Proje kaydedilmeyecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.DentalShareUpload</Keyword>
+      <Text>dentalshare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareUploadTreatment.ToolTip</Keyword>
+      <Text>dentalshare kullanarak veri yükleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareSelectTargetUser</Keyword>
+      <Text>Dosyaların nereye yüklenmesi gerektiğini lütfen seçiniz:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FileSelectionWindow.Header</Keyword>
+      <Text>dentalshare Yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.Queued</Keyword>
+      <Text>Devam ediyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFiltersToApply</Keyword>
+      <Text>Filtreleri uygulamak için seçin:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Domain</Keyword>
+      <Text>Domain </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.NewProjects</Keyword>
+      <Text>Yüklenmiş projeler:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Conflicts</Keyword>
+      <Text>Çakışmalar:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Info</Keyword>
+      <Text>dentalshare bilgisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.RecentlyArrivedJobs</Keyword>
+      <Text>dentalshare: yeni iş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.JobArrived</Keyword>
+      <Text>dentalshare: iş geldi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.JobUpdated</Keyword>
+      <Text>dentalshare: iş güncellendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ViewInDentalDB</Keyword>
+      <Text>DentalDB'de görüntüle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OpenInExplorer</Keyword>
+      <Text>Gezgindeki açık proje klasörü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ShowChanges</Keyword>
+      <Text>Gezgindeki değişiklikleri göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.RemoveFromArrivedList</Keyword>
+      <Text>Listeden sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ConflictResolvingRequired</Keyword>
+      <Text>Çakışma çözme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExisting</Keyword>
+      <Text>Var olanı geçersiz kılma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.KeepExisting</Keyword>
+      <Text>Var olanı tutun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.Success</Keyword>
+      <Text>İş başarıyla yüklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.ConflictResolvingRequired</Keyword>
+      <Text>Çakışma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConflictResolvingRequired</Keyword>
+      <Text>Çakışma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Success</Keyword>
+      <Text>Başarıyla yüklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.OverwriteExisting</Keyword>
+      <Text>Varolanın üzerine yaz </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.KeepCurrent.Description</Keyword>
+      <Text>var olan uygulamada e-posta tutun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownTaperSlope.Parameter</Keyword>
+      <Text>Uca doğru incelen eğim</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IntelligenceS</Keyword>
+      <Text>IntelligenceS tabağı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ErrorLoadingTreatmentParametersFromFile_ParamDuplicated</Keyword>
+      <Text>Proje dosyası devam ederken hata oluştu:
+İş parametresi {0} birden çok kez tanımlanmış</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotMoveDBTemplateFile</Keyword>
+      <Text>Veritabanı yüklenirken hata oluştu:
+Varsayılan veritabanı dosyası {0} {1} taşınmış olamaz.
+Kopyalama dosyaları için gerekli izinlere sahip olduğunu kontrol edin.
+
+Hata detayı:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate.Header</Keyword>
+      <Text>Veritabanı konumu güncelleştirildi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate.Header.Failed</Keyword>
+      <Text>Veritabanın konum güncellemesi başarısız oldu.
+Hata mesajı:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.NoTemplate</Keyword>
+      <Text>Veritabanı başlatılırken hata oluştu:
+DB şablon dosyası {0} bulunamadı.
+
+Uygulama kapatılacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBlockOutAngle.Parameter</Keyword>
+      <Text>Açılı çıkışı engelleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBlockOutOffset.Parameter</Keyword>
+      <Text>Ofset çıkışı engelleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintMaxAllowedUndercut.Parameter</Keyword>
+      <Text>maksimum ters açı izni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintTopDesiredImpressionDepth.Parameter</Keyword>
+      <Text>İstenen etki derinliği</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.AntagonistTypeMustBeSpecified</Keyword>
+      <Text>Tarama modu belirtin!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Continue.Description</Keyword>
+      <Text>Iş gerektiren gelişmiş modülü tanımlamaya devam edin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.NotYet</Keyword>
+      <Text>Asla yüklenemez</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Show.Description</Keyword>
+      <Text>İçe aktarılan tedaviyi göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.TrayIcon.Tip</Keyword>
+      <Text>Daha fazla seçenek için çift tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ActionRequired</Keyword>
+      <Text>Eylem gerekli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.UserQuestion</Keyword>
+      <Text>Çalışma parametresi tanım dosyası sağlayıcısı (WorkParamsDB) seçiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadSettingsNotFound</Keyword>
+      <Text>FTP-yükleme ayarları dosyası {0} bulunamadı veya okurken hata oluştu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.SelectServer2Upload</Keyword>
+      <Text>Yükleme için birden çok FTP sunucusu mevcuttur.
+
+Aşağıdaki listeden yüklemek için FTP sunucusu seçin:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.SingleJaw.Description</Keyword>
+      <Text>Bilinmeyen mesaj</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate</Keyword>
+      <Text>Yeni sürüm için veritabanı konumu güncellendi. Tüm Diş DB kurulumları erişimini {0} yeni sürümde güncellenmiş olduğundan emin olun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.MaterialForbidsConnectors</Keyword>
+      <Text>Bu diş bağlanamıyor, Sadece tek bir birim bu malzeme kullanılarak üretilebilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Cancel.Description</Keyword>
+      <Text>İş tipi seçimine dön.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers</Keyword>
+      <Text>E posta adresi kayıtlı olanla farklı;
+Kayıtlı olanı kullan:{0}
+Dental projedeki e postayı kullan: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.OverwriteExisting.Description</Keyword>
+      <Text>Dental projede sağlanan e posta ile mevcut e postayı değiştirin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownShoulderWidth.Parameter</Keyword>
+      <Text>Omuz genişliği</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownShoulderSlope.Parameter</Keyword>
+      <Text>omuz eğimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.MultipleUploadLocationsNotSupported</Keyword>
+      <Text>DentalDB nin bu versiyonu birden fazla FTP server ına yükleme yapmayı desteklemiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_No.Description</Keyword>
+      <Text>Eski tarama modunu tut. Bazı özellikler aktif olmayabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MushBiteOneJawAntaOrHealthyRequired</Keyword>
+      <Text>Seçili olan modda aynı anda üst ve alt çenenin birlikte tasarlanması mümkün değil.
+Lütfen tarama modunu değiştirin, yada proje tanımını üst, alt yada ikisi birlikte olarak ayarlayın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportedMaterialWarning</Keyword>
+      <Text>Malzemeyi değiştiriyorsunuz fakat böyle bir malzeme {0} veritabanında mevcut değil.
+Yeniden yapılandırma parametreleri diğer malzemeden alınacak.
+Herhangi bir değerin sınırların dışına çıkarsa limit değer yeni değer olarak kullanılacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportedValuesCouldNotBeUsedDueToConstrains</Keyword>
+      <Text>Aşağıdaki parametreler aşağıdaki nedenlerden dolayı eklenemedi:
+-Değer izin verilen sınırların dışında
+-Değer sizin özelliklerinize uymuyor
+
+Eklenemeyen parametreler:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning</Keyword>
+      <Text>{0} çeşit bir iş bu yüklemeyle mümkün değil.
+CAD programınızı gerekli olan modüller ile güncellemeniz gerekmekte.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilesHaveAlreadyBeenUploaded</Keyword>
+      <Text>Bazı dosyalar geçmişte yüklenmiş. Yeniden yükleme istiyor musunuz ?
+
+Not: Eğer aynı dosyayı tekrar yüklemeye kalkarsanız, yükleme işlemi iptal edilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed</Keyword>
+      <Text>Dentalshare a giriş başarısız. Lütfen şunlardan emin olun:
+
+-Kullanıcı adı ve şifre
+-Grup özellikleri
+
+Grup özellikleri:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareGroupExplanation</Keyword>
+      <Text>Dentalshare hesabınızı sadece içinde bulunduğunuz grupla kullanabilirsiniz ve farklı bir grupla giriş yapmak mümkün değil.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ObserveProgressThroughTrayIcon</Keyword>
+      <Text>İpucu: Yükleme durumunu sistem tepsisi üstündeki ok a basarak görebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment</Keyword>
+      <Text>Yeni bir iyileştirmeniz {0} bulunmakta {1} den gelen. Açmak ister misiniz ?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Cancel.Description</Keyword>
+      <Text>Hiç bir eylem yapılamaz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.OverrideConfirmationRequired</Keyword>
+      <Text>İş halihazırda mevcut. Üstüne yazmak ister misiniz ?
+Eğer hayır ise, iş ekleme iptal edilecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.DataAlreadyExists</Keyword>
+      <Text>İş veri dosyası halihazırda mevcut. Lütfen hangi verilerin yedekleneceğini veriler değişmeden belirleyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentLockedByUserError</Keyword>
+      <Text>{0} id li iyileştirme {1} tarafından kullanıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider</Keyword>
+      <Text>Malzeme/parametre ayarları</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepInspectDefaultMaxAngle.Parameter</Keyword>
+      <Text>Hazırlık denetleme : Maksimum Açı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepInspectDefaultMaxDistance.Parameter</Keyword>
+      <Text>Hazırlık denetleme: Maksimum Uzaklık</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreatePractice</Keyword>
+      <Text>Devam etmek için müşteri oluştur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreatePracticeAdvice</Keyword>
+      <Text>devam etmek için müşteri oluştur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromThreeM</Keyword>
+      <Text>3M içeaktar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>default.Language</Keyword>
+      <Text>Standart</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Project</Keyword>
+      <Text>Proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.JobDefinition</Keyword>
+      <Text>Iş tanımı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Actions</Keyword>
+      <Text>Çalışma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Practice</Keyword>
+      <Text>Müşteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Technician</Keyword>
+      <Text>Teknisyen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Local</Keyword>
+      <Text>Malzeme yapılandırması (yerel): </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Configuration</Keyword>
+      <Text>Ayarlar...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Cancel.Description</Keyword>
+      <Text>Dosya yok / Klasör kaldırıldı / Proje dosyalarını el ile kaldırabilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Any</Keyword>
+      <Text>Her zaman</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.SelectFilterDefinitionsToApply</Keyword>
+      <Text>Proje dosyalarını çoğaltmak için seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.NoFileMatchFound</Keyword>
+      <Text>Yinelenen filtrelerle eşleşen hiçbir dosya bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectIndication</Keyword>
+      <Text>Dişler üzerine tıklayarak endikasyonları seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectIndication.Multidie</Keyword>
+      <Text>Multi-die noktasını tıklayarak endikasyonu seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SetPatient</Keyword>
+      <Text>Hasta adını yazın, ya da mevcut hastayı seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SetBatchJob</Keyword>
+      <Text>Toplu iş projesi için bir ad yazın veya varolan seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectActionFromToolbar</Keyword>
+      <Text>Bir sonraki eylemi sağdaki araç çubuğundan seçin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ResaveJobToSwitchToRegJaws</Keyword>
+      <Text>Geçerli tarama modu bu sürümde desteklenmiyor.
+"İki alçı model" geçiş için projeyi yeniden kaydedin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ResaveJobToSwitchToEnforcedAntagonistType</Keyword>
+      <Text>Geçerli tarama modu bu sürümde desteklenmiyor.
+Yeni bir geçiş yapmak için projeyi yeniden kaydedin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.FillCustomInfoFields</Keyword>
+      <Text>Lütfen özel bilgi alanlarını doldurun</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianInvalidId</Keyword>
+      <Text>Sadece boş dize veya kimliği olarak izin verilen ID.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromE4D</Keyword>
+      <Text>Planmeca</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.DayOfBirth</Keyword>
+      <Text>Doğum tarihi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Confirm</Keyword>
+      <Text>Müşteriye özel parametreleri temizlemek istiyor musunuz? Unutmayın ki eylem geri alınamıyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Done</Keyword>
+      <Text>Müşteri özel parametreler temizlendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues.Confirm.Title</Keyword>
+      <Text>Doğrulayın: Müşteriye özel parametreleri temizlemek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.Practice</Keyword>
+      <Text>Müşteri ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.More</Keyword>
+      <Text>Ayrıntılar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.Laboratory</Keyword>
+      <Text>Laboratuvar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Close</Keyword>
+      <Text>Kapat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Id</Keyword>
+      <Text>Servis talebi ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.UniqueId</Keyword>
+      <Text>Global kimlik ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.OriginalId</Keyword>
+      <Text>Orjinal servis talep ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ProjectStatus</Keyword>
+      <Text>Proje durumu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.RemoveSingle</Keyword>
+      <Text>Yoketmek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse</Keyword>
+      <Text>Bir veya daha fazla projeyi silmek üzeresiniz müşteriye bakın. Gerçekten müşteriyi silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.DeleteClient</Keyword>
+      <Text>Müşteri sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.DeleteClient.Description</Keyword>
+      <Text>Müşteri ve bu müşteri ile ilgili tüm projeler silinir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.KeepClient</Keyword>
+      <Text>Müşteriyi sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.KeepClient.Description</Keyword>
+      <Text>Müşteri ve bu müşteri ile ilgili tüm projeler tutulur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.Title</Keyword>
+      <Text>Uyarı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse</Keyword>
+      <Text>Bir veya daha fazla projeyi silmek üzeresiniz hastaya bakın. Gerçekten hastayı silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.DeletePatient</Keyword>
+      <Text>Hastayı sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.DeletePatient.Description</Keyword>
+      <Text>Hasta ve hastanın tüm projeleri silinir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.KeepPatient</Keyword>
+      <Text>Hastayı sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.KeepPatient.Description</Keyword>
+      <Text>Hasta ve hastanın tüm proje değerleri tutulur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.Title</Keyword>
+      <Text>Uyarı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse</Keyword>
+      <Text>Bir veya daha fazla projeyi silmek üzeresiniz teknisyene bakın. Gerçekten teknisyeni silmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.DeleteTechnician</Keyword>
+      <Text>Teknisyeni sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.DeleteTechnician.Description</Keyword>
+      <Text>Teknisyen ve bu teknisyen ile ilgili tüm projeler silinir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.KeepTechnician</Keyword>
+      <Text>Teknisyeni sakla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.KeepTechnician.Description</Keyword>
+      <Text>Teknisyen ve bu teknisyen ile ilgili tüm proje referans değerleri tutulur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.Title</Keyword>
+      <Text>Uyarı!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HotkeyTip</Keyword>
+      <Text>İpucu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UsePreviousToothDefinitionTip</Keyword>
+      <Text>Son Seçimi kopyalamak için diğer dişi seçerken CTRL basılı tutun.
+Aynı anda birden fazla diş seçerken son ayarı uygulamak için Shift tuşunu basılı tutun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWorkExplanation</Keyword>
+      <Text>Bu tasarım parametrelerini tanımladığınızda,müşteriye özel kullanılmak üzere  hazır ayarlar sağlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelCreator.ToolTip</Keyword>
+      <Text>Model tasarımı başlat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite</Keyword>
+      <Text>Bir alçı model için</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+      <Text>İki alçı model, oklüzyonunda</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.DigitalImpressionScan</Keyword>
+      <Text>Dijital ölçü taraması</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+      <Text>İki alçı model, A artikülatöründe </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+      <Text>İki alçı model ,A artikülatöründe (eski)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+      <Text>İki alçı model, B artikülatöründe </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+      <Text>İki alçı model, S artikülatöründe </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+      <Text>İki alçı model, P artikülatöründe </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBrazil</Keyword>
+      <Text>İki alçı model, Bio-Art artikülatöründe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorLouisville</Keyword>
+      <Text>İki alçı model, Denar artikülatöründe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.PostAndCore</Keyword>
+      <Text>Post ve çekirdek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.SubstructureScan</Keyword>
+      <Text>Altyapı (örneğin bar)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LingualBandHeight.Parameter</Keyword>
+      <Text>Lingual band yükseklik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoAvailableFilesForUpload</Keyword>
+      <Text>Aşağıdaki dosyalar yükleme için seçildi, ancak proje klasörü eksik :</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Mod.WatchdogLabel</Keyword>
+      <Text>Mod</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.ErrorCheckingForProject</Keyword>
+      <Text>Mevcut proje denetlenirken bir hata oluştu.
+Proje Kimliği: {0}
+Hata:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.NoPracticeForExistingJob</Keyword>
+      <Text>Mevcut projeyi kontrol ederken bir hata oluştu. Projeyi için mevcut atanmış bir uygulama var. Proje Kimliği: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Shining3D</Keyword>
+      <Text>Shining3D plaka</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.DOF</Keyword>
+      <Text>DOF plaka</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.OTN</Keyword>
+      <Text>OpenTechnologies plaka</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterExpression</Keyword>
+      <Text>Model arama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExcludeMatchingFilesFromResult</Keyword>
+      <Text>Sonuç hariç tut</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Yes</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_No</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.PracticeOriginal</Keyword>
+      <Text>Orjinal müşteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Patient</Keyword>
+      <Text>Hasta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.SelectMaterial</Keyword>
+      <Text>Materiyal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OK.ExoMessageBox</Keyword>
+      <Text>Tamam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel.ExoMessageBox</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Yes.ExoMessageBox</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>No.ExoMessageBox</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GetMoreHelp</Keyword>
+      <Text>?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadProject</Keyword>
+      <Text>Yükle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPracticeAdvice</Keyword>
+      <Text>İpucu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeSelectionAdvice</Keyword>
+      <Text>İpucu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Value.false</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.ImportDentalProject</Keyword>
+      <Text>exocad
+Proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.ChangeWorkParams</Keyword>
+      <Text>Değiştir...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Error.Title</Keyword>
+      <Text>Hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.Title</Keyword>
+      <Text>Uyarı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Information.Title</Keyword>
+      <Text>Bilgi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Title</Keyword>
+      <Text>Hastalar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New</Keyword>
+      <Text>Yeni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Delete</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept</Keyword>
+      <Text>Kabul</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reload</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reject</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.UpdateDateOfBirth</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New</Keyword>
+      <Text>Yeni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Delete</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept</Keyword>
+      <Text>Kabul</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabledWarning</Keyword>
+      <Text>Geçerli proje tarama modu tek desteklenen tarama modu "İki alçı model, oklüzyon için" Bu yapıdaki farklıdır.
+Tüm özelliklerini kullanmak için proje yeniden kaydedin ve kaydederken "iki alçı model, oklüzyon için model" tarama moduna geçmek gerekir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabledQuestion</Keyword>
+      <Text>Geçerli yapı tek "İki alçı model oklüzyon için" tarama modu desteklenir.
+"İki alçı model, oklüzyoniçin" tarama moduna geçmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Yes.Description</Keyword>
+      <Text>"İki alçı model, oklüzyon için" anahtarı tarama modu. Tüm özellikler kullanılabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Yes.Description</Keyword>
+      <Text>Yeni tarama moduna geçin. Tüm özellikler kullanılabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_No.Description</Keyword>
+      <Text>Eski tarama modunu tutun. Bazı özellikler kullanılamayabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Cancel.Description</Keyword>
+      <Text>Proje kaydedilmeyecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.CreateAccount</Keyword>
+      <Text>Henüz bir dentalshare hesabı yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.CreateAccount.Description</Keyword>
+      <Text>Dentalshare kaydolmak için buraya tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.EnterCredentials</Keyword>
+      <Text>Kullanıcı adı/parola girin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.EnterCredentials.Description</Keyword>
+      <Text>Zaten bir hesabınız varsa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.Cancel.Description</Keyword>
+      <Text>Veri yükleme dentalshare yoluyla iptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Tips</Keyword>
+      <Text>İpuçları</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.OptionsParams</Keyword>
+      <Text>Seçenekler &amp; Parametreler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowAllProjects</Keyword>
+      <Text>Tüm projeleri göster</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowImportedProjectsOnly</Keyword>
+      <Text>Sadece ithal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowUnreadProjectsOnly</Keyword>
+      <Text>Yalnızca okunmamış</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowLocalProjectsOnly</Keyword>
+      <Text>Yalnızca yerel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.TasksPerformed</Keyword>
+      <Text>Gerçekleştirilen görevler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentItemsCount</Keyword>
+      <Text>Öğe sayısı:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Tooth</Keyword>
+      <Text>Diş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultidiePit</Keyword>
+      <Text>Multi-die pit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.OverwriteConfirmationRequired</Keyword>
+      <Text>Var olan proje. Üzerine yazmak ister misiniz?
+Eğer değilse, proje alma iptal edilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.Error</Keyword>
+      <Text>Proje alma başarısız oldu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ImportProjectFrom</Keyword>
+      <Text>Alma kaynağı...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.PatientNameMismatch</Keyword>
+      <Text>Hasta adı güncelleştirildi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ProjectInformation</Keyword>
+      <Text>Proje bilgileri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowMore</Keyword>
+      <Text>Daha fazla...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowLess</Keyword>
+      <Text>Daha az...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.ToothColor</Keyword>
+      <Text>Diş renk tonu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dentures.Group</Keyword>
+      <Text>Takma dişler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticTooth.WorkDescription</Keyword>
+      <Text>Tam Protez</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Header</Keyword>
+      <Text>Malzeme yapılandırmayı değiştirin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.DentalShare</Keyword>
+      <Text>Malzeme yapılandırma (dentalshare):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.NoSelection</Keyword>
+      <Text>Malzeme yapılandırma seçin...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Parameter</Keyword>
+      <Text>Isırık kenar taraması</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView</Keyword>
+      <Text>Proje baskı önizleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExportToPDF</Keyword>
+      <Text>PDF'i dışa aktarma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print</Keyword>
+      <Text>Yazdır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print</Keyword>
+      <Text>Yazdır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Printing</Keyword>
+      <Text>Yazdırılıyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnknownError</Keyword>
+      <Text>Bilinmeyen hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFileCreationFailed</Keyword>
+      <Text>PDF dosyası oluşturulamıyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFilePrintingFailed</Keyword>
+      <Text>PDF dosyasını yazdıramazsın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFExportFailed</Keyword>
+      <Text>PDF'i dışa aktarım başarısız oldu.
+Hata detayları:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileType.PDF.Description</Keyword>
+      <Text>PDF</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Project</Keyword>
+      <Text>Proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.CaseID</Keyword>
+      <Text>Vaka-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Laboratory</Keyword>
+      <Text>Laboratuvar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Patient</Keyword>
+      <Text>Hasta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Multidie.JobName</Keyword>
+      <Text>İş adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Client</Keyword>
+      <Text>Müşteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Technician</Keyword>
+      <Text>Teknisyen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ProjectCreated</Keyword>
+      <Text>Oluşturma</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Printed</Keyword>
+      <Text>Yazdırıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Scanning</Keyword>
+      <Text>Taranıyor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.NotesContinued</Keyword>
+      <Text>Notlar (devam ediyor)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Bridges</Keyword>
+      <Text>Köprüler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Build</Keyword>
+      <Text>Üret</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ScanType</Keyword>
+      <Text>Tarama modu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ImplantType</Keyword>
+      <Text>Implant tipi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Update</Keyword>
+      <Text>Güncelleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.KeepDateOfBirth</Keyword>
+      <Text>Devam et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.DateOfBirth</Keyword>
+      <Text>Doğum tarihi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Title</Keyword>
+      <Text>Teknisyenler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.FirstName</Keyword>
+      <Text>Adı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.LastName</Keyword>
+      <Text>Soyadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.TechnicianId</Keyword>
+      <Text>Teknisyen ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Update</Keyword>
+      <Text>Güncelleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.Title</Keyword>
+      <Text>Müşteriler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New</Keyword>
+      <Text>Yeni</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Delete</Keyword>
+      <Text>Sil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept</Keyword>
+      <Text>Onaylamak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Update</Keyword>
+      <Text>Güncelleştirme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType</Keyword>
+      <Text>Hazırlık türü</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.CustomInfoField</Keyword>
+      <Text>Müşteri bilgisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ResetParameterValuesToDefault</Keyword>
+      <Text>Değerleri sıfırlama Reset values 
+malzemenin varsayılan değerleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeSelectionRequired</Keyword>
+      <Text>Benzeri olmayan müşteri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeCreationRequired</Keyword>
+      <Text>Müşteri eksik</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelCreator</Keyword>
+      <Text>Model Yaratıcı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialConfiguration</Keyword>
+      <Text>Malzeme yapılandırma:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.Clear</Keyword>
+      <Text>Temizle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.OK</Keyword>
+      <Text>Tamam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.OverwriteExisting</Keyword>
+      <Text>Tamam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateWaxupScan.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MovementMarkerScan.Value.true</Keyword>
+      <Text>Evet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MovementMarkerScan.Value.false</Keyword>
+      <Text>Hayır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Name</Keyword>
+      <Text>Ad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Version</Keyword>
+      <Text>Versiyon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericDefault</Keyword>
+      <Text>DişID: {0} - sayısal parametre {1} (2) {3} olarak ayarla.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.Warning</Keyword>
+      <Text>Uyarı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.Error</Keyword>
+      <Text>Hata</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfigurationChange.Teeth</Keyword>
+      <Text>Diş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NoEntry</Keyword>
+      <Text>giriş yok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialSelection.OldMaterial</Keyword>
+      <Text>Kullanılan malzeme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialSelection.AvailableMaterials</Keyword>
+      <Text>Kullanılabilir malzemeler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Next</Keyword>
+      <Text>İleri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Continue</Keyword>
+      <Text>Devam et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Cancel</Keyword>
+      <Text>İptal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Close</Keyword>
+      <Text>Kapalı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Continue</Keyword>
+      <Text>Devam et</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenDependentParam</Keyword>
+      <Text>Parametre {0} - değer {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.DependentParamInfo</Keyword>
+      <Text>Parametre {0} - değer {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateGingivaScan</Keyword>
+      <Text>Ayrı Dişeti-Tarama kullanır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateSituScan</Keyword>
+      <Text>Ameliyat öncesi kullanır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Client.ComposedName</Keyword>
+      <Text>{0} (Orjinal: {1})</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print.Page</Keyword>
+      <Text>Sayfa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NonUniquePractice</Keyword>
+      <Text>Aynı isimde birden fazla müşteri algıladı.
+Lütfen müşteri seçin veya müşteri oluşturun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SignatureVerificationWorkParamsFailed</Keyword>
+      <Text>Kullanılacak malzeme yapılandırma dosyası doğrulanamadı.
+Sadece doğrulanmış malzeme yapılandırmalarına izin verilir uygulama kapatılacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBSwitchFailed</Keyword>
+      <Text>Malzeme yapılandırması yüklenirken bir hata oluştu.
+Hata ayrıntıları:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.MakeDefault</Keyword>
+      <Text>Varsayılan yap</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsUpdated.Title</Keyword>
+      <Text>Malzeme yapılandırması güncellendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsMismatch.Title</Keyword>
+      <Text>Malzeme yapılandırması farklıdır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.WorkParamsDataValidationError</Keyword>
+      <Text>Malzeme yapılandırma verileri doğrulanırken hata oluştu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.MaterialConfigurationSelection</Keyword>
+      <Text>Malzeme yapılandırma seçimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.Title</Keyword>
+      <Text>Onay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.InputData</Keyword>
+      <Text>Aşağıya teknisyen bilgilerini girin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept.Description</Keyword>
+      <Text>Bu teknisyeni seçin ve bu pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept.Description.New</Keyword>
+      <Text>Yeni bir bir teknisyen ekleyin ve bu pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.InputData</Keyword>
+      <Text>Aşağıdaki müşteri ayrıntılarını girin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept.Description</Keyword>
+      <Text>Müşteriyi seçin ve pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept.Description.New</Keyword>
+      <Text>Yeni bir müşteri ekleyin ve pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomInfoFieldRequired</Keyword>
+      <Text>Bu alan değeri boş olamaz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToRenameOnProjectNameChange</Keyword>
+      <Text>Proje dosyaları yeniden adlandırmak için seçin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.OverwriteExisting.Description</Keyword>
+      <Text>Kaydedilmiş bütün durumlar için hasta adını değiştirin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateWaxupScan.Parameter</Keyword>
+      <Text>Waxup tarama?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateWaxupScan.Value.false</Keyword>
+      <Text>Hayır, waxup'ı dijital olarak tasarla</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.Cancel.Description</Keyword>
+      <Text>İçe aktarmayı iptal edin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.SelectPractice</Keyword>
+      <Text>Projeyi atamak müşteri seçiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Cancel</Keyword>
+      <Text>İçe aktarmayı iptal edin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Title</Keyword>
+      <Text>Malzeme yapılandırma bilgisi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfigurationChange.Dies</Keyword>
+      <Text>Güdük(ler)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectMaterial</Keyword>
+      <Text>Gerekli malzeme seçimi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateWaxupScan</Keyword>
+      <Text>Ayrı Waxup tarama kullanılır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeEnabledWarning</Keyword>
+      <Text>Mevcut proje tarama modu bu yapı içinde tek desteklenen tarama modu olan  "{0}"dan farklıdır. Tüm özellikleri kullanmak için projeyi yeniden kaydetmeniz ve kaydederken "{0}" tarama moduna geçiş yapmanız gerekmektedir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabledQuestion</Keyword>
+      <Text>Mevcut yapıda sadece "{0}" tarama modu desteklenmektedir. Gerçekten "{0}" tarama moduna geçmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilesHaveNotBeenUpdateSinceLastUpload</Keyword>
+      <Text>Yüklemek istediğiniz dosyalar son yüklemeden beri değiştirilmemiş. Bu nedenle dosyalar yüklenemeyecek!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ManualProblemResolutionRequired</Keyword>
+      <Text>Proje otomatik olarak içe aktarılamıyor. Lütfen içe aktarımı tamamlamak için hataları manuel olarak düzenleyin.  İpucu: Detaylı bilgi almak için  proje üzerinde ipucunu kullanın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ValidateProjectBeforeConstructWarning</Keyword>
+      <Text>Çiziminizle devam etmeden önce içeri aktarılan veri kümesinin eksiksiz ve doğru olduğunu kontrol edin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Description</Keyword>
+      <Text>Materyal yapılandırma materyal seçimini ve ilgili parametreleri etkiler. (örneğin asgari kalınlık) Yerel olarak depolanmış bir yapılandırmayı veya dentalshare kontaklarınızdan birinden bir yapılandırmayı seçebilirsiniz (eğer üretim için dosyaları göndermek istiyorsanız önerilir).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsIsEmptyOrDoesNotExist</Keyword>
+      <Text>Kullanıcı varsayılan malzeme yapılandırması '{0}' bulunamadı veya bozuk.
+Varsayılan malzeme yapılandırmaya geri gidiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsUpdated</Keyword>
+      <Text>Varsayılan malzeme yapılandırma partneriniz tarafından güncellendi.
+Bu otomatik olarak indirilmiş ve uygulanmıştır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.WorkParamsMismatch</Keyword>
+      <Text>Uyarı: Bu alıcı, bu proje için seçmiş farklı bir malzeme yapılandırmasını kullanmaktadır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UserWorkParamsDataNotFound</Keyword>
+      <Text>Kullanıcı varsayılan malzeme yapılandırması bulunamadı. Varsayılandan birine geri dönün.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DentalProjectFileStorageError</Keyword>
+      <Text>Dental proje depolamasında'{0}'.
+Hata detayları:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsHashMismatch</Keyword>
+      <Text>İçe aktarılan proje farklı bir malzeme yapılandırma ile oluşturulmuş ve mevcutla eşleşmiyor. Bu tasarım sürecinde yanlış sonuca yol açabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsSignatureMismatch</Keyword>
+      <Text>İçe aktarılan proje doğrulanmış malzeme yapılandırma ile oluşturuldu. İçe aktarım için kullanılan malzeme yapılandırma doğrulanmadı veya farklı sürümde verilmemektedir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ImportSucceeded</Keyword>
+      <Text>Dental proje içe aktarımı başarılı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SignatureVerificationWorkParamsError</Keyword>
+      <Text>Kullanılacak malzeme yapılandırma dosyası doğrulanamadı ve bu nedenle Dental DB'nin bu sürümünde kullanılamaz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.SignatureVerificationWorkParamsError</Keyword>
+      <Text>Diş projesi içe aktarılamadı malzeme yapılandırma oluşturmak için kullanılan doğrulanamadı  ve bu nedenle Dental DB bu sürümünde kullanılamaz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParams.VerficationError.Title</Keyword>
+      <Text>Malzeme yapılandırması yasaktır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.WorkParamsDBLoadFailed</Keyword>
+      <Text>Malzeme yapılandırma verilerini işlemede bir hata oluştu :</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.InputData</Keyword>
+      <Text>Hasta detaylarını aşağıya giriniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New.Description</Keyword>
+      <Text>{1}' bu pencereyi kapatmadan, yeni bir hasta ekleyin  '{0}, </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New_Duplicate.Description</Keyword>
+      <Text>Hastayı kopyalayın '{0}, {1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New_Add.Description</Keyword>
+      <Text>Yeni bir hasta ekleyin '{0},{1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept.Description</Keyword>
+      <Text>Bu hastayı seçin ve pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept.Description.New</Keyword>
+      <Text>Yeni bir hasta ekleyin ve bu pencereyi kapatın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Update.Description</Keyword>
+      <Text>Mevcut hastanın ismi "{0}, {1}"  değiştirilecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Hint.NoData</Keyword>
+      <Text>Hasta eklemek veya bulmak için isim girin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside</Keyword>
+      <Text>Proje Dental DB dışında modifiye edilmiştir. Bunu yeniden yüklemek ve Dental DB içinde yapılan değişiklikleri kaybetmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reload.Description</Keyword>
+      <Text>Projeyi yeniden yükle. DentalDB'de projeye yapılan değişiklikler silinecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reject.Description</Keyword>
+      <Text>Projeyi sakla. Dışarıda yapılan değişiklikler silinecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth</Keyword>
+      <Text>Mevcut olanlardan birini kopyalayarak yeni bir hasta oluşturacaksınız. Yeni hastanın doğum tarihi değiştirilmeyecek.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialConfiguration.MaterialFilterLoadFailed</Keyword>
+      <Text>Materyal konfigürasyonundan malzeme filtresi yüklenirken bir hata oluştu:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialConfiguration.MaterialSwitchNotAllowed</Keyword>
+      <Text>Materyal konfigürasyonu ancak proje için tanımlanmış herhangi bir restorasyon söz konusu değilse değiştirilebilir. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.KeepDateOfBirth.Description</Keyword>
+      <Text>Mevcut doğum tarihi saklanacak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.UpdateDateOfBirth.Description</Keyword>
+      <Text>Dialoğa geri dön ve doğum tarihini değiştir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New.Description</Keyword>
+      <Text>Bu pencereyi kapatmadan yeni bir teknisyen ekleyin  '{0}, {1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New_Duplicate.Description</Keyword>
+      <Text>Teknisyeni kopyalayın '{0},{1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New_Add.Description</Keyword>
+      <Text>Yeni bir teknisyen ekleyin '{0},{1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Update.Description</Keyword>
+      <Text>Mevcut teknisyenin ismi "{0}, {1}" değiştirilecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Hint.NoData</Keyword>
+      <Text>Yeni bir teknisyen eklemek veya mevcut teknisyeni bulmak için isim yazın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New.Description</Keyword>
+      <Text>Bu pencereyi kapatmadan '{0}' yeni bir müşteri ekleyin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New_Duplicate.Description</Keyword>
+      <Text>Müşteriyi kopyalayın '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New_Add.Description</Keyword>
+      <Text>Yeni bir müşteri ekleyin '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Update.Description</Keyword>
+      <Text>Mevcut müşterinin ismi '{0}' değiştirilecek</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InvalidMailInput</Keyword>
+      <Text>Yazmış olduğunuz mail adresi geçerli bir mail adresi gibi görünmüyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeInvalidId</Keyword>
+      <Text>Müşteri ID si için sadece nümerik değerlere izin verilir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UserWorkParamsIsInvalid</Keyword>
+      <Text>Kullanıcı varsayılan malzeme yapılandırma bozuk gibi görünüyor. Varsayılandan bir tanesine dönün.
+Ek bilgi:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ResetParameterValuesToDefault.ToolTip</Keyword>
+      <Text>Tüm sayısal parametrelerin değerleri seçilen restorasyon ve malzeme için varsayılan değere sıfırlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UpdateMetaDataFileFailed</Keyword>
+      <Text>Güncellenirken hata oluştu '{0}'.
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DuplicateActionFileCopyingFailed</Keyword>
+      <Text>Kopyalanan dental projenin veri prosesinde bir veya daha fazla hata oluştu:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterGroupRequiredMissing.ToolTip</Keyword>
+      <Text>Gerektiği gibi işaretlenmiş veriler tespit edilemedi. Veri var olduğundan emin olun ve tekrar deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionSelectionDialog.MaterialConfigurationHint</Keyword>
+      <Text>Malzeme yapılandırması sağ ana ekranın sol alt tarafındaki "Malzeme yapılandırma" bağlantısını kullanarak yeni bir proje oluşturduktan sonra ayarlanabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers</Keyword>
+      <Text>Bu projede bir hasta adı "{0}" ID numarası {1} olarak referanslandırılmış. Ancak, müşteri ismi laboratuvar {2} için {1} ID numarası ile hasta adı "{3}" olarak kaydedilmiştir. Eğer içe aktarıma devam ederseniz, ID {1} için isim "{0}" olarak kayıtlı tüm durumlar için değişmiş olacaktır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MovementMarkerScan.Parameter</Keyword>
+      <Text>Çene hareketi için tarama işaretleyici?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DependentParameterValueMismatch</Keyword>
+      <Text>Endikasyonlar / malzemelerin yerel yapılandırması içe aktarım dosyanız ile uyumlu değildir. Lütfen farklı bir malzeme yapılandırması seçerek ve tekrar deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameter</Keyword>
+      <Text>Endikasyonlar / malzemelerin yerel yapılandırması içe aktarım dosyanız ile uyumlu değildir. Lütfen farklı bir malzeme yapılandırması seçerek ve tekrar deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameterValue</Keyword>
+      <Text>Endikasyonlar / malzemelerin yerel yapılandırması içe aktarım dosyanız ile uyumlu değildir. Lütfen farklı bir malzeme yapılandırması seçerek ve tekrar deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.BridgeDisconnected</Keyword>
+      <Text>Proje  köprülere  izin vermeyen köprü dişler için restorasyonlar olarak transfer edilemeyen köprüleri tanımlar.
+İstenilen köprüler:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectGuidRequired</Keyword>
+      <Text>Herhangi bir özgün proje ID si belirtilmedi. Proje içe aktarılamıyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownReconstruction</Keyword>
+      <Text>{0} dişi için bilinmeyen rekonstrüksiyon tipi '{1}'  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NotSupportedMaterialForReconstruction</Keyword>
+      <Text>{0} dişi için tanımlanan rekonstrüksiyon '{1}' istenilen malzemelerin kulanılmasına izin vermiyor. Denenen malzemeler: {2}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownParameterValue</Keyword>
+      <Text>{0} Dişinde '{1}' parametresi için '{2}' tanımlanamayan değer.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameters</Keyword>
+      <Text>Diş {0} için tanımlanan bir ya da daha fazla malzeme parametreleri kullanılan malzeme yapılandırmada tanımlanmamıştır.
+Parametreler:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NoPatientSpecified</Keyword>
+      <Text>İçe aktarım projesi gerekli olan hasta verisini içermiyor.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectLiteNotAllowed</Keyword>
+      <Text>İçe aktardığınız dental proje dental proje formatının kısaltılmış versiyonudur ve içe aktarılamamaktadır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectLiteOnlyAllowed</Keyword>
+      <Text>İçe aktardığınız dental proje dental proje formatının standart versiyonudur ve içe aktarılamamaktadır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ShowError.Title</Keyword>
+      <Text>Proje {0} için hata mesajları</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectSourceFolder</Keyword>
+      <Text>Proje kaynak klasör: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed</Keyword>
+      <Text>Dental proje tipi otomatik olarak denetlenemedi.Lütfen dental proje tipini belirtin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Standard</Keyword>
+      <Text>Standart dental proje formatı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Standard.Description</Keyword>
+      <Text>Genellikle diğer dental teknikerlerinden gelen proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.RecipientMaterialConfiguration</Keyword>
+      <Text>Dental proje lite</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.RecipientMaterialConfiguration.Description</Keyword>
+      <Text>Genellikle diş hekimi veya 3. parti chairside yazılımını kullanarak alınan proje</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NonUniqueClient</Keyword>
+      <Text>Aynı isimde birden fazla müşteri var - seçim gerekli</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumDefault</Keyword>
+      <Text>Diş ID : {0} - Sayısal enum parametresi {1}, {2} den {3} ({4}) e kadar ayarlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualDefault</Keyword>
+      <Text>Diş ID: {0} - Metinsel parametresi {1}, {2} den {3} e kadar ayarlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualDefault</Keyword>
+      <Text>Diş ID: {0} - Bağımsız sayısal enum parametresi {1}, {2} den {3} e kadar ayarlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialDefault</Keyword>
+      <Text>Diş ID: {0} - Materyal parametresi {1}, {2} den {3} e kadar ayarlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericAdd</Keyword>
+      <Text>Diş ID: {0} - Sayısal parametresi {1} (Değer: {2}) eklendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumAdd</Keyword>
+      <Text>Diş ID: {0} - Sayısal enum parametresi {1} (Anahtar kelime: {2}, Değer: {3}) eklendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualAdd</Keyword>
+      <Text>ToothID: {0} - Metinsel parametre {1}, {2} değeri ile eklendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualAdd</Keyword>
+      <Text>ToothID: {0} - Bağımsız metinsel parametre {1}, {2} değeri ile eklendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialAdd</Keyword>
+      <Text>ToothID: {0} - Materyal parametre {1}, {2} değeri ile eklendi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericRemove</Keyword>
+      <Text>ToothID: {0} - Sayısal parametre {1}, {2} değeri ile kaldırıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualRemove</Keyword>
+      <Text>ToothID: {0} - Metinsel parametre {1}, {2} değeri ile kaldırıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualRemoveDependent</Keyword>
+      <Text>ToothID: {0} - Takip eden bağımlı parametreler ayrıca kaldırıldı, metinsel parametre {1} kaldırıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualRemove</Keyword>
+      <Text>Diş ID: {0} - {2}  değerine sahip bağımlı metinsel parametre {1} kaldırıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualNoValue</Keyword>
+      <Text>Diş ID: {0} - Bağımlı metinsel parametre {1} anahtarının tanımlanan herhangi bir değeri yoktur {2}. Aşağıdaki bağımlı parametreler kaldırıldı:
+{3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialRemove</Keyword>
+      <Text>Diş ID: {0} - {2}  değerine sahip materyal parametresi {1} kaldırıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.OldWorkParamsDB.Hash</Keyword>
+      <Text>Eski workparams karıştı: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.OldWorkParamsDB.FileName</Keyword>
+      <Text>Eski workparams dosya ismi: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NewWorkParamsDB.Hash</Keyword>
+      <Text>Yeni workparams karıştı: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NewWorkParamsDB.FileName</Keyword>
+      <Text>Yeni workparams dosya ismi: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ToothBridgeChanged</Keyword>
+      <Text>Bazı köprüler / bağlı restorasyonlar yeni malzeme yapılandırmasına transfer edilemedi.
+Bağlı restorasyonların listesi:
+{0}
+Güncellemeden sonra bağlı restorasyonların listesi:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.RecoTypeNotExist</Keyword>
+      <Text>Diş ID: {0} - Kayıt Tipi yok. {1} kaldırıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialNotExist</Keyword>
+      <Text>Diş ID: {0} - Materyal yok. {1} kaldırıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialReplaced</Keyword>
+      <Text>Diş ID: {0} - Malzeme {1} yeni malzeme yapılandırmasında yok, ancak kullanıcı bir yedek malzeme {2} seçmiştir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectPathNotExist</Keyword>
+      <Text>Proje dizini mevcut değil: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentParameterRemoved</Keyword>
+      <Text>{1} değeri ile bağlı parametre {0} metinsel parametresi {2} ve diş {3} için kaldırılmıştır </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectedMaterialNotExist</Keyword>
+      <Text>Seçilen malzeme her yapı türünde yok. {0} malzemenin kendisi seçmek ister misiniz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectMaterial.Hint</Keyword>
+      <Text>dişler/dielar için kullanılan malzeme {0} yeni malzeme yapılandırmasında mevcut değildir. Aşağıda mevcut malzemelerin listesinden kullanacağınız malzemeyi seçiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist</Keyword>
+      <Text>Yapı bilgi dosyası zaten var.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Continue.Description</Keyword>
+      <Text>Yeni proje tasarım seçeneklerinden bazıları mevcut üretim bilgilerine uymayabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Cancel.Description</Keyword>
+      <Text>Mevcut malzeme yapılandırmasını saklayın. Herhangi bir değişiklik yer almayacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.WorkParamsDBValidationFailed</Keyword>
+      <Text>Malzeme yapılandırma doğrulama başarısız oldu! Dosya "{0}" yok.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.ProjectMatchWorkParamsDB</Keyword>
+      <Text>Proje mevcut malzeme yapılandırmasıyla eşleşmiyor! İpucu:  Bu proje için manuel olarak 'Proje durumu' bölümünde yer alan 'Malzeme yapılandırma' yı tıklayarak malzeme yapılandırmasını değiştirebilirsiniz.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DifferentParameter</Keyword>
+      <Text>Yüklenen proje mevcut iş param yapılandırma dosyalarından farklı ve ayarlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DifferentParameter.Details</Keyword>
+      <Text>Daha fazla ayrıntı log dosyası{0} içinde bulunabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ReadOnlyProject.Title</Keyword>
+      <Text>Sadece projeyi oku</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ReadOnlyProject</Keyword>
+      <Text>Malzeme yapılandırma yüklenen proje içine gömülü değildir. Bu nedenle, proje salt okunur modda yüklenir. Düzenleme/Ekleme restorasyonları eklemek mümkün olmayacaktır.
+Tüm özellikleri etkinleştirmek için "Proje durumu" bölümünde "Materyal yapılandırmasını seçin..." kısmını tıklayarak bu proje için materyal yapılandırmasını değiştirin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.TreatAsLocalProject</Keyword>
+      <Text>Yerel olarak davranın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.TreatAsLocalProject.ToolTip</Keyword>
+      <Text>Seçenek seçildiğinde, proje varsayılan veri depolama yolundan sanki içeride oluşturulmuş gibi içe aktarılacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch</Keyword>
+      <Text>Malzeme yapılandırma değişikliği süreci henüz bitmedi. Diyaloğu kapatmak prosesi sonlandıracak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Close.Description</Keyword>
+      <Text>Pencereyi kapatma bu proje için  malzeme yapılandırmasını değişmeden bırakacak</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Continue.Description</Keyword>
+      <Text>Malzeme yapılandırma geçişi ile devam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericParameter.HiddenReplaced</Keyword>
+      <Text>Diş ID: {0} - Yeni malzeme yapılandırmasında gizli olarak sayısal parametre {1} işaretlenir. Eski değer {2} atılır ve yeni bir değer olan {3} ile değiştirilir </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumParameter.HiddenReplaced</Keyword>
+      <Text>Diş ID: {0} - Yeni malzeme yapılandırmasında gizli olarak sayısal enum parametre {1} işaretlenir. Eski değer {2} atılır ve yeni bir değerle değiştirilir {3} (anahtar kelime - {4})</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenReplaced</Keyword>
+      <Text>Diş ID: {0} - yeni malzeme yapılandırmasında gizli olarak metinsel parametre {1} işaretlenir. Eski değer {2} atılır ve yeni bir değerle değiştirilir {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenDependentRemoved</Keyword>
+      <Text>Diş ID: {0} - Yeni malzeme yapılandırmasında gizli olarak metinsel parametre {1} işaretlenir. Aşağıdaki bağımlı parametreler kaldırılır:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.Removed</Keyword>
+      <Text>Proje parametresi {0} (değer {1}) kaldırıldı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.Added</Keyword>
+      <Text>{1} değeri ile proje parametresi {0} eklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.Default</Keyword>
+      <Text>Proje parametresi {0} değeri ayarlanabilir {1}'den {2}'ye</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.JobCustomInfoField.Removed</Keyword>
+      <Text>Proje özel bilgi alan '{0}' kaldırıldı. Değeri kullanılır:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.JobCustomInfoField.Added</Keyword>
+      <Text>Proje özel bilgi alanı '{0}' eklendi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFileClearFailed</Keyword>
+      <Text>Dosya {0} zaten var ve kullanılıyor gibi görünüyor. Dosya başka bir program tarafından açılmış olup olmadığını kontrol ediniz ve tekrar deneyin.
+Sistem hata iletisi: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorStartingPDFViewer</Keyword>
+      <Text>Hata başlangıç pdf görüntüleyici (dosya = {0} hata = {1}).
+Eğer kaydettikten sonra PDF görüntüleyici başlatmak istemiyorsanız, ayarlar menüsünden "Dışa aktarımdan sonra PDF olarak göster" devre dışı bırakabilirsiniz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print.PageOf</Keyword>
+      <Text>of</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LocalImport</Keyword>
+      <Text>Proje dosyasından içe aktarım</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.InvalidId</Keyword>
+      <Text>ID geçersiz olduğu için proje "{0}" ID si ile yüklenemedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.UnknownId</Keyword>
+      <Text>"{0}" kimliğine sahip bir proje bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.CouldNotSetProject</Keyword>
+      <Text>"{0}" kimliğine sahip bir proje yüklenemedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.ErrorNotificationTitle</Keyword>
+      <Text>Başlangıç Projesi yüklenemedi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CurrentMaterialConfigurationNotFoundInMaterialConfigurationList</Keyword>
+      <Text>Projede kullanılan malzeme yapılandırma mevcut malzeme yapılandırmaları listesinde değildir. Malzeme yapılandırmaya geçiş halinde, bu değişiklikler geri alınamaz.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>countries-turkish.xml</IncludeFile>
+    <IncludeFile>languages-turkish.xml</IncludeFile>
+    <IncludeFile>WpfFTP-turkish.xml</IncludeFile>
+    <IncludeFile>ConfigControl-turkish.xml</IncludeFile>
+    <IncludeFile>RecoGroups-turkish.xml</IncludeFile>
+    <IncludeFile>NetworkCopying-turkish.xml</IncludeFile>
+    <IncludeFile>dentalshare-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImport01-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImport02-turkish.xml</IncludeFile>
+    <IncludeFile>OnlineHelp-turkish.xml</IncludeFile>
+    <IncludeFile>..\Materials.xml</IncludeFile>
+    <IncludeFile>materials-turkish.xml</IncludeFile>
+    <IncludeFile>..\customer.xml</IncludeFile>
+    <IncludeFile>customer-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImportCommon-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImport03-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImport04-turkish.xml</IncludeFile>
+    <IncludeFile>ScanImportDP-turkish.xml</IncludeFile>
+    <IncludeFile>missing\DentalDB-turkish-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

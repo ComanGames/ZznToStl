@@ -1,0 +1,3793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>Warning.NewTextualParameterForToothWork</Keyword>
+      <Text>
+        Seit der letzten Modifizierung der Rekonstruktion wurden neue textuelle Parametern hinzugefügt.
+        Diese sind z.Z. nicht aufgelistet.
+        Um diese der Rekonstruktion hinzuzufügen muss diese neu angelegt werden.
+        List der Parametern:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.NewNumericParameterForToothWork</Keyword>
+      <Text>
+        Seit der letzten Modifizierung der Rekonstruktion wurden neue numerische Parametern hinzugefügt.
+        Diese sind z.Z. nicht aufgelistet.
+        Um diese der Rekonstruktion hinzuzufügen muss diese neu angelegt werden.
+        List der Parametern:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.NewMaterialParameterForToothWork</Keyword>
+      <Text>
+        Seit der letzten Modifizierung der Rekonstruktion wurde neue Materialeigenschaft '{0}' hinzugefügt.
+        Diese ist in der Liste der Materialeigenschaften mit dem Wert '{1}' aufgelistet.
+        Um diese dauerhaft in die Rekonstrution zu übernehmen, muss der 'Speichern'-Button geklickt werden.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>QueueDirNotExist</Keyword>
+      <Text>Das angegebene Queue-Verzeichnis '{0}' existiert nicht.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Legend.Treatment.TimeLine</Keyword>
+      <Text>Legende</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialAbutment.DependentParameter</Keyword>
+      <Text>Material Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Today</Keyword>
+      <Text>Heute</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.ThisWeek</Keyword>
+      <Text>Woche</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.LastMonth</Keyword>
+      <Text>Monat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Older</Keyword>
+      <Text>Älter</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Color.MaterialProperty</Keyword>
+      <Text>Farbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RestartToApplyChanges</Keyword>
+      <Text>Änderungen werden nach dem Anwendungneustart wirksam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AboutWindow</Keyword>
+      <Text>Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsWindow</Keyword>
+      <Text>Einstellungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsWindow.Sqlite</Keyword>
+      <Text>Archiv Datenbank:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsWindow.CadData</Keyword>
+      <Text>Patientenordner:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LanguageAndSchemaWindow</Keyword>
+      <Text>Sprache / Zahnschema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInitError</Keyword>
+      <Text>Ein schwerwiegender Fehler ist beim Initializieren der Rekonstruktionsdatenbank aufgetreten.
+Fehlerdetails:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescription</Keyword>
+      <Text>Inlayschale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescription</Keyword>
+      <Text>Steg</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileParseError</Keyword>
+      <Text>
+        Ein Fehler  beim parsen von Duplizier-Info-Datei ist aufgetreten.
+
+        Dateipfad: {0}
+
+
+        Fehlerdetails:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Duplicate.FilterGroupInfoFileNotFound</Keyword>
+      <Text>Duplizier-Info-Datei mit Pfad {0} konnte nicht gefunden werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Header</Keyword>
+      <Text>Wählen Sie Projektdatei zum Duplizieren aus.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFilesToCopyOnDuplicate</Keyword>
+      <Text>Projektdateien zum Duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Duplication.DuplicateFilterVisualizer.Buttons.Ok</Keyword>
+      <Text>Duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.AddLabFirst</Keyword>
+      <Text>
+        Anhand des Importpfades konnte in der DB kein passendes Labor ausgewählt werden.
+        Bitte füllen Sie das Formular aus, um Labor mit angegebener Id zu erstellen.
+        Um ohne Laborerstellung fortzufahren - schließen Sie das Fenster.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateLaboratory</Keyword>
+      <Text>Labor erstellen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportSuccessed</Keyword>
+      <Text> Behandlung aus der Datei  {0} wurde erfolgreich importiert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Continue</Keyword>
+      <Text>Fortfahren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.SelectLaboratory.Header</Keyword>
+      <Text>Labor zuweisen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.EntryAlreadyExists</Keyword>
+      <Text>Behandlung existiert bereits. Wollen Sie diese überschreiben? 
+      Wenn Sie 'nein' auswählen, wird der Import abgebrochen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.AmbiguousType</Keyword>
+      <Text> Mehrdeutiger Wert: Tag &lt;{0}&gt; nicht erkannt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownTag_Treatment</Keyword>
+      <Text>Tag &lt;{0}&gt; mit Wert '{1}' nicht erkannt. Dieser Wert wird ignoriert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParentParameter_Treatment</Keyword>
+      <Text>Tag &lt;{0}&gt; mit Wert '{1}' scheint ein abhängiger Parameter zu sein, dass auf den folgenden nicht existenten (abhängigen) Parameter '{2}' verweist. Dieser wird ignoriert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UnknownParameter</Keyword>
+      <Text>Ein oder mehrere numerische Parametern konnten nicht verarbeitet werden. Diese haben keinen Namen. Behandlung für Zahn {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidParameterValue</Keyword>
+      <Text>Parameter {0} hat ungültigen Wert - Wert ist keine Zahl.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ToothWorkListMissing</Keyword>
+      <Text>Zahnbehandlungsliste nicht vorhanden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.UserAborted</Keyword>
+      <Text>Abgebrochen durch Benutzer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoDateTagOrInvalid</Keyword>
+      <Text>
+      Erstelldatum der Behandlung konnte nicht gefunden werden oder dieses besitzt kein gültiges Format.
+      Wollen Sie aktuelles Datum verwenden?
+      
+      Wenn 'nein' - Import wird abgebrochen.
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoNotesTag</Keyword>
+      <Text>Keine Notizen in der Projektdatei.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTrayNo</Keyword>
+      <Text>&lt;TrayNo&gt; tag enthält keine gültige ganze Zahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTechnicianId</Keyword>
+      <Text>&lt;TechnicianId&gt; tag tag enthält keine gültige ganze Zahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.TechnicianTagMissing</Keyword>
+      <Text>Techniker konnte nicht zugeordnet werden. &lt;TechnicianId&gt; tag ist nicht vorhanden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InsufficientPatientData</Keyword>
+      <Text>Patienten-Id konnte nicht extrahiert werden aus der Projektdatei.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPatientId</Keyword>
+      <Text>&lt;PatientId&gt; tag enthält keine gültige ganze Zahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PatientTagMissing</Keyword>
+      <Text>Patient konnte nicht zugeordnet werden. Weder &lt;PatientId&gt; noch &lt;Patient&gt; tag ist vorhanden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPracticeId</Keyword>
+      <Text>&lt;PracticeId&gt; tag  enthält keine gültige ganze Zahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PracticeTagMissing</Keyword>
+      <Text>Kunde konnte nicht zugeordnet werden . &lt;PracticeId&gt; tag ist nichtt vorhanden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ImportErrorHeader</Keyword>
+      <Text>Fehler beim Importieren einer Behandlung.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.JobSelection.Title</Keyword>
+      <Text>Import der Dentalprojekt-Datei</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Filter.Description</Keyword>
+      <Text>Dentalprojekt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ImportedItem</Keyword>
+      <Text>importiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.SelectLaboratory.Header</Keyword>
+      <Text>Laborauswahldialog</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentlDb.Import.Continue</Keyword>
+      <Text>Fortfahren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.InsufficientAccessRights</Keyword>
+      <Text>Sie haben keine Schreib- und/oder Leserechte um auf die Datenbankdatei {0} im Verzeichnis {1} zuzugreifen. Überprüfen Sie bitte Schreib-/Leserechte und starten Sie die Applikation neu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.InsufficientAccessRights.Project</Keyword>
+      <Text>Sie haben keine Schreib- und/oder Leserechte um auf die Projektdatei {0} zuzugreifen. Überprüfen Sie bitte Schreib-/Leserechte und starten Sie die Applikation neu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CriticalError</Keyword>
+      <Text>
+        Ein kritischer Fehler ist aufgetreten.
+        Fehlerdetails:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath.Header</Keyword>
+      <Text>Kritischer Fehler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath</Keyword>
+      <Text>
+        Datenbankdatei ({0}) konnte nicht gefunden werden.
+        Stellen Sie sicher, dass der Pfad zur Datenbankdatei gültig ist und die Datenbankdatei existiert.
+        Die Anwendung wird geschlossen.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB.Header</Keyword>
+      <Text>Kritischer Fehler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB</Keyword>
+      <Text>
+        Auf die Datenbankdatei ({0}) kann nur lesend zugegriffen werden.
+        Stellen Sie sicher, dass Sie schreibend auf die Datenbankdatei zugreifen könnnen.
+        Die Anwendung wird geschlossen.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.JobDirRemovalFailed</Keyword>
+      <Text>Ein Fehler ist aufgetreten beim Löschen von Projektverzeichnis {0} für die zu löschende Behandlung.      
+      Fehlermeldung: 
+      {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.InsufficientDetails</Keyword>
+      <Text>Es stehen nicht genug Informationen bereit, um Verbinder zu setzen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.DifferentMaterials</Keyword>
+      <Text>Diese Zähne können nicht verbunden werden, da sich die verwendete Materialien unterscheiden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Open.Help</Keyword>
+      <Text>Zirkonzahn.Help</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ConnectTeeth</Keyword>
+      <Text>Zähne verbinden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.TeethConnected</Keyword>
+      <Text>Zähne sind verbunden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectCustomer</Keyword>
+      <Text>Bitte zuerst einen Kunden auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTechJob</Keyword>
+      <Text>Patient, Techniker und Behandlungsdetails auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectToothWork</Keyword>
+      <Text>Wählen Sie Rekonstruktionstypen unten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SaveJob</Keyword>
+      <Text>'Speichern' klicken um fortzufahren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectActionToolbar</Keyword>
+      <Text>Aktion in Toolbar auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedLaboratoryData</Keyword>
+      <Text>Eine geänderter Eintrag wurde nicht gespeichert. 
+Wollen Sie die Änderungen speichern?
+Klicken Sie Ja um zu speichern, Nein um die Änderungen zu verwerfen,
+Abrechen um Eintrag zu vervollständigen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedClientData</Keyword>
+      <Text>Eine geänderter Eintrag wurde nicht gespeichert. 
+Wollen Sie die Änderungen speichern?
+Klicken Sie Ja um zu speichern, Nein um die Änderungen zu verwerfen,
+Abrechen um Eintrag zu vervollständigen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedPatientData</Keyword>
+      <Text>Ein geänderter Eintrag wurde nicht gespeichert. 
+Wollen Sie die Änderungen speichern?
+Klicken Sie Ja um zu speichern, Nein um die Änderungen zu verwerfen,
+Abrechen um Eintrag zu vervollständigen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.UnsavedTechnicianData</Keyword>
+      <Text>Eine geänderter Eintrag wurde nicht gespeichert. 
+Wollen Sie die Änderungen speichern?
+Klicken Sie Ja um zu speichern, Nein um die Änderungen zu verwerfen,
+Abrechen um Eintrag zu vervollständigen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueInUse</Keyword>
+      <Text>Value is used by some treatment(s).Cannot remove value.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType</Keyword>
+      <Text>Parameterwert wird als Standardwert von folgenden Rekonstruktionstypen verwendet:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.Details</Keyword>
+      <Text>Kürzel {0}; Name {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.AdviceForResolveProblem</Keyword>
+      <Text>Setzen Sie einen anderen Wert als Standardwert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion</Keyword>
+      <Text>Parameterwert wird als Standardwert von folgenden Rekonstruktionen verwendet:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefinition.Details</Keyword>
+      <Text>Indikation: {0} ( {1} ),  Material {0} ( {1} )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion.AdviceForResolveProblem</Keyword>
+      <Text>Setzen Sie einen anderen Wert als Standardwert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianNonUniqueName</Keyword>
+      <Text>
+        Ein Techniker mit gleichem Namen (Vor- + Nachname) existiert bereits.
+        Möchten Sie trotzdem einen neuen Techniker mit denselbem Namen anlegen?
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientPracticeMissing</Keyword>
+      <Text>Um einen Patienten anzulegen, müssen Sie zuerst einen Kunden auswählen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientNonUniqueName</Keyword>
+      <Text>Ein Patient mit gleichem Namen (Vor- + Nachname) existiert bereits.
+Möchten Sie trotzdem einen neuen Patienten mit denselbem Namen anlegen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.AlreadyLoaded</Keyword>
+      <Text>Behandlung bereits geladen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.SaveFirst</Keyword>
+      <Text>Sie versuchen eine Behandlung zu laden, die bereits geladen ist und verändert wurde. Wollen Sie die Änderungen verwerfen und die Behandlung neuladen? Wenn nein, wird der Ladevorgang abgebrochen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.ToothWork</Keyword>
+      <Text>Behandlung auswählen für Zahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.PatientImageData</Keyword>
+      <Text>Fotos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.PatientScanData</Keyword>
+      <Text>Scans</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Preview</Keyword>
+      <Text>Daten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Import</Keyword>
+      <Text>Importieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateLaboratoryAdvice</Keyword>
+      <Text>Labor erstellen um fortzufahren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLaboratory</Keyword>
+      <Text>Labor bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorLaboratoryConstraint</Keyword>
+      <Text>
+        Bitte geben Sie den Namen, das Land und die Spache an.
+        Im Falle, dass Sie Labornummer angegeben haben, stellen Sie sicher, dass die Labornummer eine Zahl ist.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorLaboratoryNonUniqueId</Keyword>
+      <Text>Ein Labor mit angegebener Labornummer existiert bereits.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OK</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.CancelEdit</Keyword>
+      <Text>Bearbeiten abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryId</Keyword>
+      <Text>Labornummer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LaboratoryName</Keyword>
+      <Text>Laborname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientId</Keyword>
+      <Text>Patient Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianId</Keyword>
+      <Text>Technikernummer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.LocalList</Keyword>
+      <Text>Lokale Behandlungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ImportedList</Keyword>
+      <Text>Importierte Behandlungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWork</Keyword>
+      <Text>Bitte vorher einen Kunden auswählen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment</Keyword>
+      <Text>
+      Warnung!
+
+       Sie sind dabei eine Behandlung aus der Datanbank zu löschen.
+      Möchten Sie auch die Konstruktionsdaten von Ihrem Laufwerk entfernen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Yes.Description</Keyword>
+      <Text>'Daten aus der Datenbank und vom Laufwerk entfernen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.No.Description</Keyword>
+      <Text>Daten aus der Datenbank entfernen und die Rekonstruktionsdaten auf dem Laufwerk behalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Cancel.Description</Keyword>
+      <Text>Löschen abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ValueForbiddenByMaterialRestriction</Keyword>
+      <Text>Der Wert '{0}' für Parameter '{1}' ist zur Zeit nicht erlaubt. Seien Sie vorsichtig beim verwenden von diesem Wert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ToothWork.InUse</Keyword>
+      <Text>Das Auswahlfenster für diesen Zahn ist bereits geöffnet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Settings.ToolTip</Keyword>
+      <Text>Einstellungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>About.ToolTip</Keyword>
+      <Text>Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NC.ToolTip</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportTreatment.ToolTip</Keyword>
+      <Text>Behandlung importieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DuplicateTreatment.ToolTip</Keyword>
+      <Text>Aktuelle Behandlung duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.Title</Keyword>
+      <Text>Es ist eine neue Version der Software verfügbar, wie möchten Sie fortfahren?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.StartUpdater</Keyword>
+      <Text>Jetzt updaten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.StartUpdater.Description</Keyword>
+      <Text>Neue Version jetzt installieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.No</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.No.Description</Keyword>
+      <Text>Meldung beim nächsten Start anzeigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.DontShow</Keyword>
+      <Text>Später erinnern </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.Available.DontShow.Description</Keyword>
+      <Text>Meldung in einigen Tagen wieder anzeigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Updates.ToolTip</Keyword>
+      <Text>Updates</Text>
+    </Translation>
+    <Translation>
+      <Keyword>btnShowNestingInformation.Text</Keyword>
+      <Text>Nestinginformationen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.NestingData</Keyword>
+      <Text>Nestinginformationen der aktuellen Behandlung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.NestingData.Block.Id</Keyword>
+      <Text>Block-ID:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.NestingData.Block.ArticleId</Keyword>
+      <Text>Art. Nr:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.NestingData.Block.Lot</Keyword>
+      <Text>Lot Nr:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.NestingData.Block.Shrinkage</Keyword>
+      <Text>Schrumpf:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>btnCloseNestingInformation.Text</Keyword>
+      <Text>Schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Close.ToolTip</Keyword>
+      <Text>Schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Inlay.
+        Schale
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomBar.WorkDescriptionPrint</Keyword>
+      <Text>Steg</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonist.Parameter</Keyword>
+      <Text>Abstand zu Antagonisten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToGingiva.Parameter</Keyword>
+      <Text>Abstand zur Gingiva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialQueueDirSelection</Keyword>
+      <Text>Material zum Fräsen auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialQueueDirSelection</Keyword>
+      <Text>Materialauswahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LegacyMaterial</Keyword>
+      <Text>Das für diesen Zahn eingestellte Material ist nicht mehr verfügbar. Bitte wählen Sie ein anderes Material.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CategoryInUse</Keyword>
+      <Text>Einer der Werte in dieser Kategorie wird von einer Behandlung verwendet. Kann Kategorie nicht entfernen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkTypeInUse</Keyword>
+      <Text>Dieser Arbeitstyp wird verwendet und kann deshalb nicht entfernt werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialInUse</Keyword>
+      <Text>Dieses Material wird verwendet und kann deshalb nicht entfernt werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrjInNotepad</Keyword>
+      <Text>prj in Notepad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Export</Keyword>
+      <Text>Exportieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCountryConstraint</Keyword>
+      <Text>Bitte das Land festlegen!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianConstraint</Keyword>
+      <Text>Vor- oder Nachname muss angegeben werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianNonUniqueId</Keyword>
+      <Text>Es gibt schon einen Techniker mit dieser ID.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientConstraint</Keyword>
+      <Text>Vor- oder Nachname muss angegeben werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPatientNonUniqueId</Keyword>
+      <Text>Es gibt schon einen Patienten mit dieser ID.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCustomerConstraint</Keyword>
+      <Text>Folgende Felder müssen ausgefühlt werden, um fortzufahren:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeNonUniqueId</Keyword>
+      <Text>Es gibt schon einen Kunden mit dieser ID.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatment</Keyword>
+      <Text>
+        Eine oder mehrere Behandlungen verweisen auf diesen Kunden. Diese Behandlungen auch löschen?
+        Falls nein, dann wird der Kunde auch nicht entfernt.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeUsedByTreatmentCaption</Keyword>
+      <Text>Kunde löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatment</Keyword>
+      <Text>
+        Ein oder mehrere Behandlungen verweisen auf diesen Patienten. Diese Behandlungen auch löschen?
+        Falls nein, wird der Patient auch nicht gelöscht.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientUsedByTreatmentCaption</Keyword>
+      <Text>Patient löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatment</Keyword>
+      <Text>
+        Ein oder mehrere Behandlungen verweisen auf diesen Techniker. Diese Behandlungen auch löschen?
+        Falls nein, wird der Techniker auch nicht gelöscht.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TechnicianUsedByTreatmentCaption</Keyword>
+      <Text>Techniker löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.TreatmentDataChanged</Keyword>
+      <Text>Der Datensatz wurde verändert. Möchten Sie die Änderungen übernehmen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Dialog.IncompleteTreatmentData</Keyword>
+      <Text>
+        Die bereitgestellten Informationen sind nicht ausreichend,
+        um den Datensatz anzulegen.
+        Mögliche Gründe sind z.B:
+        - keine Zahnarbeiten sind vorhanden
+        - Klient ist nicht angegeben
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.CountrySelection</Keyword>
+      <Text>Land des Labors festlegen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Messages.CountrySelection</Keyword>
+      <Text>Bitte legen Sie das Land des Labors fest.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Practice</Keyword>
+      <Text>Kunde bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Technician</Keyword>
+      <Text>Techniker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.LoadTreatment</Keyword>
+      <Text>Behandlung laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.PrintWindow</Keyword>
+      <Text>Drucken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.Patient</Keyword>
+      <Text>Patienten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Lab</Keyword>
+      <Text>Labore</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Client</Keyword>
+      <Text>Kunde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Patient</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Technician</Keyword>
+      <Text>Techniker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.TreatmentFlags</Keyword>
+      <Text>Flags</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Treatment</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ToothColor.Name</Keyword>
+      <Text>Zahnfarbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.New</Keyword>
+      <Text>Neu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Save</Keyword>
+      <Text>Speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Duplicate</Keyword>
+      <Text>Duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Load</Keyword>
+      <Text>Laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Extras</Keyword>
+      <Text>Extras</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Upload</Keyword>
+      <Text>Upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Print</Keyword>
+      <Text>Drucken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPatient</Keyword>
+      <Text>Patient bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewPatient</Keyword>
+      <Text>Neuen Patient anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectPatient</Keyword>
+      <Text>Patient auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RemovePatient</Keyword>
+      <Text>Patient löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SavePatient</Keyword>
+      <Text>Patient speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditTechnician</Keyword>
+      <Text>Techniker bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectTechnician</Keyword>
+      <Text>Techniker auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveTechnician</Keyword>
+      <Text>Techniker speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RemoveTechnician</Keyword>
+      <Text>Techniker löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTechnician</Keyword>
+      <Text>Neuen Techniker anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.PatientId</Keyword>
+      <Text>Patient Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.LastName</Keyword>
+      <Text>Nachname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FirstName</Keyword>
+      <Text>Vorname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.FullName</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPractice</Keyword>
+      <Text>Kunde bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewPractice</Keyword>
+      <Text>Neuen Kunden anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RemovePractice</Keyword>
+      <Text>Kunde löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SavePractice</Keyword>
+      <Text>Kunde speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectPractice</Keyword>
+      <Text>Kunde auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientsForThisPractice</Keyword>
+      <Text>Patienten dieses Kunden ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClient</Keyword>
+      <Text>Kunde löschen - alle Arbeiten und Patienten dieses Kunden werden gelöscht.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.RemoveClientSpecificValues</Keyword>
+      <Text>Kundenspezifische Parameter löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeId</Keyword>
+      <Text>Kunde Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeName</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.Firstname</Keyword>
+      <Text>Vorname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.Surname</Keyword>
+      <Text>Nachname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeLanguage</Keyword>
+      <Text>Sprache</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCountry</Keyword>
+      <Text>Land</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeStreet</Keyword>
+      <Text>Straße</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeHouseId</Keyword>
+      <Text>Haus Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeZip</Keyword>
+      <Text>PLZ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCity</Keyword>
+      <Text>PLZ/Stadt/Land</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCab</Keyword>
+      <Text>PLZ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeCityOnly</Keyword>
+      <Text>Stadt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.PracticeEMail</Keyword>
+      <Text>Email</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditLab</Keyword>
+      <Text>Labor bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticesForThisLab</Keyword>
+      <Text>Kunden dieses Labors...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.RemoveClientSpecificValues</Keyword>
+      <Text>Kundenspezifische Parameter löschen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabId</Keyword>
+      <Text>Kunden Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabName</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabLanguage</Keyword>
+      <Text>Sprache</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCountry</Keyword>
+      <Text>Land</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabStreet</Keyword>
+      <Text>Straße</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabHouseId</Keyword>
+      <Text>Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabZip</Keyword>
+      <Text>PLZ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Lab.LabCity</Keyword>
+      <Text>Stadt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Close</Keyword>
+      <Text>Schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Remove</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Save</Keyword>
+      <Text>Speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Clear</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Edit</Keyword>
+      <Text>Bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.Select</Keyword>
+      <Text>Auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Global.NewEntry</Keyword>
+      <Text>Neuer Eintrag</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.TechnicianId</Keyword>
+      <Text>Techniker Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.TechnicianId_short</Keyword>
+      <Text>Tech. Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FirstName</Keyword>
+      <Text>Vorname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.LastName</Keyword>
+      <Text>Nachname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technician.FullName</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.SchalenNr</Keyword>
+      <Text>Schalen-Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PracticeId</Keyword>
+      <Text>Kunde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.DateTime</Keyword>
+      <Text>Datum/Uhrzeit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Date</Keyword>
+      <Text>Datum</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Time</Keyword>
+      <Text>Uhrzeit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Notes</Keyword>
+      <Text>Notizen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Name</Keyword>
+      <Text>Kunde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Preview</Keyword>
+      <Text>Vorschau</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientName</Keyword>
+      <Text>Patientenname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientNameShort</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.PatientFilter</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianName</Keyword>
+      <Text>Technikername</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Action</Keyword>
+      <Text>Aktion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.TechnicianNameShort</Keyword>
+      <Text>Techniker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ToothColorName</Keyword>
+      <Text>Zahnfarbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Language</Keyword>
+      <Text>Sprache</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.UseArticulator</Keyword>
+      <Text>Artikulator verwenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.MarkedRemoved</Keyword>
+      <Text>Versteckt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Hide</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Restore</Keyword>
+      <Text>Wiederherstellen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Remove</Keyword>
+      <Text>Gelöschte Datensätze vernichten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Load</Keyword>
+      <Text>Laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterName</Keyword>
+      <Text>Parametername</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.ParameterValue</Keyword>
+      <Text>Wert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowHiddenTreatments</Keyword>
+      <Text>Gelöschte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Purge</Keyword>
+      <Text>Datensätze vernichten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.EditedByOther</Keyword>
+      <Text>
+Kunde wird von einem Job verwendet, dass z.Z. von einem anderen Benutzer bearbeitet wird.
+        Falls Sie ein Job, dass diesen Kunde verwendet bearbeiten - schließen Sie es zuerst.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse</Keyword>
+      <Text>
+Ein oder mehrer Jobs verweisen auf Kunden, dass Sie löschen möchten:        
+        
+        -Wenn Sie fortfahren wollen - drücken sie "Ja".
+         In diesem Fall werden ALLE Jobs, die auf diesen Kunden verweisen mitgelöscht. 
+        
+        - Sonst "Nein" auswählen.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.Header</Keyword>
+      <Text>Achtung!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.EditedByOther</Keyword>
+      <Text>
+        Patient wird von einem Job verwendet, dass gerade durch einen anderen Benutzer geöffnet ist.
+        Falls Sie ein Job, dass auf diesen Patient verweist, bearbeiten - schließen Sie es erst.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse</Keyword>
+      <Text>
+Ein oder mehrere Jobs verweisen auf den Patient, den Sie löschen wollen:
+
+- Falls Sie fortfahren wollen, drücken Sie "Ja".
+In diesem Fall werden ALLE Jobs, die auf diesen Patienten verweisen mitgelöscht.
+
+- Sonst  "Nein" auswählen.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.ReleaseAllLocksQuestion</Keyword>
+      <Text>Es werden nun alle sperren der Behandlungen gelöst.
+Bitte stellen sie sicher dass die Datenbank nicht von einem anderen PC verwendet wird und keine Behandlung geöffnet ist.
+Dies kann nicht rückgängig gemacht werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.ReleasedCount</Keyword>
+      <Text>Bei {0} Behandlungen wurde die Sperre freigegeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.Header</Keyword>
+      <Text>Achtung!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.EditedByOther</Keyword>
+      <Text>
+Techniker wird von einem Job verwendet, dass gerade durch einen anderen Benutzer geöffnet ist.
+        Falls Sie ein Job, dass auf diesen Patient Techniker, bearbeiten - schließen Sie es erst.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse</Keyword>
+      <Text>
+Ein oder mehrere Jobs verweisen auf den Techniker, dass Sie löschen wollen:
+        
+        - Falls Sie fortfahren wollen, drücken Sie "Ja".
+          In diesem Fall werden ALLE Jobs, die auf diesen Techniker verweisen mitgelöscht.
+        
+        - Sonst  "Nein" auswählen.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse_noDelete</Keyword>
+      <Text>Ein Job existiert welcher diesen Techniker verwendet. In diesem Fall ist löschen nicht möglich.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.Header</Keyword>
+      <Text>Achtung!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ReallyPurgeDeletedQuestion</Keyword>
+      <Text>Wirklich alle gelöschten Datensätze unwiderruflich vernichten?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.StoragePathCreationError</Keyword>
+      <Text>Bei Erstellen des Projektverzeichnisses ist ein Fehler aufgetreten. Details:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.PurgeImpossibleTreatmentInUse</Keyword>
+      <Text>Behandlung kann nicht gelöscht werden, denn sie ist noch geöffnet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.Notes</Keyword>
+      <Text>Notizen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.SelectAction</Keyword>
+      <Text>Zähne auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadySelectedQuestion</Keyword>
+      <Text>Bestehende Auswahl für diesen Zahn aktualisieren?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartingUp</Keyword>
+      <Text>Starte...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectTreatmentFirst</Keyword>
+      <Text>Bitte eine Behandlung auswählen, dann auf 'Laden' klicken.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VendorVersion</Keyword>
+      <Text>3.0</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveTreatment.ToolTip</Keyword>
+      <Text>Aktuelle Behandlung speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UploadTreatment.ToolTip</Keyword>
+      <Text>Upload der aktuellen Behandlung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatment.ToolTip</Keyword>
+      <Text>Neue Behandlung erstellen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadTreatment.ToolTip</Keyword>
+      <Text>Behandlung laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scannen.ToolTip</Keyword>
+      <Text>Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.ToolTip</Keyword>
+      <Text>CAD-Konstruktion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.ToolTip</Keyword>
+      <Text>Konstruktionsdaten hochladen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.ToolTip</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelEditor.ToolTip</Keyword>
+      <Text>Bibliothekszahn-Editor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintTreatment.ToolTip</Keyword>
+      <Text>Drucken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomerNumberToLong</Keyword>
+      <Text>Kundennummer zu lang</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientNumberTooLong</Keyword>
+      <Text>Patientennummer zu lang</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Parameter</Keyword>
+      <Text>Scan-Modus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite</Keyword>
+      <Text>Antagonist als Quetschbiss scannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+      <Text>Antagonist ohne Artikulator scannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+      <Text>Zwei Gipsmodelle, in Artikulator A</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+      <Text>Zwei Gipsmodelle, in Artikulator A (alt)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+      <Text>Zwei Gipsmodelle, in Artikulator B</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+      <Text>Antagonist mit Artikulator scannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+      <Text>Zwei Gipsmodelle, in Artikulator P</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Title.ChangeScanModus</Keyword>
+      <Text>Scanmodus ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.SelectedScanModus</Keyword>
+      <Text>Ausgewählter Scanmodus:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.SelectedScanModus.SaveAsDefault</Keyword>
+      <Text>Standard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich.Description</Keyword>
+      <Text>Nach dem Abarbeiten der normalen Scans wird ein zusätzlicher Scan gemacht mithilfe welchem die Modelle in die richtige Position gematcht werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite.Description</Keyword>
+      <Text>Der Gegenkiefer ist eine Bissnahme.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws.Description</Keyword>
+      <Text>Es wird ein bereits registrierter Artikulator der Scansoftware verwendet durch welchen die Modelle automatisch in die richtige Position gematcht werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Parameter</Keyword>
+      <Text>Zahnfarbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Title.ChangeColor</Keyword>
+      <Text>Zahnfarbe ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.SelectedColor</Keyword>
+      <Text>Ausgewählte Zahnfarbe:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A1</Keyword>
+      <Text>A1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A2</Keyword>
+      <Text>A2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3</Keyword>
+      <Text>A3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A3.5</Keyword>
+      <Text>A3.5</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.A4</Keyword>
+      <Text>A4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B1</Keyword>
+      <Text>B1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B2</Keyword>
+      <Text>B2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B3</Keyword>
+      <Text>B3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.B4</Keyword>
+      <Text>B4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C1</Keyword>
+      <Text>C1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C2</Keyword>
+      <Text>C2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C3</Keyword>
+      <Text>C3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.C4</Keyword>
+      <Text>C4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D2</Keyword>
+      <Text>D2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D3</Keyword>
+      <Text>D3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothColor.Value.D4</Keyword>
+      <Text>D4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anat.
+        Krone
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anat.
+        Käpp.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescriptionPrint</Keyword>
+      <Text>
+        Offset
+        Käpp.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anat.
+        Pontic
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Red.
+        Pontic
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Inlay
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescriptionPrint</Keyword>
+      <Text>
+        Red.
+        Inlay
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescriptionPrint</Keyword>
+      <Text>
+        Prim.
+        Teles.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Überp.
+        Krone
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Überp.
+        Pontic
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Anat.
+        Waxup
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescriptionPrint</Keyword>
+      <Text>
+        Red.
+        Waxup
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescriptionPrint</Keyword>
+      <Text>
+        Kein
+        Zahn
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescriptionPrint</Keyword>
+      <Text>Antag.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescriptionPrint</Keyword>
+      <Text>
+        Nachb.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicCrown.WorkDescription</Keyword>
+      <Text>Anatomische Krone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.WorkDescription</Keyword>
+      <Text>Anatomisches Käppchen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetCoping.WorkDescription</Keyword>
+      <Text>Offset-Käppchen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicPontic.WorkDescription</Keyword>
+      <Text>Anatomischer Pontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedPontic.WorkDescription</Keyword>
+      <Text>Reduzierter Pontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.WorkDescription</Keyword>
+      <Text>Inlay/Onlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedInlay.WorkDescription</Keyword>
+      <Text>Reduziertes Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope.WorkDescription</Keyword>
+      <Text>Primärteleskop</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressCrown.WorkDescription</Keyword>
+      <Text>Überpresskrone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressPontic.WorkDescription</Keyword>
+      <Text>Überpresspontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicWaxup.WorkDescription</Keyword>
+      <Text>Waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReducedWaxup.WorkDescription</Keyword>
+      <Text>Waxup Reduziert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MissingTooth.WorkDescription</Keyword>
+      <Text>Fehlender Zahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Antagonist.WorkDescription</Keyword>
+      <Text>Antagonist</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HealthyTooth.WorkDescription</Keyword>
+      <Text>Nachbarzahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapThickness.Parameter</Keyword>
+      <Text>Zementspaltdicke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MinThickness.Parameter</Keyword>
+      <Text>Mindestdicke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.false</Keyword>
+      <Text>nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Value.true</Keyword>
+      <Text>ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituScan.Parameter</Keyword>
+      <Text>Situ-Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Parameter</Keyword>
+      <Text>Implantatgetragen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.None</Keyword>
+      <Text>Kein Implantat</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutment</Keyword>
+      <Text>Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutment</Keyword>
+      <Text>Okklusal verschraubt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Parameter</Keyword>
+      <Text>Gingiva-Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.false</Keyword>
+      <Text>nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SeparateGingivaScan.Value.true</Keyword>
+      <Text>ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderHorizontalSize.Parameter</Keyword>
+      <Text>Horizontaler Kronenrand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBlockoutAngle.Parameter</Keyword>
+      <Text>Ausblockwinkel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Shrinking.Parameter</Keyword>
+      <Text>Schrumpfen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>de.Country</Keyword>
+      <Text>Deutschland</Text>
+    </Translation>
+    <Translation>
+      <Keyword>en.Country</Keyword>
+      <Text>England</Text>
+    </Translation>
+    <Translation>
+      <Keyword>it.Country</Keyword>
+      <Text>Italien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>uk.Country</Keyword>
+      <Text>Großbritanien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>fr.Country</Keyword>
+      <Text>Frankreich</Text>
+    </Translation>
+    <Translation>
+      <Keyword>at.Country</Keyword>
+      <Text>Österreich</Text>
+    </Translation>
+    <Translation>
+      <Keyword>es.Country</Keyword>
+      <Text>Spanien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>pt.Country</Keyword>
+      <Text>Portugal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>hu.Country</Keyword>
+      <Text>Ungarn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ru.Country</Keyword>
+      <Text>Russland</Text>
+    </Translation>
+    <Translation>
+      <Keyword>us.Country</Keyword>
+      <Text>USA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ca.Country</Keyword>
+      <Text>Kanada</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ch.Country</Keyword>
+      <Text>Schweiz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>de.Language</Keyword>
+      <Text>Deutsch</Text>
+    </Translation>
+    <Translation>
+      <Keyword>en.Language</Keyword>
+      <Text>Englisch</Text>
+    </Translation>
+    <Translation>
+      <Keyword>fr.Language</Keyword>
+      <Text>Französisch</Text>
+    </Translation>
+    <Translation>
+      <Keyword>it.Language</Keyword>
+      <Text>Italienisch</Text>
+    </Translation>
+    <Translation>
+      <Keyword>None.MaterialDescriptionPrint</Keyword>
+      <Text>Kein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Healthy.MaterialDescriptionPrint</Keyword>
+      <Text>Zahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>es.Language</Keyword>
+      <Text>Spanisch</Text>
+    </Translation>
+    <Translation>
+      <Keyword>default.Language</Keyword>
+      <Text>Standard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Search</Keyword>
+      <Text>In Auftragsliste suchen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Search.Filter</Keyword>
+      <Text>Filtern nach Datum und Projekten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Search.Nesting</Keyword>
+      <Text>Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.SearchIn</Keyword>
+      <Text>in</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.NotYetSaved</Keyword>
+      <Text>Behandlung noch nicht gespeichert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.PathDoesNotExistError</Keyword>
+      <Text>Fehler - das Verzeichnis mit den Projektdaten ist nicht verfügbar: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoTreatmentsToPurge</Keyword>
+      <Text>Es wurden keine Behandungen unwiderruflich gelöscht.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapStart.Parameter</Keyword>
+      <Text>Beginn Zementspalt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CementGapEnd.Parameter</Keyword>
+      <Text>Ende Zementspalt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingZ.Parameter</Keyword>
+      <Text>Zus. Abstand Okkl.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InlayAdditionalSpacing.Parameter</Keyword>
+      <Text>Zus. Abstand Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownAdditionalSpacingX.Parameter</Keyword>
+      <Text>Zus. Abstand X/Y</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngledSize.Parameter</Keyword>
+      <Text>Angewinkelter Kronenrand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderAngle.Parameter</Keyword>
+      <Text>Winkel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownBorderVerticalSize.Parameter</Keyword>
+      <Text>Vertikaler Kronenrand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorArea.Parameter</Keyword>
+      <Text>Verbinderquerschnitt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InlayThicknessRunOutDistance.Parameter</Keyword>
+      <Text>Randbreite</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedParameters</Keyword>
+      <Text>Erweiterte Einstellungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothShades.Default</Keyword>
+      <Text>Verfügbare Farben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowInExplorer</Keyword>
+      <Text>Im Explorer öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressMinThickness.Parameter</Keyword>
+      <Text>Überpress-Mindestdicke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverpressAdditionalSpacing.Parameter</Keyword>
+      <Text>Überpress-Abstand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrettauBridge.WorkDescription</Keyword>
+      <Text>Prettau-Brückenelement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrettauBridge.WorkDescriptionPrint</Keyword>
+      <Text>Prettau
+Brücken
+element</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Attachment.WorkDescription</Keyword>
+      <Text>Primärgeschiebe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Parameter</Keyword>
+      <Text>Garantieversicherung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.true</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarrantyInsurance.Value.false</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoAvailableFilesForUpload</Keyword>
+      <Text>Die folgenden Dateien sind für den Upload ausgewählt, fehlen aber im Projektverzeichnis: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnableToMoveSFVFile</Keyword>
+      <Text>Prüfsummendatei konnte nicht in Projektverzeichnis verschoben werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.WatchdogLabel</Keyword>
+      <Text>Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM.WatchdogLabel</Keyword>
+      <Text>NC</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD.WatchdogLabel</Keyword>
+      <Text>Modellier</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Upload.WatchdogLabel</Keyword>
+      <Text>Upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UntouchableZoneNearPreparationMargin.Parameter</Keyword>
+      <Text>Nicht ausblocken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.CurrentUser</Keyword>
+      <Text> 
+       Datensatz ist derzeit noch von Ihnen gesperrt und wurde entsperrt.
+       </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Message.AnotherUser</Keyword>
+      <Text>
+       Datensatz ist derzeit gesperrt von:
+          Compuer/User: {0}. 
+       
+       Um die Sperrung zu übergehen,  "Ja" klicken. 
+       Dies kann zu Datenverlust führen. 
+       
+       Ansonsten "Nein" anklicken.
+       </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.TreatmentLocked.Caption</Keyword>
+      <Text>Warnung!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.WorkType</Keyword>
+      <Text>Rekonstruktionstyp</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialSelection</Keyword>
+      <Text>Material auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.Material</Keyword>
+      <Text>Material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved</Keyword>
+      <Text>Da das Benennungsschema für Projektverzeichnisse mehrere Projekte in einem Verzeichnis zulässt, führt das Löschen der Projektdaten für ein Projekt zum Verlust von allen Projektdateien anderer Projekte, die sich in diesem Verzeichnis befinden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Remove</Keyword>
+      <Text>Projektdaten entfernen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Description</Keyword>
+      <Text>Projektdaten für dieses und alle andere Projekte sowie das Verzeichnis selber entfernen </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.ProjectFileDataRemoving.ToManyFilesCouldBeRemoved.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Yes</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>No</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WaxupPontic.WorkDescription</Keyword>
+      <Text>Waxup-Pontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Veneer.WorkDescription</Keyword>
+      <Text>Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplint.WorkDescription</Keyword>
+      <Text>Aufbissschiene</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrown.WorkDescription</Keyword>
+      <Text>Eierschalen Krone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalPontic.WorkDescription</Keyword>
+      <Text>Eierschalen Pontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintGap.WorkDescription</Keyword>
+      <Text>Aufbissschiene (fehlender Zahn)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintThicknessOcclusal.Parameter</Keyword>
+      <Text>Occlusale Dicke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintThicknessPeripheral.Parameter</Keyword>
+      <Text>Periphere Dicke</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBlockOutAngle.Parameter</Keyword>
+      <Text>Ausblockwinkel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBlockOutOffset.Parameter</Keyword>
+      <Text>Ausblockabstand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintMaxAllowedUndercut.Parameter</Keyword>
+      <Text>Unterschnitte zulassen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintBottomMorphologicalClosureRadius.Parameter</Keyword>
+      <Text>Glätten (Schienenunterseite)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintTopMorphologicalClosureRadius.Parameter</Keyword>
+      <Text>Glätten (Schienenoberseite)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BiteSplintTopDesiredImpressionDepth.Parameter</Keyword>
+      <Text>Gewünschte Eindrucktiefe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescription</Keyword>
+      <Text>Stegpfosten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPillar.WorkDescriptionPrint</Keyword>
+      <Text>
+        Steg-
+        pfosten
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescription</Keyword>
+      <Text>Stegsegment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarSegment.WorkDescriptionPrint</Keyword>
+      <Text>
+        Steg-
+        segment
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers</Keyword>
+      <Text>Diese Id ist bereits an einen Kunden vergeben. Sein Name unterscheidet sich von dem in der Projektdatei angegebenem.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting</Keyword>
+      <Text>Bestehenden Kunden überschreiben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.OverwriteExisting.Description</Keyword>
+      <Text>Bestehenden Kundennamen durch den Kundennamen aus der Projektdatei überschreiben.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent</Keyword>
+      <Text>Aktuellen Kundennamen behalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.KeepCurrent.Description</Keyword>
+      <Text>Aktuellen Kundennamen behalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeNameDiffers.Cancel.Description</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice</Keyword>
+      <Text>Kunden anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Create</Keyword>
+      <Text>Kunden anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Create.Description</Keyword>
+      <Text>Kunden mit den Daten aus der Projektdatei anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Cancel</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.CreatePractice.Cancel.Description</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.TechnicianTagMissing</Keyword>
+      <Text>Keine Informationen zu Techniker sind in der Projekt-Datei vorhanden. Wollen Sie trotzdem fortfahren? In diesem Fall müssen Sie einen Technicker auswählen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.MaterialForbidsConnectors</Keyword>
+      <Text>Diese Zähne können nicht verbunden werden, weil aus diesem Material nur Einzelnteile gefertigt werden können.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTreatmentParam</Keyword>
+      <Text>Bitte auswählen: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData</Keyword>
+      <Text>Es gibt nichtgespeicherte Kundendaten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.SaveChanges</Keyword>
+      <Text>Neuen Kunden speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.DiscardChanges</Keyword>
+      <Text>Änderungen verwerfen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedClientData.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData</Keyword>
+      <Text>Es gibt ungespeicherte Patientendaten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.SaveChanges</Keyword>
+      <Text>Patientendaten speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.DiscardChanges</Keyword>
+      <Text>Änderungen verwerfen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsavedPatientData.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCustomerIdConstraint</Keyword>
+      <Text>
+        Bitte überprüfen Sie die angegebene Kundennummer.
+        Minimal erlaubte Länge: {0},
+        Maximal erlaubte Länge: {1},
+        Leere Nummer erlaubt: {2}.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged</Keyword>
+      <Text>
+        Aktuellen Projekt in dem Projektverzeichniss ablegen?
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.SaveChanges</Keyword>
+      <Text>Projekt abspeichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.SaveChanges.Description</Keyword>
+      <Text>Nach dem erneutem öffnen dieses Datensatzes können Sie mit dem Arbeiten an dem Datensatz fortfahren.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.DiscardChanges</Keyword>
+      <Text>Nicht speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.DiscardChanges.Description</Keyword>
+      <Text>Die aktuellen Änderungen an dem Datensatz werden verworfen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataChanged.Cancel.Description</Keyword>
+      <Text>Mit dem Bearbeiten vom Datensatz fortfahren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromiTero</Keyword>
+      <Text>iTero-Import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Grouping.MultiDie.Treatment</Keyword>
+      <Text>Charge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.MultiDie.Name</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.MultiDie.Treatment.BatchNr</Keyword>
+      <Text>Charge Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromiTero.ToolTip</Keyword>
+      <Text>Neue Behandlung aus dem iTero Projekt erstellen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scannen</Keyword>
+      <Text>Scannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomerNumberToShort</Keyword>
+      <Text>Kundennummer zu kurz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutmentManual</Keyword>
+      <Text>Abutment "manuell"</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutmentManual</Keyword>
+      <Text>Okklusal verschraubt "manuell"</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.CustomAbutmentWithImport</Keyword>
+      <Text>Custom Abutment (Position von Implantatplanung)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.WithoutAbutmentWithImport</Keyword>
+      <Text>Okklusal verschraubt (Position von Implantatplanung)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectJobDetails</Keyword>
+      <Text>Wählen Sie die Behandlungsdetails unten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectTechnician</Keyword>
+      <Text>Techniker auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialReplaceForPreparations</Keyword>
+      <Text>
+        Sie haben Material für eine Rekonstruktion geändert.
+        Sie haben jetzt die Möglichkeit das Material für andere Rekonstruktionen zu ändern.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForThisToothOnly</Keyword>
+      <Text>Das Material nur für diesen Zahn ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForThisToothOnly.Description</Keyword>
+      <Text>Andere Zähne behalten ihre Materialeinstellungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialInBridge</Keyword>
+      <Text>Material der Brücke ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialInBridge.Description</Keyword>
+      <Text>Alle andere Zähne in der Brücke bekommen das neue Material zugewiesen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForRecosWithSameMaterial</Keyword>
+      <Text>Material ALLER Rekonstruktion auf das neue Material setzen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForRecosWithSameMaterial.Description</Keyword>
+      <Text>Alle Rekonstruktionen, die aus gleichem Material hergestellt werden, werden aus dem neuen Material hergestellt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial</Keyword>
+      <Text>Material in der Brücke und anderen Zähnen ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangeMaterialForBridgeAndRecosWithSameMaterial.Description</Keyword>
+      <Text>Material der Brücke und aller anderen Rekonstruktionen auf das neue Material setzen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists</Keyword>
+      <Text>
+        Sie importieren eine Behandlung, die als lokale Behandlung abgelegt werden soll.
+        Eine andere Behandlung mit denselben Daten (Datum, Kundennummer und Schalennummer) existiert bereits.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew</Keyword>
+      <Text>Neue Behandlung anlegen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.CreateNew.Description</Keyword>
+      <Text>Neue Behandlung wird angelegt und das Datum der Behandlung wird auf das aktuelle Datum gesetzt. Die Schalennummer wird automatisch zugewiesen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite</Keyword>
+      <Text>Bestehende Behandlung überschreiben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Overwrite.Description</Keyword>
+      <Text>Bestehende Behandlung überschreiben. Die alte Behandlung wird unwiderruflich überschrieben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.TreatmentAlreadyExists.Abort.Description</Keyword>
+      <Text>Import wird abgebrochen. Die Behandlung wird nicht in der Datenbank abgelegt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Coping.Group</Keyword>
+      <Text>Käppchen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crown.Group</Keyword>
+      <Text>Kronen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Pontic.Group</Keyword>
+      <Text>Pontics</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Inlay.Group</Keyword>
+      <Text>Inlays</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Default.Group</Keyword>
+      <Text>Sonstiges</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.ProductionMode</Keyword>
+      <Text>Multidie-Modus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.DiesDoNotFeetDiePlate</Keyword>
+      <Text>
+        Diese Behandlung ist eine Multidie-Behandung und enthält Rekonstruktionen,
+        die nicht auf die geladene Multidie-Platte passen.
+        Möglicherweise wurde diese Behandlung unter der Verwendung einer anderen Multidie-Platte erstellt.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDie.MultiDiePlateFileNotFound</Keyword>
+      <Text>
+        Multidie-Platte {0} konnte nicht geladen werden.
+        Stellen Sie sicher, dass die Datei {0}.dll existiert und befindet sich in demselben Verzeichnis wie DentalDB.exe
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Patient.ProductionMode</Keyword>
+      <Text>Patientenmodus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning</Keyword>
+      <Text>Warnung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorAddingPatient</Keyword>
+      <Text>Fehler beim hinzufügen von Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorRemoveingPatient</Keyword>
+      <Text>Fehler beim löschen von Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorAddingPractice</Keyword>
+      <Text>Fehler beim hinzufügen von Kunden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectAlternativeFolderForConstructionData</Keyword>
+      <Text>Das Laufwerk {0} des CAD-Daten Verzeichnisses {1} existiert nicht. Wählen Sie bitte neues Verzeichnis für CAD-Daten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransfer.ASCandSTL</Keyword>
+      <Text>STL und ASC Daten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransfer.STLCconstructionOnly</Keyword>
+      <Text>Nur Konstruktionsdaten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NetworkCopying</Keyword>
+      <Text>Kopieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopyingTreatment.ToolTip</Keyword>
+      <Text>Daten in anderes Verzeichnis oder auf Netzwerklaufwerk kopieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopyingPath</Keyword>
+      <Text>Netzwerk Ziel-Verzeichnis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning</Keyword>
+      <Text>
+Achtung!
+
+Für diese Arbeit liegt bereits ein Fertigungsauftrag vor.
+
+Um diese Arbeit erneut fertigen zu können, muss ein neuer Auftrag erstellt
+werden.
+Dublizieren Sie dafür den Fall und führen Sie bei dem dublizierten Fall
+den Upload durch.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Duplicate</Keyword>
+      <Text>Dublizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Duplicate.Description</Keyword>
+      <Text>Dublizieren diese Arbeit, um die dublizierte Arbeit erneut zu fertigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Cancel.Description</Keyword>
+      <Text>Upload Abbrechen upload.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileCopyError</Keyword>
+      <Text>Ein Fehler Beim Kopieren der Datei {0} mit Ziel {1} ist aufgetreten.
+Fehlermeldung: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePluginName</Keyword>
+      <Text>Multidie Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Demo</Keyword>
+      <Text>Demo-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOpticsRound</Keyword>
+      <Text>SmartOptics-Platte (12 Einheiten)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOptics</Keyword>
+      <Text>Smartoptics Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Medit</Keyword>
+      <Text>Medit/Solutionix Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Maestro</Keyword>
+      <Text>Maestro Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D102</Keyword>
+      <Text>Imetric D102 Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D100</Keyword>
+      <Text>Imetric D100 Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialPropertyValueNotSelectableSelectAnotherValue</Keyword>
+      <Text>Einem oder mehreren Parametern ist entweder kein Wert zugewiesen, oder der zugewiesene Wert darf nicht gewählt werden.
+Bitte wählen sie den Wert, der von {0} verschieden ist.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CADDesignData.FilterName</Keyword>
+      <Text>CAD-Daten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAndCADDesignData.FilterName</Keyword>
+      <Text>Scandaten + CAD-Daten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scenes.FilterName</Keyword>
+      <Text>Szenedateien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ErrorLoadingTreatmentParametersFromFile_ParamDuplicated</Keyword>
+      <Text>Ein Fehler beim Verarbeiten der Projektdatei ist aufgetreten:
+Behandlungsparameter {0} ist mehrmals definiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotCreateDirectory</Keyword>
+      <Text>Ein Fehler beim Erstellen des Verzeichnisses {0} ist aufgetreten:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotMoveDBTemplateFile</Keyword>
+      <Text>Ein Fehler beim Initialisieren der Datenbank ist aufgetreten:
+Standard Datenbankdatei konnte nicht aus {0} in {1} verschoben werden.
+
+Bitte überprüfen Sie die Zugriffsrechte.
+
+Fehlermeldung:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate</Keyword>
+      <Text>Der Pfad zur sqlite-Datenbank wurde aktualisiert in der neuen Version. Bitte stellen Sie sicher, dass alle DentalDB-Versionen die auf {0} zugreifen auf dem neusten Stand sind.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate.Header</Keyword>
+      <Text>Datenbankverzeichnis wurde aktualisiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationUpdate.Header.Failed</Keyword>
+      <Text>Datenbankpfad Akutalisierung ist fehlgeschlagen.
+Fehlermeldung:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation</Keyword>
+      <Text>Vielen Dank für die Benutzung dieser Software! Neue Datenbank wurde initialisiert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.Header</Keyword>
+      <Text>Erster Start</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.Failed</Keyword>
+      <Text>Datenbankinitialisierung ist fehlgeschlagen.
+Fehlermeldung:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DBLocationCreation.NoTemplate</Keyword>
+      <Text>Fehler beim Initialisieren der Datenbank:
+DB-Dateivorlage {0} wurde nicht gefunden.
+
+Anwendung wird herutergefahren.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>constructedFiles</Keyword>
+      <Text>Konstruierte Dateien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>scanData</Keyword>
+      <Text>Scandaten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CannotResolveProgramFilesOptionForStartButton</Keyword>
+      <Text>Die Option Programme (%x) konnte nicht aufgelöst werden.
+Kommandozeile: {0}
+Argument: {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist</Keyword>
+      <Text>Möchten Sie wirklich nur Einzelnkiefer scannen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.SingleJaw</Keyword>
+      <Text>Ja, Einzelnkiefer scannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.BothJaws</Keyword>
+      <Text>Nein, Antagonist mitscannen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.BothJaws.Description</Keyword>
+      <Text>Antagonist wird automatisch hinzugefügt.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadFromFileFailed</Keyword>
+      <Text>Ein Fehler beim Laden der Einstellungen {module:{0}} aus der Datei {1} ist aufgetreten.
+Fehlermeldung:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileFilter</Keyword>
+      <Text>Suchmaske</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IncludeSubdirectories</Keyword>
+      <Text>Unterverzeichnisse miteinbeziehen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.Default</Keyword>
+      <Text>Vorgabe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.AlwaysAskUserOnStart</Keyword>
+      <Text>Beim Start nachfragen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider.UserQuestion</Keyword>
+      <Text>Bitte wählen Sie die Konfigurationsdatei mit Rekonstruktionstypen (WorkParamsDB)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadSettingsNotFound</Keyword>
+      <Text>Konfigurationsdatei {0} für den FTP-Upload konnte nicht gefunden werden oder ein Fehler beim Laden der Datei ist aufgetreten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.SelectServer2Upload</Keyword>
+      <Text>Mehrere FTP-Servern zum Hochladen der Projektdateien sind vorhanden.
+
+Bitte wählen Sie einen FTP-Server zu dem Sie die Projektdateien hochladen möchten aus der Liste:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.CancelUpload</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.CancelUpload.Description</Keyword>
+      <Text>Hochladen abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadLocation.Default.Name</Keyword>
+      <Text>Standardeinstellung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.UploadLocation.Default.Description</Keyword>
+      <Text>Standardeinstellung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FTP.MultipleUploadLocationsNotSupported</Keyword>
+      <Text>Hochladen der Behandlungen zu verschiedenen FTP-Servern wird von dieser Version der DentalDB nicht unterstützt.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoWorkParamsDBFound</Keyword>
+      <Text>Parameter der Arbeitsbereich-Datenbank nicht gefunden. Anwendung wird beendet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Close</Keyword>
+      <Text>Schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UsernamePasswordWindow</Keyword>
+      <Text>Zugangsdaten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Notes.AdditionalInfo</Keyword>
+      <Text>Zusätzliche Informationen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport01.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text>Bitte überprüfen Sie den importierten Datensatz auf Vollständigkeit und Korrektheit bevor Sie mit dem Konstruieren fortfahren.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Update.ToolTip</Keyword>
+      <Text>Update</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Delivery</Keyword>
+      <Text>Lieferung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialAbutment.Parameter</Keyword>
+      <Text>Aufbauelement-Material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Title</Keyword>
+      <Text>Dental-Datenbank</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Job</Keyword>
+      <Text>Datensatz</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.PrintDate</Keyword>
+      <Text>Druckzeitpunkt:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.Notes</Keyword>
+      <Text>Notizen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.JobId</Keyword>
+      <Text>Nr.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.PatientName</Keyword>
+      <Text>Patientenname:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.ClientName</Keyword>
+      <Text>Kunde:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print.TechnicianName</Keyword>
+      <Text>Techniker:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreManufacturedCrown.WorkDescription</Keyword>
+      <Text>Preform-Krone</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers</Keyword>
+      <Text>Lokal gespeicherte Email-Adresse entspricht nicht der im importierten Projekt.
+Lokal gespeichert: {0}
+Aus importiertem Projekt: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.OverwriteExisting</Keyword>
+      <Text>Bestehende überschreiben?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.OverwriteExisting.Description</Keyword>
+      <Text>Ersetzt die bestehende Kunden-Emailadresse durch die Emailadresse aus der Projektdatei</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.KeepCurrent</Keyword>
+      <Text>Bestehende behalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.KeepCurrent.Description</Keyword>
+      <Text>Behält die bestehende Emailadresse des Kunden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.Cancel</Keyword>
+      <Text>Import abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPracticeEmailDiffers.Cancel.Description</Keyword>
+      <Text>Der Import wird abgebrochen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ResaveJobToSwitchToRegJaws</Keyword>
+      <Text>Ausgewählter Scanmodus ist in dieser Version nicht unterstützt.
+Speichern Sie den Job erneut ab, um zu "Zwei Gipsmodelle" umzuschalten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAD</Keyword>
+      <Text>CAD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAM</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrown.WorkDescriptionPrint</Keyword>
+      <Text>
+        Prov.
+        Krone
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalPontic.WorkDescriptionPrint</Keyword>
+      <Text>
+        Prov.
+        Pontic
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownShoulderWidth.Parameter</Keyword>
+      <Text>Schulterbreite</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownShoulderSlope.Parameter</Keyword>
+      <Text>Schulterwinkel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProvisionalCrownTaperSlope.Parameter</Keyword>
+      <Text>Verjüngung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IntelligenceS</Keyword>
+      <Text>IntelligenceS-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Screenshots.FilterName</Keyword>
+      <Text>Bildschirmfotos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabledWarning</Keyword>
+      <Text>Der aktuelle Scanmodus unterscheidet sich vom einzigen derzeit unterstützten Scanmodus "Zwei Gipsmodelle, in Okklusion" in dieser Version.
+Um alle Funktionen nutzen zu können, müssen Sie den Job erneut speichern, und zuvor auf den Scanmodus auf "Zwei Gipsmodelle, in Okklusion" umstellen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabledQuestion</Keyword>
+      <Text>In dieser Version wird nur der Scanmodus "Zwei Gipsmodelle, in Okklusion" unterstützt.
+Möchten Sie wirklich den Scanmodus zu "Zwei Gipsmodelle, in Okklusion" umstellen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Yes</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Yes.Description</Keyword>
+      <Text>Scanmodus umstellen zu "Zwei Gipsmodelle, in Okklusion". Alle Features sind dann verfügbar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_No</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_No.Description</Keyword>
+      <Text>Alten Scan-Modus beibehalten. Einzelne Software-Funktionalitätten können u.U. nicht verfügbar sein.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforceRegisteredJawsOptionEnabled_Cancel.Description</Keyword>
+      <Text>Abspeichern der Behandlung abbrechen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.AntagonistTypeMustBeSpecified</Keyword>
+      <Text>Bitte geben Scan-Modus an!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImplantPos</Keyword>
+      <Text>Implantate Scannnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InvalidJobData</Keyword>
+      <Text>Ungültige Eingaben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MushBiteOneJawAntaOrHealthyRequired</Keyword>
+      <Text>Gleichzeitiges Konstruieren in Ober- und Unterkiefer ist im ausgewählten Scan-Modus nicht möglich.
+Bitte ändern Sie den Scanmodus, oder wählen Sie eine Projektdefinition, bei der nur in einem Kieferteil Rekonstruktionen vorgenommen werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportedMaterialWarning</Keyword>
+      <Text>Sie ändern Material {0}, welches nicht in der Materialdatenbank vorhanden ist. 
+Die alten Konstruktionsparameter werden für das neue Material übernommen. Falls ein Wert nicht innerhalb der Minimal/Maximalwerte für das neue Material liegt, wird der jeweilig nächste Grenzwert verwendet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportedValuesCouldNotBeUsedDueToConstrains</Keyword>
+      <Text>Die Werte für die folgenen Parameter konnten aufgrund der folgenden Beschränkungen nicht importiert werden:
+- Der Wert liegt nicht innerhalb des erlaubten Wertebereichs Ihrere Konfiguration
+- Der Wert ist nicht in Ihrer Konfiguration vorhanden.
+
+Liste von Parametern, die nicht angepaßt werden konnten:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning</Keyword>
+      <Text>Der Konstruktionstyp {0} ist nicht unterstützt in Ihrer Softwareversion.
+Upgraden Sie zur erweiterten CAD-Version, um diese Indikation zu nutzen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Continue</Keyword>
+      <Text>Weiter</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Continue.Description</Keyword>
+      <Text>Projekt trotzdem so definieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdvancedModuleRequiredWarning.Cancel.Description</Keyword>
+      <Text>Zurück zur Arbeitsauswahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.DentalShareUpload</Keyword>
+      <Text>dentalshare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareSelectTargetUser</Keyword>
+      <Text>Bitte wählen Sie aus, wohin die Daten geschickt werden sollen:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.FileSelectionWindow.Header</Keyword>
+      <Text>dentalshare-Upload</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilesHaveAlreadyBeenUploaded</Keyword>
+      <Text>Einige Dateien wurden bereits hochgeladen. Wirklich erneut hochladen?
+
+Anmerkung: Wenn Sie versuchen, eine identische Datei erneut hochzuladen, die bereits vollständig hochgeladen wurde, dann wird sie nicht erneut hochgeladen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.NotYet</Keyword>
+      <Text>Nie hochgeladen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.Queued</Keyword>
+      <Text>In Arbeit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Uploaded.AlreadyDone</Keyword>
+      <Text>Bereits abgeschlossen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectFiltersToApply</Keyword>
+      <Text>Filter anwenden:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareGroupExplanation</Keyword>
+      <Text>Bitte beachten Sie, dass Sie nur dentalshare-Accoungs verwenden können, die zu dieser Gruppe gehören. Ein Login mit einem Account aus einer anderen Gruppe ist nicht möglich.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ObserveProgressThroughTrayIcon</Keyword>
+      <Text>Sie können den Uploadfortschritt beobachten, indem Sie auf das Pfeilsymbol im Systemtray klicken.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Modellier.ToolTip</Keyword>
+      <Text>Modellier öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelMaker</Keyword>
+      <Text>Model Maker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelMaker.ToolTip</Keyword>
+      <Text>Model Maker öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PartialTP</Keyword>
+      <Text>Partial Framework</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PartialTP.ToolTip</Keyword>
+      <Text>Partial Framework öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Oral Scan.ToolTip</Keyword>
+      <Text>Oral ScannSoftware öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.ToolTip</Keyword>
+      <Text>ScannSoftware öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.GC</Keyword>
+      <Text>GC-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL</Keyword>
+      <Text>Steinbichler ST II Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL_ST1</Keyword>
+      <Text>Steinbichler ST Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.AG</Keyword>
+      <Text>Amann Girrbach-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SingleDie</Keyword>
+      <Text>Einzeldie-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareUploadTreatment.ToolTip</Keyword>
+      <Text>Daten per Dentalshare hochladen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment</Keyword>
+      <Text>Sie haben einen neuen Fall '{0}' von '{1}' per dentalshare erhalten. Möchten Sie ihn öffnen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Show</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Show.Description</Keyword>
+      <Text>Importierte Fälle anzeigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Cancel</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShareAskShowImportedTreatment.Cancel.Description</Keyword>
+      <Text>Keine Aktion wird durchgeführt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.TrayIcon.Tip</Keyword>
+      <Text>Doppelklicken für weitere Optionen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.UserName</Keyword>
+      <Text>benutzername</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Domain</Keyword>
+      <Text>Gruppe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ProjectName</Keyword>
+      <Text>Projektname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.NewProjects</Keyword>
+      <Text>Importierte Projekte:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Conflicts</Keyword>
+      <Text>Konflikte:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.Info</Keyword>
+      <Text>dentalshare-Infos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.RecentlyArrivedJobs</Keyword>
+      <Text>dentalshare: Neue Projekte!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.JobArrived</Keyword>
+      <Text>dentalshare: Projekt angekommen!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.JobUpdated</Keyword>
+      <Text>dentalshare: Projekt aktualisiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ViewInDentalDB</Keyword>
+      <Text>In DentalDB anzeigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OpenInExplorer</Keyword>
+      <Text>Projektordner in Explorer öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ShowChanges</Keyword>
+      <Text>Änderungen in Explorer anzeigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.RemoveFromArrivedList</Keyword>
+      <Text>Von Liste entfernen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ConflictResolvingRequired</Keyword>
+      <Text>Konflikt beheben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.OverrideExisting</Keyword>
+      <Text>Bestehenden ersetzen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.KeepExisting</Keyword>
+      <Text>Bestehenden erhalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.Success</Keyword>
+      <Text>Projekt erfolgreich importiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.ConflictResolvingRequired</Keyword>
+      <Text>Konflikt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.DataAlreadyExists</Keyword>
+      <Text>Projektdaten existieren bereits. Bitte wählen Sie aus, von welchen Daten ein Backup erstellt werden soll, bevor sie überschrieben werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ActionRequired</Keyword>
+      <Text>Aktion erforderlich</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConflictResolvingRequired</Keyword>
+      <Text>Konflikte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Success</Keyword>
+      <Text>Erfolgreich importiert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentLockedByUserError</Keyword>
+      <Text>Projekt mit ID {0} wird verwendet von {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBProvider</Keyword>
+      <Text>Material/Parameter-Konfiguration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepInspectDefaultMaxAngle.Parameter</Keyword>
+      <Text>Präp.-Überprüfung: Max. Winkel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepInspectDefaultMaxDistance.Parameter</Keyword>
+      <Text>Präp.-Überprüfung: Max. Abstand</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.More</Keyword>
+      <Text>Details</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.ErrorCheckingForProject</Keyword>
+      <Text>Ein Fehler ist aufgetreten beim Prüfen auf existierendes Projekt.
+Projekt-ID: {0}
+Fehler:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.ImportLocal.NoPracticeForExistingJob</Keyword>
+      <Text>Ein Fehler ist aufgetreten beim Prüfen auf existierendes Projekt. Bestehender Job hat keinen Kunden zugewiesen.
+Projekt-ID: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Shining3D</Keyword>
+      <Text>Shining3D-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.DOF</Keyword>
+      <Text>DOF-Platte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.CreateAccount</Keyword>
+      <Text>Ich habe noch keinen dentalshare-Account</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.CreateAccount.Description</Keyword>
+      <Text>Hier klicken zum Anmelden bei dentalshare</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.EnterCredentials</Keyword>
+      <Text>Benutzername/Passwort eingeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.EnterCredentials.Description</Keyword>
+      <Text>Wenn Sie bereits einen Account haben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareLoginFailed.Cancel.Description</Keyword>
+      <Text>Datenupload per dentalshare abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalShare.ImportState.OverwriteConfirmationRequired</Keyword>
+      <Text>Projekt existiert bereits. Überschreiben?
+
+Falls nein, wird der Import abgebrochen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ValidateProjectBeforeConstructWarning</Keyword>
+      <Text>Bitte prüfen Sie den importierten Datensatz auf Vollständigkeit und Korrektheit, bevor Sie mit der Konstruktion fortfahren.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditPracticeAdvice</Keyword>
+      <Text>Tip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PracticeSelectionAdvice</Keyword>
+      <Text>tip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NonUniquePractice</Keyword>
+      <Text>Mehrere Kunden mit gleichem Namen erkannt.
+Bitte erstellen Sie einen neuen Kunden, oder wählen Sie einen aus.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.DigitalImpressionScan</Keyword>
+      <Text>Digitaler Abdruck</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ColorAbutment</Keyword>
+      <Text>Abutment-Farbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TimeInterval.Any</Keyword>
+      <Text>Jederzeit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectIndication</Keyword>
+      <Text>Indikationen auswählen, indem Sie auf die Zähne klicken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectIndication.Multidie</Keyword>
+      <Text>Wählen Sie Indikationen aus, indem sie auf eine Multidie-Position klicken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SetPatient</Keyword>
+      <Text>Tippen Sie den Patientennamen ein, oder wählen Sie bestehenden Patienten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SetBatchJob</Keyword>
+      <Text>Geben Sie einen Namen für die Multidie-Charge ein, oder wählen Sie bestehenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.SelectActionFromToolbar</Keyword>
+      <Text>Wählen Sie eine Aktion in der Werkzeugleiste rechts.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.ResaveJobToSwitchToEnforcedAntagonistType</Keyword>
+      <Text>Ausgewählter Scanmodus ist in dieser Version nicht unterstützt.
+Speichern Sie den Job erneut, um umzuschalten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Help.Workflow.FillCustomInfoFields</Keyword>
+      <Text>Bitte benutzerdefinierte Info-Felder ausfüllen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorTechnicianInvalidId</Keyword>
+      <Text>Nur eine Nummer ist als ID erlaubt (Alternativ: Leer lassen)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.DayOfBirth</Keyword>
+      <Text>Geburtstag</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.Practice</Keyword>
+      <Text>Kunden-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Id</Keyword>
+      <Text>ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ProjectStatus</Keyword>
+      <Text>Projekt-Status</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.RemoveSingle</Keyword>
+      <Text>Zerstören</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InfoBoxTitle</Keyword>
+      <Text>Information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectMaterialTip</Keyword>
+      <Text>Bitte wählen Sie ein Material aus um die Auswahl zu speichern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HotkeyTip</Keyword>
+      <Text>Hotkey-Tip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UsePreviousToothDefinitionTip</Keyword>
+      <Text>Halten Sie CTRL, während Sie auf einen Zahn klicken, um die letzte Auswahl zu kopieren.
+Halten Sie die ⇧-Taste, um die Auswahl auf mehrere Zähne gleichzeitig anzuwenden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.Treatment.PracticeBeforeToothWorkExplanation</Keyword>
+      <Text>So können Sie Ihre kundenspezifischen Voreinstellungen für die Konstruktionsparameter verwenden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Notes</Keyword>
+      <Text>Anmerkungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeEnabledWarning</Keyword>
+      <Text>Aktueller Scanmodus entspricht nicht dem einzigen in dieser Version unterstützten Scanmodus "{0}".
+Um alle Features verwenden zu können, müssen Sie den Scanmodus auf "{0}" umstellen, und dann erneut speichern.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabledQuestion</Keyword>
+      <Text>In dieser Version wird nur Scanmodus "{0}" unterstützt.
+Möchten Sie wirklich den Scanmodus auf "{0}" umstellen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Yes</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Yes.Description</Keyword>
+      <Text>Scanmodus umstellen. Alle Features sind dann verfügbar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_No</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_No.Description</Keyword>
+      <Text>Alten Scanmodus beibehalten. Evtl sind manche Features nicht verfügbar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Cancel</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.IOMode.EnforcedAntagonistTypeOptionEnabled_Cancel.Description</Keyword>
+      <Text>Projekt wird nicht gespeichert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareFilesHaveBeenQueuedForUpload</Keyword>
+      <Text>Dateien wurden in die Upload-Warteschleife eingereiht</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Project</Keyword>
+      <Text>Projekt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.JobDefinition</Keyword>
+      <Text>Behandlung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.JobDefinitionPreview</Keyword>
+      <Text>Vorschau</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Actions</Keyword>
+      <Text>Aktion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Tips</Keyword>
+      <Text>Tips</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Practice</Keyword>
+      <Text>Kunde</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Technician</Keyword>
+      <Text>Techniker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Patient</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.SelectMaterial</Keyword>
+      <Text>Material</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.OptionsParams</Keyword>
+      <Text>Kundenspezifische Parameter</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowAllProjects</Keyword>
+      <Text>Alle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowImportedProjectsOnly</Keyword>
+      <Text>Importierte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ShowLocalProjectsOnly</Keyword>
+      <Text>Lokale</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.TasksPerformed</Keyword>
+      <Text>Bearbeitet</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentItemsCount</Keyword>
+      <Text>Anzahl:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OK.ExoMessageBox</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel.ExoMessageBox</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Yes.ExoMessageBox</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>No.ExoMessageBox</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GetMoreHelp</Keyword>
+      <Text>?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadProject</Keyword>
+      <Text>Laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Tooth</Keyword>
+      <Text>Behandlung für Zahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultidiePit</Keyword>
+      <Text>Multi-Die-Position</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.ImportProjectFrom</Keyword>
+      <Text>Importieren von...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.ProjectInformation</Keyword>
+      <Text>Projektinformationen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowMore</Keyword>
+      <Text>Mehr...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowLess</Keyword>
+      <Text>Weniger...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWork.ToolTip.ToothColor</Keyword>
+      <Text>Zahnfarbe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesis.Group</Keyword>
+      <Text>Totalprothesen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticTooth.WorkDescription</Keyword>
+      <Text>Prothesenzahn</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Parameter</Keyword>
+      <Text>Aesthetic plate scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Value.false</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AestheticPlateScan.Value.true</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.ImportDentalProject</Keyword>
+      <Text>ZZ Projekt</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.Import.Title</Keyword>
+      <Text>Welche Art von Projekt möchten Sie importieren?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SignatureVerificationWorkParamsFailed</Keyword>
+      <Text>Die zu verwendende Materialkonfigurationsdatei konnte nicht überprüft werden.
+Die Applikation wird geschlossen, da nur überprüfte Materialkonfigurationen zugelassen sind.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Local</Keyword>
+      <Text>Materialkonfiguration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Header</Keyword>
+      <Text>Materialkonfiguration ändern</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsSelection.Description</Keyword>
+      <Text>Die Materialkonfiguration wirkt sich auf die verfügbare Auswahl von Materialien, sowie den dazugehörigen Parametern (wie z.B. Mindestdicke) aus.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Error.Title</Keyword>
+      <Text>Fehler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning.Title</Keyword>
+      <Text>Warnung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Title</Keyword>
+      <Text>Patienten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.InputData</Keyword>
+      <Text>Patientendaten angeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New</Keyword>
+      <Text>Neu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New.Description</Keyword>
+      <Text>Neuen Patienten '{0}, {1}' hinzufügen, ohne das Fenster zu schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New_Duplicate.Description</Keyword>
+      <Text>Patient '{0}, {1}' duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.New_Add.Description</Keyword>
+      <Text>Patient '{0}, {1}' hinzufügen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Delete</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept</Keyword>
+      <Text>Akzeptieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept.Description</Keyword>
+      <Text>Diesen Patienten auswählen und das Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Accept.Description.New</Keyword>
+      <Text>Neuen Patienten hinzufügen und das Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Update</Keyword>
+      <Text>Update</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Button.Update.Description</Keyword>
+      <Text>Der Name des bestehenden Patienten '{0}, {1}' wird geändert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patients.Hint.NoData</Keyword>
+      <Text>Namen eintippen, um Patienten zu finden oder hinzuzufügen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside</Keyword>
+      <Text>Das Projekt wurde ausserhalb der DentalDB verändert. Neu laden und Änderungen in der DentalDB verwerfen?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reload</Keyword>
+      <Text>Ja</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reload.Description</Keyword>
+      <Text>Das Projekt wird neu geladen. Änderungen am Projekt in der DentalDB werden verworfen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reject</Keyword>
+      <Text>Nein</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectModifiedOutside.Reject.Description</Keyword>
+      <Text>Das Projekt bleibt erhalten. Änderungen von Außerhalb werden verworfen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.WindowHeader.MaterialConfigurationSelection</Keyword>
+      <Text>Materialkonfiguration-Auswahl</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.Title</Keyword>
+      <Text>Bestätigung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth</Keyword>
+      <Text>Sie legen einen neuen Patienten an, indem Sie einen anderen Patienten kopieren. Das Geburtsdatum des neuen Patienten wurde aber nicht angepaßt! </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.KeepDateOfBirth</Keyword>
+      <Text>Weiter</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.KeepDateOfBirth.Description</Keyword>
+      <Text>Aktuell eingestelltes Geburtsdatum wird beibehalten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.UpdateDateOfBirth</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Patients.ConfirmSameDateOfBirth.UpdateDateOfBirth.Description</Keyword>
+      <Text>Zurück zum Dialog, um Geburtsdatum anzupassen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Patient.DateOfBirth</Keyword>
+      <Text>Geburtsdatum</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Title</Keyword>
+      <Text>Techniker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.InputData</Keyword>
+      <Text>Techniker-Daten angeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.FirstName</Keyword>
+      <Text>Vorname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.LastName</Keyword>
+      <Text>Nachname</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.TechnicianId</Keyword>
+      <Text>Techniker-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New</Keyword>
+      <Text>Neu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New.Description</Keyword>
+      <Text>Neuen Techniker '{0}, {1}' hinzufügen, ohne das Fenster zu schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New_Duplicate.Description</Keyword>
+      <Text>Techniker '{0}, {1}' duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.New_Add.Description</Keyword>
+      <Text>Neuen Techniker '{0}, {1}' hinzufügen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Delete</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept</Keyword>
+      <Text>Anwenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept.Description</Keyword>
+      <Text>Diesen Techniker auswählen, und Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Accept.Description.New</Keyword>
+      <Text>Neuen Techniker hinzufügen und dieses Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Update</Keyword>
+      <Text>Update</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Button.Update.Description</Keyword>
+      <Text>Der Name des bestehenden Technikers '{0}, {1}' wird geändert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Technicians.Hint.NoData</Keyword>
+      <Text>Namen eingeben um Techniker zu finden/hinzuzufügen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practice.Title</Keyword>
+      <Text>Kunden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.New.Edit</Keyword>
+      <Text>Gewählten Nutzer bearbeiten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.InputData</Keyword>
+      <Text>Kundendetails angeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New</Keyword>
+      <Text>Neu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New.Description</Keyword>
+      <Text>Ein neuer Kunde '{0}' wird angelegt, ohne das Fenster zu schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New_Duplicate.Description</Keyword>
+      <Text>Kunde '{0}' duplizieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.New_Add.Description</Keyword>
+      <Text>Neuen Kunden '{0}' hinzufügen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Delete</Keyword>
+      <Text>Löschen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept</Keyword>
+      <Text>Anwenden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept.Description</Keyword>
+      <Text>Diesen Kunden auswählen und Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Accept.Description.New</Keyword>
+      <Text>Neuen Kunden hinzufügen und Fenster schließen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Update</Keyword>
+      <Text>Aktualisieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Practices.Button.Update.Description</Keyword>
+      <Text>Der Name des bestehenden Kundens '{0}' wird geändert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeInvalidId</Keyword>
+      <Text>Nur Zahlen sind erlaubt als Kunden-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType</Keyword>
+      <Text>Präparationstyp</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.CustomInfoField</Keyword>
+      <Text>Weitere Infos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CustomInfoFieldRequired</Keyword>
+      <Text>Das Feld darf nicht leer bleiben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Configuration</Keyword>
+      <Text>Konfiguration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>About</Keyword>
+      <Text>Über</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Abort</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Load.LoadTreatment</Keyword>
+      <Text>Projekt laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Center.WhatToDo</Keyword>
+      <Text>Was möchten Sie tun?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Center.New</Keyword>
+      <Text>Neues Projekt erstellen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Center.Load</Keyword>
+      <Text>Projekt laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.New.EnterPatient</Keyword>
+      <Text>Patientendaten eingeben</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.ApplyTreatment.ToolTip</Keyword>
+      <Text>Bestätigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.ApplyTreatment</Keyword>
+      <Text>Bestätigen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.CancelTreatment.ToolTip</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Work.CancelTreatment</Keyword>
+      <Text>Abbrechen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.Options</Keyword>
+      <Text>Implantateinstellungen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWorkParams.OptionsScans</Keyword>
+      <Text>Zusätzliche Scans</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.PicturesData</Keyword>
+      <Text>Fotos und Daten dieses Patienten</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.NoNestingInformation</Keyword>
+      <Text>Noch keine Nestinginformationen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ValueLegend.ChangedValue</Keyword>
+      <Text>Geänderter Wert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ValueLegend.ClientDefaultValue</Keyword>
+      <Text>Standartwert des Kunden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ValueLegend.BellowZZ</Keyword>
+      <Text>Unterschreitung des ZZ Standartwertes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.More</Keyword>
+      <Text>Mehr</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>../materials.xml</IncludeFile>
+    <IncludeFile>ConfigControl-german.xml</IncludeFile>
+    <IncludeFile>missing\DentalDB-german.xml</IncludeFile>
+    <IncludeFile>materials-german.xml</IncludeFile>
+    <IncludeFile>missing\materials-german.xml</IncludeFile>
+    <IncludeFile>OnlineHelp-german.xml</IncludeFile>
+    <IncludeFile>missing\customer-german.xml</IncludeFile>
+    <IncludeFile>customer-german.xml</IncludeFile>
+    <IncludeFile>NetworkCopying-german.xml</IncludeFile>
+    <IncludeFile>RecoGroups-german.xml</IncludeFile>
+    <IncludeFile>ScanImport01-german.xml</IncludeFile>
+    <IncludeFile>dentalshare-german.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport02-german.xml</IncludeFile>
+    <IncludeFile>ScanImport02-german.xml</IncludeFile>
+    <IncludeFile>WpfFTP-german.xml</IncludeFile>
+    <IncludeFile>missing\CopyAndOpen-german.xml</IncludeFile>
+    <IncludeFile>missing\OnlineHelp-german.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport01-german.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport03-german.xml</IncludeFile>
+    <IncludeFile>ScanImport03-german.xml</IncludeFile>
+    <IncludeFile>ScanImport04-german.xml</IncludeFile>
+    <IncludeFile>missing\ScanImport04-german.xml</IncludeFile>
+    <IncludeFile>countries-german.xml</IncludeFile>
+    <IncludeFile>missing\ConfigControl-german.xml</IncludeFile>
+    <IncludeFile>missing\dentalshare-german.xml</IncludeFile>
+    <IncludeFile>missing\languages-german.xml</IncludeFile>
+    <IncludeFile>missing\MiniDentalDB-german.xml</IncludeFile>
+    <IncludeFile>missing\RecoGroups-german.xml</IncludeFile>
+    <IncludeFile>missing\Materials-german.xml</IncludeFile>
+    <IncludeFile>missing\NetworkCopying-german.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

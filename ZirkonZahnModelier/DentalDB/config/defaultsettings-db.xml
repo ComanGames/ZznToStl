@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ApplicationSettingsDB>
+  <Culture>
+    <language>de</language>
+    <country>DE</country>
+  </Culture>
+  <GrayOutIconOnDisabledButton>true</GrayOutIconOnDisabledButton>
+  <HideHelpButton>true</HideHelpButton>
+  <ScanImport01Enabled>1</ScanImport01Enabled>
+  <ScanImport04Enabled>1</ScanImport04Enabled>
+  <ScanImport03Enabled>1</ScanImport03Enabled>
+  <ScanImport03ImportMode>All</ScanImport03ImportMode>
+  <ScanImport03Fallback2dcm>true</ScanImport03Fallback2dcm>
+  <ScanImport03AutoImportEnabled>true</ScanImport03AutoImportEnabled>
+  <ScanImport03WatchDirImportMode>Default</ScanImport03WatchDirImportMode>
+  <ScanImport03WatchDir>C:\Zirkonzahn\import_test\</ScanImport03WatchDir>
+  <!-- Possible settings see https://www.hibernate.org/361.html -->
+  <!--<SQLSettings>
+    <ConnectionString>Data Source=Y:\Zirkonzahn\DentalDB\db\DentalDB_V3.sqlite;Version=3</ConnectionString>
+    <SQLDialect>NHibernate.Dialect.SQLiteDialect</SQLDialect>
+    <DriverClass>NHibernate.Driver.SQLite20Driver</DriverClass>
+  </SQLSettings>-->
+  <!--Work params database (a xml file)-->
+  <!--<WorkParamsDB>C:\development\Zirkonzahn\DentalDB\DentalDB\config\WorkParamsDB.xml</WorkParamsDB>-->
+  <AllowUserToSelectWorkParamsDBProvider>false</AllowUserToSelectWorkParamsDBProvider>
+  <DataStoragePath>D:\Zirkonzahn\CAD-Data\</DataStoragePath>
+  <PatientImageDataPath>pictures</PatientImageDataPath>
+  <MultiDieEnabled>false</MultiDieEnabled>
+  <AllTimeImplantSelection>false</AllTimeImplantSelection>
+  <DontRemineForUpdatesUntil>01.05.2016</DontRemineForUpdatesUntil>
+  <!-- Name, (display name order)
+       Custom, (order is taken from worktype.sort file, where short names of work types/reconstructions are stored)
+       Database (same order as in database)
+  -->
+  <MaterialSortOrder>Custom</MaterialSortOrder>
+  <!--<WorkTypeSortOrder>Custom</WorkTypeSortOrder>-->
+  <!--<MaterialSortOrder>Custom</MaterialSortOrder>-->
+  <WorkTypeGroupDefFileName>worktypegroup.def</WorkTypeGroupDefFileName>
+  <!--
+    GlobalShortName,
+    ParamTypeThenShortName,
+    ParamTypeThenDB
+  -->
+  <TeethWorkParamsSortOrder>ParamTypeThenShortName</TeethWorkParamsSortOrder>
+  <MaterialParamsSortOrder>ParamTypeThenShortName</MaterialParamsSortOrder>
+  <!--
+  FDITwoDigit,
+  UniversalNumberingSystem (american dental notation)
+  -->
+  <ToothNumbering>FDITwoDigit</ToothNumbering>
+  <SwitchEdit2New>true</SwitchEdit2New>
+  <!--dentalPrj, iniPrj -->
+  <ProjectFormat>dentalPrj</ProjectFormat>
+  <!-- to store patient name set to : 1, yes, on or true-->
+  <StorePatientInfos>0</StorePatientInfos>
+  <!-- 
+  keys for FilenameTemplate and PathTemplate
+                 %d: date
+                 %n: practice number
+                 %p: practice name
+                 %f: patient first name
+                 %l: patient last name
+                 %c: country
+                 %s: Schalennr
+  	
+  This default setting is recommended by Exocad:
+  <PathTemplate>%d_%n-%s</PathTemplate>
+  
+
+    
+  -->
+  <PathTemplate>%p\%l,%f</PathTemplate>
+  <FilenameTemplate>%d_%n-%s</FilenameTemplate>
+  <Shadowing>0</Shadowing>
+  <ShowButtonLabel>1</ShowButtonLabel>
+  <Highlighting>1</Highlighting>
+  <SavePosition>0</SavePosition>
+  <CustomerIdOptions>
+    <MaxLength>5</MaxLength>
+    <MinLength>0</MinLength>
+  </CustomerIdOptions>
+  <AllowCustomPatientNumbering>true</AllowCustomPatientNumbering>
+  <LanguageId>english</LanguageId>
+  <UploadButton configFile="ftpconfig.xml">5</UploadButton>
+  <!-- key for Params value: %p - complete path of project file -->
+  <StartButtonList>
+    <StartButton>
+      <Icon>Scan</Icon>
+      <Caption>Oral Scan</Caption>
+      <ExecPath value="..\..\DentalCADApp\bin\DentalCADApp.exe">
+        <Params value="%p /ScanManager" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>ScanIcon</Icon>
+      <Caption>Scan</Caption>
+      <ExecPath value="C:\Zirkonzahn\ZZ.Scan\QTSculpControl.exe">
+        <Params value="127.0.0.1 2347 opx:%p C:\Zirkonzahn\zz.scan\ZZ.Scan.exe" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>Scan4Icon</Icon>
+      <Caption>Scan</Caption>
+      <ExecPath value="C:\Zirkonzahn\ZZ.Scan\ZZ.Scan.exe">
+        <Params value="opx:%p" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>CADIcon</Icon>
+      <Caption>Modellier</Caption>
+      <ExecPath value="..\..\DentalCADApp\bin\DentalCADApp.exe">
+        <Params value="%p /MultiDiePluginName=%mfn" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>ModelMakerIcon</Icon>
+      <Caption>ModelMaker</Caption>
+      <ExecPath value="..\..\DentalCADApp\bin\DentalCADApp.exe">
+        <Params value="%p /ModelCreatorMode /MultiDiePluginName=%mfn" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>implant-planner</Icon>
+      <Caption>Implant Planner</Caption>
+      <ExecPath value="..\..\ImplantPlanner\bin\ImplantPlanner.exe">
+        <Params value="%p" />
+      </ExecPath>
+    </StartButton>
+    <StartButton>
+      <Icon>CADIcon</Icon>
+      <Caption>PartialTP</Caption>
+      <ExecPath value="..\..\PartialTechPreview\ExocadTechnologyPreview">
+        <Params value="%p" />
+      </ExecPath>
+    </StartButton>
+  </StartButtonList>
+  <ConstrStorage>
+  </ConstrStorage>
+  <HelpViewer>http://help.zirkonzahn.com/ZirkonZahn/web/System.Text.ASCIIEncoding/help/Archiv/overview</HelpViewer>
+</ApplicationSettingsDB>

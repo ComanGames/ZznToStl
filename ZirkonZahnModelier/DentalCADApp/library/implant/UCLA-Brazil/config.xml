@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- This is a demo implant library only. The supplied geometries do not match any existing implant system -->
+  <!-- The following axis definitions are relevant ONLY when doing matching in CAD software
+       If implant positions are measured by scanner software, this is not used -->
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <SupportOrientation>1</SupportOrientation>
+  <GeometryType>external</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® UCLA External</DisplayInformation>
+  <Producer>UCLA External®</Producer>
+  <SystemName></SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>screw.stl</ScrewFilename>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.3</DisplayInformation>
+      <Keyword>UCLA_E3</Keyword>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.3-OutHex</Keyword>
+          <DisplayInformation>3.3mm Hex</DisplayInformation>
+          <SupportFilename>3.3_hex.stl</SupportFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.3-OutNohex</Keyword>
+          <DisplayInformation>3.3mm Rounded</DisplayInformation>
+          <SupportFilename>3.3_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.30-OutNohex</Keyword>
+          <DisplayInformation>3.3mm Round (divergentes)</DisplayInformation>
+          <SupportFilename>3.3_round-bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1</DisplayInformation>
+      <Keyword>UCLA_E4</Keyword>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutHex</Keyword>
+          <DisplayInformation>4.1mm Hex</DisplayInformation>
+          <SupportFilename>4.1_hex.stl</SupportFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutNohex</Keyword>
+          <DisplayInformation>4.1mm Rounded</DisplayInformation>
+          <SupportFilename>4.1_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutNohex</Keyword>
+          <DisplayInformation>4.1mm Round (divergentes)</DisplayInformation>
+          <SupportFilename>4.1_round-bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0</DisplayInformation>
+      <Keyword>UCLA_E5</Keyword>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutHex</Keyword>
+          <DisplayInformation>5.0mm Hex</DisplayInformation>
+          <SupportFilename>5.0_hex.stl</SupportFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutNohex</Keyword>
+          <DisplayInformation>5.0mm Rounded</DisplayInformation>
+          <SupportFilename>5.0_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-OutNohex</Keyword>
+          <DisplayInformation>5.0mm Round (divergentes)</DisplayInformation>
+          <SupportFilename>5.0_round-bridges.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.8 Mini-Pilar</DisplayInformation>
+      <Keyword>UCLA_EMP</Keyword>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.9-OutNohex</Keyword>
+          <DisplayInformation>Mini-Pilar</DisplayInformation>
+          <SupportFilename>minipilar.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

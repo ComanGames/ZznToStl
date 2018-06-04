@@ -1,0 +1,1828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+  <Translations>
+    <Translation>
+      <Keyword>WizardFinished</Keyword>
+      <Text>ウィザード終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewScan.Upper</Keyword>
+      <Text>オーバービュー・スキャン - 上顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewScan.Lower</Keyword>
+      <Text>オーバービュー・スキャン - 下顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PreviewScan</Keyword>
+      <Text>プレビュー/スキャンエリア選択</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertFullModel.Upper</Keyword>
+      <Text>上顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertFullModel.Lower</Keyword>
+      <Text>下顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertWaxupPlural</Keyword>
+      <Text>ワックスアップモデルを挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertWaxupSingle</Keyword>
+      <Text>ワックスアップモデルを挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupPlural</Keyword>
+      <Text>ワックスアップスキャン: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupSingle</Keyword>
+      <Text>ワックスアップスキャン: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertScanAbutmentPlural</Keyword>
+      <Text>スキャンアバットメントを挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertScanAbutmentSingle</Keyword>
+      <Text>スキャンアバットメントを挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ScanAbutmentPlural</Keyword>
+      <Text>スキャンアバットメント: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ScanAbutmentSingle</Keyword>
+      <Text>スキャンアバットメント: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.Upper</Keyword>
+      <Text>処置前形状(上顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.Lower</Keyword>
+      <Text>処置前形状(下顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertSitu.Upper</Keyword>
+      <Text>処置前の上顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertSitu.Lower</Keyword>
+      <Text>処置前の下顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertBiteImpression.Upper</Keyword>
+      <Text>上顎の咬合印象を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertBiteImpression.Lower</Keyword>
+      <Text>下顎の咬合印象を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.BiteImpressionScan.Upper</Keyword>
+      <Text>咬合印象(上顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.BiteImpressionScan.Lower</Keyword>
+      <Text>咬合印象(下顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertGingiva.Upper</Keyword>
+      <Text>上顎の歯肉マスクを挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertGingiva.Lower</Keyword>
+      <Text>下顎の歯肉マスクを挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Upper</Keyword>
+      <Text>歯肉マスク(上顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Lower</Keyword>
+      <Text>歯肉マスク(上顎): {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan</Keyword>
+      <Text>歯肉マスク: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PonticScan</Keyword>
+      <Text>ポンティック: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Single</Keyword>
+      <Text>歯肉マスク: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Multiple</Keyword>
+      <Text>歯肉マスク: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Single</Keyword>
+      <Text>歯肉マスク: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Multiple</Keyword>
+      <Text>歯肉マスク: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan.Single</Keyword>
+      <Text>隣在歯/正常歯: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan</Keyword>
+      <Text>隣在歯/正常歯: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertTeeth</Keyword>
+      <Text>歯を挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertTooth</Keyword>
+      <Text>歯を挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTeeth</Keyword>
+      <Text>隣在歯/正常歯を挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTooth</Keyword>
+      <Text>隣在歯/正常歯を挿入 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PreparationScanPlural</Keyword>
+      <Text>支台歯模型: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PreparationScanSingle</Keyword>
+      <Text>支台歯模型: {0}</Text>
+    </Translation>
+    <!--BEGIN:ERRORS-->
+    <Translation>
+      <Keyword>TempSTLFileCannotRemove</Keyword>
+      <Text>一時STLファイルを削除できません: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TempSTLFileAfterScanCannotCopyToDescFile</Keyword>
+      <Text>一時STLファイルをコピーできません: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TempSTLFileAfterScanNotFound</Keyword>
+      <Text>スキャナーソフトウェアからの出力データは見つかりませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanErrorOccured</Keyword>
+      <Text><![CDATA[スキャン処理中にエラーが発生しました:
+      	エラーコード　　: {0}
+      	エラーメッセージ: {1}
+      	詳細情報: {2}]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistNotSupported</Keyword>
+      <Text><![CDATA[スキャンモード'{0}'はサポートされていません。
+スキャンリストが不完全である可能性があり，due to the fact that the scans specific to the given scan mode will be omitted. 
+これはDentalCAD​​の予期しない動作につながる可能性があります。]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataReadFailed</Keyword>
+      <Text><![CDATA[読み込みエラー処理がありました
+        
+パス(PATH):
+{0}
+
+エラーの詳細: 
+{1}
+]]></Text>
+    </Translation>
+    <!--END:ERRORS-->
+    <!--BEGIN:SingleScanProcessor-->
+    <Translation>
+      <Keyword>StartScanning</Keyword>
+      <Text>スキャニング中...</Text>
+    </Translation>
+    <!--END:SingleScanProcessor-->
+    <Translation>
+      <Keyword>PreparationType.Crown</Keyword>
+      <Text>クラウン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Inlay</Keyword>
+      <Text>インレー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Antagonist</Keyword>
+      <Text>対合歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Pontic</Keyword>
+      <Text>ポンティック</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Healthy</Keyword>
+      <Text>隣在歯/正常歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Missing</Keyword>
+      <Text>欠損歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.ScanAbutment</Keyword>
+      <Text>スキャンアバットメント</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Antagonist</Keyword>
+      <Text>対合歯スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Gingiva</Keyword>
+      <Text>歯肉スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Situ</Keyword>
+      <Text>処置前スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Waxup</Keyword>
+      <Text>ワックスアップスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.PatientRegistration</Keyword>
+      <Text>患者登録のスキャン(レジストリスキャン)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.InProgress</Keyword>
+      <Text>スキャンが進行中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Continue</Keyword>
+      <Text>スキャンを続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Continue.Description</Keyword>
+      <Text>スキャンを続行して、ウィンドウを閉じないでください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Terminate</Keyword>
+      <Text>スキャンを取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Terminate.Description</Keyword>
+      <Text>スキャンを取消して，ウィンドウを閉じてください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InProgress</Keyword>
+      <Text>スキャン実行:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanProgress</Keyword>
+      <Text>スキャンの進捗状況</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanningProgress</Keyword>
+      <Text>スキャニング中...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CalculatingProgress</Keyword>
+      <Text>スキャンデータを処理中...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CuttingProgress</Keyword>
+      <Text>メッシュの処理中...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAlreadyPerformed</Keyword>
+      <Text>スキャンされたデータがすでに存在します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReScan</Keyword>
+      <Text>再スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationScanMode</Keyword>
+      <Text>支台歯のスキャンモードを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SinglePreparationScan</Keyword>
+      <Text>支台歯毎にスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SinglePreparationScan.Description</Keyword>
+      <Text><![CDATA[品質最適化モード。
+すべての支台歯はそれぞれ別個にスキャンされます。
+支台歯の間に十分な隙間がない場合は，このモードを選択してください。]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiPreparationScan</Keyword>
+      <Text>1回のスキャンで複数の支台歯をスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiPreparationScan.Description</Keyword>
+      <Text><![CDATA[動作パフォーマンス最適化モード。
+すべての支台歯は同時にスキャンされます。
+支台歯の間に十分な隙間がある場合は，このモードを選択してください。]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Proceed</Keyword>
+      <Text>'次へ'をクリックして続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Scan</Keyword>
+      <Text>'次へ'をクリックしてスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Finish</Keyword>
+      <Text><![CDATA[
+'終了'をクリックして終了するか，'スキャン'をクリックして再スキャン
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanToothDieSeparately</Keyword>
+      <Text>支持歯を個別にスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JobFinishedScanDiesOrExit</Keyword>
+      <Text><![CDATA[
+ジョブ完了。
+別の支台歯をスキャンするか, '完了'をクリックしして終了してください。
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepareScan</Keyword>
+      <Text>準備スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PerformScan</Keyword>
+      <Text>Performスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PostprocessScan</Keyword>
+      <Text>後処理スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientScan.Upper</Keyword>
+      <Text>スキャン - 上顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientScan.Lower</Keyword>
+      <Text>スキャン - 下顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientAntagonistScan.Upper</Keyword>
+      <Text>患者対面スキャン - 上顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientAntagonistScan.Lower</Keyword>
+      <Text>患者対面スキャン - 下顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientRegistrationScan.Lower</Keyword>
+      <Text>レジストレーションスキャン - 上下顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.None</Keyword>
+      <Text>初期化</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Scan</Keyword>
+      <Text>スキャニング</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Cutting</Keyword>
+      <Text>切断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Meshing</Keyword>
+      <Text>スキャンデータの作成</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.WritingToFile</Keyword>
+      <Text>スキャンデータの保存</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorLoadingMesh</Keyword>
+      <Text><![CDATA[ファイル{0}からのメッシュデータ読込みに失敗しました。
+
+
+エラーメッセージ:
+{1}
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.WizardStepFailed</Keyword>
+      <Text><![CDATA[スキャンウイザード '{0}'ステップの処理が失敗しました。
+
+
+エラーメッセージ:
+{1}
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorStoringScanData2Disk</Keyword>
+      <Text><![CDATA[スキャンデータをファイル{0}に保存中にエラーが発生しました。
+
+
+エラーメッセージ:
+{1}
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorWhileObtainingScanDataFromScanner</Keyword>
+      <Text><![CDATA[スキャンデータを取得中にエラーが発生しました。
+
+
+エラーメッセージ:
+{0}
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanInfoNotSet</Keyword>
+      <Text>次のスキャンについての情報が見つかりません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorScannerNotSet</Keyword>
+      <Text>スキャナーが選択されていません。スキャンマネージャーの再起動を試してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorScannerNotPresent</Keyword>
+      <Text><![CDATA[スキャナーが見つかりません。
+    
+スキャナーがPCに接続され、電源がオンになっていることを確認してください。
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.InitializationError</Keyword>
+      <Text><![CDATA[スキャナーの初期化中にエラーが発生しました。
+
+エラーメッセージ:
+
+{0}    
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed</Keyword>
+      <Text><![CDATA[スキャナーのキャリブレーションに失敗しました。
+
+
+失敗原因:
+{0}
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.Error</Keyword>
+      <Text>キャリブレーション中にエラーが発生しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.NoScanner</Keyword>
+      <Text>スキャナーが見つかりません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.NeedsCalibration</Keyword>
+      <Text>スキャナーのキャリブレーションが実行できませんでした。もう一度やり直してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationSucceded</Keyword>
+      <Text>スキャナーのキャリブレーションは正常終了しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>applyTransformationsToAttachedToothPartsCheckBox_Content</Keyword>
+      <Text>歯の付属パーツを適用します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Open</Keyword>
+      <Text>スキャンマネージャーを開始します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ReallyAbortWizard</Keyword>
+      <Text>ウィザードを中止しますか?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortWizard</Keyword>
+      <Text>ウィザードを中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortWizard.Description</Keyword>
+      <Text>ウィザードを中断. スキャンを終了している場合にはスキャンデータが失われることはありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelAbortWizard</Keyword>
+      <Text>スキャンを継続</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelAbortWizard.Description</Keyword>
+      <Text></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Close</Keyword>
+      <Text>スキャンマネージャーを閉じる</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Close.Description</Keyword>
+      <Text>スキャンマネージャーを閉じる。スキャンを終了している場合にはスキャンデータが失われることはありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanWizard</Keyword>
+      <Text>スキャンウィザード</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerOn</Keyword>
+      <Text>スキャナー'{0}'が見つかりました</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerOff</Keyword>
+      <Text>スキャナーが見つかりません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManagerOnCloseAppQuestion</Keyword>
+      <Text>本当にスキャンマネージャーを中断しますか?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.Yes</Keyword>
+      <Text>スキャンマネジャーを中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.Yes.Description</Keyword>
+      <Text>スキャンマネージャーの現在の状態は破棄されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.No</Keyword>
+      <Text>取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.No.Description</Keyword>
+      <Text>スキャンマネージャーは閉じられません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAgain</Keyword>
+      <Text>再スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerNotPresent</Keyword>
+      <Text>スキャナーが見つかりません。
+アプリケーションを再起動してください。  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerNotSet</Keyword>
+      <Text>スキャナープラグインが設定されていません。
+アプリケーションを再起動してください。  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ResumeScan</Keyword>
+      <Text>スキャニング再開</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PauseScan</Keyword>
+      <Text>スキャニング一時中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ClearScanResults</Keyword>
+      <Text>スキャン結果を初期化</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SelectScanModeToScan</Keyword>
+      <Text>口腔内向け，もしくはデスクトップ向けのスキャンモードを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed</Keyword>
+      <Text>スキャンモードを変更できません。現在のモード '{0}'. 希望のモード '{1}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue</Keyword>
+      <Text>続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Cancel</Keyword>
+      <Text>取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue.Description</Keyword>
+      <Text><![CDATA[スキャンモードを再選択するか、アプリケーションを再起動してください。]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningMode.NaturalTeeth</Keyword>
+      <Text>天然歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningMode.Gips</Keyword>
+      <Text>石膏モデル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.WizardFinished</Keyword>
+      <Text><![CDATA[スキャンウィザードが完了しました。
+    クリックすると，デザインウィザードを開始します。
+]]></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelMeshing</Keyword>
+      <Text>スキャンデータの処理を中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ProcessingScanData</Keyword>
+      <Text>スキャンデータの処理中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PauseTip</Keyword>
+      <Text>青色でマークされたエリアでスキャンを再開します。
+
+青色の領域の位置を変更する場合にクリックします。Click to reposition blue area.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Finished</Keyword>
+      <Text>スキャニングが完了しました。スキャンデータはプロジェクトディレクトリに保存されています。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CloseApp</Keyword>
+      <Text>終了しました。ウィンドウを閉じます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CloseApp.Description</Keyword>
+      <Text>データベースモジュールから、ラボにスキャンデータを転送することができます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartCAD</Keyword>
+      <Text>補綴物デザイン開始</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Start.Description</Keyword>
+      <Text>補綴物のCAD設計と登録を続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartMarginDetection</Keyword>
+      <Text>ジョブの完成</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartMarginDetection.Description</Keyword>
+      <Text>咬合登録とマージンラインを続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Cancel</Keyword>
+      <Text>取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Cancel.Description</Keyword>
+      <Text>スキャンマネージャーへ戻る</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost</Keyword>
+      <Text>[最初からスキャニングを開始]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Continue</Keyword>
+      <Text>[戻る]で最初から再スキャニングします。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Continue.Description</Keyword>
+      <Text>最初からスキャニングを開始します。今までのスキャンデータは失われます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Cancel</Keyword>
+      <Text>キャンセル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Cancel.Description</Keyword>
+      <Text>キャンセルで，同じスキャニングステップを継続</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion</Keyword>
+      <Text>[戻る]で現在のスキャンのキャンセルします。現在のスキャニングを中止しますか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes</Keyword>
+      <Text>戻る</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes.Description</Keyword>
+      <Text>[戻る]で現在のスキャンのキャンセルします。スキャンデータは失われます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.No</Keyword>
+      <Text>いいえ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.No.Description</Keyword>
+      <Text>現在のスキャニングは中止されません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectDentalProjectToScan</Keyword>
+      <Text>スキャンデータを取得するためにプロジェクトファイルを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Calibrate</Keyword>
+      <Text>キャリブレーション</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Calibrate.ToolTip</Keyword>
+      <Text>スキャナーのキャリブレーション</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardFailed</Keyword>
+      <Text>スキャンウィザードの実行中にエラーが発生しました:
+エラー詳細:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelScan</Keyword>
+      <Text>スキャンの取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorSettingRegionOfInterest</Keyword>
+      <Text>領域設定中にエラーが発生しました。もう一度やり直してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Lower</Keyword>
+      <Text>咬合プレート付き下顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Upper</Keyword>
+      <Text>咬合プレート付き上顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Both</Keyword>
+      <Text>咬合プレート付き上下顎模型を挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Lower</Keyword>
+      <Text>咬合プレート付き下顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Upper</Keyword>
+      <Text>咬合プレート付き上顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Both</Keyword>
+      <Text>咬合プレート付き上下顎模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.VestibularScan</Keyword>
+      <Text>前庭側スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VestibularScan</Keyword>
+      <Text>前庭側スキャンのために上下額模型を挿入してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckBrightnessAndClickNextAgain</Keyword>
+      <Text>輝度(明るさ)の設定を確認して、'次へ'をクリックしてください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AddSingleScan</Keyword>
+      <Text>追加スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AddSingleScan.ToolTip</Keyword>
+      <Text>現在のビューから単一のスキャンを追加</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SingleScanFinish</Keyword>
+      <Text>終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SingleScanFinish.ToolTip</Keyword>
+      <Text>シングルスキャンキャプチャを終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetMeshsToSingleColor</Keyword>
+      <Text>シングル/マルチカラー表示の切替</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetMeshsToSingleColor.ToolTip</Keyword>
+      <Text>同じ色でrawデータを表示するにはこのオプションをチェックします。
+チェックを外すとrawデータの元の色に復元します。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerPluginNotFound</Keyword>
+      <Text>スキャナーのプラグインが見つかりません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IntraoralScannerRequired</Keyword>
+      <Text>口腔内スキャナーが必要です</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentPathNotSet</Keyword>
+      <Text>dental projectファイルが指定されていません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerInializationFailed</Keyword>
+      <Text>スキャナーの初期化に失敗しました</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.MultiDie</Keyword>
+      <Text>処置前スキャン: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.MultiDie</Keyword>
+      <Text>歯肉スキャン: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectScanner</Keyword>
+      <Text>どのスキャナーを使用しますか?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2StartScan</Keyword>
+      <Text>すでにスキャンデータが存在します。
+'次へ'をクリックすると再度スキャニングします。
+'戻る'をクリックするとスキャニングを中止します。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorDeletingFile</Keyword>
+      <Text>スキャニングデータの後処理中に，ファイル{0}の削除エラーがありました。
+エラーテキスト:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorMovingFile</Keyword>
+      <Text>スキャニングデータの後処理中に，ファイル{0}から{1}への移動エラーが発生しました。
+エラーテキスト:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteScan</Keyword>
+      <Text>スキャンの削除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerBrightness</Keyword>
+      <Text>輝度(明るさ)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowHideCameraView</Keyword>
+      <Text>カメラのオン/オフ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LeftCamera</Keyword>
+      <Text>左カメラ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RightCamera</Keyword>
+      <Text>右カメラ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BothCamera</Keyword>
+      <Text>両方のカメラ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CameraView</Keyword>
+      <Text>カメラの選択</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanFromThisViewNotPossible</Keyword>
+      <Text>この視点位置からのスキャニングはできません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SearchingForScanner</Keyword>
+      <Text>スキャナー検索中...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RegionOfInterestSelectionAdvice</Keyword>
+      <Text>マウスを使用してスキャニング対象の領域をマークして，[クロップ]をクリックします。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectionEstablishedCheckBrightnessAndScan</Keyword>
+      <Text>スキャナーへの接続が確立されました。
+
+明るさを確認後，[次へ]をクリックしてスキャニングを開始します。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Advice</Keyword>
+      <Text>アドバイス</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PluginDirectoryNotFound</Keyword>
+      <Text>デンタルスキャナープラグインのディレクトリ{0}が見つかりませんでした。
+ディレクトリが存在するか確認してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorEnumeratingScannerPlugins</Keyword>
+      <Text>ディレクトリ{0}のデンタルスキャナープラグインに列挙エラーが発生しました。
+エラー詳細:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.NoDentalScannerPluginsFound</Keyword>
+      <Text>デンタルスキャナープラグインはプラグインディレクトリ{0}に見つかりませんでした。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalScanner.SNX.Calibration.SelectPanelCalibFile</Keyword>
+      <Text>キャリブレーションプレートに対応したキャリブレーションファイルを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CloseSelectedHoles</Keyword>
+      <Text>選択した穴を閉じる</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CloseAllHoles</Keyword>
+      <Text>すべての穴を閉じる</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoHolesWereClosed.Selected.SelectHole</Keyword>
+      <Text>閉じた穴はありません。閉じたい穴をひとつ以上選択してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoHolesWereClosed.CloseAll.SelectHole</Keyword>
+      <Text>対象サイズの穴をすべて閉じました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanNaturalTeeth</Keyword>
+      <Text>天然歯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanNaturalTeeth.ToolTip</Keyword>
+      <Text>患者の歯を直接スキャンするには，このモードを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanStoneModel</Keyword>
+      <Text>石膏モデル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanStoneModel.ToolTip</Keyword>
+      <Text>石膏モデルをスキャンするには，このモードを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression</Keyword>
+      <Text>印象材</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression.ToolTip</Keyword>
+      <Text>印象材をスキャンするには，このモードを選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WritingDataToDrive</Keyword>
+      <Text>データを保存中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDiePluginNotLoaded</Keyword>
+      <Text>マルチ支台歯プラグインを読込みできませんでした。
+考えられる理由:
+
+プラグイン名が指定されていません。
+プラグインは実行ファイル形式としてディレクトリ内に存在しません。
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDieMismatchFull</Keyword>
+      <Text>現在のジョブで使用されているマルチ支台歯プレートは， Scan Managerで現在使用されているマルチ支台歯プレートとは一致しません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDieMismatch</Keyword>
+      <Text>現在のジョブで使用されているマルチ支台歯プレートは， Scan Managerで現在使用されているマルチ支台歯プレートとは一致しません。
+一つ以上の治療法が正しく表示されず，またスキャニングも実行されません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDiePluginNotSpecified</Keyword>
+      <Text>マルチ支台歯インスタンスが指定されていません。/MultiDiePluginName=YourPluginName オプションを使用してアプリケーションを実行してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ToothJobsMissing</Keyword>
+      <Text>歯の治療法が含まれていません。
+スキャニングは不要です。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PartsForCropOrDeleteSelected</Keyword>
+      <Text>[スキャンデータに選択領域が設定されています。]
+本当にこの選択領域に対してトリミングや削除を適用せずに続行しますか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Continue</Keyword>
+      <Text>続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Continue.Description</Keyword>
+      <Text>続行 - 選択は無視されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Delete</Keyword>
+      <Text>削除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Delete.Description</Keyword>
+      <Text>続行 - 選択は自動的に削除されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crop</Keyword>
+      <Text>クロップ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crop.Description</Keyword>
+      <Text>続行 - 選択したメッシュをクロップします。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel.Description</Keyword>
+      <Text>取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareQuestion</Keyword>
+      <Text>本当にスキャナーのファームウェアをアップグレードしますか?
+    
+    警告: ソフトウェアは自動的に再起動されます。
+    警告: firwmareのアップグレード中は，ソフトウェアが応答しない場合があります。
+    ソフトウェアの終了，スキャナーの電源を抜いたり電源をオフにした場合は，
+    スキャナーが破損する可能性があります。
+    
+    続行しますか?
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmware</Keyword>
+      <Text>スキャナーファームウェアの更新</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareVersion</Keyword>
+      <Text>スキャナーファームウェアバージョン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareFailed</Keyword>
+      <Text>エラー: スキャナーファームウェアの更新に失敗しました。 コンピューターを再起動してからもう一度実行してください。.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareSuccess</Keyword>
+      <Text>成功: スキャナーファームウェア更新に成功しました. ソフトウェアは自動的に終了します.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerMaintenanceContextMenu</Keyword>
+      <Text>スキャナーメンテナンス</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareUpgradeRequired</Keyword>
+      <Text>スキャナーのファームウェアをアップグレードする必要があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareOk</Keyword>
+      <Text>スキャナーのファームウェアは正常。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareIncompatible</Keyword>
+      <Text>スキャナーのファームウェアに互換性がありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareNotFound</Keyword>
+      <Text>スキャナーのファームウェアが見つかりません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.NoScannerFound</Keyword>
+      <Text>スキャナープラグインが存在しなか，ライセンスがありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerDefaultScanner</Keyword>
+      <Text>スキャナーの選択:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerDefaultScannerAutoSelect</Keyword>
+      <Text>スキャナーの自動選択</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerNotLicensedForExecution</Keyword>
+      <Text>スキャナープラグインのライセンスがありません</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartScannerCalibration</Keyword>
+      <Text>スキャナーのキャリブレーションを開始します。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DoNotCalibrate</Keyword>
+      <Text>キャリブレーションされていません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanProcessAbortWithDataLoss</Keyword>
+      <Text>警告!
+
+戻るボタンをクリックするとスキャニングが終了します。すでにスキャンされたデータは破棄されます。
+本当にスキャンを中断しますか?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCancelScan</Keyword>
+      <Text>スキャンについて</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCancelScan.Description</Keyword>
+      <Text>現在のスキャニングを中止します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCancelScan</Keyword>
+      <Text>スキャニングを続行します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCancelScan.Description</Keyword>
+      <Text>現在のモデルのスキャニングを続行します</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished</Keyword>
+      <Text>[スキャニング終了後にプレパレーションラインを検出します。次のオプションから選択してください]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Inspect</Keyword>
+      <Text>スキャンデータを検査</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Inspect.Description</Keyword>
+      <Text></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Measure</Keyword>
+      <Text>さらに測定を実施</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Measure.Description</Keyword>
+      <Text>対合葉等からの距離を測定</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Close</Keyword>
+      <Text>アプリケーションの終了</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Close.Description</Keyword>
+      <Text></Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.UserAborted</Keyword>
+      <Text>スキャニングはユーザーにより中断されました</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDirectionAjustmentRequired</Keyword>
+      <Text>この方向からスキャニングすることはできません。
+スキャニング方向は自動的に調整されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorResumeScan</Keyword>
+      <Text>スキャニングを再開中にエラーが発生しました:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType</Keyword>
+      <Text>インプラント位置のスキャニング方法を選択してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference</Keyword>
+      <Text>光学式スキャンボディ+リファレンススキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical</Keyword>
+      <Text>光学式スキャンボディ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical.Description</Keyword>
+      <Text>光学式スキャンアバットメントを計測</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint</Keyword>
+      <Text>接触式スキャンボディ - 1点</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint.Description</Keyword>
+      <Text>接触式スキャンボディを計測(1点)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody</Keyword>
+      <Text>接触式スキャンボディ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody.Description</Keyword>
+      <Text>接触式スキャンボディ(シリンダースキャン)を計測</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference</Keyword>
+      <Text>接触式スキャンボディ+リファレンススキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OneJawMustContainsOnlyAntaOrHealthy</Keyword>
+      <Text>対合歯スキャンは，上顎もしくは下顎に少なくとも1つは健康な歯または対合歯が含まれていないと実行されません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Impression</Keyword>
+      <Text>印象</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerTriangulateScanDataFromIOScanner</Keyword>
+      <Text>三角形データ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerAllowCutScanDataFromIOScanner</Keyword>
+      <Text>データ修正可</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalScanner_MHT_OpenCLEnabled</Keyword>
+      <Text>MHT 3DProgressでOpenCLアクセラレーションを使用する</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertModelForImplantReference</Keyword>
+      <Text>インプラントの基準位置を計測するために模型を挿入してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ImplantReference</Keyword>
+      <Text>インプラント位置スキャンfn: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ImplantReferenceObject</Keyword>
+      <Text>インプラント基準点スキャンfn: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.ImplantPosition</Keyword>
+      <Text>インプラント位置情報をスキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SNX.Calibration.InsertCalibrationPlate</Keyword>
+      <Text>キャリブレーションプレートを挿入してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SNX.Calibration.InsertMultiDieOrCircularTarget</Keyword>
+      <Text>マルチダイプレートまたは円形ターゲットを挿入してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanFailedError</Keyword>
+      <Text>スキャニング中にエラーが発生しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotGetPointCloud</Keyword>
+      <Text>スキャンデータが見つかりませんでした。より大きな領域をスキャンしてみてください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SizeThreshold</Keyword>
+      <Text>穴の最大サイズ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotFindAllImplantReferences</Keyword>
+      <Text>スキャンデータからスキャンアバットメントの位置を抽出できませんでした。
+予想された歯: {0}
+見つかった歯: {1}
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotStoreImplantReference</Keyword>
+      <Text>歯{0}のスキャンアバットメント位置をファイル{1}へ保存中にエラーが発生しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotFindAllImplantpositions</Keyword>
+      <Text>スキャンデータからインプラント位置を抽出することができませんでした。
+予想された歯: {0}
+見つかった歯: {1}
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotStoreImplantPosition</Keyword>
+      <Text>歯{0}のインプラント位置をファイル{1}へ保存中にエラーが発生しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MeshTriangulationFailed</Keyword>
+      <Text>スキャンデータの三角形分割中にエラーが発生しました。.
+もう一度やり直して不要なスキャンデータを削除してください。
+エラー詳細:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MeshStoreFailed</Keyword>
+      <Text>ストレージへのスキャンデータ保存中にエラーが発生しました。
+エラーコード:{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerUnknownError</Keyword>
+      <Text>スキャンウィザードを実行中にエラーが発生しました。
+ステップID: {0}
+エラー:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.Default</Keyword>
+      <Text>デフォルト</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.Default.ToolTip</Keyword>
+      <Text>デフォルトのモデルビュー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.HeightAjustment</Keyword>
+      <Text>高さ調整</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.HeightAjustment.ToolTip</Keyword>
+      <Text>スキャンが開始される前に、モデルの高さの調整が可能</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.CenterAjustment</Keyword>
+      <Text>センター調整</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.CenterAjustment.ToolTip</Keyword>
+      <Text>スキャン領域の中央に，モデル(模型)を調整することが可能</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CameraMode</Keyword>
+      <Text>カメラモード</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CalibrationProgress</Keyword>
+      <Text>キャリブレーションの進行状況</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.OperationFailed</Keyword>
+      <Text>操作は失敗しました</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWithToothId</Keyword>
+      <Text>歯 {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepsOnMultidie</Keyword>
+      <Text>マルチ支台歯プレートを使用</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDiePluginNotFound.PrepsOnMultiDie</Keyword>
+      <Text>'preparation scanning on multi die plate' 機能が有効なマルチ支台歯プラグインが見つかりません。
+    この機能は現在使用できません。デフォルトのスキャン方式に戻ります。
+
+    この機能を有効にするには、multidieプラグインファイル{0}が存在していることを確認してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerInitializationCrash</Keyword>
+      <Text>スキャナ·インタフェースの初期化中に予期しないエラーが発生しました:
+エラーメッセージ:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnknownScanner</Keyword>
+      <Text>不明なスキャナー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectToScannerFailed</Keyword>
+      <Text>スキャナの初期化に失敗しました。もう一度やり直してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerMoveHomeCrash</Keyword>
+      <Text>ホームポジションへ治具を移動中に予期しないエラーが発生しました:
+エラーメッセージ:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerMoveHomeFailed</Keyword>
+      <Text>ホームポジションへ治具を移動できませんでした</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectToScannerAndMoveHomeCrashed</Keyword>
+      <Text>スキャナーに接続後，ホームポジションへの移動中に予期しないエラーが発生しました:
+エラーメッセージ:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DDataOlderThanDentalProjectFileFound</Keyword>
+      <Text>警告!
+
+3Dスキャンデータがキャプチャーされる前に，すでに修正されたdental projectファイルが見つかりました。
+これはDentalCAD​​の誤動作につながる可能性があります。
+
+以下にリストされた3Dスキャンデータの全部または一部について削除または保持を選択できます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DScanData</Keyword>
+      <Text>3Dスキャンデータ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteAll</Keyword>
+      <Text>すべての古い3Dスキャンデータを破棄</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteAll.Description</Keyword>
+      <Text>すべての3Dスキャンデータは破棄されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteSelected</Keyword>
+      <Text>選択された3次元スキャンデータを破棄</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteSelected.Description</Keyword>
+      <Text>選択した3Dスキャンデータのみが破棄されます。 これはDentalCAD​​の予期しない動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepAll</Keyword>
+      <Text>すべてを保持</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepAll.Description</Keyword>
+      <Text>すべての3Dスキャンデータが保持されます。これはDentalCAD​​の予期しない動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepSelected</Keyword>
+      <Text>選択された3次元スキャンデータを保持</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepSelected.Description</Keyword>
+      <Text>選択した3Dスキャンデータのみが保持されます。 これはDentalCAD​​の予期しない動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DDataOlderThanDentalProjectFileRemovalFailedRemoveManually</Keyword>
+      <Text>3Dスキャンデータの破棄が終了しませんでした。以下の3Dデータファイルは破棄されていません:
+{0}
+それらを手動で削除してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DScanDataCheck</Keyword>
+      <Text>スキャンデータの確認中にエラーが発生しました。
+エラー詳細:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite</Keyword>
+      <Text>咬合印象</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.TestVersion</Keyword>
+      <Text>テストバージョン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.AlphaVersion</Keyword>
+      <Text>アルファバージョン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.BetaVersion</Keyword>
+      <Text>ベータバージョン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanDataPlugin</Keyword>
+      <Text>スキャナープラグイン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists</Keyword>
+      <Text>
+        警告!
+        スキャンモードの切り替えようとしています。
+        現在のモードを使って撮影したスキャンデータが存在しているので、DentalCAD​​の誤動作につながる可能性があります。
+        現在のスキャンデータを破棄してもよろしいですか?
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.Yes</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.Yes.Description</Keyword>
+      <Text>スキャンデータは破棄され、スキャンモードが変更されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.No</Keyword>
+      <Text>いいえ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.No.Description</Keyword>
+      <Text>スキャンモードは変更されません。スキャンデータは保持されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataRemovalFileRemovalFailed</Keyword>
+      <Text>いくつかのスキャンデータは破棄することができませんでした。
+      手動でファイルを削除してから、もう一度やり直してください。
+      ファイルリスト:
+      {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail</Keyword>
+      <Text>警告!
+    "マルチ支台歯プレートでの形成データスキャン"モードを使用したスキャンデータが検出されました。
+    このモードはこのソフトウェアでは使用できません。
+    スキャンデータを削除しますか?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ok</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ok.Description</Keyword>
+      <Text>このモードに対応するスキャンデータは破棄されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ignore</Keyword>
+      <Text>無視</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ignore.Description</Keyword>
+      <Text>スキャンデータを無視してスキャンを続行します。これはDentalCAD​​の誤動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel</Keyword>
+      <Text>中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel.Description</Keyword>
+      <Text>ソフトウェアが終了します。スキャンデータが失われることはありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AffectedScanDataList</Keyword>
+      <Text>影響を受けたスキャンデータ:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SingleScanCaptureFailed</Keyword>
+      <Text>現在のビューからスキャンニングを行っているときにエラーが発生しました。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment</Keyword>
+      <Text>警告!
+    モデルの調整をリセットしようとしています。
+    同じ調整をした他のスキャンデータが存在することが原因で，DentalCAD​​の誤動作につながる可能性があります。
+    続行しますか?
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Ok</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Ok.Description</Keyword>
+      <Text>モデル調整がリセットされます。スキャンデータは削除されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Ignore</Keyword>
+      <Text>無視</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Ignore.Description</Keyword>
+      <Text>モデル調整がリセットされます。スキャンデータは保持されます。これはDentalCAD​​の誤動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Cancel</Keyword>
+      <Text>取消し</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmClearModelAdjustment.Cancel.Description</Keyword>
+      <Text>モデル調整のリセットは中止されます。スキャンデータが削除されません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ClearModelAdjustment</Keyword>
+      <Text>モデル調整をリセット</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager</Keyword>
+      <Text>スキャンマネージャー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanAdapterNumberMismatch</Keyword>
+      <Text>スキャンアダプタ番号の不一致:
+    発見: {0} - 予想: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RepeatCalibrationStep</Keyword>
+      <Text>キャリブレーション手順を繰り返してください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReference.Current</Keyword>
+      <Text>[現在の歯へのリンク]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReference.Linked</Keyword>
+      <Text>[リンクされた歯]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReference.ToLink</Keyword>
+      <Text>[歯へのリンク]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReferenceGenericLinkingAdvice</Keyword>
+      <Text>[このステップでは，対応する歯へインプラントのリンクを手動で行う必要があります: 最初に顎上の歯をクリックし，次にスキャンデータの対応するインプラントマーカーをクリックします。]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReferenceToothLinkingAdvice</Keyword>
+      <Text>[歯{0}に対応するスキャンデータのインプラントをクリックしてください]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantReferenceToothLinkingDoneAdvice</Keyword>
+      <Text>次のステップに進むために'次へ'をクリックしてください</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CannotRemoveScanData</Keyword>
+      <Text>シングルスキャンデータを削除することができません。
+    エラーメッセージ:
+    {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerErrorRestartMessage</Keyword>
+      <Text>エラーが解決しない場合は、スキャナーの電源を入れ直してスキャンソフトウェアを再起動します。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerCalibrationRequired</Keyword>
+      <Text>スキャナーのキャリブレーションが必要です。スキャンソフトウェアを再起動し、スキャナーのキャリブレーションを実行してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.Yes</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.GotoStandby</Keyword>
+      <Text>スリープ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.GotoStandby.Description</Keyword>
+      <Text>プロジェクトが閉じられ、ScanManagerはスリープモードになります(スキャナーは接続されたまま)。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RunContactPointScan</Keyword>
+      <Text>スキャン開始</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Hint</Keyword>
+      <Text>ヒント</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StanManager.StandbyTip.Header</Keyword>
+      <Text>ヒント</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.LoadProject</Keyword>
+      <Text>プロジェクトの読込み</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.No</Keyword>
+      <Text>いいえ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.No.Description</Keyword>
+      <Text>スキャンを継続</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.LoadProject.Title</Keyword>
+      <Text>dental projectを読込み</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Caption.Error</Keyword>
+      <Text>ScanManager - エラー</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Caption.Warning</Keyword>
+      <Text>ScanManager - 警告</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.No</Keyword>
+      <Text>いいえ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RunContactPointScan.ToolTip</Keyword>
+      <Text>接触点のスキャンを追加</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StanManager.StandbyTip</Keyword>
+      <Text>新しいプロジェクトを読込むために、このウィンドウにプロジェクトをドラッグ＆ドロップすることができます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.NoWritePermissionForJobFolder</Keyword>
+      <Text>ソフトウェアはプロジェクトフォルダ{0}への書き込み権を持っていません。フォルダのアクセス権を確認して、もう一度試してください。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.Yes.Description</Keyword>
+      <Text>現在のプロジェクトが閉じられます。キャプチャされたスキャンデータは保持されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject</Keyword>
+      <Text>現在のプロジェクトは終了していません。本当にプロジェクトを閉じてもよろしいですか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Standby</Keyword>
+      <Text>スキャナ{0}は待機中です。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Standby.Header</Keyword>
+      <Text>スキャンマネージャー
+待機中</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AdvancedMenu.ToolTip</Keyword>
+      <Text>アドバンスドオプション</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists</Keyword>
+      <Text>
+        警告!
+        スキャンモードを切り替えしようとしています。
+        現在のモードを使用したスキャンデータがすでに存在しているため，DentalCAD​​の誤動作につながる可能性があります。
+        現在のスキャンデータを破棄してもよろしいですか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertWaxupHolder</Keyword>
+      <Text>ホルダーにワックスアップを挿入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupHolder</Keyword>
+      <Text>ワックスアップホルダー: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes.Description</Keyword>
+      <Text>スキャンデータが破棄され、スキャンモードが変更されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.No.Description</Keyword>
+      <Text>スキャンモードは変更されません。スキャンデータは保持されます。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataRemovalFileRemovalFailed</Keyword>
+      <Text>いくつかのスキャンデータは破棄することができませんでした。
+      手動でファイルを削除してから、もう一度やり直してください。
+      ファイルリスト:
+      {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay</Keyword>
+      <Text>ワックスアップ両面スキャン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ContextMenu.CloseProject</Keyword>
+      <Text>プロジェクトを閉じ待機状態へ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ContextMenu.MoveHome</Keyword>
+      <Text>治具位置をリセット(ホームへ移動)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ContactPointScanFailed</Keyword>
+      <Text>接触点のスキャン中にエラーが発生しました:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ContactPointScanHelp</Keyword>
+      <Text>このステップでは接触点のスキャンする方法を提供する。
+そのためには：
+ - 健康な歯を除いてすべての形成を削除します
+ - [スタートスキャン]ボタンをクリック</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ContinueScanning</Keyword>
+      <Text>スキャニングを続行</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ok</Keyword>
+      <Text>はい</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Cancel.Description</Keyword>
+      <Text>プロジェクトの読込みは中止されます。スキャンデータが失われることはありません。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Cancel</Keyword>
+      <Text>中断</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ignore.Description</Keyword>
+      <Text>スキャンデータを無視してスキャンを続行。これはDentalCAD​​の誤動作につながる可能性があります。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ignore</Keyword>
+      <Text>無視</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ok.Description</Keyword>
+      <Text>このモードに対応するスキャンデータは破棄されます</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail</Keyword>
+      <Text>警告!
+    "waxup両面スキャン"モードに対応するためのデータをスキャニングしようとしています。
+    上記モードはこのソフトウェアでは使用できません。
+    それらのスキャンデータの削除を望みますか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupScan.Upper</Keyword>
+      <Text>ワックスアップスキャン - 上顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupScan.Lower</Keyword>
+      <Text>ワックスアップスキャン - 下顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScanTactile.Upper</Keyword>
+      <Text>歯肉スキャン - 上顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScanTactile.Lower</Keyword>
+      <Text>歯肉スキャン - 下顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewModelScan.Upper</Keyword>
+      <Text>概要モデルスキャン - 上顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewModelScan.Lower</Keyword>
+      <Text>概要モデルスキャン - 下顎</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FineGingivaScan.Single</Keyword>
+      <Text>詳細な歯肉スキャン：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FineGingivaScan.Multiple</Keyword>
+      <Text>詳細な歯肉スキャン：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.FineGingivaScan.Single</Keyword>
+      <Text>詳細な歯肉スキャン：{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.FineGingivaScan.Multiple</Keyword>
+      <Text>詳細な歯肉スキャン：{0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\scanmanager-japanese-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

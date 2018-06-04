@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<MaterialFilterDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaterialFilterList>
+    <MaterialFilter>
+      <Keyword>3/4-Axis</Keyword>
+      <Regexp>.*_3ax</Regexp>
+      <IsDefault>false</IsDefault>
+    </MaterialFilter>
+    <MaterialFilter>
+      <Keyword>5-Axis / Laser / 3D Print</Keyword>
+      <Regexp>.*</Regexp>
+      <IsDefault>true</IsDefault>
+    </MaterialFilter>
+  </MaterialFilterList>
+  <AlwaysShow>
+    <string>Healthy</string>
+    <string>None</string>
+  </AlwaysShow>
+</MaterialFilterDefinition>

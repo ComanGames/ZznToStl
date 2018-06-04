@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ScannerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScanStrategies>
+
+    <ScanStrategy ScanType="PreviewScan" Resolution="0.110">
+      <ScanPosition a="0" b="0" />
+   </ScanStrategy>
+    
+    <ScanStrategy ScanType="StandardScan" Resolution="0.110" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="0"   b="70" />
+      <ScanPosition a="60"  b="70" />
+      <ScanPosition a="120" b="70" />
+      <ScanPosition a="180" b="70" />
+      <ScanPosition a="240" b="70" />
+      <ScanPosition a="300" b="70" />
+      <ScanPosition a="180" b="0" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="PreparationScan" Resolution="0.055" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="0"   b="80" />
+      <ScanPosition a="60"  b="80" />
+      <ScanPosition a="120" b="80" />
+      <ScanPosition a="180" b="80" />
+      <ScanPosition a="240" b="80" />
+      <ScanPosition a="300" b="80" />
+      <ScanPosition a="180" b="10" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="ScanAbutmentScan" Resolution="0.055" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="0"   b="67.5" />
+      <ScanPosition a="30"  b="67.5" />
+      <ScanPosition a="60"  b="67.5" />
+      <ScanPosition a="90"  b="67.5" />
+      <ScanPosition a="120" b="67.5" />
+      <ScanPosition a="150" b="67.5" />
+      <ScanPosition a="180" b="67.5" />
+      <ScanPosition a="210" b="67.5" />
+      <ScanPosition a="240" b="67.5" />
+      <ScanPosition a="270" b="67.5" />
+      <ScanPosition a="300" b="67.5" />
+      <ScanPosition a="330" b="67.5" />
+      <ScanPosition a="180" b="0" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="VestibularRegistrationScan" Resolution="0.110" MatchingSettings="1" MeshingSettings="0">
+      <ScanPosition a="0"   b="105" />
+      <ScanPosition a="45"  b="105" />
+      <ScanPosition a="90"  b="105" />
+      <ScanPosition a="270" b="105" />
+      <ScanPosition a="305" b="105" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="BiteImpressionScan" Resolution="0.110" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="0"   b="0" />
+      <ScanPosition a="0"   b="20" />
+      <ScanPosition a="180" b="20" />
+     </ScanStrategy>
+
+    <ScanStrategy ScanType="ContactPointScan" Resolution="0.110" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="0"   b="60.0" />
+      <ScanPosition a="60"  b="60.0" />
+      <ScanPosition a="120"  b="60.0" />
+      <ScanPosition a="180"  b="60.0" />
+      <ScanPosition a="240" b="60.0" />
+      <ScanPosition a="300" b="60.0" />     
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="MultidieScan" Resolution="0.055" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="180" b="10" />
+      <ScanPosition a="0"   b="80" />
+      <ScanPosition a="60"  b="80" />
+      <ScanPosition a="120" b="80" />
+      <ScanPosition a="180" b="80" />
+      <ScanPosition a="240" b="80" />
+      <ScanPosition a="300" b="80" />
+      <ScanPosition a="330" b="90" />
+      <ScanPosition a="270" b="70" />
+      <ScanPosition a="90"  b="70" />
+    </ScanStrategy>
+
+    <ScanStrategy ScanType="ArticulatorPlate" Resolution="0.110" MatchingSettings="0" MeshingSettings="0">
+      <ScanPosition a="210"  b="30" />
+      <ScanPosition a="330"  b="30" />
+      <ScanPosition a="120"  b="30" />      
+      <ScanPosition a="60"  b="30" />
+      <ScanPosition a="90"  b="70" />
+    </ScanStrategy>
+    
+  </ScanStrategies>
+</ScannerConfiguration>

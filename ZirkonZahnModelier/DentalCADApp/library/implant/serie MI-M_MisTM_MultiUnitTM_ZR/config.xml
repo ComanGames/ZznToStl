@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® MIS® Multi-Unit Abutments®</DisplayInformation>
+  <Producer>MIS®</Producer>
+  <SystemName>Multi-Unit Abutments®</SystemName>
+  <MarkerFilename>../serie MI-M_MisTM_MultiUnitTM/scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with MIS® Multi-Unit Abutments®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Multi Unit</DisplayInformation>
+      <Keyword>MU</Keyword>
+      <ImplantFilename>../serie MI-M_MisTM_MultiUnitTM/MU_Implant.stl</ImplantFilename>
+      <ScrewFilename>../serie MI-M_MisTM_MultiUnitTM/MU_Zr_sc.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD1731</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.4852-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie MI-M_MisTM_MultiUnitTM/MU_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.4852-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>../serie MI-M_MisTM_MultiUnitTM/MU_NoHex-W.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1731</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Parallel</Keyword><DisplayInformation>Parallel BSAB1781</DisplayInformation><SupportFilename>../serie MI-M_MisTM_MultiUnitTM/MU_Parallelz.stl</SupportFilename><GeometryType>parallel</GeometryType><ImplantFilename>MU_Implant_P.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB1781</LibraryIdentifier><ScrewFilename>MU_m_sc.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1731</DisplayInformation>
+          <SupportFilename>../serie MI-M_MisTM_MultiUnitTM/MU_Conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>../serie MI-M_MisTM_MultiUnitTM/MU_Implant_C.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD1731</LibraryIdentifier>
+          <ScrewFilename>../serie MI-M_MisTM_MultiUnitTM/MU_m_sc.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

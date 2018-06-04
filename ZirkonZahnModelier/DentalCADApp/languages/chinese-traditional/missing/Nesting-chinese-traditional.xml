@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasPartialCNCFile</Keyword>
+      <Text>Partial Tool path available</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.NotNested</Keyword>
+      <Text>not nested</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Titan_Abutment</Keyword>
+      <Text>Raw-Abutment®</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.CompositeGlass_Blocks</Keyword>
+      <Text>CompoGlass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeightOrig</Keyword>
+      <Text>original</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight10</Keyword>
+      <Text>for Sintermetal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight20</Keyword>
+      <Text>for Zirkon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveOrClear</Keyword>
+      <Text>Save or clear Nesting parts</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionProperties</Keyword>
+      <Text>Reconstruction Heights</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectedMachine</Keyword>
+      <Text>Selected machine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotFound</Keyword>
+      <Text>Nesting not installed correctly.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotFound.Title</Keyword>
+      <Text>Error while opening the Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SimulationRunning</Keyword>
+      <Text>Simulation running</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMissingExclusiveTypeString</Keyword>
+      <Text>Parts containing "{0}" can be nested only with other parts containing "{0}".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNoSupport</Keyword>
+      <Text>One or more nested parts don't have Supports. Really Continue?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_connection combined</Keyword>
+      <Text>Combined connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_external connection</Keyword>
+      <Text>External connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained</Keyword>
+      <Text>Screw-retained</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_combined</Keyword>
+      <Text>Combined</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_interface connection</Keyword>
+      <Text>Interface connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_internal connection</Keyword>
+      <Text>Internal connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_crowns</Keyword>
+      <Text>Abutments/Crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained</Keyword>
+      <Text>Abutments/ScrewRetained</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained_and_crowns</Keyword>
+      <Text>Abutments/ScrewRetained/Crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained_and_crowns</Keyword>
+      <Text>Screw-retained crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment</Keyword>
+      <Text>AbutmentS</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_Special Strategies</Keyword>
+      <Text>Special strategies</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Filter</Keyword>
+      <Text>Filter Queue by Properties</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Manage</Keyword>
+      <Text>Manage Queue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList.Manage</Keyword>
+      <Text>Manage Material Blocks</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFileCalculate</Keyword>
+      <Text>Create CNC path</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInformation</Keyword>
+      <Text>Nesting Information</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MillingTools</Keyword>
+      <Text>Milling tools for {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Fast</Keyword>
+      <Text>Fast</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescriptionFast</Keyword>
+      <Text>A quick finish guarantees quick results. The quality is only medium.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Quality</Keyword>
+      <Text>Quality</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescriptionQuality</Keyword>
+      <Text>This Strategy presents a good mix from speed and quality. Should you not be sure which strategy to select - this is probably the one.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HighQuality</Keyword>
+      <Text>High Quality</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescriptionHighQuality</Keyword>
+      <Text>The milling takes the longest - but the quality is superb.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescriptionHighQualityBurSelection</Keyword>
+      <Text>For enhanced fine-tuning selecting the smallest bur is possible as well.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescriptionHighQualityAxisSelection</Keyword>
+      <Text>Outside-Angles can be defined according to the work.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StrategyDescription</Keyword>
+      <Text>Description</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ManualImplant</Keyword>
+      <Text>Manual Implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show all CNC paths</Keyword>
+      <Text>Show all process steps</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowCNCViewPaths</Keyword>
+      <Text>Show process steps</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show/Hide</Keyword>
+      <Text>Processing steps</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Time</Keyword>
+      <Text>Time</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineSelector</Keyword>
+      <Text>Machine selector</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectAvailableMachines</Keyword>
+      <Text>Please select your Machines</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MillingUnit</Keyword>
+      <Text>Milling Unit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MillingUnitSelected</Keyword>
+      <Text>Selected Milling Unit</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show</Keyword>
+      <Text>Show</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueue.ShowInExplorer</Keyword>
+      <Text>Show in explorer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRegistration</Keyword>
+      <Text>Register material block</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AdvancedMillingOption</Keyword>
+      <Text>Advanced milling options</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Wet milling</Keyword>
+      <Text>Wet milling</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Lollipop</Keyword>
+      <Text>Use bur 1,5k</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Bur15XL</Keyword>
+      <Text>Use bur 1,5A XL</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Bur15XLWarning</Keyword>
+      <Text>Attention: this bur is intended to be used only for cases with very long Screwholes. For normal-height works, the regular {0}-Bur is reccomended.
+
+Would you like to have the calculation use the {1}-bur?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InterfaceOffset</Keyword>
+      <Text>Interface Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.TelescopeOffset</Keyword>
+      <Text>Telescope Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset0</Keyword>
+      <Text>Normal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset1</Keyword>
+      <Text>Friction +</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset2</Keyword>
+      <Text>Friction ++</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset3</Keyword>
+      <Text>Friction +++</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset4</Keyword>
+      <Text>Friction ++++</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset5</Keyword>
+      <Text>Friction +++++</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TelescopeOffset6</Keyword>
+      <Text>Friction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMilling</Keyword>
+      <Text>Speed Calculation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ExpertMode</Keyword>
+      <Text>Enable ExpertMode</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Bur</Keyword>
+      <Text>Bur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button.Tooltip</Keyword>
+      <Text>Open nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessorControls.CNCPathControl.Title</Keyword>
+      <Text>Milling paths</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Abutment</Keyword>
+      <Text>Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.InsideHex</Keyword>
+      <Text>Inside Hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.WithoutHex</Keyword>
+      <Text>Without Hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OcclusalBridge</Keyword>
+      <Text>Occl. Bridge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InlayStrategySelection</Keyword>
+      <Text>Inlay/Onlay/Veneers</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNesting.ToolTip</Keyword>
+      <Text>Save nesting scene</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ExtraStrategySelection</Keyword>
+      <Text>Select special strategy </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingView</Keyword>
+      <Text>Nesting view</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BlockOutAngle</Keyword>
+      <Text>Block out angle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OutsideHex</Keyword>
+      <Text>Outside hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock.Title</Keyword>
+      <Text>Stamp out</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateCNCFiles</Keyword>
+      <Text>Prepare Nesting</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.S</Keyword>
+      <Text>Configure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButtonPremium</Keyword>
+      <Text>Resin premium</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeBasicButton</Keyword>
+      <Text>Resin basic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButton</Keyword>
+      <Text>Resin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeGlassButton</Keyword>
+      <Text>Resin Glass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderLength</Keyword>
+      <Text>Length</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpecialStrategySelection</Keyword>
+      <Text>Select implant strategy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Standart</Keyword>
+      <Text>Standard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StandardStrategySelection</Keyword>
+      <Text>Select standard strategy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderStatus</Keyword>
+      <Text>Status</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSpecialStrategySelector</Keyword>
+      <Text>Select strategy for {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyButton</Keyword>
+      <Text>Select strategy</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaxButton</Keyword>
+      <Text>Wax</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassButton</Keyword>
+      <Text>Glass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SinterMButton</Keyword>
+      <Text>Sintermetal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetallButton</Keyword>
+      <Text>Metal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CrCoButton</Keyword>
+      <Text>CrCo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Titan2Button</Keyword>
+      <Text>Titan 2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Titan4Button</Keyword>
+      <Text>Titan 4</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Titan5Button</Keyword>
+      <Text>Titan 5</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.TitanPremilledButton</Keyword>
+      <Text>Titan Premilled</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.TitanAbutmentButton</Keyword>
+      <Text>Titan Raw-Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Position</Keyword>
+      <Text>Position</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WoodButton</Keyword>
+      <Text>Wood</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNCFileWithDifferentBlockInNesting</Keyword>
+      <Text>Show CNC-file with other materialblock</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ZirkonButton</Keyword>
+      <Text>Zirconia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishederrorMessage</Keyword>
+      <Text>CAM Software ERROR!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueButtons</Keyword>
+      <Text>NestingQueue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertScaleFactor</Keyword>
+      <Text>Insert Scalefactor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertShrinkingPercentage</Keyword>
+      <Text>Insert shrinkage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialCommands</Keyword>
+      <Text>Commands</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailDiameter</Keyword>
+      <Text>Ø</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailHeight</Keyword>
+      <Text>H</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem1</Keyword>
+      <Text>- 0.01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem2</Keyword>
+      <Text>0</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem3</Keyword>
+      <Text>+ 0.01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionCanNotBeNestedInGlassBlock</Keyword>
+      <Text>Parts containing "{0}" can not be nested into glass blocks.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionCanNotBeNestedInThisBlock</Keyword>
+      <Text>Nesting of this Element is not allowed in this Block. It will be removed from the Block now. Reason: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongImplantMaterial</Keyword>
+      <Text>Another Material than Metall was selected at the Implant-selection.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MetallImplantHex</Keyword>
+      <Text>Unsupported Implant-type</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OnlyOneReconstructionForThisBlock</Keyword>
+      <Text>Only one reconstruction allowed for Raw-Abutment blocks. One Reconstruction will remain in the Nesting. The others will be placed in the Nesting Queue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongMachineForThisMaterialType</Keyword>
+      <Text>Only {0}-Machine can make Nestings of type {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongMachineForThisMaterialTypeMulti</Keyword>
+      <Text>Only {0} can make Nestings of type {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongSlotForThisMachine</Keyword>
+      <Text>This Machine cannot mill Blocks nested in slot {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongMaterialForThisMachine</Keyword>
+      <Text>Machine {0} can not mill {1}-Blocks</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionTypeButton.Text</Keyword>
+      <Text>Auto detection in CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WarningMergedInOlderVersion</Keyword>
+      <Text>Warning!!!
+The loaded File was not merged with this Version. 
+To avoid errors please open the Scene and remerge the reconstruction.
+After that, the work can be loaded into the nesting again.
+Please press OK if you wish to continue anyway. 
+Attention, this can lead to unexpected milling-results.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImportAsSTLWithConstructionInfo</Keyword>
+      <Text>Warning!!!
+The File was loaded as STL-File.
+If possible, please load this file using the NestingQueue to obtain optimal milling-results.
+
+Please press OK if you wish to continue anyway. 
+Attention, this can lead to unexpected milling-results.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestedOutsideBlock</Keyword>
+      <Text>Attention, parts of the nesting are located outside of the Materialblock. This can cause collisions in the Milling-machine.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateStabilizer</Keyword>
+      <Text>Create Stabilizer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LabelTemplateNotFound</Keyword>
+      <Text>The template for printing the label ({0}) couldn't be found.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPrintingLabel</Keyword>
+      <Text>Error printinng label: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RunCNCControl.Type3Achs</Keyword>
+      <Text>3 Axis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RunCNCControl.Type5AchsPosition</Keyword>
+      <Text>5 Axis positioning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RunCNCControl.Type5AchsSimultan</Keyword>
+      <Text>5 Axis simultaneous</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMillingQuestion.Title</Keyword>
+      <Text>Use Speed Calculation?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMillingQuestion.Description</Keyword>
+      <Text>Attention, the milling will only use the 2L-bur.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TerminateCamProcess</Keyword>
+      <Text>Another instance of the Calculation-programm seems to be running.
+A click on OK will stop the other calculation. 
+Please be advised that it might result in calculation-progress lost on the other instance.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LongScrewHoleWarning</Keyword>
+      <Text>Attention, a Screwhole is too long. If you are not sure, please click 'No' and contact the Support-Team. A click on 'yes' is on your own risk and will probably result in a Screwchannel not milled. Please check the Milling-path.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LongScrewHoleWarning18</Keyword>
+      <Text>Attention, a Screwhole is too long. You can click 'no' and try to recalculate using the {0} XL-Bur. A click on 'yes' is on your own risk and will probably result in a Screwchannel not milled. Please check the Milling-path.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveFailedBecauseNoMachine</Keyword>
+      <Text>You can only save when a Machine has been selected first.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

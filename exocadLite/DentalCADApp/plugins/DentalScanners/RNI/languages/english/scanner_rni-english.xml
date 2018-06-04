@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+  <Translations>
+    <Translation>
+      <Keyword>rniScanNow</Keyword>
+      <Text>Scan Now</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniOk</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniYes</Keyword>
+      <Text>Yes</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniNo</Keyword>
+      <Text>No</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniDone</Keyword>
+      <Text>Done</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniError</Keyword>
+      <Text>Error: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniPleaseInsertStylus</Keyword>
+      <Text>Please insert Stylus: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniForTooth</Keyword>
+      <Text>, for tooth: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniForTeeth</Keyword>
+      <Text>, for teeth: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniStartCalibrationWithIsWorkingInBackgroundTrue</Keyword>
+      <Text>RNI Start calibration: was called with m_IsWorkingInBackground = true</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniPleaseInsertCalibrationArtifact</Keyword>
+      <Text>Please insert the calibration artifact.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCouldNotRetrievePickPoints</Keyword>
+      <Text>Could not retrieve the pick points!</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCanNotFindStartPoints</Keyword>
+      <Text>
+        Can not find start points!
+        Most probably the bound curves on the model are not correctly selected!
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniNoScanDefinitionCloningNotPossible</Keyword>
+      <Text>No scan definition: cloning not possible!</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniFailedToCalibrate</Keyword>
+      <Text>Failed to calibrate:</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniStartCalibrationCrash</Keyword>
+      <Text>RNI Start Calibration Crash</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCheckCalibrationCanNotOpenFile</Keyword>
+      <Text>Check Calibration: can not open file: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniDefaultOneWillBeGenerated</Keyword>
+      <Text>Default one will be generated. </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniResetCalibrationCanNotOpenFile</Keyword>
+      <Text>ResetCalibration: can not open file: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniInvalidStateToStart</Keyword>
+      <Text>Invalid state to start</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTeethNullptr</Keyword>
+      <Text>
+        RNI::StartScan(): desc->Teeth==nullptr.
+        Default one will be generated!
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTeethCountZero</Keyword>
+      <Text>
+        RNI::StartScan(): desc->Teeth->Count==0.
+        Default one will be generated!
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWithBounds2OuterBoundingPoints</Keyword>
+      <Text>Please select at least 2 outer bounding points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWithBounds2InteriorBoundingPoints</Keyword>
+      <Text>Please select at least 2 interior bounding points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWithBoundsSelectFurtherOuterPoints</Keyword>
+      <Text>Please select further outer bounding points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWithBoundsSelectFurtherInteriorPoints</Keyword>
+      <Text>Please select further interior bounding points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniAnExtraImplantReferenceObjectForRegistration</Keyword>
+      <Text>Do you want an extra implant reference object for registration?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniAnExtraWaxupScanRequired</Keyword>
+      <Text>Do you want an extra waxup scan?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniAnExtraOverviewScanRequired</Keyword>
+      <Text>Do you want an extra overview scan?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniAnExtraGingivaScanRequired</Keyword>
+      <Text>Do you want an extra gingiva scan?</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWithBoundsSelectLowerBoundingPoint</Keyword>
+      <Text>Please select the lower bounding point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniRidgeFirstBoundaryPoint</Keyword>
+      <Text>Please select the first boundary point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniRidgeSecondBoundaryPoint</Keyword>
+      <Text>Please select the second boundary point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniRidgeThirdBoundaryPoint</Keyword>
+      <Text>Please select the third boundary point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniRidgeFourthBoundaryPoint</Keyword>
+      <Text>Please select the fourth boundary point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaSingleP1</Keyword>
+      <Text>Please select the first boundary gingiva point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaSingleP2</Keyword>
+      <Text>Please select the second boundary gingiva point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaSingleP3</Keyword>
+      <Text>Please select the third boundary gingiva point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaSingleP4</Keyword>
+      <Text>Please select the fourth boundary gingiva point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaSingleLowest</Keyword>
+      <Text>Please select the lowest gingiva point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniFREEBOUNDLowestPoint</Keyword>
+      <Text>Please select the lowest point</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniFREEBOUNDAtLeast3Points</Keyword>
+      <Text>Please select at least 3 points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniFREEBOUNDFurtherPoints</Keyword>
+      <Text>Please select further points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWaxupBridgeTopPoint</Keyword>
+      <Text>Please select this top point.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniWaxupBridgeLowerPoint</Keyword>
+      <Text>Please select the lower boundary point.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniNoSuchScanTypeSupported</Keyword>
+      <Text>: No such ScanType supported at the moment.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniNoSuchScanDataTypeSupported</Keyword>
+      <Text>: No such ScanDataType supported at the moment.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniPrepCenterPoint</Keyword>
+      <Text>Please select a point above the center of the preparation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniPrepLowestPoint</Keyword>
+      <Text>Please select a point at the lowest part of the margin line</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniSCANCAPMEASURECenter</Keyword>
+      <Text>Please select a point above the center of the implantat locator</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniScanAbutmentCenter</Keyword>
+      <Text>Please select a point above the scan abutment center</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniScanAbutmentLowest</Keyword>
+      <Text>Please select a point at the lowest part of the scan abutment</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGingivaImplantLowest</Keyword>
+      <Text>Please select the lowest point</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniGingivaImplant3Points</Keyword>
+      <Text>Please select at least 3 points on the model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniGingivaImplantFurtherPoints</Keyword>
+      <Text>Please select further points on the model</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCallScanBlocksOfTeethWithNULL</Keyword>
+      <Text>Call ScanBlocksOfTeeth with NULL definition: m_pScanDefinition==NULL</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCanTChangeStylus</Keyword>
+      <Text>Can't change stylus!</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniLastScanStepDidnTWork</Keyword>
+      <Text>
+        Last scan step didn't work out!
+        Do you want to try again?
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniGetHighestPriorityJobError</Keyword>
+      <Text>
+        GetHighestPriorityJob(): There is something wrong in the algorithm!!?
+        This code must not be ever reached!!?
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniDentalScannerRNIDirectoryNotSet</Keyword>
+      <Text>DentalScanner_RNI_Directory not set</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniDentalScannerRNIDirectoryDoesNotExist</Keyword>
+      <Text>DentalScanner_RNI_Directory does not exist: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCreateInstanceFailed</Keyword>
+      <Text>CScannerControllerFactory::CreateInstance failed</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCreateInstanceCrash</Keyword>
+      <Text>RNI::Scanner CreateInstance crash</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniInitialiseFailed</Keyword>
+      <Text>RNI::Scanner Initialise failed: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniConnectFailed</Keyword>
+      <Text>CScannerControllerFactory::Connect failed: </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniConnectTimeoutError</Keyword>
+      <Text>Error: Connect time out. Do you want to try again?</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniConnectTimeout</Keyword>
+      <Text>RNI Connect timeout</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScannerNotInitialized</Keyword>
+      <Text>Scanner could not be initialized.</Text>
+    </Translation>
+
+    
+    <Translation>
+      <Keyword>rniTriangulationModeUndefined</Keyword>
+      <Text>Triangulation mode undefined!</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniInvalidTriangulationMode</Keyword>
+      <Text>Triangulation: invalid TriangulationMode.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTriangulationFailedBeforeReduction</Keyword>
+      <Text>Triangulation failed before reduction.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTriangulation</Keyword>
+      <Text>Triangulation</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTriangulationFailedpTriaCountZero</Keyword>
+      <Text>Triangulation failed: pTria->GetTriangleCount()==0</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniSimpleNormalEstimationFailed</Keyword>
+      <Text>SimpleNormalEstimation for current scan failed</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniCurrentTemporaryModelDiedDuringScanning</Keyword>
+      <Text>currentTemporaryModel died during scanning</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniNewScanDataRenderProblem</Keyword>
+      <Text>DentalScannerRNI::NewScanData render problem</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniBossMeasuredRenderProblem</Keyword>
+      <Text>DentalScannerRNI::BossMeasured render problem</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniMoveHomeFailed</Keyword>
+      <Text>RNI::Scanner moveHome() failed</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>TactileScannerMovementError</Keyword>
+      <Text>Scanner stylus movement failed. Please check if stylus is stuck or outside movement area.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniFindNewStartLowQuadPointsHasZeroArea</Keyword>
+      <Text>RNI in FindNewStartLowQuadPoints(): Starting quad has zero area</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniSelectStylusForSampling</Keyword>
+      <Text>Please select stylus type for sampling.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniSelectSamplingStrategy</Keyword>
+      <Text>Please select the sampling strategy.</Text>
+    </Translation>    
+    <Translation>
+      <Keyword>rniSelectStylusAndSamplingStrategy</Keyword>
+      <Text>Please select stylus and the sampling strategy.</Text>
+    </Translation>
+   
+    <Translation>
+      <Keyword>rniIsAHealthyTeethWaxup</Keyword>
+      <Text>Scan as an unsegmented waxup.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniIsASegmentedWaxupWaxup</Keyword>
+      <Text>Scan as a segmented waxup.</Text>
+    </Translation>
+   
+    <Translation>
+      <Keyword>rniIsAImplantBridgeWaxup</Keyword>
+      <Text>Scan as an implant bridge waxup.</Text>
+    </Translation>
+    
+    <Translation>
+      <Keyword>rniWaxupScanDefinitionError</Keyword>
+      <Text>Error: No scan definition could be set for waxup scan.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniTURNOVERPin1</Keyword>
+      <Text>Please select this point.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERPin2</Keyword>
+      <Text>Please select this point.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERLimit1</Keyword>
+      <Text>Please select this point.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERLimit2</Keyword>
+      <Text>Please select this point.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERLow</Keyword>
+      <Text>Please select a point at the lowest part.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERFlip</Keyword>
+      <Text>Please turnover the sample.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniTURNOVERScanDefinitionError</Keyword>
+      <Text>Error: No scan definition could be set for implant bridge waxup scan.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniStyliAOnly</Keyword>
+      <Text>A</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniStyliBOnly</Keyword>
+      <Text>B</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniChangePinType</Keyword>
+      <Text>Change pin type</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniPinTypesAvailable</Keyword>
+      <Text>Pin types available</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniSelectPinType</Keyword>
+      <Text>Select pin type</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniMissingConfigPath</Keyword>
+      <Text>Missing Config Path: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniNoValidPinDatabaseFileExists</Keyword>
+      <Text>No valid pin database file exists: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniMkaeSureAValidDatabaseExists</Keyword>
+      <Text>Please, make sure a valid database exists, and then try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniLoadFromFilePinDatabaseError</Keyword>
+      <Text>Error loading the pin database from file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniOperationWillBeAborted</Keyword>
+      <Text>The operation will be aborted now.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniPinDatabaseEmpty</Keyword>
+      <Text>Sorry, pin database empty.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniDefaultPinTypeNotFoundInDatabase</Keyword>
+      <Text>Sorry, pin type "{0}" not found in database.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniPinTypeUsedForSampling</Keyword>
+      <Text>Pin type to sample: "{0}"</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>rniSelectSubstructureScanType</Keyword>
+      <Text>Please select substructure type:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniScanBarStructure</Keyword>
+      <Text>Scan a bar structure.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniScanWaxupStructure</Keyword>
+      <Text>Scan a waxup structure.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>rniScanGingivaStructure</Keyword>
+      <Text>Scan gingiva structure.</Text>
+    </Translation>
+    
+  </Translations>
+
+  <IncludeFiles>
+  </IncludeFiles>
+
+</TranslationContainer>

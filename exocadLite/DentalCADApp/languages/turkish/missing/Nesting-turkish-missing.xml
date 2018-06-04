@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockWithProductCodeAlreadyExists</Keyword>
+      <Text>Another material blank with given product code already exists.
+Product code: {0}
+Location: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeAlreadyExists</Keyword>
+      <Text>Given production code was already used. Please check your material blanks and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CouldNotResolveMaterialBlankFromProductCode</Keyword>
+      <Text>A material blank which would match the information from the product code could not be found. Please create the material block manually.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode</Keyword>
+      <Text>Material blank with given production code already exists.
+Do you want to load it?
+
+Product code: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Load</Keyword>
+      <Text>Load</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Load.Description</Keyword>
+      <Text>Existing material blank with given product code will be loaded.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Back</Keyword>
+      <Text>Back</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Back.Description</Keyword>
+      <Text>Return to 'Add blank' dialog.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachineAnyMore</Keyword>
+      <Text>The loaded blank is not compatible with the current machine any more. The material blank library may be out of date, or this blank file may be too old.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.OldMachineDescriptor</Keyword>
+      <Text>Old Machine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CurrentMachineWasSwitchedAutomatically</Keyword>
+      <Text>Note: Machine selection was automatically changed to {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CurrentMachineWasSwitchedAutomaticallyToNone</Keyword>
+      <Text>Note: Machine selection changed to 'None'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMachineIsCompatibleWithTheGivenBlank</Keyword>
+      <Text>The loaded blank is not compatible with any machine available in this installation.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToSelectACompatibleMachine.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToSelectACompatibleMachine.Cancel.Description</Keyword>
+      <Text>Stops the current loading process</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine</Keyword>
+      <Text>The loaded blank {0} is not compatible with the selected machine {1}.
+Do you want to unload the current blank to change the machine?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlankAndKeepReconstructions</Keyword>
+      <Text>Yes, unload blank but keep reconstructions.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlankAndUnloadReconstructions</Keyword>
+      <Text>Yes, unload blank and reconstructions.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlank</Keyword>
+      <Text>Yes, unload blank.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.DontChangeMachine</Keyword>
+      <Text>No, do not change machine selection.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WarningMachineSlotIdChanged</Keyword>
+      <Text>Note: Material blank slot name changed from {0} to {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot</Keyword>
+      <Text>Problem: Tool paths already exists for parts in the blank.
+What do you want to do?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.MarkAsCurrent</Keyword>
+      <Text>Treat parts as already milled.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.MarkAsCurrent.Description</Keyword>
+      <Text>Parts and their milled material will be removed from blanks</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.RemoveCNCFiles</Keyword>
+      <Text>Treat parts as not milled and discard tool paths</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.RemoveCNCFiles.Description</Keyword>
+      <Text>Use this option if you plan to mill those parts in different holder or different machine.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.Cancel.Description</Keyword>
+      <Text>Do not change machine, slot or holder configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorMachineDescriptorProblem</Keyword>
+      <Text>Error: Machine or material configuration problem!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.BlankIsNotCompatibleWithTheCurrentSelectedMachine</Keyword>
+      <Text>Error: The current blank cannot be milled on the selected machine.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.BlankIsNotCompatibleWithTheCurrentSelectedMachine.PleaseSelectCompatible</Keyword>
+      <Text>Please select one of these possible Machines:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnailHolderOnly</Keyword>
+      <Text>Holder </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlankColorValidationError</Keyword>
+      <Text>Material blank color is mandatory.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingOpenMaterialBlankLibrary</Keyword>
+      <Text>Material blank library</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingLoadedDesigns</Keyword>
+      <Text>Loaded designs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingPremillAbutmentFeatureButton</Keyword>
+      <Text>Use premill abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotHolder</Keyword>
+      <Text>Holder</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHolderChange.ToolTip</Keyword>
+      <Text>Change will move this blank to a different machine holder configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotChange.ToolTip</Keyword>
+      <Text>Change will move this blank to a different machine slot</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorMaterialDescriptorMissingInConfiguration</Keyword>
+      <Text>Error, the MaterialDescriptor is missing in local configuration: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.TypeProductCodeHere</Keyword>
+      <Text>Type/paste here to create material blank from product code</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryFileNameMisconfigured</Keyword>
+      <Text>The path to product code history file is not properly configured. Please contact your reseller.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryFileNameDirCreationFailed</Keyword>
+      <Text>Could not create product code history file directory.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryCheckFailed</Keyword>
+      <Text>An error occurred checking whether product code is already in use. Please try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryLockFailed</Keyword>
+      <Text>An error occurred locking  product code history for update.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GenerateFromProductCode</Keyword>
+      <Text>Generate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CodeContainsProductCodeOnly</Keyword>
+      <Text>The string entered contains product code only. Please select a blank type manually. The product code will auto completed then.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock.Description</Keyword>
+      <Text>Click if the reconstruction is already milled. 
+The construction will be deleted, the milled out area will be visualized in the blank.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstructionBackToQueue</Keyword>
+      <Text>Re-add the reconstruction to the queue?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueProjectDirThumbnail</Keyword>
+      <Text>Location</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction.Description</Keyword>
+      <Text>Start CAM software to mill the reconstruction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.EnqueueForProduction.Description</Keyword>
+      <Text>Mill calculated reconstructions later and stay in CAM software</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemCancelProduction.Description</Keyword>
+      <Text>Cancel calculation to correct the position or inclination of the reconstruction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemContinueProduction.Description</Keyword>
+      <Text>Continue calculation to mill the reconstruction. The areas in non-reachable regions won't get milled.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes.Description</Keyword>
+      <Text>Start the calculation using water cooling</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.No.Description</Keyword>
+      <Text>Start the calculation for drying milling</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile.Description</Keyword>
+      <Text>Click here if you have not milled the reconstruction. 
+The reconstruction will be deleted and the milled out area will be closed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCode.Hint</Keyword>
+      <Text>Please enter product code below.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCode.Title</Keyword>
+      <Text>Product code editor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCode</Keyword>
+      <Text>Product code</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeCopiedToClipboard</Keyword>
+      <Text>Product code has been successfully copied to clipboard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidProductCode</Keyword>
+      <Text>The string entered is not a valid product code. Please check it and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeWithBlockInfoProhibited</Keyword>
+      <Text>In the product code field, only codes without material blank infos are allowed. To create a material blank from code with blank information, please use the field left of the 'Generate' button.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing.Title</Keyword>
+      <Text>Product code missing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing</Keyword>
+      <Text>It seems that the items nested in the material blank are going to be milled on a machine that requires product code to function properly.
+However, the material block used has no product code assigned. Please choose an action below.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing.DefineProductCode</Keyword>
+      <Text>Define product code</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing.DefineProductCode.Description</Keyword>
+      <Text>In next step you will be able to define product code.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing.SkipProductCodeAndProceedToProduction</Keyword>
+      <Text>Skip product code definition</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ProductCodeRequiredButMissing.SkipProductCodeAndProceedToProduction.Description</Keyword>
+      <Text>Proceed to production without assigning product code the material blank. Machine may refuse production.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

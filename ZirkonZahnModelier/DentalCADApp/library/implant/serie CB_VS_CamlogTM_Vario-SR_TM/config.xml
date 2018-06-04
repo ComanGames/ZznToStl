@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>false</IsWithRotationLock>
+  <DisplayInformation>
+ZIRKONZAHN® Camlog® Vario/SR®</DisplayInformation>
+  <Producer>Camlog®</Producer>
+  <SystemName>Vario/SR®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Camlog® Vario/SR® series</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <ScrewFilename>scrh384350.stl</ScrewFilename>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.8/4.3</DisplayInformation>
+      <Keyword>3843R</Keyword>
+      <ImplantFilename>Anll3843.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5431</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.031-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NoHex3843fs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5431</LibraryIdentifier>
+          <ScrewFilename>scrh384350z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0310-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NoHex3843cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.03100-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>NoHexW3843fs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5431</LibraryIdentifier>
+          <ScrewFilename>scrh384350z.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0311-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>NoHexW3843cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.5-Conical</Keyword>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <DisplayInformation>Conical BSAD5431</DisplayInformation>
+          <SupportFilename>Conical3843.stl</SupportFilename>
+          <ImplantFilename>Anll3843k.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD5431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0</DisplayInformation>
+      <Keyword>50W</Keyword>
+      <ImplantFilename>Anl50.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5432</LibraryIdentifier>
+      <MarkerFilename>scanmarkerw.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.731-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NoHex50fs.stl</SupportFilename>
+          <ScrewFilename>scrh384350z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.7310-OutNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NoHex50cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.73100-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide flat screw</DisplayInformation>
+          <SupportFilename>NoHexW50fs.stl</SupportFilename>
+          <ScrewFilename>scrh384350z.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.7311-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide conical screw</DisplayInformation>
+          <SupportFilename>NoHexW50cs.stl</SupportFilename>
+          <LibraryIdentifier>BSA5402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.0-Conical</Keyword>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <DisplayInformation>Conical BSAD5432</DisplayInformation>
+          <SupportFilename>Conical50.stl</SupportFilename>
+          <ImplantFilename>Anl50k.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD5432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

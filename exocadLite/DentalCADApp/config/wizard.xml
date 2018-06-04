@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<ArrayOfDentalProcessorInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.DumpDentalDataProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.SaveToothBowProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>  
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.PrimaryTelescopeProcessor</ProcessorType>
+    <Priority>8200</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LoadAttachmentProcessor</ProcessorType>
+    <Priority>105</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.SelectNextStepProcessor</ProcessorType>
+    <Priority>1</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MergePartsProcessor</ProcessorType>
+    <Priority>3</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformMergedProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformProcessor</ProcessorType>
+    <Priority>9800</Priority>
+  </DentalProcessorInfo>
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformTelescopeProcessor</ProcessorType>
+    <Priority>9801</Priority>
+  </DentalProcessorInfo>
+
+    
+
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.CrownBottomProcessor</ProcessorType>
+    <Priority>9750</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ConnectorProcessor</ProcessorType>
+    <Priority>8100</Priority>
+  </DentalProcessorInfo>
+
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.TiltProjectProcessor</ProcessorType>
+    <Priority>20000</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ReconstructionSelectionProcessor</ProcessorType>
+    <Priority>90150</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.PreparationMarginProcessor</ProcessorType>
+    <Priority>15200</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.InsertionDirectionProcessor</ProcessorType>
+    <Priority>15150</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.EmergenceProfileProcessor</ProcessorType>
+    <Priority>15250</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AbutmentMarkerProcessor</ProcessorType>
+    <Priority>15300</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AbutmentEditProcessor</ProcessorType>
+    <Priority>9100</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AbutmentBottomProcessor</ProcessorType>
+    <Priority>15200</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AbutmentInsertionDirectionProcessor</ProcessorType>
+    <Priority>9150</Priority>
+  </DentalProcessorInfo>
+
+
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.OffsetCopingProcessor</ProcessorType>
+    <Priority>10165</Priority>
+  </DentalProcessorInfo>
+
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LoadSingleToothmodelProcessorNew</ProcessorType>
+    <Priority>9501</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LoadToothmodelProcessor</ProcessorType>
+    <Priority>9500</Priority>
+  </DentalProcessorInfo>
+  
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.OffsetInlayProcessor</ProcessorType>
+    <Priority>10160</Priority>
+  </DentalProcessorInfo>
+
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AdaptToothmodelProcessor</ProcessorType>
+    <Priority>9900</Priority>
+  </DentalProcessorInfo>
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AdjustingOcclusionsProcessor</ProcessorType>
+    <Priority>9750</Priority>
+  </DentalProcessorInfo>
+
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.CorrectPlacementProcessorNew</ProcessorType>
+    <Priority>10000</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.BarProcessor</ProcessorType>
+   <Priority>8110</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformBarProcessor</ProcessorType>
+    <Priority>8109</Priority>
+  </DentalProcessorInfo>
+
+  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ShrinkProcessor</ProcessorType>
+    <Priority>9100</Priority>
+  </DentalProcessorInfo>
+    
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MinThicknessProcessor</ProcessorType>
+    <Priority>0</Priority>
+    </DentalProcessorInfo>
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.WaxUpProcessor</ProcessorType>
+   <Priority>100100</Priority>
+  </DentalProcessorInfo>
+
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.CorrectSituProcessor</ProcessorType>
+   <Priority>350100</Priority>
+  </DentalProcessorInfo>
+  
+ <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.DeleteConnectorProcessor</ProcessorType>
+   <Priority>0</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.InlayBottomProcessor</ProcessorType>
+    <Priority>9751</Priority>
+  </DentalProcessorInfo>
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.OverPressProcessor</ProcessorType>
+    <Priority>130</Priority>
+  </DentalProcessorInfo>
+
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.SwitchToAnatomicProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.SwitchToReducedProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ArticulatorProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>  
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MirrorHealthyToSituProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>  
+
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AdjustingSituProcessor</ProcessorType>
+    <Priority>9790</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformGingivaProcessor</ProcessorType>
+    <Priority>8100</Priority>
+  </DentalProcessorInfo>
+
+ <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ScrewHoleDesignProcessor</ProcessorType>
+    <Priority>105</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MeasuringPointsProcessor</ProcessorType>
+    <Priority>25300</Priority>
+  </DentalProcessorInfo>
+  
+  <!--
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AntagonistEditProcessor</ProcessorType>
+       <Priority>200100</Priority>
+  </DentalProcessorInfo>
+-->
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.StartArticulatorProcessor</ProcessorType>
+       <Priority>150100</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AutoArticulatorProcessor</ProcessorType>
+       <Priority>9950</Priority>
+  </DentalProcessorInfo>
+
+ <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.SetScrewChannelProcessor</ProcessorType>
+    <Priority>200100</Priority>  
+ </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AbutmentScrewChannelManualBottomProcessor</ProcessorType>
+    <Priority>9751</Priority>  
+ </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.WaitForImplantPositionProcessor</ProcessorType>  
+ </DentalProcessorInfo>
+
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.TelescopeInsertionDirectionProcessor</ProcessorType>
+    <Priority>8201</Priority>  
+  </DentalProcessorInfo> 
+
+      <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.CopyAndPasteToothProcessor</ProcessorType>
+    <Priority>9502</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ArticulatorRegistrationProcessor</ProcessorType>
+	<Priority>10000102</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.JawRegistrationProcessor</ProcessorType>
+	<Priority>10000101</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.JawRegistrationCheckAlignmentProcessor</ProcessorType>
+	<Priority>10000103</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AdditionalScanRegistrationProcessor</ProcessorType>
+	<Priority>10000100</Priority>
+  </DentalProcessorInfo>
+
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.TransferSurfaceGeometryProcessor</ProcessorType>
+	<Priority>10000200</Priority>
+  </DentalProcessorInfo>
+
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ImplantReferenceProcessor</ProcessorType>
+    <Priority>1000099</Priority>
+  </DentalProcessorInfo>
+
+    <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.BiteSplintTopProcessor</ProcessorType>
+	<Priority>1100</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.BiteSplintBottomProcessor</ProcessorType>
+	<Priority>150100</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformBiteSplintProcessor</ProcessorType>
+	<Priority>160100</Priority>
+  </DentalProcessorInfo>
+
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.HybridCrownInsertionDirectionProcessor</ProcessorType>
+    <Priority>8201</Priority>  
+  </DentalProcessorInfo> 
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProvisionalCrownTopProcessor</ProcessorType>
+    <Priority>9868</Priority>
+  </DentalProcessorInfo>
+
+ <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProvisionalCrownBottomProcessor</ProcessorType>
+    <Priority>9499</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MultiDieRegistrationProcessor</ProcessorType>
+    <Priority>10000102</Priority>
+  </DentalProcessorInfo>
+
+ 
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelAlignmentProcessor</ProcessorType>
+    <Priority>70</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelSegmentationProcessor</ProcessorType>
+    <Priority>50</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelToothSegmentationProcessor</ProcessorType>
+    <Priority>60</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelDieWithBoreProcessor</ProcessorType>
+    <Priority>50</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelAttachmentProcessor</ProcessorType>
+    <Priority>50</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelToggleDieTypesProcessor</ProcessorType>
+    <Priority>61</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelFinishedBeforeDesignProcessor</ProcessorType>
+    <Priority>0</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ScanDataEditProcessor</ProcessorType>
+    <Priority>150102</Priority>
+  </DentalProcessorInfo>   
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ModelImplantProcessor</ProcessorType>
+    <Priority>51</Priority>
+  </DentalProcessorInfo>  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LingualBandProcessor</ProcessorType>
+    <Priority>10164</Priority>
+     <!-- ignored in wizard if application setting ShowLingualBandProcessorInWizard is false-->
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.JawMovementRegistrationProcessor</ProcessorType>
+	<Priority>10000099</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MergePartsToWaxupProcessor</ProcessorType>
+    <Priority>10</Priority>
+  </DentalProcessorInfo>
+
+  <!-- START TOTALPROSTHESIS PROCESSORS -->
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProstheticBaseBottomProcessor</ProcessorType>
+	<Priority>1602</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProstheticBaseProcessor</ProcessorType>
+	<Priority>1601</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.StartProstheticModelAnalysisProcessor</ProcessorType>
+	<Priority>150200</Priority>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProstheticToothPlacementProcessor</ProcessorType>
+	<Priority>150200</Priority>
+  </DentalProcessorInfo>
+ 
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.CorrectProstheticToothPlacementProcessor</ProcessorType>
+	<Priority>9900</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformProstheticBaseProcessor</ProcessorType>
+    <Priority>1600</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AdaptProstheticBaseProcessor</ProcessorType>
+    <Priority>1599</Priority>
+  </DentalProcessorInfo>
+  
+  <!--<DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ProstheticReportingProcessor</ProcessorType>
+    <Priority>1499</Priority>
+  </DentalProcessorInfo>-->
+  
+  <!-- END TOTALPROSTHESIS PROCESSORS -->
+  
+  <!-- START ENDO PROCESSORS -->
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.PostMarkerProcessor</ProcessorType>
+    <Priority>16000</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.EndoCrownPreparationProcessor</ProcessorType>
+    <Priority>15300</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.PostPreparationProcessor</ProcessorType>
+    <Priority>15400</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.EndoCoreInsertionDirectionProcessor</ProcessorType>
+    <Priority>15150</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.EndoBottomInsertionDirectionProcessor</ProcessorType>
+    <Priority>8900</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.PostBottomProcessor</ProcessorType>
+    <Priority>8800</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.EndoCoreProcessor</ProcessorType>
+    <Priority>8700</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformPostAndCoreProcessor</ProcessorType>
+    <Priority>8600</Priority>
+  </DentalProcessorInfo>
+  
+  <!-- END ENDO PROCESSORS -->
+  
+   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LoadBridgeModelsProcessor</ProcessorType>
+    <Priority>10001</Priority>
+  </DentalProcessorInfo>
+  
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.VirtualWaxUpBottomProcessor</ProcessorType>
+    <Priority>9499</Priority>
+  </DentalProcessorInfo>
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.VirtualWaxUpBaseProcessor</ProcessorType>
+    <Priority>9498</Priority>
+  </DentalProcessorInfo>
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.FreeformVirtualWaxUpBaseProcessor</ProcessorType>
+    <Priority>9497</Priority>
+  </DentalProcessorInfo>  
+  
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.WaxupBottomMarginProcessor</ProcessorType>
+    <Priority>9499</Priority>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.WaxupBottomProcessor</ProcessorType>
+    <Priority>9498</Priority>
+  </DentalProcessorInfo>
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.LoadBiteSplintModelsProcessor</ProcessorType>
+    <Priority>10002</Priority>
+  </DentalProcessorInfo>
+  
+
+
+</ArrayOfDentalProcessorInfo>

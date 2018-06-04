@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BarProfileFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile xsi:type="BarProfileStandard">
+    <DisplayName>BoltDesign</DisplayName>
+    <DisplayIndex>4</DisplayIndex>
+    <DisplayIndexBolt>0</DisplayIndexBolt>
+
+    <Parameters>
+      <BarProfileParameter Name="Diameter" Visible="true" Configurable="true" Min="0.1" Max="10" Decimals="2" Value="1" />
+      <BarProfileParameter Name="Height" Visible="true" Configurable="true" Min="0.1" Max="30" Decimals="2" Value="4" />
+      <BarProfileParameter Name="HeadDiameter" Visible="true" Configurable="true" Min="0.0" Max="15" Decimals="2" Value="2" />
+      <BarProfileParameter Name="HeadHeight" Visible="true" Configurable="true" Min="0.0" Max="5" Decimals="2" Value="1" />
+    </Parameters>
+    <BarProfileStandardType>BoltDesign</BarProfileStandardType>
+  </Profile>
+</BarProfileFile>

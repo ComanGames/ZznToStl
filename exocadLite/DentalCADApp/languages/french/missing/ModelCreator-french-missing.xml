@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
+      <Text>Some parts are positioned too close to the model base.
+Please realign the scan or modify the indicated parts.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignment.JawAddedOrRemovedSinceAlignment</Keyword>
+      <Text>Jaw parts have been added or removed after the alignment was done.
+The scans have to be aligned again to continue.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentation.ClearSegmentation</Keyword>
+      <Text>Clear correction</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.SelectScanMessageBoxText</Keyword>
+      <Text>Automatic assignment of tooth {0} to a scan was not possible.
+Please select the scan that should be associated with tooth {0}:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.PinsAreOptionalNotification</Keyword>
+      <Text>The pins on the selected plate are optional. Left-click a pin to select it.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.PinsAreOptionalNotification.Title</Keyword>
+      <Text>Optional pins</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.PinsAreOptionalHint.Title</Keyword>
+      <Text>Optional Pins</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.PinsAreOptionalHint</Keyword>
+      <Text>Select or deselect pins of the baseplate with the left mouse button.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.WarningNoPinsSelected</Keyword>
+      <Text>No pins were selected at all in the model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.WarningNoPinsSelected.Title</Keyword>
+      <Text>Warning:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeGingiva</Keyword>
+      <Text>Model plate gingiva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplant.CSGError</Keyword>
+      <Text>Error: One of the lab analogs could not be applied to the model. Please smooth the shape of the scan data near the implants or change the shape of the emergence profile curves.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.WarningNoPinsSelected.Proceed.Title</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.WarningNoPinsSelected.Proceed.Description</Keyword>
+      <Text>The model will be calculated without pin holes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentation.WarningNoPinsSelected.Cancel.Description</Keyword>
+      <Text>Return to model segmentation for selecting pins.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

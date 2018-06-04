@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed</Keyword>
+      <Text>Copie du fichier somme de contrôle ont échoué. Souhaitez-vous continuer le transfert de données?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue</Keyword>
+      <Text>Continuer le transfert de fichier</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Continue.Description</Keyword>
+      <Text>Transfert de fichier sera arrêté. Aucun fichier sera copié.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckSumFileTransferFailed.Abort</Keyword>
+      <Text>Annuler le transfert de donées </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingSucceded</Keyword>
+      <Text>Copie faite sans erreur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NetworkCopying.CopyingFailed</Keyword>
+      <Text>
+        Copie faite avec des erreurs.
+        Détail des erreurs:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Warning</Keyword>
+      <Text>Attention</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles>
+    <IncludeFile>missing\NetworkCopying-french-missing.xml</IncludeFile>
+  </IncludeFiles>
+</TranslationContainer>

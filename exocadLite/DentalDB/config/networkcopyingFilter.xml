@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NetworkCopyingSettings>
+    <FilterGroup Preselected="true">
+      <Keyword>CADDesignData.FilterName</Keyword>
+      <FilterDefinition IncludeSubdirectories="true">*.dentalProject</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.constructionInfo</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*_cad.%{meshes_cad}</FilterDefinition>
+    </FilterGroup>
+    <FilterGroup>
+      <Keyword>ScanAndCADDesignData.FilterName</Keyword>
+      <FilterDefinition IncludeSubdirectories="true">*.dentalProject</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.constructionInfo</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.%{meshes}</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.%{pointclouds}</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.scanInfo</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.implantPosition</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.implantReference</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.png</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.jpg</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">*.matrix4</FilterDefinition>
+      <FilterDefinition IncludeSubdirectories="true">itero_export*.xml</FilterDefinition>     
+    </FilterGroup>
+</NetworkCopyingSettings>
+

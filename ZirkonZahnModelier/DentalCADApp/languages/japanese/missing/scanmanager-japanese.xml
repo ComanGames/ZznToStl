@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>FileName.OverviewScan.LowerWithPlate</Keyword>
+      <Text>Overview scan - lower jaw on plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertFullModel.LowerWithPlate</Keyword>
+      <Text>Please insert lower jaw model with plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertPreparations.Upper</Keyword>
+      <Text>Please insert uppper preparations</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertPreparations.Lower</Keyword>
+      <Text>Please insert lower preparations</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewPreparationsScan</Keyword>
+      <Text>Overview preparations scan: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerNotInitialized</Keyword>
+      <Text>Scanner could not be initialized.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.ScanFinished</Keyword>
+      <Text>Scan process completed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.NextStepCAD</Keyword>
+      <Text>Design restorations now</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.NextStepCADInfo</Keyword>
+      <Text>Proceed to registration and CAD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.NextStepClose</Keyword>
+      <Text>I'm done</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.NextStepCloseInfo</Keyword>
+      <Text>Close the scan software</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ActionButton.Camera.Text</Keyword>
+      <Text>Show camera</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ActionButton.AutoBrightness.Text</Keyword>
+      <Text>Auto</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ActionButton.AutoBrightness.ToolTip</Keyword>
+      <Text>Automatic brightness adjustment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerCrashOnInitialization</Keyword>
+      <Text>Error: The scanner plugin crashed during its initialization.
+This might happen due to invalid or incompatible hardware, or driver setup.     
+Please check your installation.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartScanFailed</Keyword>
+      <Text>An error occurred starting scan execution.
+Scanner: {0}
+Error details: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanDataRetrievalError</Keyword>
+      <Text>An error occurred retrieving scan data.
+Error details: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardControl.SelectNextStep</Keyword>
+      <Text>Select next step:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+      <Text>Two stone models, in occlusion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+      <Text>Two stone models, in articulator A</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+      <Text>Two stone models, in articulator A (old)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+      <Text>Two stone models, in articulator B</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+      <Text>Two stone models, in articulator S</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+      <Text>Two stone models, in articulator P</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.KeepEnoughDataForLaterRegistration</Keyword>
+      <Text>During cut / crop please keep some parts of the surface that is also visible in the jaw scan data, to allow exact positioning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.KeepEnoughDataForLaterRegistration.Title</Keyword>
+      <Text>Warning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ContextMenu.UseTextureMode</Keyword>
+      <Text>Color scan mode ( texture scan )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TextureMode.None</Keyword>
+      <Text>None</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TextureMode.Vertex</Keyword>
+      <Text>Vertex coloring</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TextureMode.Image</Keyword>
+      <Text>Texture image</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti</Keyword>
+      <Text>Use transfer plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ToolTip</Keyword>
+      <Text>When enabled: use transfer plate provided by scanner manufacture to scan lower jaw including articulator plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists</Keyword>
+      <Text>Existing articulator transfer scans detected, do you want continue by discarding that scan?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Ok</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Ok.Description</Keyword>
+      <Text>Discard articulator transfer scan data and switch the mode.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Cancel</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Cancel.Description</Keyword>
+      <Text>Transfer mode will NOT be changed. Scan data will be kept.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataRemovalFileRemovalFailed</Keyword>
+      <Text>Some scan data could not be discarded.
+      Please remove the file manually and then try again.
+      File list:
+      {0}
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail</Keyword>
+      <Text>WARNING!
+    Articulator plate registration scan data is detected. The scanner you are using however supports only scanning model on transfer plate.
+ Those the scan should be removed to ensure proper funcion of the DentalCAD.
+    Do you want to delete those scan data?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ok</Keyword>
+      <Text>Yes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ok.Description</Keyword>
+      <Text>Scan data corresponding to this mode will be discarded</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ignore</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ignore.Description</Keyword>
+      <Text>Keep scan data and continue scanning. This may lead to maloperation of the DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Cancel.Description</Keyword>
+      <Text>The project loading will be aborted. No scan data will be lost.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InserUpperModel</Keyword>
+      <Text>Insert upper model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InserLowerModel</Keyword>
+      <Text>Insert lower model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertSitu.MultiDie</Keyword>
+      <Text>Insert situ model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BitePlate.Upper.AD</Keyword>
+      <Text>BitePlate.Upper.AD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.BitePlate.Upper.AD</Keyword>
+      <Text>FileName.BitePlate.Upper.AD</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertGingiva.MultiDie</Keyword>
+      <Text>InsertGingiva.MultiDie</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertModelForImplantReferenceObject</Keyword>
+      <Text>InsertModelForImplantReferenceObject</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientScan.Upper</Keyword>
+      <Text>PatientScan.Upper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientScan.Lower</Keyword>
+      <Text>PatientScan.Lower</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Patient.ScanAbutmentSingle</Keyword>
+      <Text>Patient.ScanAbutmentSingle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientGingiva.Upper</Keyword>
+      <Text>PatientGingiva.Upper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientGingiva.Lower</Keyword>
+      <Text>PatientGingiva.Lower</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientAntagonist.Upper</Keyword>
+      <Text>PatientAntagonist.Upper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientAntagonist.Lower</Keyword>
+      <Text>PatientAntagonist.Lower</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientSitu.Upper</Keyword>
+      <Text>PatientSitu.Upper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PatientSitu.Lower</Keyword>
+      <Text>PatientSitu.Lower</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

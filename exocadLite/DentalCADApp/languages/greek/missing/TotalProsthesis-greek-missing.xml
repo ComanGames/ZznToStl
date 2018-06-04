@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>AestheticPlates</Keyword>
+      <Text>Bite Rims</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdaptProstheticBase.CompensateForMillingHead</Keyword>
+      <Text>Compensate for milling head</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BasicStatic</Keyword>
+      <Text>Basic static</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FinalSetupLines</Keyword>
+      <Text>Final setup lines</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StopLines</Keyword>
+      <Text>Stop lines</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Tubers</Keyword>
+      <Text>Maxillary tuberosities</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RapheMedianPlanes</Keyword>
+      <Text>Raphe median planes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabTuber</Keyword>
+      <Text>Maxillary tuberosity</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabTuber.Description</Keyword>
+      <Text>Mark each maxillary tuberosity by drawing a line around it.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabRapheMedianPlaneUpperJaw</Keyword>
+      <Text>Raphe-Median-Plane (upper jaw)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabRapheMedianPlaneUpperJaw.Description</Keyword>
+      <Text>Define upper jaw raphe median plane. Drag the plane to move it. Hold CTRL to rotate.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabRapheMedianPlaneLowerJaw</Keyword>
+      <Text>Raphe-Median-Plane (lower jaw)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabRapheMedianPlaneLowerJaw.Description</Keyword>
+      <Text>Define lower jaw raphe median plane. Drag the plane to move it. Hold CTRL to rotate.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabStopLine.Description</Keyword>
+      <Text>Define border line for distal sides of last molars (stop line).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabStopLine.DetectionError</Keyword>
+      <Text>Could not find stop lines which meet 'angle &lt; 22.5°' criteria, please set manually.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabCorrectionAreasUpperJaw</Keyword>
+      <Text>Correction areas (upper jaw)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabCorrectionAreasUpperJaw.Description</Keyword>
+      <Text>Verify inner and outer correction areas and basic static line on upper jaw.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabCorrectionAreasLowerJaw</Keyword>
+      <Text>Correction areas (lower jaw)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabCorrectionAreasLowerJaw.Description</Keyword>
+      <Text>Verify inner and outer correction areas and basic static line on lower jaw.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabFinalSetupLines</Keyword>
+      <Text>Final setup lines</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticModelAnalysis.tabFinalSetupLines.Description</Keyword>
+      <Text>Define final setup lines for lower and upper jaw and verify common correction areas.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothPlacementProcessor.NotEnoughSpaceFor2ndMolarPlacementWarning.OptionAlways.Description</Keyword>
+      <Text>This will ignore the stop line to keep left and right side symmetric</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawModelingProsthesisProcessor.ReactBetweenChains.Title</Keyword>
+      <Text>Solve antagonist intersections</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawModelingProsthesisProcessor.ReactBetweenChains.Text</Keyword>
+      <Text>
+     The intersection between antagonist chain's teeth could not be solved.
+     Please try to perform this manually.
+			</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReactBetweenChains.Text</Keyword>
+      <Text>Solve</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReactBetweenChains.ToolTip</Keyword>
+      <Text>Solve antagonist intersections</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TeethCord.CheckIfToothPartOutsideTheCord.Text</Keyword>
+      <Text>Inter tooth chain bounding limit reached. No transformation possible.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.WarningIdentifierAlreadyInUseDialog.Title</Keyword>
+      <Text>Warning: unique identifier already in use</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.WarningIdentifierAlreadyInUseDialog.Text</Keyword>
+      <Text>The unique identifier used in this tooth set ({0}) is already used elsewhere. Are you sure that you want to use this identifier?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothSet.WarningIdentifierAlreadyInUse</Keyword>
+      <Text>Two or more tooth sets use the same identifier ({0}).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.WarningBlankHolderAlignmentNotDefinedDialog.Text</Keyword>
+      <Text>The following teeth have no blank holder position:
+{0}
+
+Please use the "nesting" tab and register the missing teeth. Note that teeth without such a position will not be available for nesting.
+
+Continue saving anyway?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.WarningBlankHolderIdentifierOrSlotIdNotDefinedDialog.Title</Keyword>
+      <Text>Warning: Blank holder identifier or slot ID not defined for some teeth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.WarningBlankHolderIdentifierOrSlotIdNotDefinedDialog.Text</Keyword>
+      <Text>The following teeth are not assigned to a blank or slot:
+{0}
+
+Please use the "Nesting" tab and assign blank and slot information. Note that teeth without an assigned blank or slot will not be available for nesting.
+
+Continue saving anyway?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.AdvancedPinSettings</Keyword>
+      <Text>Advanced pin settings</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.IncludeNonToothRelatedLabels</Keyword>
+      <Text>Include non tooth related labels</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.Mode</Keyword>
+      <Text>Mode (hold Shift for toggle)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.OnlyBoundary</Keyword>
+      <Text>Only boundary</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ScalingX</Keyword>
+      <Text>Scale factor X-Axis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ScalingY</Keyword>
+      <Text>Scale factor Y-Axis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ScalingZ</Keyword>
+      <Text>Scale factor Z-Axis</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ToothModelScalingWarning</Keyword>
+      <Text>Warning: apply scaling before anything else (e.g. axis editing).
+Scaling will be applied to all selected teeth.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ApplyScale</Keyword>
+      <Text>Apply scale to selected</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertWarningSummary</Keyword>
+      <Text>While converting tooth model {0}, the following issues were fixed automatically:
+
+- {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertWarning.RemovedSolitaryVertices</Keyword>
+      <Text>Removed {0} solitary vertices</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertWarning.RemovedAdditionalComponents</Keyword>
+      <Text>Removed {0} additional components</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertWarning.RepairedMeshTopology</Keyword>
+      <Text>Repaired mesh topology: Euler characteristic was {0} (should be {1}); the mesh had {2} boundaries (should be {3})</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.FailedToConvertToothModelErrorMessage</Keyword>
+      <Text>Failed to convert files for the following teeth:
+{0}
+
+Please make sure that the files for these teeth in the {1} folder meet the requirements.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertError.FailedToRepair</Keyword>
+      <Text>Failed to repair mesh topology. This mesh is not suitable as tooth model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.ConvertError.FailedToSave</Keyword>
+      <Text>Failed to save tooth model as EOFF.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.UniqueIdentifier</Keyword>
+      <Text>Unique Identifier</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.FinalSetupPlanes</Keyword>
+      <Text>Final Setup Planes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothModelEditor.Slot</Keyword>
+      <Text>Slot</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothFailedToNest.NotAdapted</Keyword>
+      <Text>Tooth {0} is not adapted</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothFailedToNest.NoBlankHolderIdentifier</Keyword>
+      <Text>Tooth {0} has no blank holder assigned</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticToothFailedToNest.NoBlankHolderSlotId</Keyword>
+      <Text>Tooth {0} has no blank holder slot assigned</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FeatureLabel.RIDGE</Keyword>
+      <Text>Ridge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>JawModelingProcessor.KeepChainTeethInContact.Text</Keyword>
+      <Text>
+        Warning: Some of the teeth could not be brought in contact automatically,
+        please update the tooth placement manually.
+			</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticBaseToothPocketOffset</Keyword>
+      <Text>Tooth pocket gap</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticNoseWidth</Keyword>
+      <Text>Nose Width</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProstheticReportingProcessor.UniqueIdentifier</Keyword>
+      <Text>Unique identifier:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Title</Keyword>
+      <Text>Abort model analysis?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Description</Keyword>
+      <Text>Aborting the model analysis wizard will discard all changes made so far.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Ok</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Ok.Description</Keyword>
+      <Text>All changes will be discarded.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TotalProsthesisAbortingModelAnalysis.Cancel.Description</Keyword>
+      <Text>Stay in model analysis wizard.</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

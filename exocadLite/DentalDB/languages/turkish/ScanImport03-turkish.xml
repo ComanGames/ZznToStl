@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport03.LabMissing</Keyword>
+      <Text>Varsayılan laboratuar elde edilemedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportFailed</Keyword>
+      <Text>TRIOS  projesinden bir proje oluştururken bir hata oluştu. Hata Mesajı: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportedWithWarnings</Keyword>
+      <Text>TRIOS projesinden dental proje taslağı oluşturuldu. TRIOS proje dosyası: {0} Bazı veriler işlenemeyebilir ve bu nedenle projede eksik oluşabilir: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AddPracticeFirst</Keyword>
+      <Text>TRIOS proje dosyasında belirtilen bir müşteri veritabanında bulunamadı.
+         Belirtilen ada sahip bir müşteri oluşturmak için aşağıdaki formu doldurunuz.
+         Yeni bir müşteri oluşturmadan ,TRIOS projesinden oluşturulan varolan bir müşteriyi projeye atamak için , pencereyi kapatın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>'{0}' kimliği ile hiçbir rekonstrüksiyon tipi yoktur. Ayrıntılar için lütfen distribütörünüz ile temas kurun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMappingMissing</Keyword>
+      <Text>'{0}' kimliği ile hiçbir rekonstrüksiyon tipi yoktur. Ayrıntılar için lütfen distribütörünüz ile temas kurun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Varsayılan rekontrüksiyon tipi için verilen {0} değeri veri tabanının içinde bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AntagonistDataInvalid</Keyword>
+      <Text>İş türü {0} ve malzeme {1} den antagonisti oluşturulamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissing</Keyword>
+      <Text>ID {0} ile malzeme eşlenmedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WorkDefinitionMissing</Keyword>
+      <Text>Çalışma tipi '{0}', '{1}' malzeme kullanımına izin vermiyor .
+         İş türü için ilk mevcut malzeme kullanılmaktadır.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.InternalCaseId</Keyword>
+      <Text>Proje ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ExternalCaseId</Keyword>
+      <Text>Sipariş</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.Notes</Keyword>
+      <Text>Notlar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromTrios.ToolTip</Keyword>
+      <Text>TRIOS proje dosyasından yeni b,r proje oluştur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromTrios</Keyword>
+      <Text>TRIOS içe aktarım</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.InsufficientAccessRights.Project</Keyword>
+      <Text>Proje dizini {0} e TRIOS proje dosyalarını kopyalamak için yetersiz kullanıcı isimleri.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Project</Keyword>
+      <Text>TRIOS proje dosyasını {0} dan {1} e kopyalarken bir sorun oluştu. Hata {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Data</Keyword>
+      <Text>{0} dan {1} e TRIOS veri dosyası kopyalama hatası sırasında bir hatameydana geldi. Hata {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileTransferIncomplete</Keyword>
+      <Text>TRIOS projesinden referans dosyalar kopyalanırken şu hatalar oluştu: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotSpecified</Keyword>
+      <Text>TRIOS proje dosyası belirtilmedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotFound</Keyword>
+      <Text>İçe aktarım için TRIOS proje dosyası bulunamadı Dosya adı: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TRIOSProjectFileCorrupt</Keyword>
+      <Text>TRIOS proje dosyası ayrıştırılırken bir hata oluştu. Dosya adı: {0} hata iletisi: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotSpecified</Keyword>
+      <Text> TRIOS restorasyonlarından DentalDB türlerine dosya eşleme belirtilmedi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotFound</Keyword>
+      <Text>TRIOS restorasyonlarından DentalDB türlerine dosya eşleme bulunamadı. Dosya adı: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TriosMappingDBFileCorrupt</Keyword>
+      <Text>DentalDB türlerine TRIOS restorasyonlarından dosya eşleme ayrıştırılırken bir hata oluştu. Dosya adı: {0}
+
+        Hata Mesajı:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothSkipped</Keyword>
+      <Text>Diş {0} atlandı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothDataNotFound</Keyword>
+      <Text>Diş datası bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothNumberNotFound</Keyword>
+      <Text>Diş datası {0} ın içinde bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothRecoTypeNotFound</Keyword>
+      <Text>{0} diş için diş kayıt tipi bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialDescrNotFound</Keyword>
+      <Text>{0} dişi için diş materyal açıklaması bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialNotFound</Keyword>
+      <Text>{0} dişi için diş materyali bulunamadı</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothInfoCreationFailed</Keyword>
+      <Text>{0} dişi için diş bilgisi işleminde bir hata oluştu. Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NoTriosScanData</Keyword>
+      <Text>Herhangi bir TRIOS tarama verisi bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OriginalDataBackupFailed</Keyword>
+      <Text>TRIOS projesini yedekleme sırasında bir hata oluştu.
+TRIOS proje dizini: {0}
+Hedef dizini: {1}
+Hata: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNoWritePermissions</Keyword>
+      <Text>TRIOS proje yedek dizini salt okunur durumdadır. Lütfen  '{0}' dizininin yazılabilir olduğundan emin olun ve yeniden deneyin.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirCreationError</Keyword>
+      <Text>TRIOS projesi yedekleme dizini '{0}' oluşturulurken bir hata oluştu .
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PatientCreationFailed</Keyword>
+      <Text>Hasta verileri kaydedilirken bir hata oluştu:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobCreationFailed</Keyword>
+      <Text>İş dataları saklanırken bir hata oluştu: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.LowerJawScanMissing</Keyword>
+      <Text>Alt çene tarama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UpperJawScanMissing</Keyword>
+      <Text>Üst çene tarama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.VestibularScanMissing</Keyword>
+      <Text>vestibüler tarama</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>TRIOS projesi tarama veri formatı tespit edilememiştir:
+Proje dizini: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ColorSchema</Keyword>
+      <Text>Renk</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedMaterials</Keyword>
+      <Text>Materyaller</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedReconstructions</Keyword>
+      <Text>Rekonstrüksiyonlardır</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectLoadError</Keyword>
+      <Text>Yoldan projeyi yüklenirken bir hata oluştu '{0}'.
+Hata detayları:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectValidationError</Keyword>
+      <Text>TRIOS projesi tamamlanmadı. Hata detayları: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissingUsingDefault</Keyword>
+      <Text>Diş {0}: Malzeme {1} eşleşmiyor. yerine kullanılacak {2}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingDefault</Keyword>
+      <Text>Diş {0}:  hiçbir malzeme tanımlanmamış. Varsayılan malzeme kullanılarak - {1} yerine.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingAndNoDefaultUsingFirst</Keyword>
+      <Text>Diş {0}: Hiçbir materyal TRIOS projesinde belirtilmemiş ve varsayılan geri dönüş malzeme yapılandırılmamış. Malzeme '{1}', restorasyon türü '{2}' için ilk olarak kullanılabilir.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingFirst</Keyword>
+      <Text>Diş {0}: Malzeme {1} e {2}'nin yeniden yapılanması için izin verilmez . Onun yerine {3} kullan.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WortTypeHasNoMaterialsAssigned</Keyword>
+      <Text>Diş {0}: İş adına atanmış bir malzeme yoktur. Diş atlanacak.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileCorrupt</Keyword>
+      <Text>TRIOS yapılandırma dosyası {0} yüklenirken bir hata oluştu:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixTemplateNotFound</Keyword>
+      <Text>Belirtilen tarama veri dönüşüm matrisi bulunamadı.
+Yola göz atın: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixCopyFailed</Keyword>
+      <Text>Dizine proje tarama veri dönüştürme matrisi kopyalanırken bir hata oluştu:
+Kaynak dosyası: {0}
+Hedef dosyası: {1}
+Hata: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MarginDatabaseParseError</Keyword>
+      <Text>Kole çizgisi dosyasını ayrıştırma sırasında bir hata oluştu '{0}'.
+Hata detayları:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportSetupFailed</Keyword>
+      <Text>Otomatik TRIOS proje içe aktarımı yapılandırılırken bir hata oluştu:
+Gözlenen dizini: {0}
+Gözlem modu: {1}
+Hata ayrıntıları: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportWatchDirectoriesPointsToSameDirectory</Keyword>
+      <Text>Otomatik TRIOS içe aktarımı yapılandırılırken bir hata oluştu:
+ScanImport03WatchDir ve ScanImport03WatchDir2 aynı dizine gelir, ancak farklı ithalat modlarını kullanmak üzere yapılandırılır.
+ScanImport03WatchDir ve ScanImport03WatchDir2 nokta dizinlerinin farklı dizinleri gösterdiğinden emin olun.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ErrorProcessingDirectFormat</Keyword>
+      <Text>Doğrudan dosya biçimi {0} işlenirken bir hata oluştu.
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.GenericImportError</Keyword>
+      <Text>TRIOS projesi {0}  işlemi sırasında bir hata oluştu.
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DirectoryCreationFailed</Keyword>
+      <Text>Dizin oluşturulurken bir hata oluştu: {0}
+Hata: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet</Keyword>
+      <Text>İçe aktarılan TRIOS projeleri için yedekleme dizini yapılandırılmamış. Yedekleme dizini yapılandırarak yeniden deneyin.
+Otomatik TRIOS proje içe aktarımı devre dışı bırakıldı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet.Ok</Keyword>
+      <Text>Tamam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ModelOrderWarning</Keyword>
+      <Text>İçe aktarım case'i model sırası içerir. Bir model tasarlamak için 'Model Oluşturucu' düğmesini kullanın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Warning</Keyword>
+      <Text>UYARI:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissing</Keyword>
+      <Text>Yapılandırma türü için sağlanan değer {0} veritabanında bulunamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissing</Keyword>
+      <Text>iş türü {0} ve malzeme {1}'den bir restorasyon oluşturulamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JawModelScanNotDetected</Keyword>
+      <Text>Hiçbir çene taraması bulunamadı. Model projesi oluşturulamadı.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UnknownScanFileTypeDetected</Keyword>
+      <Text>Kendi türü çözülemediği gibi bir veya daha fazla tarama dosyası işleme alınamadı.
+Tarama verileri eksik olabileceği gibi bu DentalCAD arızalanmasına neden olabilir.
+Dosya türleri: {0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

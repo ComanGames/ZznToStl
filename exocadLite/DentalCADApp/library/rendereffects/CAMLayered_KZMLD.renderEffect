@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RenderEffectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" RenderEffectName="CAM_Block">
+  <DoubleParameter Name="discrete_layers" Value="0.71" />
+  <DoubleParameter Name="ambient" Value="0.4" />
+  <DoubleParameter Name="background" Value="0.4" />
+  <DoubleParameter Name="light_source" Value="0.6" />
+  <DoubleParameter Name="label_epsilon" Value="0" />
+  <IntParameter Name="labeled_faces" Value="0" />
+  <Vec3Parameter Name="sigma" x="3" y="3" z="3" />
+  <IntParameter Name="mode" Value="4" />
+  <ColorListParameter Name="layer_colors">
+    <Color>#FFc9ac68</Color>
+    <Color>#ffddc98d</Color>
+    <Color>#fff5e6b3</Color>
+    <Color>#FFfefffe</Color>	
+  </ColorListParameter>
+  <DoubleListParameter Name="layer_boundaries">
+     <Double>0.35</Double>
+     <Double>0.5</Double>
+     <Double>0.65</Double>
+  </DoubleListParameter>
+  <DoubleParameter Name="maximum_layer_blur" Value="0.4"/>
+</RenderEffectSettings>

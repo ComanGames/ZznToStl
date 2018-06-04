@@ -1,0 +1,2315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer>
+  <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>Nesting.Material Block Transponder Active</Keyword>
+      <Text>활성 중</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Archive</Keyword>
+      <Text>블록 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailIsMarkedLegacy</Keyword>
+      <Text>레거시-작업 잔상</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowSupportToPreparationArea</Keyword>
+      <Text>마진 아래로 허용된 Support</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutBlockHealing</Keyword>
+      <Text>블록 원본 다시 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutBlockHealingQuestion</Keyword>
+      <Text>블록 원본을 다시 불러오시겠습니까? 이 블록의 밀링된 잔상들은 모두 삭제될 것입니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.OnlyOneConstructionAllowedForThisMaterialType</Keyword>
+      <Text>오직 하나의 수복물만이 이러한 종류의 블록에 네스팅 할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.OnlySingleTeethAllowedForThisMaterialType</Keyword>
+      <Text>오직 싱글 치아들만 이러한 종류의 블록에 네스팅 할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromView</Keyword>
+      <Text>화면대로 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
+      <Text>블록 자료실 갱신하기를 취소하시겠습니까?  그러면 새로운 블록을 생성할 수 없게 됩니다.  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
+      <Text>블록 자료실을 갱신하여야 합니다. 자료실을 갱신할 경우, 시간이 오래걸릴 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachine</Keyword>
+      <Text>밀링기 환경설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCMachineSelector</Keyword>
+      <Text>밀링기(M5/M3) 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
+      <Text>CNC-전략파일 선택!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowCNC</Keyword>
+      <Text>밀링경로(CNC) 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNC</Keyword>
+      <Text>밀링경로(CNC) 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
+      <Text>옵셋</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlHide</Keyword>
+      <Text>취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClose</Keyword>
+      <Text>닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlCancel</Keyword>
+      <Text>닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlExecute</Keyword>
+      <Text>밀링경로(CNC) 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControl</Keyword>
+      <Text>CNC 생성기 - 밀링경로 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategySelector</Keyword>
+      <Text>"{0}" 의 표면 성상을 위한 밀링전략 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFile</Keyword>
+      <Text>경로와 파일명</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingData</Keyword>
+      <Text>파일 가져오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectVisualize</Keyword>
+      <Text>네스팅 구성물 시각화</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectInfo</Keyword>
+      <Text>네스팅 구성물들</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
+      <Text>현재 사용 중인 큐 파일들: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
+      <Text>블록 재료 (원본)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
+      <Text>다음의 파일들은 더 이상 유효하지 않습니다. 이제 이들은 삭제될 것입니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
+      <Text>네스팅 목록 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
+      <Text>제품번호(LotNr.)를 지정해주세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
+      <Text>사용 가능한 CNC 파일입니다. 그것을 시각화 하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
+      <Text>(사용가능한 CNC파일)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
+      <Text>(큐에서 삭제됨)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsProduced</Keyword>
+      <Text>(이미 밀링이 완료됨)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
+      <Text>(CNC 파일로 존재함)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsNested</Keyword>
+      <Text>이미 네스팅되었음</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
+      <Text>(블록에 부적합)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsPossible</Keyword>
+      <Text>이 블록에 사용가능</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
+      <Text>현재 네스팅 중</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNestingQueue</Keyword>
+      <Text>큐 숨기기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UnloadFromQueue</Keyword>
+      <Text>네스팅에서 내리기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadFromQueue</Keyword>
+      <Text>네스팅으로 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueue</Keyword>
+      <Text>큐에서 삭제하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshNestingQueue</Keyword>
+      <Text>큐 갱신하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
+      <Text>자료실 갱신하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlock</Keyword>
+      <Text>블록 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
+      <Text>인큐 날짜</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
+      <Text>네스팅 큐 입력 경로</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
+      <Text>이름</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
+      <Text>수복물</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reconstruction</Keyword>
+      <Text>수복물</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
+      <Text>네스팅 큐를 초기화 할 수 없습니다. 프로그램 설정('application settings')에서 네스팅 큐 목록을 확인해 주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibrary</Keyword>
+      <Text>Block 자료실</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueDir</Keyword>
+      <Text>네스팅 큐 목록: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueEmpty</Keyword>
+      <Text>네스팅 큐가 비워져 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
+      <Text>블록 자료실 목록: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Enqueue</Keyword>
+      <Text>네스팅에 인큐하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
+      <Text>이 Project는 네스팅 큐에 이미 존재합니다. 덮어쓰시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
+      <Text>이 블록을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
+      <Text>네스팅에서 이 수복물을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
+      <Text>이 블록은 이미 존재합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
+      <Text>이 블록을 자료실에서 정말 지울까요? (여분이 있는지를 확인하세요)  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
+      <Text>다음의 블록 파일들은 이제 삭제될 것입니다:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixedReconstruction</Keyword>
+      <Text>고정된 수복물 (불변)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
+      <Text>정말로 큐에서 이것을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.UnknownMaterial</Keyword>
+      <Text>_미확인 재료_</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialDescriptor.Unknown</Keyword>
+      <Text>???미확인 상품 코드???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Zirkon</Keyword>
+      <Text>ZrO2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Unknown</Keyword>
+      <Text>미확인 재료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.All</Keyword>
+      <Text>모든 재료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
+      <Text>현상태로 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
+      <Text>현재의 CNC 파일을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
+      <Text>밀링경로(CNC) 파일 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction</Keyword>
+      <Text>밀링 시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeCAM</Keyword>
+      <Text>CNC 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Destroy</Keyword>
+      <Text>블록 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Register</Keyword>
+      <Text>등록하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
+      <Text>네스팅 정보 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
+      <Text>밀링완료된 블록 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
+      <Text>(밀링 중)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
+      <Text>(레거시 - 작업 잔상)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
+      <Text>블록을 성공적으로 등록했습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
+      <Text>블록 구분을 위해 반드시 블록-ID를 표시하세요:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
+      <Text>고유의 블록 - ID를  입력해주세요!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
+      <Text>주어진 범위 내의 값으로 고유의 블록 - ID를  지정해주세요! :</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
+      <Text>고유의 블록 - ID를  지정해주세요!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
+      <Text>등록 후 바로 사용</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAccept</Keyword>
+      <Text>등록하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseButton</Keyword>
+      <Text>닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton</Keyword>
+      <Text>삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton</Keyword>
+      <Text>저장</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignScaleFactor</Keyword>
+      <Text>수축율을 설정해주세요!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
+      <Text>잘못된 확대/수축률</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
+      <Text>제품번호 입력:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
+      <Text>블록 ID 입력: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Load</Keyword>
+      <Text>불러오기...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.View3D</Keyword>
+      <Text>3D 네스팅 화면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCreator</Keyword>
+      <Text>새로운 블록 등록</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockReject</Keyword>
+      <Text>취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockAccept</Keyword>
+      <Text>확인</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
+      <Text>종류</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
+      <Text>날짜 / 시간</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
+      <Text>수축</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
+      <Text>확대비율</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
+      <Text>높이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
+      <Text>직경 Ø</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
+      <Text>블록 종류</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
+      <Text>재료-블록-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
+      <Text>제품번호</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
+      <Text>상품 코드</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
+      <Text>사용가능한 블록들</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
+      <Text>블록 검색필터:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialType</Keyword>
+      <Text>재료 종류:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterNewBlock</Keyword>
+      <Text>새로운 블록 등록하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateNewBlock</Keyword>
+      <Text>새로운 블록 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
+      <Text>수복물 리스트</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
+      <Text>수복물 나열</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
+      <Text>블록 자료실 총람</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
+      <Text>수복물의 최대 높이:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
+      <Text>블록을 생성할 수 없습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
+      <Text>아래의 재료 견본이 막 생성되었습니다 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
+      <Text>현재의 네스팅을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
+      <Text>정말로 네스팅을 닫으시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueView</Keyword>
+      <Text>네스팅 큐</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorLoadingFile</Keyword>
+      <Text>파일을 불러올 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
+      <Text>정말로 블록을 교체하시겠습니까? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
+      <Text>이 블록은 현재 사용 중입니다.  정말로 삭제하시겠습니까? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
+      <Text>블록 ID 혹은 상품코드가 빠져있습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
+      <Text>정말로 블록을 선택하지 않고 자료실을 닫으시겠습니까? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSelector</Keyword>
+      <Text>재료 선택기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
+      <Text>재료관련 자료실 총람</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
+      <Text>상품코드가 빠져있습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue</Keyword>
+      <Text>큐 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowSpacer</Keyword>
+      <Text>거리 측정기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
+      <Text>지금 CAM-Software를 작동하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
+      <Text>네스팅 큐에서 이 project 파일들을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
+      <Text>'정렬 확인' 버튼을 클릭해야만, 블록 내의 수복물 주변을 삭제할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
+      <Text>이 파일에는 네스팅할 병합물이 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
+      <Text>현재의 화면에서는 병합물이 없어 수복물을 인큐할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
+      <Text>현재의 Project 에는 네스팅 할 것이 없습니다. 다른 project를 네스팅 하시겠습니까?  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
+      <Text>이 Project를 지금 네스팅 하려면 [예]를,  나중에 네스팅 하려면 [아니오]를, 작업을 계속하려면 [취소]를 선택하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueFailed</Keyword>
+      <Text>인큐에 실패했습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
+      <Text>성공적으로 파일에 인큐되었음:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingNesting</Keyword>
+      <Text>현재의 네스팅을  저장하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
+      <Text>현재의 블록을 다음에 재사용하기 위해 저장하시겠습니까? 그렇지 않으면, 이 블록을 다시 사용할 수 없게 됩니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView.Button</Keyword>
+      <Text>기본설정 화면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView</Keyword>
+      <Text>기본설정 화면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DumpData</Keyword>
+      <Text>DumpData</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Duplicate</Keyword>
+      <Text>복제하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyObject</Keyword>
+      <Text>네스팅에서 삭제하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FinishNesting</Keyword>
+      <Text>네스팅 저장하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
+      <Text>수복물이 재료의 허용 범위를 벗어났습니다!  '자유롭게 이동'에 체크한 후 허용 범위 안에서 다시 정렬하세요!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
+      <Text>수복물이 재료의 허용 범위를 벗어나 정렬되었습니다! 계속하시겠습니까? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNesting</Keyword>
+      <Text>닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting</Keyword>
+      <Text>네스팅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNesting</Keyword>
+      <Text>저장</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RestrictToZ</Keyword>
+      <Text>자유롭게 이동</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupports</Keyword>
+      <Text>Support 제거</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ModifySupports</Keyword>
+      <Text>Support 수정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
+      <Text>수복물 위에서 클릭하거나 드래그하면 Support를 생성할 수 있습니다.
+ 단축키 옵션:
+ - Shift: Support 위치 또는 직경 수정
+ - Ctrl :  Support 삭제
+ - Shift+Ctrl : 밀링 후 support 자동 제거(Turn on/off)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports</Keyword>
+      <Text>서포트 정렬</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
+      <Text>마우스로 수복물 정렬하기
+ 단축키 옵션:
+ - Ctrl: 회전하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PositionReconstructions</Keyword>
+      <Text>수복물 정렬</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameter</Keyword>
+      <Text>Support 직경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UpdateSupports</Keyword>
+      <Text>Supports 갱신하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock</Keyword>
+      <Text>파괴하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlockNormal</Keyword>
+      <Text>정렬 확인
+(주변삭제)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveOrClear</Keyword>
+      <Text>네스팅 저장 및 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingScene</Keyword>
+      <Text>불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNestingScene</Keyword>
+      <Text>저장</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadBlock</Keyword>
+      <Text>블록 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveBlock</Keyword>
+      <Text>파일에 저장하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlock</Keyword>
+      <Text>새로운 재료 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor</Keyword>
+      <Text>상품 코드:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialColor</Keyword>
+      <Text>블록 종류:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialType</Keyword>
+      <Text>종류:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
+      <Text>???정의되지 않은 상품 코드???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
+      <Text>???정의되지 않은 블록 ID???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCode</Keyword>
+      <Text>코드</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
+      <Text>제품 번호</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID</Keyword>
+      <Text>블록-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
+      <Text>블록-ID를 입력해주세요!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShrinkPercentage</Keyword>
+      <Text>수축률(%):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ScalingFactor</Keyword>
+      <Text>확대비율:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
+      <Text>높이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
+      <Text>직경: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
+      <Text>Bur 진입각도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpace</Keyword>
+      <Text>주변 삭제량</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
+      <Text>Transponder를 파괴하시겠습니까?  파괴할 경우, 밀링 후에 이 블록을 더 이상 사용할 수 없습니다!!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
+      <Text>Transponder (파괴됨)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
+      <Text>밀링 후 자동 분리</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Supports</Keyword>
+      <Text>Support</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowColliders</Keyword>
+      <Text>회전축</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowMachineParts</Keyword>
+      <Text>블록 프레임</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Stabilizer</Keyword>
+      <Text>받침대</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers</Keyword>
+      <Text>받침대 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlockProperties</Keyword>
+      <Text>해당 블록에 대한 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
+      <Text>현재의 수복물을 파일에서 불러온 네스팅과 합치겠습니까? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerProblem</Keyword>
+      <Text>받침대를 생성할 수 없습니다.
+힌트:
+1.) 적어도 두 개 이상의 lingual support를 생성하세요.
+2.) 만약 두 개 이상의 support가 있다면, 메뉴에서 '인접 받침대에 연결' 설정을 변경할 수 있습니다.
+3.) 수복물 위의 support 위치나 방향을 바꿔 보세요.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingActions</Keyword>
+      <Text>네스팅 실행</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNestingScene</Keyword>
+      <Text>네스팅 화면 저장하기...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingScene</Keyword>
+      <Text>네스팅 화면 불러오기...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingAction</Keyword>
+      <Text>네스팅 실행</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AngledWalls</Keyword>
+      <Text>수복물 주변삭제시 bur의 진입각도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateMillingAngles</Keyword>
+      <Text>밀링 각도 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadNestingOnlyFailed</Keyword>
+      <Text>항목들을 네스팅할 수 없습니다. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
+      <Text>네스팅에 인큐하기 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
+      <Text>네스팅에 인큐하기 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
+      <Text>네스팅에 인큐하기 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
+      <Text>네스팅 큐</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
+      <Text>네스팅...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
+      <Text>네스팅...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
+      <Text>네스팅...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
+      <Text>네스팅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestAngle</Keyword>
+      <Text>각도: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
+      <Text>CNC 변환작업 에러:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
+      <Text>밀링경로(CNC) 변환 작업이 종료되었습니다!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
+      <Text>진행중.,,</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
+      <Text>멈춤</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
+      <Text>종료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CalculateSimulationFile</Keyword>
+      <Text>시뮬레이션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
+      <Text>CNC 변환이 여전히 진행중...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.HideCNCGraphics</Keyword>
+      <Text>밀링경로(CNC) 숨기기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
+      <Text>밀링경로(CNC) 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateSupports</Keyword>
+      <Text>Support 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorMissingExclusiveTypeString</Keyword>
+      <Text>"{0}"을 포함하고 있는 수복물들은 오직 "{0}"을 포함하는 다른 수복물들과 함께 네스팅 할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingIsCreatingPrototypes</Keyword>
+      <Text>비어있는 자료실을 초기화하고 있습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_connection combined</Keyword>
+      <Text>Combined connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_external connection</Keyword>
+      <Text>External connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained</Keyword>
+      <Text>Screw-retained</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_combined</Keyword>
+      <Text>Combined</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_interface connection</Keyword>
+      <Text>Interface connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_internal connection</Keyword>
+      <Text>Internal connection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_crowns</Keyword>
+      <Text>Abutments/Crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained</Keyword>
+      <Text>Abutments/ScrewRetained</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment_and_screw retained_and_crowns</Keyword>
+      <Text>Abutments/ScrewRetained/Crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_screw retained_and_crowns</Keyword>
+      <Text>Screw-retained crowns</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_abutment</Keyword>
+      <Text>ABUTMENTS</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpecialStrategy_Special Strategies</Keyword>
+      <Text>스페셜 전략</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl</Keyword>
+      <Text>밀링경로(CNC) 뷰 제어(view control)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.Header</Keyword>
+      <Text>밀링경로 파일</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCViewControl.CNCProcessHeader</Keyword>
+      <Text>밀링경로(CNC) 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToolCollisionCheck</Keyword>
+      <Text>밀링경로 시각화</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SimulateMilling</Keyword>
+      <Text>CAM 결과 시뮬레이션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCView.TimeSlider</Keyword>
+      <Text>시간</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCToolSimulation</Keyword>
+      <Text>시뮬레이션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNC.ShowHideCNC</Keyword>
+      <Text>밀링경로 보기/숨기기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNC.ShowHideTool</Keyword>
+      <Text>Burs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.RevertHistory</Keyword>
+      <Text>되돌리기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteStabilizer</Keyword>
+      <Text>받침대 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToggleStabilizerSide</Keyword>
+      <Text>받침대 방향 전환</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.EnqueueForProduction</Keyword>
+      <Text>밀링하고자 인큐하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCControlRecoToolTip</Keyword>
+      <Text>사용 금지를 설정하려면 Shift+클릭하세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FilterStrategyMaterial</Keyword>
+      <Text>재료 검색필터</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueMaterial</Keyword>
+      <Text>재료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByMaterial</Keyword>
+      <Text>재료별 검색</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.ByReconstructions</Keyword>
+      <Text>By designs</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.QueueHideImpossible</Keyword>
+      <Text>큰 데이터는 숨김</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowAxes</Keyword>
+      <Text>밀링 기준축</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestUndercut</Keyword>
+      <Text>원심(mm):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateUndercuts</Keyword>
+      <Text>undercut 추정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerUseRotationQuestion</Keyword>
+      <Text>현재의 받침대 방향을 유지하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.IsSupportUsedForNextStabilizer</Keyword>
+      <Text>다음 받침대 연결하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerInvalidCannotBeSaved</Keyword>
+      <Text>받침대가 올바르게 생성되지 않아서 CAM 변환을 위해 저장할 수 없습니다. 네스팅에서 그것을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers.ToolTip</Keyword>
+      <Text>반대편에 받침대를 생성하려면 Shift를 누른채로 클릭합니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectPercentage</Keyword>
+      <Text>비율 삭감</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
+      <Text>Transponder (활성중)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderReactivateQuestion</Keyword>
+      <Text>Transponder가 아직 손상되지 않았습니까? 그렇다면 그것을 다시 활성시키겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportPosition</Keyword>
+      <Text>Support 위치</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupport</Keyword>
+      <Text>Support 제거</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Filter</Keyword>
+      <Text>속성으로 큐 검색하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.Manage</Keyword>
+      <Text>큐(Queue) 관리</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.ToolTip</Keyword>
+      <Text>네스팅을 위해 모든 수복물이 대기하고 있는 창 보기.
+팁(Tip): 네스팅 큐로 파일을 가져오려면, 익스플로러에서 이 버튼으로 마우스를 이용하여 파일들을 끌어다 놓으면 됩니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList.Manage</Keyword>
+      <Text>블록 자료실 관리</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton.ToolTip</Keyword>
+      <Text>네스팅되어 있는 모든 수복물을 제거합니다. 
+오른쪽 마우스를 클릭 하면 블록 자체를 제거할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowLegacy</Keyword>
+      <Text>변천과정 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSourceFileCalculate</Keyword>
+      <Text>CNC 경로 생성하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameterFromTopOrBottom</Keyword>
+      <Text>Drop 직경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccuredWarningMessage</Keyword>
+      <Text>경고: 밀링경로 연산 중에 문제가 발행했습니다; 밀링 결과물에 문제가 발행할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccured</Keyword>
+      <Text>밀링경로 문제점</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemCancelProduction</Keyword>
+      <Text>이 CNC 파일의 밀링을 취소함 (권장사항)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemContinueProduction</Keyword>
+      <Text>이 CNC 파일의 밀링을 계속함 (위험함)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.GenericCollisionOrToolSizeProblem</Keyword>
+      <Text>충돌 혹은 tool의 길이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.Collision</Keyword>
+      <Text>충돌</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReactivateFixedConstruction</Keyword>
+      <Text>변경내용을 적용하기 위해 재가동</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRevertToPreviousStateQuestion</Keyword>
+      <Text>블록을 이전 상태로 돌리시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCFileName</Keyword>
+      <Text>밀링경로(CNC) 파일명</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingOverview</Keyword>
+      <Text>네스팅 개요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestedReconstructions</Keyword>
+      <Text>네스팅된 수복물</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueFiles</Keyword>
+      <Text>네스팅 큐 입력</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedUnknownMaterialBlockType</Keyword>
+      <Text>불러온 블록은 알려지지 않는 유형입니다. 블록 자료실의 유효기간이 이미 지났거나 이 블록 파일이 너무 오래된 것입니다. 블록 유형을 다시 등록해주세요 ('새로운 블록 등록'을 클릭)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowFeatureLines</Keyword>
+      <Text>디자인된 마진 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByProjectName</Keyword>
+      <Text>Project 이름으로 검색</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNestingNestingModuleNotActivated</Keyword>
+      <Text>에러: Dongle에서 네스팅 모듈이 활성되지 않습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSelectStrategy</Keyword>
+      <Text>전략파일을 선택해주세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion</Keyword>
+      <Text>수복물들과 그 주변 재료를 완전히 삭제합니다. 실제 블록이 이 위치에서 이미 밀링이 되었는지를 반드시 확인하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.OnlyCNC</Keyword>
+      <Text>오직 밀링 경로를 연산한 수복물만 제거.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.All</Keyword>
+      <Text>모든 수복물 제거.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveConstructionFromNestingThatIsInCNCQuestion</Keyword>
+      <Text>이 수복물은 CNC 파일이 이미 존재합니다. CNC-파일을 삭제하거나, 블럭에서 수복물을 잘라낼 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCooling</Keyword>
+      <Text>Water cooling</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineProperties</Keyword>
+      <Text>밀링기 속성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion</Keyword>
+      <Text>습식 밀링을 할 수 있습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous</Keyword>
+      <Text>어떤 종류의 밀링기를 사용하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes</Keyword>
+      <Text>Water cooling으로 함</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.No</Keyword>
+      <Text>Water cooling 금지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion.QueryMachineSoftware</Keyword>
+      <Text>밀링 소프트웨어에 관한 문의.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingDefaultSetting</Keyword>
+      <Text>Water cooling 기본값 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination</Keyword>
+      <Text>경사한계 유지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CorrectInclination.Description</Keyword>
+      <Text>밀링 각도의 한계 내에서 경사도를 바꾸기 위해 네스팅 수복물을 자동 회전시킴.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination</Keyword>
+      <Text>경사도 재설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetInclination.Description</Keyword>
+      <Text>제로 경사도로 재설정 (수직으로 밀링됨).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis</Keyword>
+      <Text>4축으로 재설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reset4Axis.Description</Keyword>
+      <Text>네스팅 수복물을 자동으로 회전시켜 밀링축이 4-축이 되도록 조정합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ResetNestAxesButton</Keyword>
+      <Text>네스팅 축 재설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixNestAxesQuestion</Keyword>
+      <Text>네스팅 수복물을 자동으로 교체하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDoesNotWorkForPartsThatWereNotSaved</Keyword>
+      <Text>아직 저장되지 않은 수복물을 탐지했습니다. 계속하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterMaterialBlocksByMachine</Keyword>
+      <Text>밀링기로 검색</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineIsNotConfiguredForInterop</Keyword>
+      <Text>경고: 선택한 밀링기가 exocam에 설정되어 있지 않습니다. 밀링경로를 연산할 수 없으며, 네스팅에서 밀링기의 어떠한 한계도 알 수 없습니다. 선택한 밀링기를 사용하려면 소프트웨어 지원팀에 연락하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineNotAvailableForToothPathCalculation</Keyword>
+      <Text>경고: 선택한 밀링기에 exocam 밀링경로 연산장치가 설치되어 있지 않습니다. 선택한 밀링기를 사용하려면 소프트웨어 지원팀에 연락하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineFromSceneFileDoesNotExist</Keyword>
+      <Text>경고: 불러온 화면파일의 밀링기가 이 소프트웨어에 설정되지 않았습니다. 수동으로 올바른 밀링기를 선택해 주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInterOpImportUnknownMachinesWarning</Keyword>
+      <Text>네스팅이 미확인 밀링기에 대해 경고합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectedMachineTypeWasInvalid</Keyword>
+      <Text>밀링기 유형 선택 사항을 확인해주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConfigureMachineTools</Keyword>
+      <Text>Tool 환경설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCConstructionTransparency</Keyword>
+      <Text>수복물들</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSimulationTransparency</Keyword>
+      <Text>시뮬레이션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportInMiddle</Keyword>
+      <Text>Support 가운데 절단</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportOnReconstruction</Keyword>
+      <Text>Support 다듬기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableCopyToClipboard</Keyword>
+      <Text>클립보드에 복사하기.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTable</Keyword>
+      <Text>Tool 테이블</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableEmpty</Keyword>
+      <Text>Tool 일람표가 비어있습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FreeToolSlot</Keyword>
+      <Text> - Free - </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolSetConfigurationName</Keyword>
+      <Text>Tool 환경설정의 이름</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCreateNew</Keyword>
+      <Text>새로운 환경설정 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDelete</Keyword>
+      <Text>환경설정 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSlot</Keyword>
+      <Text>Tool 슬롯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolName</Keyword>
+      <Text>Tool 명</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolType</Keyword>
+      <Text>Tool 형태</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDiameter</Keyword>
+      <Text>Tool 직경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolFluteLength</Keyword>
+      <Text>Tool 플루트 길이 (작업공간)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftLength</Keyword>
+      <Text>Tool의 체결부 길이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameter</Keyword>
+      <Text>Tool의 체결부 직경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLength</Keyword>
+      <Text>Tool 길이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolArbor</Keyword>
+      <Text>Tool arbor (작업공간 그래픽)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolInvalidArborWarning</Keyword>
+      <Text>경고: Tool arbor를 인식할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLengthIncompatible</Keyword>
+      <Text>경고: Tool의 길이가 현재의 밀링기와 호환되지 않는 것처럼 보입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameterIncompatible</Keyword>
+      <Text>경고: Tool의 체결부 직경이 현재의 밀링기와 호환되지 않는 것처럼 보입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDescription</Keyword>
+      <Text>Tool 설명</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReplace</Keyword>
+      <Text>밀링기 안에서 Tool 교체하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAdd</Keyword>
+      <Text>밀링기에 Tool 추가하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetRemove</Keyword>
+      <Text>Tool 제거하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetUp</Keyword>
+      <Text>위로</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDown</Keyword>
+      <Text>아래로</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAccept</Keyword>
+      <Text>환경설정 승인</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReject</Keyword>
+      <Text>취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseEnterMachineToolSetConfigurationName</Keyword>
+      <Text>Tool 환경 설정의 이름을 입력해주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidMachineToolSetConfiguration</Keyword>
+      <Text>Tool 환경 설정을 인식할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WarningMachineToolIsIncompatibleToMachine</Keyword>
+      <Text>경고: Tool 환경설정이 밀링기와 호환되지 않습니다 (예, tool의 길이 또는 체결부 직경을 인식 못함).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineToolSetConfiguration</Keyword>
+      <Text>밀링기 Tool 환경설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DuplicateMachineToolError</Keyword>
+      <Text>Tool 환경 설정에서 tool 이 이미 사용 중입니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetCloneQuestion</Keyword>
+      <Text>현재 설정된 환경의 복사본을 만드시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteMachineConfigurationQuestion</Keyword>
+      <Text>현재의 환경 설정을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateMachineToolInLibrary</Keyword>
+      <Text>Tool 생성하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMachineToolFromLibrary</Keyword>
+      <Text>Tool 제거하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloneMachineToolFromLibrary</Keyword>
+      <Text>Tool 복제하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolWithSameNameAlreadyExists</Keyword>
+      <Text>같은 이름을 가진 치아가 이미 존재합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveMachineToolQuestion</Keyword>
+      <Text>정말로 자료실에서 툴을 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolEditor</Keyword>
+      <Text>밀링기 Tool 편집기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetConfigurator</Keyword>
+      <Text>밀링기 Tool 배치 조정하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolLibraryView</Keyword>
+      <Text>Tool 자료실 보기/숨기기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineToolSettings</Keyword>
+      <Text>Tool 파라미터 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteMachineConfigurationQuestion</Keyword>
+      <Text>선택한 기계의 툴 환경 설정을 모두 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OverwriteMachineConfigurationQuestion</Keyword>
+      <Text>선택한 기계의 툴 환경 설정을 덮어쓰시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingMachineToolPathCalculationBy</Keyword>
+      <Text>tool paths by</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCStrategyParameter</Keyword>
+      <Text>밀링전략 파라미터</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButton</Keyword>
+      <Text>가져오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionButtoningQueue.ToolTip</Keyword>
+      <Text>외부에서 디자인한 파일을 네스팅 큐를 사용하지 않고 수동으로 직접 가져오기. 
+팁(Tip): 이 버튼 위의 익스플로러에서 마우스로 끌어다 놓거나 혹은 가져오기 기능으로 3D- 네스팅으로 직접 불러올 수 있습니다.
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportNotPossibleForSelectedFiles</Keyword>
+      <Text>선택한 파일 유형들 중 어느 것도 네스팅으로 불러올 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarning</Keyword>
+      <Text>외부 데이터를 네스팅하기 위해 불러오는 동안 문제가 발생했습니다.
+불러온 수복물에 대해 밀링하는 것을 추천하지 않습니다.
+작업을 계속해서 발생한 문제는 전적으로 사용자 잘못입니다!
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportError</Keyword>
+      <Text>네스팅을 하기 위해 외부 데이터를 가져오던 중 에러가 발생했습니다. 불행히도 이 데이터 세트를 불러올 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportTypeContextMenu</Keyword>
+      <Text>가져오기 유형:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarningContextMenu</Keyword>
+      <Text>가져오기 경고:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FoundInvalidSupportsReallyContinue</Keyword>
+      <Text>네스팅 안에 인식할 수 없는 support (붉은색으로 표시)가 있습니다. 
+계속 진행한다면, 밀링경로(CNC) 생성 중에 에러가 발생하거나 밀링 결과물이 나쁠 수 있습니다.
+
+계속 진행하시겠습니까?(추천하지는 않습니다)
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed</Keyword>
+      <Text>4-축 밀링 방식으로 유지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed.ToolTip</Keyword>
+      <Text>이 기능이 활성될 경우, 소프트웨어는 밀링기의 제한된 축으로 인해 수복물의 회전축 하나를 허용하지 않게 된다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingInformation</Keyword>
+      <Text>네스팅 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MillingTools</Keyword>
+      <Text>해당 재료의 Milling tool :  {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AbutmentTop</Keyword>
+      <Text>Custom Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CrownBottom</Keyword>
+      <Text>Crown</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InlayBottom</Keyword>
+      <Text>Inlay/Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.BiteSplint</Keyword>
+      <Text>BiteSplint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ReducedWaxup</Keyword>
+      <Text>수축용 Waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Attachment</Keyword>
+      <Text>Attachment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.PrimaryTelescope</Keyword>
+      <Text>Telescope</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AnatomicWaxup</Keyword>
+      <Text>해부학적 Waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Coping</Keyword>
+      <Text>Coping</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CylinderCutting</Keyword>
+      <Text>스크류 채널</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantDescriptor</Keyword>
+      <Text>임플란트 정보</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutHex</Keyword>
+      <Text>OutHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InHex</Keyword>
+      <Text>InHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutNoHex</Keyword>
+      <Text>OutNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InNoHex</Keyword>
+      <Text>InNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceConical</Keyword>
+      <Text>InterfaceConical</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceParallel</Keyword>
+      <Text>InterfaceParallel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Manual</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ManualImplant</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show all CNC paths</Keyword>
+      <Text>모든 밀링경로 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShowCNCViewPaths</Keyword>
+      <Text>진행단계 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show/Hide</Keyword>
+      <Text>작업 단계 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Time</Keyword>
+      <Text>시간</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineSelector</Keyword>
+      <Text>밀링기 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Show</Keyword>
+      <Text>보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeContextMenu</Keyword>
+      <Text>Undercut 시각화</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeRefreshAllQuestion</Keyword>
+      <Text>네스팅된 수복물의 언더컷을 시각화하시겠습니까?
+힌트: 상황에 맞는 메뉴 옵션에서'Undercut 시각화'를 사용하면 수복물을 항상 시각화할 수 있습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockSlotNumber</Keyword>
+      <Text>홀더 슬롯을 선택해주세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
+      <Text>슬롯 ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowEditReconstructionControlContextMenu</Keyword>
+      <Text>디자인 파라미터 편집하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.Title</Keyword>
+      <Text>네스팅 디자인 파라미터 편집하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.ClosingQuestion</Keyword>
+      <Text>수복물 편집 창을 닫습니다 ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.AcceptChanges</Keyword>
+      <Text>현재 네스팅에서 변경사항들을 모두 승인하고 사용합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditReconstructionControl.RejectChanges</Keyword>
+      <Text>모든 변경사항들을 거절하고 버립니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180</Keyword>
+      <Text>180도 회전</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Rotate4Axis180.Description</Keyword>
+      <Text>크기를 키우기 위해 Z-축으로 180도 회전시키지만  4-축으로 유지.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingImportObject</Keyword>
+      <Text>가져온 수복물 네스팅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickOnNestingPreparationMargin</Keyword>
+      <Text>마진 위에 클릭하세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection1</Keyword>
+      <Text>수복물의 margin을 설정하려면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection2</Keyword>
+      <Text>적어도 4개의 point를 형성하세요</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingPreparationMargin.FoundLine</Keyword>
+      <Text>Margin 발견</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingPreparationMargin.Title</Keyword>
+      <Text>가져온 마진탐지 결과 네스팅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowInExplorer</Keyword>
+      <Text>탐색기에서 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueue.ShowInExplorer</Keyword>
+      <Text>탐색기에서 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowOverview</Keyword>
+      <Text>전체 조감도 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.PrintOverview</Keyword>
+      <Text>전체 조감도 출력</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnail</Keyword>
+      <Text>슬롯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot1</Keyword>
+      <Text>Center - 1</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot2</Keyword>
+      <Text>왼쪽 - 2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot3</Keyword>
+      <Text>오른쪽 - 3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UndefinedReconstructionType</Keyword>
+      <Text>알 수없거나 지원되지않는 유형</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox</Keyword>
+      <Text>디자인된 수복물의 유형을 선택하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox.CurrentSelected</Keyword>
+      <Text>현재 유형</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChangeConstructionType</Keyword>
+      <Text>디자인 유형 변경</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowEditMarginByMouse</Keyword>
+      <Text>마우스로 마진 편집</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AddNewPreparationMarginToReconstructionQuestion</Keyword>
+      <Text>수복물에 설정된 마진을 승인하시겠습니까? 이 작업은 되돌릴 수는 없지만, 마진과 삽입로는 나중에 수정할 수 있음에 주의 하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PreparationMarginBottom</Keyword>
+      <Text>Bottom</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetNoneButton.Text</Keyword>
+      <Text>보기 전용</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetInsertionDirectionButton.Text</Keyword>
+      <Text>삽입로 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_ModifyMarginsButton.Text</Keyword>
+      <Text>Margin 수정하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_AddPreparationMarginButton.Text</Keyword>
+      <Text>Margin 추가</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetOcclusalDirectionButton.Text</Keyword>
+      <Text>교합면 방향 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>EditReconstructionHeader</Keyword>
+      <Text>파일 가져오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromAxisZ</Keyword>
+      <Text>Z-축 방향</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ObjectLoadedWithoutMargins</Keyword>
+      <Text>경고: 마진라인/축 정보를 분실했습니다.
+
+이 문제를 피하려면 STL 파일을 복사할 때,
+같은 디렉토리 내에 다음과 같은 첨부파일이
+포함되었는지를 확인 하세요:
+
+*.constructionInfo, *.pol, *.asc, *.cam, *.xml
+
+차선책으로써, 아래의 “Margin 추가”버튼을
+사용할 때 마진 라인을 수동으로 설정해야
+합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSetInsertionDirectionHelp</Keyword>
+      <Text>아래의 버튼을 사용하여 삽입로 설정하기:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp</Keyword>
+      <Text>모든 마진 라인이 올바르게 설정되었는지 확인하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowBlock</Keyword>
+      <Text>블록 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRegistration</Keyword>
+      <Text>블록 등록하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingValueFromInterop</Keyword>
+      <Text>(정보처리 상호운용)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingViewRotationAngle</Keyword>
+      <Text>회전각 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowClosingQuestion</Keyword>
+      <Text>소프트웨어를 종료하거나 CAD 디자인을 위해 되돌아가시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingEmbeddedWindowReturnToCAD</Keyword>
+      <Text>CAD로 되돌아가기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion</Keyword>
+      <Text>네스팅 화면을 저장하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingSaveSceneOnCloseAppQuestion.Title</Keyword>
+      <Text>네스팅 닫기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined</Keyword>
+      <Text>모든 수복물의 유형이 아직 설정되지 않았습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Description</Keyword>
+      <Text>주의: 디자인 유형을 모두 정의하지 않았을 경우, 수복물을 네스팅으로 불러올 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingNotAllConstructionTypesAreDefined.Ignore</Keyword>
+      <Text>이전에 디자인 해놓은 모든 정보를 버리시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.AddMargin</Keyword>
+      <Text>마우스 클릭으로 마진을 설정할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.ModifyMargins</Keyword>
+      <Text>마우스 클릭으로 현재의 마진을 수정할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetInsertion</Keyword>
+      <Text>화살표를 드래그 하거나 아래의 세가지 버튼을 사용하여 삽입로를 수정할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.SetOcclusal</Keyword>
+      <Text>화살표를 드래그하거나 아래의 버튼 세 개를 사용하면 2차 밀링방향을 수정할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AdvancedMillingOption</Keyword>
+      <Text>밀링관련 고급 옵션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Wet milling</Keyword>
+      <Text>습식 밀링</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InterfaceOffset</Keyword>
+      <Text>Interface Offset</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpeedMilling</Keyword>
+      <Text>스피드 밀링</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Bur</Keyword>
+      <Text>Bur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingProcessor.Button.Tooltip</Keyword>
+      <Text>네스팅 열기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessorControls.CNCPathControl.Title</Keyword>
+      <Text>밀링 경로</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Abutment</Keyword>
+      <Text>Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.InsideHex</Keyword>
+      <Text>Inside Hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.WithoutHex</Keyword>
+      <Text>Without Hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OcclusalBridge</Keyword>
+      <Text>Occl. Bridge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FixNestAxes</Keyword>
+      <Text>네스팅 축 고정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InlayStrategySelection</Keyword>
+      <Text>Inlay/Onlay/Veneers</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveNesting.ToolTip</Keyword>
+      <Text>네스팅 화면을 저장합니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ExtraStrategySelection</Keyword>
+      <Text>스페셜 전략 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingView</Keyword>
+      <Text>네스팅 화면</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BlockOutAngle</Keyword>
+      <Text>Block out 각도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.OutsideHex</Keyword>
+      <Text>Outside hex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock.Title</Keyword>
+      <Text>확인 및 승인</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateCNCFiles</Keyword>
+      <Text>네스팅 및 CNC-파일 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.S</Keyword>
+      <Text>환경설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButtonPremium</Keyword>
+      <Text>Resin premium</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeBasicButton</Keyword>
+      <Text>Resin basic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CompositeButton</Keyword>
+      <Text>Resin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderLength</Keyword>
+      <Text>길이</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Material</Keyword>
+      <Text>재 료:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SpecialStrategySelection</Keyword>
+      <Text>임플란트 전략파일 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Strategy.Standart</Keyword>
+      <Text>표준 전략파일</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StandardStrategySelection</Keyword>
+      <Text>표준 전략파일 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderStatus</Keyword>
+      <Text>상태</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCSpecialStrategySelector</Keyword>
+      <Text>Select strategy for {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyButton</Keyword>
+      <Text>밀링전략 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaxButton</Keyword>
+      <Text>WAX</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassButton</Keyword>
+      <Text>Glass</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Position</Keyword>
+      <Text>위치</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WoodButton</Keyword>
+      <Text>Wood</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowCNCFileWithDifferentBlockInNesting</Keyword>
+      <Text>다른 block으로 네스팅한 CNC-파일 보기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ZirkonButton</Keyword>
+      <Text>ZIRCONIA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCCAMFinishederrorMessage</Keyword>
+      <Text>CAM 소프트웨어 에러!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueButtons</Keyword>
+      <Text>네스팅 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertScaleFactor</Keyword>
+      <Text>Insert Scalefactor</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InsertShrinkingPercentage</Keyword>
+      <Text>수축률 입력</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantGeometry</Keyword>
+      <Text>임플란트 체결부</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialCommands</Keyword>
+      <Text>명령 옵션</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailDiameter</Keyword>
+      <Text>Ø</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ThumbnailHeight</Keyword>
+      <Text>H</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlockQuestion</Keyword>
+      <Text>블록을 가져 오시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem1</Keyword>
+      <Text>- 0.01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem2</Keyword>
+      <Text>0</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OffsetComboBoxItem3</Keyword>
+      <Text>+ 0.01</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialColor</Keyword>
+      <Text>색상 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SlotsInProductionQueue</Keyword>
+      <Text>Slots in production queue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Bar</Keyword>
+      <Text>Bar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionSelector</Keyword>
+      <Text>디자인 선택:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DirectoriesWithNoValidDataDetectedDeleteQuestion</Keyword>
+      <Text>네스팅에서 인식할 수 없는 데이터를 포함하고 있는 디렉토리를 발견했습니다. 다음의 디렉토리를 삭제하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionCanNotBeNestedInGlassBlock</Keyword>
+      <Text>"{0}"을 포함하고 있는 수복물들은 글라스 블록에 네스팅 할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongMachineForThisMaterialType</Keyword>
+      <Text>오직 {0}-Machine 만이 {1} 유형의 네스팅을 만들 수 있습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WrongMachineForThisMaterialTypeMulti</Keyword>
+      <Text>오직 {0} 만이 {1} 유형의 네스팅을 만들 수 있습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion</Keyword>
+      <Text>현재의 네스팅을 인식할 수 없어 저장할 수 없습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard</Keyword>
+      <Text>네스팅 변경 사항 버리기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard.Description</Keyword>
+      <Text>현재 네스팅 수정사항들은 모두 삭제될 것입니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel</Keyword>
+      <Text>취소</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel.Description</Keyword>
+      <Text>수동으로 고정하기 위해 현재의 네스팅을 유지합니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineSelectorNoMachineAvailable</Keyword>
+      <Text>밀링기를 사용할 수 없습니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndDiscardCurrentConstructions</Keyword>
+      <Text>예(Y)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndDiscardCurrentConstructions.Description</Keyword>
+      <Text>현재의 네스팅을 저장합니다. 이 경우 수복물들을 새로운 블록에 다시 네스팅 할 수 없게 됩니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndKeepCurrentConstructions</Keyword>
+      <Text>예, 네스팅된 수복물들을 새로운 블록으로 이동합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndKeepCurrentConstructions.Description</Keyword>
+      <Text>네스팅을 저장하지 않습니다. 이 경우 수복물들을 새로운 블록에 다시 네스팅 할 수 있습니다.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SetCurrentNotPossibleWithCurrentLoadedBlock</Keyword>
+      <Text>현재 불러온 블록으로는 '현 상태로 설정‘을 할 수 없습니다. 동일한 ID를 가진 블록이 없을 때 다시 시도해주세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionTypeButton.Text</Keyword>
+      <Text>CAM에서 자동으로 탐지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.ReconstructionType</Keyword>
+      <Text>CAM-자동 탐지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Description</Keyword>
+      <Text>경고: 자동 탐지기능은 밀링 경로를 자동으로 연산하는 동안에 경로를 측정합니다. 그래서 사용자들은 자동 탐지된 디자인을 변경하거나 그에 따른 영향을 확인할 수 없습니다.
+그러므로, 만약 .constructionInfo, scene, .asc .pts 또는 그와 유사한 파일을 사용하거나, 또는 마진과 수복물이 수동으로 설정되어 있는 다른 파일들을 가져올 수 있는 경우, 이 기능의 사용을 권장하지 않습니다!!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Question</Keyword>
+      <Text>정말로 CAM에서 자동 탐지 기능을 사용하시겠습니까?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingMergePartEngineBuildLabel</Keyword>
+      <Text>병합:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CreateStabilizer</Keyword>
+      <Text>받침대 생성하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_AddImplantButton.Text</Keyword>
+      <Text>임플란트 추가</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Text</Keyword>
+      <Text>CAM에서 자동으로 탐색</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImplantForAbutmentNotDefined</Keyword>
+      <Text>계속 진행하기 전에 어버트먼트의 임플란트 형상이 정의되어 있어야 합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginProcessor_ImplantGeometry</Keyword>
+      <Text>임플란트 하부 마진</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginProcessor_EmergenceProfile</Keyword>
+      <Text>emergence profile 마진</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginProcessor_ScrewChannel</Keyword>
+      <Text>상부 스크류 홀 마진</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingFileImportHelp.AddImplant</Keyword>
+      <Text>치아에 임플란트를 추가하려면, 치아의 마진 라인을 클릭하십시오.
+그리고, 임플란트 하부 마진과 상부 스크류 홀 마진을 설정해야 합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginProcessor_ScrewChannel_Direction</Keyword>
+      <Text>스크류 홀 방향</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginAlignAllQuestion</Keyword>
+      <Text>불러온 데이터의 기본 정렬을 다시 설정하시겠습니까? 이전에 변경한 값들은 삭제됩니다.
+경고: 불러온 데이터가 Z축에 정렬되지 않은 경우에만 이 기능을 사용하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginAlignViewHelp</Keyword>
+      <Text>데이터의 교합면 방향에서 바라보는 
+시점에서 아래 버튼을 클릭하여 
+스캔 축을 정의하십시오.
+참고:
+1. 대부분의 경우, 적절한 방향이 
+최초로 나타납니다.
+
+2. 간혹, 교합면 방향에서 시점 변경 
+버튼을 클릭하거나 마우스로 시점을 
+수정하여 선택하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportMarginAlignAllQuestion.Title</Keyword>
+      <Text>현재 시점으로 데이터 방향을 변경합니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportFinishedButton</Keyword>
+      <Text>불러오기 종료</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportFinishedCurrentMode</Keyword>
+      <Text>적용</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportAngulatedScrewChannelInformation</Keyword>
+      <Text>현재 스크류 홀 방향은 임플란트 축에 대해 평행이 아닐 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportAxisOcclusalNotDefined</Keyword>
+      <Text>교합축(상부 보철물 삽입 방향)을 설정하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportAxisInsertionNotDefined</Keyword>
+      <Text>삽입 축을 설정하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCStrategyParameterSelectionRequired</Keyword>
+      <Text>- - 선택 요망 - -</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportErrorRecoveringAttachmentFromLibrary</Keyword>
+      <Text>오류, .constructionInfo를 불러오기 위한 라이브러리에서 어태치먼트를 다시 불러올 수 없습니다.
+원본 어태치먼트 파일이 라이브러리 폴더에 존재하는지 확인하고 최신 버전에서 병합하고 다시 저장하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DataImportConstructionInfoFileTooOld</Keyword>
+      <Text>.constructionInfo 파일이 요구되는 일부 기능이 지원되지 않는 소프트웨어 버전입니다. (.constructionInfo 파일을 쓰고 병합하기 위한 소프트웨어 버전: {0})</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

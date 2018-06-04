@@ -1,0 +1,56 @@
+<WorkTypeGroupDefinitionList DefaultGroupId="Default.Group">
+
+	<WorkTypeGroupDefinition Id="CrownAndBridge.Group">
+	   <WorkTypeId>AnatomicCrown</WorkTypeId>
+	   <WorkTypeId>OverpressCrown</WorkTypeId>
+	   <WorkTypeId>Coping</WorkTypeId>
+	   <WorkTypeId>OffsetCoping</WorkTypeId>
+	   <WorkTypeId>HybridCrown</WorkTypeId>
+	   <WorkTypeId>PreManufacturedCrown</WorkTypeId>
+	   <WorkTypeId>PreManufacturedCrownFramework</WorkTypeId>
+	   <WorkTypeId>ProvisionalCrown</WorkTypeId>
+	   <WorkTypeId>ReducedPontic</WorkTypeId>
+	   <WorkTypeId>AnatomicPontic</WorkTypeId>
+	   <WorkTypeId>OverpressPontic</WorkTypeId>
+	   <WorkTypeId>HybridPontic</WorkTypeId>
+	   <WorkTypeId>PreManufacturedPontic</WorkTypeId>
+	   <WorkTypeId>PreManufacturedPonticFramework</WorkTypeId>
+	   <WorkTypeId>PreManufacturedBridge</WorkTypeId>
+	   <WorkTypeId>ProvisionalPontic</WorkTypeId>
+	</WorkTypeGroupDefinition>
+	
+
+	<WorkTypeGroupDefinition Id="InlaysAndVeneers.Group">
+	   <WorkTypeId>AnatomicInlay</WorkTypeId>
+	   <WorkTypeId>ReducedInlay</WorkTypeId>
+	   <WorkTypeId>OffsetInlay</WorkTypeId>
+	   <WorkTypeId>Veneer</WorkTypeId>
+	   <WorkTypeId>HybridInlay</WorkTypeId>
+	</WorkTypeGroupDefinition>
+
+	<WorkTypeGroupDefinition Id="Waxup.Group">
+	   <WorkTypeId>AnatomicWaxup</WorkTypeId>
+	   <WorkTypeId>ReducedWaxup</WorkTypeId>
+	   <WorkTypeId>WaxupPontic</WorkTypeId>
+	</WorkTypeGroupDefinition>
+	
+	<WorkTypeGroupDefinition Id="PrimaryUnits.Group">
+	   <WorkTypeId>PrimaryTelescope</WorkTypeId>
+	   <WorkTypeId>BarPillar</WorkTypeId>
+	   <WorkTypeId>BarSegment</WorkTypeId>
+	   <WorkTypeId>Attachment</WorkTypeId>
+	</WorkTypeGroupDefinition>
+
+		<WorkTypeGroupDefinition Id="BiteSplint.Group">
+	   <WorkTypeId>BiteSplint</WorkTypeId>
+	   <WorkTypeId>BiteSplintGap</WorkTypeId>
+	</WorkTypeGroupDefinition>
+
+	
+	<WorkTypeGroupDefinition Id="ResidualDentition.Group">
+	   <WorkTypeId>MissingTooth</WorkTypeId>
+	   <WorkTypeId>HealthyTooth</WorkTypeId>
+	   <WorkTypeId>Antagonist</WorkTypeId>
+	</WorkTypeGroupDefinition>
+
+</WorkTypeGroupDefinitionList>

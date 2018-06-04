@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TranslationContainer>
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport03.LabMissing</Keyword>
+      <Text>Nepodařilo se získat výchozí lab.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportFailed</Keyword>
+      <Text>
+        Při vytváření práce z TRIOS projektu došlo k chybě.
+        Chybová hláška:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportedWithWarnings</Keyword>
+      <Text>
+        Z TRIOS projektu byl vytvořen návrh dentálního projektu
+        Projektový soubor TRIOS:
+        {0}
+
+
+        Některá data možná nebyla zpracována, proto v projektu chybějí:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AddPracticeFirst</Keyword>
+      <Text>
+        Zákazník specifikovaný v TRIOS projektu nebyl v databázi nalezen.
+        Pro vytvoření zákazníka s daným jménem prosím vyplňte následující formulář.
+        Pro pokračování bez založení nového zákazníka a přiřazení existujícího zákazníka
+        k práci vytvořené z TRIOS projektu zavřete okno.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>Žádny typ rekonstrukce nemá ID '{0}'. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMappingMissing</Keyword>
+      <Text>Typ rekonstrukce s ID '{0}/{1}'neexistuje. Pro podrobnosti prosím kontaktujte svého distributora.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>Udaná hodnota {0} pro výchozí typ rekonstrukce nebyla v databázi nalezena.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AntagonistDataInvalid</Keyword>
+      <Text>Z typu práce {0} a materiálu {1} nelze vytvořit antagonistu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissing</Keyword>
+      <Text>Materiál s ID {0}/{1} není namapován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WorkDefinitionMissing</Keyword>
+      <Text>
+        Typ práce '{0}' nedovoluje použití materiálu '{1}'.
+        Je použit první dostupný materiál pro tento typ práce.
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.CaseId</Keyword>
+      <Text>ID případu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.InternalCaseId</Keyword>
+      <Text>ID projektu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ExternalCaseId</Keyword>
+      <Text>Objednávka</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.Notes</Keyword>
+      <Text>Pozn.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NewTreatmentFromTrios.ToolTip</Keyword>
+      <Text>Vytvořit novou práci z proj. souboru TRIOS</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromTrios</Keyword>
+      <Text>TRIOS import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.InsufficientAccessRights.Project</Keyword>
+      <Text>Nedostatečná uživ. práva pro kopírování projekt. souborů TRIOS do proj. adresáře {0}
+
+     </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Project</Keyword>
+      <Text>Chyba při kopírování proj. souboru TRIOS z {0} do {1}. Chyba {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileCopyFailed.Data</Keyword>
+      <Text>Chyba při kopírování datového souboru TRIOS z {0} do {1}. Chyba {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.FileTransferIncomplete</Keyword>
+      <Text>
+        Při kopírování referenčních souborů z projektu TRIOS došlo k následujícím chybám:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotSpecified</Keyword>
+      <Text>Projektový soubor TRIOS není specifikován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectFileNotFound</Keyword>
+      <Text>
+        Projektový soubor TRIOS pro import nebyl nalezen.
+        Název souboru: {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TRIOSProjectFileCorrupt</Keyword>
+      <Text>
+        Při analýze projektového souboru TRIOS došlo k chybě.
+        Název souboru: {0}
+
+        Chybová hláška:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotSpecified</Keyword>
+      <Text>Soubor mapující rekonstrukce TRIOS na typy v DentalDB není specifikován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileNotFound</Keyword>
+      <Text>
+        Soubor mapující rekonstrukce TRIOS na typy v DentalDB nebyly nalezeny.
+        Název souboru: {0}
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.TriosMappingDBFileCorrupt</Keyword>
+      <Text>
+        Při analýze souboru mapujícího rekonstrukce TRIOS na typy v DentalDB došlo k chybě.
+        Název souboru: {0}
+
+        Chybová hláška:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothSkipped</Keyword>
+      <Text>Zub {0} vynechán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothDataNotFound</Keyword>
+      <Text>Data zubu nenalezena</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothNumberNotFound</Keyword>
+      <Text>
+        Číslo zubu nenalezeno v:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothRecoTypeNotFound</Keyword>
+      <Text>
+        Typ rekon. zubu pro zub {0} nenalezen
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialDescrNotFound</Keyword>
+      <Text>
+        Popis materiálu zubu pro zub {0} nenalezen
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothMaterialNotFound</Keyword>
+      <Text>
+        Materiál zubu pro zub {0} nenalezen
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ToothInfoCreationFailed</Keyword>
+      <Text>
+        Při zpracování informací pro zub {0} došlo k chybě.
+        Chyba:
+        {1}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NoTriosScanData</Keyword>
+      <Text>Nenalezena žádná skenovací data TRIOS.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RecentlyArrivedJobs</Keyword>
+      <Text>TRIOS: nové práce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ProjectId</Keyword>
+      <Text>ID projektu TRIOS</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Info</Keyword>
+      <Text>TRIOS info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.NewProjects</Keyword>
+      <Text>Importované projekty:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Conflicts</Keyword>
+      <Text>Konflikty:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ActionRequired</Keyword>
+      <Text>Požadovaná akce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ManualPracticeDataEnrichmentEequired</Keyword>
+      <Text>Uvedenou ordinaci nelze nalézt nebo není jedinečná. Pro pokračování prosím doplňte data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RemoveFromArrivedList</Keyword>
+      <Text>Odebrat ze seznamu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PracticeDataEnrichment</Keyword>
+      <Text>Hotová práce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ViewInDentalDB</Keyword>
+      <Text>Zobrazit v DentalDB</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OpenInExplorer</Keyword>
+      <Text>Otevřít v exploreru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OverrideExisting</Keyword>
+      <Text>Přepsat existující</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.KeepExisting</Keyword>
+      <Text>Ne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowChanges</Keyword>
+      <Text>Zobrazit změny v exploreru</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.OriginalDataBackupFailed</Keyword>
+      <Text>Při zálohování projektu TRIOS došlo k chybě.
+Projektový adresář TRIOS: {0}
+Cílový adresář: {1}
+Chyba: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNoWritePermissions</Keyword>
+      <Text>Záložní adresář projektu TRIOS je pouze pro čtení. Prosím zajistěte, aby do adr. '{0}' bylo možné zapisovat a zkuste to znovu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirCreationError</Keyword>
+      <Text>Při vytváření záložního adresáře projektu TRIOS '{0}' došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.PatientCreationFailed</Keyword>
+      <Text>Při ukládání dat o pacientovi došlo k chybě:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobCreationFailed</Keyword>
+      <Text>Při ukládání pracovních dat došlo k chybě:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.LowerJawScanMissing</Keyword>
+      <Text>Sken dolní čelisti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UpperJawScanMissing</Keyword>
+      <Text>Sken horní čelisti</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.VestibularScanMissing</Keyword>
+      <Text>Vestibulární sken</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataFormatCouldNotBeDetected</Keyword>
+      <Text>Formát naskenovaných dat projektu TRIOS se nepodařilo zjistit:
+Projektový adresář: {0}
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.RepeatDataImport</Keyword>
+      <Text>Zkuste znovu importovat naskenovaná data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DataTransferIncomplete</Keyword>
+      <Text>Přenos dat neúplný</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JobArrived</Keyword>
+      <Text>TRIOS: příchozí práce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TrayIcon.Tip</Keyword>
+      <Text>Klikněte pro více možností</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.ColorSchema</Keyword>
+      <Text>Barva</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedMaterials</Keyword>
+      <Text>Materiály</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Notes.UsedReconstructions</Keyword>
+      <Text>Rekonstrukce</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.CompleteNewClientData</Keyword>
+      <Text>Během importu práce z TRIOSu byl automaticky založen zákazník.
+Pro dokončení importu prosím doplňte chybějící data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.OverwriteConfirmationRequired.Title</Keyword>
+      <Text>Vyžaduje potvrzení</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.DataTransferIncomplete.Title</Keyword>
+      <Text>Data částečně zkopírována</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.PracticeSelectionRequired.Title</Keyword>
+      <Text>Přidělit ordinaci</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ImportState.Success.Title</Keyword>
+      <Text>Importovaný</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectLoadError</Keyword>
+      <Text>Při nahrávání projektu z umístění '{0}' došlo k chybě.
+Detaily chyby:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosProjectValidationError</Keyword>
+      <Text>Projekt TRIOS je neúplný.
+Detaily chyby:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMappingMissingUsingDefault</Keyword>
+      <Text>Zub {0}: materiál {2} s ID původního umístění TRIOS {1} není namapován. Použijte {3}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingDefault</Keyword>
+      <Text>Zub {0}: není určen materiál. Použiji výchozí materiál - {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingAndNoDefaultUsingFirst</Keyword>
+      <Text>Zub {0}: v projektu TRIOS není určen materiál a není nastaven ani záložní výchozí materiál. Materiál '{1}' je použit jako první dostupný pro typ rekonstrukce '{2}'.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissingUsingFirst</Keyword>
+      <Text>Zub {0}: materiál {1} není povolen pro rekonstrukci {2}. Místo něj použiji {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.WortTypeHasNoMaterialsAssigned</Keyword>
+      <Text>Zub {0}: k názvu práce není přiřazen žádný materiál. Zub vynechán</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.TriosMappingDBFileCorrupt</Keyword>
+      <Text>Při nahrávání konfiguračního souboru TRIOS {0} došlo k chybě:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixTemplateNotFound</Keyword>
+      <Text>Specifikovaná transformační matrice dat skenu nebyla nalezena.
+Vyhledejte umístění: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ScanDataTranformationMatrixCopyFailed</Keyword>
+      <Text>Při kopírování transformační matice dat skenu do projektového adresáře došlo k chybě:
+Zdrojový soubor: {0}
+Cílový soubor: {1}
+Chyba: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ShowSourceFolder</Keyword>
+      <Text>Otevřít zdrojový adresář</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MarginDatabaseParseError</Keyword>
+      <Text>Při analýze souboru schůdkové linie '{0}' došlo k chybě.
+Detaily chyby:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportSetupFailed</Keyword>
+      <Text>Při konfiguraci automatického importu projektu TRIOS došlo k chybě:
+Sledovaný adresář: {0}
+Režim sledování: {1}
+Detaily chyby: {2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.AutomaticImportWatchDirectoriesPointsToSameDirectory</Keyword>
+      <Text>Při konfiguraci automatického importu projektu TRIOS došlo k chybě:
+ScanImport03WatchDir a ScanImport03WatchDir2 odkazují na stejný adresář, ale jsou nastaveny na odlišné režimy importu.
+Prosím zajistěte, aby ScanImport03WatchDir a ScanImport03WatchDir2 odkazovaly na odlišné adresáře.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ErrorProcessingDirectFormat</Keyword>
+      <Text>Při zpracování souboru přímého formátu {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.GenericImportError</Keyword>
+      <Text>Při zpracování projektu TRIOS {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.DirectoryCreationFailed</Keyword>
+      <Text>Při vytváření adresáře {0} došlo k chybě.
+Chyba: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet</Keyword>
+      <Text>Záložní adresář pro importované projekty TRIOS není nastaven. Prosím nastavte záložní adresář a zkuste to znovu.
+Automatický import projektu TRIOS je deaktivován.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.BackupDirNotSet.Ok</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ModelOrderWarning</Keyword>
+      <Text>Importovaný případ obsahuje výrobu modelu. Pomocí tlačítka Model creator spustíte návrh modelů.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.Warning</Keyword>
+      <Text>VAROVÁNÍ:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.ReconstructionTypeMissing</Keyword>
+      <Text>Daná hodnota {0}  rekonstrukce nebyla nalezena v databázi.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.MaterialMissing</Keyword>
+      <Text>Nelze vytvořit zadání z typu práce {0} a materiálu {1}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.JawModelScanNotDetected</Keyword>
+      <Text>Nejsou nalezeny žádné skenováné čelisti . Nelze vytvořit model.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport03.UnknownScanFileTypeDetected</Keyword>
+      <Text>Jeden nebo více skenované soubory nelze použít.
+Toto může způsobit dysfunkci DentalCAD jako chybějící skenovaná data.
+File types: {0}</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

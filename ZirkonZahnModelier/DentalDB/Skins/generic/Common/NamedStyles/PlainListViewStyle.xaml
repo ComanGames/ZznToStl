@@ -1,0 +1,100 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dc="clr-namespace:DentalConfig;assembly=DentalConfig">
+    <!-- Resource dictionary entries should be defined here. -->
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Brushes/Common.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    
+    <!--
+        This style is used in the MultiMessageBoxWithOptionsWindow<T>
+    -->
+
+    <!--PlainView Default Style for ListView-->
+    <Style x:Key="PlainView" TargetType="{x:Type ListView}">
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="AlternationCount" Value="2"/>
+        <Setter Property="Height" Value="95"/>
+        <Setter Property="Width" Value="Auto"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="FontSize" Value="11"/>
+        <Setter Property="ItemContainerStyle">
+            <Setter.Value>
+                <Style x:Key="{x:Type ListViewItem}" TargetType="ListViewItem">
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Height" Value="Auto"/>
+                    <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontSize" Value="{DynamicResource ContentFontSize}"/>
+                    <Setter Property="FontFamily" Value="{DynamicResource ContentFontFamily}"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListViewItem">
+                                <Border Name="OuterBorder" Margin="1,0,1,0" SnapsToDevicePixels="true" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding Background}" BorderThickness="1">
+                                    <Border Name="InnerBorder" >
+                                        <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" OpacityMask="{x:Null}" Margin="0,0,0,0"/>
+                                    </Border>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <!-- Triggers for alternating background color -->
+                                    <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                                        <Setter Property="Background" Value="{DynamicResource GrayBrush12}" />										
+                                    </Trigger>
+                                    <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                                        <Setter Property="Background" Value="{DynamicResource GrayBrush14}" />
+                                    </Trigger>
+                                    
+                                    <Trigger Property="IsSelected" Value="true">
+										<Setter Property="BorderBrush" TargetName="OuterBorder" Value="{DynamicResource BrandBrush2Border}"/>										
+                                        <Setter Property="Foreground" Value="{DynamicResource WhiteBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="BorderBrush" TargetName="OuterBorder" Value="{DynamicResource BrandBrush2BorderMouseOver}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource WhiteBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Background" TargetName="InnerBorder" Value="{StaticResource DisabledButtonInnerBackground}"/>
+                                        <Setter Property="Background" Value="{StaticResource DisabledButtonOuterBackground}"/>
+                                        <Setter Property="Foreground" Value="{StaticResource DisabledButtonForeground}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListView">
+                    <Border Name="Border" BorderThickness="0" BorderBrush="{StaticResource GroupBoxOuterBorder}" Background="{StaticResource GrayBrush7}" CornerRadius="0">
+                        <ScrollViewer Focusable="false" Padding="{TemplateBinding Padding}">
+                            <ItemsPresenter />
+                        </ScrollViewer>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsGrouping" Value="true">
+                            <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="Border" Property="Background" Value="{StaticResource DisabledGroupBoxOuterBackground}"/>
+                            <Setter TargetName="Border" Property="BorderBrush" Value="{StaticResource DisabledGroupBoxOuterBorder}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

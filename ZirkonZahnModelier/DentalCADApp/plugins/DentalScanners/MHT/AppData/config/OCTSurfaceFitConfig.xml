@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OctFitSurfaceConfig>
+  <global range="0 99"/>
+  <preregularise disable="false" iterations="10" max_deviation="10.000000"/>
+  <subslice disable="false" peakwidth="0.000000" metric="amplitude"/>
+  <phaseintegrate disable="true" prefit="false"/>
+  <flexiblepde disable="false">
+    <pdesolver iterations="50" step_size="0.900000"/>
+    <shortrange width="3.000000" window="2.000000"/>
+    <longrange width="15.000000" window="5.000000"/>
+    <z_pressure s="0.000000">
+      <vacuum s="0.000000" t="4.000000"/>
+    </z_pressure>
+    <stiffness s="0.050000">
+      <vacuum s="0.250000" t="4.000000"/>
+    </stiffness>
+    <attraction>
+      <vacuum s="0.500000" t="0.000000"/>
+    </attraction>
+  </flexiblepde>
+  <confidence width="6.000000" window="20.000000">
+    <box SNR="0.100000" noise="-0.050000"/>
+  </confidence>
+  <display>
+    <!-- <3dview>
+      <coloring source="confidence" range="0.000000 0.500000"/>
+      <visibility scale="log" confidence_based="false" range="0 1"/>
+    </3dview> -->
+  </display>
+  <distortioncorrection enable="true" type="1">
+    <lutfilename value="C:\sswork\ThreeDProgress\cfg\OCTSurfaceDistCorr.lut"/>
+  </distortioncorrection>
+  <parabola_fit nr_of_sample_points="2"/>
+  <volume_surfacefilter filtertype="0" parameter="10103" filtertype2="0" parameter2="10107"/>
+  <apply_zvalues_gauss_fit enabled="false" min_confidence="0.3" x_tolerance="0.001" init_stddev="50" nr_of_sample_points="2" saturation_ampl="500.0" sat_nr_of_sample_points="2"/>
+  <fill_crosshair enabled="true"/>
+
+  <!-- Double surface detection (for natural teeth):
+    - enabled: true or false
+    - max_distance: The maximum distance for the first and the second maximum
+    - min_first_to_second_max_factor: The amplitude of the second maximum should be at least this factor * amplitude of first maximum
+  -->
+  <detect_double_surfaces enabled="false" max_distance="10" min_first_to_second_max_factor="0.6"/>
+  <glass_window set_zero_conf_bottom_frame="3" set_zero_conf_glass_window_z="128" glass_window_c_increase="100"/>
+  <glass_window_s2 set_zero_conf_bottom_frame="6" set_zero_conf_glass_window_z="128" glass_window_c_increase="100"/>
+  <hangover_correction enabled="true" min_confidence="0.1" area_size="1" z_tolerance="200"/>
+
+  <!-- Parameters for the standard surface fit for Scanners with the Sensor II (MHT, QCC) -->
+  <surface_fit_s2>
+    <param name="reduceSpikeness" value="true"/>
+    <param name="enableMedianFilter" value="true"/>
+
+    <!-- Only maxima above this amplitude are considered -->
+    <param name="minPeakLevel" value="4"/>
+
+    <!-- This value is used to determine the breadth of a maximum -->
+    <param name="noiseLevel" value="3"/>
+
+    <!-- Maximum spikeness factor: Higher values accept spikier parts -->
+    <param name="maxSpikeFactor" value="10.0"/>
+
+    <!-- Use the Gauss fit with Gauss-Newton iterations (instead of Levenberg-Marquardt algorithm) -->
+    <param name="useFastGaussFit" value="true"/>
+
+    <!-- Perform an moving average filter over the values before surface fit (right now, only 0 or 2 are supported) -->
+    <param name="zScanFilterSize" value="0"/>
+
+    <!-- GaussianFilter LowpassFilter MedianFilter NoFilter -->
+    <param name="filterType" value="GaussianFilter"/>
+    <param name="kernelSize" value="3"/>
+
+    <param name="writeDebugInfo" value="false"/>
+    <param name="enableConvolution" value="false"/>
+
+    <!-- In order to determine the glare amplitude, the histogram of amplitudes is smoothed with this parameter -->
+    <param name="smoothHistogramCutoffWavelength" value="4480.0"/>
+    <!-- If no two maxima are found in the amplitude histogram, use this amplitude as glare spot level -->
+    <param name="defaultGlareAmplLevel" value="16384.0"/>
+    <!-- Lowest accepted amplitude for a maximum in the amplitude histogram -->
+    <param name="minAcceptedExtremumLvl" value="8192.0"/>
+    <!-- Highest accepted amplitude for a maximum in the amplitude histogram -->
+    <param name="maxAcceptedExtremumLvl" value="16384.0"/>
+
+    <!-- Max. angle of a glare spot cone -->
+    <param name="glareSpotMaxAngle" value="45.0"/>
+    <!-- Max distance (in pixels) of a glare spot. Beyond this distance, a glare spot is ignored (speed!) -->
+    <param name="gsInfluenceDistance" value="20"/>
+    <!-- Strategy to reduce the edge points of a glare spot: GeoBins, Simple or All -->
+    <param name="gsEdgePointsReductionStrategy" value="GeoBins"/>
+  </surface_fit_s2>
+
+  <!-- Parameters for the PDE Surface fit (rubber skin) for Scanners with the Sensor II (MHT, QCC) -->
+  <surface_fit_pde enabled="false">
+  
+    <!-- Speedup: Use only every n*n pixel for convolution and PDE -->
+    <param name="divisionFactor" value="2"/>
+
+    <!-- Parameters for the convolution function, default: 4, 2.0, -0.22222222222 -->
+    <param name="convolutionWidth" value="9"/>
+    <param name="convFuncFactor" value="18.0"/>
+    <param name="convFuncExpFactor" value="-0.06"/>
+    
+    <!-- Parameters for nulling out the surrounding of a maximum -->
+    <param name="zeroMaximumLimit" value="0.6"/>
+    <param name="minNullArea" value="3"/>
+    <param name="maxRisingWidth" value="2"/>
+
+    <!-- Parameters for accepting a maximum in a Z-Scan -->
+
+    <!-- If the value of the highest maximum is n times or more than the second highest, the second maximum is ignored -->
+    <param name="minMaximumFactor" value="1.2"/>
+    <!-- After convolution, what is the minimum level of a peak to be accepted as a maximum -->
+    <param name="minPeakLevel" value="2"/>
+
+    <!-- Attraction force of maxima compared to stiffness of surface.
+      Default: 1.0, higher values mean higher attraction force, lower values mean stiffer surface.
+    -->
+    <param name="pdeAttractionWeight" value="1.0"/>
+    <!-- Maximum distance of maximum to PDE surface -->
+    <param name="maxZDiffPDE" value="200.0"/>
+
+    <!-- Use the Gauss fit with Gauss-Newton iterations (instead of Levenberg-Marquardt algorithm) -->
+    <param name="useFastGaussFit" value="true"/>
+
+    <!-- For debugging: Use PDE solver surface -->
+    <param name="usePDESurface" value="false"/>
+  </surface_fit_pde>
+
+  <export disable="false">
+    <path value="C:\stitching_Exchange\dataEva"/>
+    <filename value="surf_9oct08_"/>
+    <counter value="0"/>
+    <typ value="1"/>
+  </export>
+  <glarespotcompensation enable="false">
+  
+    <!--
+      Processing parameters
+    -->
+    <!-- Depth of the filter (in each dimension) -->
+    <param name="filterDepth" value="2"/>
+    <!-- Amplitude of noise (glare spot is eliminated until this level) -->
+    <param name="noiseLevel" value="4.0"/>
+    <!-- Minimum amplitude of a glare spot -->
+    <param name="minGlareSpotLevel" value="100"/>
+    <!-- Glare spot cutoff factor: The voxels still considered to be part of the glare spot
+      must have at least the amplitude of the brightest point divided by this factor -->
+    <param name="cutOffFactor" value="2"/>
+    <!-- Work on a scaled-down volume -->
+    <param name="scalingFactor" value="2"/>
+
+    <!--
+      Parameters for glare spot detection
+    -->
+    <!-- Minimum size of glare spot around brightest point in Z direction -->
+    <param name="minSizeZAroundBrightest" value="5"/>
+    <!-- Area to search around brightest spot -->
+    <param name="searchRadiusAroundBrightest" value="10"/>
+    <!-- Minimum value of the Z dimension around brightest spot divided by the X/Y diagonal -->
+    <param name="minSizeValueZByXY" value="0.25"/>
+    <!-- Same as above, but as a single criterion -->
+    <param name="minSizeValueZByXYAlone" value="0.3"/>
+    <!-- Minimum size of glare spot around brightest point in Z direction -->
+    <param name="minSizeZAroundBrightestAlone" value="5"/>
+    <!-- Size of maximum in Z scan until noise is found -->
+    <param name="minSizeZUntilNoise" value="15"/>
+    <!-- Noise level for sizeZUntilNoise detection (see above) -->
+    <param name="noiseForSizeZ" value="30.0"/>
+    
+    <!--
+      Parameters for removing glare points
+    -->
+    <!-- For every N pixels in Z direction, allow 1 pixel in vertical direction -->
+    <param name="minIncrementForNulling" value="2"/>
+    <!-- Before starting to remove glare points, extend glare point by F * sizeZ of glare point -->
+    <param name="extentFactor" value="0.5"/>
+    <!-- Erase pixels around glare spot -->
+    <param name="erasePixelsAroundGlareSpot" value="2"/>
+  </glarespotcompensation>
+
+</OctFitSurfaceConfig>

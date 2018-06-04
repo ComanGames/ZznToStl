@@ -1,0 +1,16 @@
+<!-- DO NOT MODIFY THIS FILE!
+   
+     It will be overwritten during update process
+     
+     Instead, copy it to "scanner-gtm-settings.xml" and make your changes there
+     (you can remove the tags that remain unchanged - entries in scanner-gtm-settings.xml
+     will override entries in scanner-gtm-defaultsettings.xml) -->
+     
+<DentalScannerSettingsProviderGTM>
+	<DentalScanner_GTM_LocalConfigurationDirectory>DentalScannerGTM</DentalScanner_GTM_LocalConfigurationDirectory>
+	<DentalScanner_GTM_CutPointCloudsWithALowerPlane>true</DentalScanner_GTM_CutPointCloudsWithALowerPlane>
+	<DentalScanner_GTM_CuttingPlaneDistance>5.0</DentalScanner_GTM_CuttingPlaneDistance>
+	<DentalScanner_GTM_CalibrationTimeOutDays>7</DentalScanner_GTM_CalibrationTimeOutDays>
+	<DentalScanner_GTM_AxisALimit>45.0</DentalScanner_GTM_AxisALimit>
+	<DentalScanner_GTM_ShowCameraViewDirection>false</DentalScanner_GTM_ShowCameraViewDirection>
+</DentalScannerSettingsProviderGTM>

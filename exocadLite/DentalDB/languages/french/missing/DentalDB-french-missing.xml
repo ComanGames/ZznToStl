@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translations>
+    <Translation>
+      <Keyword>DentalDB.Import.ToothShadeDefinitionIncomplete</Keyword>
+      <Text>Tooth shade definition for tooth {0} is incomplete. Tooth will be treated as if no shade is defined.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ToothWorkListMissing</Keyword>
+      <Text>Tooth work list is missing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoDateTagOrInvalid</Keyword>
+      <Text>
+    No creation date found in dental project file or date is not in valid format. Use current date? 
+    If you select no, import will be aborted
+    !!!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.NoNotesTag</Keyword>
+      <Text>No notes found in dental project file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTrayNo</Keyword>
+      <Text>&lt;TrayNo&gt; tag contains no valid (integer) tray no</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidTechnicianId</Keyword>
+      <Text>&lt;TechnicianId&gt; tag contains no valid (integer) technician id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.TechnicianTagMissing</Keyword>
+      <Text>Cannot resolve technician. &lt;TechnicianId&gt; tag is not present!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InsufficientPatientData</Keyword>
+      <Text>Cannot extract patient ID from provided dental project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPatientId</Keyword>
+      <Text>&lt;PatientId&gt; tag contains no valid (integer) patient id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PatientTagMissing</Keyword>
+      <Text>Cannot resolve patient.Neither &lt;PatientId&gt; nor &lt;Patient&gt; tag is present!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.InvalidPracticeId</Keyword>
+      <Text>&lt;PracticeId&gt; tag contains no valid (integer) practice id</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.PracticeTagMissing</Keyword>
+      <Text>Cannot resolve practice. &lt;PracticeId&gt; tag is not present!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ImportErrorHeader</Keyword>
+      <Text>Error importing project!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Filter.Description</Keyword>
+      <Text>Dental project</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath.Header</Keyword>
+      <Text>Critical Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.NoDBatPath</Keyword>
+      <Text>
+    Database ({0}) not found. 
+    Please ensure that provided path to database is valid and database file exists.
+    Application will be terminated.
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB.Header</Keyword>
+      <Text>Critical Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Error.ReadOnlyDB</Keyword>
+      <Text>
+    Database ({0}) is read only. 
+    Please ensure that you have write access to the database (file).
+    Application will be terminated.
+    </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Connectors.Lock.InsufficientDetails</Keyword>
+      <Text>Not enough information for connector using</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueInUse</Keyword>
+      <Text>Value is used by some project(s).Cannot remove value.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType</Keyword>
+      <Text>Value is used as default value by following work types:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.Details</Keyword>
+      <Text>short name {0}; description {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkType.AdviceForResolveProblem</Keyword>
+      <Text>Choose at first other default values.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion</Keyword>
+      <Text>Value is used as default value by following work definitions:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefinition.Details</Keyword>
+      <Text>Work type: {0} ( {1} ),  Material {0} ( {1} )</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ParameterTextualValueUsedAsDefaultWorkDefintion.AdviceForResolveProblem</Keyword>
+      <Text>Choose at first other default values.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPositiveIdConstraint</Keyword>
+      <Text>Only numbers greater zero are allowed for IDs.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorIdPoolEmpty</Keyword>
+      <Text>You have reached the highest ID possible. Please clean up your data and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorPracticeIdExceedsLengthConstraint</Keyword>
+      <Text>Cannot create new client. New client's autogenerated ID ({0}) exceeds allowed length for IDs.
+Maximal allowed length: {1},
+Maximal allowed ID: {2}.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Main.Treatment.NewTreatmentFromE4D</Keyword>
+      <Text>Planmeca
+PlanScan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Main.Options</Keyword>
+      <Text>Options</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Treatment.Notes</Keyword>
+      <Text>Notes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse</Keyword>
+      <Text>One or more projects refer to the client you are about to delete. Do you really want to delete the client?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.DeleteClient</Keyword>
+      <Text>Delete client</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.DeleteClient.Description</Keyword>
+      <Text>The client and all projects referring to this client are deleted.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.KeepClient</Keyword>
+      <Text>Keep client</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.KeepClient.Description</Keyword>
+      <Text>The client and all projects referring to this client are kept.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Client.InUse.Title</Keyword>
+      <Text>Warning!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse</Keyword>
+      <Text>One or more projects refer to the patient you are about to delete. Do you really want to delete the patient?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.DeletePatient</Keyword>
+      <Text>Delete patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.DeletePatient.Description</Keyword>
+      <Text>The patient and all projects referring to this patient are deleted.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.KeepPatient</Keyword>
+      <Text>Keep patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.KeepPatient.Description</Keyword>
+      <Text>The patient and all projects referring to this patient are kept.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Patient.InUse.Title</Keyword>
+      <Text>Warning!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse</Keyword>
+      <Text>One or more projects refer to the technician you are about to delete. Do you really want to delete the technician?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.DeleteTechnician</Keyword>
+      <Text>Delete technician</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.DeleteTechnician.Description</Keyword>
+      <Text>The technician and all projects referring to this technician are deleted.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.KeepTechnician</Keyword>
+      <Text>Keep technician</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.KeepTechnician.Description</Keyword>
+      <Text>The technician and all projects referring to this technician are kept.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.RemoveAction.Technician.InUse.Title</Keyword>
+      <Text>Warning!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ConfirmPurgeTreatment.Multiple</Keyword>
+      <Text> Warning!
+      You are going to destroy all projects marked as deleted. This action is irrevocable.
+      Would you like to delete also construction data etc. from your hard drive?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Messages.ValueForbiddenByMaterialRestriction</Keyword>
+      <Text>The value '{0}' for parameter '{1}' is currently forbidden. Be careful using this value.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.PostAndCore</Keyword>
+      <Text>Post and Core</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImplantType.Value.SubstructureScan</Keyword>
+      <Text>Substructure (e.g. bar)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LingualBandHeight.Parameter</Keyword>
+      <Text>Lingual band height</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Mod.WatchdogLabel</Keyword>
+      <Text>Mod</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileTransfer.ASCandSTL</Keyword>
+      <Text>STL and ASC data</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentAlreadyUploadedWarning.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOpticsRound</Keyword>
+      <Text>Smartoptics plate (12 dies)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SmartOptics</Keyword>
+      <Text>Smartoptics plate (7 dies)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Medit</Keyword>
+      <Text>Medit/Solutionix plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Shining3D</Keyword>
+      <Text>Shining3D plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Maestro</Keyword>
+      <Text>Maestro plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D102</Keyword>
+      <Text>Imetric D102/D104 plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IMetric.D100</Keyword>
+      <Text>Imetric D100 plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.IntelligenceS</Keyword>
+      <Text>IntelligenceS plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.GC</Keyword>
+      <Text>GC plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL</Keyword>
+      <Text>Steinbichler ST II plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SBL_ST1</Keyword>
+      <Text>Steinbichler ST plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.AG</Keyword>
+      <Text>Amann Girrbach plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.DOF</Keyword>
+      <Text>DOF plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.DOF_HD</Keyword>
+      <Text>DOF HD plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.SingleDie</Keyword>
+      <Text>Single die plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.OTN</Keyword>
+      <Text>OpenTechnologies plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiDiePlugin.Up3d</Keyword>
+      <Text>Up3d plate</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.Intraoral</Keyword>
+      <Text>Antagonist autocomplete option is enabled.
+Please choose below whether you would like to add antagonist automatically.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.SingleJaw.Description</Keyword>
+      <Text>Antagonist will not be added</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AutoCompletitionAntagonist.Cancel.Description</Keyword>
+      <Text>Back to the project</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.ManualProblemResolutionRequired</Keyword>
+      <Text>Project could not be imported automatically. Please resolve conflicts manually to complete import.
+Hint: use tool tip over project to get detailed info.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.PatientNameMismatch</Keyword>
+      <Text>Patient name has been updated.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalshareReuploadUploadedFiles</Keyword>
+      <Text>Force reupload of already uploaded files</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.WorkParamsDataValidationError</Keyword>
+      <Text>An error occurred validating material configuration data.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UserWorkParamsDataNotFound</Keyword>
+      <Text>User default material configuration could not be found. Falling back to default one.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.DentalProjectFileStorageError</Keyword>
+      <Text>An error occurred storing dental project to '{0}'.
+Error details:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsHashMismatch</Keyword>
+      <Text>The imported project was created with different material configuration and does not match current one. This may lead to inaccurate result in design process.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Warning.OlderVersion.WorkParamsSignatureMismatch</Keyword>
+      <Text>The imported project was created with verified material configuration. Material configuration used for import is not verified or provided in different version.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SignatureVerificationWorkParamsError</Keyword>
+      <Text>The material configuration file to be used could not be verified and therefore cannot be used in this version of DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.SignatureVerificationWorkParamsError</Keyword>
+      <Text>The dental project cannot be imported as material configuration used to create it could not be verified and therefore cannot be used in this version of DentalDB.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParams.VerficationError.Title</Keyword>
+      <Text>Material configuration prohibited.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.Error.Parsing.WorkParamsDBLoadFailed</Keyword>
+      <Text>An error occurred processing material configuration data:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers</Keyword>
+      <Text>This project references a patient name "{0}" with ID {1}. However, the patient name stored for lab {2} with ID {1} is "{3}". If you proceed with the import, the name for ID {1} will be changed to "{0}" for all stored cases.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.OverwriteExisting</Keyword>
+      <Text>OK</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.OverwriteExisting.Description</Keyword>
+      <Text>Change patient name for all stored cases.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProjectImport.LocalPatientNameDiffers.Cancel.Description</Keyword>
+      <Text>Abort import.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DependentParameterValueMismatch</Keyword>
+      <Text>Your local configuration of indications/materials is not compatible with the imported file. Please choose a different material configuration and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameter</Keyword>
+      <Text>Your local configuration of indications/materials is not compatible with the imported file. Please choose a different material configuration and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameterValue</Keyword>
+      <Text>Your local configuration of indications/materials is not compatible with the imported file. Please choose a different material configuration and try again.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.SelectPractice</Keyword>
+      <Text>Please select client to assign the project to.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.BridgeDisconnected</Keyword>
+      <Text>Project defines bridges which could not be transferred as restorations for teeth from bridge do not allow bridges.
+Desired bridges:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectGuidRequired</Keyword>
+      <Text>No unique project ID is specified. Cannot import project.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownReconstruction</Keyword>
+      <Text>Unknown reconstruction type '{1}' for tooth {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NotSupportedMaterialForReconstruction</Keyword>
+      <Text>Reconstruction '{1}' defined for tooth {0} does not allow usage of desired material.
+Material tried: {2}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownParameterValue</Keyword>
+      <Text>Undefined value '{2}' for parameter '{1}' for tooth {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.UnknownMaterialParameters</Keyword>
+      <Text>One or more material parameters which are defined for tooth {0} are not defined in material configuration used.
+Parameters:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NoPatientSpecified</Keyword>
+      <Text>Project to import does not contain patient data, which are mandatory.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectLiteNotAllowed</Keyword>
+      <Text>Dental project you are importing is a reduced version of dental project format and cannot be imported.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectLiteOnlyAllowed</Keyword>
+      <Text>Dental project you are importing is a standard version of dental project format and cannot be imported when using automatic import.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ShowError.Title</Keyword>
+      <Text>Error message for project {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.ProjectSourceFolder</Keyword>
+      <Text>Project source folder: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed</Keyword>
+      <Text>Could not auto detect dental project type. Please specify dental project type.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Standard</Keyword>
+      <Text>Standard dental project format</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Standard.Description</Keyword>
+      <Text>Usually project received from other dental technician</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.RecipientMaterialConfiguration</Keyword>
+      <Text>Dental project lite</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.RecipientMaterialConfiguration.Description</Keyword>
+      <Text>Usually project received from dentist or using 3rd party chairside software</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.DentalProjectTypeDetectionFailed.Cancel</Keyword>
+      <Text>Abort import</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.NonUniqueClient</Keyword>
+      <Text>Multiple clients with same name exist - selection required.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Title</Keyword>
+      <Text>Material configuration info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Name</Keyword>
+      <Text>Name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WorkParamsDBInfo.Version</Keyword>
+      <Text>Version</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericDefault</Keyword>
+      <Text>ToothID: {0} - Numeric parameter {1} set from  {2} to {3}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumDefault</Keyword>
+      <Text>ToothID: {0} - Numeric enum parameter {1} set from {2} to  {3} ({4}).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualDefault</Keyword>
+      <Text>ToothID: {0} - Textual parameter {1} set from {2} to {3}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualDefault</Keyword>
+      <Text>ToothID: {0} - Dependent textual parameter {1} set from {2} to {3}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialDefault</Keyword>
+      <Text>ToothID: {0} - Material parameter {1} set from {2} to {3}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericAdd</Keyword>
+      <Text>ToothID: {0} - Numeric parameter {1} (Value: {2}) added.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumAdd</Keyword>
+      <Text>ToothID: {0} - Numeric enum parameter {1} (Keyword: {2}, Value: {3}) added.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualAdd</Keyword>
+      <Text>ToothID: {0} - Textual parameter {1} with value {2} added.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualAdd</Keyword>
+      <Text>ToothID: {0} - Dependent textual parameter {1} with value {2} added.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialAdd</Keyword>
+      <Text>ToothID: {0} - Material parameter {1} with value {2} added.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericRemove</Keyword>
+      <Text>ToothID: {0} - Numeric parameter {1} with value {2} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualRemove</Keyword>
+      <Text>ToothID: {0} - Textual parameter {1} with value {2} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualRemoveDependent</Keyword>
+      <Text>ToothID: {0} - Following dependent parameters were also removed, as textual parameter {1} was removed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualRemove</Keyword>
+      <Text>ToothID: {0} - Dependent textual parameter {1} with value {2} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentTextualNoValue</Keyword>
+      <Text>ToothID: {0} - Dependent textual parameter {1} does not have any value defined for key {2}. Following dependent parameters are removed:
+{3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialRemove</Keyword>
+      <Text>ToothID: {0} - Material parameter {1} with value {2} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.OldWorkParamsDB.Hash</Keyword>
+      <Text>Old workparams hash: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.OldWorkParamsDB.FileName</Keyword>
+      <Text>Old workparams filename: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NewWorkParamsDB.Hash</Keyword>
+      <Text>New workparams hash: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NewWorkParamsDB.FileName</Keyword>
+      <Text>New workparams filename: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ToothBridgeChanged</Keyword>
+      <Text>Some of the bridges/connected restorations could not be transferred to the new material configuration.
+List of connected restorations:
+{0}
+
+List of connected restorations after update:
+{1}
+	</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.RecoTypeNotExist</Keyword>
+      <Text>ToothID: {0} - Reco-Type does not exist. {1} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialNotExist</Keyword>
+      <Text>ToothID: {0} - Material does not exist. {1} removed.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialReplaced</Keyword>
+      <Text>ToothID: {0} - Material {1} does not exist in new material configuration, but the user has selected a replacement material {2}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectPathNotExist</Keyword>
+      <Text>Project directory does not exist: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DependentParameterRemoved</Keyword>
+      <Text>Dependent parameter {0} with value {1} removed for textual parameter {2} and tooth {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.Warning</Keyword>
+      <Text>Warning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.Error</Keyword>
+      <Text>Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfigurationChange.Teeth</Keyword>
+      <Text>Teeth</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfigurationChange.Dies</Keyword>
+      <Text>Die(s)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NoEntry</Keyword>
+      <Text>no entry</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialSelection.OldMaterial</Keyword>
+      <Text>Material used</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.MaterialSelection.AvailableMaterials</Keyword>
+      <Text>Available materials</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectedMaterialNotExist</Keyword>
+      <Text>The selected material does not exist in all reconstruction types {0}. Would you like to choose the material itself?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectMaterial</Keyword>
+      <Text>Material selection required</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SelectMaterial.Hint</Keyword>
+      <Text>Material used for teeth/dies {0} is not available in the new material configuration. Please select the material to use from the list of available materials below.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Next</Keyword>
+      <Text>Next</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist</Keyword>
+      <Text>Note: The design is already completed and cannot be modified. If you wish to change the design parameters, restart the design from scratch.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.SceneExist</Keyword>
+      <Text>Note: One or more scene files are detected. If you wish to change the design parameters in a scene, you will need to restart the design from scratch.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ConstructionInfoExist.Cancel.Description</Keyword>
+      <Text>Keep current material configuration. No changes will take place.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.WorkParamsDBValidationFailed</Keyword>
+      <Text>Material configuration validation failed! The file "{0}" does not exist.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Warning.ProjectMatchWorkParamsDB</Keyword>
+      <Text>The project does not match the current material configuration! Hint: You can change the material configuration for this project manually by clicking on 'Material configuration' link in 'Project status' section.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DifferentParameter</Keyword>
+      <Text>The loaded project is different to the current material configuration files and was adjusted.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.DifferentParameter.Details</Keyword>
+      <Text>Further details can be found in the log file {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ReadOnlyProject.Title</Keyword>
+      <Text>Read-only project</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.ReadOnlyProject</Keyword>
+      <Text>Material configuration is not embedded into the project loaded. Therefore the project is loaded in read only mode. You will not be able to add/edit restorations.
+To enable all features, please change the material configuration for this project manually by clicking 'Select material configuration...' in the 'Project status' section.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.TreatAsLocalProject</Keyword>
+      <Text>Treat as local</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.TreatAsLocalProject.ToolTip</Keyword>
+      <Text>When this option is selected, the project imported from the default data storage path will handled as if it was created locally.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Import.TreatmentParameterValueAdjusted</Keyword>
+      <Text>Value {0} is not a valid value for parameter '{1}'. {2} will be used instead.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch</Keyword>
+      <Text>Material configuration change process is not finished yet. Closing the dialog will stop the process.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Close</Keyword>
+      <Text>Close</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Close.Description</Keyword>
+      <Text>Closing the window will left the material configuration unchanged for this project</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Continue</Keyword>
+      <Text>Continue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.AbortMaterialConfigurationSwitch.Continue.Description</Keyword>
+      <Text>Continue with material configuration switching</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericParameter.HiddenReplaced</Keyword>
+      <Text>ToothID: {0} - Numeric parameter {1} is marked as hidden in the new material configuration. The old value {2} is discarded and will be replaced with the new value {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.NumericEnumParameter.HiddenReplaced</Keyword>
+      <Text>ToothID: {0} - Numeric enum parameter {1} is marked as hidden in new material configuration. The old value {2} is discarded and will be replaced with the new value {3} (keyword - {4}).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenReplaced</Keyword>
+      <Text>ToothID: {0} - Textual parameter {1} is marked as hidden in new material configuration. The old value {2} is discarded and will be replaced with the new value {3}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenDependentRemoved</Keyword>
+      <Text>ToothID: {0} - Textual parameter {1} is marked as hidden in new material configuration. Following dependent parameters are removed:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.HiddenDependentParam</Keyword>
+      <Text>Parameter {0} - value {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.TextualParameter.DependentParamInfo</Keyword>
+      <Text>Parameter {0} - value {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.Removed</Keyword>
+      <Text>Project parameter {0} (value {1}) removed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.Added</Keyword>
+      <Text>Project parameter {0} with value {1} added</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.ProjectParameter.ValueMissing</Keyword>
+      <Text>Project parameter {0} with value {1} is not present in the new material configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.JobCustomInfoField.Removed</Keyword>
+      <Text>Project custom info field '{0}' removed. Value used:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MaterialConfiguration.JobCustomInfoField.Added</Keyword>
+      <Text>Project custom info field '{0}' added</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView</Keyword>
+      <Text>Project print preview</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExportToPDF</Keyword>
+      <Text>Export to PDF</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print</Keyword>
+      <Text>Print</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Print</Keyword>
+      <Text>Print</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Printing</Keyword>
+      <Text>Printing...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnknownError</Keyword>
+      <Text>Unknown Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFileCreationFailed</Keyword>
+      <Text>Cannot create PDF file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFilePrintingFailed</Keyword>
+      <Text>Cannot print PDF file.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFFileClearFailed</Keyword>
+      <Text>The file {0} already exists and seems to be in use. Please check that the file is not opened by another program and try again.
+
+System error message: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PDFExportFailed</Keyword>
+      <Text>Export to PDF failed.
+Error details:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileType.PDF.Description</Keyword>
+      <Text>PDF</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorStartingPDFViewer</Keyword>
+      <Text>Error starting PDF viewer (file={0}, error={1}). 
+If you do not want to start the PDF viewer after saving, you can disable 'PDF show after export' in settings menu.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Project</Keyword>
+      <Text>Project</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.CaseID</Keyword>
+      <Text>Case-ID</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Laboratory</Keyword>
+      <Text>Laboratory</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Patient</Keyword>
+      <Text>Patient</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Multidie.JobName</Keyword>
+      <Text>Job name</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Client</Keyword>
+      <Text>Client</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Technician</Keyword>
+      <Text>Technician</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ProjectCreated</Keyword>
+      <Text>Created</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Printed</Keyword>
+      <Text>Printed</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Scanning</Keyword>
+      <Text>Scanning</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Notes</Keyword>
+      <Text>Notes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.NotesContinued</Keyword>
+      <Text>Notes (continued)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Bridges</Keyword>
+      <Text>Bridges</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Build</Keyword>
+      <Text>build</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ScanType</Keyword>
+      <Text>Scan mode</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.ImplantType</Keyword>
+      <Text>Implant type</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateGingivaScan</Keyword>
+      <Text>Uses separate Gingiva-Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateSituScan</Keyword>
+      <Text>Uses separate Pre-Op</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.UsesSeparateWaxupScan</Keyword>
+      <Text>Uses separate Waxup-Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrintView.Client.ComposedName</Keyword>
+      <Text>{0} (Original: {1})</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print.PageOf</Keyword>
+      <Text>of</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.UI.Print.Page</Keyword>
+      <Text>Page</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LocalImport</Keyword>
+      <Text>Imported from project file</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.InvalidId</Keyword>
+      <Text>Could not load project with ID {0} because the ID is invalid.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.UnknownId</Keyword>
+      <Text>Could not find a project with ID {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.CouldNotSetProject</Keyword>
+      <Text>Could not load project with id "{0}".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.StartupProject.ErrorNotificationTitle</Keyword>
+      <Text>Startup project could not be loaded</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CurrentMaterialConfigurationNotFoundInMaterialConfigurationList</Keyword>
+      <Text>The material configuration used in the project is not in the list of material configurations available. In case of switching the material configuration, the changes will be irreversible.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MachineUserPreferencesFileCorruptOrInaccessible</Keyword>
+      <Text>The user machine preferences file is inaccessible or corrupt. Any of your changes will overwrite all changes done before.
+Changes done previously are not available and hence will not be displayed.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MachineUserPreferencesUpdateFailed</Keyword>
+      <Text>An error occurred while updating user machine preferences.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.MachineUserPreferencesKeepAtLeastOneSelected</Keyword>
+      <Text>You need to leave at least one machine/filter selected.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MultiMessageBoxWithOptions.SelectionRequired</Keyword>
+      <Text>For this selection you need to select one of the options from the list above</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Dentalshare.NotAvailableInDemoVersion.Title</Keyword>
+      <Text>Sorry, dentalshare is not available in the demo version</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Dentalshare.NotAvailableInDemoVersion.Description</Keyword>
+      <Text>Did you know that dentalshare is included for free if your exocad license is up to date?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.MaterialConfiguration.OldVersion</Keyword>
+      <Text>The selected job was created using an older version of material configuration. Do you want to update the job's material configuration?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.MaterialConfiguration.OldVersion.Update</Keyword>
+      <Text>Update</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.MaterialConfiguration.OldVersion.Update.Description</Keyword>
+      <Text>The job's material configuration will be updated.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.MaterialConfiguration.OldVersion.Cancel</Keyword>
+      <Text>Keep existing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalDB.Treatment.MaterialConfiguration.OldVersion.Cancel.Description</Keyword>
+      <Text>Keep using old material configuration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SystemInformation</Keyword>
+      <Text>System Information</Text>
+    </Translation>
+  </Translations>
+  <IncludeFiles />
+</TranslationContainer>

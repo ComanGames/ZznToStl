@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IncludeFiles />
+  <Translations>
+    <Translation>
+      <Keyword>CAMReader.Load.NullArgument</Keyword>
+      <Text>Keine CAM-Datei zum Laden angegeben.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.LocationNotResolvable</Keyword>
+      <Text>Weder Datei noch Verzeichnis mit angegebenem Namen '{0}' wurde gefunden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveExtension</Keyword>
+      <Text>Dateierweiterung für '{0}' konnte nicht ermittelt werden.
+Fehler:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingDirectory</Keyword>
+      <Text>Verzeichnis für Datei '{0}' kann nicht ermittelt werden.
+Fehler:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.ErrorResolvingProjectName</Keyword>
+      <Text>Projektname für CAM-Datei '{0}' konnte nicht ermittelt werden.
+Fehler:{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.CannotResolveCAMProjectTypeFromExtension</Keyword>
+      <Text>Projekttyp für CAM-Datei von Typ '{0}' konnte nicht ermittelt werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotResolveProjectType</Keyword>
+      <Text>Die CAM-Datei {0} hat ein unbekanntes Projektformat.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.CannotGetAdditionalFiles</Keyword>
+      <Text>Keine zum Suchmuster {0} passenden Dateien konnten im Verzeichnis {1} gefunden werden.
+Fehler:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Load.IncompleteData</Keyword>
+      <Text>Die vorliegenden Informationen reichen nicht aus, um das CAM-Projekt zu importieren.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Fehler beim Laden der Datei {0}.
+Fehlermeldung:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Fehler beim Lesen der Präparationsgrenzendatei {0}.
+Fehler:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>
+      <Text>Präparationsgrenze {0} konnte nicht in Präparationsgrenzendatei gefunden werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.LineSplittingFailed</Keyword>
+      <Text>Fehler beim Aufteilen der Präparationsgrenzendaten. Name der Präparationsgrenze: '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.Vec3.EmptyString</Keyword>
+      <Text>Leerer Text kann nicht in XYZ-Koordinate konvertiert werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.Vec3.CoordReadFailed</Keyword>
+      <Text>Text '{0}' kann nicht in XYZ-Koordinate konvertiert werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileNotFoundError</Keyword>
+      <Text>Datei '{0}' nicht gefunden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.IniReaderInitFailed</Keyword>
+      <Text>Problem beim Lesen der INI-Datei {0}.
+Fehler: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.JobInfoNotFound</Keyword>
+      <Text>CAM-Projektinformationen sind nicht vorhanden in {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.FileToLarge</Keyword>
+      <Text>Datei {0} ist zu groß, um eine gültige CAM-Projektdatei zu sein.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileInfoError</Keyword>
+      <Text>Fehler beim Lesen von Informationen über Datei {0}.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveCountMismatch</Keyword>
+      <Text>Ungültige Anzahl an Kurven</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveAngleDataNotFound</Keyword>
+      <Text>Kurvenwinkeldaten für Winkel {0} konnten nicht gefunden werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.CurveNotFound</Keyword>
+      <Text>Kurvendataen für Kurve {0} konnten nicht gefunden werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MeshDataNotFound</Keyword>
+      <Text>Informationen über Meshdaten konnten in der Projektdatei nicht gefunden werden.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.WIZ.MarginDataNotFound</Keyword>
+      <Text>Informationen zu den Präparationsgrenzendaten konnten nicht in der Projektdatei gefunden werden. Präparationsgrenzendatei {0} fehlt.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.ASCParseFailed</Keyword>
+      <Text>Beim Lesen der Präparationsgrenzen aus Datei {0} kam es zu einem Problem.
+Fehler: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3SASC.UnknownEntry</Keyword>
+      <Text>Die folgende Linie enthält keine Punktdaten:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.D3S_Split.DataMissed</Keyword>
+      <Text>Meshdaten fehlen.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.ProjectNotFound</Keyword>
+      <Text>CAM-Projekt nicht gefunden.</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

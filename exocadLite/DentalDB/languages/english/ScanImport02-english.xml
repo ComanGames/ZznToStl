@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Please try to put customer-specific settings in the beginning of the file -->
+  <!--
+  <Translation>
+    <Keyword></Keyword>
+    <Text></Text>
+  </Translation>
+  -->
+
+  <Translations>
+    <Translation>
+      <Keyword>ScanImport02.LabMissing</Keyword>
+      <Text>Could not obtain default lab.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ImportFailed</Keyword>
+      <Text>
+        An error occurred while creating a project from a 3M project.
+        Error message:
+        {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ImportSuccessed</Keyword>
+      <Text>The project draft was successfully created from the 3M file {0}.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.RestorationSkipped</Keyword>
+      <Text>Restoration {0} skipped. Affected teeth: {1}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ToothSkipped</Keyword>
+      <Text>Tooth {0} skipped.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ImportedWithWarnings</Keyword>
+      <Text>
+        The dental project draft was created from the 3M project
+        3M project file:
+        {0}
+
+
+        Some data may not be proceeded and therefore are missing in project:
+        {1}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectPractice.Header</Keyword>
+      <Text>Select client</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.AddPracticeFirst</Keyword>
+      <Text>
+        The customer specified in the 3M project file was not found in the database.
+        Please fill out the following form to create a customer with a specified name.
+        To proceed without creating a new customer and to assign an existing customer to
+        the project created from the 3M project, close the window.
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMissingInProjectFileDB</Keyword>
+      <Text>There is no reconstruction type with ID '{0}'. Please contact your distributor for details.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeMappingMissing</Keyword>
+      <Text>There is no reconstruction type with ID '{0}'. Please contact your distributor for details.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeDefaultValueMissing</Keyword>
+      <Text>The provided value {0} for the default reconstruction type was not found in the database.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.AntagonistDataInvalid</Keyword>
+      <Text>Could not create antagonist from work type {0} and material {1}.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ImportMaterialMissing</Keyword>
+      <Text>3M material with ID {0} was not found in the 3M project.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.MaterialMappingMissing</Keyword>
+      <Text>Material with ID {0} and 3M name {1} is not mapped.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionMissing</Keyword>
+      <Text>
+        Work type '{0}' does not allow the use of material '{1}'.
+        The first material available for the work type will be used.
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.CaseId</Keyword>
+      <Text>Case ID</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.DueDate</Keyword>
+      <Text>Due date</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.AdditionalInfo</Keyword>
+      <Text>Additional information</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.MaterialSpecification</Keyword>
+      <Text>Material specification</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.Colorspecification</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema</Keyword>
+      <Text>Color schema</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.UsedMaterials</Keyword>
+      <Text>Materials</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.IncisalShade</Keyword>
+      <Text>Incisal shade</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.MiddleShade</Keyword>
+      <Text>Middle shade</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ColorSchema.GingivalShade</Keyword>
+      <Text>Gingival shade</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign</Keyword>
+      <Text>Margin design</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Int</Keyword>
+      <Text>internal</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.MarginDesign.Ext</Keyword>
+      <Text>vestibular</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.Implant</Keyword>
+      <Text>Implant</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.Tooth</Keyword>
+      <Text>Tooth</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Warning.ValidateProjectBeforeConstruct</Keyword>
+      <Text><![CDATA[Please check the imported dataset for completeness and correctness before you continue with your construction.]]></Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.EmptyMatrixString</Keyword>
+      <Text>The transformation matrix string from the 3M file is empty. A non-empty string containing 16 doubles is expected.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.InvalidMatrixString</Keyword>
+      <Text>
+        The transformation matrix string is in an invalid format: A non-empty string containing 16 doubles is expected.
+        Given: {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>NewTreatmentFromThreeM.ToolTip</Keyword>
+      <Text>Create a new project from a 3M project file</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.InsufficientAccessRights.Project</Keyword>
+      <Text>Insufficient user permissions to copy 3M  project files into project directory {0}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Project</Keyword>
+      <Text>Error while copying 3M project file from {0} to {1}. Error {2}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.FileCopyFailed.Data</Keyword>
+      <Text>Error while copying 3M data file from {0} to {1}. Error {2}</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.FileTransferIncomplete</Keyword>
+      <Text>
+        The following errors occurred while copying referenced files from the 3M project:
+        {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.BillingAddress</Keyword>
+      <Text>Billing address:</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ShippingAddress</Keyword>
+      <Text>Shipping address:</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.CreationDate</Keyword>
+      <Text>Created on:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.RxDate</Keyword>
+      <Text>Rx date:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.Notes.DateRequested</Keyword>
+      <Text>Requested on:</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.GuidConversionFailed</Keyword>
+      <Text>
+        Project guid string cannot be converted to Guid.
+        guid string: {0}
+        Error message:
+        {1}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema</Keyword>
+      <Text>The tooth numbering scheme can not be determined from the project file. Please select the scheme manually.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema</Keyword>
+      <Text>Universal numbering scheme</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.UniversalNumberingSchema.Description</Keyword>
+      <Text>Teeth defined in the 3M project file will be assumed to be universal numbered</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental</Keyword>
+      <Text>FDI World Dental Federation notation</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.FDIDental.Description</Keyword>
+      <Text>Teeth defined in 3M project file will be assumed to be FDI numbered</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel</Keyword>
+      <Text>Cancel</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.SelectUsedToothNumberingSchema.Cancel.Description</Keyword>
+      <Text>Import will be canceled</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ReconstructionTypeNoMapping</Keyword>
+      <Text>Restoration type '{0}' is not mapped.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotSpecified</Keyword>
+      <Text>3M project file is not specified.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileNotFound</Keyword>
+      <Text>
+        3M project file to import could not be found.
+        File name: {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMProjectFileCorrupt</Keyword>
+      <Text>
+        An error occurred while parsing the 3M project file.
+        File name: {0}
+
+        Error message:
+        {1}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotSpecified</Keyword>
+      <Text>File mapping 3M restorations to DentalDB types is not specified.</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileNotFound</Keyword>
+      <Text>
+        File mapping 3M restorations to DentalDB types could not be found.
+        File name: {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMappingDBFileCorrupt</Keyword>
+      <Text>
+        An error occurred while parsing file mapping 3M restorations to DentalDB types.
+        File name: {0}
+
+        Error message:
+        {1}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ThreeMMaterialNotMappedFirstUsed</Keyword>
+      <Text>
+        3M material {0} is not mapped to DentalDB material.
+        The default material '{1}' for the restoration is used.
+        Affected teeth: {2}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.MaterialSelection.Title</Keyword>
+      <Text>Material selection</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.WorkDefinitionFallbackDefault</Keyword>
+      <Text>
+        Work type '{0}' does not allow the use of material '{1}'.
+        Default material '{2}' for work type is used.
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.InternalCaseId</Keyword>
+      <Text>Project ID</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.ExternalCaseId</Keyword>
+      <Text>Order</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.Notes.Notes</Keyword>
+      <Text>Notes</Text>
+    </Translation>
+
+
+    <Translation>
+      <Keyword>ScanImport02.ToothDataNotFound</Keyword>
+      <Text>Tooth data not found</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ToothNumberNotFound</Keyword>
+      <Text>
+        Tooth number not found in:
+        {0}
+      </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanImport02.ToothRecoTypeNotFound</Keyword>
+      <Text>
+        Tooth reco type not found for tooth {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialDescrNotFound</Keyword>
+      <Text>
+        Tooth material descr not found for tooth {0}
+      </Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.ToothMaterialNotFound</Keyword>
+      <Text>
+        Tooth material not found for tooth {0}
+      </Text>
+    </Translation>
+
+
+    <Translation>
+      <Keyword>ScanImport02.ToothInfoCreationFailed</Keyword>
+      <Text>
+        An error occurred while processing tooth info for tooth {0}.
+        Error:
+        {1}
+      </Text>
+    </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.OriginalDataBackupFailed</Keyword>
+    <Text>An error occurred while backing up the 3M project.
+3M project directory: {0}
+Destination directory: {1}
+Error: {2}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BackupDirNoWritePermissions</Keyword>
+    <Text>The 3M project backup directory is read-only. Please make sure that directory '{0}' is writeable and try again.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BackupDirCreationError</Keyword>
+    <Text>An error occurred while creating the 3M project backup directory '{0}'.
+Error: {1}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.PatientCreationFailed</Keyword>
+    <Text>An error occurred while saving patient data:
+{0}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.JobCreationFailed</Keyword>
+    <Text>An error occurred while saving project data:
+{0}</Text>
+  </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.LowerJawScanMissing</Keyword>
+      <Text>Lower jaw scan</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.UpperJawScanMissing</Keyword>
+      <Text>Upper jaw scan</Text>
+    </Translation>
+
+    <Translation>
+      <Keyword>ScanImport02.VestibularScanMissing</Keyword>
+      <Text>Vestibular scan</Text>
+    </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ScanDataFormatCouldNotBeDetected</Keyword>
+    <Text>3M project scan data format could not be detected:
+Project directory: {0}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.Notes.UsedReconstructions</Keyword>
+    <Text>Reconstructions</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.AutomaticImportSetupFailed</Keyword>
+    <Text>An error occurred while configuring the automatic 3M project import:
+Observed directory: {0}
+Observation mode: {1}
+Error details: {2}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ErrorProcessingDirectFormat</Keyword>
+    <Text>An error occurred while processing the direct format file {0}.
+Error: {1}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.GenericImportError</Keyword>
+    <Text>An error occurred while proceeding 3M project {0}.
+Error: {1}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.DirectoryCreationFailed</Keyword>
+    <Text>An error occurred creating directory: {0}
+Error: {1}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BackupDirNotSet</Keyword>
+    <Text>The backup directory for imported 3M projects is not configured. Please configure the backup directory and try again. 
+Automatic 3M project import is deactivated.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BackupDirNotSet.Ok</Keyword>
+    <Text>OK</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.WorkType.EmptyMaterialList</Keyword>
+    <Text>Reconstruction {0} does not have materials assigned to. Please contact your distributor to get the &quot;reconstruction database&quot; configured properly.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.MaterialNotDefined.UsingFirst</Keyword>
+    <Text></Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.NoMaterialForReconstructionFound</Keyword>
+    <Text>Restoration for tooth '{0}' could not be created. Reconstruction '{1}' does not allow the use of material '{2}'.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseDefaultInstead</Keyword>
+    <Text>For 3M reconstruction '{0}', material '{1}' is not defined or mapped to the dental project material. The default material '{2}' will be used instead.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.3MMaterialNotDefinedOrMapped.UseFirstAvail</Keyword>
+    <Text>For 3M reconstruction '{0}', material '{1}' is not defined or mapped to the dental project material. The first available default material '{2}' will be used instead. </Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.CouldnotResolveJawForFile</Keyword>
+    <Text>Could not resolve jaw for file '{0}'. File is skipped.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.FileNotFound</Keyword>
+    <Text>Scan file '{0}' could not be found.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ScanDataCheckFailed</Keyword>
+    <Text>An error occurred while checking the completeness of scan data. The scan data copy process is cancelled.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ScanDataIncomplete</Keyword>
+    <Text>Project scan data is not complete.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BiteSplintOrderWarning</Keyword>
+    <Text>The imported case contains a bite splint order. Before proceeding to the CAD, please check the bite splint location in the notes.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ModelOrderWarning</Keyword>
+    <Text>The imported case contains a model order. Use the 'Model Creator' button to design a model.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ProvisionalsOrderWarning</Keyword>
+    <Text>Before proceeding to the CAD, please mark those teeth as provisionals for which you would like to design provisionals.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.OtherOrderWarning</Keyword>
+    <Text>The imported case contains an order for the unsupported appliance type '{0}'.</Text>
+  </Translation>
+  <Translation>
+    <Keyword>ScanImport02.Warning</Keyword>
+    <Text>WARNING:</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.UnknownRestorationsSkipped</Keyword>
+    <Text>Following restoration types are unknown and will be skipped: {0}</Text>
+  </Translation>
+  <Translation>
+    <Keyword>ScanImport02.ModelAndApplianciesMissing</Keyword>
+    <Text>'Model and appliances' were expected but could not be found.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ModelAndApplianciesSubtypeMissing</Keyword>
+    <Text>Could not determine the type of 'Model and appliances' as subtype tag is missing.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.FailedToCreateHealthy</Keyword>
+    <Text>An error occurred while creating information for healthy tooth.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.HealthyRecoNotDefined</Keyword>
+    <Text>A restoration representing a healthy tooth is not defined.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.FailedToCreateBiteSplint</Keyword>
+    <Text>An error occurred while creating information for the bite splint.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BiteSplintRecoNotDefined</Keyword>
+    <Text>A restoration representing the bite splint is not defined.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.ModelAndApplianciesImportFailed</Keyword>
+    <Text>An error occurred while creating a dental project from 'Model and appliances' project:
+{0}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.MarginLineProcessingError</Keyword>
+    <Text>An error occurred while processing the margin line for tooth {0}. Error message: {1}</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.NoMaterialInfoAvail</Keyword>
+    <Text>Not specified</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.Notes.Bridges</Keyword>
+    <Text>Bridges</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.NotConfiguredForBridges</Keyword>
+    <Text>The imported 3M project is not configured properly for importing projects containing bridges.
+Please contact your reseller for more information.</Text>
+  </Translation>
+
+  <Translation>
+    <Keyword>ScanImport02.BridgeCouldNotBeConnected</Keyword>
+    <Text>The teeth belonging to the bridge defined in the original project could not be connected. Bridge ID: {0}</Text>
+  </Translation>
+
+  </Translations>
+
+</TranslationContainer>

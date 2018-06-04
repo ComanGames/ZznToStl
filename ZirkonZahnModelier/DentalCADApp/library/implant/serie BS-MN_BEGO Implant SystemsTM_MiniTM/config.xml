@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® BEGO Implant Systems® Mini-Implants®</DisplayInformation>
+  <Producer>BEGO Implant Systems®</Producer>
+  <SystemName>Mini-Implants®</SystemName>
+  <MarkerFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/scanmarker.stl</MarkerFilename>
+  <ScrewFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMmsc.stl</ScrewFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with BEGO Implant Systems® Mini-Implants® series</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>2.7 - 2.9 - 3.1 mm</DisplayInformation>
+      <Keyword>BGMN</Keyword>
+      <ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlg.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMh.stl</SupportFilename>
+          <LibraryIdentifier>BSAE7501</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50-OutHex</Keyword>
+          <DisplayInformation>Hex wide head screw</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMhZ.stl</SupportFilename>
+          <ScrewFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMzsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMnh.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7501</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50-OutNohex</Keyword>
+          <DisplayInformation>No Hex wide head screw</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMnhZ.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMzsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB7581</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMp.stl</SupportFilename>
+          <ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlgp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7581</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7531</DisplayInformation>
+          <SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMc.stl</SupportFilename>
+          <ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlgc.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>2.7 - 2.9 - 3.1 mm White Scanmarker</DisplayInformation><Keyword>BGMNmmk</Keyword><ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlg.stl</ImplantFilename><MarkerFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMwsmk.stl</MarkerFilename><RegistrationClickCenter><x>0.0</x><y>2.0</y><z>6.0</z></RegistrationClickCenter><LibraryIdentifier>ZBCD7531</LibraryIdentifier><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.501-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMh.stl</SupportFilename><LibraryIdentifier>BSAE7501</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.5001-OutHex</Keyword><DisplayInformation>Hex wide head screw</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMhZ.stl</SupportFilename><ScrewFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMzsc.stl</ScrewFilename><LibraryIdentifier>BSAE7531</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.501-OutNohex</Keyword><DisplayInformation>No hex</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMnh.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE7501</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.5001-OutNohex</Keyword><DisplayInformation>No Hex wide head screw</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMnhZ.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMzsc.stl</ScrewFilename><LibraryIdentifier>BSAE7531</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.001-Parallel</Keyword><DisplayInformation>Parallel BSAB7581</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMp.stl</SupportFilename><ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlgp.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB7581</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.301-Conical</Keyword><DisplayInformation>Conical BSAD7531</DisplayInformation><SupportFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BMc.stl</SupportFilename><ImplantFilename>../serie BS-MN_BEGO Implant SystemsTM_MiniTM/BManlgc.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><IsWithInterface>true</IsWithInterface><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD7531</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

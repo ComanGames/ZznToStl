@@ -1,0 +1,56 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <FontFamily x:Key="DefaultFont">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="HeaderFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="ContentFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+	<FontFamily x:Key="LinkFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+	<FontFamily x:Key="BoldLinkFontFamily">Segoe UI Semibold, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+
+    <FontFamily x:Key="BodyFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+
+    <FontFamily x:Key="BoldFontFamily">Segoe UI Semibold, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    
+    <FontFamily x:Key="MultiMessageBoxButtonFontFamily">Segoe UI Semibold,  Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+
+    <FontFamily x:Key="MultiMessageBoxButtonDescriptionFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    
+    <FontFamily x:Key="SmallSubHeaderFontFamily">Segoe UI Semibold,  Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="MessageBoxTitleFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    
+    <FontFamily x:Key="MessageBoxDescriptionFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+	
+	<FontFamily x:Key="ValueSliderUnitFontFamily">Segoe UI, Segoe UI Semilight, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="ValueSliderDescriptionFontFamily">Segoe UI, Segoe UI Semilight, Lucida Sans Unicode, Verdana</FontFamily>
+
+    <!--  -->
+
+    <System:Double x:Key="HeaderFontSize">42</System:Double>
+    <System:Double x:Key="SubHeaderFontSize">20</System:Double>
+	<System:Double x:Key="SelectionButtonFontSize">16</System:Double>
+    <System:Double x:Key="MessageBoxTitleFontSize">27</System:Double>
+    <System:Double x:Key="MessageBoxDescriptionFontSize">16</System:Double>
+	<System:Double x:Key="WindowTextHeight">12</System:Double>
+    <System:Double x:Key="SmallSubHeaderFontSize">14</System:Double>
+    <System:Double x:Key="NormalFontSize">12</System:Double>
+    <System:Double x:Key="ContentFontSize">12</System:Double>
+	<System:Double x:Key="LinkFontSize">14</System:Double>
+	
+	<System:Double x:Key="ValueSliderUnitFontSize">12</System:Double>
+    <System:Double x:Key="ValueSliderDescriptionFontSize">12</System:Double>
+
+    <System:Double x:Key="ButtonFontSize">12</System:Double>
+	<System:Double x:Key="TextBoxFontSize">14</System:Double>
+    <FontFamily x:Key="ButtonFontFamily">Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+	
+	<System:Double x:Key="CalendarDayButonFontSize">20</System:Double>
+    <System:Double x:Key="CalendarButonFontSize">20</System:Double>
+	
+	<System:Double x:Key="LargeInputFieldHeight">40</System:Double>
+	<System:Double x:Key="LargeInputFieldFontSize">16</System:Double>
+    <FontFamily x:Key="NotesFont">Calibri, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+	<System:Double x:Key="NotesFontSize">16</System:Double>
+
+</ResourceDictionary>
