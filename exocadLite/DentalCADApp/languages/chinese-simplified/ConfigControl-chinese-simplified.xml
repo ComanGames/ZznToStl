@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>LanguageId</Keyword>
       <Text>用户界面语言</Text>
@@ -16,8 +16,24 @@
       <Text>使用Windows默认的十字准线光标</Text>
     </Translation>
     <Translation>
-      <Keyword>UseUniversalNumberingSystem</Keyword>
+      <Keyword>DentalNotation.UseUniversalNumberingSystem</Keyword>
       <Text>使用牙科通用记录法 (US)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation</Keyword>
+      <Text>牙齿标示法</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.Palmer</Keyword>
+      <Text>帕尔默牙齿标示法</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.PalmerDigital</Keyword>
+      <Text>帕尔默标示法（数字）</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.FDITwoDigit</Keyword>
+      <Text>FDI世界牙科联盟标记法</Text>
     </Translation>
     <Translation>
       <Keyword>RestartToApplyChanges</Keyword>
@@ -32,36 +48,20 @@
       <Text>创建用户设定目录时出错.</Text>
     </Translation>
     <Translation>
+      <Keyword>NonStandard3DMouse</Keyword>
+      <Text>没有适合3D鼠标的标准运动模式</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExtensionRegistration</Keyword>
+      <Text>用牙科CAD程序打开这些文件</Text>
+    </Translation>
+    <Translation>
       <Keyword>SelectAll</Keyword>
       <Text>全选</Text>
     </Translation>
     <Translation>
       <Keyword>UnselectAll</Keyword>
-      <Text>取消全选</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ExtensionRegistration</Keyword>
-      <Text>用DentalCAD程序打开这些文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
-      <Text>禁用标配3D鼠标组合键</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseRotationSpeed</Keyword>
-      <Text>3D鼠标的旋转速度 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseTranslationSpeed</Keyword>
-      <Text>3D鼠标的转换速度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NonStandard3DMouse</Keyword>
-      <Text>没有适合3D鼠标的标准运动模式</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
-      <Text>禁用OpenCL加速器</Text>
+      <Text>不全选</Text>
     </Translation>
     <Translation>
       <Keyword>ViewerRendererSettings_AAMode</Keyword>
@@ -72,48 +72,57 @@
       <Text>3D-Viewer: 支持颜色</Text>
     </Translation>
     <Translation>
+      <Keyword>TruSmileEnabledOnStart</Keyword>
+      <Text>开启Trusmile</Text>
+    </Translation>
+    <Translation>
       <Keyword>TruSmileLite</Keyword>
       <Text>TruSmile精简版：速度优于质量</Text>
     </Translation>
     <Translation>
-      <Keyword>TruSmileEnabledOnStart</Keyword>
-      <Text>开启Trusmile</Text>
+      <Keyword>3DMouseRotationSpeed</Keyword>
+      <Text>3D鼠标的旋转速度 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseTranslationSpeed</Keyword>
+      <Text>3D鼠标的转换速度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
+      <Text>禁用OpenCL加速器</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlaneLineDrawing</Keyword>
       <Text>手绘横截面视图线</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalNotation</Keyword>
-      <Text>牙齿标示法</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation.Palmer</Keyword>
-      <Text>帕尔默牙齿标示法</Text>
+      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
+      <Text>禁用标准的3D鼠标组合键</Text>
     </Translation>
     <Translation>
       <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
       <Text>通用编号系统（美国） </Text>
     </Translation>
     <Translation>
-      <Keyword>DentalNotation.FDITwoDigit</Keyword>
-      <Text>FDI世界牙科联盟标记法</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation.PalmerDigital</Keyword>
-      <Text>帕尔默标示法（数字）</Text>
+      <Keyword>UseUniversalNumberingSystem</Keyword>
+      <Text>使用牙科通用记录法 (US)</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Manage</Keyword>
-      <Text>设置文件类型默认打开程序</Text>
+      <Text>设置文件类型默认程序</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Manage.Tooltip</Keyword>
-      <Text>选择你想要使用此默认程序打开的文件类型。</Text>
+      <Text>选择你想要默认使用此程序打开的文件类型。</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Title</Keyword>
       <Text>扩展管理</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AppRegister.OpenManageFileAssociationsFailed</Keyword>
+      <Text>打开Windows“默认程序”对话框发生错误： 
+{0}</Text>
     </Translation>
     <Translation>
       <Keyword>ApplicationRegistration.RegistryUpdateExecutionFailed</Keyword>
@@ -133,14 +142,8 @@
     </Translation>
     <Translation>
       <Keyword>AppRegister.RegisterApplicationForDefaultProgramsFailed</Keyword>
-      <Text>为Windows“默认程序”注册软件时发生错误：
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AppRegister.OpenManageFileAssociationsFailed</Keyword>
-      <Text>打开Windows“默认程序”对话框发生错误： 
+      <Text>注册软件Windows“默认程序”对话框时出错：
 {0}</Text>
     </Translation>
   </Translations>
-  <IncludeFiles />
 </TranslationContainer>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ExocadPackageCreatorConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetDirectory>plugins\DentalScanners\MHT</TargetDirectory>
+  <ExcludeFiles>
+	<File>DentalScannerMHTWPF.dll</File>
+	<File>DentalScannerMHTWPF.pdb</File>
+	<File>DentalScannerMHT.pdb</File>
+	<File>DentalScannerMHT.dll</File>
+	<File>DentalScannerMHT.exocadPackageCreatorConfig</File>
+	<File>DentalScannerMHT.exocadPackageSet</File>
+  </ExcludeFiles>
+
+
+  <Packages>
+
+    <Package>
+      <PackageName>scanner-mht-driver-v7</PackageName>
+      <Directory>Driver</Directory>
+    </Package>
+
+
+    <Package>
+      <PackageName>scanner-mht-firmware-v7</PackageName>	
+      <Files><File>firmware.zip</File></Files>
+    </Package>
+
+    <Package>
+      <PackageName>scanner-mht-appdata-v7</PackageName>
+      <Directory>AppData</Directory>
+    </Package>
+
+
+    <Package>
+      <PackageName>scanner-mht-api-v7</PackageName>
+      <Directory>.\</Directory>
+      <Prerequisites><Need32BitSoftware>true</Need32BitSoftware></Prerequisites>
+    </Package>
+
+   <Package>
+      <PackageName>scanner-mht-api64-v7</PackageName>
+      <Directory>.\</Directory>
+      <Prerequisites><Need64BitSoftware>true</Need64BitSoftware></Prerequisites>
+    </Package>
+
+   </Packages>
+</ExocadPackageCreatorConfiguration>

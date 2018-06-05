@@ -1,0 +1,75 @@
+______________________________________________________________________
+DATE: 08.05.2013, TIME: 18:42:21
+Start DWTest
+______________________________________________________________________
+DATE: 08.05.2013, TIME: 18:42:24
+BOARD_PGRPRO_IEEE1394: CzDigitizerPGRPRO_IEEE1394::Init():
+
+[BoardDriver]
+   BOARD_PGRPRO_IEEE1394 Vers.= 1.04
+   PGRFlyCapture.Dll Version  = 2.0.13.4
+   
+   Number of cameras detected = 1
+   
+Camera #0 =
+      Vendor name   = Point Grey Research
+      Model type    = Flea2 FL2-14S3M
+      Model name    = FLYCAPTURE_FLEA2
+      DCAM version  = 1.31
+      Serial number = 11303791
+      Sensor info   = Sony ICX267AL (1/2" 1392x1032 CCD)
+      Color type    = mono
+      Bus number    = 0
+      Node number   = 0
+      Bus speed max.= 400Mbits/sec.
+      initialized   = 0
+
+      DCAM Format 7 = mode 0 available
+      Image size max= 1392 x 1032
+      Image size    = 1280 x 1032
+      Start col/row =   46 /    0
+      Image UnitSize=    8 x    2
+      OffsetUnitSize=    2 x    2
+      Frame rate    = available, Off
+      Ext. shutter  = supported, turned off frame rate to enable extended shutter
+      Exposure time = 11.272 ms ( Range:  0.007 to 3964.022 ms)
+      Gain          =  0.000 dB ( Range: -1.971 to   24.035 dB)
+      Brightness    =  0.000 %  ( Range:  0.000 to    6.226 % )
+      AutoExposure  = -1.281 EV ( Range: -7.585 to    2.414 EV)
+      PixelFormats  = FLYCAPTURE_MONO8
+                      FLYCAPTURE_MONO16
+                      FLYCAPTURE_BGR
+                      
+      Max.PacketSize= 2640 Bytes
+      Bandwidth     = 100.0 %
+      
+      Trigger       = available
+      SupportModeMsk= 0x0000dc03
+      Mode          = 0
+      ReadOut values= available
+      On/Off switch = available, Off
+      Polarity invrt= available, 0
+      RawTriggerInp.= available, 0
+      
+      Strobe        = available
+      ReadOut value = available
+      On/Off switch = not available
+      Polarity invrt= available, 1
+      Delay         =  0           ( Range: 0 to 4095 )
+      Duration      =  0           ( Range: 0 to 4095 )
+      
+      Image rotation= -90°
+
+      Init time     = 0.1 sec.
+
+[BoardDriverEnd]
+
+______________________________________________________________________
+DATE: 08.05.2013, TIME: 18:42:26
+Firmware version of 'TiltAxis' is: 1.0.0.3
+______________________________________________________________________
+DATE: 08.05.2013, TIME: 18:42:35
+Firmware version of 'MagnetAxis' is: 1.0.0.3
+______________________________________________________________________
+DATE: 08.05.2013, TIME: 18:42:47
+ShutDown DWTest

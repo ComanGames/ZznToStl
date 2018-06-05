@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>
+ZIRKONZAHN® K3pro® Sure®/Rapid® Argon Medical®</DisplayInformation>
+  <Producer>K3pro®</Producer>
+  <SystemName>Sure®/Rapid® Argon Medical®</SystemName>
+  <MarkerFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with K3pro® Sure®/Rapid® Argon Medical® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>MINI</DisplayInformation>
+      <Keyword>KPSRM</Keyword>
+      <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD6331</LibraryIdentifier>
+      <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mscr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>2.7502-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mhcs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE6301</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.102-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mhfs.stl</SupportFilename>
+          <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mzscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE6331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>2.7502-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mnhcs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE6301</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.102-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mnhfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mzscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE6331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.902-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB6381</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mprz.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlpr.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB6381</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB6381L15</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mprz15.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlpr15.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB6381L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.902-Conical</Keyword>
+          <DisplayInformation>Conical BSAD6331</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mcn.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlcn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD6331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD6331L15</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mcn15.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlcn15.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD6331L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>MINI White Scanmarker</DisplayInformation><Keyword>KPSRMmkmk</Keyword><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manl.stl</ImplantFilename><LibraryIdentifier>ZBCD6331</LibraryIdentifier><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mscr.stl</ScrewFilename><MarkerFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Msmkm.stl</MarkerFilename><RegistrationClickCenter><x>0</x><y>2.0</y><z>6</z></RegistrationClickCenter><SubtypeConfig><ImplantSubtypeConfig><Keyword>2.75020-InHex</Keyword><DisplayInformation>Hex conical screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mhcs.stl</SupportFilename><LibraryIdentifier>BSAE6301</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.1020-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mhfs.stl</SupportFilename><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mzscr.stl</ScrewFilename><LibraryIdentifier>BSAE6331</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>2.75020-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mnhcs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE6301</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.1020-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mnhfs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mzscr.stl</ScrewFilename><LibraryIdentifier>BSAE6331</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.9020-Parallel</Keyword><DisplayInformation>Parallel BSAB6381</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mprz.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlpr.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB6381</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.90200-Parallel</Keyword><DisplayInformation>Parallel BSAB6381L15</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mprz15.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlpr15.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB6381L15</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.9020-Conical</Keyword><DisplayInformation>Conical BSAD6331</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mcn.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlcn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD6331</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.90200-Conical</Keyword><DisplayInformation>Conical BSAD6331L15</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Mcn15.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Manlcn15.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD6331L15</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>STANDARD/BREIT</DisplayInformation>
+      <Keyword>KPSRSB</Keyword>
+      <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD6332</LibraryIdentifier>
+      <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sscr.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.402-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Shcs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE6302</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4020-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Shfs.stl</SupportFilename>
+          <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Szscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE6332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.402-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Snhcs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE6302</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4020-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Snhfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Szscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE6332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.602-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB6382</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sprz.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlpr.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB6382</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB6382L15</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sprz15.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlpr15.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB6382L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.202-Conical</Keyword>
+          <DisplayInformation>Conical BSAD6332</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Scn.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlcn.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD6332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD6332L15</DisplayInformation>
+          <SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Scn15.stl</SupportFilename>
+          <ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlcn15.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD6332L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>STANDARD/BREIT White Scanmarker</DisplayInformation><Keyword>KPSRSB</Keyword><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanl.stl</ImplantFilename><LibraryIdentifier>ZBCD6332</LibraryIdentifier><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sscr.stl</ScrewFilename><MarkerFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Ssmkm.stl</MarkerFilename><RegistrationClickCenter><x>0</x><y>2.0</y><z>6</z></RegistrationClickCenter><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.4020-InHex</Keyword><DisplayInformation>Hex conical screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Shcs.stl</SupportFilename><LibraryIdentifier>BSAE6302</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.40200-InHex</Keyword><DisplayInformation>Hex flat screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Shfs.stl</SupportFilename><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Szscr.stl</ScrewFilename><LibraryIdentifier>BSAE6332</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.4020-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Snhcs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE6302</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.40200-InNohex</Keyword><DisplayInformation>No Hex flat screw</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Snhfs.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Szscr.stl</ScrewFilename><LibraryIdentifier>BSAE6332</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.6020-Parallel</Keyword><DisplayInformation>Parallel BSAB6382</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sprz.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlpr.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB6382</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.60200-Parallel</Keyword><DisplayInformation>Parallel BSAB6382L15</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sprz15.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlpr15.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB6382L15</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.2020-Conical</Keyword><DisplayInformation>Conical BSAD6332</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Scn.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlcn.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD6332</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.20200-Conical</Keyword><DisplayInformation>Conical BSAD6332L15</DisplayInformation><SupportFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Scn15.stl</SupportFilename><ImplantFilename>../Serie KP-SR_K3pro Sure-RapidTM_Argon MedicalTM/Sanlcn15.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><LibraryIdentifier>BSAD6332L15</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

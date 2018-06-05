@@ -1,23 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>LanguageId</Keyword>
       <Text>Langue</Text>
     </Translation>
     <Translation>
-      <Keyword>UseUniversalNumberingSystem</Keyword>
+      <Keyword>UseWindowsCrosshair</Keyword>
+      <Text>Utilisez le curseur en croix de Windows</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.UseUniversalNumberingSystem</Keyword>
       <Text>Utiliser 'universal numbering system' (US)</Text>
     </Translation>
     <Translation>
-      <Keyword>UseWindowsCrosshair</Keyword>
-      <Text>Utilisez le curseur en croix de Windows</Text>
+      <Keyword>DentalNotation</Keyword>
+      <Text>Nomenclature dentaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.Palmer</Keyword>
+      <Text>Nomenclature Palmer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.PalmerDigital</Keyword>
+      <Text>Nomenclature Palmer (digitale)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.FDITwoDigit</Keyword>
+      <Text>Nomenclature FDI (Fédération Dentaire Internationale)</Text>
     </Translation>
     <Translation>
       <Keyword>RestartToApplyChanges</Keyword>
@@ -32,65 +48,20 @@
       <Text>Une erreur s'est produite lors de la création de la liste de paramètres utilisateur.</Text>
     </Translation>
     <Translation>
-      <Keyword>SelectAll</Keyword>
-      <Text>Sélectionnez tout</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnselectAll</Keyword>
-      <Text>Désélectionner tout</Text>
+      <Keyword>NonStandard3DMouse</Keyword>
+      <Text>Mouvement souris 3D non standard</Text>
     </Translation>
     <Translation>
       <Keyword>ExtensionRegistration</Keyword>
       <Text>Ouvrir ces fichiers avec l'application DentalCAD</Text>
     </Translation>
     <Translation>
-      <Keyword>3DMouseRotationSpeed</Keyword>
-      <Text>Vitesse de rotation de la souris 3D </Text>
+      <Keyword>SelectAll</Keyword>
+      <Text>Sélectionnez tout</Text>
     </Translation>
     <Translation>
-      <Keyword>3DMouseTranslationSpeed</Keyword>
-      <Text>
-Vitesse de translation de la souris 3D </Text>
-    </Translation>
-    <Translation>
-      <Keyword>NonStandard3DMouse</Keyword>
-      <Text>Mouvement souris 3D non standard</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
-      <Text>Désactiver l'accélération OpenCL</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileLite</Keyword>
-      <Text>TruSmile-léger (vitesse en faveur de la qualité)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileEnabledOnStart</Keyword>
-      <Text>TruSmile activé au démarrage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewClipPlaneLineDrawing</Keyword>
-      <Text>Dessin du trait de la vue tranversalle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
-      <Text>Désactiver raccourcis de souris 3D </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation</Keyword>
-      <Text>Nomenclature dentaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation.Palmer</Keyword>
-      <Text>Nomenclature Palmer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
-      <Text>Nomenclature universelle (US)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalNotation.FDITwoDigit</Keyword>
-      <Text>Nomenclature FDI (Fédération Dentaire Internationale) </Text>
+      <Keyword>UnselectAll</Keyword>
+      <Text>Désélectionner tout</Text>
     </Translation>
     <Translation>
       <Keyword>ViewerRendererSettings_AAMode</Keyword>
@@ -101,16 +72,45 @@ Vitesse de translation de la souris 3D </Text>
       <Text>3D-Viewer: Support de Shader</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalNotation.PalmerDigital</Keyword>
-      <Text>Nomenclature Palmer (digitale)</Text>
+      <Keyword>TruSmileEnabledOnStart</Keyword>
+      <Text>TruSmile activé au démarrage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TruSmileLite</Keyword>
+      <Text>TruSmile-léger (vitesse en faveur de la qualité)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseRotationSpeed</Keyword>
+      <Text>Vitesse rotation de la souris 3D</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseTranslationSpeed</Keyword>
+      <Text>
+Vitesse de translation de la souris 3D </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
+      <Text>Désactiver l'accélération OpenCL</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewClipPlaneLineDrawing</Keyword>
+      <Text>Dessin du trait de la vue tranversalle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
+      <Text>Désactiver raccourcis de souris 3D </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
+      <Text>Nomenclature universelle (US)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseUniversalNumberingSystem</Keyword>
+      <Text>Utiliser 'universal numbering system' (US)</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Manage</Keyword>
       <Text>Programme par défaut définis pour types de fichiers</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ApplicationRegistration.RegistryUpdateExecutionFailed</Keyword>
-      <Text>Une erreur s'est produite au démarrage de l'enregistrement du logiciel.</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Manage.Tooltip</Keyword>
@@ -121,8 +121,17 @@ Vitesse de translation de la souris 3D </Text>
       <Text>Gestionnaire d'extensions </Text>
     </Translation>
     <Translation>
+      <Keyword>AppRegister.OpenManageFileAssociationsFailed</Keyword>
+      <Text>Une erreur se est produite en ouvrant le dialogue Windows "Programmes par défaut":
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ApplicationRegistration.RegistryUpdateExecutionFailed</Keyword>
+      <Text>Erreur au démarrage de  l'étape enregistrement.</Text>
+    </Translation>
+    <Translation>
       <Keyword>ApplicationRegistration.RegistryUpdateWaitForCompleteFailed</Keyword>
-      <Text>Une erreur est survenue lors de l'enregistrement du logiciel.</Text>
+      <Text>Une erreur est survenue lors de l'enregistrement du logiciels.</Text>
     </Translation>
     <Translation>
       <Keyword>ApplicationRegistration.RegistryUpdateFailed</Keyword>
@@ -137,11 +146,5 @@ Vitesse de translation de la souris 3D </Text>
       <Text>Une erreur est survenue lors de l'enregistrement du logiciel dans le dialogue "programmes par défaut":       
 {0}            </Text>
     </Translation>
-    <Translation>
-      <Keyword>AppRegister.OpenManageFileAssociationsFailed</Keyword>
-      <Text>Une erreur se est produite en ouvrant le dialogue Windows "Programmes par défaut":
-{0}</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles />
 </TranslationContainer>

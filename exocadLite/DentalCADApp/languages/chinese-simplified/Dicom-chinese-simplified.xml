@@ -1,143 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
-      <Text>Dicom预览</Text>
+      <Text>Dicom浏览器</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.CloseToolWindowsQuestion</Keyword>
+      <Text>确定要关闭的DICOM浏览器吗？所有载入的DICOM数据将被卸载。</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Data</Keyword>
       <Text>数据</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.SurfaceGeneration</Keyword>
-      <Text>生成表面</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.View</Keyword>
       <Text>查看</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.FileName</Keyword>
-      <Text>文件名:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.PatientName</Keyword>
-      <Text>患者姓名:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Value</Keyword>
-      <Text>数值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Registration</Keyword>
-      <Text>匹配</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRay</Keyword>
-      <Text>X-光片</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectDicom</Keyword>
-      <Text>选择数据</Text>
+      <Keyword>Dicom.SurfaceGeneration</Keyword>
+      <Text>生成表面</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Patients</Keyword>
       <Text>患者:</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Description</Keyword>
-      <Text>描述</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.TeethSurface</Keyword>
-      <Text>牙齿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Min</Keyword>
-      <Text>最小</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Max</Keyword>
-      <Text>最大</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Inverse</Keyword>
-      <Text>反选</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CancelDataLoad</Keyword>
-      <Text>取消载入</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnloadDicom</Keyword>
-      <Text>放弃数据</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SurfaceType</Keyword>
-      <Text>表面类型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Preview</Keyword>
-      <Text>预览</Text>
-    </Translation>
-    <Translation>
-      <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
-      <Text>绿色</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToToothReferenceButton.Text</Keyword>
-      <Text>牙齿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToUserReferenceButton.Text</Keyword>
-      <Text>用户</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LoadDicom</Keyword>
-      <Text>载入数据</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Comment</Keyword>
-      <Text>注释:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
-      <Text>在此粘贴模型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.DeleteSurface</Keyword>
-      <Text>删除表面</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Options</Keyword>
-      <Text>选项</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.GenerateSurface</Keyword>
-      <Text>生成表面</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Threshold.XRay</Keyword>
-      <Text>噪音临界值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayOptions</Keyword>
-      <Text>X-光片选项</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Threshold.MediaCustom</Keyword>
-      <Text>临界值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Threshold.Media</Keyword>
-      <Text>临界值</Text>
+      <Keyword>Dicom.PatientName</Keyword>
+      <Text>患者姓名:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesAvailable</Keyword>
@@ -148,6 +44,22 @@
       <Text>切片数:</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.FileName</Keyword>
+      <Text>文件名:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Description</Keyword>
+      <Text>描述</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Value</Keyword>
+      <Text>数值</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Comment</Keyword>
+      <Text>注释:</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.Study</Keyword>
       <Text>检查:</Text>
     </Translation>
@@ -156,40 +68,84 @@
       <Text>系列:</Text>
     </Translation>
     <Translation>
+      <Keyword>SelectDicom</Keyword>
+      <Text>选择数据</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadDicom</Keyword>
+      <Text>载入数据</Text>
+    </Translation>
+    <Translation>
       <Keyword>LoadDicom.ToolTip</Keyword>
       <Text>按住 Ctrl+Shift 载入选择的数据</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.UsePreviewMode</Keyword>
-      <Text>使用预览模式</Text>
+      <Keyword>UnloadDicom</Keyword>
+      <Text>放弃数据</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>透明度</Text>
+      <Keyword>Dicom.CancelDataLoad</Keyword>
+      <Text>取消载入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRay</Keyword>
+      <Text>X-光片</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Isosurface</Keyword>
-      <Text>等值面</Text>
+      <Text>国际标准化组织表面</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Media</Keyword>
       <Text>透视</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>限定临界值</Text>
+      <Keyword>Dicom.Options</Keyword>
+      <Text>选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.UsePreviewMode</Keyword>
+      <Text>使用预览模式</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.VoxelSize</Keyword>
       <Text>像素大小</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Registration</Keyword>
+      <Text>注册</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.Clip</Keyword>
       <Text>修剪</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
+      <Text>在此粘贴模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Inverse</Keyword>
+      <Text>反选</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Min</Keyword>
+      <Text>最小</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Max</Keyword>
+      <Text>最大</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.UseGradientMode</Keyword>
       <Text>使用梯度模式 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>透明度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SurfaceType</Keyword>
+      <Text>表面类型</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FaceSurface</Keyword>
@@ -200,24 +156,44 @@
       <Text>牙龈</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.TeethSurface</Keyword>
+      <Text>牙齿</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.BoneSurface</Keyword>
       <Text>骨骼 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.GenerateSurface</Keyword>
+      <Text>生成表面</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.DeleteSurface</Keyword>
+      <Text>删除表面</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FlipSurface</Keyword>
       <Text>倒转表面</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.LastGeneratedSurface</Keyword>
-      <Text>上次生成的表面</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.ToogleLookThrough</Keyword>
       <Text>切换观察视图</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.LastGeneratedSurface</Keyword>
+      <Text>上次生成的表面</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Preview</Keyword>
+      <Text>预览</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.Solid</Keyword>
       <Text>立体图形</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.XRay</Keyword>
+      <Text>噪音临界值</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Solid</Keyword>
@@ -228,41 +204,20 @@
       <Text>表面临界值</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Threshold.Media</Keyword>
+      <Text>临界值</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.SecondaryThreshold.Iso</Keyword>
       <Text>第二表面临界值</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.SecondaryThreshold.Media</Keyword>
+      <Text>致密材料</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.SecondaryThreshold.Solid</Keyword>
       <Text>强调密度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToBoneReferenceButton.Text</Keyword>
-      <Text>骨骼</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoOptions</Keyword>
-      <Text>等值面选项</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ResultInformationGroupBoxHeader</Keyword>
-      <Text>结果信息</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidOptions</Keyword>
-      <Text>立体选项</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.StippleAlpha.Iso</Keyword>
-      <Text>使用半透明度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClearReferencesButton_Content</Keyword>
-      <Text>清除
-参照</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
-      <Text>调整到</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.XRay</Keyword>
@@ -289,48 +244,24 @@
       <Text>硬度</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.FilterWidth.SolidFalsecolor</Keyword>
-      <Text>梯度加权</Text>
+      <Keyword>Dicom.FilterWidth.NaturalTexturing</Keyword>
+      <Text>增加梯度</Text>
     </Translation>
     <Translation>
-      <Keyword>ClearReferencesButton_Tooltip</Keyword>
-      <Text>删除当前设置的参照</Text>
+      <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
+      <Text>设定临界值滑动条到当前空气参考值</Text>
     </Translation>
     <Translation>
-      <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
-      <Text>棕色</Text>
+      <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
+      <Text>设定临界值滑动条到当前组织参考值</Text>
     </Translation>
     <Translation>
-      <Keyword>MediaCustomStartReferencesProcessorButton_Content</Keyword>
-      <Text>现在定义</Text>
+      <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
+      <Text>设定临界值滑动条到当前骨骼参考值</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity.MediaCustom</Keyword>
-      <Text>透明度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MediaCustomInfoLabel_Content</Keyword>
-      <Text>提示: 如果骨密度参照被定义的话将达到最好的视觉效果.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaOptions</Keyword>
-      <Text>透视选项</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaCustomOptions</Keyword>
-      <Text>透视(个性化)选择</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SecondaryThreshold.Media</Keyword>
-      <Text>致密材料</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SolidFalsecolorInfoLabel_Content</Keyword>
-      <Text>提示: 如果骨密度参照被定义的话将达到最好的视觉效果.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SolidFalsecolortStartReferencesProcessorButton_Content</Keyword>
-      <Text>现在定义</Text>
+      <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
+      <Text>设定临界值滑动条到当前牙齿参考值</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
@@ -341,48 +272,16 @@
       <Text>组织</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.MediaCustom</Keyword>
-      <Text>透视(个性化)</Text>
+      <Keyword>IsoSetSliderToBoneReferenceButton.Text</Keyword>
+      <Text>骨骼</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.SolidFalsecolor</Keyword>
-      <Text>固体 (假色)</Text>
+      <Keyword>IsoSetSliderToToothReferenceButton.Text</Keyword>
+      <Text>牙齿</Text>
     </Translation>
     <Translation>
-      <Keyword>PercentageAboveLabelContent</Keyword>
-      <Text>高于误差:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PercentageBelowLabelContent</Keyword>
-      <Text>低于误差:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PercentageInsideLabelContent</Keyword>
-      <Text>误差内:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToUserReferenceButton_Tooltip</Keyword>
-      <Text>设定临界值滑块到当前用户参照值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
-      <Text>设定临界值滑动条到当前牙齿参考值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
-      <Text>设定临界值滑动条到当前骨骼参考值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
-      <Text>设定临界值滑动条到当前组织参考值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
-      <Text>设定临界值滑动条到当前空气参考值</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.FilterWidth.NaturalTexturing</Keyword>
-      <Text>增加梯度</Text>
+      <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
+      <Text>调整到</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
@@ -393,8 +292,77 @@
       <Text>临界值</Text>
     </Translation>
     <Translation>
+      <Keyword>ResultInformationGroupBoxHeader</Keyword>
+      <Text>结果信息</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageBelowLabelContent</Keyword>
+      <Text>低于误差:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageInsideLabelContent</Keyword>
+      <Text>误差内:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PercentageAboveLabelContent</Keyword>
+      <Text>高于误差:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.IsoOptions</Keyword>
+      <Text>国际标准化组织表面选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRayOptions</Keyword>
+      <Text>X-光片选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaOptions</Keyword>
+      <Text>透视选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidOptions</Keyword>
+      <Text>立体选项</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaCustomOptions</Keyword>
+      <Text>透视(个性化)选择</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.MediaCustom</Keyword>
+      <Text>透视(个性化)</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.NaturalTexturing</Keyword>
       <Text>实体（自然的）</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold.MediaCustom</Keyword>
+      <Text>临界值</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity.MediaCustom</Keyword>
+      <Text>透明度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
+      <Text>棕色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
+      <Text>绿色</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClearReferencesButton_Tooltip</Keyword>
+      <Text>删除当前设置的参照</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClearReferencesButton_Content</Keyword>
+      <Text>清除
+参照</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.StippleAlpha.Iso</Keyword>
+      <Text>使用半透明度</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.Solid</Keyword>
@@ -406,7 +374,7 @@
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningMessage</Keyword>
-      <Text>当前显卡小于软件所建议的最低2GB的内存。确定要继续吗？</Text>
+      <Text>显卡小于建议使用的最低媒体模式2GB内存。确定要继续吗？</Text>
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningCaption</Keyword>
@@ -421,8 +389,36 @@
       <Text>开始定义参考</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.CloseToolWindowsQuestion</Keyword>
-      <Text>确定要关闭的DICOM预览吗？所有载入的DICOM数据将被卸载。</Text>
+      <Keyword>IsoSetSliderToUserReferenceButton.Text</Keyword>
+      <Text>用户</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth.SolidFalsecolor</Keyword>
+      <Text>梯度加权</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MediaCustomStartReferencesProcessorButton_Content</Keyword>
+      <Text>现在定义</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MediaCustomInfoLabel_Content</Keyword>
+      <Text>提示: 如果骨密度参照被定义的话将达到最好的视觉效果.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SolidFalsecolorInfoLabel_Content</Keyword>
+      <Text>提示: 如果骨密度参照被定义的话将达到最好的视觉效果.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SolidFalsecolortStartReferencesProcessorButton_Content</Keyword>
+      <Text>现在定义</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SolidFalsecolor</Keyword>
+      <Text>固体 (假色)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToUserReferenceButton_Tooltip</Keyword>
+      <Text>设定临界值滑块到当前用户参照值</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Window</Keyword>
@@ -494,7 +490,7 @@
     </Translation>
     <Translation>
       <Keyword>MultipleDicomSeries</Keyword>
-      <Text>DICOM文件集包含多个系列，请从列表中选择一个来显示。</Text>
+      <Text>DICOM文件集包含多个系列，请从列表中选择一个可视化。</Text>
     </Translation>
     <Translation>
       <Keyword>MultipleDicomSeries.Title</Keyword>
@@ -538,17 +534,17 @@
     </Translation>
     <Translation>
       <Keyword>DicomSurfaceGenerationOutOfMemory</Keyword>
-      <Text>由于内存不足导致表面生成失败。 
-提示：其原因可能是在DICOM预览控件使用不正确的等值面的临界值滑动条。 
-      尝试改变临界值来避免屏幕上反光视觉假象。 
+      <Text>由于内存不足导致曲面生成失败。 
+提示：其原因可能是在DICOM预览控件不正确地使用等值面的临界值滑动条。 
+      尝试改变临界值来避免在屏幕上嘈杂的视觉假象。 
       
-      在匹配过程中，可以尝试改变临界值只查看正确的牙齿表面</Text>
+      在注册过程中，可以尝试改变临界值只查看正确的牙齿表面</Text>
     </Translation>
     <Translation>
       <Keyword>DicomSurfaceGenerationNoDataCreated</Keyword>
       <Text>曲面的生成并没有输出任何数据。 
 提示：其原因可能是DICOM视图控件没有正确地设置临界值滑动条。 
-      尝试改变等值面的临界值来确保DICOM预览内正确的数据。</Text>
+      尝试改变等值面的临界值来确保DICOM浏览器内正确的数据。</Text>
     </Translation>
     <Translation>
       <Keyword>DicomSeriesFromProjectAlreadyLoaded</Keyword>
@@ -599,6 +595,10 @@
       <Text>从DICOMDIR引用的文件{0}无效。</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.RestrictThreshold</Keyword>
+      <Text>限定临界值</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.MediaModeWarning.Title</Keyword>
       <Text>性能警告 </Text>
     </Translation>
@@ -615,55 +615,12 @@
       <Text>取消</Text>
     </Translation>
     <Translation>
-      <Keyword>VoxelationObject.CreateVolumeTextureFailed</Keyword>
-      <Text>无法传输大量数据到显卡处理器：</Text>
-    </Translation>
-    <Translation>
       <Keyword>DicomPleaseSelectTypeOfSurface</Keyword>
       <Text>请选择DICOM的表面类型。</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.CurrentWindowRangeSliderDescription</Keyword>
-      <Text>当前DICOM窗口</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.Title</Keyword>
-      <Text>DICOM数据选择窗口</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.DataExceptionHeader</Keyword>
-      <Text>选择的数据无效！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.DataNotAvailableAnymoreMessage</Keyword>
-      <Text>选择的数据集不可用。请确认数据是否存在。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.NoValidSeriesSelectedMessage</Keyword>
-      <Text>选择的项目不是一个有效的DICOM系列。请务必在预览时选择型号系列。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.ScanningForDicomDataMessage</Keyword>
-      <Text>DICOM数据扫描目录。 请稍候！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.NoDicomDataMessage</Keyword>
-      <Text>此目录不包含DICOM图像！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.NotTheCorrectSeries.Message</Keyword>
-      <Text>选定的数据集不包含保存在当前所选场景的系列！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.CorrectSeries.Message</Keyword>
-      <Text>选定的数据集包含保存在当前所选场景的系列！点击“确定”继续操作...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.Title</Keyword>
-      <Text>DICOM数据位置窗口</Text>
+      <Keyword>VoxelationObject.CreateVolumeTextureFailed</Keyword>
+      <Text>无法传输大量数据到显卡处理器：</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-chinese-simplified-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

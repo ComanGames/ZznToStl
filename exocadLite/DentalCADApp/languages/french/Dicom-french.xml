@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
+      <Text>Dicom Viewer</Text>
+    </Translation>
     <Translation>
       <Keyword>Dicom.Data</Keyword>
       <Text>Fichier</Text>
@@ -34,12 +44,16 @@
       <Text>Nom du fichier:</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Description</Keyword>
+      <Text>Description</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.Value</Keyword>
-      <Text>Valeur:</Text>
+      <Text>Valeur :</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Comment</Keyword>
-      <Text>Commentaire:</Text>
+      <Text>Commentaire :</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Study</Keyword>
@@ -78,8 +92,12 @@
       <Text>Surfaces ISO</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>Restreindre seuil</Text>
+      <Keyword>Dicom.Media</Keyword>
+      <Text>Media</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Options</Keyword>
+      <Text>Options</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.UsePreviewMode</Keyword>
@@ -91,7 +109,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration</Keyword>
-      <Text>Registre</Text>
+      <Text>Inscription</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Clip</Keyword>
@@ -116,6 +134,10 @@
     <Translation>
       <Keyword>Dicom.UseGradientMode</Keyword>
       <Text>Utiliser le mode gradien</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>Opacité</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceType</Keyword>
@@ -150,8 +172,20 @@
       <Text>Bouger surface</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.ToogleLookThrough</Keyword>
+      <Text>Toogle look through</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.LastGeneratedSurface</Keyword>
       <Text>Dernière génération de surface</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Preview</Keyword>
+      <Text>Aperçu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Solid</Keyword>
+      <Text>Solide</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.XRay</Keyword>
@@ -206,19 +240,40 @@
       <Text>Exposant filtre</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>Opacité</Text>
+      <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
+      <Text>Air</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Preview</Keyword>
-      <Text>Aperçu </Text>
+      <Keyword>PercentageBelowLabelContent</Keyword>
+      <Text>En-dessous de la tolérance</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Solid</Keyword>
-      <Text>Solide</Text>
+      <Keyword>PercentageAboveLabelContent</Keyword>
+      <Text>Au-dessus de la tolérance:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
+      <Text>Marron</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClearReferencesButton_Tooltip</Keyword>
+      <Text>Supprimer les références actuellement définies?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold</Keyword>
+      <Text>Seuil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold</Keyword>
+      <Text>Seuil secondaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth</Keyword>
+      <Text>Largeur du filtre</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent</Keyword>
+      <Text>Exposant filtre</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-french-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

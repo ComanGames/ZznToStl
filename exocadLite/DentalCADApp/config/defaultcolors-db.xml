@@ -13,6 +13,20 @@
   </ColorDefinition>
 
   <ColorDefinition>
+    <Type>Coping</Type>
+    <Color>#008000</Color>
+    <SelectedColor>#b4d7fb</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>OffsetCoping</Type>
+    <Color>#00FF00</Color>
+    <SelectedColor>#a4c7eb</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+
+  <ColorDefinition>
     <Type>CrownBottom</Type>
     <Color>#e15c6e</Color>
     <SelectedColor>#635ce1</SelectedColor>
@@ -40,6 +54,7 @@
     <Type>CrownBottom.CementGap</Type>
     <Color>#ffc001</Color>
   </ColorDefinition>
+
 
   <ColorDefinition>
     <Type>ToothPart.SelectedRegion</Type>
@@ -73,7 +88,12 @@
     <Opacity>0.3</Opacity>
   </ColorDefinition>
 
-
+  <ColorDefinition>
+    <Type>AnatomicCrown</Type>
+    <Color>#003c00</Color>
+    <SelectedColor>#8bb3ed</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
 
   <ColorDefinition>
     <Type>AnatomicInlay</Type>
@@ -99,6 +119,20 @@
     <Type>HealthyTooth</Type>
     <Color>#FFFF00</Color>
     <SelectedColor>#6f6fed</SelectedColor>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>ReducedPontic</Type>
+    <Color>#d30000</Color>
+    <SelectedColor>#b4d7fb</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>AnatomicPontic</Type>
+    <Color>#800000</Color>
+    <SelectedColor>#8bb3ed</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -132,6 +166,16 @@
     <Opacity>0.7</Opacity>
   </ColorDefinition>
 
+  <ColorDefinition>
+    <Type>AnatomicWaxup</Type>
+    <Color>#804000</Color>
+    <Opacity>0.7</Opacity>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>ReducedWaxup</Type>
+    <Color>#400000</Color>
+  </ColorDefinition>
 
   <ColorDefinition>
     <Type>HealthyTooth.ForArticulation</Type>
@@ -165,6 +209,23 @@
   <ColorDefinition>
     <Type>OverpressCrown</Type>
     <Color>#00FFFF</Color>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>MissingTooth</Type>
+    <Color>#302f2f</Color>
+  </ColorDefinition>
+
+
+  <ColorDefinition>
+    <Type>OverpressPontic</Type>
+    <Color>#0080C0</Color>
+  </ColorDefinition>
+
+
+  <ColorDefinition>
+    <Type>PrimaryTelescope</Type>
+    <Color>#0000FF</Color>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -245,6 +306,7 @@
     <Opacity>0.5</Opacity>
   </ColorDefinition>
 
+
   <ColorDefinition>
     <Type>GingivaModelling</Type>
     <Color>#f0bfdd</Color>
@@ -256,62 +318,10 @@
     <Color>#f0bfdd</Color>
     <SelectedColor>#aa1dd0</SelectedColor>
   </ColorDefinition>
- 
-  <ColorDefinition>
-    <Type>OffsetCoping</Type>
-    <Color>#008000</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>AnatomicCrown</Type>
-    <Color>#9f00a7</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>Coping</Type>
-    <Color>#33756b</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ReducedPontic</Type>
-    <Color>#b51b44</Color>
-    <SelectedColor>#b4d7fb</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>AnatomicPontic</Type>
-    <Color>#72001e</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>AnatomicWaxup</Type>
-    <Color>#1fc173</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ReducedWaxup</Type>
-    <Color>#494949</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>MissingTooth</Type>
-    <Color>#ff1010</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>OverpressPontic</Type>
-    <Color>#52a0d9</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>PrimaryTelescope</Type>
-    <Color>#b87471</Color>
-  </ColorDefinition>
 
   <ColorDefinition>
     <Type>Attachment</Type>
-    <Color>#002e3d</Color>
+    <Color>#5757fe</Color>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -320,33 +330,18 @@
   </ColorDefinition>
 
   <ColorDefinition>
+    <Type>TorontoBridge</Type>
+    <Color>#AFA500</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
     <Type>BarPillar</Type>
-    <Color>#664e0d</Color>
+    <Color>#DB7A09</Color>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>BarSegment</Type>
-    <Color>#5c009c</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>Antagonist</Type>
-    <Color>#f06400</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>HealthyTooth</Type>
-    <Color>#fcae1b</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>OverpressCrown</Type>
-    <Color>#aba900</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>AnatomicInlay</Type>
-    <Color>#335c15</Color>
+    <Color>#9c590c</Color>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -356,49 +351,137 @@
 
   <ColorDefinition>
     <Type>OffsetInlay</Type>
-    <Color>#0a54bd</Color>
+    <Color>#FFA5BA</Color>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>WaxupPontic</Type>
-    <Color>#110d66</Color>
+    <Color>#CC5242</Color>
   </ColorDefinition>
 
   <ColorDefinition>
-    <Type>PreManufacturedCrown</Type>
-    <Color>#e3007a</Color>
-  </ColorDefinition>  
- 
+    <Type>CustomBar</Type>
+    <Color>#BFBF8F</Color>
+  </ColorDefinition>
+
   <ColorDefinition>
     <Type>BiteSplint</Type>
-    <Color>#445274</Color>
+    <Color>#43ACF7</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ProvisionalCrown</Type>
+    <Color>#f575f1</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ProvisionalPontic</Type>
+    <Color>#f322ec</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ProstheticTooth</Type>
+    <Color>#63bCC7</Color>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>BiteSplintGap</Type>
-    <Color>#009bad</Color>
+    <Color>#A2D6FB</Color>
   </ColorDefinition>
   
   <ColorDefinition>
     <Type>Veneer</Type>
-    <Color>#25879a</Color>
+    <Color>#5c005c</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ToothSelectionControl.LegendColorIndicatorBorder</Type>
+    <Color>#000000</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ToothSelectionControl.LegendTextColor</Type>
+    <Color>#979797</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ToothWorkParams.ClientNewDefaultColor</Type>
+    <Color>#2DAD98</Color>
   </ColorDefinition>
 
   <ColorDefinition>
-    <Type>ProvisionalCrown</Type>
-    <Color>#6e04ff</Color>
+    <Type>ToothWorkParams.ClientDefaultColor</Type>
+    <Color>#2094d0</Color>
   </ColorDefinition>
-
   <ColorDefinition>
-    <Type>ProvisionalPontic</Type>
-    <Color>#b871a8</Color>
-    <SelectedColor>#b4d7fb</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
+    <Type>ToothWorkParams.ClientTextTempColor</Type>
+    <Color>#43ACF7</Color>
   </ColorDefinition>
-
+  
+  
   <ColorDefinition>
-    <Type>ProstheticTooth</Type>
-    <Color>#63bCC7</Color>
+    <Type>ToothColor.A1</Type>
+    <Color>#ffEBE1DF</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.A2</Type>
+    <Color>#ffE1D9D3</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.A3</Type>
+    <Color>#ffEEE1CB</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.A3.5</Type>
+    <Color>#ffF2E1CB</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.A4</Type>
+    <Color>#ffEDDDC2</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.B1</Type>
+    <Color>#ffE7DFDB</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.B2</Type>
+    <Color>#ffDFDBD9</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.B3</Type>
+    <Color>#ffE5DED7</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.B4</Type>
+    <Color>#ffEEDFC8</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.C1</Type>
+    <Color>#ffDDD8CE</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.C2</Type>
+    <Color>#ffE5DDCE</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.C3</Type>
+    <Color>#ffE5D5C8</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.C4</Type>
+    <Color>#ffECE3D0</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.D2</Type>
+    <Color>#ffE0D8CF</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.D3</Type>
+    <Color>#ffFFF0DC</Color>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothColor.D4</Type>
+    <Color>#ffE9D8C5</Color>
   </ColorDefinition>
   
 </ArrayOfColorDefinition>

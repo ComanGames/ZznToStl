@@ -1,17 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarning</Keyword>
       <Text>Mevcut parça kayıtlının üzerine yazılır. Devam etmek istediğinizden emin misiniz?</Text>
     </Translation>
     <Translation>
-      <Keyword>PreparationAssistProcessorControl.LoadDataError</Keyword>
-      <Text>Klasörden veri yüklenemedi: </Text>
+      <Keyword>PreparationAssistProcessorControl.PreLoadWarningTitle</Keyword>
+      <Text>Situ / eğitmen hazırlama yükleme onaylayın</Text>
     </Translation>
     <Translation>
-      <Keyword>LoadFilesOrNot</Keyword>
-      <Text>Bu referans dosyaları kullanılsınmı?</Text>
+      <Keyword>PreparationAssistProcessorControl.LoadDataError</Keyword>
+      <Text>Klasörden veri yüklenemedi: </Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
@@ -19,11 +25,11 @@
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.SelectDataFolder</Keyword>
-      <Text>Pre-op / instructor referans verisini yüklemek için klasörü seçin</Text>
+      <Text>Situ / instructor referans verisini yüklemek için klasörü seçin</Text>
     </Translation>
     <Translation>
       <Keyword>PrepAssistLoadFromFolder</Keyword>
-      <Text>pre-op / instructor prep yükle</Text>
+      <Text>Situ / instructor prep yükle</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.Title</Keyword>
@@ -34,12 +40,24 @@
       <Text>İnceleme...</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
-      <Text>Referansı yeniden yüklemek için 'İleri' ye tıklayın</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
       <Text>İnceleme...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointFrom</Keyword>
+      <Text>Öğretim hazırlık üzerinde noktası ayarlayın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointTo</Keyword>
+      <Text>Stajyer hazırlık üzerinde noktası ayarlayın.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadFilesOrNot</Keyword>
+      <Text>Bu referans dosyaları kullanılsınmı?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
+      <Text>Referansı yeniden yüklemek için 'İleri' ye tıklayın</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.DescriptionText</Keyword>
@@ -57,30 +75,5 @@
       <Keyword>PrepVisualization</Keyword>
       <Text>Göster</Text>
     </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.PreLoadWarningTitle</Keyword>
-      <Text>Pre-op / eğitmen hazırlama yükleme onaylayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.RegPointFrom</Keyword>
-      <Text>Öğretim hazırlık üzerinde noktası ayarlayın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.RegPointTo</Keyword>
-      <Text>Stajyer hazırlık üzerinde noktası ayarlayın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>preop</Keyword>
-      <Text>İşletim Öncesi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>instructor</Keyword>
-      <Text>Eğitmen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>pulpa</Keyword>
-      <Text>pulpa</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles />
 </TranslationContainer>

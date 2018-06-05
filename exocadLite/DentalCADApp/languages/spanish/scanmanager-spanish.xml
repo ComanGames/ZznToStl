@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>WizardFinished</Keyword>
       <Text>El asistente ha terminado</Text>
@@ -18,6 +24,10 @@
       <Text>Escaneado general - Mandíbula en soporte</Text>
     </Translation>
     <Translation>
+      <Keyword>InsertFullModel.LowerWithPlate</Keyword>
+      <Text>Por favor introduzca el modelo de mandíbula con soporte</Text>
+    </Translation>
+    <Translation>
       <Keyword>FileName.PreviewScan</Keyword>
       <Text>Escanear selección vista previa/zona de interés</Text>
     </Translation>
@@ -30,16 +40,16 @@
       <Text>Por favor introduzca el modelo de mandíbula</Text>
     </Translation>
     <Translation>
-      <Keyword>InsertFullModel.LowerWithPlate</Keyword>
-      <Text>Por favor introduzca el modelo de mandíbula con soporte</Text>
-    </Translation>
-    <Translation>
       <Keyword>InsertPreparations.Upper</Keyword>
       <Text>Por favor introduzca los muñones del maxilar</Text>
     </Translation>
     <Translation>
       <Keyword>InsertPreparations.Lower</Keyword>
       <Text>Por favor introduzca los muñones de la mandíbula</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.OverviewPreparationsScan</Keyword>
+      <Text>Escaneado de visión general: {0}</Text>
     </Translation>
     <Translation>
       <Keyword>InsertWaxupPlural</Keyword>
@@ -134,48 +144,12 @@
       <Text>Escaneado de encías: {0}</Text>
     </Translation>
     <Translation>
-      <Keyword>FileName.PonticScan</Keyword>
-      <Text>Escaneado de pónticos: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>GingivaScan.Single</Keyword>
-      <Text>Escaneado de encías: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>GingivaScan.Multiple</Keyword>
-      <Text>Escaneado de encías: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Single</Keyword>
-      <Text>Escaneado de encías: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Multiple</Keyword>
-      <Text>Escaneado de encías: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.HealthyScan.Single</Keyword>
-      <Text>Diente sano: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.HealthyScan</Keyword>
-      <Text>Dientes sanos: {0}</Text>
-    </Translation>
-    <Translation>
       <Keyword>InsertTeeth</Keyword>
       <Text>Introduzca dientes {0}</Text>
     </Translation>
     <Translation>
       <Keyword>InsertTooth</Keyword>
       <Text>Introduzca diente {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertHealthyTeeth</Keyword>
-      <Text>Introduzca dientes sanos {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertHealthyTooth</Keyword>
-      <Text>Introduzca diente sano {0}</Text>
     </Translation>
     <Translation>
       <Keyword>FileName.PreparationScanPlural</Keyword>
@@ -227,6 +201,10 @@ Detalles del error:
     <Translation>
       <Keyword>PreparationType.Crown</Keyword>
       <Text>Corona</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Inlay</Keyword>
+      <Text>Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationType.Antagonist</Keyword>
@@ -342,11 +320,11 @@ Seleccione este modo si existe el espacio suficiente entre preparaciones para qu
     </Translation>
     <Translation>
       <Keyword>ClickNext2Proceed</Keyword>
-      <Text>Pulse 'Sig.' (Siguiente) para continuar</Text>
+      <Text>'Sig.' para continuar</Text>
     </Translation>
     <Translation>
       <Keyword>ClickNext2Scan</Keyword>
-      <Text>Pulse 'Sig.' (Siguiente) para escanear</Text>
+      <Text>'Sig.' para escanear</Text>
     </Translation>
     <Translation>
       <Keyword>ClickNext2Finish</Keyword>
@@ -396,6 +374,14 @@ Escanear muñones por separado o pulsar 'Finalizar' para salir</Text>
       <Text>Escaneado de registro - maxilar + mandíbula</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanManager.WizardStepFailed</Keyword>
+      <Text>El paso {0} del asistente de escaneado ha fallado.
+
+
+Mensaje de error:
+{1}</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManager.SingleScanStep.None</Keyword>
       <Text>Inicialización</Text>
     </Translation>
@@ -418,14 +404,6 @@ Escanear muñones por separado o pulsar 'Finalizar' para salir</Text>
     <Translation>
       <Keyword>ScanManager.ErrorLoadingMesh</Keyword>
       <Text>Error al cargar la malla del archivo {0}.
-
-
-Mensaje de error:
-{1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.WizardStepFailed</Keyword>
-      <Text>El paso {0} del asistente de escaneado ha fallado.
 
 
 Mensaje de error:
@@ -502,6 +480,133 @@ Motivo del fallo:
       <Text>Iniciar administrador de escaneo</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanManager.Close</Keyword>
+      <Text>Cerrar Administrador de Escaneo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Close.Description</Keyword>
+      <Text>Cerrar Administrador de Escaneo. Si ha finalizado cualquier escaneado, los datos escaneados no se perderán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerInitializationCrash</Keyword>
+      <Text>Se ha producido un error inesperado al inicializar la interfaz del escáner:
+Mensaje de error:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnknownScanner</Keyword>
+      <Text>Escáner Desconocido</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectToScannerFailed</Keyword>
+      <Text>La inicialización del escáner no ha sido exitosa. Por favor, inténtelo de nuevo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerMoveHomeCrash</Keyword>
+      <Text>Se ha producido un error inesperado al mover la plataforma a la posición de origen:
+Mensaje de error:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerMoveHomeFailed</Keyword>
+      <Text>No se puede mover la plataforma a la posición de origen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectToScannerAndMoveHomeCrashed</Keyword>
+      <Text>Se ha producido un error inesperado al conectar con el escáner y reiniciar los ejes:
+Mensaje de error:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerName.RNI</Keyword>
+      <Text>Renishaw</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DDataOlderThanDentalProjectFileFound</Keyword>
+      <Text>¡Atención!
+
+Se han encontrado datos escaneados 3D que se capturaron antes de que el proyecto fuera modificado.
+Esto puede provocar un funcionamiento anómalo de DentalCAD.
+
+Puede elegir entre eliminar o conservar todos o algunos de los datos escaneados 3D siguientes.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DScanData</Keyword>
+      <Text>Datos escaneados 3D</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteAll</Keyword>
+      <Text>Descartar todos los datos escaneados 3D antiguos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteAll.Description</Keyword>
+      <Text>Se descartarán todos los datos escaneados 3D</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteSelected</Keyword>
+      <Text>Descartar los datos escaneados 3D seleccionados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteSelected.Description</Keyword>
+      <Text>Solamente se descartarán los datos escaneados 3D seleccionados. Esto puede provocar un comportamiento insperado de DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepAll</Keyword>
+      <Text>Conservar todo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepAll.Description</Keyword>
+      <Text>Todos los datos escaneados 3D se conservarán. Esto puede provocar un comportamiento inesperado de DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepSelected</Keyword>
+      <Text>Conservar los datos escaneados 3D seleccionados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>KeepSelected.Description</Keyword>
+      <Text>Solamente se conservarán los datos escaneados 3D seleccionados. Esto puede provocar un comportamiento inesperado de DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DDataOlderThanDentalProjectFileRemovalFailedRemoveManually</Keyword>
+      <Text>No se ha podido concluir el borrado de datos escaneados 3D. Los siguientes archivos de datos 3D no se han descartado:
+{0}
+Por favor, elimínelos manualmente.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DScanDataCheck</Keyword>
+      <Text>Se ha producido un error al verificar la existencia de datos escaeados.
+Detalles del error:
+{0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.MushBite</Keyword>
+      <Text>Registro de mordida</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.Release</Keyword>
+      <Text>Versión</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.Prototype</Keyword>
+      <Text>Prototipo</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.TestVersion</Keyword>
+      <Text>Versión de prueba</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.AlphaVersion</Keyword>
+      <Text>Versión alfa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.BetaVersion</Keyword>
+      <Text>Versión beta</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerDevelopmentState.ReleaseCandidate</Keyword>
+      <Text>Candidato a versión</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManager.ReallyAbortWizard</Keyword>
       <Text>¿Desea interrumpir el asistente?</Text>
     </Translation>
@@ -516,22 +621,6 @@ Motivo del fallo:
     <Translation>
       <Keyword>ScanManager.CancelAbortWizard</Keyword>
       <Text>Seguir escaneando</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Close</Keyword>
-      <Text>Cerrar Administrador de Escaneo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Close.Description</Keyword>
-      <Text>Cerrar Administrador de Escaneo. Si ha finalizado cualquier escaneado, los datos escaneados no se perderán.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.GotoStandby</Keyword>
-      <Text>Espera</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.GotoStandby.Description</Keyword>
-      <Text>El proyecto se cerrará y el programa de escaneado se pondrá en modo de espera (el escáner permanecerá conectado).</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.ScanWizard</Keyword>
@@ -604,12 +693,12 @@ Intente reiniciar la aplicación.</Text>
       <Text>Continuar</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.TeethScanningModeChangeFailed.Cancel</Keyword>
-      <Text>Cancelar</Text>
-    </Translation>
-    <Translation>
       <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue.Description</Keyword>
       <Text>Intente volver a seleccionar el modo de escaneado o reinicie la aplicación.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Cancel</Keyword>
+      <Text>Cancelar</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.TeethScanningMode.NaturalTeeth</Keyword>
@@ -622,7 +711,7 @@ Intente reiniciar la aplicación.</Text>
     <Translation>
       <Keyword>ScanManager.WizardFinished</Keyword>
       <Text>El asistente de escaneado ha terminado.
-Pulse 'Sig.' (Siguiente) para iniciar el asistente de diseño.</Text>
+Pulse 'Sig.' para iniciar el asistente de diseño.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.CancelMeshing</Keyword>
@@ -774,7 +863,7 @@ Detalles del error:
     </Translation>
     <Translation>
       <Keyword>CheckBrightnessAndClickNextAgain</Keyword>
-      <Text>Por favor, verifique los ajustes de brillo y pulse 'Sig.' (Siguiente) para escanear.</Text>
+      <Text>Por favor, verifique los ajustes de brillo y pulse 'Sig.' para escanear.</Text>
     </Translation>
     <Translation>
       <Keyword>AddSingleScan</Keyword>
@@ -840,8 +929,8 @@ Desmárquelo para recuperar los colores originales de los datos en bruto</Text>
     <Translation>
       <Keyword>ClickNext2StartScan</Keyword>
       <Text>Los datos de escaneado ya existen.
-Pulse 'Sig.' (Siguiente) para escanear de nuevo.
-Pulse 'Ant.' (Anterior) para cancelar el escaneado.</Text>
+Pulse 'Sig.' para escanear de nuevo.
+Pulse 'Ant.' para cancelar el escaneado.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.ErrorDeletingFile</Keyword>
@@ -896,14 +985,10 @@ Texto de error:
       <Text>Por favor seleccione el área para todos los escaneados siguientes con el ratón. A continuación pulse 'Recortar'</Text>
     </Translation>
     <Translation>
-      <Keyword>Crop</Keyword>
-      <Text>Recortar</Text>
-    </Translation>
-    <Translation>
       <Keyword>ConnectionEstablishedCheckBrightnessAndScan</Keyword>
       <Text>Se ha establecido conexión con el escáner.
 
-Por favor, compruebe el brillo y pulse 'Sig.' (Siguiente) para escanear.</Text>
+Por favor, compruebe el brillo y pulse 'Sig.' para escanear.</Text>
     </Translation>
     <Translation>
       <Keyword>Advice</Keyword>
@@ -961,16 +1046,12 @@ Detalles del error:
       <Text>Seleccione este modo si utiliza el escáner intraoral para escanear modelos de escayola</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.IO.ScanImpression</Keyword>
-      <Text>Impresión</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanImpression.ToolTip</Keyword>
-      <Text>Seleccione este modo si está escaneando cubetas de impresión</Text>
-    </Translation>
-    <Translation>
       <Keyword>WritingDataToDrive</Keyword>
       <Text>Guardando datos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.MultiDiePluginNotLoaded</Keyword>
+      <Text>No se ha podido cargar el conector multidie {0}. Por favor, verifique que el fichero de dicho conector existe.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.MultiDieMismatchFull</Keyword>
@@ -985,10 +1066,6 @@ Uno o varios tratamientos no se muestran correctamente, y no se escanearán.</Te
     <Translation>
       <Keyword>ScanManager.MultiDiePluginNotSpecified</Keyword>
       <Text>No se ha especificado la instancia multidie. Por favor, inicie la aplicación con el modificador '/MultiDiePluginName=[Su_Nombre_de_Conector]'.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.MultiDiePluginNotLoaded</Keyword>
-      <Text>No se ha podido cargar el conector multidie {0}. Por favor, verifique que el fichero de dicho conector existe.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.ToothJobsMissing</Keyword>
@@ -1015,6 +1092,10 @@ No se precisa de ningún escaneado.</Text>
     <Translation>
       <Keyword>Delete.Description</Keyword>
       <Text>Continuar - la selección se eliminará automáticamente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crop</Keyword>
+      <Text>Recortar</Text>
     </Translation>
     <Translation>
       <Keyword>Crop.Description</Keyword>
@@ -1072,24 +1153,16 @@ En caso contrario, el escaner podría resultar dañado.
       <Text>No se ha encontrado ningún conector del escáner instalado o con licencia.</Text>
     </Translation>
     <Translation>
+      <Keyword>ScannerNotLicensedForExecution</Keyword>
+      <Text>El conector del escáner no dispone de licencia, y no se puede ejecutar.</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManagerDefaultScanner</Keyword>
       <Text>Selección de escáner:</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManagerDefaultScannerAutoSelect</Keyword>
       <Text>Selección automática de escáner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerNotLicensedForExecution</Keyword>
-      <Text>El conector del escáner no dispone de licencia, y no se puede ejecutar.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>StartScannerCalibration</Keyword>
-      <Text>Iniciar calibrado del escáner.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DoNotCalibrate</Keyword>
-      <Text>No calibrar.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.ScanProcessAbortWithDataLoss</Keyword>
@@ -1109,10 +1182,6 @@ Si pulsa el botón de retroceso se cancelará el proceso de escaneado. Los datos
     <Translation>
       <Keyword>ScanManager.AbortCancelScan</Keyword>
       <Text>Continuar escaneando</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCancelScan.Description</Keyword>
-      <Text>Continuar escaneando el modelo actual</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.PrepLineDetectionFinished</Keyword>
@@ -1135,6 +1204,66 @@ Si pulsa el botón de retroceso se cancelará el proceso de escaneado. Los datos
       <Text>Cerrar aplicación</Text>
     </Translation>
     <Translation>
+      <Keyword>SizeThreshold</Keyword>
+      <Text>Medida máxima de hueco</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PonticScan</Keyword>
+      <Text>Escaneado de pónticos: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Single</Keyword>
+      <Text>Escaneado de encías: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Multiple</Keyword>
+      <Text>Escaneado de encías: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Single</Keyword>
+      <Text>Escaneado de encías: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Multiple</Keyword>
+      <Text>Escaneado de encías: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan.Single</Keyword>
+      <Text>Diente sano: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan</Keyword>
+      <Text>Dientes sanos: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTeeth</Keyword>
+      <Text>Introduzca dientes sanos {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTooth</Keyword>
+      <Text>Introduzca diente sano {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression</Keyword>
+      <Text>Impresión</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression.ToolTip</Keyword>
+      <Text>Seleccione este modo si está escaneando cubetas de impresión</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartScannerCalibration</Keyword>
+      <Text>Iniciar calibrado del escáner.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DoNotCalibrate</Keyword>
+      <Text>No calibrar.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCancelScan.Description</Keyword>
+      <Text>Continuar escaneando el modelo actual</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManager.UserAborted</Keyword>
       <Text>El escaneado ha sido cancelado por el usuario</Text>
     </Translation>
@@ -1150,14 +1279,6 @@ La dirección de escaneado se ajustará automáticamente.</Text>
     <Translation>
       <Keyword>ScanManager.ImplantPositionScanType</Keyword>
       <Text>Por favor, seleccione la estrategia de escaneado de las posiciones de los implantes</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference</Keyword>
-      <Text>Pilar de escaneado óptico + escaneado de referencia</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference.Description</Keyword>
-      <Text>Mide los pilares de escaneo ópticos y realiza un escaneado de referencia para poder ajustar los pilares de escaneo ópticos con los datos escaneados con el escáner óptico</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.ImplantPositionScanType.Optical</Keyword>
@@ -1182,14 +1303,6 @@ La dirección de escaneado se ajustará automáticamente.</Text>
     <Translation>
       <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody.Description</Keyword>
       <Text>Medir pilares de escaneado táctiles (escaneado cilíndrico)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference</Keyword>
-      <Text>Pilar de escaneado táctil + escaneado de referencia</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference.Description</Keyword>
-      <Text>Mide los pilares de escaneo táctiles (escaneado cilíndrico) y realiza un escaneado de referencia para poder ajustar los pilares de escaneo táctiles con los datos escaneados con el escáner óptico</Text>
     </Translation>
     <Translation>
       <Keyword>OneJawMustContainsOnlyAntaOrHealthy</Keyword>
@@ -1220,10 +1333,6 @@ La dirección de escaneado se ajustará automáticamente.</Text>
       <Text>Escaneado de posición de implante: {0}</Text>
     </Translation>
     <Translation>
-      <Keyword>FileName.ImplantReferenceObject</Keyword>
-      <Text>Escaneado de referencia de implante: {0}</Text>
-    </Translation>
-    <Translation>
       <Keyword>Scan.ImplantPosition</Keyword>
       <Text>Escaneado de posición de implante</Text>
     </Translation>
@@ -1244,28 +1353,38 @@ La dirección de escaneado se ajustará automáticamente.</Text>
       <Text>No se han encontrado datos de escaneo. Por favor, intente escanear una zona más amplia.</Text>
     </Translation>
     <Translation>
-      <Keyword>SizeThreshold</Keyword>
-      <Text>Medida máxima de hueco</Text>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference</Keyword>
+      <Text>Pilar de escaneado óptico + escaneado de referencia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference.Description</Keyword>
+      <Text>Mide los pilares de escaneo ópticos y realiza un escaneado de referencia para poder ajustar los pilares de escaneo ópticos con los datos escaneados con el escáner óptico</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference</Keyword>
+      <Text>Pilar de escaneado táctil + escaneado de referencia</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference.Description</Keyword>
+      <Text>Mide los pilares de escaneo táctiles (escaneado cilíndrico) y realiza un escaneado de referencia para poder ajustar los pilares de escaneo táctiles con los datos escaneados con el escáner óptico</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CalibrationProgress</Keyword>
+      <Text>Progreso de calibración</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.OperationFailed</Keyword>
+      <Text>Operación ha fallado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ImplantReferenceObject</Keyword>
+      <Text>Escaneado de referencia de implante: {0}</Text>
     </Translation>
     <Translation>
       <Keyword>CouldNotFindAllImplantReferences</Keyword>
       <Text>No ha sido posible extraer las posiciones de los pilares de escaneo desde los datos escaneados.
 Dientes previstos: {0}
 Dientes encontrados: {1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CouldNotStoreImplantReference</Keyword>
-      <Text>Se ha producido un error al guardar la posición de los pilares de escaneo del diente {0} en el archivo {1}.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CouldNotFindAllImplantpositions</Keyword>
-      <Text>No ha sido posible extraer las posiciones de los implantes desde los datos escaneados.
-Dientes previstos: {0}
-Dientes encontrados: {1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CouldNotStoreImplantPosition</Keyword>
-      <Text>Se ha producido un error al guardar las posiciones de los implantes para el diente {0} en el archivo {1}.</Text>
     </Translation>
     <Translation>
       <Keyword>MeshTriangulationFailed</Keyword>
@@ -1315,14 +1434,6 @@ Error:
       <Text>Modo de cámara</Text>
     </Translation>
     <Translation>
-      <Keyword>CalibrationProgress</Keyword>
-      <Text>Progreso de calibración</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.OperationFailed</Keyword>
-      <Text>Operación ha fallado</Text>
-    </Translation>
-    <Translation>
       <Keyword>ToothWithToothId</Keyword>
       <Text>Diente {0}</Text>
     </Translation>
@@ -1339,243 +1450,22 @@ La característica no se puede utilizar. Se volverá al modo de escaneado predet
 Para activarlo, por favor verifique que el archivo del conector multidie {0} exista.</Text>
     </Translation>
     <Translation>
-      <Keyword>ScannerInitializationCrash</Keyword>
-      <Text>Se ha producido un error inesperado al inicializar la interfaz del escáner:
-Mensaje de error:
-{0}</Text>
+      <Keyword>CouldNotStoreImplantReference</Keyword>
+      <Text>Se ha producido un error al guardar la posición de los pilares de escaneo del diente {0} en el archivo {1}.</Text>
     </Translation>
     <Translation>
-      <Keyword>UnknownScanner</Keyword>
-      <Text>Escáner Desconocido</Text>
+      <Keyword>CouldNotFindAllImplantpositions</Keyword>
+      <Text>No ha sido posible extraer las posiciones de los implantes desde los datos escaneados.
+Dientes previstos: {0}
+Dientes encontrados: {1}</Text>
     </Translation>
     <Translation>
-      <Keyword>ConnectToScannerFailed</Keyword>
-      <Text>La inicialización del escáner no ha sido exitosa. Por favor, inténtelo de nuevo.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerMoveHomeCrash</Keyword>
-      <Text>Se ha producido un error inesperado al mover la plataforma a la posición de origen:
-Mensaje de error:
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerMoveHomeFailed</Keyword>
-      <Text>No se puede mover la plataforma a la posición de origen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConnectToScannerAndMoveHomeCrashed</Keyword>
-      <Text>Se ha producido un error inesperado al conectar con el escáner y reiniciar los ejes:
-Mensaje de error:
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerName.RNI</Keyword>
-      <Text>Renishaw</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DDataOlderThanDentalProjectFileFound</Keyword>
-      <Text>¡Atención!
-
-Se han encontrado datos escaneados 3D que se capturaron antes de que el proyecto fuera modificado.
-Esto puede provocar un funcionamiento anómalo de DentalCAD.
-
-Puede elegir entre eliminar o conservar todos o algunos de los datos escaneados 3D siguientes.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DScanData</Keyword>
-      <Text>Datos escaneados 3D</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteAll</Keyword>
-      <Text>Descartar todos los datos escaneados 3D antiguos</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteAll.Description</Keyword>
-      <Text>Se descartarán todos los datos escaneados 3D</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteSelected</Keyword>
-      <Text>Descartar los datos escaneados 3D seleccionados</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteSelected.Description</Keyword>
-      <Text>Solamente se descartarán los datos escaneados 3D seleccionados. Esto puede provocar un comportamiento insperado de DentalCAD.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>KeepAll</Keyword>
-      <Text>Conservar todo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>KeepAll.Description</Keyword>
-      <Text>Todos los datos escaneados 3D se conservarán. Esto puede provocar un comportamiento inesperado de DentalCAD.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>KeepSelected</Keyword>
-      <Text>Conservar los datos escaneados 3D seleccionados</Text>
-    </Translation>
-    <Translation>
-      <Keyword>KeepSelected.Description</Keyword>
-      <Text>Solamente se conservarán los datos escaneados 3D seleccionados. Esto puede provocar un comportamiento inesperado de DentalCAD.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DDataOlderThanDentalProjectFileRemovalFailedRemoveManually</Keyword>
-      <Text>No se ha podido concluir el borrado de datos escaneados 3D. Los siguientes archivos de datos 3D no se han descartado:
-{0}
-Por favor, elimínelos manualmente.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DScanDataCheck</Keyword>
-      <Text>Se ha producido un error al verificar la existencia de datos escaeados.
-Detalles del error:
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.MushBite</Keyword>
-      <Text>Registro de mordida</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
-      <Text>Dos modelos ocluídos</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
-      <Text>Dos modelos, en articulador A</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
-      <Text>Dos modelos, en articulador A (antiguo)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
-      <Text>Dos modelos, en articulador B</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
-      <Text>Dos modelos, en articulador S</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
-      <Text>Dos modelos, en articulador P</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.Release</Keyword>
-      <Text>Versión</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.Prototype</Keyword>
-      <Text>Prototipo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.TestVersion</Keyword>
-      <Text>Versión de prueba</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.AlphaVersion</Keyword>
-      <Text>Versión alfa</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.BetaVersion</Keyword>
-      <Text>Versión beta</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerDevelopmentState.ReleaseCandidate</Keyword>
-      <Text>Candidato a versión</Text>
+      <Keyword>CouldNotStoreImplantPosition</Keyword>
+      <Text>Se ha producido un error al guardar las posiciones de los implantes para el diente {0} en el archivo {1}.</Text>
     </Translation>
     <Translation>
       <Keyword>ScanDataPlugin</Keyword>
       <Text>Conector de escáner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InserUpperModel</Keyword>
-      <Text>Introducir modelo maxilar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InserLowerModel</Keyword>
-      <Text>Introducir modelo mandíbula</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertSitu.MultiDie</Keyword>
-      <Text>Introducir modelo pre-operatorio</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ArtiPlateRegistrationScanDataAvail.Cancel</Keyword>
-      <Text>Cancelar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ArtiPlateRegistrationScanDataAvail.Ignore</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ArtiPlateRegistrationScanDataAvail.Ok</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UseTransferPlateForArti.ScanDataExists.Cancel</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UseTransferPlateForArti.ScanDataExists.Ok</Keyword>
-      <Text>Aceptar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TextureMode.None</Keyword>
-      <Text>Ninguno</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TextureMode.Vertex</Keyword>
-      <Text>Coloreado vértices</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TextureMode.Image</Keyword>
-      <Text>Imagen de textura</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ConfirmCloseProject.Yes</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ConfirmCloseProject.No</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ConfirmCloseProject.No.Description</Keyword>
-      <Text>Seguir escaneando.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.LoadProject.Title</Keyword>
-      <Text>Cargar proyecto</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Caption.Error</Keyword>
-      <Text>Administrador de escaneo - Error</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Caption.Warning</Keyword>
-      <Text>Administrador de escaneo - Atención</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ContinueScanning</Keyword>
-      <Text>Continuar escaneo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanPrepOnMultiDie.ScanDataExists.Yes</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanPrepOnMultiDie.ScanDataExists.No</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanPrepOnMultiDieDataAvail.Ok</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanPrepOnMultiDieDataAvail.Ignore</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel</Keyword>
-      <Text>Cancelar</Text>
     </Translation>
     <Translation>
       <Keyword>ScanPrepOnMultiDie.ScanDataExists</Keyword>
@@ -1588,8 +1478,16 @@ Esto puede provocar una operación incorrecta de DentalCAD más adelante, ya que
 ¿Desea descartar los datos de escaneado actuales?</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.Yes</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanPrepOnMultiDie.ScanDataExists.Yes.Description</Keyword>
       <Text>Los datos escaneados serán descartados y el modo de escaneado se cambiará.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDie.ScanDataExists.No</Keyword>
+      <Text>No</Text>
     </Translation>
     <Translation>
       <Keyword>ScanPrepOnMultiDie.ScanDataExists.No.Description</Keyword>
@@ -1612,81 +1510,27 @@ Se han encontrado datos de escaneado correspondientes al modo de escaneado 'esca
 ¿Desea eliminar los datos escaneados?</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ok</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanPrepOnMultiDieDataAvail.Ok.Description</Keyword>
       <Text>Los datos escaneados correspondientes a este modo serán descartados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Ignore</Keyword>
+      <Text>No</Text>
     </Translation>
     <Translation>
       <Keyword>ScanPrepOnMultiDieDataAvail.Ignore.Description</Keyword>
       <Text>Conservar datos escaneados y continuar escaneando. Esto podría provocar una operación errónea de DentalCAD.</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel.Description</Keyword>
-      <Text>Se cancelará la carga del proyecto. No se perderá ningún dato escaneado.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataExists</Keyword>
-      <Text>¡ATENCION!
-
-Se va a cambiar el modo de escaneo.
-
-Esto puede provocar una operación incorrecta de DentalCAD más adelante, ya que los datos adquiridos en el modo actual están presentes.
-
-¿Desea descartar los datos de escaneado actuales?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes.Description</Keyword>
-      <Text>Los datos escaneados serán descartados y el modo de escaneado se cambiará.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataExists.No</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataExists.No.Description</Keyword>
-      <Text>El modo de escaneado NO se cambiará. Los datos escaneados se conservarán.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWay.ScanDataRemovalFileRemovalFailed</Keyword>
-      <Text>Algunos datos escaneados no se pueden descartar.
-Por favor, elimine los ficheros manualmente e inténtelo de nuevo.
-
-Relación de ficheros:
-{0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail</Keyword>
-      <Text>¡ATENCION!
-
-Se han encontrado datos de escaneado correspondientes al modo de escaneado 'escaneado de encerado'. Este modo de escaneado no está disponible en esta versión de programa.
-
-¿Desea eliminar los datos escaneados?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Ok</Keyword>
-      <Text>Si</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Ok.Description</Keyword>
-      <Text>Los datos escaneados correspondientes a este modo serán descartados</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Ignore</Keyword>
-      <Text>No</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Ignore.Description</Keyword>
-      <Text>Conservar datos escaneados y continuar escaneando. Esto podría provocar una operación errónea de DentalCAD.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Cancel</Keyword>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel</Keyword>
       <Text>Cancelar</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanWaxupBothWayDataAvail.Cancel.Description</Keyword>
+      <Keyword>ScanPrepOnMultiDieDataAvail.Cancel.Description</Keyword>
       <Text>Se cancelará la carga del proyecto. No se perderá ningún dato escaneado.</Text>
     </Translation>
     <Translation>
@@ -1770,7 +1614,7 @@ Encontrado: {0} - previsto: {1}</Text>
     </Translation>
     <Translation>
       <Keyword>ImplantReferenceToothLinkingDoneAdvice</Keyword>
-      <Text>Pulse 'Sig.' (Siguiente) para ir al paso siguiente</Text>
+      <Text>Pulse 'Sig.' para ir al paso siguiente</Text>
     </Translation>
     <Translation>
       <Keyword>CannotRemoveScanData</Keyword>
@@ -1810,20 +1654,94 @@ Para ello, deberá:
       <Text>Se ha producido un error al escanear los puntos de contacto:</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.ContextMenu.MoveHome</Keyword>
-      <Text>Reiniciar posición de plataforma (Reiniciar ejes)</Text>
-    </Translation>
-    <Translation>
       <Keyword>ScanManager.ContextMenu.EnforceRegionOfInterestForNextScan</Keyword>
       <Text>Forzar paso de vista previa para el escaneado siguiente, para definir una zona de interés distinta.</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.ContextMenu.CloseProject</Keyword>
-      <Text>Cerrar proyecto y pasar a estado de espera</Text>
+      <Keyword>ScanManager.ContextMenu.MoveHome</Keyword>
+      <Text>Reiniciar posición de plataforma (Reiniciar ejes)</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.AdvancedMenu.ToolTip</Keyword>
       <Text>Opciones avanzadas</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.GotoStandby</Keyword>
+      <Text>Espera</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.GotoStandby.Description</Keyword>
+      <Text>El proyecto se cerrará y el programa de escaneado se pondrá en modo de espera (el escáner permanecerá conectado).</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists</Keyword>
+      <Text>¡ATENCION!
+
+Se va a cambiar el modo de escaneo.
+
+Esto puede provocar una operación incorrecta de DentalCAD más adelante, ya que los datos adquiridos en el modo actual están presentes.
+
+¿Desea descartar los datos de escaneado actuales?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.Yes.Description</Keyword>
+      <Text>Los datos escaneados serán descartados y el modo de escaneado se cambiará.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.No</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataExists.No.Description</Keyword>
+      <Text>El modo de escaneado NO se cambiará. Los datos escaneados se conservarán.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWay.ScanDataRemovalFileRemovalFailed</Keyword>
+      <Text>Algunos datos escaneados no se pueden descartar.
+Por favor, elimine los ficheros manualmente e inténtelo de nuevo.
+
+Relación de ficheros:
+{0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail</Keyword>
+      <Text>¡ATENCION!
+
+Se han encontrado datos de escaneado correspondientes al modo de escaneado 'escaneado de encerado'. Este modo de escaneado no está disponible en esta versión de programa.
+
+¿Desea eliminar los datos escaneados?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ok</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ok.Description</Keyword>
+      <Text>Los datos escaneados correspondientes a este modo serán descartados</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ignore</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Ignore.Description</Keyword>
+      <Text>Conservar datos escaneados y continuar escaneando. Esto podría provocar una operación errónea de DentalCAD.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Cancel</Keyword>
+      <Text>Cancelar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWaxupBothWayDataAvail.Cancel.Description</Keyword>
+      <Text>Se cancelará la carga del proyecto. No se perderá ningún dato escaneado.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ContextMenu.CloseProject</Keyword>
+      <Text>Cerrar proyecto y pasar a estado de espera</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.Standby.Header</Keyword>
@@ -1852,16 +1770,44 @@ Escaner - Pausa</Text>
 Esto puede provocar un funcionamiento erróneo de DentalCAD, ya que los datos escaneados ahora podrían no ajustar con los escaneados posteriormente.</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.Yes</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManager.ConfirmCloseProject.Yes.Description</Keyword>
       <Text>El proyecto actual se cerrará. Se conservarán los datos escaneados.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.No</Keyword>
+      <Text>No</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCloseProject.No.Description</Keyword>
+      <Text>Seguir escaneando.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.LoadProject.Title</Keyword>
+      <Text>Cargar proyecto</Text>
     </Translation>
     <Translation>
       <Keyword>ScanManager.NoWritePermissionForJobFolder</Keyword>
       <Text>El directorio de proyecto '{0}' no se puede escribir. Por favor, asegúrese de que la carpeta dispone de derechos de escritura e inténtelo de nuevo.</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanManager.Caption.Error</Keyword>
+      <Text>Administrador de escaneo - Error</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Caption.Warning</Keyword>
+      <Text>Administrador de escaneo - Atención</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanWaxupBothWay</Keyword>
       <Text>Escanear encerado</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ContinueScanning</Keyword>
+      <Text>Continuar escaneo</Text>
     </Translation>
     <Translation>
       <Keyword>FileName.WaxupScan.Upper</Keyword>
@@ -1888,10 +1834,6 @@ Esto puede provocar un funcionamiento erróneo de DentalCAD, ya que los datos es
       <Text>Escaneo general de modelo - mandíbula</Text>
     </Translation>
     <Translation>
-      <Keyword>FileName.OverviewPreparationsScan</Keyword>
-      <Text>Escaneado de visión general: {0}</Text>
-    </Translation>
-    <Translation>
       <Keyword>FineGingivaScan.Single</Keyword>
       <Text>Escaneado preciso de encía: {0}</Text>
     </Translation>
@@ -1910,10 +1852,6 @@ Esto puede provocar un funcionamiento erróneo de DentalCAD, ya que los datos es
     <Translation>
       <Keyword>ScanWizardControl.ScanFinished</Keyword>
       <Text>Proceso de escaneado completado.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizardControl.SelectNextStep</Keyword>
-      <Text>Seleccione paso siguiente:</Text>
     </Translation>
     <Translation>
       <Keyword>ScanWizardControl.NextStepCAD</Keyword>
@@ -1961,6 +1899,38 @@ Detalles del error: {1}</Text>
 Detalles del error: {0}</Text>
     </Translation>
     <Translation>
+      <Keyword>ScanWizardControl.SelectNextStep</Keyword>
+      <Text>Seleccione paso siguiente:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.RegisteredJaws</Keyword>
+      <Text>Dos modelos ocluídos</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheim</Keyword>
+      <Text>Dos modelos, en articulador A</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorPforzheimLegacy</Keyword>
+      <Text>Dos modelos, en articulador A (antiguo)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorKoblach</Keyword>
+      <Text>Dos modelos, en articulador B</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorMunich</Keyword>
+      <Text>Dos modelos, en articulador S</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistType.Value.ArticulatorBiberach</Keyword>
+      <Text>Dos modelos, en articulador P</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.KeepEnoughDataForLaterRegistration</Keyword>
+      <Text>Al recortar debe conservar alguna parte de la superficie que coincida con los datos escaneados, para permitir un posicionamiento exacto</Text>
+    </Translation>
+    <Translation>
       <Keyword>ScanManager.KeepEnoughDataForLaterRegistration.Title</Keyword>
       <Text>Atención</Text>
     </Translation>
@@ -1969,8 +1939,16 @@ Detalles del error: {0}</Text>
       <Text>modo de escaneado en color (escaneo de texturas)</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.KeepEnoughDataForLaterRegistration</Keyword>
-      <Text>Al recortar debe conservar alguna parte de la superficie que coincida con los datos escaneados, para permitir un posicionamiento exacto</Text>
+      <Keyword>ScanManager.TextureMode.None</Keyword>
+      <Text>Ninguno</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TextureMode.Vertex</Keyword>
+      <Text>Coloreado vértices</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TextureMode.Image</Keyword>
+      <Text>Imagen de textura</Text>
     </Translation>
     <Translation>
       <Keyword>UseTransferPlateForArti</Keyword>
@@ -1985,8 +1963,16 @@ Detalles del error: {0}</Text>
       <Text>Se han detectado escaneados de transferencia de articulador. ¿Desea continuar y descartar dichos escaneados?</Text>
     </Translation>
     <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Ok</Keyword>
+      <Text>Aceptar</Text>
+    </Translation>
+    <Translation>
       <Keyword>UseTransferPlateForArti.ScanDataExists.Ok.Description</Keyword>
       <Text>Descartar los datos de escaneado de transferencia de articulador y cambiar el modo.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UseTransferPlateForArti.ScanDataExists.Cancel</Keyword>
+      <Text>No</Text>
     </Translation>
     <Translation>
       <Keyword>UseTransferPlateForArti.ScanDataExists.Cancel.Description</Keyword>
@@ -2007,67 +1993,40 @@ Dichos datos se deberían eliminar para asegurar un funcionamiento correcto de D
 ¿Desea eliminar los datos escaneados?</Text>
     </Translation>
     <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ok</Keyword>
+      <Text>Si</Text>
+    </Translation>
+    <Translation>
       <Keyword>ArtiPlateRegistrationScanDataAvail.Ok.Description</Keyword>
       <Text>Los datos escaneados correspondientes a este modo se eliminarán</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Ignore</Keyword>
+      <Text>No</Text>
     </Translation>
     <Translation>
       <Keyword>ArtiPlateRegistrationScanDataAvail.Ignore.Description</Keyword>
       <Text>Conservar los datos escaneados y continuar escaneando, Esto puede provocar una operación incorrecat de DentalCAD.</Text>
     </Translation>
     <Translation>
+      <Keyword>ArtiPlateRegistrationScanDataAvail.Cancel</Keyword>
+      <Text>Cancelar</Text>
+    </Translation>
+    <Translation>
       <Keyword>ArtiPlateRegistrationScanDataAvail.Cancel.Description</Keyword>
       <Text>Se cancelará la carga del proyecto. No se perderá ningún dato escaneado.</Text>
     </Translation>
     <Translation>
-      <Keyword>PreparationType.Inlay</Keyword>
-      <Text>Inlay</Text>
+      <Keyword>InserUpperModel</Keyword>
+      <Text>Introducir modelo maxilar</Text>
     </Translation>
     <Translation>
-      <Keyword>FileName.AestheticPlateScan</Keyword>
-      <Text>Escaneado registro articulación</Text>
+      <Keyword>InserLowerModel</Keyword>
+      <Text>Introducir modelo mandíbula</Text>
     </Translation>
     <Translation>
-      <Keyword>AestheticPlateScan</Keyword>
-      <Text>Por favor, introduzca el registro de articulación con las arcadas superior e inferior en el escáner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.EdentulousTooth</Keyword>
-      <Text>Edéntulo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.EdentulousModel.Upper</Keyword>
-      <Text>Modelo edéntulo - maxilar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.EdentulousModel.Lower</Keyword>
-      <Text>Modelo edéntulo - mandíbula</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.StructureOnModel.Upper</Keyword>
-      <Text>estructura primaria/secundaria en el modelo - maxilar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.StructureOnModel.Lower</Keyword>
-      <Text>estructura primaria/secundaria en el modelo - mandíbula</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DesktopDigitalImpressionBiteRegistrationScan.ScanDescription</Keyword>
-      <Text>Impresión de ambas mordidas</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.DesktopDigitalImpressionBiteRegistrationScan</Keyword>
-      <Text>Impresión de ambas mordidas</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DesktopDigitalImpressionExtraBiteRegistration.ScanDescription</Keyword>
-      <Text>Impresión de ambas mordidas (otras partes)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.DesktopDigitalImpressionExtraBiteRegistrationScan</Keyword>
-      <Text>Impresión de ambas mordidas (otras partes)</Text>
+      <Keyword>InsertSitu.MultiDie</Keyword>
+      <Text>Introducir modelo pre-operatorio</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\scanmanager-spanish-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

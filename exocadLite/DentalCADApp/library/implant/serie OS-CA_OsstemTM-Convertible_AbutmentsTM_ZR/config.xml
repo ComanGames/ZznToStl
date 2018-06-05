@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>
+ZIRKONZAHN® Osstem Implant® Convertible Abutments®</DisplayInformation>
+  <Producer>Osstem Implant®</Producer>
+  <SystemName>Convertible Abutments®</SystemName>
+  <MarkerFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Osstem Implant® Convertible Abutments® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.0 Mini &amp; Regular</DisplayInformation>
+      <Keyword>4MR</Keyword>
+      <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_analogue.stl</ImplantFilename>
+      <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_scr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.002-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_hexfs.stl</SupportFilename>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0020-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_nhexfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.002-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw not parallel</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_nhexfsw.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5581</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_analoguep.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5581</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.502-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5531</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_conical.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_m_analoguec.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 Regular</DisplayInformation>
+      <Keyword>5Regular</Keyword>
+      <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_analogue.stl</ImplantFilename>
+      <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_scr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5532</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.802-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_hexfs.stl</SupportFilename>
+          <ScrewFilename>CA_r_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.802-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_nhexfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5582</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_analoguep.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5582</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5532</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_conical.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_analoguec.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>6.0 Regular</DisplayInformation>
+      <Keyword>6Regular</Keyword>
+      <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_analogue.stl</ImplantFilename>
+      <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_scr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD5532</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.002-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_hexfs.stl</SupportFilename>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5533</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.002-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_nhexfs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_r_scrz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5533</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5583</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_analoguep.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5583</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5533</DisplayInformation>
+          <SupportFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_conical.stl</SupportFilename>
+          <ImplantFilename>../serie OS-GS_OsstemTM-Convertible_AbutmentsTM/CA_w_analoguec.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5533</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

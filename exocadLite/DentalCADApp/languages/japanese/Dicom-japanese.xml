@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
-      <Text>DICOMビューワー</Text>
+      <Text>Dicom Viewer</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Data</Keyword>
@@ -17,7 +17,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.View</Keyword>
-      <Text>ビュー</Text>
+      <Text>表示</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceGeneration</Keyword>
@@ -25,23 +25,23 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Patients</Keyword>
-      <Text>患者:</Text>
+      <Text>患者：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.PatientName</Keyword>
-      <Text>患者名:</Text>
+      <Text>患者名：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesAvailable</Keyword>
-      <Text>利用可能なスライス:</Text>
+      <Text>利用可能なスライス：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesCount</Keyword>
-      <Text>スライス数:</Text>
+      <Text>スライスカウント：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FileName</Keyword>
-      <Text>ファイル名:</Text>
+      <Text>ファイル名：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Description</Keyword>
@@ -53,27 +53,27 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Comment</Keyword>
-      <Text>コメント:</Text>
+      <Text>備考：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Study</Keyword>
-      <Text>調査:</Text>
+      <Text>研究：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Series</Keyword>
-      <Text>シリーズ:</Text>
+      <Text>シリーズ：</Text>
     </Translation>
     <Translation>
       <Keyword>SelectDicom</Keyword>
-      <Text>データの選択</Text>
+      <Text>データを選択</Text>
     </Translation>
     <Translation>
       <Keyword>LoadDicom</Keyword>
-      <Text>データの読込み</Text>
+      <Text>データを読み込む</Text>
     </Translation>
     <Translation>
       <Keyword>LoadDicom.ToolTip</Keyword>
-      <Text>Ctrl+Shiftキーを押しながら選択されたものだけを読込み</Text>
+      <Text>「Ctrl」+「Shift」を押して選択したものだけを読み込む</Text>
     </Translation>
     <Translation>
       <Keyword>UnloadDicom</Keyword>
@@ -81,19 +81,19 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.CancelDataLoad</Keyword>
-      <Text>読込みキャンセル</Text>
+      <Text>読み込みをキャンセル</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.XRay</Keyword>
+      <Text>X線</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Isosurface</Keyword>
-      <Text>等密度面</Text>
+      <Text>等値面</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Media</Keyword>
       <Text>メディア</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>閾値制限</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Options</Keyword>
@@ -105,7 +105,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.VoxelSize</Keyword>
-      <Text>Voxelサイズ</Text>
+      <Text>ボクセルサイズ</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration</Keyword>
@@ -117,11 +117,11 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
-      <Text>ここに行列を貼り付ける</Text>
+      <Text>ここにマトリクスを貼り付け</Text>
     </Translation>
     <Translation>
       <Keyword>Inverse</Keyword>
-      <Text>反転</Text>
+      <Text>反対</Text>
     </Translation>
     <Translation>
       <Keyword>Min</Keyword>
@@ -132,20 +132,20 @@
       <Text>最大</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>透明度</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.UseGradientMode</Keyword>
       <Text>勾配モードを使用</Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>不透明度</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.SurfaceType</Keyword>
-      <Text>サーフェイスタイプ</Text>
+      <Text>表面タイプ</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FaceSurface</Keyword>
-      <Text>面</Text>
+      <Text>顔</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.GingivaSurface</Keyword>
@@ -161,19 +161,19 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.GenerateSurface</Keyword>
-      <Text>表面の生成</Text>
+      <Text>表面を生成</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.DeleteSurface</Keyword>
-      <Text>表面の削除</Text>
+      <Text>表面を削除</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FlipSurface</Keyword>
-      <Text>表面を反転</Text>
+      <Text>表面をフリップ</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.ToogleLookThrough</Keyword>
-      <Text>透明トグル</Text>
+      <Text>外観を切り替え</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.LastGeneratedSurface</Keyword>
@@ -189,23 +189,23 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.XRay</Keyword>
-      <Text>ノイズ閾値</Text>
+      <Text>ノイズしきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Solid</Keyword>
-      <Text>ノイズ閾値</Text>
+      <Text>ノイズしきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Iso</Keyword>
-      <Text>表面閾値</Text>
+      <Text>表面しきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Media</Keyword>
-      <Text>閾値</Text>
+      <Text>しきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Iso</Keyword>
-      <Text>第2面の閾値</Text>
+      <Text>第2表面しきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Media</Keyword>
@@ -213,7 +213,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Solid</Keyword>
-      <Text>ハイライト濃度</Text>
+      <Text>密度をハイライト</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.XRay</Keyword>
@@ -221,47 +221,47 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.Iso</Keyword>
-      <Text>不透明</Text>
+      <Text>不透明度</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.Media</Keyword>
-      <Text>不透明</Text>
+      <Text>不透明度</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.Media</Keyword>
-      <Text>滑らかさ</Text>
+      <Text>平滑性</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.Solid</Keyword>
-      <Text>曖昧さを強調</Text>
+      <Text>不明瞭さをハイライト</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterExponent.Media</Keyword>
-      <Text>硬さ</Text>
+      <Text>硬度</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.NaturalTexturing</Keyword>
-      <Text>勾配の重み</Text>
+      <Text>勾配重み付け</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
-      <Text>現在の空気における基準値で設定された閾値スライダー</Text>
+      <Text>しきい値スライダーを現在の空気参照値に設定</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
-      <Text>現在の組織における基準値に設定された閾値スライダー</Text>
+      <Text>しきい値スライダーを現在の組織参照値に設定</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
-      <Text>現在の骨における基準値で設定された閾値スライダー</Text>
+      <Text>しきい値スライダーを現在の骨参照値に設定</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
-      <Text>現在の歯における基準値で設定された閾値スライダー</Text>
+      <Text>しきい値スライダーを現在の歯参照値に設定</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
-      <Text>空気</Text>
+      <Text>エア</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToTissueReferenceButton.Text</Keyword>
@@ -276,28 +276,32 @@
       <Text>歯</Text>
     </Translation>
     <Translation>
+      <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
+      <Text>次に設定</Text>
+    </Translation>
+    <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
-      <Text>所定の閾値に閾値スライダーを設定</Text>
+      <Text>しきい値スライダーを所定のしきい値に設定する</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton.Text</Keyword>
-      <Text>閾値</Text>
+      <Text>しきい値</Text>
     </Translation>
     <Translation>
       <Keyword>ResultInformationGroupBoxHeader</Keyword>
-      <Text>結果の情報</Text>
+      <Text>結果情報</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageBelowLabelContent</Keyword>
-      <Text>許容値以下:</Text>
+      <Text>公差以下：</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageInsideLabelContent</Keyword>
-      <Text>許容値内:</Text>
+      <Text>公差内：</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageAboveLabelContent</Keyword>
-      <Text>許容値以上:</Text>
+      <Text>許容以上：</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.IsoOptions</Keyword>
@@ -305,7 +309,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.XRayOptions</Keyword>
-      <Text>X-Rayオプション</Text>
+      <Text>X線オプション</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaOptions</Keyword>
@@ -317,31 +321,31 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaCustomOptions</Keyword>
-      <Text>メディア(カスタム)オプション</Text>
+      <Text>メディア（カスタム）オプション</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaCustom</Keyword>
-      <Text>メディア(カスタム)</Text>
+      <Text>メディア（カスタム）</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.NaturalTexturing</Keyword>
-      <Text>ソリッド(natural)</Text>
+      <Text>ソリッド（天然）</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.MediaCustom</Keyword>
-      <Text>閾値</Text>
+      <Text>しきい値</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.MediaCustom</Keyword>
-      <Text>不透明</Text>
+      <Text>不透明度</Text>
     </Translation>
     <Translation>
       <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
-      <Text>ブラウン</Text>
+      <Text>茶色</Text>
     </Translation>
     <Translation>
       <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
-      <Text>緑</Text>
+      <Text>緑色</Text>
     </Translation>
     <Translation>
       <Keyword>ClearReferencesButton_Tooltip</Keyword>
@@ -349,12 +353,27 @@
     </Translation>
     <Translation>
       <Keyword>ClearReferencesButton_Content</Keyword>
-      <Text>参照
-クリア</Text>
+      <Text>参照を消去</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.Iso</Keyword>
       <Text>半透明を使用</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold</Keyword>
+      <Text>しきい値</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold</Keyword>
+      <Text>第2しきい値</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth</Keyword>
+      <Text>フィルター幅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent</Keyword>
+      <Text>フィルター指数</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.Solid</Keyword>
@@ -366,106 +385,23 @@
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningMessage</Keyword>
-      <Text>メディアモードを使用するための推奨される最小ビデオメモリ2GB未満です。続行しますか?</Text>
+      <Text>ビデオメモリの容量が、メディアモードを使用する際に推奨される最小ビデオメモリ容量2GBに足りません。続行しますか？</Text>
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningCaption</Keyword>
-      <Text>ビデオメモリの警告</Text>
+      <Text>ビデオメモリに関する警告</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.BoneDensityReferences</Keyword>
-      <Text>密度の参照</Text>
+      <Text>密度基準</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StartBoneDensityReferenceDefinitionProcessor</Keyword>
-      <Text>基準定義を開始</Text>
+      <Text>参照定義を開始</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Window</Keyword>
-      <Text>ウインドウ：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRay</Keyword>
-      <Text>X線</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayBlacklevel</Keyword>
-      <Text>ノイズのしきい値</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayDensity</Keyword>
-      <Text>密度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryThreshold</Keyword>
-      <Text>表面しきい値</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoSecondaryThreshold</Keyword>
-      <Text>第2の表面しきい値</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryOpacity</Keyword>
-      <Text>透明度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaThreshold</Keyword>
-      <Text>しきい値</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDenseThreshold</Keyword>
-      <Text>高密度物質</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaScale</Keyword>
-      <Text>平滑度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaExponent</Keyword>
-      <Text>硬度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDensity</Keyword>
-      <Text>密度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightValue</Keyword>
-      <Text>密度をハイライト</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightWidth</Keyword>
-      <Text>不明瞭度をハイライト</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.UseStippleAlpha</Keyword>
-      <Text>半透明を適用</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CustomWindowRangeSliderDescription</Keyword>
-      <Text>カスタム DICOM ウインドウ</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomInconsistentOrientation</Keyword>
-      <Text>このシリーズは画像方向に矛盾があるため、表示できません。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeWarning.Title</Keyword>
-      <Text>パフォーマンスに関する警告</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeWarning</Keyword>
-      <Text>グラフィックハードウェアまたはドライバが原因で、メディアが非常に遅い、または機能不良があり、初期化に時間がかかることがあります。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeIgnoreWarning</Keyword>
-      <Text>メディアをアクティベートする</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeCancel</Keyword>
-      <Text>キャンセル</Text>
+      <Keyword>Dicom.RestrictThreshold</Keyword>
+      <Text>閾値制限</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-japanese-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

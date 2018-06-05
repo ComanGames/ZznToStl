@@ -1,0 +1,87 @@
+// Die folgenden Werte definieren die Abweichung der Bewegungsrichtung von 
+// der Normalenrichtung der Platte; sie beziehen sich auf die entsprechend
+// den folgenden Transformationen vorgegebene Plattenausrichtung.
+// Im Normalfall beziehen sie sich deshalb auf die Z=0 Stellung der Platte
+
+                  // Alpha: Winkelabweichung der Bewegungsrichtung zur
+                  //        positiven y-Achse
+                  //        < 0 => Winkel < 90¯
+                  //        > 0 => Winkel > 90¯
+
+//Alpha:          -00.154633 +00.205489
+Alpha:          +00.122318
+
+                  // Beta:  Winkelabweichung zur positiven x-Achse
+//Beta:           +00.209971 -00.327531
+Beta:           +00.324403
+
+                  // relativer Nullpunkt (Durchsto·punkt der Bewegungsachse)
+                  // kann immer auf 0.0 stehen => evtl. Verschiebung des
+                  // Koordinatensystems
+X0:     0.0
+Y0:     0.0
+
+RasterX:   3.0
+RasterY:   3.0
+
+
+##NoDistortion
+
+                        // AnnÑherung durch ein Polynom: y = a * x^exponent
+
+OriginX:        370     // Ursprung des Bildkreises [Pixel]
+OriginY:        270     // Ursprung des Bildkreises [Pixel]
+
+PixelSizeX:     0.0110  // Pixelgrî·e in x-Richtung [mm]
+PixelSizeY:     0.0110  // Pixelgrî·e in y-Richtung [mm]
+
+UMax:           5.6     // maximaler Bildkreisradius [mm]
+
+A:              -0.004  // Koeffizient der Parabel [Faktor = Prozent / 100]
+Exponent:       1.7     // Exponent des Polynoms
+
+
+##NoPlanes
+                        // bei der Kalibrierung werden alle Ebenen mit den
+                        // unten angegebenen Z-Soll-Werten berÅcksichtigt
+NrOfPlanes:   11
+
+0:      -25.0
+1:      -20.0
+2:      -15.0
+3:      -10.0
+4:       -5.0
+5:        0.0 
+6:        5.0
+7:       10.0
+8:       15.0
+9:       20.0
+10:      25.0
+
+
+
+##NoTransformation
+                  // Anzahl der folgenden (Z. TRF) Paare
+NrOfTransformations:   11
+                                                        
+                  // Format: Index (0 ... N-1)   Z-Soll   Dateiname TRF
+                  // Die TRF wird benutzt. um die Istkoordinaten (Abweichung
+                  // zum Soll der Platte) in die Aufnahmeposition zu
+                  // transformieren.
+
+0:      -180.0  m38_01.trf
+1:      -144.0  m38_02.trf
+2:      -108.0  m38_03.trf
+3:       -72.0  m38_04.trf
+4:       -36.0  m38_05.trf
+5:         0.0  m38_06.trf
+6:        36.0  m38_07.trf
+7:        72.0  m38_08.trf
+8:       108.0  m38_09.trf
+9:       144.0  m38_10.trf
+10:      180.0  m38_11.trf
+
+##NoSollKoordinaten
+                                    
+                  // Anzahl der Soll-/Istpositionen                  
+

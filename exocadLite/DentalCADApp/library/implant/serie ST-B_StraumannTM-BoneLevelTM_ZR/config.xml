@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Straumann® Bone Level®</DisplayInformation>
+  <Producer>Straumann®</Producer>
+  <SystemName>Bone Level®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Bone Level® series from Straumann Institute®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NC 3.3mm</DisplayInformation>
+      <Keyword>BLNC3.3mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/screwNC.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5202-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5202-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.5202-InNohex</Keyword>
+          <DisplayInformation>No hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5202-InNohex/2.8</Keyword><DisplayInformation>No hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.202001-Parallel</Keyword><DisplayInformation>Parallel BSAB0581</DisplayInformation><SupportFilename>i-cemented_NC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.202-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_n.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.202-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_n.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_20.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2020-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_20.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_30.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_30.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2022-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L40</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_40.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP40.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2022-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L40 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_40.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP40.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.902-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0531</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_NC.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_NC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAC0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.902-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0531 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_NC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_NC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAC0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCK0.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCK0.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L10</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L10.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC10.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L10 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L10.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC10.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L20.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L20.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7022-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L30.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7022-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L30.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NC 3.3mm White Scanmarker</DisplayInformation>
+      <Keyword>BLNC_wscmkz3.3mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/screwNC.stl</ScrewFilename>
+      <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC WSM.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD0531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.52021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.52021-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.5202-InNohex</Keyword>
+          <DisplayInformation>No hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.52021-InNohex/2.8</Keyword><DisplayInformation>No hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/NC_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.2020011-Parallel</Keyword><DisplayInformation>Parallel BSAB0581</DisplayInformation><SupportFilename>i-cemented_NC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_n.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_n.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_20.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_20.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_30.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_30.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20221-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0591L40</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_40.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP40.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0591L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20221-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0591L40 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_NC_40.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCP40.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0591L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.9021-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0531</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_NC.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_NC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAC0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.9021-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0531 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_NC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_NC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAC0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCK0.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCK0.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L10</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L10.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC10.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L10 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L10.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC10.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L20.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70211-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L20.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70221-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0531L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L30.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0531L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70221-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0531L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_NC_L30.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantNCC30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0531L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RC 4.1mm</DisplayInformation>
+      <Keyword>BLRC4.1mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/screwRC.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0532</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.8402-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.8402-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_hex.stl</SupportFilename><LibraryIdentifier>BSAE0532</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.8402-InNohex</Keyword>
+          <DisplayInformation>No hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.8402-InNohex/2.8</Keyword><DisplayInformation>No hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.402-Parallel</Keyword><DisplayInformation>Parallel BSAB0582</DisplayInformation><SupportFilename>i-cemented_RC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_n.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_n.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_20.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_20.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_30.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_30.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7022-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L40</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_40.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP40.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7022-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L40 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_40.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP40.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.502-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0532</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_RC.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_RC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAC0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.502-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0532 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_RC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_RC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAC0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7023-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7023-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7024-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L10</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L10.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC10.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7024-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L10 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L10.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC10.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7025-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L20.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7025-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L20.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7026-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L30.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7026-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L30.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RC 4.1mm White Scanmarker</DisplayInformation>
+      <Keyword>BLRC_wskmkz4.1mm</Keyword>
+      <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRC.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-B_StraumannTM-BoneLevelTM/screwRC.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0532</LibraryIdentifier>
+      <MarkerFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.84021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.84021-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_hex.stl</SupportFilename><LibraryIdentifier>BSAE0532</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.84021-InNohex</Keyword>
+          <DisplayInformation>No hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.84021-InNohex/2.8</Keyword><DisplayInformation>No hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/RC_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.4021-Parallel</Keyword><DisplayInformation>Parallel BSAB0582</DisplayInformation><SupportFilename>i-cemented_RC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_n.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_n.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_20.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_20.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70211-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_30.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70211-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_30.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70221-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0592L40</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_40.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP40.stl</ImplantFilename>
+          <LibraryIdentifier>BSAB0592L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70221-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0592L40 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/zi-cemented_RC_40.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCP40.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0592L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5021-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0532</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_RC.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_RC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAC0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5021-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0532 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/vbase_RC.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/Anlvbase_RC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAC0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70231-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70231-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70241-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L10</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L10.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC10.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70241-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L10 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L10.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC10.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70251-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L20</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L20.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC20.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70251-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L20 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L20.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC20.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70261-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0532L30</DisplayInformation>
+          <SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L30.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC30.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0532L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70261-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0532L30 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-B_StraumannTM-BoneLevelTM/i-conical_RC_L30.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-B_StraumannTM-BoneLevelTM/implantRCC30.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0532L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

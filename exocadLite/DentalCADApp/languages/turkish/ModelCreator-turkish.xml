@@ -1,6 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
+      <Text>Bilgi</Text>
+    </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
       <Text>Model Hizalama </Text>
@@ -56,6 +66,10 @@
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.WizardNext</Keyword>
       <Text>Modeli segmente etmek için 'ileri'ye tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry.Plural</Keyword>
+      <Text>Segment model</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry</Keyword>
@@ -182,6 +196,10 @@
       <Text>Model Base'deki Tabak</Text>
     </Translation>
     <Translation>
+      <Keyword>ModelComponents</Keyword>
+      <Text>Model</Text>
+    </Translation>
+    <Translation>
       <Keyword>ModelBasePlatePins</Keyword>
       <Text>Model temel pinleri</Text>
     </Translation>
@@ -198,10 +216,6 @@
       <Text>Sağlıklı model kaplama</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeMixed</Keyword>
-      <Text>Sağlıklı model kaplama</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelPlateTypeStump</Keyword>
       <Text>Güdüklü model kaplama</Text>
     </Translation>
@@ -213,6 +227,49 @@
       <Keyword>ModelCreatorModeConvertSceneQuestion</Keyword>
       <Text>Model Creator Modu etkinleştirildiğinde, bu görüntü herhangi bir model türleri içermez.
 Model Creator kullanmak için bu sahneyi dönüştürmek istiyor musunuz?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
+      <Text>Model Eklentileri</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
+      <Text>Eklentileri eklemek için 'ileri' ye tıklayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
+      <Text>Eklentileri ekle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
+      <Text>Eklentileri ekle </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
+      <Text>Model Eklentileri ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
+      <Text>Çap</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
+      <Text>Tahmini işleme</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.modelTab</Keyword>
+      <Text>Model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
+      <Text>Dip</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
+      <Text>Bu çene taraması ters hizalanmış gibi görünüyor.
+Bu daha sonra yanlış sonuçlara yol açabilir.
+
+Mevcut uyum ile devam etmek istiyor musunuz?</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessor.PinObject</Keyword>
@@ -250,663 +307,5 @@ Model Creator kullanmak için bu sahneyi dönüştürmek istiyor musunuz?</Text>
       <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
       <Text>İçbükeylek hazırlaması aşağıda</Text>
     </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
-      <Text>Model Eklentileri</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
-      <Text>Eklentileri eklemek için 'ileri' ye tıklayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>Eklentileri ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
-      <Text>Eklentileri ekle </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
-      <Text>Model Eklentileri ...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
-      <Text>Çap</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
-      <Text>Tahmini işleme</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
-      <Text>Dip</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
-      <Text>Bu çene taraması ters hizalanmış gibi görünüyor.
-Bu daha sonra yanlış sonuçlara yol açabilir.
-
-Mevcut uyum ile devam etmek istiyor musunuz?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorLibrary</Keyword>
-      <Text>Model kütüphanesi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AlignmentMightBeWrong</Keyword>
-      <Text>Hizalama yanlış olabilir. Modeli doğru döndürülür olup olmadığını kontrol edin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
-      <Text>Model tipi:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachment.SupportPins</Keyword>
-      <Text>Destek Pinleri</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneNextStepInfo</Keyword>
-      <Text>Model Tasarımcıyı Kapat.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertNextStepInfo</Keyword>
-      <Text>Sihirbazı kapat ve uzman moda geçiş yap.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsNextStepInfo</Keyword>
-      <Text>CAD'e geçin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneButton</Keyword>
-      <Text>Bitti</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertModeButton</Keyword>
-      <Text>Uzman mod</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsButton</Keyword>
-      <Text>Şimdi restorasyonları tasarla.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateFreely</Keyword>
-      <Text>Serbestçe hareket et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateXY</Keyword>
-      <Text>XY düzleminde hareket et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateZ</Keyword>
-      <Text>Okluzal ekseni boyunca hareket ettirin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateFreely</Keyword>
-      <Text>Serbestçe döndürün</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateZ</Keyword>
-      <Text>Okluzal ekseni etrafında döndürün</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateNone</Keyword>
-      <Text>Dönüş yok</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
-      <Text>Otomatik hizalama</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
-      <Text>Hizalamayı sıfırla</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.autoHideBasePlate</Keyword>
-      <Text>Otomatik taban plakası gizleme </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MustCutMessage</Keyword>
-      <Text>güdük ve güdük olmayan diş arasını kesmek gerekir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Healthy</Keyword>
-      <Text>Sağlıklı</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Pontic</Keyword>
-      <Text>Ara gövde</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Implant</Keyword>
-      <Text>Implant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Stump</Keyword>
-      <Text>Güdük</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
-      <Text>Gömme</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Other</Keyword>
-      <Text>Diğeri</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Run</Keyword>
-      <Text>Çalıştır!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>Segment modeli</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
-      <Text>Ayak yüksekliği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
-      <Text>Pinler etrafındaki minimum kalınlık</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.Run</Keyword>
-      <Text>Çalıştır</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.Cancel</Keyword>
-      <Text>Durdur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
-      <Text>Baz</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
-      <Text>Kalıp</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.OmitPin</Keyword>
-      <Text>Kalıp pinini say</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.ConcaveMould</Keyword>
-      <Text>Konvaklık ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.MillingTab</Keyword>
-      <Text>Frezele</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.shaftGapHorizontal</Keyword>
-      <Text>Yatay şaft boşluğu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.shaftGapVertical</Keyword>
-      <Text>Dikey şaft boşluğu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.ditchGroup</Keyword>
-      <Text>Çukur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.marginExtrusion</Keyword>
-      <Text>Hazırlık marjı ekstrüzyonu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.SeatingAreaWidth</Keyword>
-      <Text>oturma genişliği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.MorphologicalClosureDiameter</Keyword>
-      <Text>Boşluk doldurma çapı</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.FrictionPad</Keyword>
-      <Text>Sürtünme yastıkları</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.frictionPadGap</Keyword>
-      <Text>Yastık boşlukları</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.frictionPadRadius</Keyword>
-      <Text>Yastık radyusları</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
-      <Text>Bazı parçalar modeli tabanına çok yakın konumlandırılmış.
-Taramayı hizalayın veya belirtilen parçaları değiştirin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignment.JawAddedOrRemovedSinceAlignment</Keyword>
-      <Text>Çene parçaları hizalama tamamlandıktan sonra eklendi veya kaldırıldı. Devam etmek için taramalar yeniden hizalanmalı.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelComponents</Keyword>
-      <Text>Model</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelLabAnalogs</Keyword>
-      <Text>Laboratuvar analogları</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantLabAnalog</Keyword>
-      <Text>Laboratuvar analoğu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantLabAnalogRetention</Keyword>
-      <Text>Laboratuvar analog tutma</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.FailedLibraryEntryLoad</Keyword>
-      <Text>Ekli kütüphane girdileri yüklenemiyor:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.MovementRestrictions</Keyword>
-      <Text>Ek hareket kısıtlamaları</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.AttachmentSelection</Keyword>
-      <Text>Eki seç:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.AttachmentTab</Keyword>
-      <Text>Ekler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.PinDiameter</Keyword>
-      <Text>Pin çapı</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.PinBulgeHeight</Keyword>
-      <Text>Pin çıkıntı yüksekliği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Edit</Keyword>
-      <Text>Ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.PinLedgeHeight</Keyword>
-      <Text>Pin çıkıntı yüksekliği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.PinParameterSelection</Keyword>
-      <Text>Pinleri ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.ModelAttachmentSelection</Keyword>
-      <Text>Ekleri ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextTab</Keyword>
-      <Text>Metin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextSize</Keyword>
-      <Text>Boyut</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextThickness</Keyword>
-      <Text>Kalınlık</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.ClosedMeshesInfo</Keyword>
-      <Text>Aşağıdaki parçaların kapalı üsleri varsa bu oluşur. Model oluşturma prosesinde bu durum probleme sebebiyet verebilir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.ClosedMeshesEditMeshes</Keyword>
-      <Text>Parçaları ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.ClosedMeshesIgnore</Keyword>
-      <Text>Gözardı et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.ClosedMeshesCancel</Keyword>
-      <Text>İptal Et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.Title</Keyword>
-      <Text>Model dişi segmenteştir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.WizardNext</Keyword>
-      <Text>Model dişleri segmentleştirmek için 'Sonraki'ni tıklayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>Model dişleri segmentleştir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.MenuEntry</Keyword>
-      <Text>Model dişi segmenteştir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.DescriptionText</Keyword>
-      <Text>Model dişi segmenteştir...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessor.SegmentTooFarFromInlay</Keyword>
-      <Text>Oluşturulan segment mevcut gömme hazırlığıyla eşleşmiyor.
-Doğru dişte koleyi çizdiğinizden emin olun.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessor.FailedCreateSegmentRetry</Keyword>
-      <Text>Diş segmentleştirme başarısız oldu. İşaretli alanı düzeltmeyi veya koleyi tekrardan ayarlamayı deneyin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentation.brushSize</Keyword>
-      <Text>Fırsa boyutu:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentation.ResetSegmentation</Keyword>
-      <Text>Düzeltmeleri sıfırla</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentation.ClearSegmentation</Keyword>
-      <Text>Düzeltmeleri temizle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentation.ToggleVisibility</Keyword>
-      <Text>Görünürlüğü değiştir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ClearAllSpheres</Keyword>
-      <Text>Tümünü sil</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentedTooth</Keyword>
-      <Text>Segmentleştirilmiş diş</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypesProcessorControl.Legend.Detachable</Keyword>
-      <Text>Sökülebilir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypesProcessorControl.Hint</Keyword>
-      <Text>Modelde sökülebilir olması gereken dişleri seçin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.AsHealthy</Keyword>
-      <Text>Sağlıklı olarak</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.Title</Keyword>
-      <Text>Dişlerin Güdüklerini Değiştirin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.WizardNext</Keyword>
-      <Text>Dişlerin güdüklerini değiştirmek için 'Sıradakini' tıklayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry.Plural</Keyword>
-      <Text>Dişlerin güdüklerini değiştirin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry</Keyword>
-      <Text>Diş güdüklerini değiştirin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.DescriptionText</Keyword>
-      <Text>Diş güdüklerini değiştirin...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.SelectScanMessageBoxText</Keyword>
-      <Text> Diş {0} ın tarayıcıya otomatik ataması mümkün değil. Lütfen diş {0} ile ilişkili olması gereken taramayı seçiniz:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypeProcessorControl.DeselectedTeethWithSegmentedPart</Keyword>
-      <Text>Mevcut segmentasyonlardan bazı dişleri kaldırdınız. Bu dişler için herhangi bir ayrı güdük oluşturulmayacak</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypeProcessorControl.Continue</Keyword>
-      <Text>Devam et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypeProcessorControl.Cancel</Keyword>
-      <Text>İptal Et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.NoSegmentationWarning</Keyword>
-      <Text>Diş segmente edilmemiş. Segmente edilmiş bir dişe bir güdük oluşturulması gerekiyor.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.Continue</Keyword>
-      <Text>Devam Et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.Continue.Description</Keyword>
-      <Text>Bu diş için herhangi bir güdük oluşturulmayacak.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.Cancel</Keyword>
-      <Text>İptal Et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorFinishedDesignEverything</Keyword>
-      <Text>Model oluşturma bitti</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorFinishedContinue</Keyword>
-      <Text>Normal CAD ile mi devam edeceksiniz?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorFinishedStop</Keyword>
-      <Text>CAD olmadan durdurun</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorFinishedTip</Keyword>
-      <Text>Fikrinizi değiştirirseniz, daha sonra normal CAD tasarımında devam etmek için sihirbazı yeniden açabilirsiniz.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.Title</Keyword>
-      <Text>Model Oluşturucu Bitti</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MergePartsDesignModel</Keyword>
-      <Text>Model tasarımına geçilsin mi?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MergePartsDesignModel.ToolTip</Keyword>
-      <Text>Model Tarayıcı sihirbazı ile devam etmek ister misiniz?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
-      <Text>Dijital baskılarla modeli oluşturmak</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentForAnyScanType</Keyword>
-      <Text>Daima Model Hizalama kullanın ('Tarama Veri Oryantasyon ayarlayın' ı değiştirir)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpNotCalculating</Keyword>
-      <Text>Hesaplama sona erdi.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpCalculating</Keyword>
-      <Text>Model oluşturuluyor, lütfen bekleyin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.WizardNext</Keyword>
-      <Text>...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.WizardMyNext</Keyword>
-      <Text>...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelParameters</Keyword>
-      <Text>Model parametrelerini değiştirin...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCalculationAbortedText</Keyword>
-      <Text>Model hesaplama iptal edildi. hesaplamayı yeniden başlatmak için, 'Çalıştır' ı tıklayın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpCalculationAborted</Keyword>
-      <Text>Hesaplama iptal edildi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCalculationFinishedText</Keyword>
-      <Text>Model hesaplama bitti. Lütfen sonucu kontrol edin. Hesaplamayı yeniden başlatmak için, örneğin parametrelerini değiştirdikten sonra, 'Çalıştır' ı tıklayın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessor.ModelImplantProcessor.Title</Keyword>
-      <Text>Laboratuvar Analoglarının</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.WizardNext</Keyword>
-      <Text>Laboratuvar Analoglarını yüklemek için 'Sonraki' ni tıklayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.MenuEntry.Plural</Keyword>
-      <Text>Laboratuvar Analoglarını yükle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.MenuEntry</Keyword>
-      <Text>Laboratuvar analoğunu yükle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.DescriptionText</Keyword>
-      <Text>Laboratuvar analogları yükleniyor...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad</Keyword>
-      <Text>UYARI! Bazı Laboratuvar analogları yüklenemedi. 
-Ya bir kütüphane girişinde eksikler veya kütüphane girişi bozuktur.
-Model oluşturulacak olursa, aşağıdaki dişlerde laboratuvar analogları için bağlantı parçaları uymayacak:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningLegacyLabAnalogFiles</Keyword>
-      <Text>İmplant laboratuvar analog yapılandırma dosyası biçimi değişti. Aşağıda listelenen dosyalar eski formatta olduğu tespit edilmiştir ve taşınması gerekir. Eski formatın silinmesi için destek olun.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadMissingImplants</Keyword>
-      <Text>Eksik laboratuar analogları:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadButton</Keyword>
-      <Text>Devam Et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad.Title</Keyword>
-      <Text>UYARI</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.Error</Keyword>
-      <Text>İptal Edildi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplant.PlatePinIntersectsExtendedRetention</Keyword>
-      <Text>Bir plaka pini implant boşluğunu kesmektedir, ancak bu yasaktır. Lütfen plaka pinleri seçiminizi gözden geçirin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalNotification</Keyword>
-      <Text>Seçilen plaka üzerinde pin isteğe bağlıdır. bir pini seçmek için fare ile sol klikleyin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalNotification.Title</Keyword>
-      <Text>Opsiyonel pinler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalHint.Title</Keyword>
-      <Text>Opsiyonel Pinler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalHint</Keyword>
-      <Text>Farenin sol tuşu ile taban plakasının pinlerini seçin veya kaldırın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected</Keyword>
-      <Text>Modelde herhangi bir pin seçilmemiştir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Title</Keyword>
-      <Text>Uyarı:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.Description</Keyword>
-      <Text>Implantlı Tasarım Modelleri (laboratuvar analogları)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.GingivaIgnoredWarning</Keyword>
-      <Text>Uyarı: Dişeti taramaları göz ardı edilecektir!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.GingivaNotSupported</Keyword>
-      <Text>Dişeti taramalarının modelde yeniden üretimleri desteklenmemektedir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.PreconditionedGingiva</Keyword>
-      <Text>Ön şartlandırılmış dişeti</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures.Title</Keyword>
-      <Text>Parametre Çatışması</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures</Keyword>
-      <Text>Sökülebilir bir güdüğün geometrisi oluşturulamıyor çünkü bu güdüğün özellikleri mevcut parametre ayarlarıyla uyuşmuyor. Y parametreleri uygun bir şekilde değiştirn ( örnek olarak daha alçak bir yükseklik seçilebilir) veya modeli daha yükseğe yerleştirerek yeniden sıralayın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.FreeformModelProcessor.Title</Keyword>
-      <Text>Serbest form Modeli</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.FreeformModelProcessor.MenuEntry</Keyword>
-      <Text>Serbest form Modeli</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessor.FailedCutStumpHole</Keyword>
-      <Text>Güdük deliği kesilirken model oluşturma başarısız oldu. Bunun sebebi kötü tarama verisi veya model parametrelerindeki yanlış tercih olabilir bu nedenle farklı bir parametre ile yeniden deneyiniz.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelInfoImport.MissingDentalProject</Keyword>
-      <Text>Model bilgisi içe aktarımı için dental proje dosyası eksik.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentTaintsArticulatorAlignment.Title</Keyword>
-      <Text>Hizalama Uyarısı</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentTaintsArticulatorAlignment</Keyword>
-      <Text>Model hizalamanın değiştirilmesi, sanal artikülatörde tarama verilerin hizalanmasında kusur yaratabilir!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
-      <Text>Bilgi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlateTypeGingiva</Keyword>
-      <Text>Model plaka dişeti</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.AddText</Keyword>
-      <Text>Metin Ekle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.RemoveText</Keyword>
-      <Text>Metni Kaldır</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SetTextPosition</Keyword>
-      <Text>Pozisyonu Belirle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.DefaultText</Keyword>
-      <Text>Varsayılan Metin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SubtractText</Keyword>
-      <Text>Metni Çıkar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Remove</Keyword>
-      <Text>Kaldır</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\ModelCreator-turkish-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

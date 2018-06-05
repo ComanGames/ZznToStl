@@ -1,1084 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
-    <Translation>
-      <Keyword>ScannerErrorRestartMessage</Keyword>
-      <Text>Si l'erreur persiste, allumer et éteindre le scanner ou redémarrer le logiciel</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanFailedError</Keyword>
-      <Text>Erreur durant le processus de balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SizeThreshold</Keyword>
-      <Text>Ampleur maximum:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.ImplantPosition</Keyword>
-      <Text>Acquérir localisateur implant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManagerAllowCutScanDataFromIOScanner</Keyword>
-      <Text>Autoriser modification des données de scanne</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalScanner_MHT_OpenCLEnabled</Keyword>
-      <Text>Scanner 3D Progress utilise accélération OpenCL</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManagerTriangulateScanDataFromIOScanner</Keyword>
-      <Text>Trianguler les données</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Impression</Keyword>
-      <Text>EMPREINTE</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical.Description</Keyword>
-      <Text>Acquérir piliers à scanner optiques</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorResumeScan</Keyword>
-      <Text>Une erreur a eu lieu durant le balayage:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDirectionAjustmentRequired</Keyword>
-      <Text>Il n'est pas possible d'acquérir depuis cette position</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.UserAborted</Keyword>
-      <Text>Le scan a été interrompu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PrepLineDetectionFinished.Measure</Keyword>
-      <Text>Mesureur de distance</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PrepLineDetectionFinished.Measure.Description</Keyword>
-      <Text>Mesurer la distance de l'antagoniste, etc.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PrepLineDetectionFinished.Close</Keyword>
-      <Text>Fermer l'application</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PrepLineDetectionFinished.Inspect</Keyword>
-      <Text>Vérifier les données acquises</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCancelScan.Description</Keyword>
-      <Text>Continuer le balayage du modèle courant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PrepLineDetectionFinished</Keyword>
-      <Text>La marge a été sélectionnée avec succès. Sélectionner une des options suivantes</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCancelScan</Keyword>
-      <Text>Continuer le balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ConfirmCancelScan.Description</Keyword>
-      <Text>Le balayage courant sera terminé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ConfirmCancelScan</Keyword>
-      <Text>Terminer le balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanProcessAbortWithDataLoss</Keyword>
-      <Text>Attention!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DoNotCalibrate</Keyword>
-      <Text>Ne pas calibrer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>StartScannerCalibration</Keyword>
-      <Text>Commencer le calibrage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerCalibrationRequired</Keyword>
-      <Text>Le scanner n'a pas été calibré</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerNotLicensedForExecution</Keyword>
-      <Text>Le plugin du scanner n'est pas présent</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManagerDefaultScanner</Keyword>
-      <Text>Sélectionner le scanner:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManagerDefaultScannerAutoSelect</Keyword>
-      <Text>Autosélection du scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerFirmwareIncompatible</Keyword>
-      <Text>Le Firmware n'est pas compatible</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerFirmwareNotFound</Keyword>
-      <Text>Le Firmware nécessaire n'a pas été trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.NoScannerFound</Keyword>
-      <Text>Le plugin scanner n'a pas été trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerFirmwareOk</Keyword>
-      <Text>Firmware installé correctement</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerFirmwareUpgradeRequired</Keyword>
-      <Text>Le scanner a besoin d'une mise à jour Firmware</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerMaintenanceContextMenu</Keyword>
-      <Text>Options scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerUpgradeFirmwareSuccess</Keyword>
-      <Text>Excellent: Le Firmware du scanner a été mis à jour. Le logiciel sera fermé automatiquement</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerUpgradeFirmwareFailed</Keyword>
-      <Text>Erreur: Échec de la mise à jour du Firmware. Redémarrer le PC et effectuer une nouvelle mise à jour</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerFirmwareVersion</Keyword>
-      <Text>Version du Firmware (scanner)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerUpgradeFirmware</Keyword>
-      <Text>Mettre à jour le Firmware du scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerUpgradeFirmwareQuestion</Keyword>
-      <Text>Etes-vous sûr de vouloir mettre à jour le Firmware du scanner? 
-
- Attention: Le logiciel redémarrera à la fin du processus.
- Attention: Le logiciel pourrait ne pas répondre durant la mise à jour.
- Attention: NE PAS DECONNECTER LE SCANNER OU FERMER LE LOGICIEL</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Crop.Description</Keyword>
-      <Text>Continuer - le modèle sera coupé selon la sélection</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Crop</Keyword>
-      <Text>Couper</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Delete.Description</Keyword>
-      <Text>Continuer - la sélection sera éliminée</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Delete</Keyword>
-      <Text>Eliminer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Continue.Description</Keyword>
-      <Text>Continuer et ignorer la sélection</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Continue</Keyword>
-      <Text>Continuer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PartsForCropOrDeleteSelected</Keyword>
-      <Text>Vous avez sélectionné une partie du balayage
-Etes-vous sûr de vouloir continuer sans couper ou éliminer les parties sélectionnées?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>WritingDataToDrive</Keyword>
-      <Text>Sauvegarder les données</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanImpression.ToolTip</Keyword>
-      <Text>Sélectionner cette modalité pour acquérir une empreinte</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanImpression</Keyword>
-      <Text>Empreinte</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanStoneModel.ToolTip</Keyword>
-      <Text>Sélectionner cette modalité pour utiliser le scanner Intra Oral sur un modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanStoneModel</Keyword>
-      <Text>Modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanNaturalTeeth.ToolTip</Keyword>
-      <Text>Sélectionner cette modalité pour acquérir les dents naturelles</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.IO.ScanNaturalTeeth</Keyword>
-      <Text>Dents Naturelles</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NoHolesWereClosed.CloseAll.SelectHole</Keyword>
-      <Text>Il n'y a pas de trous de la grandeur sélectionnée</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NoHolesWereClosed.Selected.SelectHole</Keyword>
-      <Text>Aucun trou n'a été refermé. Sélectionner un ou plusieurs trous à refermer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CloseAllHoles</Keyword>
-      <Text>Refermer tous les trous</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CloseSelectedHoles</Keyword>
-      <Text>Refermer les trous sélectionnés</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.NoDentalScannerPluginsFound</Keyword>
-      <Text>Aucun plugin pour le Scanner Intra Oral n'a été trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorEnumeratingScannerPlugins</Keyword>
-      <Text>Une erreur de plugin a été relevée</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PluginDirectoryNotFound</Keyword>
-      <Text>Il n'est pas possible de trouver le dossier du plugin sélectionné (scanner)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Advice</Keyword>
-      <Text>Conseil</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConnectionEstablishedCheckBrightnessAndScan</Keyword>
-      <Text>Connexion établie.
-
-Vérifier la luminosité et cliquer NEXT</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteScan</Keyword>
-      <Text>Eliminer Scan</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SearchingForScanner</Keyword>
-      <Text>Connexion en cours...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickNext2StartScan</Keyword>
-      <Text>Il existe déjà un balayage.
-NEXT pour un nouveau balayage.
-BACK pour terminer.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerName.MHT</Keyword>
-      <Text>3D Progress - IO Scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerInializationFailed</Keyword>
-      <Text>L'initialisation du Scanner a échoué </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.MultiDie</Keyword>
-      <Text>Scan Gencive: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TreatmentPathNotSet</Keyword>
-      <Text>Aucun Dental Project sélectionné</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerPluginNotFound</Keyword>
-      <Text>Le plugin du scanner n'a pas été trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IntraoralScannerRequired</Keyword>
-      <Text>Il faut un Scanner Intra Oral</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SingleScanFinish</Keyword>
-      <Text>Terminer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AddSingleScan</Keyword>
-      <Text>Ajouter balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.VestibularScan</Keyword>
-      <Text>Scan vestibulaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CancelScan</Keyword>
-      <Text>Annuler scan</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizardFailed</Keyword>
-      <Text>Erreur durant l'initialisation du Wizard</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Calibrate.ToolTip</Keyword>
-      <Text>Calibrage Scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Calibrate</Keyword>
-      <Text>Calibrer le Scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectDentalProjectToScan</Keyword>
-      <Text>Sélectionner un projet pour accéder aux données acquises</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCurrentScanQuestion.No.Description</Keyword>
-      <Text>Scanne en cours ne sera pas interrompu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCurrentScanQuestion.No</Keyword>
-      <Text>Non</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes.Description</Keyword>
-      <Text>Revenir en arrière et annuler le scanne courant. Les données seront perdues</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes</Keyword>
-      <Text>Revenir en arrière</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortCurrentScanQuestion</Keyword>
-      <Text>En revenant en arrière on perdra toutes les données courantes. Etes-vous sûr de vouloir revenir en arrière?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDataWillBeLost.Cancel.Description</Keyword>
-      <Text>Annuler et rester dans la même étape. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDataWillBeLost.Cancel</Keyword>
-      <Text>Annuler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDataWillBeLost.Continue.Description</Keyword>
-      <Text>Recommencer le balayage. Toutes les données seront remises à zéro</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDataWillBeLost.Continue</Keyword>
-      <Text>Revenir en arrière et recommencer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanDataWillBeLost</Keyword>
-      <Text>En revenant en arrière on efface et recommence le balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Cancel.Description</Keyword>
-      <Text>Retourner à Scan Manager</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Cancel</Keyword>
-      <Text>Annuler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.StartMarginDetection.Description</Keyword>
-      <Text>Effectuer l'enregistrement de l'occlusion et des limites</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.StartMarginDetection</Keyword>
-      <Text>Enregistrer l'occlusion et la ligne de marge</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Start.Description</Keyword>
-      <Text>Effectuer l'enregistrement de l'occlusion et le design CAO</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.StartCAD</Keyword>
-      <Text>Commencer modelage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CloseApp</Keyword>
-      <Text>Terminer et refermer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Finished</Keyword>
-      <Text>Balayage terminé. Les données ont été sauvegardées dans le dossier du projet.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PauseTip</Keyword>
-      <Text>Continuer le balayage de la zone marquée en bleu.
-
-Utiliser la touche gauche de la souris pour replacer la zone bleue. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ProcessingScanData</Keyword>
-      <Text>Calcul des données acquises</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CancelMeshing</Keyword>
-      <Text>Annuler le calcul</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.WizardFinished</Keyword>
-      <Text>L'assistant du scan est terminé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue</Keyword>
-      <Text>Continuer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue.Description</Keyword>
-      <Text>Continuer dans la modalité courante</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningModeChangeFailed.Cancel</Keyword>
-      <Text>Annuler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningMode.NaturalTeeth</Keyword>
-      <Text>Dents Naturelles</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningMode.Gips</Keyword>
-      <Text>Modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TeethScanningModeChangeFailed</Keyword>
-      <Text>Il n'est pas possible de mettre à jour la modalité de balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ClearScanResults</Keyword>
-      <Text>Eliminer les données acquises</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SelectScanModeToScan</Keyword>
-      <Text>Sélectionner la modalité de balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.PauseScan</Keyword>
-      <Text>Mettre en pause</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ResumeScan</Keyword>
-      <Text>Reprendre le balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerNotSet</Keyword>
-      <Text>Aucun plugin Scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerNotPresent</Keyword>
-      <Text>Le scanner n'a pas été trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanAgain</Keyword>
-      <Text>Nouveau balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TerminateScanManager.No.Description</Keyword>
-      <Text>Le Scan Manager ne sera pas fermé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TerminateScanManager.No</Keyword>
-      <Text>Annuler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TerminateScanManager.Yes.Description</Keyword>
-      <Text>L'état actuel ne sera pas sauvegardé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TerminateScanManagerOnCloseAppQuestion</Keyword>
-      <Text>Etes-vous sûr de vouloir terminer le Scan Manager?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.TerminateScanManager.Yes</Keyword>
-      <Text>Terminer Scan Manager</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerOff</Keyword>
-      <Text>Aucun scanner trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Open</Keyword>
-      <Text>Ouvrir Scan Manager</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortWizard.Description</Keyword>
-      <Text>Terminer le Wizard. Toutes les données seront perdues.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CancelAbortWizard</Keyword>
-      <Text>Continuer scanne</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.AbortWizard</Keyword>
-      <Text>Terminer Wizard</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ReallyAbortWizard</Keyword>
-      <Text>Terminer le Wizard?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.Close</Keyword>
-      <Text>Fermer Scan Manager</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CalibrationSucceded</Keyword>
-      <Text>Le scanner a été calibré correctement</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CalibrationFailed.NoScanner</Keyword>
-      <Text>Aucun scanner trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CalibrationFailed.NeedsCalibration</Keyword>
-      <Text>Il n'a pas été possible de calibrer. Essayez de nouveau.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CalibrationFailed.Error</Keyword>
-      <Text>Erreur durant le calibrage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CalibrationFailed</Keyword>
-      <Text>Calibrage non réussi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.InitializationError</Keyword>
-      <Text>Erreur durant l'initialisation</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorScannerNotPresent</Keyword>
-      <Text>Aucun scanner trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorScannerNotSet</Keyword>
-      <Text>Aucun scanner sélectionné. Redémarrer le Scan Manager</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanInfoNotSet</Keyword>
-      <Text>Aucune information sur le prochain scanne</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorWhileObtainingScanDataFromScanner</Keyword>
-      <Text>Erreur de communication avec le scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorStoringScanData2Disk</Keyword>
-      <Text>Erreur durant la sauvegarde des données</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorLoadingMesh</Keyword>
-      <Text>Erreur durant le chargement du modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SingleScanStep.WritingToFile</Keyword>
-      <Text>Analyse des données</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SingleScanStep.Scan</Keyword>
-      <Text>scan</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SingleScanStep.Cutting</Keyword>
-      <Text>couper</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SingleScanStep.None</Keyword>
-      <Text>Initialisation</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.WizardStepFailed</Keyword>
-      <Text>Step Wizard échoué</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PatientRegistrationScan.Lower</Keyword>
-      <Text>Enregistrement arcade supérieure - inférieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PatientAntagonistScan.Lower</Keyword>
-      <Text>Arcade Inférieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PatientAntagonistScan.Upper</Keyword>
-      <Text>Arcade Supérieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PatientScan.Lower</Keyword>
-      <Text>Acquérir arcade inférieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PatientScan.Upper</Keyword>
-      <Text>Acquérir arcade supérieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickNext2Finish</Keyword>
-      <Text>'Terminer' pour fermer, 'Scan' pour continuer à acquérir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickNext2Scan</Keyword>
-      <Text>'Suivant' pour scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickNext2Proceed</Keyword>
-      <Text>'Suivant' pour continuer </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ReScan</Keyword>
-      <Text>Acquérir encore</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanAlreadyPerformed</Keyword>
-      <Text>Données de balayage déjà existantes</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CuttingProgress</Keyword>
-      <Text>Calcul du modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CalculatingProgress</Keyword>
-      <Text>Calcul en cours...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanningProgress</Keyword>
-      <Text>Acquérir les données...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizard.Terminate.Description</Keyword>
-      <Text>Annuler scannage et fermer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizard.Terminate</Keyword>
-      <Text>Annuler scannage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizard.Continue.Description</Keyword>
-      <Text>Continuer et ne pas fermer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizard.Continue</Keyword>
-      <Text>Continuer acquisition</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanWizard.InProgress</Keyword>
-      <Text>Acquisition en cours</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.PatientRegistration</Keyword>
-      <Text>Scan d'enregistrement</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.Gingiva</Keyword>
-      <Text>Gencive</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.Antagonist</Keyword>
-      <Text>Antagoniste</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.ScanAbutment</Keyword>
-      <Text>Pilier à scanner  </Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.Missing</Keyword>
-      <Text>Dent Manquante</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.Healthy</Keyword>
-      <Text>Dent Saine</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.Pontic</Keyword>
-      <Text>Intermédiaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.Antagonist</Keyword>
-      <Text>Antagoniste</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationType.Crown</Keyword>
-      <Text>Couronne</Text>
-    </Translation>
-    <Translation>
-      <Keyword>StartScanning</Keyword>
-      <Text>Scannage...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TreatmentDataReadFailed</Keyword>
-      <Text>Erreur durant le chargement:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistNotSupported</Keyword>
-      <Text>Type d'antagoniste non supporté</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TempSTLFileAfterScanNotFound</Keyword>
-      <Text>Les données du balayage n'ont pas été trouvées</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanErrorOccured</Keyword>
-      <Text>Erreur durante le processus de balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TempSTLFileAfterScanCannotCopyToDescFile</Keyword>
-      <Text>Erreur dans la copie du fichier STL temporaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TempSTLFileCannotRemove</Keyword>
-      <Text>Je ne peux pas éliminer le fichier STL temporaire</Text>
-    </Translation>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>WizardFinished</Keyword>
       <Text>Le Wizard a terminé</Text>
     </Translation>
     <Translation>
-      <Keyword>ScannerNotInitialized</Keyword>
-      <Text>Le scanner ne peut pas être initialisé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanProgress</Keyword>
-      <Text>Progrès balayage</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScannerOn</Keyword>
-      <Text>'{0}' scanner trouvé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CloseApp.Description</Keyword>
-      <Text>Depuis le programme Database il est possible de transférer les données acquises au laboratoire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SetMeshsToSingleColor</Keyword>
-      <Text>Utiliser une seule couleur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectScanner</Keyword>
-      <Text>Sélectionner le scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorDeletingFile</Keyword>
-      <Text>Erreur durant l'élimination des fichiers durant le post processing.
-Texte erreur:
-{1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorMovingFile</Keyword>
-      <Text>Erreur durant la copie du fichier {0} a {1} durant le post processing.
-Texte erreur:
-{2}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ToothJobsMissing</Keyword>
-      <Text>Introduire au moins un ordre de travail</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical</Keyword>
-      <Text>Pilier à scanner optique</Text>
-    </Translation>
-    <Translation>
-      <Keyword>OneJawMustContainsOnlyAntaOrHealthy</Keyword>
-      <Text>L'acquisition de l'antagoniste ne sera pas effectué</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ToothWithToothId</Keyword>
-      <Text>Dent {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.OperationFailed</Keyword>
-      <Text>L'opération a échoué </Text>
-    </Translation>
-    <Translation>
-      <Keyword>CalibrationProgress</Keyword>
-      <Text>Progrès de Calibration</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.CameraMode.HeightAjustment</Keyword>
-      <Text>Réglage de la hauteur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CouldNotGetPointCloud</Keyword>
-      <Text>Aucunes données scannées trouvé. Essayez de numériser une surface plus grande.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CouldNotFindAllImplantReferences</Keyword>
-      <Text>Impossible d'extraire la position des implants à partir des données.
-Dents attendu: {0}
-Dents trouvées: {1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SNX.Calibration.InsertMultiDieOrCircularTarget</Keyword>
-      <Text>Veuillez insérer le plateau multi-die ou cible circulaire.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SNX.Calibration.InsertCalibrationPlate</Keyword>
-      <Text>Inserer plateau de calibration.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint</Keyword>
-      <Text>Pilier à scanner tactile - un point </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint.Description</Keyword>
-      <Text>Acquérir pilier à scanner tactiles (1 point)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody</Keyword>
-      <Text>Pilier à scanner tactile</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScannerBrightness</Keyword>
-      <Text>Luminosité</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.SituScan.MultiDie</Keyword>
-      <Text>Mod.Situation: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ImplantReference</Keyword>
-      <Text>Scan position d'implant: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ImplantReferenceObject</Keyword>
-      <Text>Scan de reference d'implant: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertModelForImplantReference</Keyword>
-      <Text>Insérez modèle pour la mesure de la référence d'implant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference</Keyword>
-      <Text>Pilier à scanner tactile + scan de réference</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody.Description</Keyword>
-      <Text>Acquérir piliers à scanner tactiles (scanne de cylindre)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType</Keyword>
-      <Text>Veuillez sélectionner la stratégie de scanne de la position d'implants</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference</Keyword>
-      <Text>Localisateur optique + scan de réference</Text>
-    </Translation>
-    <Translation>
-      <Keyword>VestibularScan</Keyword>
-      <Text>Veuillez insérer les deux mâchoires en occlusion pour le scan vestibulaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CheckBrightnessAndClickNextAgain</Keyword>
-      <Text>Veuillez vérifiez les réglages de luminosité et cliquez sur «Continuer» pour la numérisation.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ModelWithArtiPlate.Both</Keyword>
-      <Text>Modèles Sup + Inf  avec plaques d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ModelWithArtiPlate.Upper</Keyword>
-      <Text>Modèle Supérieur avec plaque d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ModelWithArtiPlate.Lower</Keyword>
-      <Text>Modèle Inférieur avec plaque d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AddSingleScan.ToolTip</Keyword>
-      <Text>Scan unique de cette vue</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelWithArtiPlate.Both</Keyword>
-      <Text>Veuillez insérer les deux mâchoires en occlusion avec les plaques d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelWithArtiPlate.Upper</Keyword>
-      <Text>Veuillez inserer Modèle Supérieur avec plaque d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelWithArtiPlate.Lower</Keyword>
-      <Text>Veuillez inserer Modèle Inférieur avec plaque d'articulateur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ErrorSettingRegionOfInterest</Keyword>
-      <Text>Une erreur s'est produite lors de la définition de la région concernée. S'il vous plaît essayez de nouveau.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.ScanWizard</Keyword>
-      <Text>Assistant du Scanner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>applyTransformationsToAttachedToothPartsCheckBox_Content</Keyword>
-      <Text>Appliquer pour attacher parties des dents</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanManager.SingleScanStep.Meshing</Keyword>
-      <Text>Création des données de scan</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.Situ</Keyword>
-      <Text>Modèle de Situation</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Scan.Waxup</Keyword>
-      <Text>Waxup</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PreparationScanSingle</Keyword>
-      <Text>Scanne de préparation {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PreparationScanPlural</Keyword>
-      <Text>Scanne de préparation {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertHealthyTooth</Keyword>
-      <Text>Insérer dent saine {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertHealthyTeeth</Keyword>
-      <Text>Insérer dent saine {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertTooth</Keyword>
-      <Text>Insérer dent {0}  </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertTeeth</Keyword>
-      <Text>Insérer dents {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.HealthyScan</Keyword>
-      <Text>Dents Saines: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.HealthyScan.Single</Keyword>
-      <Text>Dent Saine: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Multiple</Keyword>
-      <Text>Scan de Gencive: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Single</Keyword>
-      <Text>Scan de Gencive: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>GingivaScan.Multiple</Keyword>
-      <Text>Scan de Gencive: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>GingivaScan.Single</Keyword>
-      <Text>Scan de Gencive: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PonticScan</Keyword>
-      <Text>Scan de Pontic: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan</Keyword>
-      <Text>Scan de Gencive: {0}  </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Lower</Keyword>
-      <Text>Scan de Gencive: {0}   </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.GingivaScan.Upper</Keyword>
-      <Text>Scan de Gencive: {0}  </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertGingiva.Lower</Keyword>
-      <Text>Veuillez insérer modèle inf. avec la gencive</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PerformScan</Keyword>
-      <Text>Scan Préforme </Text>
-    </Translation>
-    <Translation>
-      <Keyword>PrepareScan</Keyword>
-      <Text>Scan Préforme  </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScanToothDieSeparately</Keyword>
-      <Text>Scanner dent séparement </Text>
-    </Translation>
-    <Translation>
-      <Keyword>MultiPreparationScan.Description</Keyword>
-      <Text>Mode d'optimisation du rendement.
-Moins de scannes sont nécessaires.
-Sélectionnez ce mode si il ya assez d'espace entre les préparations pour les scanner ensemble.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertGingiva.Upper</Keyword>
-      <Text>Veuillez insérer modèle sup. avec la gencive</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.BiteImpressionScan.Lower</Keyword>
-      <Text>Scanne de mordu: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.BiteImpressionScan.Upper</Keyword>
-      <Text>Scanne de mordu: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertBiteImpression.Lower</Keyword>
-      <Text>Veuillez insérer mordu inférieure </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertBiteImpression.Upper</Keyword>
-      <Text>Veuillez insérer mordu supérieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertSitu.Lower</Keyword>
-      <Text>Veuillez insérer modèle de situation inférieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertSitu.Upper</Keyword>
-      <Text>Veuillez insérer modèle de situation supérieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.SituScan.Lower</Keyword>
-      <Text>Modèle de Situation: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.SituScan.Upper</Keyword>
-      <Text>Modèle de Situation: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ScanAbutmentSingle</Keyword>
-      <Text>Pilier à scanner: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.ScanAbutmentPlural</Keyword>
-      <Text>Pilier à scanner: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.WaxupSingle</Keyword>
-      <Text>Scanne Waxup: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.WaxupPlural</Keyword>
-      <Text>Scanne Waxup: {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertWaxupSingle</Keyword>
-      <Text>Insérer dent {0} pour scanne de waxup</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertWaxupPlural</Keyword>
-      <Text>Insérer dent {0} pour scanne de waxup </Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertFullModel.Lower</Keyword>
-      <Text>Veuillez insérer la mâchoire inférieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InsertFullModel.Upper</Keyword>
-      <Text>Veuillez insérer la mâchoire supérieure</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FileName.PreviewScan</Keyword>
-      <Text>Aperçu / région sélectioné de scanne</Text>
+      <Keyword>FileName.OverviewScan.Upper</Keyword>
+      <Text>Vue d'ensemble du scanne - mâchoire inférieure </Text>
     </Translation>
     <Translation>
       <Keyword>FileName.OverviewScan.Lower</Keyword>
       <Text>Vue d'ensemble du scanne - mâchoire inférieure</Text>
     </Translation>
     <Translation>
-      <Keyword>FileName.OverviewScan.Upper</Keyword>
-      <Text>Vue d'ensemble du scanne - mâchoire inférieure </Text>
+      <Keyword>FileName.PreviewScan</Keyword>
+      <Text>Aperçu / région sélectioné de scanne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertFullModel.Upper</Keyword>
+      <Text>Veuillez insérer la mâchoire supérieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertFullModel.Lower</Keyword>
+      <Text>Veuillez insérer la mâchoire inférieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertWaxupPlural</Keyword>
+      <Text>Insérer dent {0} pour scanne de waxup </Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertWaxupSingle</Keyword>
+      <Text>Insérer dent {0} pour scanne de waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupPlural</Keyword>
+      <Text>Scanne Waxup: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.WaxupSingle</Keyword>
+      <Text>Scanne Waxup: {0}</Text>
     </Translation>
     <Translation>
       <Keyword>InsertScanAbutmentPlural</Keyword>
@@ -1089,16 +56,205 @@ Sélectionnez ce mode si il ya assez d'espace entre les préparations pour les s
       <Text>Insérer Pilier à scanner pour dent {0}</Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference.Description</Keyword>
-      <Text>Mesure piliers à scanner optiques et prend un scanne de référence pour être en mesure d'adapter les piliers à scanner avec les données enregistrées à l'aide du scanner optique</Text>
+      <Keyword>FileName.ScanAbutmentPlural</Keyword>
+      <Text>Pilier à scanner: {0} </Text>
     </Translation>
     <Translation>
-      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference.Description</Keyword>
-      <Text>Acquérir pilier à scanner tactile (scanne cylindre) et prendre la réference pour adapter aux données du scanner optique.</Text>
+      <Keyword>FileName.ScanAbutmentSingle</Keyword>
+      <Text>Pilier à scanner: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.Upper</Keyword>
+      <Text>Modèle de Situation: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.Lower</Keyword>
+      <Text>Modèle de Situation: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertSitu.Upper</Keyword>
+      <Text>Veuillez insérer modèle de situation supérieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertSitu.Lower</Keyword>
+      <Text>Veuillez insérer modèle de situation inférieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertBiteImpression.Upper</Keyword>
+      <Text>Veuillez insérer mordu supérieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertBiteImpression.Lower</Keyword>
+      <Text>Veuillez insérer mordu inférieure </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.BiteImpressionScan.Upper</Keyword>
+      <Text>Scanne de mordu: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.BiteImpressionScan.Lower</Keyword>
+      <Text>Scanne de mordu: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertGingiva.Upper</Keyword>
+      <Text>Veuillez insérer modèle sup. avec la gencive</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertGingiva.Lower</Keyword>
+      <Text>Veuillez insérer modèle inf. avec la gencive</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Upper</Keyword>
+      <Text>Scan de Gencive: {0}  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Lower</Keyword>
+      <Text>Scan de Gencive: {0}  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan</Keyword>
+      <Text>Scan de Gencive: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertTeeth</Keyword>
+      <Text>Insérer dents {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertTooth</Keyword>
+      <Text>Insérer dent {0}  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PreparationScanPlural</Keyword>
+      <Text>Scanne de préparation {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PreparationScanSingle</Keyword>
+      <Text>Scanne de préparation {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>TempSTLFileCannotRemove</Keyword>
+      <Text>Je ne peux pas éliminer le fichier STL temporaire: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TempSTLFileAfterScanCannotCopyToDescFile</Keyword>
+      <Text>Erreur dans la copie du fichier STL temporaire: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TempSTLFileAfterScanNotFound</Keyword>
+      <Text>Les données du balayage n'ont pas été trouvées</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanErrorOccured</Keyword>
+      <Text>Erreur durante le processus de balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistNotSupported</Keyword>
+      <Text>Type d'antagoniste "{0}" non supporté</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentDataReadFailed</Keyword>
+      <Text>Erreur durant le chargement: {0}
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartScanning</Keyword>
+      <Text>Scannage...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Crown</Keyword>
+      <Text>Couronne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Inlay</Keyword>
+      <Text>Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Antagonist</Keyword>
+      <Text>Antagoniste</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Pontic</Keyword>
+      <Text>Intermédiaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Healthy</Keyword>
+      <Text>Dent Saine</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationType.Missing</Keyword>
+      <Text>Dent Manquante</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.ScanAbutment</Keyword>
+      <Text>Pilier à scanner  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Antagonist</Keyword>
+      <Text>Antagoniste</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Gingiva</Keyword>
+      <Text>Gencive</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Situ</Keyword>
+      <Text>Modèle de Situation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.Waxup</Keyword>
+      <Text>Waxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.PatientRegistration</Keyword>
+      <Text>Scan d'enregistrement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.InProgress</Keyword>
+      <Text>Acquisition en cours</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Continue</Keyword>
+      <Text>Continuer acquisition</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Continue.Description</Keyword>
+      <Text>Continuer et ne pas fermer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Terminate</Keyword>
+      <Text>Annuler scannage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizard.Terminate.Description</Keyword>
+      <Text>Annuler scannage et fermer</Text>
     </Translation>
     <Translation>
       <Keyword>InProgress</Keyword>
       <Text>Scannage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanProgress</Keyword>
+      <Text>Progrès balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanningProgress</Keyword>
+      <Text>Acquérir les données...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CalculatingProgress</Keyword>
+      <Text>Calcul en cours...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CuttingProgress</Keyword>
+      <Text>Calcul du modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAlreadyPerformed</Keyword>
+      <Text>Données de balayage déjà existantes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReScan</Keyword>
+      <Text>Acquérir encore</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationScanMode</Keyword>
@@ -1119,13 +275,487 @@ Utilisez ce mode s'il n'y a pas assez d'espace entre les préparations. </Text>
       <Text>Scannage de plusieurs préparations avec scan unique</Text>
     </Translation>
     <Translation>
+      <Keyword>MultiPreparationScan.Description</Keyword>
+      <Text>Mode d'optimisation du rendement.
+Moins de scannes sont nécessaires.
+Sélectionnez ce mode si il ya assez d'espace entre les préparations pour les scanner ensemble.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Proceed</Keyword>
+      <Text>'Suivant' pour continuer </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Scan</Keyword>
+      <Text>'Suivant' pour scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2Finish</Keyword>
+      <Text>'Terminer' pour fermer, 'Scan' pour continuer à acquérir</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanToothDieSeparately</Keyword>
+      <Text>Scanner dent séparement </Text>
+    </Translation>
+    <Translation>
       <Keyword>JobFinishedScanDiesOrExit</Keyword>
-      <Text>Travail terminé.
-Scanner meurt séparément ou cliquez sur «Terminer» pour quitter</Text>
+      <Text>Travail réalisé.
+Numérisation moignon séparément ou le bas "Terminer" pour quitter</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepareScan</Keyword>
+      <Text>Scan Préforme  </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PerformScan</Keyword>
+      <Text>Scan Préforme </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PostprocessScan</Keyword>
+      <Text>Postprocessing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientScan.Upper</Keyword>
+      <Text>Acquérir arcade supérieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientScan.Lower</Keyword>
+      <Text>Acquérir arcade inférieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientAntagonistScan.Upper</Keyword>
+      <Text>Arcade Supérieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientAntagonistScan.Lower</Keyword>
+      <Text>Arcade Inférieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PatientRegistrationScan.Lower</Keyword>
+      <Text>Enregistrement arcade supérieure - inférieure</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.WizardStepFailed</Keyword>
+      <Text>Step Wizard {0} échoué
+
+Reason: 
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.None</Keyword>
+      <Text>Initialisation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Scan</Keyword>
+      <Text>scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Cutting</Keyword>
+      <Text>couper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.Meshing</Keyword>
+      <Text>Création des données de scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SingleScanStep.WritingToFile</Keyword>
+      <Text>Analyse des données</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorLoadingMesh</Keyword>
+      <Text>Erreur durant le chargement du modèle {0}
+Erreur {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorStoringScanData2Disk</Keyword>
+      <Text>Erreur durant la sauvegarde des données {0}
+Erreur: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorWhileObtainingScanDataFromScanner</Keyword>
+      <Text>Erreur de communication avec le scanner
+
+Erreur: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanInfoNotSet</Keyword>
+      <Text>Aucune information sur le prochain scanne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorScannerNotSet</Keyword>
+      <Text>Aucun scanner sélectionné. Redémarrer le Scan Manager</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorScannerNotPresent</Keyword>
+      <Text>Aucun scanner trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.InitializationError</Keyword>
+      <Text>Erreur durant l'initialisation
+Erreur: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed</Keyword>
+      <Text>Calibrage non réussi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.Error</Keyword>
+      <Text>Erreur durant le calibrage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.NoScanner</Keyword>
+      <Text>Aucun scanner trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationFailed.NeedsCalibration</Keyword>
+      <Text>Il n'a pas été possible de calibrer. Essayez de nouveau.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CalibrationSucceded</Keyword>
+      <Text>Le scanner a été calibré correctement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>applyTransformationsToAttachedToothPartsCheckBox_Content</Keyword>
+      <Text>Appliquer pour attacher parties des dents</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Open</Keyword>
+      <Text>Ouvrir Scan Manager</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Close</Keyword>
+      <Text>Terminer Scan Manager</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ReallyAbortWizard</Keyword>
+      <Text>Terminer le Wizard?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortWizard</Keyword>
+      <Text>Terminer Wizard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortWizard.Description</Keyword>
+      <Text>Terminer le Wizard. Toutes les données seront perdues.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelAbortWizard</Keyword>
+      <Text>Continuer scanne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanWizard</Keyword>
+      <Text>Assistant du Scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerOn</Keyword>
+      <Text>'{0}' scanner trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerOff</Keyword>
+      <Text>Aucun scanner trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManagerOnCloseAppQuestion</Keyword>
+      <Text>Etes-vous sûr de vouloir terminer le Scan Manager?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.Yes</Keyword>
+      <Text>Terminer Scan Manager</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.Yes.Description</Keyword>
+      <Text>L'état actuel ne sera pas sauvegardé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.No</Keyword>
+      <Text>Annuler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TerminateScanManager.No.Description</Keyword>
+      <Text>Le Scan Manager ne sera pas fermé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanAgain</Keyword>
+      <Text>Nouveau balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerNotPresent</Keyword>
+      <Text>Le scanner n'a pas été trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScannerNotSet</Keyword>
+      <Text>Aucun plugin Scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ResumeScan</Keyword>
+      <Text>Reprendre le balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PauseScan</Keyword>
+      <Text>Mettre en pause</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ClearScanResults</Keyword>
+      <Text>Eliminer les données acquises</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.SelectScanModeToScan</Keyword>
+      <Text>Sélectionner la modalité de balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed</Keyword>
+      <Text>Il n'est pas possible de mettre à jour la modalité de balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue</Keyword>
+      <Text>Continuer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Continue.Description</Keyword>
+      <Text>Continuer dans la modalité courante '{0}'</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningModeChangeFailed.Cancel</Keyword>
+      <Text>Annuler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningMode.NaturalTeeth</Keyword>
+      <Text>Dents Naturelles</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.TeethScanningMode.Gips</Keyword>
+      <Text>Modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.WizardFinished</Keyword>
+      <Text>L'assistant du scan est terminé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelMeshing</Keyword>
+      <Text>Annuler le calcul</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ProcessingScanData</Keyword>
+      <Text>Calcul des données acquises</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PauseTip</Keyword>
+      <Text>Continuer le balayage de la zone marquée en bleu.
+
+Utiliser la touche gauche de la souris pour replacer la zone bleue. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Finished</Keyword>
+      <Text>Balayage terminé. Les données ont été sauvegardées dans le dossier du projet.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CloseApp</Keyword>
+      <Text>Terminer et refermer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CloseApp.Description</Keyword>
+      <Text>Depuis le programme Database il est possible de transférer les données acquises au laboratoire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartCAD</Keyword>
+      <Text>Commencer modelage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Start.Description</Keyword>
+      <Text>Effectuer l'enregistrement de l'occlusion et le design CAO</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartMarginDetection</Keyword>
+      <Text>Enregistrer l'occlusion et la ligne de marge</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.StartMarginDetection.Description</Keyword>
+      <Text>Effectuer l'enregistrement de l'occlusion et des limites</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Cancel</Keyword>
+      <Text>Annuler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Cancel.Description</Keyword>
+      <Text>Retourner à Scan Manager</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost</Keyword>
+      <Text>En revenant en arrière on efface et recommence le balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Continue</Keyword>
+      <Text>Revenir en arrière et recommencer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Continue.Description</Keyword>
+      <Text>Recommencer le balayage. Toutes les données seront remises à zéro</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Cancel</Keyword>
+      <Text>Annuler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDataWillBeLost.Cancel.Description</Keyword>
+      <Text>Annuler et rester dans la même étape. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion</Keyword>
+      <Text>En revenant en arrière on perdra toutes les données courantes. Etes-vous sûr de vouloir revenir en arrière?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes</Keyword>
+      <Text>Revenir en arrière</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.Yes.Description</Keyword>
+      <Text>Revenir en arrière et annuler le scanne courant. Les données seront perdues</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.No</Keyword>
+      <Text>Non</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCurrentScanQuestion.No.Description</Keyword>
+      <Text>Scanne en cours ne sera pas interrompu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectDentalProjectToScan</Keyword>
+      <Text>Sélectionner un projet pour accéder aux données acquises</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Calibrate</Keyword>
+      <Text>Calibrer le Scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Calibrate.ToolTip</Keyword>
+      <Text>Calibrage Scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanWizardFailed</Keyword>
+      <Text>Erreur durant l'initialisation du Wizard</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CancelScan</Keyword>
+      <Text>Annuler scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorSettingRegionOfInterest</Keyword>
+      <Text>Une erreur s'est produite lors de la définition de la région concernée. S'il vous plaît essayez de nouveau.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Lower</Keyword>
+      <Text>Veuillez inserer Modèle Inférieur avec plaque d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Upper</Keyword>
+      <Text>Veuillez inserer Modèle Supérieur avec plaque d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelWithArtiPlate.Both</Keyword>
+      <Text>Veuillez insérer les deux mâchoires en occlusion avec les plaques d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Lower</Keyword>
+      <Text>Modèle Inférieur avec plaque d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Upper</Keyword>
+      <Text>Modèle Supérieur avec plaque d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ModelWithArtiPlate.Both</Keyword>
+      <Text>Modèles Sup + Inf  avec plaques d'articulateur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.VestibularScan</Keyword>
+      <Text>Scan vestibulaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>VestibularScan</Keyword>
+      <Text>Veuillez insérer les deux mâchoires en occlusion pour le scan vestibulaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CheckBrightnessAndClickNextAgain</Keyword>
+      <Text>Veuillez vérifiez les réglages de luminosité et cliquez sur «Continuer» pour la numérisation.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AddSingleScan</Keyword>
+      <Text>Ajouter balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AddSingleScan.ToolTip</Keyword>
+      <Text>Scan unique de cette vue</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SingleScanFinish</Keyword>
+      <Text>Terminer</Text>
     </Translation>
     <Translation>
       <Keyword>SingleScanFinish.ToolTip</Keyword>
       <Text>Finir capture de scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetMeshsToSingleColor</Keyword>
+      <Text>Utiliser une seule couleur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerPluginNotFound</Keyword>
+      <Text>Le plugin du scanner n'a pas été trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IntraoralScannerRequired</Keyword>
+      <Text>Il faut un Scanner Intra Oral</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TreatmentPathNotSet</Keyword>
+      <Text>Aucun Dental Project sélectionné</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerInializationFailed</Keyword>
+      <Text>L'initialisation du Scanner a échoué </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.SituScan.MultiDie</Keyword>
+      <Text>Mod.Situation: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.MultiDie</Keyword>
+      <Text>Scan Gencive: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectScanner</Keyword>
+      <Text>Sélectionner le scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerName.MHT</Keyword>
+      <Text>3D Progress - IO Scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickNext2StartScan</Keyword>
+      <Text>Il existe déjà un balayage.
+NEXT pour un nouveau balayage.
+BACK pour terminer.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorDeletingFile</Keyword>
+      <Text>Erreur durant l'élimination des fichiers {0} durant le post processing.
+Texte erreur:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorMovingFile</Keyword>
+      <Text>Erreur durant la copie du fichier {0} a {1} durant le post processing.
+Texte erreur:
+{2}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteScan</Keyword>
+      <Text>Eliminer Scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerBrightness</Keyword>
+      <Text>Luminosité</Text>
     </Translation>
     <Translation>
       <Keyword>LeftCamera</Keyword>
@@ -1148,11 +778,405 @@ Scanner meurt séparément ou cliquez sur «Terminer» pour quitter</Text>
       <Text>Scan à partir de cette position de vue n'est pas possible</Text>
     </Translation>
     <Translation>
+      <Keyword>SearchingForScanner</Keyword>
+      <Text>Connexion en cours...</Text>
+    </Translation>
+    <Translation>
       <Keyword>RegionOfInterestSelectionAdvice</Keyword>
       <Text>S'il vous plaît marquer la région pour toutes les numérisations suivantes avec la souris, puis cliquez sur «Recadrer» </Text>
     </Translation>
+    <Translation>
+      <Keyword>ConnectionEstablishedCheckBrightnessAndScan</Keyword>
+      <Text>Connexion établie.
+
+Vérifier la luminosité et cliquer NEXT</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Advice</Keyword>
+      <Text>Conseil</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PluginDirectoryNotFound</Keyword>
+      <Text>Il n'est pas possible de trouver le dossier du plugin sélectionné (scanner)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorEnumeratingScannerPlugins</Keyword>
+      <Text>Une erreur de plugin a été relevée</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.NoDentalScannerPluginsFound</Keyword>
+      <Text>Aucun plugin pour le Scanner Intra Oral n'a été trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CloseSelectedHoles</Keyword>
+      <Text>Refermer les trous sélectionnés</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CloseAllHoles</Keyword>
+      <Text>Refermer tous les trous</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoHolesWereClosed.Selected.SelectHole</Keyword>
+      <Text>Aucun trou n'a été refermé. Sélectionner un ou plusieurs trous à refermer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NoHolesWereClosed.CloseAll.SelectHole</Keyword>
+      <Text>Il n'y a pas de trous de la grandeur sélectionnée</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanNaturalTeeth</Keyword>
+      <Text>Dents Naturelles</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanNaturalTeeth.ToolTip</Keyword>
+      <Text>Sélectionner cette modalité pour acquérir les dents naturelles</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanStoneModel</Keyword>
+      <Text>Modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanStoneModel.ToolTip</Keyword>
+      <Text>Sélectionner cette modalité pour utiliser le scanner Intra Oral sur un modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>WritingDataToDrive</Keyword>
+      <Text>Sauvegarder les données</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ToothJobsMissing</Keyword>
+      <Text>Introduire au moins un ordre de travail</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PartsForCropOrDeleteSelected</Keyword>
+      <Text>Vous avez sélectionné une partie du balayage
+Etes-vous sûr de vouloir continuer sans couper ou éliminer les parties sélectionnées?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Continue</Keyword>
+      <Text>Continuer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Continue.Description</Keyword>
+      <Text>Continuer et ignorer la sélection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Delete</Keyword>
+      <Text>Eliminer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Delete.Description</Keyword>
+      <Text>Continuer - la sélection sera éliminée</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crop</Keyword>
+      <Text>Couper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Crop.Description</Keyword>
+      <Text>Continuer - le modèle sera coupé selon la sélection</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareQuestion</Keyword>
+      <Text>Etes-vous sûr de vouloir mettre à jour le Firmware du scanner? 
+
+ Attention: Le logiciel redémarrera à la fin du processus.
+ Attention: Le logiciel pourrait ne pas répondre durant la mise à jour.
+ Attention: NE PAS DECONNECTER LE SCANNER OU FERMER LE LOGICIEL</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmware</Keyword>
+      <Text>Mettre à jour le Firmware du scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareVersion</Keyword>
+      <Text>Version du Firmware (scanner)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareFailed</Keyword>
+      <Text>Erreur: échec de la mise à jour du Firmware. Redémarrer le PC et effectuer une nouvelle mise à jour</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerUpgradeFirmwareSuccess</Keyword>
+      <Text>Excellent: le Firmware du scanner a été mis à jour. Le logiciel sera fermé automatiquement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerMaintenanceContextMenu</Keyword>
+      <Text>Options scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareUpgradeRequired</Keyword>
+      <Text>Le scanner a besoin d'une mise à jour Firmware</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareOk</Keyword>
+      <Text>Firmware installé correctement</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareIncompatible</Keyword>
+      <Text>Le Firmware n'est pas compatible</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerFirmwareNotFound</Keyword>
+      <Text>Le Firmware nécessaire n'a pas été trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.NoScannerFound</Keyword>
+      <Text>Le plugin scanner n'a pas été trouvé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerNotLicensedForExecution</Keyword>
+      <Text>Le plugin du scanner n'est pas présent</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerDefaultScanner</Keyword>
+      <Text>Sélectionner le scanner:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerDefaultScannerAutoSelect</Keyword>
+      <Text>Autosélection du scanner</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanProcessAbortWithDataLoss</Keyword>
+      <Text>Attention!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCancelScan</Keyword>
+      <Text>Terminer le balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ConfirmCancelScan.Description</Keyword>
+      <Text>Le balayage courant sera terminé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCancelScan</Keyword>
+      <Text>Continuer le balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished</Keyword>
+      <Text>La marge a été sélectionnée avec succès. Sélectionner une des options suivantes</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Inspect</Keyword>
+      <Text>Vérifier les données acquises</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Measure</Keyword>
+      <Text>Mesureur de distance</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Measure.Description</Keyword>
+      <Text>Mesurer la distance de l'antagoniste, etc.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.PrepLineDetectionFinished.Close</Keyword>
+      <Text>Fermer l'application</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SizeThreshold</Keyword>
+      <Text>Ampleur maximum:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.PonticScan</Keyword>
+      <Text>Scan de Pontic: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Single</Keyword>
+      <Text>Scan de Gencive: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaScan.Multiple</Keyword>
+      <Text>Scan de Gencive: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Single</Keyword>
+      <Text>Scan de Gencive: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.GingivaScan.Multiple</Keyword>
+      <Text>Scan de Gencive: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan.Single</Keyword>
+      <Text>Dent Saine: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.HealthyScan</Keyword>
+      <Text>Dents Saines: {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTeeth</Keyword>
+      <Text>Insérer dent saine {0} </Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertHealthyTooth</Keyword>
+      <Text>Insérer dent saine {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression</Keyword>
+      <Text>Empreinte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.IO.ScanImpression.ToolTip</Keyword>
+      <Text>Sélectionner cette modalité pour acquérir une empreinte</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Cancel.Description</Keyword>
+      <Text>Annuler</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StartScannerCalibration</Keyword>
+      <Text>Commencer le calibrage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DoNotCalibrate</Keyword>
+      <Text>Ne pas calibrer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.AbortCancelScan.Description</Keyword>
+      <Text>Continuer le balayage du modèle courant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.UserAborted</Keyword>
+      <Text>Le scan a été interrompu</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanDirectionAjustmentRequired</Keyword>
+      <Text>Il n'est pas possible d'acquérir depuis cette position</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ErrorResumeScan</Keyword>
+      <Text>Une erreur a eu lieu durant le balayage:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType</Keyword>
+      <Text>Veuillez sélectionner la stratégie de scanne de la position d'implants</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical</Keyword>
+      <Text>Pilier à scanner optique</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical.Description</Keyword>
+      <Text>Acquérir piliers à scanner optiques</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint</Keyword>
+      <Text>pilier à scanner tactile - un point </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileOnePoint.Description</Keyword>
+      <Text>Acquérir pilier à scanner tactiles (1 point)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody</Keyword>
+      <Text>pilier à scanner tactile</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody.Description</Keyword>
+      <Text>Acquérir piliers à scanner tactiles (scanne de cylindre)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>OneJawMustContainsOnlyAntaOrHealthy</Keyword>
+      <Text>L'acquisition de l'antagoniste ne sera pas effectué</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.Impression</Keyword>
+      <Text>EMPREINTE</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerTriangulateScanDataFromIOScanner</Keyword>
+      <Text>Trianguler les données</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManagerAllowCutScanDataFromIOScanner</Keyword>
+      <Text>Autoriser modification des données de scanne</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalScanner_MHT_OpenCLEnabled</Keyword>
+      <Text>Scanner 3D Progress utilise accélération OpenCL</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InsertModelForImplantReference</Keyword>
+      <Text>Insérez modèle pour la mesure de la référence d'implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ImplantReference</Keyword>
+      <Text>Scan position d'implant: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Scan.ImplantPosition</Keyword>
+      <Text>Acquérir localisateur implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SNX.Calibration.InsertCalibrationPlate</Keyword>
+      <Text>Inserer plateau de calibration.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SNX.Calibration.InsertMultiDieOrCircularTarget</Keyword>
+      <Text>Veuillez insérer le plateau multi-die ou cible circulaire.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ScanFailedError</Keyword>
+      <Text>Erreur durant le processus de balayage</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotGetPointCloud</Keyword>
+      <Text>Aucunes données scannées trouvé. Essayez de numériser une surface plus grande.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference</Keyword>
+      <Text>Localisateur optique + scan de réference</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.Optical+Reference.Description</Keyword>
+      <Text>Mesure piliers à scanner optiques et prend un scanne de référence pour être en mesure d'adapter les piliers à scanner avec les données enregistrées à l'aide du scanner optique</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference</Keyword>
+      <Text>Pilier à scanner tactile + scan de réference</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.ImplantPositionScanType.TactileScanBody+Reference.Description</Keyword>
+      <Text>Acquérir pilier à scanner tactile (scanne cylindre) et prendre la réference pour adapter aux données du scanner optique.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CalibrationProgress</Keyword>
+      <Text>Progrès de Calibration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.OperationFailed</Keyword>
+      <Text>L'opération a échoué </Text>
+    </Translation>
+    <Translation>
+      <Keyword>FileName.ImplantReferenceObject</Keyword>
+      <Text>Scan de reference d'implant: {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CouldNotFindAllImplantReferences</Keyword>
+      <Text>Impossible d'extraire la position des implants à partir des données.
+Dents attendu: {0}
+Dents trouvées: {1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScanManager.CameraMode.HeightAjustment</Keyword>
+      <Text>Réglage de la hauteur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToothWithToothId</Keyword>
+      <Text>Dent {0}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerErrorRestartMessage</Keyword>
+      <Text>Si l'erreur persiste, allumer et éteindre le scanner ou redémarrer le logiciel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerCalibrationRequired</Keyword>
+      <Text>Le scanner n'a pas été calibré</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScannerNotInitialized</Keyword>
+      <Text>Le scanner ne peut pas être initialisé</Text>
+    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\scanmanager-french-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

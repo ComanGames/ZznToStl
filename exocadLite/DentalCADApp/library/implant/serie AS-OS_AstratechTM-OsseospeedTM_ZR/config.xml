@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Astratech® Osseospeed®</DisplayInformation>
+  <Producer>Astratech®</Producer>
+  <SystemName>Osseospeed®</SystemName>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Osseospeed System® from Astratech Institute®</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 mm</DisplayInformation>
+      <Keyword>3.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0131</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.5-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_hex.stl</SupportFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>2.7-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181 ***expiring item***</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.0z.stl</SupportFilename>
+          <ImplantFilename>BSAB0151.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181 ***expiring item*** Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.0z.stl</SupportFilename><ImplantFilename>BSAB0151.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0181</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.3-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0191</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0191</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.3-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0191 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0191</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.30-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L20_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.30-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L20_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0181L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.300-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L30_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.300-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L30_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB0181L30</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.6-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.6-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.36-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L0-10_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.36-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L0-10_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L20_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L20_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L30_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L30_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>3.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.0.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD0131</LibraryIdentifier>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0smkPK.stl</MarkerFilename>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>2.50-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_hex.stl</SupportFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>2.70-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181 ***expiring item***</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.0z.stl</SupportFilename>
+          <ImplantFilename>BSAB0151.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.201-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181 ***expiring item*** Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.0z.stl</SupportFilename><ImplantFilename>BSAB0151.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0181</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.301-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0191</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0191</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.301-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0191 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0191</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.3011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L20_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.3011-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L20_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0181L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.3012-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0181L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L30_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0181L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.3012-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0181L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_ParallelZ_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_L30_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><LibraryIdentifier>BSAB0181L30</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.601-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.601-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.361-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L0-10_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.361-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L0-10_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.501-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L20_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.501-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L20_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0131L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L30_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0131L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5011-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0131L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.0_Conical_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnC_FK_L30_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0131L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5-4.0 mm</DisplayInformation>
+      <Keyword>3.5-4.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.5-4.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.5-4.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0132</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>lock</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_hex.stl</SupportFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.15-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0132</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.15-InNohex/2.5</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0132</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.4-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0182 (Expired Item No.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.4-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0182 Sealing Thread (Expired Item No.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><GeometryType>parallel</GeometryType></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0192</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0_Nz.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0192</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0192 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0_Nz.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0192</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L2ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH2_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L2ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH2_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.20-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L3ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH3_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.20-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L3ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH3_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.200-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L4ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH4_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.200-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L4ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH4_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.45-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132/BSAD0182* (*Expired Item NO.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.5-4.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKK_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.45-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132/BSAD0182* Sealing Thread (*Expired Item NO.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.5-4.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKK_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L0-10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L0-10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.000-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L40.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.001-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L40.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5-4.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>3.5-4.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw3.5-4.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant3.5-4.0.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD0132</LibraryIdentifier>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5smkPK.stl</MarkerFilename>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>lock1</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_hex.stl</SupportFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.1501-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0132</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.1501-InNohex/2.5</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE0132</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.401-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0182 (Expired Item No.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.401-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0182 Sealing Thread (Expired Item No.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><GeometryType>parallel</GeometryType></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0192</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0_Nz.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0192</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.701-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0192 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented3.5-4.0_Nz.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKP_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0192</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.201-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L2ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH2_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.201-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L2ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH2_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2001-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L3ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH3_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2001-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L3ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH3_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2011-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0182L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L4ZR.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH4_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0182L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2011-Parallel/2.5</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0182L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel3.5-4.0_L4ZR.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKPH4_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB0182L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.4501-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132/BSAD0182* (*Expired Item NO.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.5-4.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKK_3.5-4.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.4501-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132/BSAD0182* Sealing Thread (*Expired Item NO.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone3.5-4.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnFKK_3.5-4.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L0-10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.001-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L0-10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0011-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0012-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0012-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0013-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0132L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L40.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0132L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0013-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0132L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/3.5-4.0_Conical_L40.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_3.5-4.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD0132L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5-5.0 mm</DisplayInformation>
+      <Keyword>4.5-5.0mm</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw4.5-5.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant4.5-5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0133</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1-InNohex/2.8</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183 (Expired Item no.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented4.5-5.0z.stl</SupportFilename>
+          <ImplantFilename>BSAB0153.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183 Sealing Thread (Expired Item no.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented4.5-5.0z.stl</SupportFilename><ImplantFilename>BSAB0153.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><GeometryType>parallel</GeometryType></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0193</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0193</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0193 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0193</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.2003-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L20z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.2003-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L20z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1003-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L30z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1003-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L30z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10031-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L40z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10031-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L40z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0003-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0003-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.500031-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H1.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.500031-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H1.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.500032-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.50032-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.500033-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.500033-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.500034-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L40.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.500034-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L40.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.5-5.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>4.5-5.0mmk</Keyword>
+      <ScrewFilename>../serie AS-OS_AstratechTM-OsseospeedTM/screw4.5-5.0.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/implant4.5-5.0.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5smkPK.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD0133</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.101-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.101-InNohex/2.8</Keyword><DisplayInformation>No Hex Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/4.5-5.0_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183 (Expired Item no.)</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented4.5-5.0z.stl</SupportFilename>
+          <ImplantFilename>BSAB0153.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.001-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183 Sealing Thread (Expired Item no.)</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cemented4.5-5.0z.stl</SupportFilename><ImplantFilename>BSAB0153.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><GeometryType>parallel</GeometryType></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0193</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0193</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0001-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0193 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0193</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.200301-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L20z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.200301-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L20z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.100301-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L30z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.100301-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L30z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1003101-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0183L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L40z.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0183L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1003101-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0183L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-parallel4.5-5.0_L40z.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnP_FK_4.5-5.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0183L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.000301-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.000301-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.50003101-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L10</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L10.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H1.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.50003101-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L10 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L10.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H1.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L10</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.50003201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L20</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L20.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.5003201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L20 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L20.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.50003301-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L30</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L30.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.50003301-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L30 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L30.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.50003401-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0133L40</DisplayInformation>
+          <SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L40.stl</SupportFilename>
+          <ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H4.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0133L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.50003401-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0133L40 Sealing Thread</DisplayInformation><SupportFilename>../serie AS-OS_AstratechTM-OsseospeedTM/i-cone4.5-5.0_L40.stl</SupportFilename><ImplantFilename>../serie AS-OS_AstratechTM-OsseospeedTM/AnK_FK_4.5-5.0-H4.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0133L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Straumann® Tissue Level® Synocta®</DisplayInformation>
+  <Producer>Straumann®</Producer>
+  <SystemName>Tissue Level® Synocta®</SystemName>
+  <MarkerFilename>../serie ST-S_StraumannTM-SynoctaTM/scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Tissue Level® Synocta® series from Straumann Institute®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NN 3.5mm</DisplayInformation>
+      <Keyword>SOTL3.5mm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantNN.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwNN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0631</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.802-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zNN_hex.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0631</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwNNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.802-OutHex/2.5</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zNN_hex.stl</SupportFilename><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0631</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.802-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zNN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0631</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwNNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.802-OutNohex/2.5</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zNN_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0631</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.902-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0681</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedNN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0681</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantNNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.902-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB0681 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedNN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0681</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantNNpar.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.802-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0631</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalNN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0631</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantNNcon.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.802-Conical/2.5</Keyword><DisplayInformation>Conical BSAD0631 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalNN.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAD0631</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantNNcon.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN 4.8mm</DisplayInformation>
+      <Keyword>SOTL4.8mm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRN.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0632</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.2302-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2302-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex.stl</SupportFilename><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.2302-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2302-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.23020-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.23020-InNohex/2.8</Keyword><DisplayInformation>No Hex angled bridges flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_round_AB.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.802-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0682</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0682</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.802-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0682 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0682</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNpar.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0692L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0692L15</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8020-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0692L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN_L15.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0692L15</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.702402-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_RN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.702402-Parallel/2.8</Keyword><DisplayInformation>Parallel Esthetic BSAB0672 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_RN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0672</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparE.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.602-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0632</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0632.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0632</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.602-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0632 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0632.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAC0632</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNVB.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.802-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.802-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0632 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNcon.stl</ImplantFilename><LibraryIdentifier>BSAD0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8020-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0632L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN_L15.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNconL15.stl</ImplantFilename><LibraryIdentifier>BSAD0632L15</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN 4.8mm White Scanmarker</DisplayInformation>
+      <Keyword>SOTL4wmk.8mmz</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRN.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0632</LibraryIdentifier>
+      <MarkerFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.23021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.23021-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex.stl</SupportFilename><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.23021-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.23021-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.230201-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.230201-InNohex/2.8</Keyword><DisplayInformation>No Hex angled bridges flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_round_AB.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0682</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0682</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0682</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0682 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0682</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNpar.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.80201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0692L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0692L15</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0692L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedRN_L15.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0692L15</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.7024021-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_RN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.7024021-Parallel/2.8</Keyword><DisplayInformation>Parallel Esthetic BSAB0672 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_RN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0672</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNparE.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.6021-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0632</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0632.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0632</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.6021-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0632 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0632.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAC0632</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNVB.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.8021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.8021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0632 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNcon.stl</ImplantFilename><LibraryIdentifier>BSAD0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.80201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.80201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0632L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalRN_L15.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNconL15.stl</ImplantFilename><LibraryIdentifier>BSAD0632L15</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN 6.5mm</DisplayInformation>
+      <Keyword>SOTL6.5mm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWN.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0633</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.9102-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.9102-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex.stl</SupportFilename><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.9102-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.9102-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.91020-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/WN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.91020-InNohex/2.8</Keyword><DisplayInformation>No Hex angled bridges flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/WN_round_AB.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.702-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0683</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0683</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.702-Parallel/2.8</Keyword><DisplayInformation>Parallel  BSAB0683 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0683</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNpar.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0693L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0693L15</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.7020-Parallel/2.8</Keyword><DisplayInformation>Parallel  BSAB0693L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN_L15.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0693L15</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.0902-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_WN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.0902-Parallel/2.8</Keyword><DisplayInformation>Parallel Esthetic BSAB0672 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_WN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0672</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparE.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.402-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0633</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0633.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0633</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.402-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0633 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0633.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAC0633</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNVB.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.702-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.702-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0633 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNcon.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0633</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.7020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.7020-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0633L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN_L15.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNconL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0633L15</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN 6.5mm White Scanmarker</DisplayInformation>
+      <Keyword>SOTLwkmk6.5mmz</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWN.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWN.stl</ScrewFilename>
+      <MarkerFilename>../serie ST-S_StraumannTM-SynoctaTM/WN_WSM.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD0633</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.91021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.91021-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex.stl</SupportFilename><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.91021-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.91021-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.910201-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/WN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.910201-InNohex/2.8</Keyword><DisplayInformation>No Hex angled bridges flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/WN_round_AB.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0683</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0683</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0683</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.7021-Parallel/2.8</Keyword><DisplayInformation>Parallel  BSAB0683 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0683</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNpar.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.70201-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0693L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0693L15</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.70201-Parallel/2.8</Keyword><DisplayInformation>Parallel  BSAB0693L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cementedWN_L15.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0693L15</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.09021-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_WN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.09021-Parallel/2.8</Keyword><DisplayInformation>Parallel Esthetic BSAB0672 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zi-cemented_E_WN.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0672</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNparE.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.4021-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0633</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0633.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0633</LibraryIdentifier>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.4021-Parallel/2.8</Keyword><DisplayInformation>Parallel MP BSAC0633 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/BSAC0633.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAC0633</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNVB.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.7021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0633 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNcon.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0633</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.70201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633L15</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.70201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0633L15 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/i-conicalWN_L15.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNconL15.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0633L15</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN Synocta</DisplayInformation>
+      <Keyword>SOTLSY4.8Smm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNsyn.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRN_synocta.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0642</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.202-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex_synocta.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.202-OutHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex_synocta.stl</SupportFilename><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.202-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round_synocta.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.202-OutNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round_synocta.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.702-Parallel</Keyword><DisplayInformation>Parallel BSAB0642</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbz.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0642</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbanl.stl</ImplantFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.702-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0642 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbz.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbanl.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.502-Conical</Keyword><DisplayInformation>Conical BSAD0642</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synctb.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_syncnbanl.stl</ImplantFilename><LibraryIdentifier>BSAD0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.502-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0642 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synctb.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_syncnbanl.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN Synocta</DisplayInformation>
+      <Keyword>SOTLSY6.5Smm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantWNsyn.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwWN_synocta.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0643</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.0502-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex_synocta.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.0502-OutHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_hex_synocta.stl</SupportFilename><GeometryType>external</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0633</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>7.0502-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round_synocta.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>7.0502-OutNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zWN_round_synocta.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>external</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0633</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

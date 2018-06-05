@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>external</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>false</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® BTI Biotechnology Institute® Conical Spacer®</DisplayInformation>
+  <Producer>BTI Biotechnology Institute®</Producer>
+  <SystemName>Conical Spacer®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with: Conical Spacer® system by BTI Biotechnology_Institute®</LegalInformation>
+  <ScrewFilename>4.1-5.5_SchrU.stl</ScrewFilename>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1/5.5</DisplayInformation>
+      <Keyword>CSP</Keyword>
+      <ImplantFilename>4.1-5.5_Analogue.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD3333</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.145-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.1-5.5_NoHex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE3303</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1450-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide (long bridges)</DisplayInformation>
+          <SupportFilename>4.1-5.5_NoHexW.stl</SupportFilename>
+          <LibraryIdentifier>BSAE3303</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.65-Parallel</Keyword><IsWithInterface>true</IsWithInterface><DisplayInformation>Parallel BSAB3383</DisplayInformation><SupportFilename>4.1-5.5_Parallel_K.stl</SupportFilename><GeometryType>parallel</GeometryType><ImplantFilename>4.1-5.5_AnalogueP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>true</IsWithRotationLock><LibraryIdentifier>BSAB3383</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.65-Conical</Keyword>
+          <IsWithInterface>true</IsWithInterface>
+          <DisplayInformation>Conical BSAD3333</DisplayInformation>
+          <SupportFilename>4.1-5.5_Conical.stl</SupportFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>4.1-5.5_AnalogueK.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD3333</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<ModelBuilderLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<ModelHeight>40</ModelHeight>
+<ModelHeightMinimum>36</ModelHeightMinimum>
+<ModelHeightMaximum>80</ModelHeightMaximum>
+<BasePlateFilename>basisplatte.sdfa</BasePlateFilename>
+<PinsFilename>basisplatte_pins.sdfa</PinsFilename>
+<UseExactPinMesh>true</UseExactPinMesh>
+
+<UpperPlateOffset>
+	<Slope><x>0</x><y>0.0703</y><z>0.5</z></Slope>
+	<Intercept><x>0</x><y>-2.8109</y><z>0</z></Intercept>
+</UpperPlateOffset>
+<LowerPlateOffset>
+	<Slope><x>0</x><y>-0.0703</y><z>-0.5</z></Slope>
+	<Intercept><x>0</x><y>2.8109</y><z>0</z></Intercept>
+</LowerPlateOffset>
+<JawCurveControlPoints>
+	<Vec3>
+		<x>-28</x><y>0</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>-28</x><y>65</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>0</x><y>75</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>28</x><y>65</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>28</x><y>0</y><z>0</z>
+	</Vec3>
+</JawCurveControlPoints>
+<OcclusalPlane>
+	<DistanceToOrigin>0</DistanceToOrigin>
+	<Normal>
+	  <x>0</x>
+	  <y>0</y>
+	  <z>1</z>
+	</Normal>
+</OcclusalPlane>
+<MinRequiredPrepPlateDist>0.2</MinRequiredPrepPlateDist>
+<Supplier>Zfx GmbH</Supplier>
+<DisplayInformation>Zfx™ Digital-intraModel System</DisplayInformation>
+  <ConstructionParameters>
+	<ConstructionParamValues>
+      <Param>ModelCutWidth</Param>
+      <DefaultValue>0.3</DefaultValue>
+    </ConstructionParamValues>
+    <ConstructionParamValues>
+      <Param>ModelPlateClearance</Param>
+      <DefaultValue>0.02</DefaultValue>
+    </ConstructionParamValues>
+	<ConstructionParamValues>
+      <Param>ModelPedestalHeight</Param>
+      <DefaultValue>5.5</DefaultValue>
+    </ConstructionParamValues>
+	  <ConstructionParamValues>
+        <Param>ModelMinimumThicknessAroundPins</Param>
+        <DefaultValue>0</DefaultValue>
+    </ConstructionParamValues>
+  </ConstructionParameters>
+  
+</ModelBuilderLibraryEntry>
+
+
+

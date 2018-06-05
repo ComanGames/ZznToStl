@@ -1,53 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarning</Keyword>
-      <Text>현재 정보를 덮어씁니다. 계속 진행하시겠습니까?</Text>
+      <Text>현재의 부분들을 덮어쓸 것입니다. 계속하시겠습니까?</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarningTitle</Keyword>
-      <Text>진단 모델 / 참조 모델 확인</Text>
+      <Text>Confirm situ / instructor preparation loading</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.LoadDataError</Keyword>
-      <Text>데이터 불러오기 실패: </Text>
+      <Text>폴더에서 데이터를 불러오는데 실패했습니다: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
+      <Text>폴더 내에 적어도 situ-{0}.stl 과 instructor-{0}.stl 이 있어야 합니다</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.Title</Keyword>
+      <Text>마진 설정 도우미</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry</Keyword>
+      <Text>마진 설정 도우미...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
+      <Text>마진 설정 도우미...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointFrom</Keyword>
+      <Text>Set point on instructor prep.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointTo</Keyword>
+      <Text>Set point on trainee prep.</Text>
     </Translation>
     <Translation>
       <Keyword>LoadFilesOrNot</Keyword>
       <Text>이 참조 파일을 사용하시겠습니까?</Text>
     </Translation>
     <Translation>
-      <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
-      <Text>폴더 내에 {0}-preop.stl 파일과 {0}-instructor.stl 파일이 포함되어 있어야 합니다.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.SelectDataFolder</Keyword>
-      <Text>진단/참고 모델 데이터를 불러올 폴더 선택</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PrepAssistLoadFromFolder</Keyword>
-      <Text>진단 모델 / 참조 모델 불러오기</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.Title</Keyword>
-      <Text>지대치 검사</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry</Keyword>
-      <Text>지대치 참조...</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
       <Text>참조 데이터를 다시 불러오려면 '다음'을 클릭하십시오</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
-      <Text>지대치 검사...</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.DescriptionText</Keyword>
       <Text>참조 파일 불러오기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistanceVisualize</Keyword>
+      <Text>시각화 유형 선택!</Text>
     </Translation>
     <Translation>
       <Keyword>LoadingPositioning</Keyword>
@@ -57,12 +67,5 @@
       <Keyword>PrepVisualization</Keyword>
       <Text>보기</Text>
     </Translation>
-    <Translation>
-      <Keyword>PreparationAssistanceVisualize</Keyword>
-      <Text>시각화 유형 선택!</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\PrepInspect-korean-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

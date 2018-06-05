@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Medentis Medical® ICX-Templant®</DisplayInformation>
+  <Producer>Medentis Medical®</Producer>
+  <SystemName>ICX-Templant®</SystemName>
+  <MarkerFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Medentis Medical® ICX-Templant® serie</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.75/4.1/4.8</DisplayInformation>
+      <Keyword>meitICX</Keyword>
+      <ScrewFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_msc.stl</ScrewFilename>
+      <ImplantFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_Analogue.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1931</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.67-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_HexMC.stl</SupportFilename><LibraryIdentifier>BSAE1901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.67-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_NoHexCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.139-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF1981</DisplayInformation>
+          <SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_HexRA.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1981;BSAF1981D14</LibraryIdentifier>
+          <InterfaceFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/StandardAnl_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.75/4.1/4.8 White Scanmarker</DisplayInformation>
+      <Keyword>meitICXmkmk</Keyword>
+      <ScrewFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_msc.stl</ScrewFilename>
+      <ImplantFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_Analogue.stl</ImplantFilename>
+      <MarkerFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standardscmk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>0</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD1931</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.670-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_HexMC.stl</SupportFilename><LibraryIdentifier>BSAE1901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.670-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_NoHexCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1901</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.1390-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF1981</DisplayInformation>
+          <SupportFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/Standard_HexRA.stl</SupportFilename>
+          <LibraryIdentifier>BSAF1981;BSAF1981D14</LibraryIdentifier>
+          <InterfaceFilename>../serie MEI_T_ICX_DentalTM_TemplantTM/StandardAnl_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

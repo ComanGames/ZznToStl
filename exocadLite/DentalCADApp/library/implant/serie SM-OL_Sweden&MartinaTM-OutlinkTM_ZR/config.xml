@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>0</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Sweden &amp; Martina® Outlink®</DisplayInformation>
+  <Producer>Sweden &amp; Martina®</Producer>
+  <SystemName>Outlink®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - NOT FOR PRODUCTION
+Compatible with Sweden &amp; Martina® Outlink® serie</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.3 mm</DisplayInformation>
+      <Keyword>SMOL3.3mm</Keyword>
+      <ImplantFilename>3.3_implant.stl</ImplantFilename>
+      <ScrewFilename>3.3_Zr_screw.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD1331</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6102-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.3_Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE1331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6102-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.3_NOHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1381</DisplayInformation>
+          <SupportFilename>3.3_Parallel.stl</SupportFilename>
+          <ImplantFilename>3.3_impl.Parallel.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <ScrewFilename>3.3_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB1381</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1331</DisplayInformation>
+          <SupportFilename>3.3_Conical.stl</SupportFilename>
+          <ImplantFilename>3.3_impl.Conical.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <ScrewFilename>3.3_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD1331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1 mm</DisplayInformation>
+      <Keyword>SMOL4.1mm</Keyword>
+      <ImplantFilename>4.1_Implant.stl</ImplantFilename>
+      <ScrewFilename>4.1-5.0_Zr_screw.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD1332</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.102-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE1332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.102-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.1_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.302-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1382</DisplayInformation>
+          <SupportFilename>4.1_Parallel.stl</SupportFilename>
+          <ImplantFilename>4.1_impl.Parallel.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <ScrewFilename>4.1-5.0_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB1382</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1332</DisplayInformation>
+          <SupportFilename>4.1_Conical.stl</SupportFilename>
+          <ImplantFilename>4.1_Impl.Conical.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <ScrewFilename>4.1-5.0_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD1332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>4.1 mm Switching Platform</DisplayInformation><Keyword>SMOL4.1SPmm</Keyword><ImplantFilename>4.1_Implant.stl</ImplantFilename><ScrewFilename>3.3_Zr_screw.stl</ScrewFilename><LibraryIdentifier>ZBAD1334</LibraryIdentifier><SubtypeConfig><ImplantSubtypeConfig><Keyword>4.1020-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>4.1_Hex_SP.stl</SupportFilename><LibraryIdentifier>BSAE1334</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>4.1020-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>4.1_NoHex_SP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE1334</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>5.3020-Parallel</Keyword><DisplayInformation>Parallel BSAB1384</DisplayInformation><SupportFilename>4.1_Parallel.stl</SupportFilename><ImplantFilename>4.1_impl.Parallel.stl</ImplantFilename><GeometryType>parallel</GeometryType><ScrewFilename>3.3_Met_screw.stl</ScrewFilename><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB1384</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 mm</DisplayInformation>
+      <Keyword>SMOL5.0mm</Keyword>
+      <ImplantFilename>5.0_Implant.stl</ImplantFilename>
+      <ScrewFilename>4.1-5.0_Zr_screw.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD1333</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.0_Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE1333</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.0_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1333</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.3021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1383</DisplayInformation>
+          <SupportFilename>5.0_Parallel.stl</SupportFilename>
+          <ImplantFilename>5.0_impl.Parallel.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <ScrewFilename>4.1-5.0_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB1383</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1333</DisplayInformation>
+          <SupportFilename>5.0_Conical.stl</SupportFilename>
+          <ImplantFilename>5.0_Impl.Conical.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <ScrewFilename>4.1-5.0_Met_screw.stl</ScrewFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD1333</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

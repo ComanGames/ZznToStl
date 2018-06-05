@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® NobelActive® - NobelReplace® Conical Connection</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>NobelActive® - NobelReplace® Conical Connection®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>NB-A_MScr_NP.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Nobel Biocare® NobelActive® &amp; NobelReplace® Conical Connection series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>NBA3.0</Keyword>
+      <ImplantFilename>NB-A_Analog_3.0.stl</ImplantFilename>
+      <ScrewFilename>NB-A_SchrKon_3.0.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD2433</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.05-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_3.0_FS.stl</SupportFilename>
+          <ScrewFilename>NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.050-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_3.0_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2403</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.05-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_3.0_FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.050-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_3.0_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2403</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2483</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2483</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.00-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0L20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0L30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.50-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0L20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.500-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0L30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 White Scanmarker</DisplayInformation>
+      <Keyword>NBA3.0mmk</Keyword>
+      <ImplantFilename>NB-A_Analog_3.0.stl</ImplantFilename>
+      <ScrewFilename>NB-A_SchrKon_3.0.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD2433</LibraryIdentifier>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_3.0.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.051-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_3.0_FS.stl</SupportFilename>
+          <ScrewFilename>NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0501-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_3.0_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2403</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.051-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_3.0_FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0501-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_3.0_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2403</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2483</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2483</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0L20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.0001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_3.0L30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.501-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0L20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_3.0L30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP</DisplayInformation>
+      <Keyword>NBANP</Keyword>
+      <ImplantFilename>NB-A_Implant_NP.stl</ImplantFilename>
+      <ScrewFilename>NB-A_MScr_NP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD2431</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_NP.stl</SupportFilename>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_NP_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_NP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.48-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.480-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_NP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2481</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_K.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2481</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L40</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NP.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L40</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP White Scanmarker</DisplayInformation>
+      <Keyword>NBANPmmk</Keyword>
+      <ImplantFilename>NB-A_Implant_NP.stl</ImplantFilename>
+      <ScrewFilename>NB-A_MScr_NP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD2431</LibraryIdentifier>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_NP.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_NP.stl</SupportFilename>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_NP_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_NP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.481-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4801-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_NP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2401</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2481</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_K.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2481</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L40</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_NP_KL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NP.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L40</DisplayInformation>
+          <SupportFilename>NB-A_Conical_NPL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP</DisplayInformation>
+      <Keyword>NBARP</Keyword>
+      <ImplantFilename>NB-A_Implant_RP.stl</ImplantFilename>
+      <ScrewFilename>NB-A_MScr_RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD2432</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_RPCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_RP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_RPCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9-InNohex</Keyword>
+          <DisplayInformation>No Hex plane conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_RP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.90-InNohex</Keyword>
+          <DisplayInformation>No Hex plane flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2482</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_K.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2482</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.100-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1000-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L40</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RP.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.100-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1000-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L40</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP White Scanmarker</DisplayInformation>
+      <Keyword>NBARPmmk</Keyword>
+      <ImplantFilename>NB-A_Implant_RP.stl</ImplantFilename>
+      <ScrewFilename>NB-A_MScr_RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD2432</LibraryIdentifier>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_RP.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_RPCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_Hex_RP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_RPCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHex_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.901-InNohex</Keyword>
+          <DisplayInformation>No Hex plane conical screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_RP_CS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9010-InNohex</Keyword>
+          <DisplayInformation>No Hex plane flat screw</DisplayInformation>
+          <SupportFilename>NB-A_NoHexFlat_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2402</LibraryIdentifier>
+          <ScrewFilename>NB-A_ZScr_RP.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2482</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_K.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2482</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L20</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L30</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10001-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L40</DisplayInformation>
+          <SupportFilename>NB-A_Parallel_RP_KL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplParallel_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.101-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RP.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L20</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL20.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L30</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL30.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10001-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L40</DisplayInformation>
+          <SupportFilename>NB-A_Conical_RPL40.stl</SupportFilename>
+          <ImplantFilename>NB-A_ImplConical_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

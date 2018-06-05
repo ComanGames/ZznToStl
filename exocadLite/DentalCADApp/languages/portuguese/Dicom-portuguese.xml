@@ -1,6 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
       <Text>Visualizador DICOM</Text>
@@ -90,10 +96,6 @@
       <Text>Media</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>Restringir limiar</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.Options</Keyword>
       <Text>Opções</Text>
     </Translation>
@@ -130,12 +132,12 @@
       <Text>Máximo</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>Opacidade</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.UseGradientMode</Keyword>
       <Text>Utilizar modo gradiente</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>Opacidade</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceType</Keyword>
@@ -238,18 +240,6 @@
       <Text>Dureza</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.FilterWidth.SolidFalsecolor</Keyword>
-      <Text>Dosagem do gradiente</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SolidFalsecolorInfoLabel_Content</Keyword>
-      <Text>Dica: melhor resultados visuais serão obtidos quando as referências densidade óssea forem definidos.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SolidFalsecolortStartReferencesProcessorButton_Content</Keyword>
-      <Text>Definir agora.</Text>
-    </Translation>
-    <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
       <Text>Definir limite do slider para valores de referência de ar.</Text>
     </Translation>
@@ -266,32 +256,8 @@
       <Text>Definir limite do slider para valores de referência do dente.</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToAirReferenceButton_Content</Keyword>
-      <Text>Ar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToTissueReferenceButton_Content</Keyword>
-      <Text>Tecido</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToBoneReferenceButton_Content</Keyword>
-      <Text>Osso</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToToothReferenceButton_Content</Keyword>
-      <Text>Dente</Text>
-    </Translation>
-    <Translation>
       <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
       <Text>Ajustar para</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToUserReferenceButton_Tooltip</Keyword>
-      <Text>Definir limite do slider para valores de referência do usuário.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToUserReferenceButton_Content</Keyword>
-      <Text>Usuário</Text>
     </Translation>
     <Translation>
       <Keyword>ResultInformationGroupBoxHeader</Keyword>
@@ -334,10 +300,6 @@
       <Text>Mídia (customizada)</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.SolidFalsecolor</Keyword>
-      <Text>Sólido (cor falsa)</Text>
-    </Translation>
-    <Translation>
       <Keyword>Dicom.Threshold.MediaCustom</Keyword>
       <Text>Limite</Text>
     </Translation>
@@ -346,16 +308,8 @@
       <Text>Opacidade</Text>
     </Translation>
     <Translation>
-      <Keyword>MediaCustomInfoLabel_Content</Keyword>
-      <Text>Dica: Melhor resultado visual será obtido quando as referência da densidade óssea for definida. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>MediaCustomStartReferencesProcessorButton_Content</Keyword>
-      <Text>Deninir agora</Text>
-    </Translation>
-    <Translation>
       <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
-      <Text>Castanho</Text>
+      <Text>Marrom</Text>
     </Translation>
     <Translation>
       <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
@@ -370,170 +324,32 @@
       <Text>Limpar referências</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
-      <Text>Ar</Text>
+      <Keyword>Dicom.FilterWidth.SolidFalsecolor</Keyword>
+      <Text>Dosagem do gradiente</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToTissueReferenceButton.Text</Keyword>
-      <Text>Tecidos moles</Text>
+      <Keyword>MediaCustomStartReferencesProcessorButton_Content</Keyword>
+      <Text>Deninir agora</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToBoneReferenceButton.Text</Keyword>
-      <Text>Osso</Text>
+      <Keyword>MediaCustomInfoLabel_Content</Keyword>
+      <Text>Dica: Melhor resultado visual será obtido quando as referência da densidade óssea for definida. </Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToToothReferenceButton.Text</Keyword>
-      <Text>Dente</Text>
+      <Keyword>SolidFalsecolorInfoLabel_Content</Keyword>
+      <Text>Dica: melhor resultados visuais serão obtidos quando as referências densidade óssea forem definidos.</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
-      <Text>Definir  limites com o controle deslizante  para o valor limiar prédefinido</Text>
+      <Keyword>SolidFalsecolortStartReferencesProcessorButton_Content</Keyword>
+      <Text>Definir agora.</Text>
     </Translation>
     <Translation>
-      <Keyword>IsoSetSliderToThresholdReferenceButton.Text</Keyword>
-      <Text>Limiar</Text>
+      <Keyword>Dicom.SolidFalsecolor</Keyword>
+      <Text>Sólido (cor falsa)</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.SolidFalseColorOptions</Keyword>
-      <Text>Solido (natural) opções</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidFalseColor</Keyword>
-      <Text>Solido (natural) </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CloseToolWindowsQuestion</Keyword>
-      <Text>Deseja fechar o visualizador de DICOM? Todos os dados DICOM serão descarregados. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryThreshold</Keyword>
-      <Text>Limiar de superfície </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayBlacklevel</Keyword>
-      <Text>Limiar de ruído</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayDensity</Keyword>
-      <Text>Densidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoSecondaryThreshold</Keyword>
-      <Text>Segundo limiar de superficie </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryOpacity</Keyword>
-      <Text>Opacidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaThreshold</Keyword>
-      <Text>Limiar</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDenseThreshold</Keyword>
-      <Text>Material denso</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaScale</Keyword>
-      <Text>Suavidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaExponent</Keyword>
-      <Text>Dureza</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDensity</Keyword>
-      <Text>Densidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightValue</Keyword>
-      <Text>Realce de densidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightWidth</Keyword>
-      <Text>Realce de desfoco</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidFalseColorGradientContrast</Keyword>
-      <Text>Aperfeiçoamento de contraste do borde</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Window</Keyword>
-      <Text>Janela:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.UseStippleAlpha</Keyword>
-      <Text>Use semi-transparência</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomViewerMediaGraphicMemoryWarningMessage</Keyword>
-      <Text>Tem menos de 2 GB de memória de vídeo, que é o mínimo recomendado para utilizar o modo de mídia. Deseja continuar?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomViewerMediaGraphicMemoryWarningCaption</Keyword>
-      <Text>Aviso: memória de vídeo</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.BoneDensityReferences</Keyword>
-      <Text>Referências de densidade</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.StartBoneDensityReferenceDefinitionProcessor</Keyword>
-      <Text>Iniciar definição de referência </Text>
-    </Translation>
-    <Translation>
-      <Keyword>MultipleDicomSeries</Keyword>
-      <Text>O conjunto de arquivos DICOM contém várias séries. Por favor escolha da lista o que quer visualizar.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MultipleDicomSeries.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesNotFound</Keyword>
-      <Text>Não foi possível localizar a série de DICOM. Talvez tenha aberto um conjunto de arquivos incorreto? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesNotFound.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetNotFound</Keyword>
-      <Text>Não foi possível localizar o conjunto de arquivos DICOM associado com este estágio . </Text>
-    </Translation>
-    <Translation>
-      <Keyword>LocateDicomFilesetManually</Keyword>
-      <Text>Localizar o DICOM manualmente </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ProceedWithoutDicom</Keyword>
-      <Text>Prosseguir sem DICOM </Text>
-    </Translation>
-    <Translation>
-      <Keyword>NoClosingWhileLoadingDicom.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetAssociatedWithProjectNotFound</Keyword>
-      <Text>O conjunto de arquivos DICOM associado com o projeto não pôde ser carregado. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CurrentWindowRangeSliderDescription</Keyword>
-      <Text>Janela DICOM atual</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetEmpty</Keyword>
-      <Text>O conjunto de arquivos selecionado não contém dados DICOM utilizáveis. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSurfaceGenerationOutOfMemory</Keyword>
-      <Text>A criação de superfícies falhou devido a falta de memória. 
-Dica: A razão pode ser o uso incorreto do controle deslizante da isosuperfície no visualizador DICOM. Tente       alterar o limite para evitar artefatos com ruído no ecrã. 
-
-     Durante o registro, tente alterar o limite para ver apenas as superfícies de dentes corretas.</Text>
+      <Keyword>IsoSetSliderToUserReferenceButton_Tooltip</Keyword>
+      <Text>Definir limite do slider para valores de referência do usuário.</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-portuguese-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

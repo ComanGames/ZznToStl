@@ -31,7 +31,7 @@
     <SelectedColor>#59a6ed</SelectedColor>
   </ColorDefinition>
   
-    <ColorDefinition>
+  <ColorDefinition>
     <Type>MarginColorOfLine</Type>
     <Color>#473a6d</Color>
   </ColorDefinition>
@@ -56,7 +56,7 @@
     <Type>MarginColorOfControlPointSelected</Type>
     <Color>#ee895f</Color>
   </ColorDefinition>
-  
+
   <ColorDefinition>
     <Type>Coping</Type>
     <Color>#d0d7a3</Color>
@@ -82,17 +82,6 @@
     <SelectedColor>#DDDDFF</SelectedColor>
   </ColorDefinition>
 
-  <ColorDefinition>
-    <Type>EndoCrownPostCavity</Type>
-    <Color>#DDDDDD</Color>
-    <SelectedColor>#DDDDFF</SelectedColor>
-  </ColorDefinition>
-  
- <ColorDefinition>
-    <Type>EndoCrownPreparation</Type>
-    <Color>#DDDDDD</Color>
-    <SelectedColor>#DDDDFF</SelectedColor>
-  </ColorDefinition>
 
   <ColorDefinition>
     <Type>CrownBottom.NoCementGap</Type>
@@ -100,34 +89,8 @@
   </ColorDefinition>
 
   <ColorDefinition>
-    <Type>CrownBottom.NoCementGapDesiredButNotPossible</Type>
-    <Color>#C9CD60</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
     <Type>CrownBottom.CementGap</Type>
     <Color>#ffc001</Color>
-  </ColorDefinition>
-
-
-  <ColorDefinition>
-    <Type>CrownBottom.CementTopGap</Type>
-    <Color>#A0FFff</Color>
-  </ColorDefinition>
-
-
-
-   <ColorDefinition>
-    <Type>CrownBottom.BrushNoCementGap</Type>
-    <Color>#70FF60</Color>
-  </ColorDefinition>
-    <ColorDefinition>
-    <Type>CrownBottom.BrushCementGap</Type>
-    <Color>#FFFF01</Color>
-  </ColorDefinition>
-    <ColorDefinition>
-    <Type>CrownBottom.BrushCementTopGap</Type>
-    <Color>#A0FFFF</Color>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -199,10 +162,16 @@
     <SelectedColor>#FF5555</SelectedColor>
   </ColorDefinition>
 
+  <ColorDefinition>
+    <Type>Antagonist</Type>
+	<Color>#beb0be</Color>
+    <SelectedColor>#807780</SelectedColor>
+    <Opacity>0.5</Opacity>
+  </ColorDefinition>
 
   <ColorDefinition>
     <Type>HealthyTooth</Type>
-    <Color>#f5f4e0</Color>
+    <Color>#bebebe</Color>
     <SelectedColor>#6f6fed</SelectedColor>
   </ColorDefinition>
 
@@ -218,6 +187,16 @@
     <Color>#FFFFFF</Color>
     <SelectedColor>#8bb3ed</SelectedColor>
     <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+
+   <ColorDefinition>
+    <Type>ViewerBackgroundTop</Type>
+    <Color>#e3dfd6</Color>
+  </ColorDefinition>
+
+   <ColorDefinition>
+    <Type>ViewerBackgroundBottom</Type>
+    <Color>#161513</Color>
   </ColorDefinition>
 
  <ColorDefinition>
@@ -238,6 +217,11 @@
  <ColorDefinition>
     <Type>Nesting.SupportDisconnectAfterMilling</Type>
     <Color>#BFBF9F</Color>
+ </ColorDefinition>
+ 
+  <ColorDefinition>
+    <Type>DialogBackground</Type>
+    <Color>#787878</Color>
  </ColorDefinition>
     
  <ColorDefinition>
@@ -274,13 +258,8 @@
     <Type>Nesting.Stabilizer</Type>
     <Color>#EFEFEF</Color>
   </ColorDefinition>
-
- <ColorDefinition>
-    <Type>Nesting.Stabilizer</Type>
-    <Color>#EFEFEF</Color>
-  </ColorDefinition>
-
- <ColorDefinition>
+  
+  <ColorDefinition>
     <Type>Nesting.ReconstructionMargin</Type>
     <Color>#EE82EE</Color>
   </ColorDefinition>
@@ -304,8 +283,6 @@
     <Type>Nesting.ReconstructionMarginEmergenceProfile</Type>
     <Color>#FFC0CB</Color>
   </ColorDefinition>
-
-
 
   <ColorDefinition>
     <Type>WaxupScan</Type>
@@ -372,40 +349,11 @@
   </ColorDefinition>
 
   <ColorDefinition>
-    <Type>AbutmentScrewChannelManual</Type>
-    <Color>#EDDF3F</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>AbutmentScrewChannelManualBottom</Type>
-    <Color>#ccc3c3</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>AbutmentScrewChannelManualPreparation</Type>
-    <Color>#DFDFDF</Color>
-  </ColorDefinition>
-
-
-    <ColorDefinition>
     <Type>AbutmentTop</Type>
     <Color>#AFAF66</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition>
 
-  <ColorDefinition>
-    <Type>AbutmentMinThickness</Type>
-    <Color>#FF0000</Color>
-    <SelectedColor>#a55ce1</SelectedColor>
-    <Opacity>0.3</Opacity>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>AbutmentImplantTransitionCollider</Type>
-    <Color>#9999FF</Color>
-    <SelectedColor>#a55ce1</SelectedColor>
-    <Opacity>0.3</Opacity>
-  </ColorDefinition>
 
   <ColorDefinition>
     <Type>Abutment</Type>
@@ -416,11 +364,27 @@
   <ColorDefinition>
     <Type>InlaySupport</Type>
     <Color>#FF00FF</Color>
+    <SelectedColor>#FF00FF</SelectedColor>
   </ColorDefinition>
 
   <ColorDefinition>
+    <Type>UnsegmentedJaw</Type>
+    <Color>#bebebe</Color>
+    <SelectedColor>#6a6a6a</SelectedColor>
+    <Shine>0.3</Shine>
+  </ColorDefinition>
+ 
+  <ColorDefinition>
+    <Type>UnsegmentedTooth</Type>    
+    <Color>#bebebe</Color>
+    <SelectedColor>#6a6a6a</SelectedColor>
+    <Shine>0.3</Shine>
+  </ColorDefinition>  
+
+  <ColorDefinition>
     <Type>EmergenceProfile</Type>
-    <Color>#aa88d4</Color>
+    <Color>#aa88d4</Color>    
+    <SelectedColor>#6a6a6a</SelectedColor>
   </ColorDefinition>  
 
   <ColorDefinition>
@@ -494,18 +458,15 @@
     <Color>#00FF00</Color>
   </ColorDefinition>
 
-
-
-  <ColorDefinition>
+   <ColorDefinition>
     <Type>LibraryModel.DentalDB</Type>
     <Color>#FFFFFF</Color>
     <SelectedColor>#8bb3ed</SelectedColor>
     <FreeformColor>#ffc001</FreeformColor>
     <!-- <Opacity>0.7</Opacity> -->
   </ColorDefinition>
-  
-  
-  <ColorDefinition>
+
+ <ColorDefinition>
     <Type>Nesting.SupportDisconnectAfterMilling</Type>
     <Color>#DF8F7F</Color>
   </ColorDefinition>
@@ -524,8 +485,6 @@
     <Type>Nesting.NestingQueueEntryBackColor</Type>
     <Color>#101010</Color>
   </ColorDefinition>
-  
-
   
   <ColorDefinition>
     <Type>Attachment</Type>
@@ -590,25 +549,25 @@
   <ColorDefinition>
     <Type>Nesting.MachineOrbitCollider</Type>
     <Color>#888888</Color>
-    <Opacity>0.1</Opacity>
+    <Opacity>0.4</Opacity>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>Nesting.MachineOrbitDecorator</Type>
     <Color>#555555</Color>
-    <Opacity>0.2</Opacity>
+    <Opacity>1</Opacity>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>Nesting.MaterialBlockCollisionBorder</Type>
     <Color>#90EE90</Color>
-    <Opacity>1.0</Opacity>
+    <Opacity>0.4</Opacity>
   </ColorDefinition>
 
   <ColorDefinition>
     <Type>Nesting.MaterialBlockColliderOrbit</Type>
     <Color>#888888</Color>
-    <Opacity>1.0</Opacity>
+    <Opacity>0.2</Opacity>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -743,6 +702,16 @@
   </ColorDefinition>
 
 <ColorDefinition>
+  <Type>StartMirrorHealthyToSituProcessorControlInnerArrow</Type>
+  <Color>#FFFFFF</Color>
+</ColorDefinition>
+
+<ColorDefinition>
+  <Type>StartMirrorHealthyToSituProcessorControlArrowLines</Type>
+  <Color>#5F18A9</Color>
+</ColorDefinition>  
+
+<ColorDefinition>
   <Type>StartMirrorHealthyToSituProcessorControlTSCSelected</Type>
   <Color>#FFEBCD</Color>
 </ColorDefinition> 
@@ -760,33 +729,16 @@
 <ColorDefinition>
   <Type>BiteSplint</Type>
   <Color>#bfdfff</Color>
-  <Opacity>0.75</Opacity>
 </ColorDefinition>
 
 <ColorDefinition>
   <Type>BiteSplintTop</Type>
   <Color>#bfdfff</Color>
-  <Opacity>0.75</Opacity>
 </ColorDefinition>
 
  <ColorDefinition>
   <Type>BiteSplintBottom</Type>
   <Color>#bfdfff</Color>
-  <Opacity>0.8</Opacity>
- </ColorDefinition>
-
- <ColorDefinition>
-  <Type>Marker_BiteSplintBottomUndercutVisualizationHelper</Type>
-  <Color>#ff8000</Color>
-  <Opacity>0.25</Opacity>
-  <Shine>0</Shine>
- </ColorDefinition>
-
- <ColorDefinition>
-  <Type>Marker_BiteSplintMinThickness</Type>
-  <Color>#ff0000</Color>
-  <Opacity>0.5</Opacity>
-  <Shine>0</Shine>
  </ColorDefinition>
 
  <ColorDefinition>
@@ -872,7 +824,7 @@
   <ColorDefinition>
     <Type>PreparationType.Missing</Type>
     <Color>#ff00ff</Color>
-    <Shine>0</Shine>
+    <Shine>0</Shine>  
   </ColorDefinition>
 
   <ColorDefinition>
@@ -894,13 +846,6 @@
     <Color>#8000ff</Color>
     <Shine>0</Shine>
     <SelectedColor>#8000ff</SelectedColor>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>PreparationType.EdentulousTooth</Type>
-    <Color>#fb3808</Color>
-    <Shine>0</Shine>
-    <SelectedColor>#fb3808</SelectedColor>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -964,7 +909,7 @@
   
   <ColorDefinition>
     <Type>SpaceRulerAngleArrowColor</Type>
-    <Color>#FFFF00</Color>
+    <Color>#0000FF</Color>
   </ColorDefinition> 
   
     <ColorDefinition>
@@ -979,43 +924,22 @@
   
       <ColorDefinition>
     <Type>SpaceRulerCenterMarkerColor</Type>
-    <Color>#FFFF00</Color>
+    <Color>#0000FF</Color>
   </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>SpaceRulerOcclusalArrowColor11</Type>
-    <Color>#FF7F30</Color>
-  </ColorDefinition> 
-
-  <ColorDefinition>
-    <Type>SpaceRulerOcclusalArrowColor12</Type>
-    <Color>#00AfFF</Color>
-  </ColorDefinition> 
 
 
-  <ColorDefinition>
-    <Type>SpaceRulerOcclusalArrowColor21</Type>
-    <Color>#00AfFF</Color>
-  </ColorDefinition> 
-
-  <ColorDefinition>
-    <Type>SpaceRulerOcclusalArrowColor22</Type>
-    <Color>#FF7F30</Color>
-  </ColorDefinition> 
-
-  
   <ColorDefinition>
     <Type>ExtraJawScan</Type>
-    <Color>#8382FF</Color>
+    <Color>#8382FF</Color>    
     <Shine>0</Shine>
   </ColorDefinition>
-
+  
   <ColorDefinition>
     <Type>ExtraMultiDieScan</Type>
-    <Color>#83A2FF</Color>
+    <Color>#83A2FF</Color>    
     <Shine>0</Shine>
   </ColorDefinition>
-
+  
   <ColorDefinition>
     <Type>ExtraWaxupScan</Type>
     <Color>#00FF00</Color>
@@ -1023,12 +947,11 @@
     <Shine>0</Shine>
   </ColorDefinition>
 
-
   <ColorDefinition>
     <Type>SpaceRulerPrimaryArrowColorAllButDistance</Type>
     <Color>#0000FF</Color>
   </ColorDefinition> 
-
+  
   <ColorDefinition>
     <Type>ProvisionalCrownMargin</Type>
     <Color>#252914</Color>
@@ -1046,64 +969,57 @@
   </ColorDefinition> 
   
   <ColorDefinition>
-    <Type>ProvisionalCrownBottom</Type>
+    <Type>ProvisionalPontic</Type>
     <Color>#3333FE</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
 
 
   <ColorDefinition>
-    <Type>ProvisionalPontic</Type>
+    <Type>ProvisionalCrownPontic</Type>
     <Color>#AABEFF</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
 
-  <ColorDefinition>
+<ColorDefinition>
     <Type>GenericVisualization</Type>
     <Color>#FFFFFF</Color>
     <FreeformColor>#ffc001</FreeformColor>
-
-    <TextureWhiteMode>true</TextureWhiteMode>
+	<TextureWhiteMode>true</TextureWhiteMode>
     <LigthingOverrideMode>0</LigthingOverrideMode>
   </ColorDefinition> 
 
-  
-    <ColorDefinition>
+  <ColorDefinition>
     <Type>ModelPlatelessBase</Type>
     <Color>#00bf9d</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
   
-      <ColorDefinition>
+   <ColorDefinition>
     <Type>ModelPlateTypeHealthy</Type>
     <Color>#00bf9d</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
-  <ColorDefinition>
-    <Type>ModelPlateTypeMixed</Type>
-    <Color>#00bf9d</Color>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition> 
   
-        <ColorDefinition>
+  <ColorDefinition>
     <Type>ModelPlateTypeStump</Type>
     <Color>#5F9DFF</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
   
-        <ColorDefinition>
+  <ColorDefinition>
     <Type>ModelPlateTypeGingiva</Type>
     <Color>#FF9FDF</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
   
-          <ColorDefinition>
+  <ColorDefinition>
     <Type>ModelPlatelessDie</Type>
     <Color>#ffb7b7</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
   
-        <ColorDefinition>
+   <ColorDefinition>
     <Type>ModelBasePlate</Type>
     <Color>#ffffff</Color>
     <FreeformColor>#ffc001</FreeformColor>
@@ -1114,31 +1030,28 @@
     <Color>#ffffff</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
-
+  
   <ColorDefinition>
     <Type>ModelSegmentedTooth</Type>
     <Color>#ffc3b7</Color>
     <FreeformColor>#ffc001</FreeformColor>
   </ColorDefinition> 
   
-
-    <ColorDefinition>
+  <ColorDefinition>
     <Type>ModelImplantLabAnalogRetention</Type>
     <Color>#96FF00</Color>
   </ColorDefinition>
   
   <ColorDefinition>
     <Type>ModelImplantLabAnalog</Type>
-    <Color>#FFEEEEFF</Color>
-	<Shine>1</Shine>
+    <Color>#FFC800</Color>
   </ColorDefinition> 
 
   <ColorDefinition>
     <Type>FreeFormingGhost</Type>
     <Color>#FFFF00</Color>
   </ColorDefinition>
-
-
+  
     <ColorDefinition>
     <Type>ModelBuilder.RotationControlZ</Type>
     <Color>#0000FF</Color>
@@ -1158,24 +1071,16 @@
     <Type>ModelBuilder.RotationControlY</Type>
     <Color>#FF0000</Color>
   </ColorDefinition> 
-  
-  <ColorDefinition>
-    <Type>ModelTextAttachmentColorAdditive</Type>
-    <Color>#0000FF</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ModelTextAttachmentColorSubtractive</Type>
-    <Color>#BC00FF</Color>
-  </ColorDefinition>
 
   <ColorDefinition>
     <Type>ToothSegmentation.Selected</Type>
 	<Color>#ffdc52</Color>
     <Shine>0</Shine>
   </ColorDefinition>
+  
   <ColorDefinition>
     <Type>ToothSegmentation.Notselected</Type>
-	<Color>#83827e</Color>
+	<Color>#bebebe</Color>
     <Shine>0</Shine>
   </ColorDefinition>
   <ColorDefinition>
@@ -1184,7 +1089,7 @@
     <Shine>0</Shine>
   </ColorDefinition>   
   
-  <ColorDefinition>
+    <ColorDefinition>
     <Type>Marker_ArticulatorVerticalPlane</Type>
     <Color>#FFB4FF52</Color>  
   </ColorDefinition> 
@@ -1199,7 +1104,19 @@
     <Color>#2323FF</Color>  
     <Opacity>0.5</Opacity>
   </ColorDefinition> 
-
+  
+  <ColorDefinition>
+    <Type>BrushAddMaterial</Type>
+    <Color>#90ff90</Color>  
+    <Opacity>0.5</Opacity>
+  </ColorDefinition> 
+  
+  <ColorDefinition>
+    <Type>BrushRemoveMaterial</Type>
+    <Color>#ff7171</Color>  
+    <Opacity>0.5</Opacity>
+  </ColorDefinition> 
+  
   <ColorDefinition>
     <Type>TouchScreenButtonAreaScreenRectangle</Type>
     <Color>#AAddd3f8</Color>  
@@ -1207,16 +1124,14 @@
 
   <ColorDefinition>
     <Type>FaceScan</Type>
-    <Color>#FFFFFF</Color>
+    <Color>#ffffff</Color>
     <FreeformColor>#ffffff</FreeformColor>
-    <Shine>0</Shine>    
-
-    <TextureWhiteMode>true</TextureWhiteMode>
-    <Color>#FFFFFF</Color>
-    <LightingOverrideDiffuse>0.2</LightingOverrideDiffuse>
-    <LightingOverrideAmbient>0.9</LightingOverrideAmbient>
+    <Shine>0</Shine>	
+    <TextureWhiteMode>true</TextureWhiteMode>    
+    <LightingOverrideDiffuse>1.0</LightingOverrideDiffuse>
+    <LightingOverrideAmbient>1.0</LightingOverrideAmbient>
     <LightingOverrideSpecular>1.0</LightingOverrideSpecular>
-    <LightingOverrideShine>0.05</LightingOverrideShine>
+    <LightingOverrideShine>0.2</LightingOverrideShine>
     <LigthingOverrideMode>1</LigthingOverrideMode>
   </ColorDefinition> 
 
@@ -1236,70 +1151,50 @@
     <Type>ModelPinAttachmentInvalidColor</Type>
 	<Color>#FFFF0000</Color>
   </ColorDefinition>
+  
   <ColorDefinition>
     <Type>ModelPinAttachmentindeterminedColor</Type>
 	<Color>#FF888888</Color>
   </ColorDefinition>
 
   <ColorDefinition>
-    <Type>ModelToothSelection.Legend.Crown</Type>
-	<Color>#FF0000</Color>
-  </ColorDefinition>
-  <ColorDefinition>
     <Type>ModelToothSelection.Legend.Stump</Type>
-	<Color>#FF0000</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ModelToothSelection.Legend.Inlay</Type>
-	<Color>#0000FF</Color>
-  </ColorDefinition>  
-  <ColorDefinition>
-    <Type>ModelToothSelection.Legend.Healthy</Type>
 	<Color>#008000</Color>
   </ColorDefinition>
   <ColorDefinition>
-    <Type>ModelToothSelection.Legend.Pontic</Type>
-	<Color>#87CEFA</Color>
-  </ColorDefinition> 
-   <ColorDefinition>
     <Type>ModelToothSelection.Legend.Implant</Type>
-	<Color>#DAA520</Color>
-  </ColorDefinition> 
+	<Color>#003c00</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ModelToothSelection.Legend.Inlay</Type>
+	<Color>#800080</Color>
+  </ColorDefinition>  
+  
+  <ColorDefinition>
+    <Type>ModelToothSelection.Legend.Healthy</Type>
+	<Color>#FFFF00</Color>
+  </ColorDefinition>
+  
+  <ColorDefinition>
+    <Type>ModelToothSelection.Legend.Pontic</Type>
+	<Color>#FF0000</Color>
+  </ColorDefinition>
+  
   <ColorDefinition>
     <Type>ModelToothSelection.Legend.Other</Type>
-	<Color>#800080</Color>
+	<Color>#EE82EE</Color>
   </ColorDefinition>
+  
   <ColorDefinition>
     <Type>ModelToothSelection.Legend.AsHealthy</Type>
 	<Color>#bdec4d</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ModelToothSelection.Legend.SuggestionForCopy</Type>
-	<Color>#0000ff</Color>
-  </ColorDefinition>
-  
-    <ColorDefinition>
-    <Type>ModelToothSelection.Legend.SelectionForCopyColor</Type>
-	<Color>#00ff00</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ModelToothSelection.Legend.PreviouslySelectedForCopy</Type>
-	<Color>#ff0000</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ModelToothSelection.Legend.NotDefined</Type>
-	<Color>#000000</Color>
   </ColorDefinition>
  
   <ColorDefinition>
     <Type>ModelToggleDieTypesProcessorControl.Legend.Detachable</Type>
 	<Color>#FF4500</Color>
   </ColorDefinition> 
-  
-  
-  
   
   <ColorDefinition>
     <Type>ScanManager.PreviewToothColor</Type>
@@ -1317,17 +1212,18 @@
     <Color>#000000</Color>
     <SelectedColor>#ee895f</SelectedColor>
   </ColorDefinition> 
-
-    <ColorDefinition>
+  
+   <ColorDefinition>
     <Type>ConnectorProcessor.ToothToToothColor</Type>
-    <Color>Turquoise</Color>
-  </ColorDefinition> 
+    <Color>#FF0000</Color>
+  </ColorDefinition>
 
   <ColorDefinition>
     <Type>ImplantReference.Linked</Type>
     <Color>#00FF00</Color>
     <SelectedColor>#00FF00</SelectedColor>
   </ColorDefinition> 
+  
   <ColorDefinition>
     <Type>ImplantReference.ToLink</Type>
     <Color>#FF0000</Color>
@@ -1336,7 +1232,7 @@
 
   <ColorDefinition>
     <Type>TexturedDigitalImpression</Type>
-    <Color>#83827e</Color>
+    <Color>#bebebe</Color>
     <Shine>0</Shine>
 
     <TextureWhiteMode>true</TextureWhiteMode>
@@ -1350,7 +1246,7 @@
 
   <ColorDefinition>
     <Type>TexturedStoneScan</Type>
-    <Color>#83827e</Color>
+    <Color>#bebebe</Color>
     <Shine>0</Shine>
 
     <TextureWhiteMode>true</TextureWhiteMode>
@@ -1362,7 +1258,19 @@
     <LigthingOverrideMode>1</LigthingOverrideMode>
   </ColorDefinition>
   
+   <ColorDefinition>
+    <Type>PreReducedTooth</Type>
+    <Color>#d0d7a3</Color>
+    <SelectedColor>#b4d7fb</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+
   <ColorDefinition>
+    <Type>DefaultViewer3DTextColor</Type>
+    <Color>#000000</Color>
+  </ColorDefinition>
+  
+   <ColorDefinition>
     <Type>FreeformProcessor.BrushColorShift</Type>
     <Color> #FFFF0000</Color>
   </ColorDefinition>
@@ -1378,14 +1286,6 @@
     <Type>FreeformProcessor.BrushColorCtrl</Type>
     <Color> #FF0000FF</Color>
   </ColorDefinition>
-  <ColorDefinition>
-    <Type>FreeformProcessor.BrushColorOcclusionsSelectionShift</Type>
-    <Color> #FFFF0000</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>FreeformProcessor.BrushColorOcclusionsSelection</Type>
-    <Color> #FF00FF00</Color>
-  </ColorDefinition>
 
   <ColorDefinition>
     <Type>FreeformProcessor.BrushColorMin</Type>
@@ -1393,53 +1293,38 @@
   </ColorDefinition>
   <ColorDefinition>
     <Type>FreeformProcessor.BrushColorExtra</Type>
-    <Color>#FF0000FF</Color>
+    <Color> #FF0000FF</Color>
   </ColorDefinition>
   <ColorDefinition>
     <Type>FreeformProcessor.BrushColorScroll</Type>
     <Color> #FFA9A9A9</Color>
   </ColorDefinition>
-  <ColorDefinition>
-    <Type>FreeformProcessor.BrushMarkingColorOcclusionsSelectionMin</Type>
-    <Color> #FF333333</Color>
-  </ColorDefinition>
-
- <ColorDefinition>
-    <Type>PreReducedTooth</Type>
-    <Color>#d0d7a3</Color>
-    <SelectedColor>#b4d7fb</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>DefaultViewer3DTextColor</Type>
-    <Color>#000000</Color>
-  </ColorDefinition>
-
+  
+  
   <ColorDefinition>
     <Type>CutViewBubbleBackground</Type>
-    <Color>#473a6d</Color>
+    <Color>#FFFFFF</Color>
   </ColorDefinition>
-
+  
   <ColorDefinition>
     <Type>MenuBackgroundColorSelected</Type>
-    <Color>#584f7c</Color>
+    <Color>#464646</Color>
   </ColorDefinition>
   
     <ColorDefinition>
     <Type>MenuBackgroundColorUnselected</Type>
-    <Color>#2c2444</Color>
+    <Color>#121212</Color>
   </ColorDefinition>
   
   
     <ColorDefinition>
     <Type>MenuHeadlineFontColor</Type>
-    <Color>#ef895f</Color>
+    <Color>#f6aa37</Color>
   </ColorDefinition>
 
     <ColorDefinition>
     <Type>MenuInfoTextFontColor</Type>
-    <Color>#584f7c</Color>
+    <Color>#ab7b33</Color>
   </ColorDefinition>
   
       <ColorDefinition>
@@ -1450,7 +1335,7 @@
   
     <ColorDefinition>
     <Type>MenuBorderColor</Type>
-    <Color>#FF0000</Color>
+    <Color>#121212</Color>
   </ColorDefinition>
   
     <ColorDefinition>
@@ -1473,7 +1358,7 @@
       -->
 	  <ColorDefinition>
     <Type>MenuSeparatorColor</Type>
-    <Color>#584f7c</Color>
+    <Color>#f6aa37</Color>
   </ColorDefinition>
   
 
@@ -1485,34 +1370,12 @@
 
 	  <ColorDefinition>
     <Type>DefaultMarkupColor</Type>
-    <Color>#EE895F</Color>
+    <Color>#648acb</Color>
   </ColorDefinition>
   
   <ColorDefinition>
-    <Type>CutViewBubbleArrow</Type>
-    <Color>#EE895F</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>Antagonist</Type>
-    <Color>#ff4800</Color>
-    <SelectedColor>#e68bff</SelectedColor>
-    <Opacity>0.5</Opacity>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ViewerBackgroundTop</Type>
-    <Color>#473a6d</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ViewerBackgroundBottom</Type>
-    <Color>#473a6d</Color>
-  </ColorDefinition>
-  
-    <ColorDefinition>
     <Type>MenuIconColor</Type>
-    <Color>#584f7c</Color>
+    <Color>#ffffff</Color>
   </ColorDefinition>
   
   <ColorDefinition>
@@ -1558,37 +1421,23 @@
     <Color>#787c7e</Color>
   </ColorDefinition>
 
-  
   <ColorDefinition>
-    <Type>UnsegmentedJaw</Type>
-    <Color>#EBEBEB</Color>
-    <Shine>0</Shine>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>PostSpace</Type>
-    <Color>#EBEBEB</Color>
-    <Shine>0</Shine>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>UnsegmentedTooth</Type>
-    <Color>#FFFFFF</Color>
-    <Shine>0</Shine>
+    <Type>CutViewBubbleArrow</Type>
+    <Color>#000cff</Color>
   </ColorDefinition>
   
   <ColorDefinition>
     <Type>DicomRegistrationObject</Type>
-    <Color>#EBEBEB</Color>
+    <Color>#EBEBEB</Color>    
     <Shine>0</Shine>
   </ColorDefinition>
-
+  
   <ColorDefinition>
     <Type>ImplantPlanningGenericCollisionObject</Type>
     <Color>#1E90FF</Color>
     <Shine>0</Shine>
   </ColorDefinition>
-
+  
   <ColorDefinition>
     <Type>ImplantDrillingChannel</Type>
     <Color>#FFFF00</Color>
@@ -1610,7 +1459,16 @@
     <Color>#CCCCCC</Color>
   </ColorDefinition> 
   
- <ColorDefinition>
+  <ColorDefinition>
+    <Type>ToothSelectionControl.LegendTextColor</Type>
+    <Color>#FFFFFF</Color>
+  </ColorDefinition> 
+  <ColorDefinition>
+    <Type>ToothSelectionControl.LegendColorIndicatorBorder</Type>
+    <Color>#FFFFFF</Color>
+  </ColorDefinition> 
+  
+  <ColorDefinition>
     <Type>GroupColor.ScanData</Type>
     <Color>#c1c1c1</Color>
   </ColorDefinition>
@@ -1629,6 +1487,11 @@
   <ColorDefinition>
     <Type>GroupColor.AnatomicParts</Type>
     <Color>#0952bb</Color>
+  </ColorDefinition>
+
+  <ColorDefinition>
+    <Type>GroupColor.Antagonists</Type>
+    <Color>#cb8bff</Color>
   </ColorDefinition>
 
   <ColorDefinition>
@@ -1684,47 +1547,49 @@
   </ColorDefinition>
   
   <ColorDefinition>
+    <Type>GroupColor.ImplantParts</Type>
+    <Color>#3c9867</Color>
+  </ColorDefinition>
+  
+  
+  <ColorDefinition>
     <Type>GroupColor.GingivaScans</Type>
     <Color>#bc7485</Color>
   </ColorDefinition>
   
-    <ColorDefinition>
+  <ColorDefinition>
     <Type>GroupColor.ProstheticBases</Type>
     <Color>#b55954</Color>
   </ColorDefinition>
   
+
   <ColorDefinition>
-    <Type>GroupColor.AestheticPlates</Type>
-    <Color>#FFC74C39</Color>
-  </ColorDefinition>
-  
-      <ColorDefinition>
     <Type>GroupColor.BiteRegisters</Type>
     <Color>#7bae36</Color>
   </ColorDefinition>
   
-    <ColorDefinition>
+  <ColorDefinition>
     <Type>GroupColor.ScrewChannels</Type>
     <Color>#bfbf30</Color>
   </ColorDefinition>
   
-        <ColorDefinition>
+  <ColorDefinition>
     <Type>GroupColor.BiteSplints</Type>
     <Color>#445274</Color>
   </ColorDefinition>
   
-      <ColorDefinition>
+  <ColorDefinition>
     <Type>GroupColor.OverpressParts</Type>
     <Color>#CCFF33</Color>
   </ColorDefinition>
   
-        <ColorDefinition>
-    <Type>GroupColor.SituScan</Type>
+   <ColorDefinition>
+    <Type>GroupColor.SituScans</Type>
     <Color>#00fff0</Color>
   </ColorDefinition>
   
   
-          <ColorDefinition>
+   <ColorDefinition>
     <Type>GroupColor.SafetyAreas</Type>
     <Color>#d70303</Color>
   </ColorDefinition>
@@ -1739,74 +1604,53 @@
     <Color>#3c9867</Color>
   </ColorDefinition>
   
-  <ColorDefinition>
-    <Type>GroupColor.OtherParts</Type>
-    <Color>#584e7b</Color>
+   <ColorDefinition>
+    <Type>Markups</Type>
+    <Color>#648acb</Color>
   </ColorDefinition>  
   
+    <ColorDefinition>
+    <Type>GroupColor.ModelBasePlates</Type>
+    <Color>#a8a8a8</Color>
+  </ColorDefinition>    
   
-        <ColorDefinition>
+  <ColorDefinition>
+    <Type>GroupColor.ModelComponents</Type>
+    <Color>#00b393</Color>
+  </ColorDefinition>  
+  
+  <ColorDefinition>
+    <Type>GroupColor.OtherParts</Type>
+    <Color>#f4ab37</Color>
+  </ColorDefinition>  
+  
+  <ColorDefinition>
     <Type>Screenshot</Type>
     <Color>#00c0f2</Color>
   </ColorDefinition>
   
   
-      <ColorDefinition>
+   <ColorDefinition>
     <Type>LoadProject</Type>
     <Color>#cc7551</Color>
   </ColorDefinition>
   
-        <ColorDefinition>
+   <ColorDefinition>
     <Type>LoadScene</Type>
     <Color>#5737b2</Color>
   </ColorDefinition>
   
-      <ColorDefinition>
+   <ColorDefinition>
     <Type>DicomView</Type>
     <Color>#0a58c1</Color>
   </ColorDefinition>
   
-      <ColorDefinition>
+   <ColorDefinition>
     <Type>PDFExport</Type>
     <Color>#bb0706</Color>
   </ColorDefinition>
   
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.MesialColor</Type>
-    <Color>#800080</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.DistalColor</Type>
-    <Color>#ffff00</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.EraseBrushColor</Type>
-    <Color>#ff0000</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.MesialBrushColor</Type>
-    <Color>#9400d3</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.DistalBrushColor</Type>
-    <Color>#ffffe0</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.LingualColor</Type>
-    <Color>#ffdab9</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>LoadSingleToothmodelProcessorNew.BuccalColor</Type>
-    <Color>#00008b</Color>
-  </ColorDefinition>
-  
-    <ColorDefinition>
+   <ColorDefinition>
     <Type>LingualBandProcessor.LeftColor</Type>
     <Color>#FF0000</Color>
   </ColorDefinition>
@@ -1816,19 +1660,19 @@
     <Color>#0000FF</Color>
   </ColorDefinition>
   
- <ColorDefinition>
+   <ColorDefinition>
     <Type>Nesting.DisplayBlockNameBrushDefault</Type>
     <Color>#FFFFFF</Color>
   </ColorDefinition>
 
  <ColorDefinition>
     <Type>Nesting.DisplayBlockNameBrushSameFile</Type>
-    <Color>#FF7F20</Color>
+    <Color>#f6aa37</Color>
   </ColorDefinition>
 
  <ColorDefinition>
     <Type>Nesting.DisplayBlockNameBrushSameID</Type>
-    <Color>#FFFF20</Color>
+    <Color>#f6aa37</Color>
   </ColorDefinition>
 
   
@@ -1837,9 +1681,8 @@
     <Color>#AA2222</Color>
     <Opacity>0.5</Opacity>
   </ColorDefinition>
-
   
-  <ColorDefinition>
+    <ColorDefinition>
     <Type>ScreenShotHugeBackground</Type>
     <Color>#000000</Color>
   </ColorDefinition>
@@ -1849,328 +1692,4 @@
     <Color>#FFFFFF</Color>
   </ColorDefinition>
   
-  <ColorDefinition>
-    <Type>AbutmentPremillCollider</Type>
-    <Color>#cfb8db</Color>
-    <Shine>0</Shine>
-	<Opacity>0.25</Opacity>
-    <SelectedColor>#aa3ded</SelectedColor>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>GenericVisualization.intaglio</Type>
-
-    <TextureWhiteMode>true</TextureWhiteMode>
-    <LigthingOverrideMode>0</LigthingOverrideMode>
-
-    <Color>#ffafcf</Color>
-    <Shine>0</Shine>
-    <SelectedColor>#aa3ded</SelectedColor>
-  </ColorDefinition> 
-
-  <!-- START TOTALPROSTHESIS COLORS -->
-
-  <ColorDefinition>
-    <Type>ProstheticTooth</Type>
-    <Color>#FFFFFF</Color>
-    <SelectedColor>#8bb3ed</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ProstheticBase</Type>
-    <Color>#ff9fb6</Color>
-    <Shine>0</Shine>
-    <SelectedColor>#aa3ded</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>AdaptedProstheticBase</Type>
-    <Color>#ff9fb6</Color>
-    <Shine>0</Shine>
-    <SelectedColor>#aa3ded</SelectedColor>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticBaseMargin</Type>
-    <Color>#ff8000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticBaseMarginControlPoints</Type>
-    <Color>#00ff00</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.ToothSelectionLegend.Included</Type>
-    <Color>#00ff00</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.ToothSelectionLegend.NotIncluded</Type>
-    <Color>#a0a0a0</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.ToothSelectionLegend.MissingMesh</Type>
-    <Color>#ff0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.BlankHolderAlignmentMatrixUndefinedIndicator</Type>
-    <Color>#ff0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.ActiveFeatureLabel</Type>
-    <Color>#ff8000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.EnabledFeatureLabel</Type>
-    <Color>#ff0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.DisabledFeatureLabel</Type>
-    <Color>#0000ff</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.Brush.Add</Type>
-    <Color>#00ff00</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ProstheticToothModelEditor.Brush.Remove</Type>
-    <Color>#ff0000</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>Marker_ProstheticToothWithRotationLockPin</Type>
-    <Color>#BCEE68</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>AestheticPlate</Type>
-    <Color>#FFC74C39</Color>
-    <Shine>0.087</Shine>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ProstheticBaseBottom</Type>
-    <Color>#BFDFFF</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ProstheticBaseBottomUndercutIndicator</Type>
-    <Color>#C08080</Color>
-  </ColorDefinition>
-  
-  <!-- END TOTALPROSTHESIS COLORS -->
-  
-  <!-- Region (ToothChain) -->
-  <ColorDefinition>
-    <Type>ToothChainVirtualTooth</Type>
-    <Color>#000080</Color>
-    <SelectedColor>#8bb3ed</SelectedColor>
-    <FreeformColor>#000080</FreeformColor>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>VirtualTooth</Type>
-    <Color>#000080</Color>
-    <SelectedColor>#8bb3ed</SelectedColor>
-    <FreeformColor>#000080</FreeformColor>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ToothChainClickArrow</Type>
-    <Color>#FF0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainClickEndSphere</Type>
-    <Color>#FF0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainLowerJawTooth</Type>
-    <Color>#E0FFFF</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainUpperJawTooth</Type>
-    <Color>#F5FFFA</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainToothIsInTheAir</Type>
-    <Color>#008000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainControlMesh</Type>
-    <Color>#00FFFF</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainControlSelected</Type>
-    <Color>#FF0000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainControlUnselected</Type>
-    <Color>#008000</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainSymmetryControls</Type>
-    <Color>#000080</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ToothChainControlPinnedBow</Type>
-    <Color>#FF0000</Color>
-  </ColorDefinition>
-
-  <!-- EndRegion -->
-  
-
- <ColorDefinition>
-    <Type>ProductionBlank</Type>
-    <Color>#7F7F7F</Color>
-    <Opacity>0.7</Opacity>
-  </ColorDefinition>
-
- <ColorDefinition>
-    <Type>ProductionBlankDecoration</Type>
-    <Color>#7F7F7F</Color>
-    <Opacity>0.5</Opacity>
-  </ColorDefinition>
-  
-
-  
-
-
-  <ColorDefinition>
-    <Type>Marker_AxisEstimatedMAndCenterFromScanData</Type>
-    <Color>#FF45FF</Color>
-  </ColorDefinition>
-
-  
-  <ColorDefinition>
-    <Type>VirtualGingivaDesignBottom</Type>
-    <Color>#bfdfff</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>VirtualGingivaDesignBase</Type>
-    <Color>#ff9fb6</Color>
-  </ColorDefinition>
-
-
-  <ColorDefinition>
-    <Type>VirtualGingivaDesignBaseReduced</Type>
-    <Color>#ffA5C0</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>VirtualGingivaStump</Type>
-    <Color>#ff1488</Color>
-  </ColorDefinition>
-
-  <ColorDefinition>
-    <Type>ExtraSituScan</Type>
-    <Color>#00eef0</Color>
-    <Opacity>0.5</Opacity>
-  </ColorDefinition>  
-
-  <!-- Main CAD window: ruler label foreground color -->   
-    <ColorDefinition>
-      <Type>MainScaleForegroundColor</Type>
-      <Color>#FFFFFF</Color>
-    </ColorDefinition>
-  <!-- Main CAD window: ruler label backgronud color -->  
-    <ColorDefinition>
-      <Type>MainScaleBackgroundColor</Type>
-      <Color>#000000</Color>
-    </ColorDefinition>
-  <!-- Main CAD window: grid color for 1 and 5 mm lines -->
-    <ColorDefinition>
-      <Type>MainScaleGridColor</Type>
-      <Color>#66539c</Color>
-    </ColorDefinition>
-  <!-- Main CAD window: grid color for cm lines -->
-    <ColorDefinition>
-      <Type>MainScaleGridCMColor</Type>
-      <Color>#7a63ba</Color>
-    </ColorDefinition>
-
-<!-- ToothCutViews -->
-  <ColorDefinition>
-    <Type>ToothCutViewWindowBorder</Type>
-    <Color>#9499c2</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-  <Type>ToothCutViewWindowBorderGrip</Type>
-    <Color>#acaec2</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutViewOcclusalRotationColor</Type>
-    <Color>#dab74a</Color>
-  </ColorDefinition>
-  
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurementPointColor</Type>
-    <Color>#f1d700</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurementPointSnappedColor</Type>
-    <Color>#00FF00</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurementPointUnSnappedColor</Type>
-    <Color>#a21e1e</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurmentArrowColor</Type>
-    <Color>#f1d700</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurementArrowSnappedColor</Type>
-    <Color>#5ca745</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurementArrowUnSnappedColor</Type>
-    <Color>#999999</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutView.MeasurmentTextColor</Type>
-    <Color>#FFFFFF</Color>
-  </ColorDefinition>  
-  
-  <ColorDefinition>
-    <Type>ToothCutViewRectangleBorder</Type>
-    <Color>#9499c2</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutViewRectangleBorderHighlight</Type>
-    <Color>#bdc0db</Color>
-  </ColorDefinition>
-  <ColorDefinition>
-    <Type>ToothCutViewCornerMarkerColor</Type>
-    <Color>#9499c2</Color>
-  </ColorDefinition>
-
-<!-- ToothCutViews -->
-
-   <ColorDefinition>
-    <Type>MergedPontic</Type>
-    <Color>#69987c</Color>
-    <FreeformColor>#ffc001</FreeformColor>
-  </ColorDefinition>
-
-
 </ArrayOfColorDefinition>

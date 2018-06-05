@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Sweden &amp; Martina® Shelta®</DisplayInformation>
+  <Producer>Sweden &amp; Martina®</Producer>
+  <SystemName>Shelta®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Sweden &amp; Martina® Shelta® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.8 Switching platform</DisplayInformation>
+      <Keyword>SMSH3.8SP</Keyword>
+      <ImplantFilename>3.3_Implant.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1531</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.68-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.3_Hex.stl</SupportFilename>
+          <ScrewFilename>Sch_Zr3.3-3.8.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE1531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.68-InNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.3_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Sch_Zr3.3-3.8.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE1531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1581</DisplayInformation>
+          <SupportFilename>3.3_i_Parallel.stl</SupportFilename>
+          <ImplantFilename>3.3_ImplantPar.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <ScrewFilename>Sch_Met3.3-3.8.stl</ScrewFilename>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB1581</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1531</DisplayInformation>
+          <SupportFilename>3.3_i_conical.stl</SupportFilename>
+          <ImplantFilename>3.3_ImplantCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Sch_Met3.3-3.8.stl</ScrewFilename>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD1531</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.8 - 4.25 SP - 5.0 SP</DisplayInformation>
+      <Keyword>SMSH3.8-5.0</Keyword>
+      <ImplantFilename>3.8_Implant.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1532</LibraryIdentifier>
+      <SubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.32-InHex-XF</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>3.8_Hex.stl</SupportFilename><ScrewFilename>Sch_Zr3.3-3.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.32-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.8_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Sch_Zr3.3-3.8.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE1532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1582</DisplayInformation>
+          <SupportFilename>3.8_i_Parallel.stl</SupportFilename>
+          <ImplantFilename>3.8_ImplantPar.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <ScrewFilename>Sch_Met3.3-3.8.stl</ScrewFilename>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB1582</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1532</DisplayInformation>
+          <SupportFilename>3.8_i_conical.stl</SupportFilename>
+          <ImplantFilename>3.8_ImplantCon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Sch_Met3.3-3.8.stl</ScrewFilename>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD1532</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

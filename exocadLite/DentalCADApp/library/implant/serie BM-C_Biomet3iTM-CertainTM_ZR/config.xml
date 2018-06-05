@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Biomet3i® Certain®</DisplayInformation>
+  <Producer>Biomet3i®</Producer>
+  <SystemName>Certain®</SystemName>
+  <MarkerFilename>../serie BM-C_Biomet3iTM-CertainTM/scanmarker.stl</MarkerFilename>
+  <ScrewFilename>../serie BM-C_Biomet3iTM-CertainTM/screw.stl</ScrewFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Certain® series from Biomet 3i®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.4 mm</DisplayInformation>
+      <Keyword>BMC3.4mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0831</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4512-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.4512-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.4512-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.4512-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.45120-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.4120-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.3012-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0881</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Parallelz.stl</SupportFilename>
+          <ImplantFilename>implant_3.4_parall.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0881</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.3012-Parallel/2.8</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0881 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_parall.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0881</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5012-Conical</Keyword>
+          <GeometryType>conical</GeometryType>
+          <DisplayInformation>Conical BSAD0831</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Conical.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_conic.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5012-Conical/2.8</Keyword><GeometryType>conical</GeometryType><DisplayInformation>Conical BSAD0831 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Conical.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_conic.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.4 mm White Scanmarker</DisplayInformation>
+      <Keyword>BMCMK3.4mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD0831</LibraryIdentifier>
+      <MarkerFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_MkPk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.45121-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.45121-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.45121-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.45121-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.451201-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.41201-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.30121-Parallel</Keyword>
+          <GeometryType>parallel</GeometryType>
+          <DisplayInformation>Parallel BSAB0881</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Parallelz.stl</SupportFilename>
+          <ImplantFilename>implant_3.4_parall.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0881</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.30121-Parallel/2.8</Keyword><GeometryType>parallel</GeometryType><DisplayInformation>Parallel BSAB0881 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_parall.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0881</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50121-Conical</Keyword>
+          <GeometryType>conical</GeometryType>
+          <DisplayInformation>Conical BSAD0831</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Conical.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_conic.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50121-Conical/2.8</Keyword><GeometryType>conical</GeometryType><DisplayInformation>Conical BSAD0831 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/3.4_Conical.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_3.4_conic.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0831</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1 mm</DisplayInformation>
+      <Keyword>BMC4.1mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0832</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1012-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1012-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1012-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1012-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.10120-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.10120-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.6012-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0882</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0882</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.6012-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0882 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0882</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50121-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0832</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50121-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0832 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>BMCMK4.1mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD0832</LibraryIdentifier>
+      <MarkerFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_MkPk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101201-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.101201-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.101201-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.101201-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.1012001-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1012001-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.601201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0882</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0882</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.601201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0882 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0882</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5012101-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0832</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5012101-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0832 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/4.1_Conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_4.1_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0832</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 mm</DisplayInformation>
+      <Keyword>BMC5.0mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0833</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0012-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0012-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0012-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.0012-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00120-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00120-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.2012-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0883</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0883</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2012-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0883 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Parallelz.stl</SupportFilename><ImplantFilename>implant_5.0_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0883</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.2012-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0833</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2012-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0833</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>BMCMK5.0mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD0833</LibraryIdentifier>
+      <MarkerFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_MkPk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00121-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00121-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.00121-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00121-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.001201-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.001201-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.20121-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0883</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0883</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2012-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0883 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Parallelz.stl</SupportFilename><ImplantFilename>implant_5.0_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0883</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.20121-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0833</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.20121-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0833</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_Conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_5.0_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0833</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>6.0 mm</DisplayInformation>
+      <Keyword>BMC6.0mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0834</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0012-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.0012-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.0012-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00121-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.00120-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00120-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.0012-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0884</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0884</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.0012-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0884 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0884</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.0012-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0834</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.0012-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0834 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>6.0 mm White Scanmarker</DisplayInformation>
+      <Keyword>BMCMK6.0mm</Keyword>
+      <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD0834</LibraryIdentifier>
+      <MarkerFilename>../serie BM-C_Biomet3iTM-CertainTM/5.0_MkPk.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.5</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.00121-InHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00121-InHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_hex.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.00121-InNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohexSTD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00121-InNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohexSTD.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.001201-InNohex</Keyword>
+          <DisplayInformation>No hex angled bridges</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.001201-InNohex/2.8</Keyword><DisplayInformation>No hex angled bridges Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_nohex.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.00121-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0884</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_parallelz.stl</SupportFilename>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_parall.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0884</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00121-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0884 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_parallelz.stl</SupportFilename><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_parall.stl</ImplantFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0884</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>6.00121-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0834</DisplayInformation>
+          <SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_conical.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_conic.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>6.00121-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0834 Sealing Thread</DisplayInformation><SupportFilename>../serie BM-C_Biomet3iTM-CertainTM/6.0_conical.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ImplantFilename>../serie BM-C_Biomet3iTM-CertainTM/implant_6.0_conic.stl</ImplantFilename><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0834</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

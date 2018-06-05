@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Alpha-Bio TEC® SPI-DFI-ATID®</DisplayInformation>
+  <Producer>Alpha-Bio TEC®</Producer>
+  <SystemName>SPI-DFI-ATID®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>Std_screw.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Alpha-Bio TEC® SPI-DFI-ATID® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>SPI-DFI-ATID</DisplayInformation>
+      <Keyword>SPI</Keyword>
+      <ImplantFilename>Analogue.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD1831</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>Hex.stl</SupportFilename>
+          <ScrewFilename>Zr_screw.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE1831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>Zr_screw.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE1831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1881</DisplayInformation>
+          <SupportFilename>i-Parallel.stl</SupportFilename>
+          <ImplantFilename>Paralel.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB1881</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1831</DisplayInformation>
+          <SupportFilename>i-Conical.stl</SupportFilename>
+          <ImplantFilename>Conical.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD1831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

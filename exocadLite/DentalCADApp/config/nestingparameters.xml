@@ -1,140 +1,146 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
   <Parameter>
     <Type>BlockDiameter</Type>
-    <Value>98</Value>
+    <Value>95</Value>
   </Parameter>
-
-
   <Parameter>
     <Type>BlockHeight</Type>
     <Value>20</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpace</Type>
     <Value>3</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpaceMinSlider</Type>
     <Value>2.5</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpaceMaxSlider</Type>
-    <Value>3.0</Value>
+    <Value>7.0</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpaceAngle</Type>
     <Value>0</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpaceMinSliderAngled</Type>
-    <Value>1.5</Value>
+    <Value>2.5</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialEmptySpaceMaxSliderAngled</Type>
-    <Value>3.5</Value>
+    <Value>5</Value>
   </Parameter>
-
+  <Parameter>
+    <Type>SupportDiameterMinimum</Type>
+    <Value>0.5</Value>
+  </Parameter>  
   <Parameter>
     <Type>SupportDiameter</Type>
     <Value>2</Value>
   </Parameter>
-
   <Parameter>
     <Type>SupportToTopDiameter</Type>
     <Value>2</Value>
   </Parameter>
-
-
+  
+  <Parameter>
+    <Type>SupportDiameterOnStabilizerMinimum</Type>
+    <Value>0.5</Value>
+  </Parameter>
+  
   <Parameter>
     <Type>SupportDiameterOnStabilizer</Type>
-    <Value>3.0</Value>
+    <Value>2</Value>
+  </Parameter>  
+
+  <Parameter>
+    <Type>SupportDiameterOnStabilizerMaximum</Type>
+    <Value>5</Value>
   </Parameter>
 
   <Parameter>
     <Type>WriteUndercutAngles</Type>
     <Value>0</Value>
-   </Parameter>
-
+  </Parameter>
   <Parameter>
     <Type>StampOutAlgorithm3D</Type>
     <Value>0</Value>
   </Parameter>
-
   <Parameter>
     <Type>MaterialBlockUntouchableBorder</Type>
     <Value>1.5</Value>
   </Parameter>
-
   <Parameter>
     <Type>ScaleFactorOrShrinkPercentage</Type>
-    <Value>0</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>MaterialBlockLotNrEnabled</Type>
     <Value>-1</Value>
   </Parameter>
-
- <Parameter>
+  <Parameter>
+    <Type>MaterialBlockLotNrEnabled</Type>
+    <Value>1</Value>
+  </Parameter>
+  <Parameter>
     <Type>SupportMaterialBlockTexture3D</Type>
     <Value>1</Value>
- </Parameter>
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockOpacity</Type>
     <Value>0.5</Value>
- </Parameter>
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockBackfaceCulling</Type>
     <Value>1</Value>
- </Parameter>
-
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockWallsOpacity</Type>
     <Value>0.3</Value>
- </Parameter>
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockBeforeStampOutOpacity</Type>
     <Value>0.1</Value>
- </Parameter>
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockIDMin</Type>
-    <Value>0</Value>
- </Parameter>
-
- <Parameter>
+    <Value>1</Value>
+  </Parameter>
+  <Parameter>
     <Type>MaterialBlockIDMax</Type>
-    <Value>0</Value>
- </Parameter>
-
- <Parameter>
+    <Value>500</Value>
+  </Parameter>
+  <Parameter>
     <Type>ColliderLineThickness</Type>
     <Value>3</Value>
+  </Parameter>
+
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_EmergenceProfile</Type>
+    <Value>NaN</Value>
  </Parameter>
 
-  <Parameter>
-    <Type>ScaleFactorMinValue</Type>
-    <Value>1.0</Value>
-  </Parameter>
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_ImplantGeometry</Type>
+    <Value>NaN</Value>
+ </Parameter>
 
-  <Parameter>
-    <Type>ScaleFactorMaxValue</Type>
-    <Value>1.4</Value>
-  </Parameter>
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_CrownBottom</Type>
+    <Value>NaN</Value>
+ </Parameter>
 
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_Abutment</Type>
+    <Value>NaN</Value>
+ </Parameter>
 
-   
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_ScrewChannel</Type>
+    <Value>NaN</Value>
+ </Parameter>
+
+ <Parameter>
+    <Type>RemoveMaterialAxisOffset_ApplyStampOutDistanceMaxFactor</Type>
+    <Value>0</Value>
+ </Parameter>
+
 </ArrayOfParameter>
-

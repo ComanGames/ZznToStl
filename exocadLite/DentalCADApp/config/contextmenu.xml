@@ -2,10 +2,6 @@
 <ArrayOfDentalProcessorInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 
-	<DentalProcessorInfo>
-		<ProcessorType>DentalProcessors.AdjustingSituForAbutmentsProcessor</ProcessorType>
-	</DentalProcessorInfo>
-	
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.AbutmentEditProcessor</ProcessorType>
   </DentalProcessorInfo>
@@ -41,7 +37,7 @@
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.CorrectPlacementProcessorNew</ProcessorType>
+    <ProcessorType>DentalProcessors.CorrectPlacementProcessor</ProcessorType>
   </DentalProcessorInfo>
   
   <DentalProcessorInfo>
@@ -60,10 +56,6 @@
 
     <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.FreeformMergedProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.FreeformEmergenceProfileProcessor</ProcessorType>
   </DentalProcessorInfo>
   
   <DentalProcessorInfo>
@@ -102,6 +94,10 @@
   
   
   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ArticulatorProcessor</ProcessorType>
+  </DentalProcessorInfo>
+  
+  <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.TiltProjectProcessor</ProcessorType>
   </DentalProcessorInfo>
   
@@ -131,6 +127,10 @@
 
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.OffsetInlayProcessor</ProcessorType>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.JawSegmentationProcessor</ProcessorType>
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
@@ -166,12 +166,27 @@
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AddRemoveMeshProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced>
+  </DentalProcessorInfo>
+    
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.Load2DImageProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced>
+  </DentalProcessorInfo>
+
+  <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.CorrectAntagonistProcessor</ProcessorType>
   </DentalProcessorInfo>
+
   
-    <!--DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.CorrectJawRelationProcessor</ProcessorType>
-  </DentalProcessorInfo-->
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.AntagonistToSituProcessor</ProcessorType>
+  </DentalProcessorInfo>
+  
+      <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.MirrorHealthyToSituProcessor</ProcessorType>
+  </DentalProcessorInfo>  
   
     <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.CorrectSituProcessor</ProcessorType>
@@ -208,16 +223,17 @@
 
      <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.AntagonistEditProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced> 
   </DentalProcessorInfo>
 
    <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.MeshEditProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced> 
   </DentalProcessorInfo>
-
-
 
    <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.WaxupSituScanEditProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced>
   </DentalProcessorInfo>
 
  <DentalProcessorInfo>
@@ -225,11 +241,8 @@
   </DentalProcessorInfo>
 
     <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.AbutmentScrewChannelManualBottomProcessor</ProcessorType>
- </DentalProcessorInfo>
-
-    <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.FreeformScanDataProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced>
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
@@ -237,7 +250,7 @@
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.LoadSingleToothmodelProcessorNew</ProcessorType>
+    <ProcessorType>DentalProcessors.LoadSingleToothmodelProcessor</ProcessorType>
   </DentalProcessorInfo>
 
   <DentalProcessorInfo>
@@ -246,10 +259,6 @@
 
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.AdditionalScanRegistrationProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-      <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.TransferSurfaceGeometryProcessor</ProcessorType>
   </DentalProcessorInfo>
 
       <DentalProcessorInfo>
@@ -273,8 +282,6 @@
     <ProcessorType>DentalProcessors.FreeformBiteSplintProcessor</ProcessorType>
   </DentalProcessorInfo>
 
-  
-
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.HybridCrownInsertionDirectionProcessor</ProcessorType>
   </DentalProcessorInfo>
@@ -286,13 +293,12 @@
  <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ProvisionalCrownBottomProcessor</ProcessorType>
   </DentalProcessorInfo>  
-
+  
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.MultiDieRegistrationProcessor</ProcessorType>
   </DentalProcessorInfo>
   
- 
-  <DentalProcessorInfo>
+    <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ModelAlignmentProcessor</ProcessorType>
   </DentalProcessorInfo>  
 
@@ -307,21 +313,29 @@
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ModelToothSegmentationProcessor</ProcessorType>
   </DentalProcessorInfo>
-
+  
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ArticulatorRegistrationProcessor</ProcessorType>
   </DentalProcessorInfo>
-
-
+  
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ModelAttachmentProcessor</ProcessorType>
   </DentalProcessorInfo>
-
   
+  <DentalProcessorInfo> 
+	<ProcessorType>DentalProcessors.BiteSplintConvertToWaxupProcessor</ProcessorType> 
+	<IsAdvanced>true</IsAdvanced> 
+  </DentalProcessorInfo>
+	
+  <DentalProcessorInfo>
+    <ProcessorType>DentalProcessors.ToothColorSelectionProcessor</ProcessorType>
+    <IsAdvanced>true</IsAdvanced>
+  </DentalProcessorInfo>
+
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ModelToggleDieTypesProcessor</ProcessorType>
   </DentalProcessorInfo>
-
+  
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ModelImplantProcessor</ProcessorType>
   </DentalProcessorInfo>
@@ -331,16 +345,9 @@
   </DentalProcessorInfo>
   
   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.LingualBandProcessor</ProcessorType>
+    <ProcessorType>DentalProcessors.LingualBandProcessor</ProcessorType>    
   </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.CopyAndPasteToothProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-    <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.MirrorHealthyToSituProcessor</ProcessorType>
-  </DentalProcessorInfo>
+    
   
     <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.ShowAxisProcessor</ProcessorType>
@@ -349,151 +356,5 @@
   <DentalProcessorInfo>
     <ProcessorType>DentalProcessors.JawMovementRegistrationProcessor</ProcessorType>
   </DentalProcessorInfo>
-  
-      <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.CorrectPlacementOfReducedTeethProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ShrinkBarSegmentToothProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.MergePartsToWaxupProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-
-
-   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.BridgeSplitProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.BiteSplintConvertToWaxupProcessor</ProcessorType>
-  </DentalProcessorInfo>    
-
-  <!-- START TOTALPROSTHESIS PROCESSORS -->
-	
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticModelAnalysisProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticToothPlacementProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.CorrectProstheticToothPlacementProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticBaseBottomProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticBaseProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.FreeformProstheticBaseProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.AdaptProstheticBaseProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <!--<DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticReportingProcessor</ProcessorType>
-  </DentalProcessorInfo>-->
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProstheticToothModelEditor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <!-- END TOTALPROSTHESIS PROCESSORS -->
-  
-  <!-- START ENDO PROCESSORS -->
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.PostMarkerProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.PostPreparationProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.EndoCrownPreparationProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.PostBottomProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.EndoCoreProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.EndoCoreInsertionDirectionProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.EndoBottomInsertionDirectionProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.FreeformPostAndCoreProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  <!-- END ENDO PROCESSORS -->
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ProductionBlankProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.LoadBridgeModelsProcessor</ProcessorType>   
-    <ShowOnlyIfHighPriority>true</ShowOnlyIfHighPriority>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ShrinkTelescopesProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-	<ProcessorType>DentalProcessors.ShrinkGingivaProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.WaxupBottomMarginProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.WaxupBottomProcessor</ProcessorType>
-  </DentalProcessorInfo>
-
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.VirtualWaxUpBottomProcessor</ProcessorType>
-  </DentalProcessorInfo>
-    
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.VirtualWaxUpBaseProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.FreeformVirtualWaxUpBaseProcessor</ProcessorType>
-  </DentalProcessorInfo>
-  
-  
-  <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.LoadBiteSplintModelsProcessor</ProcessorType>   
-  </DentalProcessorInfo>
-
-   <DentalProcessorInfo>
-    <ProcessorType>DentalProcessors.ConvertLibraryModelToPonticProcessor</ProcessorType>
-   </DentalProcessorInfo>
-
   
 </ArrayOfDentalProcessorInfo>

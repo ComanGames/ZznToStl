@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® BEGO Implant Systems® S-Line® RI-Line®</DisplayInformation>
+  <Producer>BEGO Implant Systems®</Producer>
+  <SystemName>S-Line® RI-Line®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with BEGO Implant Systems® S-Line® &amp; RI-Line® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>S 3.25</DisplayInformation>
+      <Keyword>S 3.25</Keyword>
+      <ImplantFilename>3.25-75_LA.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5031</LibraryIdentifier>
+      <ScrewFilename>3.25-75_Msc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9292-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>3.25-75_H_cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5001</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.92920-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>3.25-75_H_fs.stl</SupportFilename>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5031</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9292-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>3.25-75_NH_csx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5001</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.92920-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw center ring</DisplayInformation>
+          <SupportFilename>3.25-75_NH_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5001</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.929200-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>3.25-75_NH_fsx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5031</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9292000-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw center ring</DisplayInformation>
+          <SupportFilename>3.25-75_NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5031</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5081</DisplayInformation>
+          <SupportFilename>3.25-75_Pk.stl</SupportFilename>
+          <ImplantFilename>3.25-75_LAp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5081</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5031</DisplayInformation>
+          <SupportFilename>3.25-75_C.stl</SupportFilename>
+          <ImplantFilename>3.25-75_LAc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5031</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>S/RI 3.75</DisplayInformation>
+      <Keyword>S - RI 3.75</Keyword>
+      <ImplantFilename>3.25-75_LA.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5032</LibraryIdentifier>
+      <ScrewFilename>3.25-75_Msc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.92921-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>3.25-75_H_cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5002</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.929201-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>3.25-75_H_fs.stl</SupportFilename>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5032</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.92921-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>3.25-75_NH_csx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5002</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.929201-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw center ring</DisplayInformation>
+          <SupportFilename>3.25-75_NH_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5002</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9292001-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>3.25-75_NH_fsx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5032</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9292011-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw center ring</DisplayInformation>
+          <SupportFilename>3.25-75_NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>3.25-75_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5032</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5082</DisplayInformation>
+          <SupportFilename>3.25-75_Pk.stl</SupportFilename>
+          <ImplantFilename>3.25-75_LAp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5082</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5032</DisplayInformation>
+          <SupportFilename>3.25-75_C.stl</SupportFilename>
+          <ImplantFilename>3.25-75_LAc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5032</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>S/RI 4.1</DisplayInformation>
+      <Keyword>S - RI 4.1</Keyword>
+      <ImplantFilename>4.1_LA.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5033</LibraryIdentifier>
+      <ScrewFilename>4.1_Msc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>4.1_H_cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5003</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>4.1_H_fs.stl</SupportFilename>
+          <ScrewFilename>4.1_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5033</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>4.1_NH_csx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5003</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw center ring</DisplayInformation>
+          <SupportFilename>4.1_NH_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5003</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.100-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>4.1_NH_fsx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>4.1_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5033</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1000-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw center ring</DisplayInformation>
+          <SupportFilename>4.1_NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>4.1_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5033</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5083</DisplayInformation>
+          <SupportFilename>4.1_Pk.stl</SupportFilename>
+          <ImplantFilename>4.1_LAp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5083</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5033</DisplayInformation>
+          <SupportFilename>4.1_C.stl</SupportFilename>
+          <ImplantFilename>4.1_LAc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5033</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>S/RI 4.5</DisplayInformation>
+      <Keyword>S - RI 4.5</Keyword>
+      <ImplantFilename>4.5_LA.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5034</LibraryIdentifier>
+      <ScrewFilename>4.5_Msc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>4.5_H_cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5004</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.50-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>4.5_H_fs.stl</SupportFilename>
+          <ScrewFilename>4.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5034</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>4.5_NH_csx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5004</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.50-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw center ring</DisplayInformation>
+          <SupportFilename>4.5_NH_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5004</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.500-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>4.5_NH_fsx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>4.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5034</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.5000-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw center ring</DisplayInformation>
+          <SupportFilename>4.5_NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>4.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5034</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7011-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5084</DisplayInformation>
+          <SupportFilename>4.5_Pk.stl</SupportFilename>
+          <ImplantFilename>4.5_LAp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5084</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5034</DisplayInformation>
+          <SupportFilename>4.5_C.stl</SupportFilename>
+          <ImplantFilename>4.5_LAc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5034</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>S/RI 5.5</DisplayInformation>
+      <Keyword>S - RI 5.5</Keyword>
+      <ImplantFilename>5.5_LA.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD5034</LibraryIdentifier>
+      <ScrewFilename>5.5_Msc.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.5-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>5.5_H_cs.stl</SupportFilename>
+          <LibraryIdentifier>BSAE5005</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.50-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>5.5_H_fs.stl</SupportFilename>
+          <ScrewFilename>5.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5035</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.5-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>5.5_NH_csx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5005</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.50-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw center ring</DisplayInformation>
+          <SupportFilename>5.5_NH_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE5005</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.500-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>5.5_NH_fsx.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>5.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5035</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.5000-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw center ring</DisplayInformation>
+          <SupportFilename>5.5_NH_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>5.5_Zsc.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE5035</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.5-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB5085</DisplayInformation>
+          <SupportFilename>5.5_Pk.stl</SupportFilename>
+          <ImplantFilename>5.5_LAp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB5085</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD5035</DisplayInformation>
+          <SupportFilename>5.5_C.stl</SupportFilename>
+          <ImplantFilename>5.5_LAc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD5035</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

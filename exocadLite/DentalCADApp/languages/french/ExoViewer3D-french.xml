@@ -1,115 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
-
-  <IncludeFiles>
-    <IncludeFile>ConfigControl-french.xml</IncludeFile>
-  </IncludeFiles>
-
-<Translations>
+  <Translations>
+    <!--
 <Translation>
-  <Keyword>LoadedMeshes</Keyword>
-  <Text>Maillages chargées: </Text>
+<Keyword></Keyword>
+<Text></Text>
 </Translation>
-<Translation>
-  <Keyword>AboutBox</Keyword>
-  <Text>a propos de...</Text>
-</Translation>
-<Translation>
-  <Keyword>ClearAll</Keyword>
-  <Text>Supprimer touts les maillages</Text>
-</Translation>
-<Translation>
-  <Keyword>AboutWindow</Keyword>
-  <Text>a propos de</Text>
-</Translation>
-<Translation>
-  <Keyword>Settings</Keyword>
-  <Text>Réglages</Text>
-</Translation>
-<Translation>
-  <Keyword>LoadData</Keyword>
-  <Text>Charger donées</Text>
-</Translation>
-<Translation>
-  <Keyword>LoadAdditionalData</Keyword>
-  <Text>Charger données supplémentaires ...</Text>
-</Translation>
-<Translation>
-  <Keyword>HideObject</Keyword>
-  <Text>Cacher object</Text>
-</Translation>
-<Translation>
-  <Keyword>RemoveObject</Keyword>
-  <Text>Retirer l'objet </Text>
-</Translation>
-<Translation>
-  <Keyword>Screenshot</Keyword>
-  <Text>Capture d'écran </Text>
-</Translation>
-<Translation>
-  <Keyword>SelectObjectDialogHeader</Keyword>
-  <Text>Sélectionner l'objet à visualiser</Text>
-</Translation>
-<Translation>
-  <Keyword>SelectMultipleObjectsDialogHeader</Keyword>
-  <Text>Sélectionner l'objet à visualiser </Text>
-</Translation>
-<Translation>
-  <Keyword>Group</Keyword>
-  <Text>Groupe</Text>
-</Translation>
-<Translation>
-  <Keyword>File.AllSupported</Keyword>
-  <Text>Tous pris en charge </Text>
-</Translation>
-<Translation>
-  <Keyword>File.AllTriang</Keyword>
-  <Text>Tous triangulés pris en charge </Text>
-</Translation>
-<Translation>
-  <Keyword>File.AllPointClouds</Keyword>
-  <Text>Tous les nuages ​​de points pris en charge</Text>
-</Translation>
-<Translation>
-  <Keyword>PointCloud</Keyword>
-  <Text>Ombrage plat</Text>
-</Translation>
-<Translation>
-  <Keyword>VisualProperties</Keyword>
-  <Text>Représentation</Text>
-</Translation>
-<Translation>
-  <Keyword>ReloadGroupObjects</Keyword>
-  <Text>Recharger groupe</Text>
-</Translation>
-<Translation>
-  <Keyword>ReloadObject</Keyword>
-  <Text>Recharger</Text>
-</Translation>
-<Translation>
-  <Keyword>AlwaysFlatShading</Keyword>
-  <Text>Ombrage plat</Text>
-</Translation>
-<Translation>
-  <Keyword>LicenseUpdateErrorRun</Keyword>
-  <Text>Erreur: Cette licence n'est pas à jour pour ce exoImplantEditor avec la version {0}.
-
-S'il vous plaît vérifiez le statu de votre license en exécutant la dernière DentalCADApp.exe et en ouvrant la fenêtre "A propos de". Double-cliquez sur le logo pour déclencher une mise à jour.</Text>
-</Translation>
-<Translation>
-  <Keyword>MeshIsNotCompletelyClosed</Keyword>
-  <Text>Attention: Le maillage est pas complètement fermé ({0} points limites, {1} bords ouverts, Euler = {2}). </Text>
-</Translation>
-<Translation>
-  <Keyword>AnalyzeObjectContextMenu</Keyword>
-  <Text>Analyse...</Text>
-</Translation>
-<Translation>
-  <Keyword>MeshIsCompletelyClosed</Keyword>
-  <Text>Le maillage est complètement fermé sans trous (Euler = {0}). </Text>
-</Translation>
-<Translation>
-  <Keyword>WarningMeshInvalid2ManifoldPoints</Keyword>
-  <Text>Attention: Le maillage a {0} points de topologie de surface incorrectes! </Text>
-</Translation>
-</Translations></TranslationContainer>
+-->
+    <Translation>
+      <Keyword>LoadedMeshes</Keyword>
+      <Text>Maillages chargées: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClearAll</Keyword>
+      <Text>Enlevez tous les objets</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AboutWindow</Keyword>
+      <Text>À propos de</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Settings</Keyword>
+      <Text>Réglages</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadData</Keyword>
+      <Text>Charger donées</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadAdditionalData</Keyword>
+      <Text>Charger données suplèmentaires</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HideObject</Keyword>
+      <Text>Cacher object</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RemoveObject</Keyword>
+      <Text>Retirer l'objet </Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectObjectDialogHeader</Keyword>
+      <Text>Sélectionner l'objet à visualiser</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectMultipleObjectsDialogHeader</Keyword>
+      <Text>Sélectionner l'objet à visualiser </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Group</Keyword>
+      <Text>Groupe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>File.AllSupported</Keyword>
+      <Text>Tous les supportés</Text>
+    </Translation>
+    <Translation>
+      <Keyword>File.AllTriang</Keyword>
+      <Text>Tous les maillages triangulaires supportés</Text>
+    </Translation>
+    <Translation>
+      <Keyword>File.AllPointClouds</Keyword>
+      <Text>Tous les points supportés</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReloadGroupObjects</Keyword>
+      <Text>Recharger groupe</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReloadObject</Keyword>
+      <Text>Recharger</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AlwaysFlatShading</Keyword>
+      <Text>Ombrage plat</Text>
+    </Translation>
+  </Translations>
+</TranslationContainer>

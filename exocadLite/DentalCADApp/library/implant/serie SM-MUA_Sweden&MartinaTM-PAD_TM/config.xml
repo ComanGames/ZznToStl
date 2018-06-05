@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>false</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Sweden &amp; Martina® PAD®</DisplayInformation>
+  <Producer>Sweden &amp; Martina®</Producer>
+  <SystemName>PAD®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Sweden &amp; Martina® PAD® series</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>PAD Multi Unit</DisplayInformation>
+      <Keyword>PAD_MU</Keyword>
+      <ImplantFilename>Implant_PAD.stl</ImplantFilename>
+      <ScrewFilename>Z_screw_PAD.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD1431</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>noHex_PAD.stl</SupportFilename>
+          <LibraryIdentifier>BSAE1431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide</DisplayInformation>
+          <SupportFilename>noHexW_PAD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE1431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB1481</DisplayInformation>
+          <SupportFilename>I-Parallel_PAD.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <ImplantFilename>Implant_P_PAD.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB1481</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.5-Conical</Keyword>
+          <DisplayInformation>Conical BSAD1431</DisplayInformation>
+          <SupportFilename>I-cone_PAD.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <ImplantFilename>Implant_C_PAD.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD1431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

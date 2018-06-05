@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
-    <!-- Please try to put customer-specific settings in the beginning of the file -->
-    <!-- End of customer-specific settings -->
-    <!-- ================================= -->
-    <!-- ********************************* -->
-    <!-- ================================= -->
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>DentalProcessorControls.SpaceRuler.Title</Keyword>
       <Text>Μετρητής απόστασης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.OffsetCopingProcessor.MenuEntry</Keyword>
-      <Text>Δημιουργεία καλύπτρας </Text>
+      <Text>Δημιουργεία απλής στεφάνης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.OffsetCopingProcessor.MenuEntry.Plural</Keyword>
-      <Text>Δημιουργεία καλυπτρών  </Text>
+      <Text>Δημιουργεία απλής στεφάνης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.TiltProjectProcessor.Button</Keyword>
@@ -24,19 +25,11 @@
     </Translation>
     <Translation>
       <Keyword>SetByArea</Keyword>
-      <Text>Οριοθέτηση τομής συνδέσμου</Text>
+      <Text>Οριοθέτηση τομής</Text>
     </Translation>
     <Translation>
       <Keyword>ApplyAreaShapeChange</Keyword>
-      <Text>Εφαρμογή τομής/αλλαγής σχήματος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InlayBottomProcessor.DescriptionText</Keyword>
-      <Text>Δημιουργεία βάσης Inlay</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InlayBottomProcessor.WizardNext</Keyword>
-      <Text></Text>
+      <Text>Χρήση τομής/αλλαγής τμήματος</Text>
     </Translation>
     <Translation>
       <Keyword>DockingPlace</Keyword>
@@ -44,7 +37,7 @@
     </Translation>
     <Translation>
       <Keyword>AdvancedOptions</Keyword>
-      <Text>Προχωρημένες επιλογές </Text>
+      <Text>Περισσότερες επιλογές</Text>
     </Translation>
     <Translation>
       <Keyword>BrushStyle</Keyword>
@@ -56,7 +49,7 @@
     </Translation>
     <Translation>
       <Keyword>Brush.PointOfKnife</Keyword>
-      <Text>Μύτη νυστεριού</Text>
+      <Text>Μύτη απο νυστέρι</Text>
     </Translation>
     <Translation>
       <Keyword>Brush.Default</Keyword>
@@ -64,31 +57,35 @@
     </Translation>
     <Translation>
       <Keyword>Brush.Cylinder</Keyword>
-      <Text>Κύλινδρος</Text>
+      <Text>Κύλινδρικό</Text>
     </Translation>
     <Translation>
       <Keyword>MovementDirection</Keyword>
-      <Text>Κίνηση:</Text>
+      <Text>Κίνηση</Text>
     </Translation>
     <Translation>
       <Keyword>HoldPartsFixed</Keyword>
-      <Text>Ακινητοποίηση τμημάτων:</Text>
+      <Text>Ακίνητα κολοβώματα</Text>
     </Translation>
     <Translation>
       <Keyword>SetByHeightWidth</Keyword>
-      <Text>Ρύθμιση ύψους/πλάτους συνδέσμου</Text>
+      <Text>Ρύθμιση ύψους/πλάτους</Text>
     </Translation>
     <Translation>
       <Keyword>HoldFissures</Keyword>
-      <Text>Αύλακες </Text>
+      <Text>Βοθρία</Text>
     </Translation>
     <Translation>
       <Keyword>HoldCuspTips</Keyword>
-      <Text>Κορυφές φυμάτων </Text>
+      <Text>Ακρολοφίες</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HoldEquator</Keyword>
+      <Text>Äquator</Text>
     </Translation>
     <Translation>
       <Keyword>ConnectorProfiles</Keyword>
-      <Text>Επιλογή προφίλ συνδέσμου</Text>
+      <Text>Επιλογή μεσοδόντιου</Text>
     </Translation>
     <Translation>
       <Keyword>Height</Keyword>
@@ -108,23 +105,27 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.DeleteReconstructionsProcessor.Title</Keyword>
-      <Text>Διαγραφή δομών</Text>
+      <Text>Διαγραφή εργασίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.OverPressProcessor.Title</Keyword>
+      <Text>Πρεσσαριστά</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.TiltProjectProcessor.Title</Keyword>
-      <Text>Ρύθμιση Προσανατολισμού δεδομένων σάρωσης</Text>
+      <Text>Διευθέτηση σάρωσης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.TiltProjectProcessor.MenuEntry</Keyword>
-      <Text>Ρύθμιση Προσανατολισμού δεδομένων σάρωσης </Text>
+      <Text>Διευθέτηση σάρωσης...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.TiltProjectProcessor.MenuEntry.Plural</Keyword>
-      <Text>Ρύθμιση Προσανατολισμού δεδομένων σάρωσης </Text>
+      <Text>Διευθέτηση σάρωσης...</Text>
     </Translation>
     <Translation>
       <Keyword>AboutBox</Keyword>
-      <Text>Σχετικά...</Text>
+      <Text>Για</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessorControls.GroupSelector.Title</Keyword>
@@ -132,7 +133,7 @@
     </Translation>
     <Translation>
       <Keyword>ClickNext</Keyword>
-      <Text>Κάντε κλικ στο 'Επόμενο' για να συνεχίσετε</Text>
+      <Text>'Επόμενο' πατήστε για συνέχια</Text>
     </Translation>
     <Translation>
       <Keyword>FeatureLineWorkerResult_Ignored</Keyword>
@@ -140,7 +141,7 @@
     </Translation>
     <Translation>
       <Keyword>NoProjectLoaded</Keyword>
-      <Text>Δεν έχει φορτωθεί περιστατικό </Text>
+      <Text>Δεν έχει φορτωθεί εργασία</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MinThicknessProcessor.Title</Keyword>
@@ -152,7 +153,7 @@
     </Translation>
     <Translation>
       <Keyword>ClickOnPrepline</Keyword>
-      <Text>Κάντε κλικ στην αυχενική γραμμή</Text>
+      <Text>Επιλέξτε όριο δοντιού!</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessorControls.ControlHostWizard.Title</Keyword>
@@ -160,15 +161,15 @@
     </Translation>
     <Translation>
       <Keyword>ToothNo</Keyword>
-      <Text>Δόντι</Text>
+      <Text>Δόντι {0}</Text>
     </Translation>
     <Translation>
       <Keyword>FeatureLineWorkerResult_NeedMoreUserInput</Keyword>
-      <Text>Κάντε κλικ σε ένα άλλο σημείο του αυχένα </Text>
+      <Text>Επόμενα όρια-Επιλογή σημείου!</Text>
     </Translation>
     <Translation>
       <Keyword>FeatureLineWorkerResult_Success</Keyword>
-      <Text>Αναγνώρηση αυχενικού ορίου για</Text>
+      <Text>Αναγνώρηση ορίου για</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessorControls.ControlToolbar.Title</Keyword>
@@ -180,11 +181,11 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MergePartsProcessor.Title</Keyword>
-      <Text>Συγχώνευση και αποθήκευση αποκαταστάσεων </Text>
+      <Text>Συνχώνευση</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MergePartsProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για συνχώνευση τμημάτων στην αποκατάσταση</Text>
+      <Text>'Επόμενο' για συνχώνευση μερών</Text>
     </Translation>
     <Translation>
       <Keyword>ImportErrors</Keyword>
@@ -192,15 +193,15 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PrimaryTelescopeProcessor.Title</Keyword>
-      <Text>Πρωτεύον Τηλεσκοπικό</Text>
+      <Text>Πρωτέυον τηλεσκοπικό</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PrimaryTelescopeProcessor.MenuEntry.Plural</Keyword>
-      <Text>Πρωτεύοντα Τηλεσκοπικά</Text>
+      <Text>Πρωτέυον τηλεσκοπικό...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PrimaryTelescopeProcessor.MenuEntry</Keyword>
-      <Text>Πρωτεύον Τηλεσκοπικό...</Text>
+      <Text>Δευτερεύον τηλεσκοπικό...</Text>
     </Translation>
     <Translation>
       <Keyword>toothNumberTextTextBlock</Keyword>
@@ -212,47 +213,35 @@
     </Translation>
     <Translation>
       <Keyword>MesialDistalOnly</Keyword>
-      <Text> Εγγύς/Άπω Μόνο</Text>
+      <Text> Εγγύς/Άπω</Text>
     </Translation>
     <Translation>
       <Keyword>BuccalLingualOnly</Keyword>
-      <Text>Παρειακά/Γλωσσικά Μόνο</Text>
+      <Text>Παριακά/Γλωσσικά</Text>
     </Translation>
     <Translation>
       <Keyword>HintPreplineDetection1</Keyword>
-      <Text>Συμβουλή: Σημειώστε σημείο στην παρειακή πλευρά </Text>
+      <Text>Συμβουλή: Σημειώστε το σημείο παριακά.</Text>
     </Translation>
     <Translation>
       <Keyword>HintPreplineDetection2</Keyword>
-      <Text>Αν απαιτείται, δεύτερο στη γλωσσική πλευρά.</Text>
+      <Text>Αν είναι απαραίτητο, δεύτερο γλωσσικά.</Text>
     </Translation>
     <Translation>
       <Keyword>MesialDistalBuccalLingual</Keyword>
-      <Text>Εγγύς/Άπω + Παρειακά/Γλωσσικά</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DiscardCurrentGreenCurveQuestion</Keyword>
-      <Text>Θέλετε να απορρίψετε την τρέχουσα πράσινη κυκλική καμπύλη; </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ChangePreparationLight</Keyword>
-      <Text>Ρύθμιση Φωτός</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ChangePreparationLight.ToolTip</Keyword>
-      <Text>Ρύθμιση Φωτός απο τη φορά προβολής</Text>
+      <Text>Εγγύς/Άπω + Παριακά/Γλωσσικά</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationMarginProcessor.needInput</Keyword>
-      <Text>Κάντε κλικ άλλο σημείο αυχένα</Text>
+      <Text>Επιλογή επόμενου σημείου!</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationMarginProcessor.FoundLine</Keyword>
-      <Text>Αυχένας διαθέσιμος.</Text>
+      <Text>Αναγνώριση ορίου.</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationMarginProcessor.pressStart</Keyword>
-      <Text>Κάντε κλικ σε ένα άλλο σημείο </Text>
+      <Text>Επιλογή επόμενων σημείων</Text>
     </Translation>
     <Translation>
       <Keyword>pleaseWait</Keyword>
@@ -272,7 +261,7 @@
     </Translation>
     <Translation>
       <Keyword>Stop</Keyword>
-      <Text>Παύση</Text>
+      <Text>Στοπ</Text>
     </Translation>
     <Translation>
       <Keyword>Clear</Keyword>
@@ -280,7 +269,7 @@
     </Translation>
     <Translation>
       <Keyword>finished</Keyword>
-      <Text>Ολοκλήρωση</Text>
+      <Text>Έτοιμο</Text>
     </Translation>
     <Translation>
       <Keyword>ViewerObject.VisualizeDistances.ThicknessOnly</Keyword>
@@ -288,23 +277,27 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.Title</Keyword>
-      <Text>Περιοχή ένθεσης δοντιών </Text>
+      <Text>Αυχένες δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MergePartsProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία συγχώνευσης ...</Text>
+      <Text>Ετοιμασία συναρμογής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InsertionDirectionProcessor.DescriptionText</Keyword>
+      <Text>Επεξεργασμένη φορά ένθεσης...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.DescriptionText</Keyword>
-      <Text>Δημιουργία περιοχών ένθεσης </Text>
+      <Text>Τελιωμένοι αυχένες δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationMarginProcessor.DescriptionText</Keyword>
-      <Text>Ανίχνευση αυχενικής γραμμής</Text>
+      <Text>Αναγνώριση ορίου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPreparationMarginProcessor.DescriptionText</Keyword>
-      <Text>Διόρθωση αυχενικής γραμμής </Text>
+      <Text>Διόρθωση ορίου</Text>
     </Translation>
     <Translation>
       <Keyword>Processing</Keyword>
@@ -312,19 +305,19 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία συρρίκνωσης...</Text>
+      <Text>Προετοιμασία συρρικνωσης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadToothmodelProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία σύνταξης δοντιών...</Text>
+      <Text>Φόρτωση κολοβωμάτων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.Button</Keyword>
-      <Text>Περιοχές ένθεσης</Text>
+      <Text>Αυχένες</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.Button.Tooltip</Keyword>
-      <Text>Δημιουργία περιοχών ένθεσης  </Text>
+      <Text>Δημιουργεία αυχένων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.Button</Keyword>
@@ -332,71 +325,71 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.Button</Keyword>
-      <Text>Σύνδεσμος </Text>
+      <Text>Μεσοδόντιο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.Button.Tooltip</Keyword>
-      <Text>Δημιουργεία συνδέσμων</Text>
+      <Text>Δημιουργεία μεσοδόντιου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.MenuEntry</Keyword>
-      <Text>Σύνδεσμος...</Text>
+      <Text>Μεσοδόντιο...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MergePartsProcessor.MenuEntry</Keyword>
-      <Text>Συγχώνευση και αποθήκευση αποκαταστάσης...</Text>
+      <Text>Αποθήκευση εργασίας...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.MergePartsProcessor.MasterMenuEntry</Keyword>
+      <Text>Αποθήκευση εργασίας...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MergePartsProcessor.MenuEntry.Plural</Keyword>
-      <Text>Συγχώνευση και αποθήκευση αποκαταστάσεων... </Text>
+      <Text>Αποθήκευση εργασιών...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.MenuEntry.Plural</Keyword>
-      <Text>Σύνδεσμοι...</Text>
+      <Text>Μεσοδόντιο...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.Button.Tooltip</Keyword>
-      <Text>Συρρίκνωση δοντιών</Text>
+      <Text>Συρίκνωση δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.MenuEntry</Keyword>
-      <Text>Συρρίκνωση δοντιού...</Text>
+      <Text>Συρίκνωση δοντιών...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.MenuEntry.Plural</Keyword>
-      <Text>Συρρίκνωση δοντιών...</Text>
+      <Text>Συρίκνωση δοντιών...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.DumpDentalDataProcessor.MenuEntry</Keyword>
       <Text>Εμφάνιση δεδομένων δοντιού</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ConnectorProcessor.WizardNext</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.DescriptionText</Keyword>
-      <Text>Δημιουργεία συνδέσμων... </Text>
+      <Text>Έτοιμο μεσοδόντιο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.WizardNext</Keyword>
-      <Text>Κάντε κλικ στο 'Επόμενο' για να συρρικνωθεί</Text>
+      <Text>'Επόμενο' πατήστε για συρίκνωση</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPlacementProcessor.MenuEntry</Keyword>
-      <Text>Διόρθωση τοποθέτησης...</Text>
+      <Text>Διόρθωση θέσης...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.CorrectPlacementProcessor.MoveHeader</Keyword>
+      <Text>Διόρθωση θέσης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPlacementProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για να επανατροποποιήσετε την τοποθέτηση γεφυρώματος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.CorrectPlacementProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία διόρθωσης τοποθέτησης...</Text>
+      <Text>'Επόμενο' για διόρθωση στηριγμάτων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPlacementProcessor.MenuEntry.Plural</Keyword>
-      <Text>Διόρθωση τοποθέτησης...</Text>
+      <Text>Διόρθωση θέσης...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.DumpDentalDataProcessor.MenuEntry.Plural</Keyword>
@@ -404,11 +397,11 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ReconstructionSelectionProcessor.MenuEntry</Keyword>
-      <Text>Επιλογή τύπου στοιχείου...</Text>
+      <Text>Επιλογή ανακατασκεύης...</Text>
     </Translation>
     <Translation>
       <Keyword>ReallyCloseToolbar</Keyword>
-      <Text>Πραγματικά θέλετε να κλείσετε τη γραμμή εργαλείων;</Text>
+      <Text>Κλέισιμο μπάρας εργαλείων?</Text>
     </Translation>
     <Translation>
       <Keyword>ReallyCloseToolbar.Title</Keyword>
@@ -416,23 +409,19 @@
     </Translation>
     <Translation>
       <Keyword>ReallyAbortWizard</Keyword>
-      <Text>Πραγματικά επιθυμείτε να εγκαταλείψετε τον οδηγό;</Text>
+      <Text>Διακοπή της επισκόπησης?</Text>
     </Translation>
     <Translation>
       <Keyword>ReallyAbortWizard.Title</Keyword>
-      <Text>Κλείσιμο οδηγού</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CloseWizardAcceptChangesQuestion</Keyword>
-      <Text>Χρησιμοποίηση αλλαγών πριν το κλείσιμο της επισκόπησης?</Text>
+      <Text>Διακοπή επισκόπησης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.MenuEntry</Keyword>
-      <Text>Περιοχή ένθεσης στεφάνης...</Text>
+      <Text>Αυχένας δοντιού...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CrownBottomProcessor.MenuEntry.Plural</Keyword>
-      <Text>Περιοχές ένθεσης στεφάνης...</Text>
+      <Text>Αυχένες δοντιών...</Text>
     </Translation>
     <Translation>
       <Keyword>AdaptedModel</Keyword>
@@ -440,51 +429,51 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationMarginProcessor.Title</Keyword>
-      <Text>Ανίχνευση αυχενικής γραμμής </Text>
+      <Text>Αναγνώριση ορίου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationMarginProcessor.MenuEntry</Keyword>
-      <Text>Ανίχνευση αυχενικής γραμμής</Text>
+      <Text>Αναγνώριση ορίου...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationMarginProcessor.MenuEntry.Plural</Keyword>
-      <Text>Ανίχνευση επόμενου αυχένα....</Text>
+      <Text>Επόμενη αναγνώριση ορίου...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPreparationMarginProcessor.Title</Keyword>
-      <Text>Επιδιόρθωση αυχενικής γραμμής </Text>
+      <Text>Επιδιόρθωση ορίων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPreparationMarginProcessor.MenuEntry</Keyword>
-      <Text>Επιδιόρθωση αυχενικής γραμμής... </Text>
+      <Text>Επιδιόρθωση ορίου...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPreparationMarginProcessor.MenuEntry.Plural</Keyword>
-      <Text>Επιδιόρθωση αυχενικής γραμμής... </Text>
+      <Text>Επιδιόρθωση ορίου...</Text>
     </Translation>
     <Translation>
       <Keyword>CloseProject</Keyword>
-      <Text>Κλείσιμο περιστατικού </Text>
+      <Text>Κλείσιμο εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>UnsegmentedJaw</Keyword>
-      <Text>Σάρωση γνάθου</Text>
+      <Text>Ολόκληρη γνάθος</Text>
     </Translation>
     <Translation>
       <Keyword>SaveScene</Keyword>
-      <Text>Αποθήκευση σκηνής ως...</Text>
+      <Text>Αποθήκευση αποσπάσματος ...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ReconstructionSelectionProcessor.MenuEntry.Plural</Keyword>
-      <Text>Επιλογή επόμενου τύπου στοιχείου...</Text>
+      <Text>Επιλογή αποκατάστασης...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.JawSegmentationProcessor.MenuEntry</Keyword>
-      <Text>Διατομή Γνάθου...</Text>
+      <Text>Διαμόρφωση Γνάθου...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.JawSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>Διατομή Γνάθου... </Text>
+      <Text>Διαμόρφωση Γνάθου...</Text>
     </Translation>
     <Translation>
       <Keyword>GingivaDistance</Keyword>
@@ -496,7 +485,7 @@
     </Translation>
     <Translation>
       <Keyword>LoadScene</Keyword>
-      <Text>Φόρτωση σκηνής...</Text>
+      <Text>Φόρτωση μερών...</Text>
     </Translation>
     <Translation>
       <Keyword>LoadJaw</Keyword>
@@ -504,7 +493,7 @@
     </Translation>
     <Translation>
       <Keyword>ShowToolbar</Keyword>
-      <Text>Εμφάνιση γραμμής εργαλείων</Text>
+      <Text>Εμφάνιση εργαλείων</Text>
     </Translation>
     <Translation>
       <Keyword>Freeforming</Keyword>
@@ -512,7 +501,7 @@
     </Translation>
     <Translation>
       <Keyword>AddRemoveMaterial</Keyword>
-      <Text>Προσθήκη/Αφαίρεση</Text>
+      <Text>Προσθαφαίρεση</Text>
     </Translation>
     <Translation>
       <Keyword>Smooth/Flatten</Keyword>
@@ -520,7 +509,7 @@
     </Translation>
     <Translation>
       <Keyword>Strength</Keyword>
-      <Text>Αντοχή</Text>
+      <Text>Πάχος</Text>
     </Translation>
     <Translation>
       <Keyword>BrushSize</Keyword>
@@ -532,7 +521,7 @@
     </Translation>
     <Translation>
       <Keyword>DeformCuspTips</Keyword>
-      <Text>Κορυφές φυμάτων</Text>
+      <Text>Ακρολοφίες</Text>
     </Translation>
     <Translation>
       <Keyword>DeformToothParts</Keyword>
@@ -556,35 +545,31 @@
     </Translation>
     <Translation>
       <Keyword>Buccal/LingualOnly</Keyword>
-      <Text>Μόνο παρειακά/γλωσσικά</Text>
+      <Text>Μόνο παριακά/γλωσσικά</Text>
     </Translation>
     <Translation>
       <Keyword>BORDER</Keyword>
-      <Text>Όριο</Text>
+      <Text>Rand</Text>
     </Translation>
     <Translation>
       <Keyword>UnderCuts</Keyword>
-      <Text>Εσοχές</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UndercutsTab</Keyword>
-      <Text>Υποσκαφή</Text>
+      <Text>Υποσκαφές</Text>
     </Translation>
     <Translation>
       <Keyword>DontBlockOutUndercuts</Keyword>
-      <Text>Διατήρηση εσοχών</Text>
+      <Text>Διατήρηση των υποσκαφών</Text>
     </Translation>
     <Translation>
       <Keyword>BlockOutFromToothAxis</Keyword>
-      <Text>Aπαλειφή εσοχών βάση του οδοντικού άξονα</Text>
+      <Text>Aπαλειφή υποσκαφών βάση του αξονικού τοιχώματος</Text>
     </Translation>
     <Translation>
       <Keyword>BlockOutFromMainAxis</Keyword>
-      <Text>Aπαλειφή υποσκαφών βάση του κύριου άξονα</Text>
+      <Text>Aπαλειφή υποσκαφών βάση της φορά ένθεσης</Text>
     </Translation>
     <Translation>
-      <Keyword>AnticipateMilling</Keyword>
-      <Text>Πρόβλεψη τροχίσματος</Text>
+      <Keyword>BlockOutDiameter</Keyword>
+      <Text>Διάμετρος</Text>
     </Translation>
     <Translation>
       <Keyword>DIAMETER</Keyword>
@@ -604,7 +589,7 @@
     </Translation>
     <Translation>
       <Keyword>HorizontalSize</Keyword>
-      <Text>1. Οριζόντια</Text>
+      <Text>Οριζόντια</Text>
     </Translation>
     <Translation>
       <Keyword>Size</Keyword>
@@ -616,19 +601,19 @@
     </Translation>
     <Translation>
       <Keyword>VerticalSize</Keyword>
-      <Text>4. Κάθετα</Text>
+      <Text>Κάθετα</Text>
     </Translation>
     <Translation>
       <Keyword>AngledSize</Keyword>
-      <Text>2. Μήκος γωνίωσης</Text>
+      <Text>Γωνίακα</Text>
     </Translation>
     <Translation>
       <Keyword>ANGLE</Keyword>
-      <Text>3. Γωνία</Text>
+      <Text>Γωνία</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ConnectorProcessor.Title</Keyword>
-      <Text>Σύνδεσμοι</Text>
+      <Text>Μεσοδόντιο</Text>
     </Translation>
     <Translation>
       <Keyword>SetDockingPlace</Keyword>
@@ -636,35 +621,35 @@
     </Translation>
     <Translation>
       <Keyword>Area</Keyword>
-      <Text>Ελάχιστη περιοχή </Text>
+      <Text>Τομή</Text>
     </Translation>
     <Translation>
       <Keyword>Apply</Keyword>
-      <Text>Εφαρμογή</Text>
+      <Text>Χρήση</Text>
     </Translation>
     <Translation>
       <Keyword>ShowWizard</Keyword>
-      <Text>Οδηγός</Text>
+      <Text>Επισκόπιση</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformProcessor.MenuEntry</Keyword>
-      <Text>Ελεύθερη σχεδίαση...</Text>
+      <Text>Ελεύθερο...</Text>
     </Translation>
     <Translation>
       <Keyword>CommandlineFileNotFound</Keyword>
-      <Text>Το αρχείο που καθορίζεται στη γραμμή εντολών δεν βρέθηκε. </Text>
+      <Text>Δεν βρέθηκε το παραπάνω έγγραφο.</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformProcessor.WizardNext</Keyword>
-      <Text>Κάντε κλικ στο 'Επόμενο' για ελεύθερη σχεδίαση</Text>
+      <Text>'Επόμενο' για ελεύθερο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία ελεύθερης σχεδίασης</Text>
+      <Text>Ετοιμάζω ελεύθερο για</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformProcessor.MenuEntry.Plural</Keyword>
-      <Text>Ελεύθερη σχεδίαση....</Text>
+      <Text>Ελεύθερο...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.DestroyReconstructionsProcessor.MenuEntry</Keyword>
@@ -788,7 +773,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.CorrectPlacementProcessor.Title</Keyword>
-      <Text>Τοποθέτηση δοντιού </Text>
+      <Text>Θέση δοντιού</Text>
     </Translation>
     <Translation>
       <Keyword>MoveModel</Keyword>
@@ -796,11 +781,7 @@
     </Translation>
     <Translation>
       <Keyword>PonticBottomDeformation</Keyword>
-      <Text>Γεφύρωμα </Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectPlacementApplyToAll</Keyword>
-      <Text>Μετακίνηση όλων ταυτόχρονα</Text>
+      <Text>Στήριγμα</Text>
     </Translation>
     <Translation>
       <Keyword>RotateModel</Keyword>
@@ -812,55 +793,55 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdaptToothmodelProcessor.WizardNext</Keyword>
-      <Text>Κάντε κλικ στο 'Επόμενο' για προσαρμογή των οδοντικών μοντέλων</Text>
+      <Text>'Επόμενο' για εφαρμογή στο μοντέλο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.SaveToothBowProcessor.MenuEntry</Keyword>
-      <Text>Αποθήκευση οδοντικού τόξου στο αρχείο</Text>
+      <Text>Αποθήκευση τόξου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.SaveToothBowProcessor.MenuEntry.Plural</Keyword>
-      <Text>Αποθήκευση οδοντικού τόξου στο αρχείο </Text>
+      <Text>Αποθήκευση τόξου</Text>
     </Translation>
     <Translation>
       <Keyword>LoadProject</Keyword>
-      <Text>Φόρτωση περιστατικού...</Text>
+      <Text>Φόρτωση εργασίας...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadCustomToothmodelProcessor.Error</Keyword>
-      <Text>Σφάλμα κατα την φόρτωση οδοντικών μοντέλων για δόντι</Text>
+      <Text>Λάθος κατα την φόρτωση εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadCustomToothmodelProcessor.Title</Keyword>
-      <Text>Φόρτωση Εξατομικευμένου Οδοντικού Τύπου</Text>
+      <Text>Επιλογή άλλων μοντέλων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadToothmodelProcessor.Error</Keyword>
-      <Text>Σφάλμα κατα την φόρτωση οδοντικών μοντέλων για δόντι </Text>
+      <Text>Λάθος κατα την φόρτωση εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>ModelFileNotFound</Keyword>
-      <Text>Δεν βρέθηκε το αρχείο βιβλιοθήκης μοντέλου</Text>
+      <Text>Δεν βρέθηκε το αρχείο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdaptToothmodelProcessor.Title</Keyword>
-      <Text>Δημιουργεία στεφανών</Text>
+      <Text>Δημιουρφεία στεφανών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdaptToothmodelProcessor.DescriptionText</Keyword>
-      <Text>Εφαρμογή οδοντικών μοντέλων</Text>
+      <Text>Εφαρμογή των δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadToothmodelProcessor.Title</Keyword>
-      <Text>Φόρτωση των προεπιλεγμένων μοντέλων</Text>
+      <Text>Φόρτωση των τυπικών μοντέλων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.OffsetCopingProcessor.Title</Keyword>
-      <Text>Δημιουργεία καλυπτρών</Text>
+      <Text>Απλή στεφάνη</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.OffsetCopingProcessor.DescriptionText</Keyword>
-      <Text>Δημιουργεία καλυπτρών </Text>
+      <Text>Έτοιμη απλή καλύπτρα</Text>
     </Translation>
     <Translation>
       <Keyword>Depth</Keyword>
@@ -868,23 +849,19 @@
     </Translation>
     <Translation>
       <Keyword>Shrink</Keyword>
-      <Text>Συρρίκνωση</Text>
+      <Text>Συρίκνωση</Text>
     </Translation>
     <Translation>
       <Keyword>SelectPartsOnTooth</Keyword>
-      <Text>Χρωματίστε στα δόντια για να επιλέξετε εξαιρούμενα τμήματα.</Text>
+      <Text>Επιλογή επιφάνειας στο δόντι</Text>
     </Translation>
     <Translation>
       <Keyword>ShrinkUnselectedParts</Keyword>
-      <Text>Εξαίρεση επιλεγμένων τμημάτων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ShrinkBrushResetQuestion</Keyword>
-      <Text>Συρρίκνωση όλων? [Ναι] Καμία συρρίκνωση? [Όχι]</Text>
+      <Text>Συρίκνωση μη επιλεγμένων επιφανειών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShrinkProcessor.Title</Keyword>
-      <Text>Συρρίκνωση</Text>
+      <Text>Συρίκνωση</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MinThicknessProcessor.MenuEntry</Keyword>
@@ -896,19 +873,19 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadToothmodelProcessor.MenuEntry</Keyword>
-      <Text>Φόρτωση προεπιλεγμένου τύπου δοντιού</Text>
+      <Text>Φόρτωση τυπικού εκμαγείου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadToothmodelProcessor.MenuEntry.Plural</Keyword>
-      <Text>Φόρτωση προεπιλεγμένου τύπου δοντιών</Text>
+      <Text>Φόρτωση τυπικών μοντέλων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdaptToothmodelProcessor.MenuEntry</Keyword>
-      <Text>Προσαρμογή οδοντικού μοντέλου</Text>
+      <Text>Εφαρμογή εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdaptToothmodelProcessor.MenuEntry.Plural</Keyword>
-      <Text>Προσαρμογή οδοντικών μοντέλων</Text>
+      <Text>Εφαρμογή εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShowAxisProcessor.MenuEntry</Keyword>
@@ -920,35 +897,35 @@
     </Translation>
     <Translation>
       <Keyword>SelectLibrary</Keyword>
-      <Text>Βιβλιοθήκη Δοντιών προς χρήση:</Text>
+      <Text>Βιβλιοθήκη:</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ShowAxisProcessor.MenuEntry.Plural</Keyword>
-      <Text>Εμφάνιση/απόκρυψη αξόνων δοντιών</Text>
+      <Text>Εμφάνιση/απόκρυψη αξόνων δοντιού</Text>
     </Translation>
     <Translation>
       <Keyword>LibraryModel</Keyword>
-      <Text>Μοντέλο βιβλιοθήκης</Text>
+      <Text>Μοντέλο</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadCustomToothmodelProcessor.MenuEntry</Keyword>
-      <Text>Φόρτωση οδοντικού μοντέλου...</Text>
+      <Text>Αλλαγή επιλεγόμενης εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.LoadCustomToothmodelProcessor.MenuEntry.Plural</Keyword>
-      <Text>Φόρτωση οδοντικών μοντέλων...</Text>
+      <Text>Αλλαγή επιλεγόμενης εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>FromFile</Keyword>
-      <Text>Φόρτωση απο αρχείο...</Text>
+      <Text>Επιλογή αρχείου</Text>
     </Translation>
     <Translation>
       <Keyword>LoadCustomToothmodelProcessorControl.SelectToothmodelToLoad</Keyword>
-      <Text>Επιλέξτε ενα οδοντικό μοντέλο προς φόρτωση</Text>
+      <Text>Επιλογή εκμαγείου</Text>
     </Translation>
     <Translation>
       <Keyword>LoadCustomToothmodelProcessor.Title</Keyword>
-      <Text>Φόρτωση οδοντικού μοντέλου</Text>
+      <Text>Επιλογή εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>Antagonist</Keyword>
@@ -960,7 +937,7 @@
     </Translation>
     <Translation>
       <Keyword>VisualProperties</Keyword>
-      <Text>Οπτικές ιδιότητες</Text>
+      <Text>Παράσταση</Text>
     </Translation>
     <Translation>
       <Keyword>Illumination</Keyword>
@@ -969,6 +946,10 @@
     <Translation>
       <Keyword>Wireframe</Keyword>
       <Text>Πλέγμα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ToggleTexture1</Keyword>
+      <Text>Toggle Texture</Text>
     </Translation>
     <Translation>
       <Keyword>PointCloud</Keyword>
@@ -988,7 +969,7 @@
     </Translation>
     <Translation>
       <Keyword>InvertOrientation</Keyword>
-      <Text>Αναστροφή προσανατολισμού τριγώνων</Text>
+      <Text>Αναστροφή αξόνων</Text>
     </Translation>
     <Translation>
       <Keyword>Mirror</Keyword>
@@ -1068,11 +1049,11 @@
     </Translation>
     <Translation>
       <Keyword>ShowHideObjects</Keyword>
-      <Text>Εμφάνιση/απόκρυψη αντικειμένων</Text>
+      <Text>Εμφάνιση/απόκρυψη τεμαχίων</Text>
     </Translation>
     <Translation>
       <Keyword>ExpertMenu</Keyword>
-      <Text>Expert menu </Text>
+      <Text>Μενού προχωρημένων</Text>
     </Translation>
     <Translation>
       <Keyword>MeshInformation</Keyword>
@@ -1080,11 +1061,11 @@
     </Translation>
     <Translation>
       <Keyword>VisualizeThicknessOrDistances</Keyword>
-      <Text>Εμφάνιση πάχους ή αποστάσεων</Text>
+      <Text>Εμφάνιση πάχους και αποστάσεων</Text>
     </Translation>
     <Translation>
       <Keyword>ViewerObject.VisualizeDistances.VisualizeDistancesIgnoreThisObjectForAllQueries</Keyword>
-      <Text>Αγνοήση αντικειμένου για εμφάνιση αποστάσεων</Text>
+      <Text>Αγνοήση αντικειμένου στην εμφάνιση αποστάσεων</Text>
     </Translation>
     <Translation>
       <Keyword>Opacity.10</Keyword>
@@ -1100,7 +1081,7 @@
     </Translation>
     <Translation>
       <Keyword>HideThisObject</Keyword>
-      <Text>Απόκρυψη αυτού του αντικειμένου</Text>
+      <Text>Dieses Objekt ausblenden</Text>
     </Translation>
     <Translation>
       <Keyword>TriangleBackfaceCulling</Keyword>
@@ -1108,7 +1089,7 @@
     </Translation>
     <Translation>
       <Keyword>ZoomToObject</Keyword>
-      <Text>Ζουμ στο αντικείμενο</Text>
+      <Text>Ζοομ στο αντικείμενο</Text>
     </Translation>
     <Translation>
       <Keyword>SaveToFile</Keyword>
@@ -1128,19 +1109,19 @@
     </Translation>
     <Translation>
       <Keyword>CrownPreparation</Keyword>
-      <Text>Παρασκευή</Text>
+      <Text>Εργασία</Text>
     </Translation>
     <Translation>
       <Keyword>CrownBottom</Keyword>
-      <Text>Περιοχή ένθεσης στεφάνης</Text>
+      <Text>Αυχένας</Text>
     </Translation>
     <Translation>
       <Keyword>InlayBottom</Keyword>
-      <Text>Περιοχή ένθεσης ένθετου</Text>
+      <Text>Βάση Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>ToothPreparedForInlay</Keyword>
-      <Text>Παρασκευή </Text>
+      <Text>Εργασία</Text>
     </Translation>
     <Translation>
       <Keyword>DefaultProcessor.Title</Keyword>
@@ -1176,7 +1157,7 @@
     </Translation>
     <Translation>
       <Keyword>IMesh.VisualizeFeature</Keyword>
-      <Text>Εμφάνιση τύπου χαρακτηριστικού</Text>
+      <Text>Εμφάνιση Τύπου </Text>
     </Translation>
     <Translation>
       <Keyword>IMesh.VisualizeSurfaceType</Keyword>
@@ -1196,7 +1177,7 @@
     </Translation>
     <Translation>
       <Keyword>ReducedToothParts</Keyword>
-      <Text>Συρρικνωμένες επιφάνειες δοντιών</Text>
+      <Text>Συρικνωμένες επιφάνειες δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>AnatomicToothParts</Keyword>
@@ -1219,16 +1200,12 @@
       <Text>Επιλογή αρχικού σημείου</Text>
     </Translation>
     <Translation>
-      <Keyword>SpaceRuler.Thickness</Keyword>
-      <Text>Υπολογισμός πάχους</Text>
-    </Translation>
-    <Translation>
       <Keyword>SpaceRuler.SetEnd</Keyword>
       <Text>Επιλογή τελικού σημείου</Text>
     </Translation>
     <Translation>
       <Keyword>SpaceRuler.Fix</Keyword>
-      <Text>Ακινητοποίηση σημείων</Text>
+      <Text>Δέσμευση σημείων</Text>
     </Translation>
     <Translation>
       <Keyword>SpaceRuler.Orthogonal</Keyword>
@@ -1236,7 +1213,7 @@
     </Translation>
     <Translation>
       <Keyword>SpaceRuler.NearestPoint</Keyword>
-      <Text>Εύρεση κοντινότερου σημείου</Text>
+      <Text>Εύρεση επόμενου σημείου</Text>
     </Translation>
     <Translation>
       <Keyword>SpaceRuler.Distance</Keyword>
@@ -1252,7 +1229,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdjustingOcclusionsProcessor.MenuEntry.Plural</Keyword>
-      <Text>Προσαρμογή στον ανταγωνιστή/παρακείμενα...</Text>
+      <Text>Προσαρμογή στον ανταγωνιστή/παρακείμενο...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AdjustingOcclusionsProcessor.Title</Keyword>
@@ -1260,51 +1237,51 @@
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.StaticOcclusions</Keyword>
-      <Text>Στατική</Text>
+      <Text>στατικά</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.DynamicOcclusions</Keyword>
-      <Text>Δυναμική</Text>
+      <Text>δυναμικά</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.CutOcclusions</Keyword>
-      <Text>Αποκοπή πρόωρων επαφών</Text>
+      <Text>Κόψιμο πρόωρων επαφών</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.AutoAdjust</Keyword>
-      <Text>Απαλοιφή πρόωρων επαφών με διατήρηση του σχήματος των δοντιών</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AdjustingOcclusionsProcessor.CopingDistanceToAntagonist</Keyword>
-      <Text>Απόσταση σκελετού/συρρικνωμένων τμημάτων: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>AdjustingOcclusionsProcessor.AnatomicPartsDistanceToAntagonist</Keyword>
-      <Text>Απόσταση ανατομικών τμημάτων: </Text>
+      <Text>Διατηρώντας το σχήμα του δοντιού φτιάξιμο των σημείων επαφής</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.DeformAddDesiredOcclusions</Keyword>
-      <Text>Διαμόρφωση στα επιθυμητά σημεία σύγκλισης</Text>
+      <Text>Διαμόρφωση στα ζητούμενα σημείου σύγκλισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdjustingOcclusionsProcessor.CopingDistanceToAntagonist</Keyword>
+      <Text>Απόσταση Καλύπτρες/σμικρυμένη: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>AdjustingOcclusionsProcessor.AnatomicPartsDistanceToAntagonist</Keyword>
+      <Text>Απόσταση ανατομικού: </Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.CutApproximal</Keyword>
-      <Text>Αποκοπή πρόωρων επαφών </Text>
+      <Text>Κόψιμο πρόωρων επαφών</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.AutoAdjustApproximal</Keyword>
-      <Text>Απαλοιφή πρόωρων επαφών με διατήρηση του σχήματος των δοντιών </Text>
+      <Text>Διατηρώντας το σχήμα του δοντιού φτιάξιμο των σημείων επαφής</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.DistanceToNeighbor</Keyword>
-      <Text>Απόσταση απο παρακείμενα: </Text>
+      <Text>Απόσταση απο παρακείμενο: </Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.PullToNeighbor</Keyword>
-      <Text>Επιμηκύνση προς παρακείμενα: </Text>
+      <Text>Επιμηκύνση προς παρακείμενο: </Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.PullToNeighborCutIntrusion</Keyword>
-      <Text>Βάθος πρόωρων επαφών πριν την αποκοπή: </Text>
+      <Text>Βάθος πρόωρων επαφών: </Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.NoAntagonistErrorMessage</Keyword>
@@ -1312,51 +1289,55 @@
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.NoRestorationErrorMessage</Keyword>
-      <Text>Δεν υπάρχει εργασία για εύρεση πρόωρων επαφών.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AdjustingOcclusionsProcessor.Error</Keyword>
-      <Text>Δεν ειναι δυνατή η προσαρμογή όλων των τύπων εργασιών στον ανταγωνιστή</Text>
+      <Text>Δεν υπάρχει εργασία ια εύρεση πρόωρων επαφών.</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.MissingFeaturesErrorMessage</Keyword>
-      <Text>Η διατήρηση του σχήματος του δοντιού για απαλοιφή πρόωρων επαφών δεν είναι δυνατή σε εργασίες απο διαγνωστικό κέρωμα.</Text>
+      <Text>Μήνυμα: Η εύρεση σύγκλισης διατηρώντας το σχήμα του δοντιού δεν είναι δυνατή σε κερώματα.</Text>
     </Translation>
     <Translation>
       <Keyword>AdjustingOcclusionsProcessor.NoDeformationForOffsetCopingsErrorMessage</Keyword>
-      <Text>Η διατήρηση του σχήματος του δοντιού για απαλοιφή πρόωρων επαφών δεν μπορεί να εκτελεστεί σε καλύπτρες</Text>
+      <Text>Η προσαρμογή διατηρώντας το σχήμα δεν μπορεί να γίνει σε καλύπτρα.</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Add1</Keyword>
-      <Text>Προσθήκη κλιπ</Text>
+      <Text>Επιφάνεια κοπής</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Add2</Keyword>
-      <Text>επίπεδο </Text>
+      <Text>προσθήκη</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewClipPlane.Add</Keyword>
+      <Text>Επιφάνεια κοπής προσθήκη</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.RemoveAll1</Keyword>
-      <Text>Αφαίρεση</Text>
+      <Text>Όλα τα τμήματα</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.RemoveAll2</Keyword>
-      <Text>όλα τα επίπεδα</Text>
+      <Text>Απομάκρυνση</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Close</Keyword>
-      <Text>Απόκρυψη</Text>
+      <Text>Κλείσιμο</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Reset</Keyword>
-      <Text>Επαναφορά </Text>
+      <Text>Πίσω.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewClipPlane.Invert</Keyword>
+      <Text>Invert.</Text>
     </Translation>
     <Translation>
       <Keyword>MergeParts.SureToClearAllMergedModels</Keyword>
-      <Text>Απομάκρυνση όλων των συμπτυγμένων τμημάτων?</Text>
+      <Text>Απομάκρυνση όλων των συναρμοσμένων τμημάτων?</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Remove</Keyword>
-      <Text>Αφαίρεση </Text>
+      <Text>Διαγραφή</Text>
     </Translation>
     <Translation>
       <Keyword>ViewClipPlane.Activated</Keyword>
@@ -1368,31 +1349,31 @@
     </Translation>
     <Translation>
       <Keyword>MergeParts.Start</Keyword>
-      <Text>Επανεκκίνηση σύμπτυξης</Text>
+      <Text>Επανεκκίνηση συναρμογής</Text>
     </Translation>
     <Translation>
       <Keyword>MergeParts.Cancel</Keyword>
-      <Text>Ακύρωση σύμπτυξης </Text>
+      <Text>Ακύρωση της συναρμογής</Text>
     </Translation>
     <Translation>
       <Keyword>MergeParts.ClearExisting</Keyword>
-      <Text>Απομάκρυνση υπάρχοντων συμπτυγμένων τμημάτων</Text>
+      <Text>Απομάκρυνση συναρμοσμένων εργασιών</Text>
     </Translation>
     <Translation>
       <Keyword>MergeParts.Save</Keyword>
-      <Text>Αποθήκευση συμπτυγμένου αντικειμένου</Text>
+      <Text>Αποθήκευση συναρμοσμένης εργασίας</Text>
     </Translation>
     <Translation>
       <Keyword>MergeParts.RemoveAfterSaveQuestion</Keyword>
-      <Text>Αποθήκευση επιτυχής. Θέλετε να απομακρύνετε τα συναρμοσμένα τμήματα απο την τρέχουσα σκηνή?</Text>
+      <Text>Αποθήκευση επιτυχής. Θέλετε να απομακρύνετε τα συναρμοσμένα τμήματα?</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.Minimum</Keyword>
-      <Text>Ελάχιστη απόσταση απο ανταγωνιστές.:</Text>
+      <Text>Ελάχιστη απόσταση απο ανταγωνιστές.</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.Maximum</Keyword>
-      <Text>Μέγιστη απόσταση άπο ανταγωνιστές:</Text>
+      <Text>Μέγιστη απόσταση άπο ανταγωνιστές</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.UpdatebyTimer</Keyword>
@@ -1404,11 +1385,11 @@
     </Translation>
     <Translation>
       <Keyword>AndTryAgain</Keyword>
-      <Text>και δοκιμάστε ξανά. </Text>
+      <Text>Κλείσιμο και ξανα προσπάθεια.</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.ColorHealthyTeeth</Keyword>
-      <Text>Να συμπεριληφθούν υγιή δόντια</Text>
+      <Text>Σημείωση και υγιών δοντιών</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.Update</Keyword>
@@ -1436,11 +1417,19 @@
     </Translation>
     <Translation>
       <Keyword>DistanceToAntagonists.SymmetricDistance</Keyword>
-      <Text>     Κλίμακα</Text>
+      <Text>Κλίμακα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Protrusion</Keyword>
+      <Text>Προολίσθηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Retrusion</Keyword>
+      <Text>Οπισθιολίσθηση</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.OffsetCopingProcessor.WizardNext</Keyword>
-      <Text>Κάντε κλικ στο 'Επόμενο' για δημιουργία σκελετών</Text>
+      <Text>'Επόμενο' για την δημιουργεία της στεφάνης</Text>
     </Translation>
     <Translation>
       <Keyword>Articulator.Protrusion</Keyword>
@@ -1460,119 +1449,39 @@
     </Translation>
     <Translation>
       <Keyword>Articulator.Run</Keyword>
-      <Text>Εκκίνηση προσομοίωσης κινήσεων αρθρωτήρα</Text>
+      <Text>Έλεγχος κινήσεων γνάθου !</Text>
     </Translation>
     <Translation>
       <Keyword>Articulator.Advanced</Keyword>
-      <Text>Προχωρημένα</Text>
+      <Text>Εκτεταμένα</Text>
     </Translation>
     <Translation>
-      <Keyword>Articulator.CorrectJawsButtonLabel</Keyword>
-      <Text>Διόρθωση γνάθων</Text>
+      <Keyword>Articulator.RetrusionMessage</Keyword>
+      <Text>Η σύσκλιση μπορεί να γίνει μόνο με γωνία Bennett  0 μοιρών. Εισάγετε γωνία Bennett αριστερά και δεξιά με 0 μοίρες.</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.CorrectJawPositions</Keyword>
-      <Text>Διόρθωση θέσεων γνάθων</Text>
+      <Keyword>Articulator.ErrorMessageLoadMesh</Keyword>
+      <Text>Λάθη κατα την φόρτωση των παραμέτρων του αρθρωτήρα.</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.MoveRotateAny</Keyword>
-      <Text>Μετακίνηση/Περιστροφή προς όλες τις κατευθύνσεις</Text>
+      <Keyword>Articulator.ErrorMessageMissingJaw</Keyword>
+      <Text>Λάθη κατα την έναρξη του αρθρωτήρα : Στην κάτω η άνω γνάθο</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.MoveZ</Keyword>
-      <Text>Μετακίνηση στον άξονα Ζ</Text>
+      <Keyword>Articulator.ErrorMessageArticulatorNotStarted</Keyword>
+      <Text>Λάθη κατα την επεξεργασία: Δεν έγινε σωστή εκκίνηση αρθρωτήρα.</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.MoveXY</Keyword>
-      <Text>Μετακίνηση στον άξονα ΧΥ </Text>
+      <Keyword>Articulator.ErrorMessageStartFailed</Keyword>
+      <Text>Λάθος κατα την εκκίνηση του αρθρωτήρα.</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.ShowArtiPlane</Keyword>
-      <Text>Εμφάνιση συγκλεισιακού επιπέδου</Text>
+      <Keyword>Articulator.ErrorMessageInitializeFailed</Keyword>
+      <Text>Λάθος κατα την επεξεργασία του αρθρωτήρα.</Text>
     </Translation>
     <Translation>
-      <Keyword>CorrectJaws.SetIncisal</Keyword>
-      <Text>Τοποθέτηση σημείου κοπτικά </Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.SetLeftMolar</Keyword>
-      <Text>Τοποθέτηση σημείου στον αριστερό γομφίο </Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.SetRightMolar</Keyword>
-      <Text>Τοποθέτηση σημείου στον δεξιό γομφίο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Manually</Keyword>
-      <Text>Χειροκίνητα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Auto</Keyword>
-      <Text>Αυτόματα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettAngle</Keyword>
-      <Text>Γωνία-Bennett</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TiltCondylarguide</Keyword>
-      <Text>Γωνία σύγκλισης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>HeightIncisalNeedle</Keyword>
-      <Text>Ύψος κοπτικής ακρολοφίας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RotateFrontplateY</Keyword>
-      <Text>Γωνία κοπτικά</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RotateFrontplateZ</Keyword>
-      <Text>Στροφή κοπτικής επιφάνειας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TiltFrontplate</Keyword>
-      <Text>Γωνία κοτπικής επιφάνειας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ImmediateSideshift</Keyword>
-      <Text>Αμέσο διάστημα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettInsert</Keyword>
-      <Text>Χρήση σύγκλισης κατα Bennett</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettInsertMetal</Keyword>
-      <Text>Μέταλλο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettInsertGreen</Keyword>
-      <Text>Πράσινο (μικρή απόσταση απο τους παρακείμενους )</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettInsertBlue</Keyword>
-      <Text>Μπλέ (μεγάλη απόσταση απο τους παρακείμενους)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BennettInsertRed</Keyword>
-      <Text>Κόκκινο (άμεση και μεγάλη επαφή)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CondylarInsert</Keyword>
-      <Text>Εισαγωγή φοράς κονδύλου</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CondylarInsertRed</Keyword>
-      <Text>Κόκκινο (Τύπος 3)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CondylarInsertWhite</Keyword>
-      <Text>Άσπρο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CondylarInsertGreen</Keyword>
-      <Text>Πράσινο (Τύπος 2)</Text>
+      <Keyword>Articulator.ErrorMessageRunFailed</Keyword>
+      <Text>Λάθος στην προσομοίωση του αρθρωτήρα.</Text>
     </Translation>
     <Translation>
       <Keyword>Articulator.CancelledDuringExecutionMessage</Keyword>
@@ -1585,22 +1494,6 @@
     <Translation>
       <Keyword>Articulator.JawsWereTranslatedMessage</Keyword>
       <Text>Λόγω της μη σωστής σύγκλισης άνω και κάτω γνάθου χρειάστηκε μετακίνηση της άνω γνάθου.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.RemoveGapBetweenTeethMessageYesNo</Keyword>
-      <Text>Λόγω της μή σωστής σύγκλισης των δύο γνάθων δεν υπάρχουν σημεία επαφής. Θέλετε να δημιουργηθούν σημεία επαφής?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.RemoveGapBetweenTeethMessageTitle</Keyword>
-      <Text>Βρέ θηκε η σύγκλιση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.RemoveIntersectionBetweenTeethMessageYesNo</Keyword>
-      <Text>Λόγω της μή σωστής σύγκλισης των δύο γνάθων υπάρχουν πρόωρες επαφές. Να διορθωθούν?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.RemoveIntersectionBetweenTeethMessageTitle</Keyword>
-      <Text>Βρέθηκαν οι πρόωρες επαφές</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ArticulatorProcessor.Title</Keyword>
@@ -1616,43 +1509,47 @@
     </Translation>
     <Translation>
       <Keyword>FrontTeeth</Keyword>
-      <Text>Τομείς</Text>
+      <Text>Πρόσθια δόντια</Text>
     </Translation>
     <Translation>
       <Keyword>FrontTeethTarget</Keyword>
-      <Text>Τομείς (Στόχος) </Text>
+      <Text>Πρόσθια δόντια (Στόχος)</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.HintelPLCorrectionProcessor.MenuEntry</Keyword>
-      <Text>Διόρθωση αυχενικής παρασκευής...</Text>
+      <Text>Διόρθωση τόξου...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.HintelAxisCorrectionProcessor.MenuEntry</Keyword>
       <Text>Διόρθωση άξονα δοντιού...</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.HintelEPCorrectionProcessor.MenuEntry</Keyword>
+      <Text>Διόρθωση του προφίλ ανάδυσης...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.HintelAlignmentCorrectionProcessor.MenuEntry</Keyword>
+      <Text>Διόρθωση του εμφυτεύματος...</Text>
+    </Translation>
+    <Translation>
       <Keyword>SaveToothBowProcessorControl.SelectFilename</Keyword>
-      <Text>Παρακάλω εισάγετε το όνομα του αρχείου του προσωπικού τόξου </Text>
+      <Text>Παρακάλω εισάγετε το όνομα του αρχείου του προσωπικού τόξου</Text>
     </Translation>
     <Translation>
       <Keyword>ChooseFile</Keyword>
       <Text>Επιλογή αρχείου</Text>
     </Translation>
     <Translation>
-      <Keyword>Spacing</Keyword>
-      <Text>Απόσταση</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.DeleteConnectorProcessor.MenuEntry.Plural</Keyword>
-      <Text>Διαγραφή συνδέσμων</Text>
+      <Text>Διαγραφή μεσοδόντιων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.DeleteConnectorProcessor.MenuEntry</Keyword>
-      <Text>Διαγραφή συνδέσμου</Text>
+      <Text>Διαγραφή μεσοδόντιων</Text>
     </Translation>
     <Translation>
       <Keyword>AdditionalSpacing</Keyword>
-      <Text>Πρόσθετος χώρος</Text>
+      <Text>Επιπλεόν απόσταση</Text>
     </Translation>
     <Translation>
       <Keyword>CrownSpacingO</Keyword>
@@ -1664,15 +1561,15 @@
     </Translation>
     <Translation>
       <Keyword>CrownSpacingX</Keyword>
-      <Text>Κατεύθυνση στον Χ</Text>
+      <Text>Διεύθυνση στον Χ</Text>
     </Translation>
     <Translation>
       <Keyword>CrownSpacingY</Keyword>
-      <Text>Κατεύθυνση στον Υ </Text>
+      <Text>Διεύθυνση στον Υ</Text>
     </Translation>
     <Translation>
       <Keyword>CrownSpacingZ</Keyword>
-      <Text>Κατεύθυνση στον Z </Text>
+      <Text>Διεύθυνση στον Z</Text>
     </Translation>
     <Translation>
       <Keyword>CrownSpacingXY</Keyword>
@@ -1680,11 +1577,15 @@
     </Translation>
     <Translation>
       <Keyword>CrownSpacingB</Keyword>
-      <Text>Παρειακά/Γλωσσικά</Text>
+      <Text>Παριακά/Γλωσσικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CrownSpacingMB</Keyword>
+      <Text>MD+BL</Text>
     </Translation>
     <Translation>
       <Keyword>ShowUndercuts</Keyword>
-      <Text>Προβολή εσοχών</Text>
+      <Text>Υποσκαφές.</Text>
     </Translation>
     <Translation>
       <Keyword>Antagonist.ReconstructionType</Keyword>
@@ -1696,39 +1597,43 @@
     </Translation>
     <Translation>
       <Keyword>Coping.ReconstructionType</Keyword>
-      <Text>Ανατ. Σκελετός</Text>
+      <Text>Ανατ. Στεφάνη</Text>
     </Translation>
     <Translation>
       <Keyword>AnatomicPontic.ReconstructionType</Keyword>
-      <Text>Ανατ. Γεφύρωμα</Text>
+      <Text>Ανατ. Ενδιάμεσο</Text>
     </Translation>
     <Translation>
       <Keyword>ReducedPontic.ReconstructionType</Keyword>
-      <Text>Γεφυρ.Σκελετός  </Text>
+      <Text>Επεξ. Ενδιάμεσο</Text>
     </Translation>
     <Translation>
       <Keyword>ReducedPontic</Keyword>
-      <Text>Γεφύρωμα Σκελετός  </Text>
+      <Text>Επεξ. Ενδιάμεσο</Text>
     </Translation>
     <Translation>
       <Keyword>MergedBridge</Keyword>
-      <Text>Συμπτηγμένη γέφυρα</Text>
+      <Text>Συναρμοσμένη εργασία</Text>
     </Translation>
     <Translation>
       <Keyword>MergedBridgeSLM</Keyword>
-      <Text>Συμπτηγμένη γέφυρα (Laser Sintering) </Text>
+      <Text>Συναρμοσμένη εργασία (Laser Sintering)</Text>
     </Translation>
     <Translation>
       <Keyword>MergedWaxup</Keyword>
-      <Text>Συμπτηγμένο κέρωμα </Text>
+      <Text>Συναρμοσμένο κέρωμα </Text>
     </Translation>
     <Translation>
       <Keyword>MergedWaxupSLM</Keyword>
-      <Text>Συμπτηγμένο κέρωμα (Laser Sintering) </Text>
+      <Text> Συναρμοσμένο κέρωμα(Laser Sintering)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay.ReconstructionType</Keyword>
+      <Text>Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>ReducedInlay.ReconstructionType</Keyword>
-      <Text>Σκελετ. Ένθετο</Text>
+      <Text>Επεξ. Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>HealthyTeeth</Keyword>
@@ -1736,35 +1641,31 @@
     </Translation>
     <Translation>
       <Keyword>LoadPreparationMesh</Keyword>
-      <Text>Φόρτωση σαρώσεων παρασκευών.</Text>
+      <Text>Φόρτωση διαγνωστικών απεικονήσεων(Scans).</Text>
     </Translation>
     <Translation>
       <Keyword>LoadGingivaScanQuestion</Keyword>
-      <Text>Φόρτωση ξεχωριστής σάρωσης ούλων?</Text>
+      <Text>Φόρτωση ξεχωριστού αρχείου ούλων?</Text>
     </Translation>
     <Translation>
       <Keyword>LoadGingivaScan</Keyword>
-      <Text>Φόρτωση σάρωσης ούλων?</Text>
+      <Text>Φόρτωση αρχείου ούλων?</Text>
     </Translation>
     <Translation>
       <Keyword>OtherParts</Keyword>
-      <Text>Όλα τα υπόλοιπα τμήματα</Text>
+      <Text>Άλλα τεμάχια</Text>
     </Translation>
     <Translation>
       <Keyword>AnatomicParts</Keyword>
-      <Text>Ανατομικά σχήματα</Text>
+      <Text>Ανατομικά</Text>
     </Translation>
     <Translation>
       <Keyword>FullAnatomicParts</Keyword>
-      <Text>Πλήρως ανατομικές</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SituWaxupScans</Keyword>
-      <Text>Απεικόνιση κερώματος</Text>
+      <Text>Ολικές χυτές</Text>
     </Translation>
     <Translation>
       <Keyword>GingivaScans</Keyword>
-      <Text>Σαρώσεις ούλων</Text>
+      <Text>Απεικόνιση Ούλων</Text>
     </Translation>
     <Translation>
       <Keyword>Antagonists</Keyword>
@@ -1772,7 +1673,7 @@
     </Translation>
     <Translation>
       <Keyword>AnatomicCrown</Keyword>
-      <Text>Ανατομική Στεφάνη</Text>
+      <Text>Ολική Χυτή</Text>
     </Translation>
     <Translation>
       <Keyword>BelowPreparation</Keyword>
@@ -1780,7 +1681,7 @@
     </Translation>
     <Translation>
       <Keyword>Preparation</Keyword>
-      <Text>Σαρώσεις παρασκευών</Text>
+      <Text>Απεικονίσεις σχεδιασμού</Text>
     </Translation>
     <Translation>
       <Keyword>MinThicknessMarker</Keyword>
@@ -1788,19 +1689,19 @@
     </Translation>
     <Translation>
       <Keyword>AnatomicPontic</Keyword>
-      <Text>Ανατομικό γεφύρωμα</Text>
+      <Text>ενδιάμεσο</Text>
     </Translation>
     <Translation>
       <Keyword>ReducedParts</Keyword>
-      <Text>Συρρικνωμένα τμήματα</Text>
+      <Text>Συρικνωμένο</Text>
     </Translation>
     <Translation>
       <Keyword>ShowAll</Keyword>
-      <Text>Εμφάνιση όλων</Text>
+      <Text>Εμφάνιση</Text>
     </Translation>
     <Translation>
       <Keyword>OffsetCoping.ReconstructionType</Keyword>
-      <Text>Καλύπτρα</Text>
+      <Text>Στεφάνη</Text>
     </Translation>
     <Translation>
       <Keyword>CorrectPlacement</Keyword>
@@ -1808,7 +1709,7 @@
     </Translation>
     <Translation>
       <Keyword>TiltProject.Axes</Keyword>
-      <Text>Προσανατολισμός </Text>
+      <Text>Διόρθωση</Text>
     </Translation>
     <Translation>
       <Keyword>TiltProject.Antagonist</Keyword>
@@ -1824,7 +1725,7 @@
     </Translation>
     <Translation>
       <Keyword>PonticAdaptationToGingiva</Keyword>
-      <Text>Προσαρμογή γεφυρωμάτων στα ούλα</Text>
+      <Text>Προσαρμογή ενδιάμεσου στο ούλο</Text>
     </Translation>
     <Translation>
       <Keyword>LoadAntagonistScanQuestion</Keyword>
@@ -1832,11 +1733,11 @@
     </Translation>
     <Translation>
       <Keyword>BuccalLingualTilt</Keyword>
-      <Text>Κλίση Παρειακά/Γλωσσικά</Text>
+      <Text>Μετακίνηση Παριακά/Γλωσσικά</Text>
     </Translation>
     <Translation>
       <Keyword>MesialDistalTilt</Keyword>
-      <Text>Κλίση Εγγύς/Άπω </Text>
+      <Text>Μετακίνηση Εγγύς/Άπω</Text>
     </Translation>
     <Translation>
       <Keyword>CementGap</Keyword>
@@ -1844,7 +1745,7 @@
     </Translation>
     <Translation>
       <Keyword>PreparationMarginDetection</Keyword>
-      <Text>Ανίχνευση αυχενικής γραμμής  </Text>
+      <Text>Αναγνώριση γραμμής ορίου </Text>
     </Translation>
     <Translation>
       <Keyword>ProcessorControlReject</Keyword>
@@ -1852,15 +1753,15 @@
     </Translation>
     <Translation>
       <Keyword>ProcessorControlRejectQuestion.DentalProcessorControls.FreeformProcessorControl.Title</Keyword>
-      <Text>Διακοπή και απόρριψη αλλαγών?</Text>
+      <Text>Διακοπή και χρήση αλλαγών?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalHelperLib.Registration3DTool.Title2</Keyword>
+      <Text>Αποθήκευση εργαλείου</Text>
     </Translation>
     <Translation>
       <Keyword>DentalHelperLib.Registration3DTool.Title</Keyword>
-      <Text>Καταχώρηση Πλεγμάτων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessorControls.ArticulatorRepeatManually.Title</Keyword>
-      <Text>Επανάληψη κινήσεων αρθρωτήρα σταδιακά...</Text>
+      <Text>Αποθήκευση εργαλείου</Text>
     </Translation>
     <Translation>
       <Keyword>ArticulatorRepeatManually.HealthyToothForArticulation</Keyword>
@@ -1872,11 +1773,15 @@
     </Translation>
     <Translation>
       <Keyword>ArticulatorRepeatManually.ReconstructionNotForArticulation</Keyword>
-      <Text>Δεν επηρεάζει την κίνηση</Text>
+      <Text>Ανακατασκευή</Text>
     </Translation>
     <Translation>
       <Keyword>ArticulatorRepeatManually.ReconstructionForArticulation</Keyword>
-      <Text>Επηρεάζει την κίνηση</Text>
+      <Text>Ανακατασκεύη  (στατική)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DragSliderToMoveJaw</Keyword>
+      <Text>Schieber ziehen, um Kiefer zu bewegen</Text>
     </Translation>
     <Translation>
       <Keyword>CementGapHeader</Keyword>
@@ -1931,6 +1836,10 @@
       <Text>Αναγνώριση</Text>
     </Translation>
     <Translation>
+      <Keyword>PreparationMarginAutoDetectEmergence</Keyword>
+      <Text>Αναγνώριση</Text>
+    </Translation>
+    <Translation>
       <Keyword>PreparationMarginFreeClosed</Keyword>
       <Text>Μετακίνηση</Text>
     </Translation>
@@ -1959,10 +1868,6 @@
       <Text>Θέλετε να διαγράψετε τις ενοποιημένες εργασίες?</Text>
     </Translation>
     <Translation>
-      <Keyword>MergeParts.OnlyRemoveClicked</Keyword>
-      <Text>Θέλετε να διαγράψετε τις ενοποιημένες εργασίες εντελώς?</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.FreeformMergedProcessor.MenuEntry</Keyword>
       <Text>Ελευθερη σχεδίαση της ενοποιημένης εργασιάς...</Text>
     </Translation>
@@ -1987,20 +1892,12 @@
       <Text>Φορά ένθεσης</Text>
     </Translation>
     <Translation>
-      <Keyword>SetFromView</Keyword>
-      <Text>Τοποθέτηση στον άξονα</Text>
-    </Translation>
-    <Translation>
       <Keyword>TelescopeParameters</Keyword>
       <Text>Παράμετροι τηλεσκοπικών</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PrimaryTelescopeProcessor.DescriptionText</Keyword>
       <Text>Έτοιμο πρωτεύον τηλεσκοπικό</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PrimaryTelescopeProcessor.WizardNext</Keyword>
-      <Text>Επισκόπιση πρωτεύον τηλεσκοπικού</Text>
     </Translation>
     <Translation>
       <Keyword>ReallyLoadToothmodelsQuestion</Keyword>
@@ -2043,24 +1940,6 @@
       <Text>Κλείσιμο</Text>
     </Translation>
     <Translation>
-      <Keyword>ConnectorStandardDesignTab</Keyword>
-      <Text>Τύπος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConnectorFreeDesignTab</Keyword>
-      <Text>Ελεύθερο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConnectorDockPointExplanation</Keyword>
-      <Text>Μετακίνηση με ποντίκι 
-- Mε Shift μετασχηματισμός 
-- Μετακίνηση εφαπτομενικού σημείου με Ctrl-</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConnectorApplySettingsToUserModified</Keyword>
-      <Text>Ένα οι περισσοτερα μεσοδόντια έχουν μετακινηθεί χειροκίνητα. Θέλετε να ακυρώσετε τις μετακινήσεις?</Text>
-    </Translation>
-    <Translation>
       <Keyword>ConnectorVisualizeThickness</Keyword>
       <Text>Εμφάνιση τομής μεσοδόντιου</Text>
     </Translation>
@@ -2094,7 +1973,7 @@
     </Translation>
     <Translation>
       <Keyword>ReducedLingualShrink</Keyword>
-      <Text>Μικρότερη συρίκνωση γλωσσικών τμημάτων?</Text>
+      <Text>Μικρότερη συρίκνωση γλωσσικών τμημάτων</Text>
     </Translation>
     <Translation>
       <Keyword>OnlyForAnteriors</Keyword>
@@ -2115,10 +1994,6 @@
     <Translation>
       <Keyword>OnlyReduced</Keyword>
       <Text>Μόνο μειωμένα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteAdapted</Keyword>
-      <Text>Στεφάνες, Inlays, Abutments κτλ.</Text>
     </Translation>
     <Translation>
       <Keyword>SelectMovementType</Keyword>
@@ -2217,6 +2092,10 @@
       <Text>Γωνία</Text>
     </Translation>
     <Translation>
+      <Keyword>UndercutsTab</Keyword>
+      <Text>Υποσκαφή</Text>
+    </Translation>
+    <Translation>
       <Keyword>Begin</Keyword>
       <Text>Αρχή</Text>
     </Translation>
@@ -2237,14 +2116,6 @@
       <Text>Τηλεσκοπικά</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.OverPressProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για την δημουργεία πρεσσαριστών</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.OverPressProcessor.DescriptionText</Keyword>
-      <Text>Έτοιμες πρεσσαριστές στεφάνες</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.OverPressProcessor.MenuEntry</Keyword>
       <Text>Δημιουργεία πρεσσαριστών...</Text>
     </Translation>
@@ -2261,16 +2132,12 @@
       <Text>Δημιουργεία μπάρας...</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.BarProcessor.Title</Keyword>
-      <Text>Κατασκευή μπάρας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.BarProcessor.DescriptionText</Keyword>
-      <Text>Ετοιμασία μπάρας...</Text>
-    </Translation>
-    <Translation>
       <Keyword>PrimaryTelescope.ReconstructionType</Keyword>
       <Text>Πρωτέυον τηλεσκοπικό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrimaryTelescope</Keyword>
+      <Text>Πρωτεύον τηλεσκοπικό</Text>
     </Translation>
     <Translation>
       <Keyword>selected</Keyword>
@@ -2329,76 +2196,6 @@
       <Text>Άξονες</Text>
     </Translation>
     <Translation>
-      <Keyword>Top</Keyword>
-      <Text>Πάνω</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Bottom</Keyword>
-      <Text>Κάτω</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Both</Keyword>
-      <Text>Αμφότερα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>None</Keyword>
-      <Text>?Κανένα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.StaticAntagonist</Keyword>
-      <Text>Ανταγωνιστές</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.Protrusion</Keyword>
-      <Text>Προολίσθηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.LaterotrusionRight</Keyword>
-      <Text>Πλαγιο. δεξιά</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.LaterotrusionLeft</Keyword>
-      <Text>Πλαγιό. αριστερά</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.Retrusion</Keyword>
-      <Text>Οπισθιολίσθηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistanceToAntagonists.DistanceToNeighbors</Keyword>
-      <Text>Παρακείμενο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MesialNeighborIntersection</Keyword>
-      <Text>Εγγύς:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DistalNeighborIntersection</Keyword>
-      <Text>Άπω:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AntagonistIntersection</Keyword>
-      <Text>Ανταγων.:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnsupportedProjectFormat</Keyword>
-      <Text>Μή υποστηριζόμενος τύπος αρχείων.
-Τα ακόλουθα αρχεία υποστηρίζονται μέσω της γραμμής εντολών:
-.dentalProject .prj .stl .off</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnableToLoadScene</Keyword>
-      <Text>Κατα την φόρτωση των αρχείων εμφανίστηκε λάθος.
-
-Συμβουλή:Μπορούν να φορτωθούν  τμηματικά αρχεία μονο άν δημιουργήθηκαν με αυτό το πρόγραμμα.
-
-Δεν υποστηρίζονται νεότερες οι παλαιότερες εκδόσεις για τα τμηματικά αρχεία.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SaveSceneVisibleOnlyQuestion</Keyword>
-      <Text>Αποθήκευση μόνο εμφανών τεμαχίων?</Text>
-    </Translation>
-    <Translation>
       <Keyword>ErrorLoadingFile</Keyword>
       <Text>Λάθος κατα την φόρτωση του αρχείου</Text>
     </Translation>
@@ -2447,8 +2244,90 @@
       <Text>Εκκίνηση Οδηγού</Text>
     </Translation>
     <Translation>
+      <Keyword>Top</Keyword>
+      <Text>Πάνω</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Bottom</Keyword>
+      <Text>Κάτω</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Both</Keyword>
+      <Text>Αμφότερα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>None</Keyword>
+      <Text>?Κανένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.StaticAntagonist</Keyword>
+      <Text>Ανταγωνιστές</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.Protrusion</Keyword>
+      <Text>Προολίσθηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.LaterotrusionRight</Keyword>
+      <Text>Πλαγιο. δεξιά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.LaterotrusionLeft</Keyword>
+      <Text>Πλαγιό. αριστερά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.Retrusion</Keyword>
+      <Text>Οπισθιολίσθηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistanceToAntagonists.DistanceToNeighbors</Keyword>
+      <Text>Παρακείμενο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnsupportedProjectFormat</Keyword>
+      <Text>Μή υποστηριζόμενος τύπος αρχείων.
+Τα ακόλουθα αρχεία υποστηρίζονται μέσω της γραμμής εντολών:
+.dentalProject .prj .stl .off</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnableToLoadScene</Keyword>
+      <Text>Κατα την φόρτωση των αρχείων εμφανίστηκε λάθος.
+
+Συμβουλή:Μπορούν να φορτωθούν  τμηματικά αρχεία μονο άν δημιουργήθηκαν με αυτό το πρόγραμμα.
+
+Δεν υποστηρίζονται νεότερες οι παλαιότερες εκδόσεις για τα τμηματικά αρχεία.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SaveSceneVisibleOnlyQuestion</Keyword>
+      <Text>Αποθήκευση μόνο εμφανών τεμαχίων?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MesialNeighborIntersection</Keyword>
+      <Text>Εγγύς:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DistalNeighborIntersection</Keyword>
+      <Text>Άπω:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AntagonistIntersection</Keyword>
+      <Text>Ανταγων.:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InlayBottomProcessor.DescriptionText</Keyword>
+      <Text>Δημιουργεία βάσης Inlay</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.InlayBottomProcessor.Title</Keyword>
       <Text>Παραγωγή της βάσης του Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InlayBottomProcessor.MenuEntry</Keyword>
+      <Text>Δημιουργεία βάσης Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InlayBottomProcessor.MenuEntry.Plural</Keyword>
+      <Text>Δημιουργεία βάσης Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>MoveModel.ToolTip</Keyword>
@@ -2541,28 +2420,80 @@
       <Text> μεγάλωσε.</Text>
     </Translation>
     <Translation>
+      <Keyword>BorderSizeAndShape</Keyword>
+      <Text>Παράμετροι αυχένα στεφάνης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InlayRunOutDistance</Keyword>
+      <Text>Πλάτος αυχένα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettAngle</Keyword>
+      <Text>Γωνία-Bennett</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TiltCondylarguide</Keyword>
+      <Text>Γωνία σύγκλισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HeightIncisalNeedle</Keyword>
+      <Text>Ύψος κοπτικής ακρολοφίας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RotateFrontplateY</Keyword>
+      <Text>Γωνία κοπτικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RotateFrontplateZ</Keyword>
+      <Text>Στροφή κοπτικής επιφάνειας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TiltFrontplate</Keyword>
+      <Text>Γωνία κοτπικής επιφάνειας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ImmediateSideshift</Keyword>
+      <Text>Αμέσο διάστημα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettInsert</Keyword>
+      <Text>Χρήση σύγκλισης κατα Bennett</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettInsertGreen</Keyword>
+      <Text>Πράσινο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettInsertBlue</Keyword>
+      <Text>Μπλέ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettInsertRed</Keyword>
+      <Text>Κόκκινο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CondylarInsert</Keyword>
+      <Text>Εισαγωγή φοράς κονδύλου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CondylarInsertRed</Keyword>
+      <Text>Κόκκινο </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CondylarInsertWhite</Keyword>
+      <Text>Άσπρο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CondylarInsertGreen</Keyword>
+      <Text>Πράσινο</Text>
+    </Translation>
+    <Translation>
       <Keyword>ArticulatorMovementSimulation</Keyword>
       <Text>Εξομοίωση κινήσεων αρθρωτήρα</Text>
     </Translation>
     <Translation>
       <Keyword>SelectArticulatorModel</Keyword>
       <Text>Τύπος αρθρωτήρα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConsiderStaticDynamicJawMovement</Keyword>
-      <Text>Τύπος σύγκλισης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ConsiderReconstructionsOnLowerUpper</Keyword>
-      <Text>Προσαρμογή από</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelOnLowerJaw</Keyword>
-      <Text>Κάτω γνάθος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelOnUpperJaw</Keyword>
-      <Text>Άνω γνάθος</Text>
     </Translation>
     <Translation>
       <Keyword>MovementLength</Keyword>
@@ -2597,14 +2528,6 @@
       <Text>πλάγιες κινήσεις</Text>
     </Translation>
     <Translation>
-      <Keyword>Protrusion</Keyword>
-      <Text>Προολίσθηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Retrusion</Keyword>
-      <Text>Οπισθιολίσθηση</Text>
-    </Translation>
-    <Translation>
       <Keyword>LaterotrusionL</Keyword>
       <Text>Πλαγιολίσθηση αριστερά</Text>
     </Translation>
@@ -2615,46 +2538,6 @@
     <Translation>
       <Keyword>OtherSettings</Keyword>
       <Text>Υπόλοιπες ρυθμίσεις</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageLoadMesh</Keyword>
-      <Text>Λάθη κατα την φόρτωση των παραμέτρων του αρθρωτήρα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageMissingJaw</Keyword>
-      <Text>Λάθη κατα την έναρξη του αρθρωτήρα : Στην κάτω η άνω γνάθο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageArticulatorNotStarted</Keyword>
-      <Text>Λάθη κατα την επεξεργασία: Δεν έγινε σωστή εκκίνηση αρθρωτήρα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageStartFailed</Keyword>
-      <Text>Λάθος κατα την εκκίνηση του αρθρωτήρα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageInitializeFailed</Keyword>
-      <Text>Λάθος κατα την επεξεργασία του αρθρωτήρα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ErrorMessageRunFailed</Keyword>
-      <Text>Λάθος στην προσομοίωση του αρθρωτήρα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InlayBottomProcessor.MenuEntry</Keyword>
-      <Text>Δημιουργεία βάσης Inlay</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InlayBottomProcessor.MenuEntry.Plural</Keyword>
-      <Text>Δημιουργεία βάσης Inlay</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BorderSizeAndShape</Keyword>
-      <Text>Παράμετροι αυχένα στεφάνης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InlayRunOutDistance</Keyword>
-      <Text>Πλάτος αυχένα</Text>
     </Translation>
     <Translation>
       <Keyword>Antagonist.Remove</Keyword>
@@ -2706,10 +2589,6 @@
       <Text>δημιουργεία επιφάνειας και φόρτωση σαν ανταγωνιστές</Text>
     </Translation>
     <Translation>
-      <Keyword>AllowGeometryScaling</Keyword>
-      <Text>Να επιτραπούν αλλαγές μεγέθους</Text>
-    </Translation>
-    <Translation>
       <Keyword>Registration3DTool.NrPoints</Keyword>
       <Text>Πλήθος σημείων:</Text>
     </Translation>
@@ -2744,26 +2623,6 @@
     <Translation>
       <Keyword>DentalProcessorControls.Registration3DTool.Title</Keyword>
       <Text>Καταγραφή μετρήσεων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingView</Keyword>
-      <Text>Οπτική γωνία</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentEditProcessor.MenuEntry</Keyword>
-      <Text>Κολοβώματα...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentEditProcessor.MenuEntry.Plural</Keyword>
-      <Text>Κολοβώματα...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentEditProcessor.DescriptionText</Keyword>
-      <Text>Σχεδιασμός κολοβωμάτων...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentEditProcessor.Title</Keyword>
-      <Text>Σχεδιασμός κολοβώματων</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.AbutmentBottomProcessor.MenuEntry</Keyword>
@@ -2802,6 +2661,10 @@
       <Text>Αναγνώριση θέσης εμφυτεύματος...</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.AbutmentMarkerProcessor.MenuEntry.Plural</Keyword>
+      <Text>Αναγνώριση θέσης εμφυτεύματος...</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.AbutmentMarkerProcessor.Title</Keyword>
       <Text>Αναγνώριση της θέσης του εμφυτεύματος</Text>
     </Translation>
@@ -2818,10 +2681,6 @@
       <Text>Εμφάνιση τομής μεσοδόντιου</Text>
     </Translation>
     <Translation>
-      <Keyword>MergedParts</Keyword>
-      <Text>Έτοιμα τμήματα </Text>
-    </Translation>
-    <Translation>
       <Keyword>LoadSceneFileInsteadOfProjectQuestion</Keyword>
       <Text> Για την εργασία βρέθηκε αποθηκευμένο μέρος. Φόρτωση του μέρους?
  
@@ -2835,6 +2694,42 @@
       <Text>Υπάρχει αποθυκευμένο τμήμα στον φάκελο της εργασίας.
     
     Επανεγραφή αρχείου?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergedParts</Keyword>
+      <Text>Έτοιμα τμήματα </Text>
+    </Translation>
+    <Translation>
+      <Keyword>RegisterImplant</Keyword>
+      <Text>Επιλογή με ένα πάτημα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RegisterImplantManually</Keyword>
+      <Text>Χειροκίνητα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickOnScanDataPoint</Keyword>
+      <Text>Επιλογή του σημείου στην απεικόνηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentMarkerProcessor.DescriptionText</Keyword>
+      <Text>Φόρτωση του εργαλείου μαρκαρίσματος των abutments...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentBottomProcessor.DescriptionText</Keyword>
+      <Text>Κατασκευασμένη βάσης abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.EmergenceProfileProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για δημιουργεία του προφίλ ανάδυσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ClickBestFitOrAnotherPoint</Keyword>
+      <Text>Παστήστε την 'Προτεινόμενη σύγκλιση' </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ManualRegistrationHere</Keyword>
+      <Text>Χειρόγραφες καταγραφές</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.SwitchToReducedProcessor.MenuEntry</Keyword>
@@ -2897,8 +2792,8 @@
       <Text>'Επόμενο' για δημιουργεία του αυχένα της στεφάνης</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.HintelAlignmentCorrectionProcessor.MenuEntry</Keyword>
-      <Text>Διόρθωση θέσης εμφυτεύματος...</Text>
+      <Keyword>ChangedToothLibrary</Keyword>
+      <Text>Διαφοροποιημένα δόντια</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.TiltProjectProcessor.DescriptionText</Keyword>
@@ -2909,6 +2804,14 @@
       <Text>'Επόμενο' για δημιουργεία δεδομένων απεικόνησης</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.InsertionDirectionProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για να ορίσετε την φορά ένθεσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentInsertionDirectionProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για δευτερεύουσα φορά ένθεσης.</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.AdjustingOcclusionsProcessor.WizardNext</Keyword>
       <Text>'Επόμενο' για άρθρωση ανταγωνιστών</Text>
     </Translation>
@@ -2917,20 +2820,12 @@
       <Text>Ετοιμασία άρθρωσης ανταγωνιστών για</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.AbutmentBottomProcessor.DescriptionText</Keyword>
-      <Text>Κατασκευασμένη βάσης abutment</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.AbutmentBottomProcessor.Title</Keyword>
       <Text>Κατασκευη βάσης abutment</Text>
     </Translation>
     <Translation>
       <Keyword>AbutmentMinHeight</Keyword>
       <Text>Ελάχιστο ύψος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnableToLoadProjectFile</Keyword>
-      <Text>Δεν μπορεί να φορτωθεί το αρχείο.</Text>
     </Translation>
     <Translation>
       <Keyword>AbutmentBottoms</Keyword>
@@ -2950,48 +2845,8 @@
       <Text>Αποκατάσταση</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.HintelEPCorrectionProcessor.MenuEntry</Keyword>
-      <Text>Διόρθωση του προφίλ ανάδυσης...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentMarkerProcessor.MenuEntry.Plural</Keyword>
-      <Text>Αναγνώριση θέσης εμφυτεύματος...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RegisterImplant</Keyword>
-      <Text>Επιλογή με ένα πάτημα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RegisterImplantManually</Keyword>
-      <Text>Χειροκίνητα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectImplantType</Keyword>
-      <Text>Επιλογή τύπου εμφυτεύματος: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickOnScanDataPoint</Keyword>
-      <Text>Επιλογή του σημείου στην απεικόνηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentMarkerProcessor.DescriptionText</Keyword>
-      <Text>Φόρτωση του εργαλείου μαρκαρίσματος των abutments...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.EmergenceProfileProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για δημιουργεία του προφίλ ανάδυσης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ClickBestFitOrAnotherPoint</Keyword>
-      <Text>Παστήστε την 'Προτεινόμενη σύγκλιση' </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ManualRegistrationHere</Keyword>
-      <Text>Χειρόγραφες καταγραφές</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ChangedToothLibrary</Keyword>
-      <Text>Διαφοροποιημένα δόντια</Text>
+      <Keyword>UnableToLoadProjectFile</Keyword>
+      <Text>Δεν μπορεί να φορτωθεί το αρχείο.</Text>
     </Translation>
     <Translation>
       <Keyword>Screenshot</Keyword>
@@ -3098,6 +2953,14 @@
       <Text>Κινούμενο</Text>
     </Translation>
     <Translation>
+      <Keyword>more</Keyword>
+      <Text>Περισσότερο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>more.ToolTip</Keyword>
+      <Text>Περισσότερο</Text>
+    </Translation>
+    <Translation>
       <Keyword>LightBulbAdvanced</Keyword>
       <Text>Περισσότερο</Text>
     </Translation>
@@ -3107,15 +2970,15 @@
     </Translation>
     <Translation>
       <Keyword>LightBulbValueX</Keyword>
-      <Text>X</Text>
+      <Text>X-axis</Text>
     </Translation>
     <Translation>
       <Keyword>LightBulbValueY</Keyword>
-      <Text>Y</Text>
+      <Text>Y-axis</Text>
     </Translation>
     <Translation>
       <Keyword>LightBulbValueZ</Keyword>
-      <Text>Z</Text>
+      <Text>Z-axis</Text>
     </Translation>
     <Translation>
       <Keyword>LightBulbEvenMoreAdvanced</Keyword>
@@ -3162,7 +3025,7 @@
       <Text>Επιλογή δοντιού για τον χαρακτηρισμό του
  ως εκλύπων είτε ως υγιές,
 η ως στεφάνης/ολικής χυτής
-	</Text>
+ </Text>
     </Translation>
     <Translation>
       <Keyword>ShowChangeReconstructionTypes</Keyword>
@@ -3173,16 +3036,20 @@
       <Text>Αλλαγή εκλύπων / υγιές π.χ. Στεφανη απλή / ανατομική...</Text>
     </Translation>
     <Translation>
-      <Keyword>PrimaryTelescope</Keyword>
-      <Text>Πρωτεύον τηλεσκοπικό</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.InsertionDirectionProcessor.Title</Keyword>
       <Text>Φορά ένθεσης</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.AbutmentInsertionDirectionProcessor.Title</Keyword>
+      <Text>Δευτερεύουσα φορά ένθεσης</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.InsertionDirectionProcessor.MenuEntry</Keyword>
       <Text>Επιλογή της φοράς ένθεσης...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InsertionDirectionProcessor.SetDirection</Keyword>
+      <Text>Επιλογή της φοράς ένθεσης</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.InsertionDirectionProcessor.MenuEntry.Plural</Keyword>
@@ -3227,10 +3094,6 @@
       <Text>Φορά ένθεσης</Text>
     </Translation>
     <Translation>
-      <Keyword>ErrorReportHeader</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
       <Keyword>ErrorReportAdditionalInfo</Keyword>
       <Text>Επιπλέον πληροφορίες (π.χ. e-mail)</Text>
     </Translation>
@@ -3249,6 +3112,18 @@
     <Translation>
       <Keyword>ErrorReportCopyToClipboard</Keyword>
       <Text>Αντιγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.OverPressProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για την δημουργεία πρεσσαριστών</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.OverPressProcessor.DescriptionText</Keyword>
+      <Text>Έτοιμες πρεσσαριστές στεφάνες</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorReportEmailButton</Keyword>
+      <Text>Email</Text>
     </Translation>
     <Translation>
       <Keyword>ErrorReportClose</Keyword>
@@ -3271,18 +3146,6 @@
     <Translation>
       <Keyword>SaveModifiedPartsAgain</Keyword>
       <Text>Αποθήκευση των αλλαγών της ελεύθερης σχεδίασης?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InsertionDirectionProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για να ορίσετε την φορά ένθεσης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InsertionDirectionProcessor.ViewFromBottomProblem</Keyword>
-      <Text>Λάθος φορά ένθεσης! Η τρέχουσα προβολή στην επιφάνεια φαίνεται να είναι ανάποδα. Παρακαλούμε αλλάξτε την οπτική γωνία με το ποντίκι, ώστε να βλέπετε μέσα στην εργασία απο πάνω.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.InsertionDirectionProcessor.DescriptionText</Keyword>
-      <Text>Ανίχνευση φοράς ένθεσης...</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.WaxUpProcessor.WizardNext</Keyword>
@@ -3323,10 +3186,6 @@
     <Translation>
       <Keyword>DentalProcessors.CorrectAntagonistProcessor.DescriptionText</Keyword>
       <Text>Διορθώστε ανταγωνιστή</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.OverPressProcessor.Title</Keyword>
-      <Text>Πρεσσαριστά</Text>
     </Translation>
     <Translation>
       <Keyword>OverpressPontic.ReconstructionType</Keyword>
@@ -3385,16 +3244,16 @@
       <Text>Πάχος</Text>
     </Translation>
     <Translation>
-      <Keyword>OverpressMinThickness.ToolTip</Keyword>
-      <Text>Δώστε το προτεινόμενο πάχος του πρεσσαριστού</Text>
+      <Keyword>OverpressParameters</Keyword>
+      <Text>Παράμετροι πρεσσαρίσματος</Text>
     </Translation>
     <Translation>
       <Keyword>DistanceToAnatomic</Keyword>
       <Text>Απόσταση απο την ανατομία</Text>
     </Translation>
     <Translation>
-      <Keyword>OverpressParameters</Keyword>
-      <Text>Παράμετροι πρεσσαρίσματος</Text>
+      <Keyword>OverpressMinThickness.ToolTip</Keyword>
+      <Text>Δώστε το προτεινόμενο πάχος του πρεσσαριστού</Text>
     </Translation>
     <Translation>
       <Keyword>OverpressAnatomicDistanceFalseColorBar</Keyword>
@@ -3444,16 +3303,6 @@
       <Keyword>ChangeLine</Keyword>
       <Text>Αλλαγή γραμμής</Text>
     </Translation>
-    <!-- START 
-Nesting 
-Specific 
-Translations 
--->
-    <!-- END 
-Nesting 
-Specific 
-Translations 
--->
     <Translation>
       <Keyword>SituAdjustment</Keyword>
       <Text>Εφαρμογή του εκμαγείου</Text>
@@ -3489,6 +3338,14 @@ Translations
       <Text>Τοποθέτηση εκμαγείου...</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.MirrorHealthyToSituProcessor.MenuEntry</Keyword>
+      <Text>Καταπτρισμος δοντιού και χρήση του ώς εκμαγείου...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.MirrorHealthyToSituProcessor.MenuEntry.Plural</Keyword>
+      <Text>Καταπτρισμος δοντιών και χρήση τους ώς εκμαγείου...</Text>
+    </Translation>
+    <Translation>
       <Keyword>Waxup.Correct</Keyword>
       <Text>Τοποθέτηση της σάρωσης του κερώμαστος</Text>
     </Translation>
@@ -3505,14 +3362,6 @@ Translations
       <Text>Τοποθέτηση της σάρωσης του κερώμαστος...</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.MirrorHealthyToSituProcessor.MenuEntry</Keyword>
-      <Text>Καταπτρισμος δοντιού και χρήση του ώς εκμαγείου...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.MirrorHealthyToSituProcessor.MenuEntry.Plural</Keyword>
-      <Text>Καταπτρισμος δοντιών και χρήση τους ώς εκμαγείου...</Text>
-    </Translation>
-    <Translation>
       <Keyword>EmergenceProfileCurveDoesNotContainImplant</Keyword>
       <Text>Η γωνία του πρφίλ ανάδυσης δεν φαίνεται να περιβάλλει το εμφύτευμα! Είναι σωστ'ος ο αριθμός του δοντιού? </Text>
     </Translation>
@@ -3523,6 +3372,12 @@ Translations
     <Translation>
       <Keyword>TheFollowingTeethDoNotHaveSameInsertionDirection</Keyword>
       <Text>Τα παρακάτω δόντια δεν έχουν την ίδια φορά ένθεσης: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReallyConnectTeethWithDifferentInsertionDirection</Keyword>
+      <Text>Για κοπή σε μηχανήματα 3/4 αξόνων προτείνεται, να ναρθικοποιούντασι μόνο δόντια με την ίδια φορά ένθεσης.
+    
+Ναρθικοποιήση δοντιών?</Text>
     </Translation>
     <Translation>
       <Keyword>ReallyLoadProjectEvenThoughAlreadyUploaded</Keyword>
@@ -3544,10 +3399,214 @@ Translations
       <Text>Ένα η περισσότερα αρχεία δεν μπορούν να διαγραφούν.</Text>
     </Translation>
     <Translation>
-      <Keyword>ReallyConnectTeethWithDifferentInsertionDirection</Keyword>
-      <Text>Για κοπή σε μηχανήματα 3/4 αξόνων προτείνεται, να ναρθικοποιούντασι μόνο δόντια με την ίδια φορά ένθεσης.
-    
-Ναρθικοποιήση δοντιών?</Text>
+      <Keyword>DentalProcessorControls.LightBulb.Title</Keyword>
+      <Text>Φωτισμός</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FeatureLineWorkerResult_UnknownError</Keyword>
+      <Text>Πάτημα επόμενου σημείου η κουμπί 'Εκκίνηση' </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DiscardCurrentGreenCurveQuestion</Keyword>
+      <Text>Θέλετε πραγματικά να χρησιμοποιήσετε την πράσινη γραμμή?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangePreparationLight</Keyword>
+      <Text>Φορά ένθεσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ChangePreparationLight.ToolTip</Keyword>
+      <Text>Φορά ένθεσης-Επιλογή διεύθυνσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.InsertionDirectionProcessor.ViewFromBottomProblem</Keyword>
+      <Text>Λάθος φορά ένθεσης! Φαίνεται αναστροφή επιφάνειας της άνω και της κάτω. Παρακαλούμε αλλάξτε την οπτική γωνία με το ποντίκι, ωστε να βλέπετε την εργασία απο πάνω.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CloseWizardAcceptChangesQuestion</Keyword>
+      <Text>Χρησιμοποίηση αλλαγών πριν το κλείσιμο της επισκόπησης?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectPlacementApplyToAll</Keyword>
+      <Text>Μετακίνηση όλων συγχόνως</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ShrinkBrushResetQuestion</Keyword>
+      <Text>Συρίκνωση όλων? [Ναι] Καμία συρίκνωση? [Όχι]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SpaceRuler.Thickness</Keyword>
+      <Text>Επιλογή πάχους</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AdjustingOcclusionsProcessor.Error</Keyword>
+      <Text>Δεν βρέθηκε η σύγκλιση σε κάποια δόντια.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Articulator.CorrectJawsButtonLabel</Keyword>
+      <Text>Διόρθωση γνάθου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.CorrectJawPositions</Keyword>
+      <Text>Διόρθωση της θέσης της  γνάθου</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.SaveJawPosition</Keyword>
+      <Text>Αποθήκευση άρθρωσης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.MoveRotateAny</Keyword>
+      <Text>Αλλαγές κατα βούληση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.MoveZ</Keyword>
+      <Text>Διόρθωση στον άξονα -Ζ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.MoveXY</Keyword>
+      <Text>Διόρθωση στον άξονα -ΧΥ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.RotateZ</Keyword>
+      <Text>Um Vertikalachse drehen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.RotateX</Keyword>
+      <Text>Um Transversalachse drehen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.RotateY</Keyword>
+      <Text>Um Sagittalachse drehen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.ShowArtiPlane</Keyword>
+      <Text>Εμφάνιση επιφάνειας σύγκλισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.SetIncisal</Keyword>
+      <Text>Τοποθέτηση σημείου κοπτικά</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.SetLeftMolar</Keyword>
+      <Text>Τοποθέτηση σημείου στον αριστερό γομφίο </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CorrectJaws.SetRightMolar</Keyword>
+      <Text>Τοποθέτηση σημείου στον δεξιό γομφίο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Manually</Keyword>
+      <Text>Χειροκίνητα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PositionManually</Keyword>
+      <Text>Χειροκίνητα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PositionManually.Header</Keyword>
+      <Text>Χειροκίνητα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Auto</Keyword>
+      <Text>Αυτόματα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PositionAuto</Keyword>
+      <Text>Αυτόματα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Articulator.RemoveIntersectionBetweenTeethMessageTitle</Keyword>
+      <Text>Βρέθηκαν οι πρόωρες επαφές</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AnatomicInlay</Keyword>
+      <Text>Inlay</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SituWaxupScans</Keyword>
+      <Text>Απεικόνιση κερώματος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergeParts.OnlyRemoveClicked</Keyword>
+      <Text>Θέλετε να διαγράψετε τις ενοποιημένες εργασίες εντελώς?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorStandardDesignTab</Keyword>
+      <Text>Τύπος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorFreeDesignTab</Keyword>
+      <Text>Ελεύθερο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorDockPointExplanation</Keyword>
+      <Text>Μετακίνηση με ποντίκι 
+- Mε Shift μετασχηματισμός 
+- Μετακίνηση εφαπτομενικού σημείου με Ctrl-</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConnectorApplySettingsToUserModified</Keyword>
+      <Text>Ένα οι περισσοτερα μεσοδόντια έχουν μετακινηθεί χειροκίνητα. Θέλετε να ακυρώσετε τις μετακινήσεις?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteAdapted</Keyword>
+      <Text>Στεφάνες, Inlays, Abutments κτλ.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.BarProcessor.Title</Keyword>
+      <Text>Κατασκευή μπάρας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.BarProcessor.DescriptionText</Keyword>
+      <Text>Ετοιμασία μπάρας...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BennettInsertMetal</Keyword>
+      <Text>Μέταλλο</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConsiderStaticDynamicJawMovement</Keyword>
+      <Text>Τύπος σύγκλισης</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ConsiderReconstructionsOnLowerUpper</Keyword>
+      <Text>Προσαρμογή από</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelOnLowerJaw</Keyword>
+      <Text>Κάτω γνάθος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelOnUpperJaw</Keyword>
+      <Text>Άνω γνάθος</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AllowGeometryScaling</Keyword>
+      <Text>Να επιτραπούν αλλαγές μεγέθους</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AllowGeometryScaling.ToolTip</Keyword>
+      <Text>Ενεργοποίηση κλίμακας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentEditProcessor.MenuEntry</Keyword>
+      <Text>Κολοβώματα...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentEditProcessor.MenuEntry.Plural</Keyword>
+      <Text>Κολοβώματα...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentEditProcessor.DescriptionText</Keyword>
+      <Text>Σχεδιασμός κολοβωμάτων...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AbutmentEditProcessor.Title</Keyword>
+      <Text>Σχεδιασμός κολοβώματων</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Spacing</Keyword>
+      <Text>Απόσταση</Text>
     </Translation>
     <Translation>
       <Keyword>ShowCurrentGingivaThickness</Keyword>
@@ -3586,14 +3645,6 @@ Translations
       <Text>Πρότυπο</Text>
     </Translation>
     <Translation>
-      <Keyword>BarPreview</Keyword>
-      <Text>Προεπισκόπηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BarPreviewGroupBox</Keyword>
-      <Text>Πιέστε "Προεπισκόπηση".</Text>
-    </Translation>
-    <Translation>
       <Keyword>BarCalculate</Keyword>
       <Text>Υπολογισμός</Text>
     </Translation>
@@ -3628,10 +3679,6 @@ Translations
     <Translation>
       <Keyword>BarProfileDistanceToGingiva</Keyword>
       <Text>Απόσταση ούλων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BarProcessorProfile.Accept</Keyword>
-      <Text>Επιλεγμένα τεταρτημόρια της μπάρας</Text>
     </Translation>
     <Translation>
       <Keyword>BarProcessorProfile.AcceptProfileForAll</Keyword>
@@ -3694,14 +3741,12 @@ Translations
 Παρόλα αυτά θέλετε να δώσετε φορά ένθεσης στον σύνδεσμο?</Text>
     </Translation>
     <Translation>
-      <Keyword>AdaptUnadaptedPonticsQuestion</Keyword>
-      <Text>Τα μέρη της εργασίας δεν έχουν εφαρμοστεί στα ούλα.
-
-Εφαρμογή στα ούλα?</Text>
+      <Keyword>AdaptUnadaptedPontics</Keyword>
+      <Text>Τα μέρη της εργασίας δεν έχουν εφαρμοστεί στα ούλα.</Text>
     </Translation>
     <Translation>
-      <Keyword>FeatureLineWorkerResult_UnknownError</Keyword>
-      <Text>Πάτημα σημείου ή πατήστε'Εκκίνηση' </Text>
+      <Keyword>AdaptPonticsToGingiva</Keyword>
+      <Text>Εφαρμογή στα ούλα?</Text>
     </Translation>
     <Translation>
       <Keyword>ToothParts</Keyword>
@@ -3725,16 +3770,16 @@ Translations
 </Text>
     </Translation>
     <Translation>
-      <Keyword>AnatomicInlay</Keyword>
-      <Text>Ένθετο </Text>
+      <Keyword>DentalProcessors.OffsetInlayProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για ρυθμίσεις Inlays </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.OffsetInlayProcessor.DesciptionText</Keyword>
+      <Text>Δημιουργεία ρυθμίσεων Inlays</Text>
     </Translation>
     <Translation>
       <Keyword>ImplantLibrary</Keyword>
       <Text>Βιβλιοθήκη εμφυτευμάτων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessorControls.LightBulb.Title</Keyword>
-      <Text>Φωτισμός</Text>
     </Translation>
     <Translation>
       <Keyword>AbutmentToGingivaAngle</Keyword>
@@ -3813,6 +3858,10 @@ Translations
       <Text>Γενική χρήση</Text>
     </Translation>
     <Translation>
+      <Keyword>CtrlKey</Keyword>
+      <Text>Ctrl</Text>
+    </Translation>
+    <Translation>
       <Keyword>RelationToGingiva</Keyword>
       <Text>Σχέση απόστασης απο το ούλο</Text>
     </Translation>
@@ -3876,10 +3925,6 @@ Translations
 - Ctrl+Πάτημα: Προσδιορισμός ύψους</Text>
     </Translation>
     <Translation>
-      <Keyword>StickAll.ToolTip</Keyword>
-      <Text>Επαναεφαρμογή όλων των σημείων ελέγχου στα ούλα</Text>
-    </Translation>
-    <Translation>
       <Keyword>UnstickAll</Keyword>
       <Text>Διαγραφή όλων</Text>
     </Translation>
@@ -3938,12 +3983,26 @@ Translations
       <Text>Μεγάλο πάχος</Text>
     </Translation>
     <Translation>
+      <Keyword>GingivaVeryThick</Keyword>
+      <Text>Μεγάλο πάχος</Text>
+    </Translation>
+    <Translation>
       <Keyword>ConnectorVeryThin</Keyword>
       <Text>Ευθύ
 εντάξει</Text>
     </Translation>
     <Translation>
+      <Keyword>GingivaVeryThin</Keyword>
+      <Text>Ευθύ
+εντάξει</Text>
+    </Translation>
+    <Translation>
       <Keyword>ConnectorTooThin</Keyword>
+      <Text>Πολύ
+λεπτό</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GingivaTooThin</Keyword>
       <Text>Πολύ
 λεπτό</Text>
     </Translation>
@@ -3975,10 +4034,6 @@ Translations
     <Translation>
       <Keyword>VisualizeAbutmentCrownDistance</Keyword>
       <Text>Απόσταση στο κολόβωμα (στην ανατομία.)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SettingsBox</Keyword>
-      <Text>Ρυθμίσεις...</Text>
     </Translation>
     <Translation>
       <Keyword>AutoAdaptOcclusal</Keyword>
@@ -4013,14 +4068,6 @@ Translations
       <Text>Όριο.?</Text>
     </Translation>
     <Translation>
-      <Keyword>Über</Keyword>
-      <Text>Υπερκείμενα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Below</Keyword>
-      <Text>Υποκείμενα</Text>
-    </Translation>
-    <Translation>
       <Keyword>CheckToEnforceMaximumGingivaDistance</Keyword>
       <Text>Ενεργοποίηση για την μείωση της απόστασης απο τα ούλα.
 Απενεργοποίηση του περιορισμού</Text>
@@ -4051,10 +4098,6 @@ Translations
       <Text>Προσθήκη σημείου ελέγχου</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.AbutmentEditProcessor.WizardNext</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
       <Keyword>EmergenceProfileBorders</Keyword>
       <Text>Προφίλ ανάδυσης</Text>
     </Translation>
@@ -4074,10 +4117,6 @@ Translations
     <Translation>
       <Keyword>EPSupRad</Keyword>
       <Text>Ακτίνα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentBottomProcessor.WizardNext</Keyword>
-      <Text></Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ScrewHoleDesignProcessor.WizardNext</Keyword>
@@ -4104,7 +4143,7 @@ Translations
 - Ανύψωση/διαγραφή μασητικού επιπέδου μέσω πατήματος του κοίλου τμήματος κάτω απο τα σημεία ελέγχου.
 - Πρσθήκη σηεμίων ελέγχου Ctrl+click. (Απομάκρυνση μέσω πατήματος αριστερού+δεξιού κουμπιού)
 - Το μεγάλο μεσαίο σημείο ελέγχου όταν πατηθεί μαζί με Ctrl μετακινεί όλα τα κανάλια κοχλίωσης.
-- Ctrl+Shift όταν πατηθούν μαζί δημιουργούν μία επιφάνεια γύρω απο το κανάλι κοχλίωσης 
+- Ctrl όταν πατηθούν μαζί δημιουργούν μία επιφάνεια γύρω απο το κανάλι κοχλίωσης 
   (όταν τα σημεία ελέγχου δεν είναι ταξινομημένα)
 - Πατήστε για την δημιουργεία καναλίων κοχλίωσης
   για να αλλάξετε απο ανατομική σε σμικρυμένο σχεδιασμό. </Text>
@@ -4168,105 +4207,16 @@ Shift+Ctrl μαζί με πάτημα για να πάτε στο αρχικό �
 Shift+Ctrl μαζί με πάτημα για να πάτε στο αρχικό σχήμα.</Text>
     </Translation>
     <Translation>
-      <Keyword>AbutmentSpacingAdvanced</Keyword>
-      <Text>Ποσοστιαία απόσταση</Text>
+      <Keyword>APSideAngle</Keyword>
+      <Text>Γωνία</Text>
     </Translation>
     <Translation>
       <Keyword>APSideAngleHeader</Keyword>
       <Text>Ελάχιστη γωνία</Text>
     </Translation>
     <Translation>
-      <Keyword>APSideAngle</Keyword>
-      <Text>Γωνία</Text>
-    </Translation>
-    <Translation>
       <Keyword>APSideAngle.ToolTip</Keyword>
       <Text>Ελάχιστη γωνία κολοβώματος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMillDiam</Keyword>
-      <Text>Ø-Φρέζα (A)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMesial.ToolTip</Keyword>
-      <Text>Μέγεθος των εγγύς αποστάσεων (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APDistal.ToolTip</Keyword>
-      <Text>Μέγεθος των άπω αποστάσεων (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APVestibular.ToolTip</Keyword>
-      <Text>Μεγεθος της ακρολοφιακής απόστασης (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APLingual.ToolTip</Keyword>
-      <Text>Μέγεθος της  γλωσσικής απόστασης (prozentual vom vorher gesetzten 'Abstand')</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APSpacing.ToolTip</Keyword>
-      <Text>Τελική τιμή της μασητικής απόστασης μεταξύ ανατομικής στεφάνης και κολοβώματος. 
-Διεύρυνση της "ποσοστιαίας απόστασης" κάτω, για να ορίσετε τις τιμές για τα Εγγύς/Άπω</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMillDiam.ToolTip</Keyword>
-      <Text>Διάμετρος της μικρότερης φρέζας για την ετοιμασία των κολοβωμάτων.
-</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AP2ndMillDiam</Keyword>
-      <Text>Ø-Φρέζα (K)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AP2ndMillDiam.ToolTip</Keyword>
-      <Text>
-Διάμετρος της μικρότερης φρέζας για την ετοιμασία της υπερκατασκευής.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMinScrewDist</Keyword>
-      <Text>Πάχος τοιχώματος.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMinEMAngle</Keyword>
-      <Text>Γωνία παρασκευής</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMinScrewDist.ToolTip</Keyword>
-      <Text>Θέτει το ελάχιστο πάχος του καναλιού κοχλίωσης.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>APMinEMAngle.ToolTip</Keyword>
-      <Text>Ελάχιστη γωνία της παρασκευής</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScrewRetainedBridgesCantBeProduced</Keyword>
-      <Text>Παρακαλώ προσοχή:
-
-Μασητικά κοχλιούμενες αποκαταστάσεις δεν είναι δυνατές!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.SaveJawPosition</Keyword>
-      <Text>Αποθήκευση θέσεων γνάθων</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AllowGeometryScaling.ToolTip</Keyword>
-      <Text>Ενεργοποίηση κλίμακας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentInsertionDirectionProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για δευτερεύουσα φορά ένθεσης.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AbutmentInsertionDirectionProcessor.Title</Keyword>
-      <Text>Δευτερεύουσα φορά ένθεσης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.OffsetInlayProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για ρυθμίσεις Inlays </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.OffsetInlayProcessor.DesciptionText</Keyword>
-      <Text>Δημιουργεία ρυθμίσεων Inlays</Text>
     </Translation>
     <Translation>
       <Keyword>AbutmentSupport</Keyword>
@@ -4317,8 +4267,96 @@ Shift+Ctrl μαζί με πάτημα για να πάτε στο αρχικό �
       <Text>Μέρη εμφυτεύματος</Text>
     </Translation>
     <Translation>
+      <Keyword>APMillDiam</Keyword>
+      <Text>Ø-Φρέζα (A)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>APMillDiam.ToolTip</Keyword>
+      <Text>Διάμετρος της μικρότερης φρέζας για την ετοιμασία των κολοβωμάτων.
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AP2ndMillDiam</Keyword>
+      <Text>Ø-Φρέζα (K)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>AP2ndMillDiam.ToolTip</Keyword>
+      <Text>
+Διάμετρος της μικρότερης φρέζας για την ετοιμασία της υπερκατασκευής.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>APMinScrewDist</Keyword>
+      <Text>Πάχος τοιχώματος.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>APMinEMAngle</Keyword>
+      <Text>Γωνία παρασκευής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>APMinScrewDist.ToolTip</Keyword>
+      <Text>Θέτει το ελάχιστο πάχος του καναλιού κοχλίωσης.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>APMinEMAngle.ToolTip</Keyword>
+      <Text>Ελάχιστη γωνία της παρασκευής</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ScrewRetainedBridgesCantBeProduced</Keyword>
+      <Text>Παρακαλώ προσοχή:
+
+Μασητικά κοχλιούμενες αποκαταστάσεις δεν είναι δυνατές!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Below</Keyword>
+      <Text>Υποκείμενα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SettingsBox</Keyword>
+      <Text>Ρυθμίσεις</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessorControls.ShowWizardProcessor.Button</Keyword>
+      <Text>Επισκόπιση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PrimaryTelescopeProcessor.WizardNext</Keyword>
+      <Text>Επισκόπιση πρωτεύον τηλεσκοπικού</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPreview</Keyword>
+      <Text>Προεπισκόπηση</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarPreviewGroupBox</Keyword>
+      <Text>Πιέστε "Προεπισκόπηση".</Text>
+    </Translation>
+    <Translation>
+      <Keyword>BarProcessorProfile.Accept</Keyword>
+      <Text>Επιλεγμένα τεταρτημόρια της μπάρας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>StickAll.ToolTip</Keyword>
+      <Text>Επαναεφαρμογή όλων των σημείων ελέγχου στα ούλα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Occlusal</Keyword>
+      <Text>Adapt to Antagonist</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MergedBridgeFilename</Keyword>
+      <Text>bridge_cad</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RetriangulationOfSTLQuestion</Keyword>
+      <Text>Παρακαλούμε ελέγξτε την σάρωση για τυχόν κενά.
+  
+Σε περίπτωση που υπάρχουν κόκκινες γραμμές στην περιοχή των ανταγωνιστών ή της εργασίας παρακαλούμε ξανα επεξεργαστήτε τα δεδομένα.
+
+Επανάληψη της επεξεργασίας των δεδομένων σάρωσης. </Text>
+    </Translation>
+    <Translation>
       <Keyword>SelectionMode</Keyword>
-      <Text>Επιλογή:</Text>
+      <Text>Επιλογή</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.MeshEditProcessor.Title</Keyword>
@@ -4345,6 +4383,38 @@ Shift+Ctrl μαζί με πάτημα για να πάτε στο αρχικό �
       <Text>Εικονικός αρθρωτήρας</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.AutoArticulatorProcessor.Title</Keyword>
+      <Text>Εικονικός αρθρωτήρας</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Invert</Keyword>
+      <Text>Invert.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DeleteMarkedParts</Keyword>
+      <Text>Διαγραφή</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.StartArticulatorProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για εικονικό αρθρωτήρα</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Action</Keyword>
+      <Text>Ενέργειες</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MeshEditProcessorControl.Action</Keyword>
+      <Text>Ενέργειες</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Select</Keyword>
+      <Text>Επιλογή:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.AntagonistEditProcessor.WizardNext</Keyword>
+      <Text>'Επόμενο' για επεξεργασία με ανταγωνιστές</Text>
+    </Translation>
+    <Translation>
       <Keyword>MeshEditSelectionHelp</Keyword>
       <Text>
 Σχεδιασμός για την οριοθέτηση της επιφάνειας προς διαγραφή.
@@ -4355,273 +4425,63 @@ Shift+Ctrl μαζί με πάτημα για να πάτε στο αρχικό �
 "Διαγραφή" πάτημα, για αποκοπή ρυθμίσεων</Text>
     </Translation>
     <Translation>
-      <Keyword>RetriangulationOfSTLQuestion</Keyword>
-      <Text>Παρακαλούμε ελέγξτε την σάρωση για τυχόν κενά.
-  
-Σε περίπτωση που υπάρχουν κόκκινες γραμμές στην περιοχή των ανταγωνιστών ή της εργασίας παρακαλούμε ξανα επεξεργαστήτε τα δεδομένα.
-
-Επανάληψη της επεξεργασίας των δεδομένων σάρωσης. </Text>
+      <Keyword>APSpacing.ToolTip</Keyword>
+      <Text>Τελική τιμή της μασητικής απόστασης μεταξύ ανατομικής στεφάνης και κολοβώματος. 
+Διεύρυνση της "ποσοστιαίας απόστασης" κάτω, για να ορίσετε τις τιμές για τα Εγγύς/Άπω</Text>
     </Translation>
     <Translation>
-      <Keyword>DeleteMarkedParts</Keyword>
-      <Text>Διαγραφή</Text>
+      <Keyword>APVestibular.ToolTip</Keyword>
+      <Text>Μεγεθος της ακρολοφιακής απόστασης (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
     </Translation>
     <Translation>
-      <Keyword>Select</Keyword>
-      <Text>Επιλογή:</Text>
+      <Keyword>APMesial.ToolTip</Keyword>
+      <Text>Μέγεθος των εγγύς αποστάσεων (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
     </Translation>
     <Translation>
-      <Keyword>Action</Keyword>
-      <Text>Ενέργειες</Text>
+      <Keyword>APLingual.ToolTip</Keyword>
+      <Text>Μέγεθος της  γλωσσικής απόστασης (prozentual vom vorher gesetzten 'Abstand')</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.StartArticulatorProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για εικονικό αρθρωτήρα</Text>
+      <Keyword>APDistal.ToolTip</Keyword>
+      <Text>Μέγεθος των άπω αποστάσεων (ποσοστιαία απο την προηγούμενη μέτρηση 'Aπόσταση')</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.AntagonistEditProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για επεξεργασία με ανταγωνιστές</Text>
+      <Keyword>AbutmentSpacingAdvanced</Keyword>
+      <Text>Ποσοστιαία απόσταση</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessorControls.ShowWizardProcessor.Button</Keyword>
-      <Text>Επισκόπιση</Text>
+      <Keyword>Superfunctions</Keyword>
+      <Text>Superfunction</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessorControls.ShowWizardProcessor.Button.ToolTip</Keyword>
-      <Text></Text>
+      <Keyword>Über</Keyword>
+      <Text>Υπερκείμενα</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.StartMirrorHealthyToSituProcessor.WizardNext</Keyword>
-      <Text></Text>
+      <Keyword>MoveTeethTogether</Keyword>
+      <Text>Μετακίνηση όλων συγχόνως</Text>
     </Translation>
     <Translation>
-      <Keyword>AngleLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>AngleXYPlaneLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewPlaneOutputDepthZLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewPlaneOutputLengthXYLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewPlaneOutputAngleToPlaneLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewPlaneOutputAngleOnScreenLabelContent</Keyword>
-      <Text>? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>BrushStyleSelection</Keyword>
-      <Text>Τύπος: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ShowInvalidBridges</Keyword>
-      <Text>Εμφάνιση λανθασμένων γεφυρών</Text>
-    </Translation>
-    <Translation>
-      <Keyword>HoldEquator</Keyword>
-      <Text>Μέγιστη Περίμετρο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessorControls.DicomViewer.Title</Keyword>
-      <Text>Προβολέας DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ToothNumberHint</Keyword>
-      <Text>Δόντι {0} </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessorControls.ShowWizardProcessor.Button.Tooltip</Keyword>
-      <Text>Έναρξη οδηγού </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.MirrorHealthyToSituProcessor.Title</Keyword>
-      <Text>Αντιγραφή και χρήση σαν μοντέλο προτέρας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.AdjustingSituProcessor.WizardNext</Keyword>
-      <Text>'Επόμενο' για να προσαρμοστεί στο μοντέλο προτέρας</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationMarginProcessor.MiddleMouseTipp</Keyword>
-      <Text>Επισημάνετε με μεσαίο κλικ ποντικιού</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ContinueAnyway</Keyword>
-      <Text>Θέλετε να συνεχίσετε οπωσδήποτε;</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Finished</Keyword>
-      <Text>Ολοκλήρωση </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ScanDataEditProcessor.DescriptionText</Keyword>
-      <Text>Προετοιμασία επεξεργασίας των δεδομένων σάρωσης ...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.CorrectPreparationMarginProcessor.Button</Keyword>
-      <Text>Διόρθωση αυχενικών γραμμών</Text>
-    </Translation>
-    <Translation>
-      <Keyword>WizardCantGoBackDueToChangesInExpertMode</Keyword>
-      <Text>Οι αλλαγές που έχετε κάνει στο expert mode εμποδίζουν τον οδηγό να μεταβεί πίσω σε προηγούμενα βήματα.
-
-Συμβουλή: Επιστρέψτε στο expert mode και χρησιμοποιήστε το μενού για να μεταβείτε σε ένα συγκεκριμένο βήμα στη διαδικασία σχεδιασμού.
-
-Κάντε κλικ στο 'Επόμενο' για να προχωρήσετε στο επόμενο βήμα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>WizardCantGoBackDueToSceneLoaded</Keyword>
-      <Text>Συγνώμη, δεν μπορείτε να πάτε πίσω περαιτέρω μετά τη φόρτωση σκηνής
-                                                                                                                                                                                                    Συμβουλή: Επιστρέψτε στο expert mode και χρησιμοποιήστε το μενού για να μεταβείτε σε ένα συγκεκριμένο βήμα στη διαδικασία σχεδιασμού.
-
-Κάντε κλικ στο 'Επόμενο' για να προχωρήσετε στο επόμενο βήμα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ExpertMode</Keyword>
-      <Text>Expert Mode </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ReallyCloseProjectQuestion.Title</Keyword>
-      <Text>Κλείσιμο περιστατικού</Text>
-    </Translation>
-    <Translation>
-      <Keyword>StrengthWithHelp</Keyword>
-      <Text>Αντοχή (Χρήση Ctrl + τροχό του ποντικιού)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>BrushSizeWithHelp</Keyword>
-      <Text>Μέγεθος πινέλου (Χρήση Ctrl + τροχό του ποντικιού) </Text>
-    </Translation>
-    <Translation>
-      <Keyword>MoveTeeth</Keyword>
-      <Text>Μετακίνηση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RotateTeeth</Keyword>
-      <Text>Περιστροφή</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ScaleTeeth</Keyword>
-      <Text>Μεγέθυνση</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Ok</Keyword>
-      <Text>OK </Text>
-    </Translation>
-    <Translation>
-      <Keyword>AdjustingOcclusionsProcessor.NoDeformationForWaxupErrorMessage</Keyword>
-      <Text>Η διατήρηση του σχήματος του δοντιού για απαλοιφή πρόωρων επαφών δεν μπορεί να εκτελεστεί σε δόντια απο διαγνωστικό κέρωμα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewClipPlane.Invert</Keyword>
-      <Text>Αναστροφή </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Articulator.ShowArticulator</Keyword>
-      <Text>Εμφάνιση αρθρωτήρα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.RotateZ</Keyword>
-      <Text>Περιστροφή γύρω από τον κατακόρυφο άξονα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.RotateX</Keyword>
-      <Text>Περιστροφή γύρω από τον εγκάρσιο άξονα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CorrectJaws.RotateY</Keyword>
-      <Text>Περιστροφή γύρω από οβελιαίο άξονα</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CrownSpacingAxial</Keyword>
-      <Text>Αξονικά </Text>
-    </Translation>
-    <Translation>
-      <Keyword>CrownSpacingO.SliderToolTip</Keyword>
-      <Text>Πρόσθετος χώρος σε μασητική κατεύθυνση που εφαρμόζεται παντού</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CrownSpacingRadial</Keyword>
-      <Text>Ακτίνα δοντιού</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CrownSpacingMB</Keyword>
-      <Text>ΕΓΓΥΣ ΑΠΩ+ ΠΑΡΕΙΟΓΛΩΣΣΙΚΑ</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CrownSpacingXY.SliderToolTip</Keyword>
-      <Text>Επιπρόσθετη οριζόντιος χώρος (κάθετος στη μασητική κατεύθυνση)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>AnatomicInlay.ReconstructionType</Keyword>
-      <Text>Ένθετο</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Inlay</Keyword>
-      <Text>Ένθετο </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Pontic</Keyword>
-      <Text>Γεφύρωμα </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Telescope</Keyword>
-      <Text>Τηλεσκοπικό </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Crown</Keyword>
-      <Text>Στεφάνη</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SituScans</Keyword>
-      <Text>Σαρώσεις προτέρας κατάστασης</Text>
-    </Translation>
-    <Translation>
-      <Keyword>WaxupScans</Keyword>
-      <Text>Σαρώσεις διαγνωστικού κερώματος</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LingualBandProcessor.ErrorMsg</Keyword>
-      <Text>Δεν ήταν δυνατή η δημιουργία γλωσσικού βάθρου. Αν το πρόβλημα επιμένει, δοκιμάστε ξανά με μια νέα καλύπτρα χωρίς τροποποιήσεις ελεύθερης διαμόρφωσης. Μπορείτε να τροποιήσετε ελεύθερα ξανά μετά από αυτό το βήμα.
-   
-Σημειώστε ότι δεν μπορείτε να επεξεργαστείτε ένα υπάρχον γλωσσικό βάθρο που έχει ήδη διαμορφωθεί ελεύθερα.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ArticulatorProcessor.ArticulatorRepeatManually.MenuEntry</Keyword>
-      <Text>Επανάληψη αρθρωτήρα...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DragSliderToMoveJaw</Keyword>
-      <Text>Σύρετε τον slider για να μετακινήσετε τη γνάθο </Text>
-    </Translation>
-    <Translation>
-      <Keyword>VirtualTooth</Keyword>
-      <Text>Δίσκος τοποθέτησης</Text>
+      <Keyword>MoveOption</Keyword>
+      <Text>Μετακίνηση όλων συγχόνως</Text>
     </Translation>
   </Translations>
   <IncludeFiles>
     <IncludeFile>../filenames.xml</IncludeFile>
     <IncludeFile>ConfigControl-greek.xml</IncludeFile>
-    <IncludeFile>../OnlineHelp-english.xml</IncludeFile>
-    <IncludeFile>OnlineHelp-greek.xml</IncludeFile>
-    <IncludeFile>Dicom-greek.xml</IncludeFile>
+    <IncludeFile>missing\ConfigControl-greek.xml</IncludeFile>
+    <IncludeFile>missing\ModelCreator-greek.xml</IncludeFile>
+    <IncludeFile>missing\DentalCADApp-greek.xml</IncludeFile>
+    <IncludeFile>missing\PrepInspect-greek.xml</IncludeFile>
+    <IncludeFile>missing\Nesting-greek.xml</IncludeFile>
     <IncludeFile>Nesting-greek.xml</IncludeFile>
-    <IncludeFile>scanmanager-greek.xml</IncludeFile>
-    <IncludeFile>CAMReader-greek.xml</IncludeFile>
-    <IncludeFile>ModelCreator-greek.xml</IncludeFile>
-    <IncludeFile>PrepInspect-greek.xml</IncludeFile>
-    <IncludeFile>ModuleActivations-greek.xml</IncludeFile>
-    <IncludeFile>TotalProsthesis-greek.xml</IncludeFile>
-    <IncludeFile>customer-greek.xml</IncludeFile>
-    <IncludeFile>missing\DentalCADApp-greek-missing.xml</IncludeFile>
+    <IncludeFile>missing\OnlineHelp-greek.xml</IncludeFile>
+    <IncludeFile>missing\CAMReader-greek.xml</IncludeFile>
+    <IncludeFile>missing\Dicom-greek.xml</IncludeFile>
+    <IncludeFile>missing\ExoViewer3D-greek.xml</IncludeFile>
+    <IncludeFile>missing\scanmanager-greek.xml</IncludeFile>
+    <IncludeFile>missing\MouseHelp-greek.xml</IncludeFile>
+    <IncludeFile>missing\ModuleActivations-greek.xml</IncludeFile>
+    <IncludeFile>missing\PrepInspectChanges-greek.xml</IncludeFile>
   </IncludeFiles>
 </TranslationContainer>

@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
+      <Text>创建数字印模模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentForAnyScanType</Keyword>
+      <Text>总是使用模型对齐(取代调整扫描数据方向)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
+      <Text>信息</Text>
+    </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
       <Text>模型编辑</Text>
@@ -19,7 +37,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.DescriptionText</Keyword>
-      <Text>模型编辑...</Text>
+      <Text>模型编辑....</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.ModelHeight</Keyword>
@@ -67,7 +85,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.DescriptionText</Keyword>
-      <Text>分割模型...</Text>
+      <Text>分割模型 </Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessor.CutPlane</Keyword>
@@ -98,6 +116,14 @@
       <Text>设置</Text>
     </Translation>
     <Translation>
+      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
+      <Text>底座高度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
+      <Text>固位钉周围最小厚度</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.Title</Keyword>
       <Text>无底板模型设计</Text>
     </Translation>
@@ -115,7 +141,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.DescriptionText</Keyword>
-      <Text>设计无底板模型...</Text>
+      <Text>设计无底板模型 </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.pinHeight</Keyword>
@@ -167,7 +193,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelStump.ReconstructionType</Keyword>
-      <Text>模型基牙</Text>
+      <Text>基牙模型</Text>
     </Translation>
     <Translation>
       <Keyword>ModelHealthy.ReconstructionType</Keyword>
@@ -179,11 +205,11 @@
     </Translation>
     <Translation>
       <Keyword>ModelBasePlates</Keyword>
-      <Text>模型底板</Text>
+      <Text>基底板模型</Text>
     </Translation>
     <Translation>
       <Keyword>ModelBasePlate</Keyword>
-      <Text>模型底板</Text>
+      <Text>基底板模型 </Text>
     </Translation>
     <Translation>
       <Keyword>ModelComponents</Keyword>
@@ -191,15 +217,27 @@
     </Translation>
     <Translation>
       <Keyword>ModelBasePlatePins</Keyword>
-      <Text>模型底板固位钉</Text>
+      <Text>模型基底固位钉</Text>
     </Translation>
     <Translation>
       <Keyword>ModelPlatelessBase</Keyword>
-      <Text>模型底板</Text>
+      <Text>模型基底</Text>
     </Translation>
     <Translation>
       <Keyword>ModelPlatelessDie</Keyword>
       <Text>代型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeHealthy</Keyword>
+      <Text>健康牙齿模型基底</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeStump</Keyword>
+      <Text>基牙模型基底</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeMissing</Keyword>
+      <Text>天然缺失牙模型基底</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreatorModeConvertSceneQuestion</Keyword>
@@ -207,28 +245,74 @@
 你要转换此窗口到分割模型吗？</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeHealthy</Keyword>
-      <Text>健康牙齿模型底板</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
+      <Text>模型附件</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeMixed</Keyword>
-      <Text>健康牙齿模型底板</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
+      <Text>点击“下一步”添加附件</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeStump</Keyword>
-      <Text>模型基牙底板</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
+      <Text>添加附件</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeMissing</Keyword>
-      <Text>天然缺失牙模型底板</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
+      <Text>添加附件</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
-      <Text>模型类型：</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
+      <Text>模型附件.......</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
+      <Text>直径</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
+      <Text>预设铣削</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
+      <Text>底部</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
+      <Text>颚扫描似乎颠倒，这可能会导致错误的结果。
+
+你想继续当前的对齐吗？</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessor.PinObject</Keyword>
       <Text>模型支撑柱</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAttachment.SupportPins</Keyword>
+      <Text>模型固位钉</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
+      <Text>对齐</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
+      <Text>自动隐藏视图障碍物 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
+      <Text>边缘线下面预备成凹面</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelCreatorLibrary</Keyword>
+      <Text>模型数据库</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.AlignmentMightBeWrong</Keyword>
+      <Text>该对齐可能是错误的。请检查模型旋转是否正确。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
+      <Text>模型类型：</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateFreely</Keyword>
@@ -236,11 +320,11 @@
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateXY</Keyword>
-      <Text>XY方向移动</Text>
+      <Text>XY平面移动</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateZ</Keyword>
-      <Text>咬合轴方向移动</Text>
+      <Text>仅咬合轴向移动</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.RotateFreely</Keyword>
@@ -255,20 +339,12 @@
       <Text>不旋转</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
-      <Text>对齐</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
       <Text>自动对齐</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
       <Text>重新对齐</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
-      <Text>自动隐藏视图障碍物 </Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.autoHideBasePlate</Keyword>
@@ -295,6 +371,10 @@
       <Text>基牙</Text>
     </Translation>
     <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
+      <Text>高嵌体</Text>
+    </Translation>
+    <Translation>
       <Keyword>ModelSegmentationProcessorControl.Legend.Other</Keyword>
       <Text>其他牙齿 </Text>
     </Translation>
@@ -311,24 +391,12 @@
       <Text>停止</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
-      <Text>直径</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
-      <Text>预设铣削</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
-      <Text>底板</Text>
+      <Text>基底</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
       <Text>代型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
-      <Text>底部</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.OmitPin</Keyword>
@@ -360,7 +428,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.SeatingAreaWidth</Keyword>
-      <Text>固位钉底座宽度</Text>
+      <Text>固位钉底部宽度</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.MorphologicalClosureDiameter</Keyword>
@@ -379,41 +447,26 @@
       <Text>衬垫半径</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBore.InvalidAlignedInputPart</Keyword>
-      <Text>某些部分的位置太靠近的模型基底。
-请重新对准扫描模型或修改所指示的部分。</Text>
+      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
+      <Text>某些部件太过于接近模型底板，
+请调整扫描数据或修改标示部分。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignment.JawAddedOrRemovedSinceAlignment</Keyword>
+      <Text>扫描数据匹配后有新的扫描数据被添加或删除。
+扫描数据须重新匹配并继续操作。</Text>
     </Translation>
     <Translation>
       <Keyword>ModelLabAnalogs</Keyword>
-      <Text>替代体</Text>
+      <Text>技工所植入物</Text>
     </Translation>
     <Translation>
       <Keyword>ModelImplantLabAnalog</Keyword>
-      <Text>替代体</Text>
+      <Text>技工所植入物</Text>
     </Translation>
     <Translation>
       <Keyword>ModelImplantLabAnalogRetention</Keyword>
-      <Text>替代体固位钉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
-      <Text>模型附件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
-      <Text>点击“下一步”添加附件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>添加附件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
-      <Text>添加附件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
-      <Text>模型附件...</Text>
+      <Text>保留技工所植入物</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessorControl.MovementRestrictions</Keyword>
@@ -422,12 +475,6 @@
     <Translation>
       <Keyword>ModelAttachmentProcessorControl.AttachmentSelection</Keyword>
       <Text>选择附件：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
-      <Text>颚扫描对齐似乎颠倒，这可能会导致错误的结果。
-
-你想按照当前的对齐继续吗？</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessorControl.PinTab</Keyword>
@@ -459,7 +506,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessor.ClosedMeshesInfo</Keyword>
-      <Text>出现以下部件有封闭的底板。
+      <Text>出现以下部件有封闭的基底。
 在后面的模型建立过程中可能会导致问题。</Text>
     </Translation>
     <Translation>
@@ -492,7 +539,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToothSegmentationProcessor.DescriptionText</Keyword>
-      <Text>牙齿模型分段...</Text>
+      <Text>牙齿模型分段.......</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentationProcessor.SegmentTooFarFromInlay</Keyword>
@@ -502,18 +549,6 @@
     <Translation>
       <Keyword>ModelToothSegmentationProcessor.FailedCreateSegmentRetry</Keyword>
       <Text>模型分段失败。尝试纠正标记的区域或重新调整边缘线。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationControl.KeepCorrectionQuestion</Keyword>
-      <Text>已经有一个选择。您既可以保留也可以从边缘线中生成一个新的选择。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationControl.KeepCorrection</Keyword>
-      <Text>保持当前的选择</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationControl.ResetCorrection</Keyword>
-      <Text>生成新的选择</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentation.brushSize</Keyword>
@@ -528,50 +563,6 @@
       <Text>可视化切换</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.RunFailed</Keyword>
-      <Text>对不起，牙齿不能被分割。
-    
-为了解决这种情况，请尝试以下方法：
-
-- 手动校正色彩选择，将被分割的牙齿应该被标记为红色。其余的扫描数据（即：邻牙，牙龈等），应标明绿色。点击网格上的（使用两个桶图标后，选择'红'或'绿色'），以帮助软件检测到正确的区域。开始前请单击“全部撤消”。
-
-- 更正边缘线的位置。切换到“设置边缘线”选项卡，并调整边界线（例如，通过添加更多的控制点）
-
-如果你看到这个消息，也请您查看扫描数据的方向是正确的，扫描数据是否有缺孔/网格错误等。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.MarginTab</Keyword>
-      <Text>边缘线</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.MarginHeader</Keyword>
-      <Text>使用点定义边缘线</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ToothMessage</Keyword>
-      <Text>请设置牙齿的边缘线</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.Hint1</Keyword>
-      <Text>请先设定点定义边缘线，然后点击“应用边缘线“</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ClearControlPoints</Keyword>
-      <Text>清除所有点</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ApplyMargin</Keyword>
-      <Text>应用</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.CorrectHeader</Keyword>
-      <Text>手动优化牙齿检测</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.HintSeg1</Keyword>
-      <Text>软件已检测到的牙齿边缘线。您可以通过定义牙齿的区域提高的检测结果。使用左键点击标记和Shift +左键点击取消标记的区域。</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelToothSegmentationProcessorControl.ClearAllSpheres</Keyword>
       <Text>全部撤消 </Text>
     </Translation>
@@ -582,6 +573,10 @@
     <Translation>
       <Keyword>ModelToggleDieTypesProcessorControl.Legend.Detachable</Keyword>
       <Text>可卸代型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Legend.AsHealthy</Keyword>
+      <Text>健康牙齿</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToggleDieTypesProcessorControl.Hint</Keyword>
@@ -605,7 +600,7 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.DescriptionText</Keyword>
-      <Text>更改牙齿代型...</Text>
+      <Text>更改牙齿代型.....</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToggleDieTypeProcessorControl.DeselectedTeethWithSegmentedPart</Keyword>
@@ -619,10 +614,6 @@
     <Translation>
       <Keyword>ModelToggleDieTypeProcessorControl.Cancel</Keyword>
       <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ApplyCorrection</Keyword>
-      <Text>应用</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentationProcessorControl.NoSegmentationWarning</Keyword>
@@ -669,10 +660,6 @@
       <Text>你想使用模型编辑向导继续工作吗？</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
-      <Text>创建数字印模模型</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelHelpNotCalculating</Keyword>
       <Text>完成计算</Text>
     </Translation>
@@ -682,7 +669,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelParameters</Keyword>
-      <Text>更改模型参数...</Text>
+      <Text>更改模型参数</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCalculationAbortedText</Keyword>
@@ -697,8 +684,95 @@
       <Text>模型计算已完成，请检查结果。要重新开始计算例如更改参数后，单击“运行”。 </Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AlignmentMightBeWrong</Keyword>
-      <Text>该对齐可能是错误的。请检查模型是否正确旋转。</Text>
+      <Keyword>ModelImplantProcessor.WarningFailedLoad</Keyword>
+      <Text>警告！实验室替代体不能被加载。 
+可能是缺少数据库项目或数据库项目已损坏。 
+如果生成模型下列牙齿的不会适合替代体：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningLegacyLabAnalogFiles</Keyword>
+      <Text>替代体配置文件格式发生了变化，下列文件是旧的格式必须移除。支持的旧格式将最终被移除。
+</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoadButton</Keyword>
+      <Text>继续</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoad.Title</Keyword>
+      <Text>警告</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelImplantProcessor.Error</Keyword>
+      <Text>取消</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplant.PlatePinIntersectsExtendedRetention</Keyword>
+      <Text>底板固位钉插入到了植入体内,此操作是无效的，请重新考虑选择底板固位钉。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoadMissingImplants</Keyword>
+      <Text>缺少替代体：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.KeepCorrectionQuestion</Keyword>
+      <Text>已经有一个选择。您既可以保留也可以从边缘线中生成一个新的选择。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.KeepCorrection</Keyword>
+      <Text>保持当前的选择</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.ResetCorrection</Keyword>
+      <Text>生成新的选择</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.RunFailed</Keyword>
+      <Text>对不起，牙齿不能被分割。
+    
+为了解决这种情况，请尝试以下方法：
+
+- 手动校正色彩选择，将被分割的牙齿应该被标记为红色。其余的扫描数据（即：邻牙，牙龈等），应标明绿色。点击网格上的（使用两个桶图标后，选择'红'或'绿色'），以帮助软件检测到正确的区域。开始前请单击“全部撤消”。
+
+- 更正边缘线的位置。切换到“设置边缘线”选项卡，并调整边界线（例如，通过添加更多的控制点）
+
+如果你看到这个消息，也请您查看扫描数据的方向是正确的，扫描数据是否有缺孔/网格错误等。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.MarginTab</Keyword>
+      <Text>边缘线</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.MarginHeader</Keyword>
+      <Text>使用点定义边缘线</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ToothMessage</Keyword>
+      <Text>请设置牙齿的边缘线</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.Hint1</Keyword>
+      <Text>请先设定点定义边缘线，然后点击“应用边缘线“</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ClearControlPoints</Keyword>
+      <Text>清除所有点</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ApplyMargin</Keyword>
+      <Text>应用</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.CorrectHeader</Keyword>
+      <Text>手动优化牙齿检测</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.HintSeg1</Keyword>
+      <Text>软件已检测到的牙齿边缘线。您可以通过定义牙齿的区域提高的检测结果。使用左键点击标记和Shift +左键点击取消标记的区域。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ApplyCorrection</Keyword>
+      <Text>应用</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneNextStepInfo</Keyword>
@@ -725,8 +799,8 @@
       <Text>设计修复体.</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
-      <Text>高嵌体</Text>
+      <Keyword>ModelAttachmentProcessor.FailedLibraryEntryLoad</Keyword>
+      <Text>无法加载附着体数据库:</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessor.ModelImplantProcessor.Title</Keyword>
@@ -749,40 +823,6 @@
       <Text>载入替代体...</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAttachmentProcessor.FailedLibraryEntryLoad</Keyword>
-      <Text>无法加载附着体数据库:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.AsHealthy</Keyword>
-      <Text>健康牙齿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad</Keyword>
-      <Text>警告！实验室替代体不能被加载。 
-可能是缺少数据库项目或数据库项目已损坏。 
-如果生成模型下列牙齿的不会适合替代体：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadMissingImplants</Keyword>
-      <Text>缺少替代体：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadButton</Keyword>
-      <Text>继续</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad.Title</Keyword>
-      <Text>警告</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.Error</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.Description</Keyword>
-      <Text>使用种植体（替代体）设计模型</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelBuilder.GingivaIgnoredWarning</Keyword>
       <Text>警告：牙龈扫描被忽略！</Text>
     </Translation>
@@ -799,27 +839,8 @@
       <Text>参数冲突</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures</Keyword>
-      <Text>无法生成可卸代型形状，因为当前给定的参数设置不适合此功能。 
-
-更改合适的参数（例如降低固位钉高度），或者重新对齐模型。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
-      <Text>底座高度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
-      <Text>固位钉周围最小厚度</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.FreeformModelProcessor.Title</Keyword>
       <Text>自由造型模型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningLegacyLabAnalogFiles</Keyword>
-      <Text>替代体配置文件格式发生了变化，下列文件是旧的格式必须移除。支持的旧格式将最终被移除。
-</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformModelProcessor.MenuEntry</Keyword>
@@ -834,144 +855,31 @@
       <Text>导入的模型信息缺少牙科项目文件。</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelCreatorLibrary</Keyword>
-      <Text>模型数据库</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
-      <Text>某些部件太过于接近模型底板，
-请调整扫描数据或修改标识部分。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignment.JawAddedOrRemovedSinceAlignment</Keyword>
-      <Text>对齐完成后扫描数据有新的扫描数据被添加或删除。
-扫描数据须重新对齐并继续操作。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentForAnyScanType</Keyword>
-      <Text>始终使用模型对齐(取代“调整扫描数据定位方向”)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplant.PlatePinIntersectsExtendedRetention</Keyword>
-      <Text>底板固位钉插入到了植入体内,此操作是无效的，请重新考虑选择底板固位钉。</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelAlignmentTaintsArticulatorAlignment.Title</Keyword>
       <Text>对齐警告</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentTaintsArticulatorAlignment</Keyword>
-      <Text>更改模型对齐可能会影响扫描数据在虚拟咬合架里的对齐关系!</Text>
+      <Text>更改模型匹配可能会影响扫描数据在虚拟咬合架里的位置关系!</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAttachment.SupportPins</Keyword>
-      <Text>模型固位钉</Text>
+      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures</Keyword>
+      <Text>无法生成可卸代型形状，因为当前给定的参数设置不适合此功能。 
+
+更改合适的参数（例如降低固位钉高度），或者重新排列模型。</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
-      <Text>信息</Text>
+      <Keyword>ModelImplantProcessor.Description</Keyword>
+      <Text>使用种植体（替代体）设计模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBore.InvalidAlignedInputPart</Keyword>
+      <Text>某些部分的位置太靠近的模型基底。
+请重新对准扫描模型或修改所指示的部分。</Text>
     </Translation>
     <Translation>
       <Keyword>ModelPlateTypeGingiva</Keyword>
       <Text>模型底板牙龈</Text>
     </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentation.ClearSegmentation</Keyword>
-      <Text>清除校正</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.SelectScanMessageBoxText</Keyword>
-      <Text>自动分配牙齿{0}到扫描数据不可用。
-请选择与牙齿{0}相关联的扫描数据：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalNotification</Keyword>
-      <Text>所选的底板块上的固位钉可选，左击固位钉选择。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalNotification.Title</Keyword>
-      <Text>可选固位钉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalHint.Title</Keyword>
-      <Text>可选固位钉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.PinsAreOptionalHint</Keyword>
-      <Text>使用鼠标左键选择或取消选择底板上的固位钉。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected</Keyword>
-      <Text>没有选定模型上的固位钉。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Title</Keyword>
-      <Text>警告：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextTab</Keyword>
-      <Text>文本</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextSize</Keyword>
-      <Text>大小</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextThickness</Keyword>
-      <Text>厚度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.AddText</Keyword>
-      <Text>添加文本</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.RemoveText</Keyword>
-      <Text>移除文本</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SetTextPosition</Keyword>
-      <Text>设置位置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.DefaultText</Keyword>
-      <Text>默认文本</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SubtractText</Keyword>
-      <Text>抠除文本</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Remove</Keyword>
-      <Text>移除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Edit</Keyword>
-      <Text>编辑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.ShapeParameter</Keyword>
-      <Text>形状参数</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplant.CSGError</Keyword>
-      <Text>错误：某个替代体不能应用于模型。请光滑处理种植体周围的扫描数据形状或更改穿龈部外形线形状</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Proceed.Title</Keyword>
-      <Text>确认</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Proceed.Description</Keyword>
-      <Text>无固位钉孔模型将被计算</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Cancel.Title</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Cancel.Description</Keyword>
-      <Text>返回到选择模型固位钉分割。</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles></IncludeFiles>
 </TranslationContainer>

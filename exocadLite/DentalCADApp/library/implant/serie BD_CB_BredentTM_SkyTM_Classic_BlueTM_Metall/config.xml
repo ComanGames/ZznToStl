@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>
+ZIRKONZAHN® Bredent® SKY®-Classic Blue®</DisplayInformation>
+  <Producer>Bredent®</Producer>
+  <SystemName>SKY®-Classic Blue®</SystemName>
+  <MarkerFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/scanmarker.stl</MarkerFilename>
+  <ScrewFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/SchrKon.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Bredent® SKY®-Classic Blue® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Narrow 3.5 &amp; Classic/Blue 3.5 - 4.0 platorm switch</DisplayInformation>
+      <Keyword>Narrow</Keyword>
+      <ImplantFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Analog.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD2232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.6-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF2292</DisplayInformation>
+          <!--NOTE! BSAF2292D14 not yet available-->
+          <SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_Hex_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAF2292;BSAF2292D14</LibraryIdentifier>
+          <InterfaceFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.6003-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_Hex_CS.stl</SupportFilename><LibraryIdentifier>BSAE2202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.6003-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_NoHex_CS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE2202</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Narrow 3.5 &amp; Classic/Blue 3.5 - 4.0 platorm switch White Scanmarker</DisplayInformation>
+      <Keyword>Narrowmmk</Keyword>
+      <ImplantFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Analog.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD2232</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_smmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.601-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF2292</DisplayInformation>
+          <!--NOTE! BSAF2292D14 not yet available-->
+          <SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_Hex_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAF2292;BSAF2292D14</LibraryIdentifier>
+          <InterfaceFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.600301-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_Hex_CS.stl</SupportFilename><LibraryIdentifier>BSAE2202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.600301-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_N_NoHex_CS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE2202</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Classic/Blue 3.5 - 4.0 - 4.5 - 5.5</DisplayInformation>
+      <Keyword>Standard</Keyword>
+      <ImplantFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Analog.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD2231</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF2291</DisplayInformation>
+          <!--NOTE! BSAF2291D14 not yet available-->
+          <SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Hex_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAF2291;BSAF2291D14</LibraryIdentifier>
+          <InterfaceFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1003-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Hex_CS.stl</SupportFilename><LibraryIdentifier>BSAE2201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.1003-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_NoHex_CS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE2201</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>Classic/Blue 3.5 - 4.0 - 4.5 - 5.5 White Scanmarker</DisplayInformation>
+      <Keyword>Standardmmk</Keyword>
+      <ImplantFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Analog.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <LibraryIdentifier>ZBCD2231</LibraryIdentifier>
+      <MarkerFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_smmk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.101-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutments BSAF2291</DisplayInformation>
+          <!--NOTE! BSAF2291D14 not yet available-->
+          <SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Hex_CS.stl</SupportFilename>
+          <LibraryIdentifier>BSAF2291;BSAF2291D14</LibraryIdentifier>
+          <InterfaceFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_RA.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.100301-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_Hex_CS.stl</SupportFilename><LibraryIdentifier>BSAE2201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.100301-InNohex</Keyword><DisplayInformation>No Hex conical screw</DisplayInformation><SupportFilename>../serie BD_CB_BredentTM_SkyTM_Classic_BlueTM/CB_NoHex_CS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE2201</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

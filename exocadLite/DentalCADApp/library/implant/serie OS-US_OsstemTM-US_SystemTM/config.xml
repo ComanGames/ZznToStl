@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Osstem Implant® US System®</DisplayInformation>
+  <Producer>Osstem Implant®</Producer>
+  <SystemName>US System®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Osstem Implant® US System® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.5 Mini</DisplayInformation>
+      <Keyword>OSUSMini</Keyword>
+      <ImplantFilename>3.5_Analog.stl</ImplantFilename>
+      <ScrewFilename>3.5_Schr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4331</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.48-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.5_Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE4301</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.480-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>3.5_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4301</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.48-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide (Long Bridges)</DisplayInformation>
+          <SupportFilename>3.5_NoHexW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4301</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4381L10</DisplayInformation>
+          <SupportFilename>3.5ParallelK_L10.stl</SupportFilename>
+          <ImplantFilename>3.5ImplPL10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4381L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4381(L20)</DisplayInformation>
+          <SupportFilename>3.5ParallelK.stl</SupportFilename>
+          <ImplantFilename>3.5ImplP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4381</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4331L10</DisplayInformation>
+          <SupportFilename>3.5_Conical_L10.stl</SupportFilename>
+          <ImplantFilename>3.5ImplK10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4331L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4331 (L20)</DisplayInformation>
+          <SupportFilename>3.5_Conical.stl</SupportFilename>
+          <ImplantFilename>3.5ImplK.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4331</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1 Standard</DisplayInformation>
+      <Keyword>OSUSStandard</Keyword>
+      <ImplantFilename>4.1_Analog.stl</ImplantFilename>
+      <ScrewFilename>4.1_Schr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4332</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.1_Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE4302</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutHex</Keyword>
+          <DisplayInformation>Hex Zr screw</DisplayInformation>
+          <SupportFilename>4.1_Hexz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE4332</LibraryIdentifier>
+          <ScrewFilename>4.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>4.1_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4302</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-OutNohex</Keyword>
+          <DisplayInformation>No Hex Zr screw</DisplayInformation>
+          <SupportFilename>4.1_NoHexz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4332</LibraryIdentifier>
+          <ScrewFilename>4.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.100-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide (Long Bridges)</DisplayInformation>
+          <SupportFilename>4.1_NoHexW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4302</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1000-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide Zr screw(Long Bridges)</DisplayInformation>
+          <SupportFilename>4.1_NoHexW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4332</LibraryIdentifier>
+          <ScrewFilename>4.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.700-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4382L10</DisplayInformation>
+          <SupportFilename>4.1ParallelK_L10.stl</SupportFilename>
+          <ImplantFilename>4.1ImplP_L10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4382L10</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.701-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4382 (L15)</DisplayInformation>
+          <SupportFilename>4.1ParallelK.stl</SupportFilename>
+          <ImplantFilename>4.1ImplP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4382</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4332L10</DisplayInformation>
+          <SupportFilename>4.1_Conical_L10.stl</SupportFilename>
+          <ImplantFilename>4.1ImplK_L10.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4332 (L15)</DisplayInformation>
+          <SupportFilename>4.1_Conical.stl</SupportFilename>
+          <ImplantFilename>4.1ImplK.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4332</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.1 Wide</DisplayInformation>
+      <Keyword>OSUSWide</Keyword>
+      <ImplantFilename>5.1_Analog.stl</ImplantFilename>
+      <ScrewFilename>5.1_Schr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4333</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.07-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.1_Hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.070-OutHex</Keyword>
+          <DisplayInformation>Hex Zr screw</DisplayInformation>
+          <SupportFilename>5.1_Hexz.stl</SupportFilename>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+          <ScrewFilename>5.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.07-OutNohex</Keyword>
+          <DisplayInformation>No Hex</DisplayInformation>
+          <SupportFilename>5.1_NoHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.070-OutNohex</Keyword>
+          <DisplayInformation>No Hex Zr screw</DisplayInformation>
+          <SupportFilename>5.1_NoHexz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+          <ScrewFilename>5.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0700-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide (Long Bridges)</DisplayInformation>
+          <SupportFilename>5.1_NoHexW.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0701-OutNohex</Keyword>
+          <DisplayInformation>No Hex Wide Zr screw(Long Bridges)</DisplayInformation>
+          <SupportFilename>5.1_NoHexWz.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE4303</LibraryIdentifier>
+          <ScrewFilename>5.1_zSchr.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4383</DisplayInformation>
+          <SupportFilename>5.1ParallelK.stl</SupportFilename>
+          <ImplantFilename>5.1ImplP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4383</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4333</DisplayInformation>
+          <SupportFilename>5.1_Conical.stl</SupportFilename>
+          <ImplantFilename>5.1ImplK.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4333</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

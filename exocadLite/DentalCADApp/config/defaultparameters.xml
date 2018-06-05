@@ -1,347 +1,268 @@
 <?xml version="1.0"?>
-
 <!-- 
 
  DO NOT MODIFY THIS FILE!
  
  Values here will be overridden by parameters in the .dentalProject file.
  
- OEM customers should use the WorkParamsConfigTool to customize default values.
+ OEM customers should use the WorkParamsEditor to customize default values.
  
  DO NOT MODIFY THIS FILE!
  
 -->
-
 <ArrayOfParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
     <Type>MinThickness</Type>
-    <Value>0.4</Value>
-    <MinValue>0.3</MinValue>
+    <Value>0.5</Value>
+    <MinValue>0.4</MinValue>
     <MaxValue>2</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>AbutmentToGingivaAngle</Type>
     <Value>15</Value>
     <MinValue>-60</MinValue>
     <MaxValue>60</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileSupportRadiusOffsetAngle</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>60</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileSupportRadiusOffset</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileHeightOnGingivaBorder</Type>
     <Value>0.2</Value>
     <MinValue>0</MinValue>
     <MaxValue>0.5</MaxValue>
   </Parameter>
-
-  <Parameter>
-    <Type>AbutmentEmergenceProfileCutOffset</Type>
-    <Value>0</Value>
-    <MinValue>-0.5</MinValue>
-    <MaxValue>0.5</MaxValue>
-  </Parameter>
-
   <Parameter>
     <Type>AbutmentMinThicknessGingivaTop</Type>
     <Value>0.2</Value>
     <MinValue>0</MinValue>
     <MaxValue>0.5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentMinThicknessInsertionAngle</Type>
     <Value>2</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
-
-  <Parameter>
-    <Type>AbutmentMinThicknessOcclusalOffsetAboveAngulatedScrewChannel</Type>
-    <Value>0.05</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>2</MaxValue>
-  </Parameter>
-
   <Parameter>
     <Type>MoveToAntagonistThreshold</Type>
     <Value>5</Value>
   </Parameter>
-
   <Parameter>
     <Type>CementGapThickness</Type>
-    <Value>0.05</Value>
+    <Value>0.04</Value>
     <MinValue>0</MinValue>
     <MaxValue>0.2</MaxValue>
   </Parameter>
-
-  <Parameter>
-    <Type>CementGapTopThickness</Type>
-    <Value>0.01</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>0.2</MaxValue>
-  </Parameter>
-
   <Parameter>
     <Type>CementGapStart</Type>
-    <Value>0.05</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>2</MaxValue>
+    <Value>0.5</Value>
+    <MinValue>0.2</MinValue>
+    <MaxValue>6</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CementGapEnd</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
-    <MaxValue>2</MaxValue>
+    <MaxValue>6</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownBorderHorizontalSize</Type>
-    <Value>0.2</Value>
-    <MinValue>0.1</MinValue>
+    <Value>0.15</Value>
+    <MinValue>0.05</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownBorderVerticalSize</Type>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
-
     <Value>0.0</Value>
   </Parameter>
-
   <Parameter>
     <Type>CrownBorderAngledSize</Type>
-    <Value>0.3</Value>
-    <MinValue>0</MinValue>
+    <Value>0.4</Value>
+    <MinValue>0.2</MinValue>
     <MaxValue>1</MaxValue>
-
   </Parameter>
-
   <Parameter>
     <Type>CrownBorderAngle</Type>
-    <Value>0.05</Value>
+    <Value>0.65</Value>
     <MinValue>0</MinValue>
     <MaxValue>90</MaxValue>
-
   </Parameter>
-
-
   <Parameter>
     <Type>Shrinking</Type>
     <Value>1.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MillingDiameter</Type>
     <Value>1.2</Value>
-    <MinValue>0.3</MinValue>
+    <MinValue>0.6</MinValue>
     <MaxValue>2</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownAdditionalSpacingX</Type>
-    <Value>0.02</Value>
+    <Value>0</Value>
     <MinValue>-0.1</MinValue>
     <MaxValue>0.1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownAdditionalSpacingY</Type>
-    <Value>0.02</Value>
+    <Value>0</Value>
     <MinValue>-0.1</MinValue>
     <MaxValue>0.1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownAdditionalSpacingZ</Type>
-    <Value>0.0</Value>
+    <Value>0.05</Value>
     <MinValue>-0.5</MinValue>
     <MaxValue>0.5</MaxValue>
   </Parameter>
-
-
   <Parameter>
     <Type>CrownAdditionalSpacingZOnTop</Type>
-    <Value>0</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>0</MaxValue>
+    <Value>0.0</Value>
+    <MinValue>-0.1</MinValue>
+    <MaxValue>0.6</MaxValue>
   </Parameter>
-
-
   <Parameter>
     <Type>CrownAdditionalSpacingZOnTopDistance</Type>
     <Value>-2.0</Value>
   </Parameter>
-
-
   <Parameter>
     <Type>MillingMachineAxes</Type>
     <Value>5</Value>
   </Parameter>
-
   <Parameter>
     <Type>ConnectorArea</Type>
     <Value>9</Value>
     <MinValue>4</MinValue>
     <MaxValue>20</MaxValue>
-
   </Parameter>
-
   <Parameter>
     <Type>ConnectorUseWidthAndHeightInsteadOfArea</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ConnectorWidth</Type>
-    <Value>2</Value>
-    <MinValue>0.2</MinValue>
+    <Value>0.01</Value>
+    <MinValue>0.01</MinValue>
     <MaxValue>10.0</MaxValue>
   </Parameter>
-
-
   <Parameter>
     <Type>ConnectorHeight</Type>
-    <Value>2</Value>
-    <MinValue>0.2</MinValue>
+    <Value>0.01</Value>
+    <MinValue>0.01</MinValue>
     <MaxValue>10.0</MaxValue>
   </Parameter>
-
-
-
   <Parameter>
     <Type>TelescopeAngleMesial</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeAngleBuccal</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>TelescopeAngleDistal</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeAngleLingual</Type>
     <Value>0.0</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeBeginMesial</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>9.5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeBeginBuccal</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>9.5</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>TelescopeBeginDistal</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>9.5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeBeginLingual</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>9.5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeEndMesial</Type>
     <Value>3.5</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeEndBuccal</Type>
     <Value>3.5</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>TelescopeEndDistal</Type>
     <Value>3.5</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeEndLingual</Type>
     <Value>3.5</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>DistanceToAntagonist</Type>
-    <Value>0.1</Value>
+    <Value>0</Value>
     <MinValue>-0.5</MinValue>
     <MaxValue>2.5</MaxValue>
   </Parameter>
-
-
   <Parameter>
     <Type>DistanceToGingiva</Type>
     <Value>0.0</Value>
     <MinValue>-2.0</MinValue>
     <MaxValue>4.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>DistanceToNeighbor</Type>
     <Value>0.0</Value>
     <MinValue>-1.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AdjustToNeighborPullCutDepth</Type>
     <Value>-0.1</Value>
     <MinValue>-0.5</MinValue>
     <MaxValue>0.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>BennettAngleLeft</Type>
     <Value>10.0</Value>
@@ -444,51 +365,42 @@
     <MinValue>0</MinValue>
     <MaxValue>12</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>UntouchableZoneNearPreparationMargin</Type>
     <Value>0.1</Value>
     <MinValue>0</MinValue>
     <MaxValue>2</MaxValue>
   </Parameter>
-
-
   <Parameter>
     <Type>ConnectorBelowContact</Type>
-    <Value>1.4</Value>
+    <Value>0.4</Value>
   </Parameter>
-
   <Parameter>
     <Type>ConnectorLingualOfContactAnterior</Type>
-    <Value>1.5</Value>
+    <Value>0.5</Value>
   </Parameter>
-
-    <Parameter>
+  <Parameter>
     <Type>BlockoutMode</Type>
     <Value>0</Value>
   </Parameter>
-
   <Parameter>
     <Type>InlayThicknessRunOutDistance</Type>
     <Value>0.75</Value>
     <MinValue>0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>OverpressMinThickness</Type>
     <Value>0.3</Value>
     <MinValue>0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>FreeformBrushSize</Type>
     <Value>2</Value>
     <MinValue>1.0</MinValue>
     <MaxValue>4</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>FreeformStrength</Type>
     <Value>0.5</Value>
@@ -499,1133 +411,532 @@
     <Type>OverpressCutoff</Type>
     <Value>15.0</Value>
   </Parameter>
-
   <Parameter>
     <Type>OverpressAdditionalSpacing</Type>
     <Value>0.05</Value>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentShrinking</Type>
     <Value>2.0</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>3.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileMaxPenetration</Type>
     <Value>NaN</Value>
     <MinValue>0</MinValue>
     <MaxValue>0.3</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileMaxDistance</Type>
     <Value>NaN</Value>
     <MinValue>-0.1</MinValue>
     <MaxValue>0.3</MaxValue>
   </Parameter>
-
- <Parameter>
+  <Parameter>
     <Type>CrownBlockoutAngle</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>15</MaxValue>
   </Parameter>
-
-<Parameter>
-   <Type>AbutmentMinThicknessNearScrewChannel</Type>
-   <Value>0.2</Value>
-   <MinValue>0.01</MinValue>
-   <MaxValue>1.2</MaxValue>
- </Parameter>
-
+  <Parameter>
+    <Type>AbutmentMinThicknessNearScrewChannel</Type>
+    <Value>0.2</Value>
+    <MinValue>0.01</MinValue>
+    <MaxValue>1.2</MaxValue>
+  </Parameter>
   <Parameter>
     <Type>AbutmentEmergenceProfileObesityDefaultTop</Type>
     <Value>0.3</Value>
     <MinValue>-1.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentEmergenceProfileObesityDefaultBottom</Type>
     <Value>0.0</Value>
     <MinValue>-1.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
-<Parameter>
-   <Type>AbutmentMinThickness</Type>
-   <Value>0.6</Value>
-   <MinValue>0.4</MinValue>
-   <MaxValue>1.2</MaxValue>
- </Parameter>
-
-<Parameter>
-   <Type>AbutmentMillingDiameter</Type>
-   <Value>1.4</Value>
-   <MinValue>0.0</MinValue>
-   <MaxValue>2.0</MaxValue>
- </Parameter>
-
-<Parameter>
-   <Type>AbutmentMinEmergenceBoundaryAngle</Type>
-   <Value>30</Value>
-   <MinValue>0.0</MinValue>
-   <MaxValue>45.0</MaxValue>
- </Parameter>
-
-<Parameter>
-   <Type>AbutmentEnableAlwaysAssureOcclusalSurfaceDistance</Type>
-   <Value>0</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>1</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>AbutmentAssureDistanceO</Type>
-   <Value>1.5</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>4</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>AbutmentAssureDistanceM</Type>
-   <Value>1.0</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>4</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>AbutmentAssureDistanceD</Type>
-   <Value>1.0</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>4</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>AbutmentAssureDistanceB</Type>
-   <Value>1.0</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>4</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>AbutmentAssureDistanceL</Type>
-   <Value>1.0</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>4</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>ScrewHoleDesignDistanceO</Type>
-   <Value>0.0</Value>
-   <MinValue>-2</MinValue>
-   <MaxValue>2</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>ScrewHoleDesignThickness</Type>
-   <Value>0.2</Value>
-   <MinValue>0.2</MinValue>
-   <MaxValue>1.2</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>ScrewHoleDesignSnapToReducedPart</Type>
-   <Value>0</Value>
-   <MinValue>-1</MinValue>
-   <MaxValue>1</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>ScrewHoleDesignMode</Type>
-   <Value>0</Value>
-   <MinValue>-2</MinValue>
-   <MaxValue>2</MaxValue>
-</Parameter>
-
-
-<Parameter>
-   <Type>EmergenceProfileMinThickness</Type>
-   <Value>0.2</Value>
-   <MinValue>0.15</MinValue>
-   <MaxValue>0.5</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>ScrewChannelManualDiameter</Type>
-   <Value>2.3</Value>
-   <MinValue>0.1</MinValue>
-   <MaxValue>5.0</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>CrownAdaptationShapePreservation</Type>
-   <Value>0.001</Value>
-   <MinValue>0</MinValue>
-   <MaxValue>8.0</MaxValue>
-</Parameter>
-
-<Parameter>
-   <Type>CrownAdaptationMarginForShapePreservation</Type>
-   <Value>0.4</Value>
-   <MinValue>0.1</MinValue>
-   <MaxValue>8.0</MaxValue>
-</Parameter>
-  
   <Parameter>
-   <Type>MillingMode</Type>
-   <Value>1</Value>
+    <Type>AbutmentMinThickness</Type>
+    <Value>0.6</Value>
+    <MinValue>0.4</MinValue>
+    <MaxValue>1.2</MaxValue>
   </Parameter>
-
-
+  <Parameter>
+    <Type>AbutmentMillingDiameter</Type>
+    <Value>1.4</Value>
+    <MinValue>0.0</MinValue>
+    <MaxValue>2.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentMinEmergenceBoundaryAngle</Type>
+    <Value>30</Value>
+    <MinValue>0.0</MinValue>
+    <MaxValue>45.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentEnableAlwaysAssureOcclusalSurfaceDistance</Type>
+    <Value>0</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>1</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentAssureDistanceO</Type>
+    <Value>1.5</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>4</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentAssureDistanceM</Type>
+    <Value>1.0</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>4</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentAssureDistanceD</Type>
+    <Value>1.0</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>4</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentAssureDistanceB</Type>
+    <Value>1.0</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>4</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>AbutmentAssureDistanceL</Type>
+    <Value>1.0</Value>
+    <MinValue>0</MinValue>
+    <MaxValue>4</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>ScrewHoleDesignDistanceO</Type>
+    <Value>0.0</Value>
+    <MinValue>-2</MinValue>
+    <MaxValue>2</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>EmergenceProfileMinThickness</Type>
+    <Value>0.2</Value>
+    <MinValue>0.15</MinValue>
+    <MaxValue>0.5</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>ScrewChannelManualDiameter</Type>
+    <Value>3</Value>
+    <MinValue>0.5</MinValue>
+    <MaxValue>8.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>CrownAdaptationShapePreservation</Type>
+    <Value>0.8</Value>
+    <MinValue>0.1</MinValue>
+    <MaxValue>8.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>CrownAdaptationMarginForShapePreservation</Type>
+    <Value>6</Value>
+    <MinValue>1</MinValue>
+    <MaxValue>8.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>MillingMode</Type>
+    <Value>1</Value>
+  </Parameter>
   <Parameter>
     <Type>TelescopeAcuteMaterialAngle</Type>
     <Value>20</Value>
   </Parameter>
-
   <Parameter>
     <Type>TelescopeAcuteMaterialAngleHeight</Type>
     <Value>0.2</Value>
   </Parameter>
-
-
- <Parameter>
-   <Type>TelescopeMillingDiameterTop</Type>
-   <Value>0</Value>
-   <MinValue>0.0</MinValue>
-   <MaxValue>2.0</MaxValue>
- </Parameter>
-
- <Parameter>
-   <Type>TelescopeMillingDiameterFriction</Type>
-   <Value>1.1</Value>
-   <MinValue>1.1</MinValue>
-   <MaxValue>3.0</MaxValue>
- </Parameter>
-
-<Parameter>
-  <Type>InlayAdditionalSpacing</Type>
-  <Value>0.02</Value>
-  <MinValue>-0.1</MinValue>
-  <MaxValue>0.1</MaxValue>
-</Parameter>
-
+  <Parameter>
+    <Type>TelescopeMillingDiameterTop</Type>
+    <Value>0</Value>
+    <MinValue>0.0</MinValue>
+    <MaxValue>2.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>TelescopeMillingDiameterFriction</Type>
+    <Value>1.1</Value>
+    <MinValue>1.1</MinValue>
+    <MaxValue>3.0</MaxValue>
+  </Parameter>
+  <Parameter>
+    <Type>InlayAdditionalSpacing</Type>
+    <Value>0.0</Value>
+    <MinValue>-0.1</MinValue>
+    <MaxValue>0.1</MaxValue>
+  </Parameter>
   <Parameter>
     <Type>OverpressMinThicknessBoundaryRadius</Type>
     <Value>0.3</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>OverpressVestibularRatioFrontOnly</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>OverpressVestibularRatio</Type>
     <Value>0.45</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MaxAbutmentHeight</Type>
     <Value>15.0</Value>
     <MinValue>5.0</MinValue>
     <MaxValue>50.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MaxBarPillarHeight</Type>
     <Value>15.0</Value>
     <MinValue>5.0</MinValue>
     <MaxValue>50.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MaxScrewChannelEditHeight</Type>
     <Value>15.0</Value>
     <MinValue>5.0</MinValue>
     <MaxValue>50.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MaxTelescopeHeight</Type>
     <Value>15.0</Value>
     <MinValue>5.0</MinValue>
     <MaxValue>50.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MinThicknessOcclusalOffset</Type>
     <Value>0.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>AbutmentMinThicknessOcclusalOffset</Type>
     <Value>0.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MinThicknessNearPreparationMargin</Type>
     <Value>0.2</Value>
     <MinValue>0.05</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MinThicknessFullDistanceToPreparationMargin</Type>
     <Value>0.8</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MinThicknessReducedValue</Type>
     <Value>NaN</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>CrownAdditionalPreparationMarginExtension</Type>
     <Value>0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>0.08</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>VeneerAdaptationShapePreservation</Type>
     <Value>0.001</Value>
     <MinValue>0</MinValue>
     <MaxValue>8.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>VeneerAdaptationFirstMarginForShapePreservation</Type>
     <Value>1.0</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>8.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>VeneerAdaptationSecondMarginForShapePreservation</Type>
     <Value>2.5</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>8.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>VeneerAdaptationApplySmoothing</Type>
     <Value>1.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintBlockOutOffset</Type>
     <Value>0.03</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>4.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintBlockOutAngle</Type>
     <Value>0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>50.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintMaxAllowedUndercut</Type>
     <Value>0.1</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>0.5</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintBottomMorphologicalClosureRadius</Type>
     <Value>1.0</Value>
-    <MinValue>0.2</MinValue>
-    <MaxValue>5.0</MaxValue>
+    <MinValue>0.0</MinValue>
+    <MaxValue>10.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintThicknessOcclusal</Type>
     <Value>2.5</Value>
-    <MinValue>0.4</MinValue>
-    <MaxValue>5.0</MaxValue>
+    <MinValue>0.0</MinValue>
+    <MaxValue>10.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>BiteSplintThicknessPeripheral</Type>
     <Value>1.0</Value>
-    <MinValue>0.4</MinValue>
-    <MaxValue>5.0</MaxValue>
+    <MinValue>0.0</MinValue>
+    <MaxValue>10.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>BiteSplintTopMorphologicalClosureRadius</Type>
     <Value>3.0</Value>
-    <MinValue>0.2</MinValue>
+    <MinValue>0.0</MinValue>
     <MaxValue>10.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>BiteSplintTopDesiredImpressionDepth</Type>
     <Value>0.4</Value>
     <MinValue>-1.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
-<Parameter>
-    <Type>BiteSplintAllowDesignOnPalate</Type>
-    <Value>0.0</Value>
-    <MinValue>-2.0</MinValue>
+  <Parameter>
+    <Type>HybridCrownMillingDiameter</Type>
+    <Value>1.4</Value>
+    <MinValue>0.0</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-  
-<Parameter>
-   <Type>HybridCrownMillingDiameter</Type>
-   <Value>1.4</Value>
-   <MinValue>0.0</MinValue>
-   <MaxValue>2.0</MaxValue>
- </Parameter>
-
-<Parameter>
-   <Type>MillingDiameterFlatToolRatio</Type>
-   <Value>0.8</Value>
-   <MinValue>0.0</MinValue>
-   <MaxValue>1.0</MaxValue>
- </Parameter>
-
+  <Parameter>
+    <Type>MillingDiameterFlatToolRatio</Type>
+    <Value>0</Value>
+    <MinValue>0.0</MinValue>
+    <MaxValue>1.0</MaxValue>
+  </Parameter>
   <Parameter>
     <Type>ProvisionalCrownShoulderWidth</Type>
     <Value>0.5</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ProvisionalCrownShoulderSlope</Type>
     <Value>1.0</Value>
     <MinValue>-30.0</MinValue>
     <MaxValue>30.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ProvisionalCrownTaperSlope</Type>
     <Value>1.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>30.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>MaxProvisionalCrownBorderSharpness</Type>
     <Value>15.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>360.0</MaxValue>
   </Parameter>
-
- 
   <Parameter>
     <Type>ModelCutWidth</Type>
     <Value>0.5</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
-   <Parameter>
+  <Parameter>
     <Type>ModelPlateClearance</Type>
     <Value>0.1</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelWallThickness</Type>
     <Value>2.0</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>5.0</MaxValue>
-  </Parameter>  
-   
+  </Parameter>
   <Parameter>
     <Type>ModelPinHeight</Type>
     <Value>2.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>5.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelShaftGapHorizontal</Type>
     <Value>0.1</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelShaftGapVertical</Type>
     <Value>0.1</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelDitchWidth</Type>
     <Value>0.5</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelDitchDepthAvg</Type>
     <Value>0.5</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>2.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelBottomPinGrooveWidth</Type>
     <Value>2.0</Value>
     <MinValue>0.5</MinValue>
     <MaxValue>5.0</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelBottomPinGrooveDepth</Type>
     <Value>1.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>3.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelPreparationMarginExtrusion</Type>
     <Value>0.0</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.0</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelMillingHeadDiameter</Type>
     <Value>1.2</Value>
     <MinValue>0.0</MinValue>
     <MaxValue>1.5</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelSupportPinDiameter</Type>
     <Value>5</Value>
     <MinValue>2</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelSupportPinLedgeHeight</Type>
     <Value>3</Value>
     <MinValue>1</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelOmitDiePin</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelSupportPinBulgeHeight</Type>
     <Value>2</Value>
     <MinValue>0.1</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelConcavity</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
   </Parameter>
-
   <Parameter>
     <Type>ModelWallMorphologicalClosureDiameter</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>5</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelFrictionPadRadius</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>0</MaxValue>
-  </Parameter> 
+  </Parameter>
   <Parameter>
     <Type>ModelFrictionPadGap</Type>
     <Value>0</Value>
     <MinValue>0</MinValue>
     <MaxValue>0</MaxValue>
-  </Parameter> 
- 
+  </Parameter>
   <Parameter>
     <Type>ModelSeatingAreaWidth</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>5</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelMinimumPinCircumference</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelPedestalHeight</Type>
     <Value>5</Value>
     <MinValue>0</MinValue>
     <MaxValue>20</MaxValue>
   </Parameter>
-  
   <Parameter>
     <Type>ModelMinimumThicknessAroundPins</Type>
     <Value>1</Value>
     <MinValue>0</MinValue>
     <MaxValue>10</MaxValue>
-  </Parameter> 
- 
+  </Parameter>
   <Parameter>
     <Type>AdditionalBlockOutAngleAfterCementGap</Type>
     <Value>-1</Value>
-  </Parameter>    
-
-  <Parameter>
-    <Type>AdditionalBlockOutAfterCementGap</Type>
-    <Value>0</Value>
-  </Parameter>    
-
+  </Parameter>
   <Parameter>
     <Type>CementGapBorderSmoothing</Type>
     <Value>0.5</Value>
     <MinValue>0</MinValue>
     <MaxValue>1</MaxValue>
-  </Parameter>  
-  
+  </Parameter>
   <Parameter>
     <Type>PrepInspectDefaultMaxAngle</Type>
     <Value>45</Value>
-  </Parameter>    
-
- <Parameter>
+  </Parameter>
+  <Parameter>
     <Type>PrepInspectDefaultMaxDistance</Type>
     <Value>2</Value>
-  </Parameter>  
-  
+  </Parameter>
   <Parameter>
     <Type>LingualBandHeight</Type>
     <Value>1.0</Value>
-	<MinValue>0</MinValue>
+    <MinValue>0</MinValue>
     <MaxValue>2.0</MaxValue>
-  </Parameter>   
-  
-  <Parameter>
-    <Type>LingualBandHeightGingiva</Type>
-    <Value>1.0</Value>
-	<MinValue>0</MinValue>
-    <MaxValue>2.0</MaxValue>
-  </Parameter>  
-  
+  </Parameter>
   <Parameter>
     <Type>LingualBandAngle</Type>
     <Value>75</Value>
-	<MinValue>60</MinValue>
+    <MinValue>60</MinValue>
     <MaxValue>85</MaxValue>
-  </Parameter>  
-  
+  </Parameter>
   <Parameter>
     <Type>LingualBandDegreeToSecondPoint</Type>
     <Value>180</Value>
-  </Parameter>  
-  
-  <Parameter>
-    <Type>LingualBandIsFullCollar</Type>
-    <Value>0</Value>
-  </Parameter>  
-
-
+  </Parameter>
   <Parameter>
     <Type>AutomaticPlacementIntersection</Type>
     <Value>0.1</Value>
-  </Parameter>  
-
-  <Parameter>
-    <Type>LoadBridgeModels</Type>
-    <Value>1</Value>
   </Parameter>
-  
-  <!-- START TOTAL PROSTHESIS PARAMETERS -->
-
-  <Parameter>
-    <Type>ProstheticBaseThickness</Type>
-    <Value>2.0</Value>
-    <MinValue>0.5</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>FreeformStrengthForHugeMeshes</Type>
-    <Value>1.5</Value>
-    <MinValue>0.1</MinValue>
-    <MaxValue>3</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>FreeformBrushSizeForHugeMeshes</Type>
-    <Value>6</Value>
-    <MinValue>1.0</MinValue>
-    <MaxValue>12</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseCervicalThickness</Type>
-    <Value>2.0</Value>
-    <MinValue>0.5</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticBaseMorphologicalClosureRadius</Type>
-    <Value>5.0</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>10.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseBottomBlockOutOffset</Type>
-    <Value>0.03</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>4.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseBottomBlockOutAngle</Type>
-    <Value>0</Value>
-    <MinValue>-50.0</MinValue>
-    <MaxValue>50.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseBottomMaxAllowedUndercut</Type>
-    <Value>0.1</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>0.5</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseBottomMorphologicalClosureRadius</Type>
-    <Value>1.0</Value>
-    <MinValue>0.2</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticToothAddRotationLock</Type>
-    <Value>0</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>1</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticToothRotationLockDepth</Type>
-    <Value>1.5</Value>
-    <MinValue>0.1</MinValue>
-    <MaxValue>2.5</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticToothRotationLockWidth</Type>
-    <Value>1.0</Value>
-    <MinValue>0.4</MinValue>
-    <MaxValue>1.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticToothRotationLockRatio</Type>
-    <Value>1.5</Value>
-    <MinValue>1.0</MinValue>
-    <MaxValue>2.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticBaseToothPocketOffset</Type>
-    <Value>0.03</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>0.05</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProstheticBaseToothPocketInsertionDirectionAngleLimit</Type>
-    <Value>30.0</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>90.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>ProstheticToothMinThickness</Type>
-    <Value>0.1</Value>
-    <MinValue>0.01</MinValue>
-    <MaxValue>0.5</MaxValue>
-  </Parameter>
-  
-  <!-- END TOTAL PROSTHESIS PARAMETERS -->
-  <!-- START ENDO  PARAMETERS -->
-  <Parameter>
-    <Type>EndoBottomBorder</Type>
-    <Value>0.2</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>1</MaxValue>
-  </Parameter>
-  <!-- END ENDO PARAMETERS -->
-  
-  <Parameter>
-    <Type>ProductionBlankRestrictionWidth</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionLength</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionHeight</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionType</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionWidthAbutment</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionLengthAbutment</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionHeightAbutment</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ProductionBlankRestrictionTypeAbutment</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>MaximumBridgeLength</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>MaximumBridgeExtension</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ConnectorDistanceShort</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>ConnectorAreaShort</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ConnectorWidthShort</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ConnectorHeightShort</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ConnectorDistanceMedium</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ConnectorAreaMedium</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>ConnectorWidthMedium</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>ConnectorHeightMedium</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>AngulatedScrewChannelType</Type>
-    <Value>0</Value>
-  </Parameter>
-
-
-  <Parameter>
-   <Type>MillingDiameterBullnoseToolCompensationMode</Type>
-   <Value>0</Value>
- </Parameter>
-
-  <Parameter>
-   <Type>MergePartsSuitableForPrinting</Type>
-   <Value>0</Value>
- </Parameter>
-
-
-  <Parameter>
-   <Type>CementGapBrushMode</Type>
-   <Value>0</Value>
- </Parameter>
-
-  <Parameter>
-   <Type>ImplantCloseHoleMode</Type>
-   <Value>0</Value>
- </Parameter>
-
-  <!-- START Virtual Gingiva Design Params-->
-  <Parameter>
-    <Type>VirtualGingivaDesignMode</Type>
-    <Value>0</Value>
-  </Parameter>
-  
-  <Parameter>
-    <Type>VirtualGingivaDesignBaseThickness</Type>
-    <Value>1.0</Value>
-    <MinValue>0.5</MinValue>
-    <MaxValue>2.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignBaseCervicalThickness</Type>
-    <Value>1.0</Value>
-    <MinValue>0.5</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>VirtualGingivaDesignBaseMorphologicalClosureRadius</Type>
-    <Value>2.0</Value>
-    <MinValue>0.5</MinValue>
-    <MaxValue>10.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignBottomBlockOutOffset</Type>
-    <Value>0.03</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>4.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignBottomBlockOutAngle</Type>
-    <Value>0</Value>
-    <MinValue>-50.0</MinValue>
-    <MaxValue>50.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignBottomMaxAllowedUndercut</Type>
-    <Value>0.1</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>0.5</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignBottomMorphologicalClosureRadius</Type>
-    <Value>1.0</Value>
-    <MinValue>0.2</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>VirtualStumpOcclusalSpacing</Type>
-    <Value>2</Value>
-    <MinValue>0.1</MinValue>
-    <MaxValue>4</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualStumpShoulderWidth</Type>
-    <Value>0.5</Value>
-    <MinValue>0.1</MinValue>
-    <MaxValue>1.5</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualStumpTaperSlope</Type>
-    <Value>10</Value>
-    <MinValue>0.0</MinValue>
-    <MaxValue>20.0</MaxValue>
-  </Parameter>
-  
-  <Parameter>
-    <Type>VirtualGingivaDesignMillingMode</Type>
-    <Value>0</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaDesignMillingDiameter</Type>
-    <Value>0.5</Value>
-    <MinValue>0.3</MinValue>
-    <MaxValue>2</MaxValue>
-  </Parameter> 
-
-  <Parameter>
-    <Type>VirtualCrownMillingMode</Type>
-    <Value>0</Value>
-  </Parameter>
-  
-  <Parameter>
-    <Type>VirtualCrownMillingDiameter</Type>
-    <Value>0.5</Value>
-    <MinValue>0.2</MinValue>
-    <MaxValue>2.0</MaxValue>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>ConnectorPullDownToVirtualGingiva</Type>
-    <Value>0.5</Value>
-  </Parameter>   
-  
-  <Parameter>
-    <Type>VirtualWaxupBottomIncludeGingivaScan</Type>
-    <Value>1</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>1</MaxValue>
-  </Parameter> 
-
-  <Parameter>
-    <Type>VirtualGingivaBridgeConnectorDisabled</Type>
-    <Value>0</Value>
-  </Parameter>
-  <!-- END Virtual Gingiva Design -->   
- 
-  <Parameter>
-   <Type>EmergenceProfileMinThicknessMode</Type>
-   <Value>0</Value>
-  </Parameter>
-
-  <Parameter>
-   <Type>MaxAngulationAbutmentAdditionalLimit</Type>
-   <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-   <Type>ConnectToothToToothDirectlyMode</Type>
-   <Value>0</Value>
-  </Parameter>
-
-  <Parameter>
-   <Type>ConnectToothToToothDirectlyUnconstraintMinArea</Type>
-   <Value>2.0</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ShrinkingGingiva</Type>
-    <Value>0.2</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>MinThicknessGingivaDesign</Type>
-    <Value>0.4</Value>
-    <MinValue>0.2</MinValue>
-    <MaxValue>1.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>MinThicknessGingivaDesignMode</Type>
-    <Value>0</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>ShrinkingGingivaOffsetToPreservedTeeth</Type>
-    <Value>0.2</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>1.0</MaxValue>
-  </Parameter>
-
-
-  <Parameter>
-    <Type>ShrinkingPonticMinThickness</Type>
-    <Value>2.0</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ShrinkingBottom</Type>
-    <Value>NaN</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>ShrinkingGingivaBottom</Type>
-    <Value>NaN</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>5.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>AttachmentSafetyRadiusOnToothMargin</Type>
-    <Value>0.5</Value>
-    <MinValue>0</MinValue>
-    <MaxValue>3.0</MaxValue>
-  </Parameter>
-
-  <Parameter>
-    <Type>VirtualGingivaSafetyRadiusOnToothMargin</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>WaxupSafetyRadiusBelowToothMargin</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-  <Parameter>
-    <Type>WaxupSafetyRadiusBelowImplantMargin</Type>
-    <Value>NaN</Value>
-  </Parameter>
-
-
 </ArrayOfParameter>

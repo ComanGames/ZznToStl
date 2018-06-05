@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ModelBuilderLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ModelHeight>40</ModelHeight>
+<BasePlateFilename>basisplatte.eoff</BasePlateFilename>
+<PinsFilename>basisplatte_pins.eoff</PinsFilename>
+<JawCurveControlPoints>
+	<Vec3>
+		<x>7.009636</x><y>-49.442352</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>4.783587</x><y>-28.985065</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>34.682907</x><y>29.790054</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>64.582474</x><y>-28.985064</y><z>0</z>
+	</Vec3>
+	<Vec3>
+		<x>62.356377</x><y>-49.442352</y><z>0</z>
+	</Vec3>
+</JawCurveControlPoints>
+<OcclusalPlane>
+	<DistanceToOrigin>20</DistanceToOrigin>
+	<Normal>
+	  <x>0</x>
+	  <y>0</y>
+	  <z>1</z>
+	</Normal>
+</OcclusalPlane>
+<MinRequiredPrepPlateDist>4</MinRequiredPrepPlateDist>
+<Supplier>exocad GmbH - for Demonstration only</Supplier>
+<DisplayInformation>Demo with plate</DisplayInformation>
+  <ConstructionParameters>
+	<ConstructionParamValues>
+      <Param>ModelCutWidth</Param>
+      <DefaultValue>0.51</DefaultValue>
+    </ConstructionParamValues>
+    <ConstructionParamValues>
+      <Param>ModelPlateClearance</Param>
+      <DefaultValue>0.12</DefaultValue>
+    </ConstructionParamValues>
+  </ConstructionParameters>
+</ModelBuilderLibraryEntry>
+
+
+

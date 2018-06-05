@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>external</GeometryType>
+  <SupportOrientation>0</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>Brånemark System® Mk III/IV; NobelSpeedy® Shorty/Groovy®</SystemName>
+  <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - NOT FOR PRODUCTION
+Compatible with Brånemark System® by Nobel Biocare®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm</DisplayInformation>
+      <Keyword>NBB3.5mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant3.5.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_3.5.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0231</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.5-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0291</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0291</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.503-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.5030-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_roundCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.50300-OutNohex</Keyword><DisplayInformation>No Hex (extended or disparall. bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridgesCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP 3.5 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB3.5mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant3.5.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_3.5.stl</ScrewFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_SMm.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD0201</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.50-RawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0291</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0291</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_5.1Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.5031-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.50031-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_roundCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.50032-OutNohex</Keyword><DisplayInformation>No Hex (extended or disparall. bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_round_bridgesCS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0201</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>RP 3.9 mm (4.1 platform switched)</DisplayInformation><Keyword>4.1mmspmt</Keyword><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1.stl</ScrewFilename><LibraryIdentifier>ZBAD0232</LibraryIdentifier><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.903-OutHex</Keyword><DisplayInformation>Hex Platform Switching</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNomPS.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.903-OutNohex</Keyword><DisplayInformation>No Hex Platform Switching</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_roundPS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <!--<ImplantTypeConfig><DisplayInformation>RP 3.9 mm White Scanmarker(4.1 platform switched)</DisplayInformation><Keyword>4.1mm</Keyword><ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename><ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1.stl</ScrewFilename><LibraryIdentifier>ZBCD0202</LibraryIdentifier><RegistrationClickCenter><x>0</x><y>2.050</y><z>6</z></RegistrationClickCenter><MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarkerpk.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.9031-OutHex</Keyword><DisplayInformation>Hex Platform Switching</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNomPS.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig><ImplantSubtypeConfig><Keyword>3.9031-OutNohex</Keyword><DisplayInformation>No Hex Platform Switching</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_roundPS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig></SubtypeConfig></ImplantTypeConfig>-->
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm</DisplayInformation>
+      <Keyword>NBB4.1mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant4.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_4.1m.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0232</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-RawRawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0292</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0292</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_5.1Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.103-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.1030-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.10300-OutNohex</Keyword><DisplayInformation>No Hex (extended or disparall. bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP 4.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB4.1mm</Keyword>
+      <ImplantFilename>implant4.1.stl</ImplantFilename>
+      <ScrewFilename>screw_4.1m.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0202</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.050</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>scanmarkerpk.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.10-RawRawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF0292</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0292</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_5.1Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.1031-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.10301-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>4.10302-OutNohex</Keyword><DisplayInformation>No Hex (extended or disparall. bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/4.1_round_bridges.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0202</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP 5.1 mm</DisplayInformation>
+      <Keyword>NBB5.1mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant5.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_5.1m.stl</ScrewFilename>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/scanmarker_5.1.stl</MarkerFilename>
+      <LibraryIdentifier>ZBAD0233</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1-RawRawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment10 BSAF0293</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0293</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_5.1Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.103-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.1003-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.10030-OutNohex</Keyword><DisplayInformation>No Hex (Bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WP 5.1 mm White Scanmarker</DisplayInformation>
+      <Keyword>NBB5.1mm</Keyword>
+      <ImplantFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/implant5.1.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/screw_5.1m.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0203</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2.50</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_SMm.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.10-RawRawID</Keyword>
+          <DisplayInformation>Hex Raw Abutment10 BSAF0293</DisplayInformation>
+          <SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hexNom.stl</SupportFilename>
+          <LibraryIdentifier>BSAF0293</LibraryIdentifier>
+          <InterfaceFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/3.5_5.1Cyl_pr_ZZ.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1031-OutHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_hexNom.stl</SupportFilename><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.10031-OutNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.10032-OutNohex</Keyword><DisplayInformation>No Hex (Bridges)</DisplayInformation><SupportFilename>../serie NB-B_Nobel BiocareTM-BranemarkTM/5.1_round_bridges_1mm.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE0203</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

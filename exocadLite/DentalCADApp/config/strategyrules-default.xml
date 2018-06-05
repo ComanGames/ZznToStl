@@ -1,64 +1,57 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StrategySelectionRuleset>
- <Rules>
- <!-- first match wins! -->
-  <StrategySelectionRule>
-   <!-- if interface (titanium base) is used, we don't care
-   about the geometry shape and apply interface strategy -->
-   <IsWithInterface>true</IsWithInterface>
-   <SuggestedStrategy>glue</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- internal hex, non-engaging -->
-   <IsWithInterface>false</IsWithInterface>
-   <IsWithRotationLock>false</IsWithRotationLock>
-   <GeometryTypeRegex>internalhex</GeometryTypeRegex>
-   <SuggestedStrategy>internalcone</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- internal hex, engaging -->
-   <IsWithInterface>false</IsWithInterface>
-   <IsWithRotationLock>true</IsWithRotationLock>
-   <GeometryTypeRegex>internalhex</GeometryTypeRegex>
-   <SuggestedStrategy>internalpoly</SuggestedStrategy>
-  </StrategySelectionRule>
-  
+  <Rules>
+    <!-- first match wins! -->
     <StrategySelectionRule>
-   <!-- internal octagon, non-engaging -->
-   <IsWithInterface>false</IsWithInterface>
-   <IsWithRotationLock>false</IsWithRotationLock>
-   <GeometryTypeRegex>internaloct</GeometryTypeRegex>
-   <SuggestedStrategy>internalcone</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- internal octagon, engaging -->
-   <IsWithInterface>false</IsWithInterface>
-   <IsWithRotationLock>true</IsWithRotationLock>
-   <GeometryTypeRegex>internaloct</GeometryTypeRegex>
-   <SuggestedStrategy>internalpoly</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- external hex or other shape, non-engaging or engaging -->
-   <IsWithInterface>false</IsWithInterface>
-   <GeometryTypeRegex>external</GeometryTypeRegex>
-   <SuggestedStrategy>external</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- internal cone, e.g. multi unit -->
-   <IsWithInterface>false</IsWithInterface>
-   <GeometryTypeRegex>internalcone</GeometryTypeRegex>
-   <SuggestedStrategy>internalcone</SuggestedStrategy>
-  </StrategySelectionRule>
-  
-  <StrategySelectionRule>
-   <!-- fallback -->
-   <SuggestedStrategy>allpurpose</SuggestedStrategy>
-  </StrategySelectionRule>
-  
- </Rules>
+      <!--parallel intefaces-->
+      <IsWithInterface>true</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>parallel</GeometryTypeRegex>
+      <SuggestedStrategy>InterfaceParallel</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--conical interfaces-->
+      <IsWithInterface>true</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>conical</GeometryTypeRegex>
+      <SuggestedStrategy>InterfaceConical</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!-- internal hex, engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>internal</GeometryTypeRegex>
+      <SuggestedStrategy>InHex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--external hex, engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>true</IsWithRotationLock>
+      <GeometryTypeRegex>external</GeometryTypeRegex>
+      <SuggestedStrategy>OutHex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!-- internal hex, not engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>internal</GeometryTypeRegex>
+      <SuggestedStrategy>InNohex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--external hex, not engaging -->
+      <IsWithInterface>false</IsWithInterface>
+      <IsWithRotationLock>false</IsWithRotationLock>
+      <GeometryTypeRegex>external</GeometryTypeRegex>
+      <SuggestedStrategy>OutNohex</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--manual positioning-->
+      <ImplantDescriptor>Manual</ImplantDescriptor>
+      <SuggestedStrategy>Manual</SuggestedStrategy>
+    </StrategySelectionRule>
+    <StrategySelectionRule>
+      <!--no strategy-->
+      <SuggestedStrategy>all</SuggestedStrategy>
+    </StrategySelectionRule>
+  </Rules>
 </StrategySelectionRuleset>

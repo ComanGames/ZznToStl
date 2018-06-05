@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Straumann® Tissue Level® Synocta®</DisplayInformation>
+  <Producer>Straumann®</Producer>
+  <SystemName>Tissue Level® Synocta®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Tissue Level® Synocta® series from Straumann Institute®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NN 3.5mm</DisplayInformation>
+      <Keyword>SOTL3.5mm</Keyword>
+      <ImplantFilename>implantNN.stl</ImplantFilename>
+      <ScrewFilename>screwNN.stl</ScrewFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.8-OutHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>NN_hex.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0631</LibraryIdentifier>
+          <ScrewFilename>screwNNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.80-OutHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>NN_hexCS.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0601</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.8-OutNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>NN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0631</LibraryIdentifier>
+          <ScrewFilename>screwNNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.80-OutNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>NN_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0601</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.9-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0681</DisplayInformation>
+          <SupportFilename>i-cementedNN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0681</LibraryIdentifier>
+          <ImplantFilename>implantNNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0631</DisplayInformation>
+          <SupportFilename>i-conicalNN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0631</LibraryIdentifier>
+          <ImplantFilename>implantNNcon.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN 4.8mm</DisplayInformation>
+      <Keyword>SOTL4.8mm</Keyword>
+      <ImplantFilename>implantRN.stl</ImplantFilename>
+      <ScrewFilename>screwRN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0632</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.03-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>RN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.030-InHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>RN_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.23-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>RN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.03-InNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>RN_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.230-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>RN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.030-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges Conical Screw</DisplayInformation>
+          <SupportFilename>RN_roundCS_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0682</DisplayInformation>
+          <SupportFilename>i-cementedRN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0682</LibraryIdentifier>
+          <ImplantFilename>implantRNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0692L15</DisplayInformation>
+          <SupportFilename>i-cementedRN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0692L15</LibraryIdentifier>
+          <ImplantFilename>implantRNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.7024-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>i-cemented_E_RN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>implantRNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0632</DisplayInformation>
+          <SupportFilename>BSAC0632.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0632</LibraryIdentifier>
+          <ImplantFilename>implantRNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632</DisplayInformation>
+          <SupportFilename>i-conicalRN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantRNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.80-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632L15</DisplayInformation>
+          <SupportFilename>i-conicalRN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantRNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN 4.8mm White Scanmarker</DisplayInformation>
+      <Keyword>SOTL4wmk.8mm</Keyword>
+      <ImplantFilename>implantRN.stl</ImplantFilename>
+      <ScrewFilename>screwRN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0632</LibraryIdentifier>
+      <MarkerFilename>RN_WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.03001-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>RN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.030010-InHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>RN_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.2301-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>RN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.03001-InNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>RN_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.230010-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>RN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0682</LibraryIdentifier>
+          <ScrewFilename>screwRNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.030011-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges Conical Screw</DisplayInformation>
+          <SupportFilename>RN_roundCS_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.801-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0682</DisplayInformation>
+          <SupportFilename>i-cementedRN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0682</LibraryIdentifier>
+          <ImplantFilename>implantRNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.8010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0692L15</DisplayInformation>
+          <SupportFilename>i-cementedRN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0692L15</LibraryIdentifier>
+          <ImplantFilename>implantRNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.70240-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>i-cemented_E_RN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>implantRNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.60-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0632</DisplayInformation>
+          <SupportFilename>BSAC0632.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0632</LibraryIdentifier>
+          <ImplantFilename>implantRNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.800-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632</DisplayInformation>
+          <SupportFilename>i-conicalRN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantRNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.801-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0632L15</DisplayInformation>
+          <SupportFilename>i-conicalRN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantRNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0632L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN 6.5mm</DisplayInformation>
+      <Keyword>SOTL6.5mm</Keyword>
+      <ImplantFilename>implantWN.stl</ImplantFilename>
+      <ScrewFilename>screwWN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0633</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.71-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>WN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.710-InHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>WN_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.91-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>WN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.71-InNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>WN_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.910-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>WN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.710-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridge Conical Screw</DisplayInformation>
+          <SupportFilename>WN_roundCS_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.7-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0683</DisplayInformation>
+          <SupportFilename>i-cementedWN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0683</LibraryIdentifier>
+          <ImplantFilename>implantWNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.70-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0693L15</DisplayInformation>
+          <SupportFilename>i-cementedWN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0693L15</LibraryIdentifier>
+          <ImplantFilename>implantWNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.09-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>i-cemented_E_WN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>implantWNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.4-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0633</DisplayInformation>
+          <SupportFilename>BSAC0633.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0633</LibraryIdentifier>
+          <ImplantFilename>implantWNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.7-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633</DisplayInformation>
+          <SupportFilename>i-conicalWN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantWNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.70-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633L15</DisplayInformation>
+          <SupportFilename>i-conicalWN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantWNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN 6.5mm White Scanmarker</DisplayInformation>
+      <Keyword>SOTLwkmk6.5mm</Keyword>
+      <ImplantFilename>implantWN.stl</ImplantFilename>
+      <ScrewFilename>screwWN.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD0633</LibraryIdentifier>
+      <MarkerFilename>WN_WSM.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.7101-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>WN_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.71010-InHex</Keyword>
+          <DisplayInformation>Hex Conical Screw</DisplayInformation>
+          <SupportFilename>WN_hexCS.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.9101-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>WN_round.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.71010-InNohex</Keyword>
+          <DisplayInformation>No Hex Conical Screw</DisplayInformation>
+          <SupportFilename>WN_roundCS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.910011-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridges flat screw</DisplayInformation>
+          <SupportFilename>WN_round_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>screwWNz.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE0683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.710012-InNohex</Keyword>
+          <DisplayInformation>No Hex angled bridge Conical Screw</DisplayInformation>
+          <SupportFilename>WN_roundCS_AB.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.701-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0683</DisplayInformation>
+          <SupportFilename>i-cementedWN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0683</LibraryIdentifier>
+          <ImplantFilename>implantWNpar.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.7001-Parallel</Keyword>
+          <DisplayInformation>Parallel  BSAB0693L15</DisplayInformation>
+          <SupportFilename>i-cementedWN_L15.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0693L15</LibraryIdentifier>
+          <ImplantFilename>implantWNparL15.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.0901-Parallel</Keyword>
+          <DisplayInformation>Parallel Esthetic BSAB0672</DisplayInformation>
+          <SupportFilename>i-cemented_E_WN.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0672</LibraryIdentifier>
+          <ImplantFilename>implantWNparE.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.401-Parallel</Keyword>
+          <DisplayInformation>Parallel MP BSAC0633</DisplayInformation>
+          <SupportFilename>BSAC0633.stl</SupportFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAC0633</LibraryIdentifier>
+          <ImplantFilename>implantWNVB.stl</ImplantFilename>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.701-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633</DisplayInformation>
+          <SupportFilename>i-conicalWN.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantWNcon.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.7010-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0633L15</DisplayInformation>
+          <SupportFilename>i-conicalWN_L15.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <ImplantFilename>implantWNconL15.stl</ImplantFilename>
+          <LibraryIdentifier>BSAD0633L15</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RN Synocta</DisplayInformation>
+      <Keyword>SOTLSY4.8Smm</Keyword>
+      <ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/implantRNsyn.stl</ImplantFilename>
+      <ScrewFilename>../serie ST-S_StraumannTM-SynoctaTM/screwRN_synocta.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0642</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.2-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex_synocta.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2-OutHex/2.8</Keyword><DisplayInformation>Hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_hex_synocta.stl</SupportFilename><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.202-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round_synocta.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.2-OutNohex/2.8</Keyword><DisplayInformation>No hex Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/zRN_round_synocta.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>external</GeometryType><LibraryIdentifier>BSAE0632</LibraryIdentifier><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.7-Parallel</Keyword><DisplayInformation>Parallel BSAB0642</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbz.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><LibraryIdentifier>BSAB0642</LibraryIdentifier><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbanl.stl</ImplantFilename></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.7-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB0642 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbz.stl</SupportFilename><GeometryType>parallel</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synptbanl.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.5-Conical</Keyword><DisplayInformation>Conical BSAD0642</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synctb.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_syncnbanl.stl</ImplantFilename><LibraryIdentifier>BSAD0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>5.5-Conical/2.8</Keyword><DisplayInformation>Conical BSAD0642 Sealing Thread</DisplayInformation><SupportFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_synctb.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><IsWithInterface>true</IsWithInterface><ImplantFilename>../serie ST-S_StraumannTM-SynoctaTM/RN_syncnbanl.stl</ImplantFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD0642</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>WN Synocta</DisplayInformation>
+      <Keyword>SOTLSY6.5Smm</Keyword>
+      <ImplantFilename>implantWN_synocta.stl</ImplantFilename>
+      <ScrewFilename>screwWN_synocta.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD0643</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.05-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>WN_hex_synocta.stl</SupportFilename>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>7.05-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>WN_round_synocta.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>external</GeometryType>
+          <LibraryIdentifier>BSAE0633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

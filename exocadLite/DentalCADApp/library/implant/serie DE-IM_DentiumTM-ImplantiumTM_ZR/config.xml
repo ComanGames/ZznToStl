@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Dentium® Superline® &amp; Implantium®</DisplayInformation>
+  <Producer>Dentium®</Producer>
+  <SystemName>Superline® &amp; Implantium®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Dentium® Superline® &amp; Implantium® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.4 (only Implantium type)</DisplayInformation>
+      <Keyword>3.4IM</Keyword>
+      <ImplantFilename>Impl3.4.stl</ImplantFilename>
+      <ScrewFilename>MSchr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4831</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2003-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>3.4_Hex.stl</SupportFilename>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2003-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>3.4_noHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.2003-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4881</DisplayInformation>
+          <SupportFilename>3.4_parallel.stl</SupportFilename>
+          <ImplantFilename>Impl3.4_Par.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4881</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7003-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4831</DisplayInformation>
+          <SupportFilename>3.4_conical.stl</SupportFilename>
+          <ImplantFilename>Impl3.4_Kon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4831</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.4 (only Superline type)</DisplayInformation>
+      <Keyword>3.4 SE</Keyword>
+      <ImplantFilename>ImplSE.stl</ImplantFilename>
+      <ScrewFilename>MSchr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4832</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20031-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_Hex.stl</SupportFilename>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20031-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_noHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20031-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4882</DisplayInformation>
+          <SupportFilename>SE_parallel.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Par.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4882</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70031-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4832</DisplayInformation>
+          <SupportFilename>SE_conical.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Kon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.8</DisplayInformation>
+      <Keyword>3.8 SE</Keyword>
+      <ImplantFilename>ImplSE.stl</ImplantFilename>
+      <ScrewFilename>MSchr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4832</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20032-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_Hex.stl</SupportFilename>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20032-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_noHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20032-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4882</DisplayInformation>
+          <SupportFilename>SE_parallel.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Par.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4882</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70032-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4832</DisplayInformation>
+          <SupportFilename>SE_conical.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Kon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4832</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.3</DisplayInformation>
+      <Keyword>4.3 SE</Keyword>
+      <ImplantFilename>ImplSE.stl</ImplantFilename>
+      <ScrewFilename>MSchr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4833</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20033-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_Hex.stl</SupportFilename>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20033-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_noHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20033-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4883</DisplayInformation>
+          <SupportFilename>SE_parallel.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Par.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4883</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70033-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4833</DisplayInformation>
+          <SupportFilename>SE_conical.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Kon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4833</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.8</DisplayInformation>
+      <Keyword>4.8 SE</Keyword>
+      <ImplantFilename>ImplSE.stl</ImplantFilename>
+      <ScrewFilename>MSchr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4834</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20034-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_Hex.stl</SupportFilename>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20034-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>SE_noHex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>ZSchr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE4834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.20034-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB4884</DisplayInformation>
+          <SupportFilename>SE_parallel.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Par.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB4884</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.70034-Conical</Keyword>
+          <DisplayInformation>Conical BSAD4834</DisplayInformation>
+          <SupportFilename>SE_conical.stl</SupportFilename>
+          <ImplantFilename>ImplSE_Kon.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD4834</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

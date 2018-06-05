@@ -1,113 +1,127 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
+      <Text>Dicom Viewer</Text>
+    </Translation>
     <Translation>
       <Keyword>Dicom.Data</Keyword>
-      <Text>Veri</Text>
+      <Text>Data</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.View</Keyword>
-      <Text>Görüntü</Text>
+      <Text>View</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceGeneration</Keyword>
-      <Text>Yüzey oluşturma</Text>
+      <Text>Surface generation</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Patients</Keyword>
-      <Text>Hastalar: </Text>
+      <Text>Patients:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.PatientName</Keyword>
-      <Text>Hasta adı: </Text>
+      <Text>Patient name:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesAvailable</Keyword>
-      <Text>Kullanılabilir Dilimler: </Text>
+      <Text>Slices available:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesCount</Keyword>
-      <Text>Dilimler sayısı: </Text>
+      <Text>Slices count:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FileName</Keyword>
-      <Text>Dosya adı: </Text>
+      <Text>File name:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Description</Keyword>
-      <Text>Tanımlama</Text>
+      <Text>Description</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Value</Keyword>
-      <Text>Değer</Text>
+      <Text>Value</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Comment</Keyword>
-      <Text>Yorum: </Text>
+      <Text>Comment:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Study</Keyword>
-      <Text>Çalışma:</Text>
+      <Text>Study:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Series</Keyword>
-      <Text>Seri: </Text>
+      <Text>Series:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectDicom</Keyword>
+      <Text>Select data</Text>
     </Translation>
     <Translation>
       <Keyword>LoadDicom</Keyword>
-      <Text>Veri yükleyin</Text>
+      <Text>Load data</Text>
     </Translation>
     <Translation>
       <Keyword>LoadDicom.ToolTip</Keyword>
-      <Text>Sadece seçilmişleri yerleştirmek için Ctrl + Shift'e basılı tutun</Text>
+      <Text>Hold Ctrl+Shift to load selected only</Text>
     </Translation>
     <Translation>
       <Keyword>UnloadDicom</Keyword>
-      <Text>Veri boşaltma</Text>
+      <Text>Unload data</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.CancelDataLoad</Keyword>
-      <Text>Yükleme iptal</Text>
+      <Text>Cancel loading</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.XRay</Keyword>
       <Text>X-Ray</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Media</Keyword>
-      <Text>Medya</Text>
+      <Keyword>Dicom.Isosurface</Keyword>
+      <Text>Isosurfaces</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>Eşiği sınırla</Text>
+      <Keyword>Dicom.Media</Keyword>
+      <Text>Media</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Options</Keyword>
-      <Text>Seçenekler </Text>
+      <Text>Options</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.UsePreviewMode</Keyword>
-      <Text>Önizleme modunu kullanın </Text>
+      <Text>Use preview mode</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.VoxelSize</Keyword>
-      <Text>Voksel boyutu</Text>
+      <Text>Voxel size</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration</Keyword>
-      <Text>Kayıt</Text>
+      <Text>Registration</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Clip</Keyword>
-      <Text>Kırpma</Text>
+      <Text>Clip</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
-      <Text>Buraya matrisi yapıştırın </Text>
+      <Text>Paste matrix here</Text>
     </Translation>
     <Translation>
       <Keyword>Inverse</Keyword>
-      <Text>Ters</Text>
+      <Text>Inverse</Text>
     </Translation>
     <Translation>
       <Keyword>Min</Keyword>
@@ -115,55 +129,55 @@
     </Translation>
     <Translation>
       <Keyword>Max</Keyword>
-      <Text>Mak.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>Saydamlık </Text>
+      <Text>Max.</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.UseGradientMode</Keyword>
-      <Text>Degrade modunu kullanın </Text>
+      <Text>Use gradient mode</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>Opacity</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceType</Keyword>
-      <Text>Yüzey tipi</Text>
+      <Text>Surface type</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FaceSurface</Keyword>
-      <Text>Yüz</Text>
+      <Text>Face</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.GingivaSurface</Keyword>
-      <Text>Diş eti</Text>
+      <Text>Gingiva</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.TeethSurface</Keyword>
-      <Text>Dişler</Text>
+      <Text>Teeth</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.BoneSurface</Keyword>
-      <Text>Kemik</Text>
+      <Text>Bone</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.GenerateSurface</Keyword>
-      <Text>Yüzey oluşturmak</Text>
+      <Text>Generate surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.DeleteSurface</Keyword>
-      <Text>Yüzey sil</Text>
+      <Text>Delete surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FlipSurface</Keyword>
-      <Text>Yüzeyi çevir</Text>
+      <Text>Flip surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.ToogleLookThrough</Keyword>
-      <Text>İçten bakmayı aç</Text>
+      <Text>Toogle look through</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.LastGeneratedSurface</Keyword>
-      <Text>Son oluşturulan yüzey </Text>
+      <Text>Last generated surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Preview</Keyword>
@@ -230,6 +244,22 @@
       <Text>Gradyan ağırlık</Text>
     </Translation>
     <Translation>
+      <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
+      <Text>Mevcut hava referans değeri için eşik kaydırmayı ayarlayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
+      <Text>Mevcut doku referans değeri için eşik kaydırma ayarlayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
+      <Text>Mevcut kemik referans değeri için eşik kaydırma ayarlayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
+      <Text>Mevcut diş referans değeri için eşik kaydırma ayarlayın</Text>
+    </Translation>
+    <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
       <Text>Hava</Text>
     </Translation>
@@ -248,6 +278,10 @@
     <Translation>
       <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
       <Text>Ayarlayın</Text>
+    </Translation>
+    <Translation>
+      <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
+      <Text>Mevcut  önceden tanımlanmış referans değeri için eşik kaydırma ayarlayın</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton.Text</Keyword>
@@ -327,6 +361,22 @@ temizleyin</Text>
       <Text>Yarı-transparan kullanın </Text>
     </Translation>
     <Translation>
+      <Keyword>Dicom.Threshold</Keyword>
+      <Text>Threshold</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold</Keyword>
+      <Text>Secondary threshold</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth</Keyword>
+      <Text>Filter width</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent</Keyword>
+      <Text>Filter exponent</Text>
+    </Translation>
+    <Translation>
       <Keyword>Dicom.StippleAlpha.Solid</Keyword>
       <Text>Yarı-transparan kullanın </Text>
     </Translation>
@@ -350,275 +400,5 @@ temizleyin</Text>
       <Keyword>Dicom.StartBoneDensityReferenceDefinitionProcessor</Keyword>
       <Text>Referans tanımını başlatın</Text>
     </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
-      <Text>Mevcut hava referans değeri için eşik kaydırmayı ayarlayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
-      <Text>Mevcut doku referans değeri için eşik kaydırma ayarlayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
-      <Text>Mevcut kemik referans değeri için eşik kaydırma ayarlayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
-      <Text>Mevcut diş referans değeri için eşik kaydırma ayarlayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
-      <Text>Mevcut  önceden tanımlanmış referans değeri için eşik kaydırma ayarlayın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
-      <Text>DICOM Görüntüleyici</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CloseToolWindowsQuestion</Keyword>
-      <Text>DICOM Görüntüleyiciyi gerçekten kapatmak istiyor musunuz? Tüm yüklenen DICOM verileri kaldırılacak.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Window</Keyword>
-      <Text>Pencere:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectDicom</Keyword>
-      <Text>Dosya ayarlarını seç</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.Isosurface</Keyword>
-      <Text>İzoyüzeyleri</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayBlacklevel</Keyword>
-      <Text>gürültü eşiği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.XRayDensity</Keyword>
-      <Text>Yoğunluk</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryThreshold</Keyword>
-      <Text>Yüzey eşiği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoSecondaryThreshold</Keyword>
-      <Text>İkinci yüzey eşiği</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.IsoPrimaryOpacity</Keyword>
-      <Text>Saydamlık</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaThreshold</Keyword>
-      <Text>Eşik</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDenseThreshold</Keyword>
-      <Text>Yoğun malzeme</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaScale</Keyword>
-      <Text>Pürüzsüzlük</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaExponent</Keyword>
-      <Text>Sertlik</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaDensity</Keyword>
-      <Text>Yoğunluk</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightValue</Keyword>
-      <Text>Yoğunluğu vurgula</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidHighlightWidth</Keyword>
-      <Text>Bulanıklığı vurgula</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidFalseColorGradientContrast</Keyword>
-      <Text>Kenar Kontrast Geliştirme</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidFalseColorOptions</Keyword>
-      <Text>Katı (doğal) seçenekler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.SolidFalseColor</Keyword>
-      <Text>Katı (doğal)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.UseStippleAlpha</Keyword>
-      <Text>Yarım şeffaflık kullanın</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MultipleDicomSeries</Keyword>
-      <Text>DICOM dosyası seti birden fazla dizi içerir. Listeden görselleştirmek için birini seçin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MultipleDicomSeries.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesNotFound</Keyword>
-      <Text>DICOM serileri bulunamadı. Yanlış bir dosya seri yüklemi yapılmış olabilir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesNotFound.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetNotFound</Keyword>
-      <Text>Bu görüntü ile ilişkili DICOM dosyası seti bulunamadı.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LocateDicomFilesetManually</Keyword>
-      <Text>DICOM dosya setini manuel olarak bul</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ProceedWithoutDicom</Keyword>
-      <Text>DICOM olmadan devam et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NoClosingWhileLoadingDicom.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetAssociatedWithProjectNotFound</Keyword>
-      <Text>Proje ile ilgili DICOM dosyası seti yüklenemedi.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.CurrentWindowRangeSliderDescription</Keyword>
-      <Text>Güncel DICOM penceresi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetEmpty</Keyword>
-      <Text>Seçilen dosya kümesi kullanılabilir hiçbir DICOM verisi içermiyor.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesFromProjectAlreadyLoaded.Title</Keyword>
-      <Text>DICOM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeWarning.Title</Keyword>
-      <Text>Performans Uyarısı</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSurfaceGenerationOutOfMemory</Keyword>
-      <Text>Yüzey oluşturma  yetersiz bellek hatası verdiği için başarısız oldu.
-İpucu: DICOM görünüm kontrolünde yanlış kullanılan bir Isoyüzeyi eşik kayması buna sebep olabilir.    Ekranda gürültülü görsel eserlerden kaçınmak için eşik değiştirmeye çalışın.
-      
-       Kayıt sırasında, yalnızca doğru diş yüzeylerini görmek için eşik değiştirmeye çalışın.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSurfaceGenerationNoDataCreated</Keyword>
-      <Text>Yüzey oluşturmada herhangi bir veri çıkmadı.                                                                                                           İpucu: Bunun sebebi DICOM görünüm kotrolünde yanlış ayarlanmış bir eşik kayması olabilir.                              DICOM görüntüleyicide doğru datanın göründüğünden emin olmak için Isoyüzeyi eşiğini değiştirmeyi deneyin.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomSeriesFromProjectAlreadyLoaded</Keyword>
-      <Text>Şu anda yükü seriler, daha önce dikkate alınmayan proje ile ilgili DICOM dosya setinden bir seri ile eşleşmektedir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetConflictOnLoadProject</Keyword>
-      <Text>Bir DICOM dosya seti indirildi ancak proje kendi DICOM dosya seti ile geldi.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetConflictOnLoadProject.Replace</Keyword>
-      <Text>Proje ile ilgili DICOM dosya setini kullanın (önerilen)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFilesetConflictOnLoadProject.Keep</Keyword>
-      <Text>Mevcuttaki yüklü DICOM dosya setini koruyun</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomLoadFilesErrorFew</Keyword>
-      <Text>Sıralanan dosyalar düzgün DICOM dosyaları gibi görünmediğinden okunamıyor: {0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomLoadFilesErrorMany</Keyword>
-      <Text>Sıralanan dosyalar düzgün DICOM dosyaları gibi görünmediğinden okunamıyor: {0}  ve {1} daha fazla</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomMultipleFilesInludeDicomdir</Keyword>
-      <Text>Belirtilen dosya kümesi dizin dosyası "{0}" içeriyor . Sadece bu tek dosyayı seçiniz.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomReferencedFileNotFound</Keyword>
-      <Text>DICOM dizin dosyasından başvurulan dosya {0} açılamadı.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomBadSliceSpacing</Keyword>
-      <Text>Seriler kötü dilim aralığına sahiptir ve bu nedenle görüntülenememiştir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomInconsistentOrientation</Keyword>
-      <Text>Seriler tutarsız resim oryantasyonuna sahiptir ve bu nedenle görünyülenemiyor.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomReferencedFileIsInvalid</Keyword>
-      <Text>DICOMDIR dan başvurulan dosya {0} geçersizdir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeWarning</Keyword>
-      <Text>Medya çok yavaş olabilir veya grafik donanım ve sürücüden dolayı arızalanabilir. Bu başlatmak için önemli ölçüde zaman alabilir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeIgnoreWarning</Keyword>
-      <Text>Medyayı her şekilde aktifleştir</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.MediaModeCancel</Keyword>
-      <Text>İptal et</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomPleaseSelectTypeOfSurface</Keyword>
-      <Text>Lütfen DICOM yüzey tipini seçin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.Title</Keyword>
-      <Text>DICOM Serileri Seçim Dialoğu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.DataExceptionHeader</Keyword>
-      <Text>Seçilen veri geçerli değil!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.DataNotAvailableAnymoreMessage</Keyword>
-      <Text>Seçilen veri kümesi artık mevcut değildir. Verilerin konumun hala kullanılabilir olduğundan emin olun.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.NoValidSeriesSelectedMessage</Keyword>
-      <Text>Seçili öğe geçerli bir DICOM serisi değil. Önizlemede bir seri tipi öğesini seçtiğinizden emin olun.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.ScanningForDicomDataMessage</Keyword>
-      <Text>DICOM verisi için dizin taranıyor. Lütfen bekleyin!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomFolderSelectionDialog.NoDicomDataMessage</Keyword>
-      <Text>Bu dizin DICOM resimleri içermiyor!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.Title</Keyword>
-      <Text>DICOM Veri Yer Diyaloğu</Text>
-    </Translation>
-    <Translation>
-      <Keyword>VoxelationObject.CreateVolumeTextureFailed</Keyword>
-      <Text>Grafik işlemciye hacimli veri transfer edilemiyor:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.NotTheCorrectSeries.Message</Keyword>
-      <Text>Seçilen veri seti mevcutta seçilen görüntüye kaydedilen serileri içermemektedir.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DicomDataLocationDialog.CorrectSeries.Message</Keyword>
-      <Text>Seçilen veri seti mevcutta seçilen görüntüye kaydedilen serileri içermektedir! 'Tamam' ile devam edin...</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-turkish-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

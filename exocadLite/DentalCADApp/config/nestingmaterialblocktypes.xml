@@ -1,0 +1,2100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMaterialBlockTypeDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRTransBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>
+    <MaterialColor>Transluzent</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\ZRAB.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>  
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRTransPlusBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>
+    <MaterialColor>Transluzent Plus</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\ZRAI.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>  
+  
+   <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRPretBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>
+    <MaterialColor>Prettau</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\ZRAD.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRPretAntBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>
+    <MaterialColor>Prettau Anterior</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\ZRFA.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>  
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRAnatomicBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>
+    <MaterialColor>Anatomic Coloured</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\anatomic-coloured.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor> 
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>ZRBlackBase</MaterialDescriptor>    
+    <MaterialType>Zirkon</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\black.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>WOODBase</MaterialDescriptor>
+    <MaterialType>WOOD</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>    
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>WaxBase</MaterialDescriptor>    
+    <MaterialType>WAX</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>        
+	<CollisionBorder>1.5</CollisionBorder>   
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>TryinandBurnoutBase</MaterialDescriptor>    
+    <MaterialType>PMMA</MaterialType>
+    <MaterialColor>Try in and Burnout</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\try-in-and-burnout-weiss.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>BurnoutBase</MaterialDescriptor>    
+    <MaterialType>PMMA</MaterialType>
+    <MaterialColor>Burnout Green</MaterialColor>
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\tmaz.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>PMMABase</MaterialDescriptor>    
+    <MaterialType>PMMA</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>    
+    <CollisionBorder>1.5</CollisionBorder>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>CrCoBase</MaterialDescriptor>    
+    <MaterialType>CrCo</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>    
+    <CollisionBorder>1.5</CollisionBorder>
+	<Icon>zirkonzahn\MEAA.png</Icon>    
+	<NestingParameters>
+		<Parameter>
+			<Type>MaterialEmptySpace</Type>
+			<Value>4</Value>
+		</Parameter>
+		<Parameter>
+			<Type>MaterialEmptySpaceMinSlider</Type>
+			<Value>3.5</Value>
+		</Parameter>
+		<Parameter>
+			<Type>MaterialEmptySpaceMaxSlider</Type>
+			<Value>10.0</Value>
+		</Parameter>
+		<Parameter>
+			<Type>SupportDiameter</Type>
+			<Value>1.6</Value>
+		</Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>TitanBase</MaterialDescriptor>    
+    <MaterialType>Titan</MaterialType>    
+    <Width>95</Width>    
+    <HasScaleFactor>false</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>    
+    <CollisionBorder>1.5</CollisionBorder>	    
+	<NestingParameters>
+		<Parameter>
+			<Type>MaterialEmptySpace</Type>
+			<Value>4</Value>
+		</Parameter>
+		<Parameter>
+			<Type>MaterialEmptySpaceMinSlider</Type>
+			<Value>3.5</Value>
+		</Parameter>
+		<Parameter>
+			<Type>MaterialEmptySpaceMaxSlider</Type>
+			<Value>10.0</Value>
+		</Parameter>
+		<Parameter>
+			<Type>SupportDiameter</Type>
+			<Value>1.6</Value>
+		</Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <MaterialDescriptor>SinterMBase</MaterialDescriptor>    
+    <MaterialType>SinterMetal</MaterialType>
+    <Width>95</Width>
+    <HasScaleFactor>true</HasScaleFactor>
+    <GeometryType>Cylindrical</GeometryType>
+    <Icon>zirkonzahn\MEAD.png</Icon>
+    <CollisionBorder>1.5</CollisionBorder>	
+  </MaterialBlockTypeDescriptor>  
+   
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <DisableOutsideBlockAreaCollisionCheck>true</DisableOutsideBlockAreaCollisionCheck>
+    <MaterialDescriptor>ZirkonzahnGLASSBase</MaterialDescriptor>
+    <SuggestedNameScheme>%%MaterialType%%Number</SuggestedNameScheme>
+    <ProductionQueueDeletedFileIsProducedFile>true</ProductionQueueDeletedFileIsProducedFile>
+    <ProductionQueueMarkedAsDoneDeletesCompleteBlock>true</ProductionQueueMarkedAsDoneDeletesCompleteBlock>
+	<SlotSelectorDisplayImageName>nestingGlassSlotsSlector.png</SlotSelectorDisplayImageName>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#B5AB84</Color2D>
+    <ShowColliderOnLoad>true</ShowColliderOnLoad>
+    <MaterialColors>
+      <Color>A1</Color>
+      <Color>A2</Color>
+      <Color>A3</Color>
+    </MaterialColors>
+    <MaterialBlockImageWorldSizeMaxX>60</MaterialBlockImageWorldSizeMaxX>
+    <MaterialBlockImageWorldSizeMaxY>100</MaterialBlockImageWorldSizeMaxY>
+    <MaterialBlockImageWorldCenterX>0</MaterialBlockImageWorldCenterX>
+    <MaterialBlockImageWorldCenterY>0</MaterialBlockImageWorldCenterY>
+    <MaterialBlockSlots>
+      <Slot ID="1" DisplayID="S1W" DisplayIDLongTranslation="1 - West" X="-32.3" Y="0" R="0" IsDefault="1" />
+      <Slot ID="2" DisplayID="S2N" DisplayIDLongTranslation="2 - North" X="0" Y="32.3" R="270" />
+      <Slot ID="3" DisplayID="S3E" DisplayIDLongTranslation="3 - East" X="32.3" Y="0" R="180" />
+      <Slot ID="4" DisplayID="S4S" DisplayIDLongTranslation="4 - South" X="0" Y="-32.3" R="90" />
+	  <Slot ID="5" DisplayID="M1-Abutment" DisplayIDLongTranslation="M1-Abutment Support" X="-18.8" Y="0" R="180" />
+    </MaterialBlockSlots>
+    <MaterialRenderEffect>CAMGlass</MaterialRenderEffect>
+    <MaterialRenderEffectDesign>CAMGlassDesign</MaterialRenderEffectDesign>
+    <SupportConnector>zirkonzahn\glass-blocks\holder_center.obj</SupportConnector>
+    <GeometryType>ContourFile</GeometryType>
+    <CollisionBorder>0</CollisionBorder>
+    <Color2D>#3F3F3F</Color2D>
+    <IsGrindingMaterial>true</IsGrindingMaterial>
+    <NestingParameters>
+      <Parameter>
+        <Type>MaterialBlockIDMin</Type>
+        <Value>0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialBlockIDMax</Type>
+        <Value>0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>SupportDiameter</Type>
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter>
+        <Type>SupportLengthToSupportIncrement</Type>
+        <Value>0.5</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpace</Type>
+        <Value>3.0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpaceMinSlider</Type>
+        <Value>3.0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpaceMaxSlider</Type>
+        <Value>4.0</Value>
+      </Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+  
+   <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase" IsAbstract="true">
+    <MaterialDescriptor>ZirkonzahnEmaxBase</MaterialDescriptor>
+    <ConstructionMaterialFilter>.*GLASS.*</ConstructionMaterialFilter>
+    <MaterialRenderEffect>CAMGlassEmax</MaterialRenderEffect>
+    <MaterialRenderEffectDesign>CAMGlassEmaxDesign</MaterialRenderEffectDesign>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>true</HasScaleFactor>
+    <Color2D>#BC79FF</Color2D>
+    <MaterialColors>
+      <Color>LTA1</Color>
+      <Color>LTA2</Color>
+      <Color>LTA3</Color>
+      <Color>HTA1</Color>
+      <Color>HTA2</Color>
+      <Color>HTA3</Color>
+    </MaterialColors>
+    <NestingParameters>
+      <Parameter>
+        <Type>ScaleFactorMinValue</Type>
+        <Value>1.0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>ScaleFactorMaxValue</Type>
+        <Value>1.01</Value>
+      </Parameter>
+      <Parameter>
+        <Type>ScaleFactorDefaultValue</Type>
+        <Value>1.002004</Value>
+      </Parameter>
+      <Parameter>
+        <Type>ScaleFactorDisplayType</Type>
+        <Value>1</Value>
+      </Parameter>
+      <Parameter>
+        <Type>ScaleFactorInputDecimals</Type>
+        <Value>1</Value>
+      </Parameter>
+      <Parameter>
+        <Type>ScaleFactorHideUserSlider</Type>
+        <Value>1</Value>
+      </Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase" IsAbstract="true">    
+    <MaterialDescriptor>ZirkonzahnULTIMATEBase</MaterialDescriptor>
+    <SuggestedNameScheme>Ultimate_%%Number</SuggestedNameScheme>
+    <ProductionQueueDeletedFileIsProducedFile>true</ProductionQueueDeletedFileIsProducedFile>
+    <ProductionQueueMarkedAsDoneDeletesCompleteBlock>true</ProductionQueueMarkedAsDoneDeletesCompleteBlock>
+    <HasScaleFactor>false</HasScaleFactor>    
+    <MaterialColors>
+      <Color>LTA1</Color>
+      <Color>LTA2</Color>
+      <Color>LTA3</Color>
+      <Color>LTA3.5</Color>
+      <Color>LTB1</Color>
+      <Color>LTC1</Color>
+      <Color>LTD2</Color>
+      <Color>LTBleach</Color>
+      <Color>HTA1</Color>
+      <Color>HTA2</Color>
+      <Color>HTA3</Color>
+      <Color>HTB1</Color>
+    </MaterialColors>    
+    <Color2D>#DFDFDF</Color2D>    
+    <NestingParameters>      
+      <Parameter>
+        <Type>MaterialEmptySpace</Type>
+        <Value>3.0</Value>
+      </Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8001</MaterialDescriptor>
+    <MaterialBlockCode>005</MaterialBlockCode>
+    <Height>10</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8011</MaterialDescriptor>
+    <MaterialBlockCode>009</MaterialBlockCode>
+    <Height>12</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8101</MaterialDescriptor>
+    <MaterialBlockCode>010</MaterialBlockCode>
+    <Height>25</Height>    
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8021</MaterialDescriptor>
+    <MaterialBlockCode>006</MaterialBlockCode>    
+    <Height>14</Height>  	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8031</MaterialDescriptor>
+    <MaterialBlockCode>014</MaterialBlockCode>
+    <Height>16</Height>   
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8041</MaterialDescriptor>
+    <MaterialBlockCode>007</MaterialBlockCode>
+    <Height>18</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8061</MaterialDescriptor>
+    <MaterialBlockCode>008</MaterialBlockCode>
+    <Height>22</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransBase">
+    <MaterialDescriptor>ZRAB8071</MaterialDescriptor>
+    <MaterialBlockCode>016</MaterialBlockCode>
+    <Height>30</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8001</MaterialDescriptor>
+    <MaterialBlockCode>050</MaterialBlockCode>
+    <Height>10</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8011</MaterialDescriptor>
+    <MaterialBlockCode>049</MaterialBlockCode>
+    <Height>12</Height>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8021</MaterialDescriptor>
+    <MaterialBlockCode>051</MaterialBlockCode>
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8031</MaterialDescriptor>
+    <MaterialBlockCode>052</MaterialBlockCode>
+    <Height>16</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8041</MaterialDescriptor>
+    <MaterialBlockCode>053</MaterialBlockCode>
+    <Height>18</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRTransPlusBase">
+    <MaterialDescriptor>ZRAI8061</MaterialDescriptor>
+    <MaterialBlockCode>054</MaterialBlockCode>
+    <Height>22</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8001</MaterialDescriptor>
+    <MaterialBlockCode>001</MaterialBlockCode>
+    <Height>10</Height>   
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8011</MaterialDescriptor>
+    <MaterialBlockCode>0012</MaterialBlockCode>
+    <Height>12</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8101</MaterialDescriptor>
+    <MaterialBlockCode>0013</MaterialBlockCode>
+    <Height>25</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8021</MaterialDescriptor>
+    <MaterialBlockCode>002</MaterialBlockCode>
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8031</MaterialDescriptor>
+    <MaterialBlockCode>015</MaterialBlockCode>
+    <Height>16</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8041</MaterialDescriptor>
+    <MaterialBlockCode>003</MaterialBlockCode>
+    <Height>18</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8061</MaterialDescriptor>
+    <MaterialBlockCode>004</MaterialBlockCode>
+    <Height>22</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretBase">
+    <MaterialDescriptor>ZRAD8071</MaterialDescriptor>
+    <MaterialBlockCode>011</MaterialBlockCode>
+    <Height>30</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8001</MaterialDescriptor>
+    <MaterialBlockCode>055</MaterialBlockCode>
+    <Height>10</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8011</MaterialDescriptor>
+    <MaterialBlockCode>056</MaterialBlockCode>
+    <Height>12</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8021</MaterialDescriptor>
+    <MaterialBlockCode>057</MaterialBlockCode>
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8031</MaterialDescriptor>
+    <MaterialBlockCode>058</MaterialBlockCode>
+    <Height>16</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8041</MaterialDescriptor>
+    <MaterialBlockCode>059</MaterialBlockCode>
+    <Height>18</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8051</MaterialDescriptor>
+    <MaterialBlockCode>048</MaterialBlockCode>
+    <Height>20</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8061</MaterialDescriptor>
+    <MaterialBlockCode>060</MaterialBlockCode>
+    <Height>22</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRPretAntBase">
+    <MaterialDescriptor>ZRFA8101</MaterialDescriptor>    
+    <Height>25</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001A01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A1</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021A01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A1</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041A01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A1</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061A01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A1</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001A02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A2</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021A02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A2</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041A02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A2</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061A02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A2</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001A03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021A03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041A03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061A03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001A35</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3,5</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3,5.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021A35</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3,5</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3,5.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041A35</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3,5</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3,5.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061A35</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A3,5</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a3,5.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001A04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A4</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021A04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A4</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041A04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A4</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061A04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured A4</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-a4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001B01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B1</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021B01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B1</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041B01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B1</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061B01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B1</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001B02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B2</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021B02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B2</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041B02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B2</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061B02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B2</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001B03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B3</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021B03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B3</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041B03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B3</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061B03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B3</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001B04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B4</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021B04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B4</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041B04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B4</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061B04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured B4</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-b4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001C01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C1</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021C01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C1</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041C01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C1</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061C01</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C1</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001C02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C2</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021C02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C2</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041C02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C2</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061C02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C2</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001C03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C3</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021C03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C3</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041C03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C3</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061C03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C3</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001C04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C4</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021C04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C4</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041C04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C4</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061C04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured C4</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-c4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001D02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D2</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021D02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D2</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041D02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D2</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061D02</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D2</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d2.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001D03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D3</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021D03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D3</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041D03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D3</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061D03</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D3</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+    <MaterialDescriptor>ZRHB8001D04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D4</MaterialColor>
+	<Height>10</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8021D04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D4</MaterialColor>
+	<Height>14</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8041D04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D4</MaterialColor>
+	<Height>18</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRAnatomicBase">
+	<MaterialDescriptor>ZRHB8061D04</MaterialDescriptor>
+	<MaterialColor>Anatomic Coloured D4</MaterialColor>
+	<Height>22</Height>
+	<Icon>zirkonzahn\anatomic-coloured-d4.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRBlackBase">
+    <MaterialDescriptor>ZRAZ8001</MaterialDescriptor>
+    <MaterialBlockCode>020</MaterialBlockCode>
+	<MaterialColor>Black</MaterialColor>
+    <Height>10</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRBlackBase">
+    <MaterialDescriptor>ZRAZ8041</MaterialDescriptor>
+    <MaterialBlockCode>021</MaterialBlockCode>
+	<MaterialColor>Black</MaterialColor>    
+    <Height>18</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRBlackBase">
+    <MaterialDescriptor>ZRAY8021</MaterialDescriptor>
+	<MaterialColor>Dark blue</MaterialColor>
+    <MaterialBlockCode>022</MaterialBlockCode>   
+	<Icon>zirkonzahn\zirkon-darkblue.png</Icon>	
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRBlackBase">
+    <MaterialDescriptor>ZRAU8021</MaterialDescriptor>
+	<MaterialColor>Purple</MaterialColor>
+    <MaterialBlockCode>026</MaterialBlockCode>   
+	<Icon>zirkonzahn\zirkon-purple.png</Icon>	
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZRBlackBase">
+    <MaterialDescriptor>ZRAT8021</MaterialDescriptor>
+	<MaterialColor>Green</MaterialColor>
+    <MaterialBlockCode>027</MaterialBlockCode>   
+	<Icon>zirkonzahn\zirkon-green.png</Icon>	
+    <Height>14</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAA8041</MaterialDescriptor>
+    <MaterialBlockCode>030</MaterialBlockCode>    
+    <MaterialColor>OLIVE</MaterialColor>
+    <Height>18</Height>    
+    <Icon>zirkonzahn\holz-olive.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAB8041</MaterialDescriptor>
+    <MaterialBlockCode>031</MaterialBlockCode>
+    <MaterialColor>NUT</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-nut.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAB8071</MaterialDescriptor>
+    <MaterialBlockCode>034</MaterialBlockCode>    
+    <MaterialColor>NUT</MaterialColor>    
+    <Height>30</Height>
+    <Icon>zirkonzahn\holz-nut.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>WRAB0101</MaterialDescriptor>
+    <MaterialBlockCode>035</MaterialBlockCode>    
+    <MaterialColor>NUT</MaterialColor>    
+    <Height>30</Height>
+    <Icon>zirkonzahn\holz-nut.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAC8041</MaterialDescriptor>
+    <MaterialBlockCode>032</MaterialBlockCode>
+    <MaterialColor>OAK</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-oak.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAD8041</MaterialDescriptor>
+    <MaterialBlockCode>033</MaterialBlockCode>    
+    <MaterialColor>MAPLE</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-maple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAE8041</MaterialDescriptor>
+    <MaterialBlockCode>036</MaterialBlockCode>
+    <MaterialColor>CHERRY</MaterialColor>    
+    <Height>18</Height>    
+    <Icon>zirkonzahn\holz-cherry.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAF8041</MaterialDescriptor>
+    <MaterialBlockCode>037</MaterialBlockCode>    
+    <MaterialColor>PEAR</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-pear.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAG8041</MaterialDescriptor>
+    <MaterialBlockCode>038</MaterialBlockCode>    
+    <MaterialColor>APPLE</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-apple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAH8041</MaterialDescriptor>
+    <MaterialBlockCode>039</MaterialBlockCode>    
+    <MaterialColor>PLUM</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-plum.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAI8041</MaterialDescriptor>
+    <MaterialBlockCode>040</MaterialBlockCode>    
+    <MaterialColor>BUBINGA</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-bubinga.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WOODBase">
+    <MaterialDescriptor>HOAJ8041</MaterialDescriptor>
+    <MaterialBlockCode>041</MaterialBlockCode>   
+    <MaterialColor>EBONY</MaterialColor>    
+    <Height>18</Height>
+    <Icon>zirkonzahn\holz-ebony.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="BurnoutBase">
+    <MaterialDescriptor>TMAZ0112</MaterialDescriptor>
+    <MaterialBlockCode>170</MaterialBlockCode>
+    <Height>12</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="BurnoutBase">
+    <MaterialDescriptor>TMAZ0116</MaterialDescriptor>
+    <MaterialBlockCode>167</MaterialBlockCode>
+    <Height>16</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="BurnoutBase">
+    <MaterialDescriptor>TMAZ0120</MaterialDescriptor>
+    <MaterialBlockCode>168</MaterialBlockCode>
+    <Height>20</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="BurnoutBase">
+    <MaterialDescriptor>TMAZ0125</MaterialDescriptor>
+    <MaterialBlockCode>169</MaterialBlockCode>
+    <Height>25</Height>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0112</MaterialDescriptor>
+    <MaterialBlockCode>101</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1</MaterialColor>   
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp basic A1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0116</MaterialDescriptor>
+    <MaterialBlockCode>102</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1</MaterialColor>    
+    <Height>16</Height>    
+    <Icon>zirkonzahn\temp basic A1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0120</MaterialDescriptor>
+    <MaterialBlockCode>103</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp basic A1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0212</MaterialDescriptor>
+    <MaterialBlockCode>104</MaterialBlockCode>
+    <MaterialColor>Temp Basic A2</MaterialColor>
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp basic A2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0216</MaterialDescriptor>
+    <MaterialBlockCode>105</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A2</MaterialColor>    
+    <Height>16</Height>    
+    <Icon>zirkonzahn\temp basic A2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0220</MaterialDescriptor>
+    <MaterialBlockCode>106</MaterialBlockCode>
+    <MaterialColor>Temp Basic A2</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp basic A2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0312</MaterialDescriptor>
+    <MaterialBlockCode>107</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp basic A3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0316</MaterialDescriptor>
+    <MaterialBlockCode>108</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp basic A3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0320</MaterialDescriptor>
+    <MaterialBlockCode>109</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3</MaterialColor>    
+    <Height>20</Height>   
+    <Icon>zirkonzahn\temp basic A3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0325</MaterialDescriptor>
+    <MaterialBlockCode>199</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3</MaterialColor>    
+    <Height>25</Height>   
+    <Icon>zirkonzahn\temp basic A3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0612</MaterialDescriptor>
+    <MaterialBlockCode>116</MaterialBlockCode>    
+    <MaterialColor>Temp Basic B1</MaterialColor>
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp basic B1.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0616</MaterialDescriptor>
+    <MaterialBlockCode>117</MaterialBlockCode>    
+    <MaterialColor>Temp Basic B1</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp basic B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA0620</MaterialDescriptor>
+    <MaterialBlockCode>118</MaterialBlockCode>    
+    <MaterialColor>Temp Basic B1</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp basic B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA1712</MaterialDescriptor>
+    <MaterialBlockCode>149</MaterialBlockCode>
+    <MaterialColor>Temp Basic X-RAY</MaterialColor>
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp basic x-ray.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA1716</MaterialDescriptor>
+    <MaterialBlockCode>150</MaterialBlockCode>    
+    <MaterialColor>Temp Basic X-RAY</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp basic x-ray.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA1720</MaterialDescriptor>
+    <MaterialBlockCode>151</MaterialBlockCode>    
+    <MaterialColor>Temp Basic X-RAY</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp basic x-ray.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAA1725</MaterialDescriptor>
+    <MaterialColor>Temp Basic X-RAY</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp basic x-ray.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0112</MaterialDescriptor>
+    <MaterialBlockCode>152</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A1-B1</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp premium A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0116</MaterialDescriptor>
+    <MaterialBlockCode>153</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A1-B1</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp premium A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0120</MaterialDescriptor>
+    <MaterialBlockCode>154</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A1-B1</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp premium A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0212</MaterialDescriptor>
+    <MaterialBlockCode>155</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A2-A3</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp premium A2-A3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0216</MaterialDescriptor>
+    <MaterialBlockCode>156</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A2-A3</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp premium A2-A3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0220</MaterialDescriptor>
+    <MaterialBlockCode>157</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A2-A3</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp premium A2-A3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0612</MaterialDescriptor>
+    <MaterialBlockCode>158</MaterialBlockCode>    
+    <MaterialColor>Temp Premium B2-B3</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp premium B2-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0616</MaterialDescriptor>
+    <MaterialBlockCode>159</MaterialBlockCode>    
+    <MaterialColor>Temp Premium B2-B3</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp premium B2-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0620</MaterialDescriptor>
+    <MaterialBlockCode>160</MaterialBlockCode>    
+    <MaterialColor>Temp Premium B2-B3</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp premium B2-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1012</MaterialDescriptor>
+    <MaterialBlockCode>161</MaterialBlockCode>    
+    <MaterialColor>Temp Premium C2-C3</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp premium C2-C3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1016</MaterialDescriptor>
+    <MaterialBlockCode>162</MaterialBlockCode>    
+    <MaterialColor>Temp Premium C2-C3</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp premium C2-C3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1020</MaterialDescriptor>
+    <MaterialBlockCode>163</MaterialBlockCode>    
+    <MaterialColor>Temp Premium C2-C3</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp premium C2-C3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1812</MaterialDescriptor>
+    <MaterialBlockCode>164</MaterialBlockCode>    
+    <MaterialColor>Temp Premium Transpa</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\temp premium transpa.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1816</MaterialDescriptor>
+    <MaterialBlockCode>165</MaterialBlockCode>
+    <MaterialColor>Temp Premium Transpa</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp premium transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1820</MaterialDescriptor>
+    <MaterialBlockCode>166</MaterialBlockCode>    
+    <MaterialColor>Temp Premium Transpa</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp premium transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0110</MaterialDescriptor>
+    <MaterialBlockCode>201</MaterialBlockCode>    
+    <MaterialColor>Wax ivory</MaterialColor>   
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-elfenbein.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0116</MaterialDescriptor>
+    <MaterialBlockCode>202</MaterialBlockCode>    
+    <MaterialColor>Wax ivory</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-elfenbein.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0120</MaterialDescriptor>
+    <MaterialBlockCode>203</MaterialBlockCode>    
+    <MaterialColor>Wax ivory</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-elfenbein.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0125</MaterialDescriptor>
+    <MaterialBlockCode>204</MaterialBlockCode>    
+    <MaterialColor>Wax ivory</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-elfenbein.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0210</MaterialDescriptor>
+    <MaterialBlockCode>211</MaterialBlockCode>    
+    <MaterialColor>WAX grey</MaterialColor>    
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-grau.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="WaxBase">
+    <MaterialDescriptor>WSAA0216</MaterialDescriptor>
+    <MaterialBlockCode>212</MaterialBlockCode>    
+    <MaterialColor>WAX grey</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-grau.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA0220</MaterialDescriptor>
+    <MaterialBlockCode>213</MaterialBlockCode>    
+    <MaterialColor>WAX grey</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-grau.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA0225</MaterialDescriptor>
+    <MaterialBlockCode>214</MaterialBlockCode>
+    <MaterialColor>WAX grey</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-grau.png</Icon>    
+  </MaterialBlockTypeDescriptor> 
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1010</MaterialDescriptor>
+    <MaterialBlockCode>215</MaterialBlockCode>
+    <MaterialColor>WAX purple</MaterialColor>
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-purple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1016</MaterialDescriptor>
+    <MaterialBlockCode>216</MaterialBlockCode>
+    <MaterialColor>WAX purple</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-purple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1020</MaterialDescriptor>
+    <MaterialBlockCode>217</MaterialBlockCode>
+    <MaterialColor>WAX purple</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-purple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1025</MaterialDescriptor>
+    <MaterialBlockCode>218</MaterialBlockCode>
+    <MaterialColor>WAX purple</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-purple.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA2010</MaterialDescriptor>
+    <MaterialBlockCode>219</MaterialBlockCode>
+    <MaterialColor>WAX orange</MaterialColor>
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-orange.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA2016</MaterialDescriptor>
+    <MaterialBlockCode>220</MaterialBlockCode>
+    <MaterialColor>WAX orange</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-orange.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA2020</MaterialDescriptor>
+    <MaterialBlockCode>221</MaterialBlockCode>
+    <MaterialColor>WAX orange</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-orange.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA2025</MaterialDescriptor>
+    <MaterialBlockCode>222</MaterialBlockCode>
+    <MaterialColor>WAX orange</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-orange.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1110</MaterialDescriptor>
+    <MaterialBlockCode>223</MaterialBlockCode>
+    <MaterialColor>WAX green</MaterialColor>
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-gruen.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1116</MaterialDescriptor>
+    <MaterialBlockCode>224</MaterialBlockCode>
+    <MaterialColor>WAX green</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-gruen.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1120</MaterialDescriptor>
+    <MaterialBlockCode>225</MaterialBlockCode>
+    <MaterialColor>WAX green</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-gruen.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA1125</MaterialDescriptor>
+    <MaterialBlockCode>226</MaterialBlockCode>
+    <MaterialColor>WAX green</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-gruen.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA3010</MaterialDescriptor>
+    <MaterialBlockCode>227</MaterialBlockCode>
+    <MaterialColor>WAX lilac</MaterialColor>
+    <Height>10</Height>
+    <Icon>zirkonzahn\wax-lila.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA3016</MaterialDescriptor>
+    <MaterialBlockCode>228</MaterialBlockCode>
+    <MaterialColor>WAX lilac</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\wax-lila.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA3020</MaterialDescriptor>
+    <MaterialBlockCode>229</MaterialBlockCode>
+    <MaterialColor>WAX lilac</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\wax-lila.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor  Base="WaxBase">
+    <MaterialDescriptor>WSAA3025</MaterialDescriptor>
+    <MaterialBlockCode>230</MaterialBlockCode>
+    <MaterialColor>WAX lilac</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\wax-lila.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0125</MaterialDescriptor>
+    <MaterialBlockCode>171</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A1-B1</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp premium A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0225</MaterialDescriptor>
+    <MaterialBlockCode>172</MaterialBlockCode>    
+    <MaterialColor>Temp Premium A2-A3</MaterialColor>
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp premium A2-A3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB0625</MaterialDescriptor>
+    <MaterialBlockCode>173</MaterialBlockCode>    
+    <MaterialColor>Temp Premium B2-B3</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp premium B2-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1025</MaterialDescriptor>
+    <MaterialBlockCode>174</MaterialBlockCode>    
+    <MaterialColor>Temp Premium C2-C3</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp premium C2-C3.png</Icon>
+  </MaterialBlockTypeDescriptor>
+   <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAB1825</MaterialDescriptor>
+    <MaterialBlockCode>176</MaterialBlockCode>    
+    <MaterialColor>Temp Premium Transpa</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp premium transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAA0116</MaterialDescriptor>
+    <MaterialBlockCode>177</MaterialBlockCode>    
+    <MaterialColor>Try-In I</MaterialColor>
+    <Height>16</Height>
+    <Icon>zirkonzahn\try-in-I.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAA0120</MaterialDescriptor>
+    <MaterialBlockCode>178</MaterialBlockCode>    
+    <MaterialColor>Try-In I</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\try-in-I.png</Icon>    
+  </MaterialBlockTypeDescriptor> 
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAA0125</MaterialDescriptor>
+    <MaterialBlockCode>179</MaterialBlockCode>    
+    <MaterialColor>Try-In I</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\try-in-I.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAB0116</MaterialDescriptor>
+    <MaterialBlockCode>077</MaterialBlockCode>    
+    <MaterialColor>Try-In II</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\try-in-II.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAB0120</MaterialDescriptor>
+    <MaterialBlockCode>078</MaterialBlockCode>    
+    <MaterialColor>Try-In II</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\try-in-II.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TRAB0125</MaterialDescriptor>
+    <MaterialBlockCode>079</MaterialBlockCode>    
+    <MaterialColor>Try-In II</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\try-in-II.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2116</MaterialDescriptor>
+    <MaterialBlockCode>180</MaterialBlockCode>    
+    <MaterialColor>Temp Premium Flexible Transpa</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2120</MaterialDescriptor>
+    <MaterialBlockCode>181</MaterialBlockCode>   
+    <MaterialColor>Temp Premium Flexible Transpa</MaterialColor>
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2125</MaterialDescriptor>
+    <MaterialBlockCode>182</MaterialBlockCode>    
+    <MaterialColor>Temp Premium Flexible Transpa</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0116</MaterialDescriptor>  
+	<MaterialBlockCode>190</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A1-B1</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0120</MaterialDescriptor> 
+	<MaterialBlockCode>191</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A1-B1</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0125</MaterialDescriptor>
+	<MaterialBlockCode>193</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A1-B1</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0216</MaterialDescriptor>
+	<MaterialBlockCode>192</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A2-B2</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0220</MaterialDescriptor>    
+	<MaterialBlockCode>194</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A2-B2</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0225</MaterialDescriptor>    
+	<MaterialBlockCode>195</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A2-B2</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0316</MaterialDescriptor>    
+	<MaterialBlockCode>196</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A3-B3</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A3-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0320</MaterialDescriptor>    
+	<MaterialBlockCode>197</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A3-B3</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A3-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE0325</MaterialDescriptor>    
+	<MaterialBlockCode>198</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible A3-B3</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-A3-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2516</MaterialDescriptor>    
+	<MaterialBlockCode>061</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible Bleach</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-bleach.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2520</MaterialDescriptor>    
+	<MaterialBlockCode>062</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible Bleach</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-bleach.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAE2525</MaterialDescriptor>    
+	<MaterialBlockCode>063</MaterialBlockCode>	
+    <MaterialColor>Temp Premium Flexible Bleach</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-premium-flexible-bleach.png</Icon>    
+   </MaterialBlockTypeDescriptor>
+   <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2116</MaterialDescriptor>
+    <MaterialBlockCode>183</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Transpa</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2120</MaterialDescriptor>
+    <MaterialBlockCode>184</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Transpa</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2125</MaterialDescriptor>
+    <MaterialBlockCode>185</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Transpa</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-transpa.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAH0112</MaterialDescriptor>
+    <MaterialBlockCode>96</MaterialBlockCode>    
+    <MaterialColor>Tecno Med</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\tecno-med.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAH0116</MaterialDescriptor>
+    <MaterialBlockCode>97</MaterialBlockCode>    
+    <MaterialColor>Tecno Med</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\tecno-med.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAH0120</MaterialDescriptor>
+    <MaterialBlockCode>98</MaterialBlockCode>    
+    <MaterialColor>Tecno Med</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\tecno-med.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAH0125</MaterialDescriptor>
+    <MaterialBlockCode>99</MaterialBlockCode>    
+    <MaterialColor>Tecno Med</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\tecno-med.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAH0130</MaterialDescriptor>
+    <MaterialBlockCode>100</MaterialBlockCode>    
+    <MaterialColor>Tecno Med</MaterialColor>    
+    <Height>30</Height>
+    <Icon>zirkonzahn\tecno-med.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAK0112</MaterialDescriptor>
+    <MaterialBlockCode>80</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Mineral</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\tecno-med-mineral.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAK0116</MaterialDescriptor>
+    <MaterialBlockCode>81</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Mineral</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\tecno-med-mineral.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAK0120</MaterialDescriptor>
+    <MaterialBlockCode>82</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Mineral</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\tecno-med-mineral.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAL0112</MaterialDescriptor>
+    <MaterialBlockCode>83</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Fiber</MaterialColor>    
+    <Height>12</Height>
+    <Icon>zirkonzahn\tecno-med-fiber.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAL0116</MaterialDescriptor>
+    <MaterialBlockCode>84</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Fiber</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\tecno-med-fiber.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAL0120</MaterialDescriptor>
+    <MaterialBlockCode>85</MaterialBlockCode>    
+    <MaterialColor>Tecno Med Fiber</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\tecno-med-fiber.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0116</MaterialDescriptor>
+    <MaterialBlockCode>86</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1-B1</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0120</MaterialDescriptor>
+    <MaterialBlockCode>87</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1-B1</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0125</MaterialDescriptor>
+    <MaterialBlockCode>88</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A1-B1</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-A1-B1.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0216</MaterialDescriptor>
+    <MaterialBlockCode>89</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A2-B2</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0220</MaterialDescriptor>
+    <MaterialBlockCode>90</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A2-B2</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0225</MaterialDescriptor>
+    <MaterialBlockCode>91</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A2-B2</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-A2-B2.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0316</MaterialDescriptor>
+    <MaterialBlockCode>92</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3-B3</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-A3-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0320</MaterialDescriptor>
+    <MaterialBlockCode>93</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3-B3</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-A3-B3.png</Icon>    
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD0325</MaterialDescriptor>
+    <MaterialBlockCode>94</MaterialBlockCode>    
+    <MaterialColor>Temp Basic A3-B3</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-A3-B3.png</Icon>
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1816</MaterialDescriptor>
+    <MaterialBlockCode>65</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue A</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-a.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1820</MaterialDescriptor>
+    <MaterialBlockCode>66</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue A</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-a.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1825</MaterialDescriptor>
+    <MaterialBlockCode>95</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue A</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-a.png</Icon>    
+  </MaterialBlockTypeDescriptor>    
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1916</MaterialDescriptor>
+    <MaterialBlockCode>67</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue B</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-b.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1920</MaterialDescriptor>
+    <MaterialBlockCode>68</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue B</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-b.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD1925</MaterialDescriptor>
+    <MaterialBlockCode>69</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue B</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-b.png</Icon>    
+  </MaterialBlockTypeDescriptor> 
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2016</MaterialDescriptor>
+    <MaterialBlockCode>70</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue C</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-c.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2020</MaterialDescriptor>
+    <MaterialBlockCode>71</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue C</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-c.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2025</MaterialDescriptor>
+    <MaterialBlockCode>72</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue C</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-c.png</Icon>    
+  </MaterialBlockTypeDescriptor>   
+  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2216</MaterialDescriptor>
+    <MaterialBlockCode>73</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue D</MaterialColor>    
+    <Height>16</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-d.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2220</MaterialDescriptor>
+    <MaterialBlockCode>74</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue D</MaterialColor>    
+    <Height>20</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-d.png</Icon>    
+  </MaterialBlockTypeDescriptor>  
+  <MaterialBlockTypeDescriptor Base="PMMABase">
+    <MaterialDescriptor>TMAD2225</MaterialDescriptor>
+    <MaterialBlockCode>75</MaterialBlockCode>    
+    <MaterialColor>Temp Basic Tissue D</MaterialColor>    
+    <Height>25</Height>
+    <Icon>zirkonzahn\temp-basic-tissue-d.png</Icon>    
+  </MaterialBlockTypeDescriptor>   
+  
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnGlassC14L</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_L14.obj</MaterialBlockFile>
+    <DisplayShortName>Glass C14L</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress-C14L.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnGlassC14</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_C14.obj</MaterialBlockFile>
+    <DisplayShortName>Glass C14</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_C14.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnGlassI12</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I12.obj</MaterialBlockFile>
+    <DisplayShortName>Glass I12</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_I12.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnGlassI10</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I10.obj</MaterialBlockFile>
+    <DisplayShortName>Glass I10</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_I10.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnGLASSBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnGlassI8</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I8.obj</MaterialBlockFile>
+    <DisplayShortName>Glass I8</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_I8.png</Icon>
+  </MaterialBlockTypeDescriptor>
+ 
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnEmaxBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>true</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnEmaxC14</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_C14.obj</MaterialBlockFile>
+    <DisplayShortName>Emax C14</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\emax_C14.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnEmaxBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>true</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnEmaxI12</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I12.obj</MaterialBlockFile>
+    <DisplayShortName>Emax I12</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\emax_I12.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnEmaxBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>true</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnEmaxI10</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I10.obj</MaterialBlockFile>
+    <DisplayShortName>Emax I10</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\emax_I10.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnEmaxBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>GLASS</MaterialType>
+    <HasScaleFactor>true</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>ZirkonzahnEmaxI8</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I8.obj</MaterialBlockFile>
+    <DisplayShortName>Emax I8</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\emax_I8.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnULTIMATEBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>CompositeGlass_Blocks</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>    
+    <MaterialDescriptor>ZirkonzahnUltimate14L</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_L14.obj</MaterialBlockFile>
+    <DisplayShortName>Ultimate 14L</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_L14.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnULTIMATEBase">
+    <MaterialBlockRenderEffectOpacity>0.05</MaterialBlockRenderEffectOpacity>
+    <MaterialType>CompositeGlass_Blocks</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>    
+    <MaterialDescriptor>ZirkonzahnUltimateI12</MaterialDescriptor>
+    <MaterialBlockFile>zirkonzahn\glass-blocks\center_I12.obj</MaterialBlockFile>    
+    <DisplayShortName>Ultimate 12I</DisplayShortName>
+    <HeightStringForDisplay />
+    <Icon>zirkonzahn\glass-blocks\empress_I12.png</Icon>
+  </MaterialBlockTypeDescriptor>  
+  
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0110</MaterialDescriptor>
+    <Height>10</Height>    	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0112</MaterialDescriptor>
+    <Height>12</Height>    	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0114</MaterialDescriptor>
+    <Height>14</Height>    	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0116</MaterialDescriptor>
+    <Height>16</Height>    	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0118</MaterialDescriptor>
+    <Height>18</Height>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0122</MaterialDescriptor>
+    <Height>22</Height>    	
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="CrCoBase">
+    <MaterialDescriptor>MEAA0125</MaterialDescriptor>
+    <Height>25</Height>    	
+  </MaterialBlockTypeDescriptor>
+  
+  
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0110</MaterialDescriptor>
+    <Height>10</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0112</MaterialDescriptor>
+    <Height>12</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0114</MaterialDescriptor>
+    <Height>14</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0116</MaterialDescriptor>
+    <Height>16</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0118</MaterialDescriptor>
+    <Height>18</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0122</MaterialDescriptor>
+    <Height>22</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="TitanBase">
+    <MaterialDescriptor>MEAC0125</MaterialDescriptor>
+    <Height>25</Height>    	
+	<Icon>zirkonzahn\MEAC.png</Icon>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0110</MaterialDescriptor>
+    <Height>10</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0112</MaterialDescriptor>
+    <Height>12</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0114</MaterialDescriptor>
+    <Height>14</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0116</MaterialDescriptor>
+    <Height>16</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0118</MaterialDescriptor>
+    <Height>18</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0122</MaterialDescriptor>
+    <Height>22</Height>    		
+  </MaterialBlockTypeDescriptor>
+  <MaterialBlockTypeDescriptor Base="SinterMBase">
+    <MaterialDescriptor>MEAD0125</MaterialDescriptor>
+    <Height>25</Height>    		
+  </MaterialBlockTypeDescriptor> 
+  
+  <MaterialBlockTypeDescriptor IsAbstract="true">
+    <DisableOutsideBlockAreaCollisionCheck>true</DisableOutsideBlockAreaCollisionCheck>
+    <MaterialDescriptor>ZirkonzahnAbutmentBase</MaterialDescriptor>
+    <SuggestedNameScheme>%%MaterialType%%Number</SuggestedNameScheme>
+    <ProductionQueueDeletedFileIsProducedFile>true</ProductionQueueDeletedFileIsProducedFile>
+    <ProductionQueueMarkedAsDoneDeletesCompleteBlock>true</ProductionQueueMarkedAsDoneDeletesCompleteBlock>
+    <HasScaleFactor>false</HasScaleFactor>
+	<Icon>zirkonzahn\raw-abutment-titan.png</Icon>
+    <Color2D>#B5AB84</Color2D>    
+    <ShowColliderOnLoad>true</ShowColliderOnLoad>
+    <MaterialBlockImageWorldSizeMaxX>60</MaterialBlockImageWorldSizeMaxX>
+    <MaterialBlockImageWorldSizeMaxY>100</MaterialBlockImageWorldSizeMaxY>
+    <MaterialBlockImageWorldCenterX>0</MaterialBlockImageWorldCenterX>
+    <MaterialBlockImageWorldCenterY>0</MaterialBlockImageWorldCenterY>
+    <MaterialRenderEffect>TI_Abutment</MaterialRenderEffect>
+    <MaterialRenderEffectDesign>CAMGlassDesign</MaterialRenderEffectDesign>
+	<SlotSelectorDisplayImageName>nestingAbutmentSlotsSlector.png</SlotSelectorDisplayImageName>
+    <GeometryType>CylindricalXLeft</GeometryType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <CollisionBorder>0</CollisionBorder>
+    <Color2D>#3F3F3F</Color2D>
+    <NestingParameters>
+      <Parameter>
+        <Type>MaterialBlockIDMin</Type>
+        <Value>0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialBlockIDMax</Type>
+        <Value>0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>SupportDiameter</Type>
+        <Value>3.5</Value>
+      </Parameter>
+      <Parameter>
+        <Type>SupportLengthToSupportIncrement</Type>
+        <Value>0.5</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpace</Type>
+        <Value>3.0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpaceMinSlider</Type>
+        <Value>3.0</Value>
+      </Parameter>
+      <Parameter>
+        <Type>MaterialEmptySpaceMaxSlider</Type>
+        <Value>4.0</Value>
+      </Parameter>
+    </NestingParameters>
+  </MaterialBlockTypeDescriptor>
+  
+  <MaterialBlockTypeDescriptor Base="ZirkonzahnAbutmentBase">
+    <MaterialBlockRenderEffectOpacity>0.5</MaterialBlockRenderEffectOpacity>
+    <MaterialType>Titan_Abutment</MaterialType>
+    <HasScaleFactor>false</HasScaleFactor>
+    <Color2D>#DFDFDF</Color2D>
+    <MaterialDescriptor>Ti Raw Abutment %%W</MaterialDescriptor>
+    <WidthRange>10|14</WidthRange>
+    <Height>18</Height>    
+    <DisplayShortName>Ti_%%W</DisplayShortName>
+    <MaterialRenderEffect>TI_Abutment</MaterialRenderEffect>
+    <PreformPlacementUsed>true</PreformPlacementUsed>
+    <MaterialBlockSlots>
+      <Slot ID="1" DisplayID="S1TR" DisplayIDLongTranslation="1 - TopRight" X="-1" Y="18" R="180" IsDefault="1" />
+      <Slot ID="2" DisplayID="S2ML" DisplayIDLongTranslation="2 - MiddleLeft" X="-5.2" Y="0" R="0" />
+      <Slot ID="3" DisplayID="S3BR" DisplayIDLongTranslation="3 - BottomRight" X="-1" Y="-18" R="180" />
+      <Slot ID="5" DisplayID="M1-Abutment" DisplayIDLongTranslation="M1-Abutment Support" X="-10.3" Y="0" R="180" />
+    </MaterialBlockSlots>
+  </MaterialBlockTypeDescriptor>
+    
+</ArrayOfMaterialBlockTypeDescriptor>

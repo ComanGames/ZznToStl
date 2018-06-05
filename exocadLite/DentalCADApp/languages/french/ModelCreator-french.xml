@@ -1,21 +1,260 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
+      <Text>Créez modèle d'impressions numériques</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentForAnyScanType</Keyword>
+      <Text>Toujours utiliser l'alignement du modèle (remplace Régler orientation des données de scan) </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
+      <Text>Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
+      <Text>Alignement du travail</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAlignmentProcessor.WizardNext</Keyword>
+      <Text>Cliquer «Suivant» pour aligner le modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry.Plural</Keyword>
+      <Text>Align model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry</Keyword>
+      <Text>Align model</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAlignmentProcessor.DescriptionText</Keyword>
+      <Text>Alignement de Modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.ModelHeight</Keyword>
+      <Text>Hauteur du modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.CheckBox.ShowOcclusalPlane</Keyword>
+      <Text>Montrer plan d'occlusion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.LowerModelBoundingPlane</Keyword>
+      <Text>Borne inférieure du modèle </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.UpperModelBoundingPlane</Keyword>
+      <Text>Borne supérieure du modèle </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.OcclusalPlane</Keyword>
+      <Text>Plan occlusal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.ModelHeight.Upper</Keyword>
+      <Text>Hauteur du modèle maxilaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.ModelHeight.Lower</Keyword>
+      <Text>Hauteur du modèle mandibulaire</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Title</Keyword>
+      <Text>Segmentation du modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelSegmentationProcessor.WizardNext</Keyword>
+      <Text>Cliquez 'Suivant' pour segmenter le modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry.Plural</Keyword>
+      <Text>segmenter le modèle </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry</Keyword>
+      <Text>Segmenter le modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelSegmentationProcessor.DescriptionText</Keyword>
+      <Text>Segmenter le modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessor.CutPlane</Keyword>
+      <Text>Couper</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.CutWidth</Keyword>
+      <Text>Largeur de coupe </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.PlateClearance</Keyword>
+      <Text>Écart plaque</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.hollowModel</Keyword>
+      <Text>Modèle creux</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.WallThickness</Keyword>
+      <Text>épaisseur paroi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.PlaneSelection</Keyword>
+      <Text>Plans</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.PlaneSettings</Keyword>
+      <Text>Réglages</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
+      <Text>Hauteur Pedestal</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
+      <Text>Épaisseur minimale autour des pins</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.Title</Keyword>
+      <Text>Modèle sans Plaque</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.WizardNext</Keyword>
+      <Text>Cliquez sur «Suivant» pour créer le modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry.Plural</Keyword>
+      <Text>Modèle sans plaque</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry</Keyword>
+      <Text>Modèle sans plaque </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.DescriptionText</Keyword>
+      <Text>Modèle sans plaque </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.pinHeight</Keyword>
+      <Text>Hauteur pin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.ditchWidth</Keyword>
+      <Text>Fossé; largeur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.ditchDepthAvg</Keyword>
+      <Text>Fossé; profondeur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveAdd</Keyword>
+      <Text>Entaille autour du pin</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveWidth</Keyword>
+      <Text>Entaille; largeur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveDepth</Keyword>
+      <Text>Entaille; profondeur</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.hollowModel</Keyword>
+      <Text>Modèle creux</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.WallThicknessSlider</Keyword>
+      <Text>Épaisseur de paroi</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBuilder.EditScanData</Keyword>
+      <Text>Editer scan</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBuilder.DeleteSuperfluousFilesIntro</Keyword>
+      <Text>Avec le projet actuel et les réglages modèle les fichiers de construction suivants semblent ne plus être nécessaire: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBuilder.DeleteSuperfluousFilesQuestion</Keyword>
+      <Text>Supprimer ces fichiers? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelStump.ReconstructionType</Keyword>
+      <Text>Modèle; moignon</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelHealthy.ReconstructionType</Keyword>
+      <Text>Modèle; sain</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelMissing.ReconstructionType</Keyword>
+      <Text>Modèle manquant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBasePlates</Keyword>
+      <Text>Modèle; Bases</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBasePlate</Keyword>
+      <Text>Modèle; Bases </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelComponents</Keyword>
+      <Text>Modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBasePlatePins</Keyword>
+      <Text>Base du modèle; pins</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlatelessBase</Keyword>
+      <Text>Base du modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlatelessDie</Keyword>
+      <Text>Die de modèle</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeHealthy</Keyword>
+      <Text>Modèle sain plaqué </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeStump</Keyword>
+      <Text>Moignon de modèle plaqué</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeMissing</Keyword>
+      <Text>Modèle manquant plaqué </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelCreatorModeConvertSceneQuestion</Keyword>
+      <Text>Le mode Model Creator est activé, mais cette scène ne contient pas tous les types de modèles.
+Voulez-vous convertir cette scène d'utiliser le modèle Créateur?</Text>
+    </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
       <Text>Attachements</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
-      <Text>Cliquer «Suivant» pour rajouter des attachements</Text>
+      <Text>Cliquer "suivant" pour rajouter des attachements</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>Rajouter attachements</Text>
+      <Text>Rajouter attachements </Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
-      <Text>Rajouter attachements</Text>
+      <Text>Rajouter attachements </Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
@@ -23,7 +262,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
-      <Text>Diamètre</Text>
+      <Text>Diamètre </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
@@ -61,7 +300,7 @@ Vous souhaitez continuer avec l'alignement actuel?</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignment.RotateZ</Keyword>
-      <Text>Rotations dans l'axe occlusalle</Text>
+      <Text>Rotantions dans l'axe occlusalle</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignment.RotateNone</Keyword>
@@ -76,16 +315,8 @@ Vous souhaitez continuer avec l'alignement actuel?</Text>
       <Text>Cacher les obstructions de la vue</Text>
     </Translation>
     <Translation>
-      <Keyword>PinDiameter</Keyword>
-      <Text>Diametre du pin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PinBulgeHeight</Keyword>
-      <Text>Hauteur du bombement du pin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PinParameterSelection</Keyword>
-      <Text>Ajouter pins</Text>
+      <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
+      <Text>Concavité sous la préparation </Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentSelection</Keyword>
@@ -94,7 +325,7 @@ Vous souhaitez continuer avec l'alignement actuel?</Text>
     <Translation>
       <Keyword>PinParameterExplanation</Keyword>
       <Text>Pins peuvent être utilisées pour définir
-relation entre a mâchoire inférieurele et supérieur
+relation entre a mâchoire inférieurele  et supérieur
 
 Réglez les paramètres ci-dessous, puis cliquez sur
 le modèle pour placer pins.
@@ -147,32 +378,8 @@ cliquez droit de supprimer attachement.</Text>
       <Text>Type modèle:</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneNextStepInfo</Keyword>
-      <Text>Fermer Model Creator</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertNextStepInfo</Keyword>
-      <Text>Fermer l'assistant et changer pour mode expert</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsNextStepInfo</Keyword>
-      <Text>Continuer vers CAO</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneButton</Keyword>
-      <Text>Terminé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertModeButton</Keyword>
-      <Text>Mode expert</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateFreely</Keyword>
       <Text>Déplacer librement</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsButton</Keyword>
-      <Text>Conception des restaurations.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateXY</Keyword>
@@ -180,19 +387,27 @@ cliquez droit de supprimer attachement.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateZ</Keyword>
-      <Text>Déplacer le long de l'axe occlusal</Text>
+      <Text>Déplacer le long de l'axe occlusale</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.RotateFreely</Keyword>
-      <Text>Tourner librement</Text>
+      <Text>tourner librement </Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.RotateZ</Keyword>
-      <Text>Tournez autour de l'axe occlusal</Text>
+      <Text>Tournez autour de l'axe occlusale</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.RotateNone</Keyword>
       <Text>Pas de rotation</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
+      <Text>Auto align </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
+      <Text>Reset alignment </Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.autoHideBasePlate</Keyword>
@@ -207,8 +422,20 @@ cliquez droit de supprimer attachement.</Text>
       <Text>Seine</Text>
     </Translation>
     <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Legend.Pontic</Keyword>
+      <Text>Pontic</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Legend.Implant</Keyword>
+      <Text>Implant</Text>
+    </Translation>
+    <Translation>
       <Keyword>ModelSegmentationProcessorControl.Legend.Stump</Keyword>
       <Text>Prep.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
+      <Text>Inlay</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.Legend.Other</Keyword>
@@ -216,107 +443,23 @@ cliquez droit de supprimer attachement.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.Run</Keyword>
-      <Text>Exécuter!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
-      <Text>Alignement du travail</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAlignmentProcessor.WizardNext</Keyword>
-      <Text>Cliquer «Suivant» pour aligner le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAlignmentProcessor.DescriptionText</Keyword>
-      <Text>Alignement de Modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ModelHeight</Keyword>
-      <Text>Hauteur du modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.CheckBox.ShowOcclusalPlane</Keyword>
-      <Text>Montrer plan d'occlusion</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.LowerModelBoundingPlane</Keyword>
-      <Text>Borne inférieure du modèle </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.UpperModelBoundingPlane</Keyword>
-      <Text>Borne supérieure du modèle </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.OcclusalPlane</Keyword>
-      <Text>Plan occlusal</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ModelHeight.Upper</Keyword>
-      <Text>Hauteur / maxilaire</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ModelHeight.Lower</Keyword>
-      <Text>Hauteur / mandibule</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Title</Keyword>
-      <Text>Segmentation du modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelSegmentationProcessor.WizardNext</Keyword>
-      <Text>Cliquez «Suivant» pour segmenter le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>Segmenter le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry</Keyword>
-      <Text>Segmenter le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelSegmentationProcessor.DescriptionText</Keyword>
-      <Text>Segmenter le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessor.CutPlane</Keyword>
-      <Text>Couper</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.CutWidth</Keyword>
-      <Text>Largeur de coupe</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PlateClearance</Keyword>
-      <Text>Écart plaque</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.hollowModel</Keyword>
-      <Text>Modèle creux</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.WallThickness</Keyword>
-      <Text>épaisseur paroi</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PlaneSelection</Keyword>
-      <Text>Plans</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PlaneSettings</Keyword>
-      <Text>Réglages</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.Title</Keyword>
-      <Text>Modèle sans plaque</Text>
+      <Text>Opérer </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.Run</Keyword>
-      <Text>Exécuter </Text>
+      <Text>Opérer</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.Cancel</Keyword>
       <Text>Stop</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
+      <Text>Base</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
+      <Text>Die</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.OmitPin</Keyword>
@@ -324,52 +467,24 @@ cliquez droit de supprimer attachement.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.ConcaveMould</Keyword>
-      <Text>Ajouter concavité</Text>
+      <Text>Ajouter concavité  </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.MillingTab</Keyword>
       <Text>Usiner</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.WizardNext</Keyword>
-      <Text>Cliquez sur «Suivant» pour créer le modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry.Plural</Keyword>
-      <Text>Modèle sans plaque</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry</Keyword>
-      <Text>Modèle sans plaque</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelDieWithBoreProcessor.DescriptionText</Keyword>
-      <Text>Modèle sans plaque</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.pinHeight</Keyword>
-      <Text>Hauteur pin</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.shaftGapHorizontal</Keyword>
       <Text>
-Tige, écart horizontal</Text>
+Tige, Écart horizontal </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.shaftGapVertical</Keyword>
-      <Text>Tige; écart vertical</Text>
+      <Text>Tige; Écart vertical</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.ditchGroup</Keyword>
       <Text>Fossé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.ditchWidth</Keyword>
-      <Text>Fossé; largeur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.ditchDepthAvg</Keyword>
-      <Text>Fossé; profondeur</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.marginExtrusion</Keyword>
@@ -377,112 +492,23 @@ Tige, écart horizontal</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.SeatingAreaWidth</Keyword>
-      <Text>Largeur de l'appui</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveAdd</Keyword>
-      <Text>Entaille autour du pin</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveWidth</Keyword>
-      <Text>Entaille; largeur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveDepth</Keyword>
-      <Text>Entaille; profondeur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.hollowModel</Keyword>
-      <Text>Modèle creux</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.WallThicknessSlider</Keyword>
-      <Text>Épaisseur de paroi</Text>
+      <Text>Largeur de l'appui </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.MorphologicalClosureDiameter</Keyword>
-      <Text>Remplissage de la cavité</Text>
+      <Text>Remplissage de la cavité </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.FrictionPad</Keyword>
-      <Text>Plaquettes de frottement</Text>
+      <Text>Plaquettes de frottement </Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.frictionPadGap</Keyword>
-      <Text>Pad; écart</Text>
+      <Text>Pad; Écart</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.frictionPadRadius</Keyword>
       <Text>Pad; rayon</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBore.InvalidAlignedInputPart</Keyword>
-      <Text>Certaines parties sont placées trop près de la base du modèle.
-Réaligner le scan ou modifier les pièces indiquées.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.EditScanData</Keyword>
-      <Text>Editer scan</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.DeleteSuperfluousFilesIntro</Keyword>
-      <Text>Avec le projet actuel et les réglages modèle les fichiers de construction suivants semblent ne plus être nécessaire: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.DeleteSuperfluousFilesQuestion</Keyword>
-      <Text>Supprimer ces fichiers?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelStump.ReconstructionType</Keyword>
-      <Text>Modèle; moignon</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHealthy.ReconstructionType</Keyword>
-      <Text>Modèle; sain</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelMissing.ReconstructionType</Keyword>
-      <Text>Modèle manquant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBasePlates</Keyword>
-      <Text>Modèle; bases</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBasePlate</Keyword>
-      <Text>Modèle; bases </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelComponents</Keyword>
-      <Text>Modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBasePlatePins</Keyword>
-      <Text>Base du modèle; pins</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlatelessBase</Keyword>
-      <Text>Base du modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlatelessDie</Keyword>
-      <Text>Die de modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlateTypeHealthy</Keyword>
-      <Text>Modèle sain plaqué </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlateTypeMixed</Keyword>
-      <Text>Modèle sain plaqué </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlateTypeStump</Keyword>
-      <Text>Moignon de modèle plaqué</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelPlateTypeMissing</Keyword>
-      <Text>Modèle manquant plaqué </Text>
     </Translation>
     <Translation>
       <Keyword>ModelLabAnalogs</Keyword>
@@ -495,15 +521,6 @@ Réaligner le scan ou modifier les pièces indiquées.</Text>
     <Translation>
       <Keyword>ModelImplantLabAnalogRetention</Keyword>
       <Text>Analogues de labo; retention</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorModeConvertSceneQuestion</Keyword>
-      <Text>Le mode Model Creator est activé, mais cette scène ne contient pas tous les types de modèles.
-Voulez-vous convertir cette scène d'utiliser le Model Creator?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.FailedLibraryEntryLoad</Keyword>
-      <Text>Impossible de charger les éléments d'attachements:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessorControl.MovementRestrictions</Keyword>
@@ -564,7 +581,7 @@ Cela peut conduire à des problèmes plus tard dans le processus de création de
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToothSegmentationProcessor.WizardNext</Keyword>
-      <Text>Cliquez «Suivant» pour créer modèle</Text>
+      <Text>Cliquez 'Suivant' pour segmenter dents du modèles</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToothSegmentationProcessor.MenuEntry.Plural</Keyword>
@@ -585,7 +602,7 @@ Assurez-vous de définir la limitee à la dent correcte. </Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentationProcessor.FailedCreateSegmentRetry</Keyword>
-      <Text>Segmentation de la dent a échoué. Essayez de corriger la zone marquée ou réajuster la limite.</Text>
+      <Text>Segmentation de la dent a échoué. Essayez de corriger la zone marquée ou réajuster la limite</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentation.brushSize</Keyword>
@@ -609,35 +626,35 @@ Assurez-vous de définir la limitee à la dent correcte. </Text>
     </Translation>
     <Translation>
       <Keyword>ModelToggleDieTypesProcessorControl.Legend.Detachable</Keyword>
-      <Text>amovible</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToggleDieTypesProcessorControl.Hint</Keyword>
-      <Text>Sélectionnez dents qui doivent être amovibles dans le modèle:</Text>
+      <Text>détachable </Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.Legend.AsHealthy</Keyword>
       <Text>dent saine</Text>
     </Translation>
     <Translation>
+      <Keyword>ModelToggleDieTypesProcessorControl.Hint</Keyword>
+      <Text>Sélectionnez dents qui doivent être amovibles dans le modèle:</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.Title</Keyword>
-      <Text>Choisir dents amovibles </Text>
+      <Text>Basculer dies</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.WizardNext</Keyword>
-      <Text>Cliquez sur «Suivant» pour basculer les dies</Text>
+      <Text>Cliquez sur 'Suivant' pour basculer les dies</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry.Plural</Keyword>
-      <Text>Choisir dents amovilbles</Text>
+      <Text>Basculer dies </Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry</Keyword>
-      <Text>Choisir dents amovilbles </Text>
+      <Text>Basculer dies </Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.DescriptionText</Keyword>
-      <Text>Choisir dents amovilbles </Text>
+      <Text>Basculer dies </Text>
     </Translation>
     <Translation>
       <Keyword>ModelToggleDieTypeProcessorControl.DeselectedTeethWithSegmentedPart</Keyword>
@@ -670,15 +687,11 @@ Pour ces dents aucun die sera créé:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreatorFinishedDesignEverything</Keyword>
-      <Text>Model Creator terminé</Text>
+      <Text>Model Maker terminé</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreatorFinishedContinue</Keyword>
       <Text>Continuer ave la CAO?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.Title</Keyword>
-      <Text>Model Creator terminé </Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreatorFinishedStop</Keyword>
@@ -689,16 +702,16 @@ Pour ces dents aucun die sera créé:</Text>
       <Text>Si vous changez d'avis, vous pouvez ré-ouvrir l'assistant et poursuivre la conception CAO plus tard.</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.Title</Keyword>
+      <Text>Model Creator terminé </Text>
+    </Translation>
+    <Translation>
       <Keyword>MergePartsDesignModel</Keyword>
       <Text>Passez à modélisation?</Text>
     </Translation>
     <Translation>
       <Keyword>MergePartsDesignModel.ToolTip</Keyword>
-      <Text>Voulez-vous continuer avec l'assistant Model Creator?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
-      <Text>Créez modèle d'impressions numériques</Text>
+      <Text>Voulez-vous continuer avec l'assistant Model creator?</Text>
     </Translation>
     <Translation>
       <Keyword>ModelHelpNotCalculating</Keyword>
@@ -706,7 +719,7 @@ Pour ces dents aucun die sera créé:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelHelpCalculating</Keyword>
-      <Text>Création du modèle, merci de patienter. </Text>
+      <Text>Génération modèle, priés d'attendre.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelParameters</Keyword>
@@ -714,7 +727,7 @@ Pour ces dents aucun die sera créé:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCalculationAbortedText</Keyword>
-      <Text>Calcul du modèle a été abandonnée. Pour redémarrer calcul, cliquez sur «Exécuter»</Text>
+      <Text>Calcul du modèle a été abandonnée. Pour redémarrer calcul, cliquez sur 'Exécuter'</Text>
     </Translation>
     <Translation>
       <Keyword>ModelHelpCalculationAborted</Keyword>
@@ -722,7 +735,65 @@ Pour ces dents aucun die sera créé:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCalculationFinishedText</Keyword>
-      <Text>Calcul du modèle fini. S'il vous plaît vérifier le résultat. Pour redémarrer calcul, par exemple après avoir modifié les paramètres, cliquez sur «Exécuter». </Text>
+      <Text>Calcul du modèle fini. S'il vous plaît vérifier le résultat. Pour redémarrer calcul, par exemple après avoir modifié les paramètres, cliquez sur 'Exécuter'. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoad</Keyword>
+      <Text>ATTENTION! Certains analogues de laboratoire n'ont pas pu être chargés.
+Soit ils manquent une entrée de la bibliothèque ou de l'entrée de la bibliothèque a été corrompu.
+Si un modèle est généré n'y aura pas de raccords pour des analogues de laboratoire pour les dents suivantes: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningLegacyLabAnalogFiles</Keyword>
+      <Text>Le format du fichier de configuration pour l'analogue de l'implant a changé. Les fichiers ci-dessous ont été avérés dans l'ancien format et doivent être migrés. Prise en compte de l'ancien format sera supprimé par la suite.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoadButton</Keyword>
+      <Text>Suivant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoad.Title</Keyword>
+      <Text>ATTENTION </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelImplantProcessor.Error</Keyword>
+      <Text>Annulé</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplant.PlatePinIntersectsExtendedRetention</Keyword>
+      <Text>Une tige de la plaque intersecte la cavité de l'implant, mais cela est interdit. S'il vous plaît reconsidérer votre choix de tiges de la plaque.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelImplantProcessor.WarningFailedLoadMissingImplants</Keyword>
+      <Text>Analogues de laboratoire Manquants pour:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneNextStepInfo</Keyword>
+      <Text>Fermer Model Maker</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertNextStepInfo</Keyword>
+      <Text>Fermer l'assistant et changer pour mode expert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsNextStepInfo</Keyword>
+      <Text>Continuer vers CAO</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneButton</Keyword>
+      <Text>Terminé </Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertModeButton</Keyword>
+      <Text>Mode expert</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsButton</Keyword>
+      <Text>Conception des restaurations</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAttachmentProcessor.FailedLibraryEntryLoad</Keyword>
+      <Text>Impossible de charger les éléments d'attachements :</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessor.ModelImplantProcessor.Title</Keyword>
@@ -745,32 +816,6 @@ Pour ces dents aucun die sera créé:</Text>
       <Text>Chargement des analogues de labo</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad</Keyword>
-      <Text>ATTENTION! Certains analogues de laboratoire n'ont pas pu être chargés.
-Soit ils manquent une entrée de la bibliothèque ou de l'entrée de la bibliothèque a été corrompu.
-Si un modèle est généré n'y aura pas de raccords pour des analogues de laboratoire pour les dents suivantes: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadMissingImplants</Keyword>
-      <Text>Analogues de laboratoire Manquants pour:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoadButton</Keyword>
-      <Text>Suivant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningFailedLoad.Title</Keyword>
-      <Text>ATTENTION </Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.Error</Keyword>
-      <Text>Annulé</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.Description</Keyword>
-      <Text>Concevoir des modèles d'implants (analogues de labo)</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelBuilder.GingivaIgnoredWarning</Keyword>
       <Text>Attention: scans gencive seront ignorés!</Text>
     </Translation>
@@ -785,28 +830,6 @@ Si un modèle est généré n'y aura pas de raccords pour des analogues de labor
     <Translation>
       <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures.Title</Keyword>
       <Text>Conflit de paramètre</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
-      <Text>Hauteur Pedestal</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
-      <Text>Épaisseur minimale autour des pins</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplantProcessor.WarningLegacyLabAnalogFiles</Keyword>
-      <Text>Le format du fichier de configuration pour l'analogue de l'implant a changé. Les fichiers ci-dessous ont été avérés dans l'ancien format et doivent être migrés. Prise en compte de l'ancien format sera supprimé par la suite.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelImplant.PlatePinIntersectsExtendedRetention</Keyword>
-      <Text>Une tige de la plaque intersecte la cavité de l'implant, mais cela est interdit. S'il vous plaît reconsidérer votre choix de tiges de la plaque.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures</Keyword>
-      <Text>La géométrie d'un die amovible n'a pas pu être générée parce que ses caractéristiques ne peuvent s'adapter compte tenu des paramètres actuels.
-
-Modifier les paramètres de façon appropriée (par exemple, choisir une hauteur de pin inférieur), ou réaligner le modèle de telle sorte qu'il est placé plus haut.</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.FreeformModelProcessor.Title</Keyword>
@@ -833,107 +856,19 @@ Modifier les paramètres de façon appropriée (par exemple, choisir une hauteur
       <Text>La modification de l'alignement du modèle peut altérer l'alignement des données de scan dans l'articulateur virtuel!</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
-      <Text>Info</Text>
+      <Keyword>ModelBuilder.InsufficientModelHeightForDieFeatures</Keyword>
+      <Text>La géométrie d'un die amovible n'a pas pu être générée parce que ses caractéristiques ne peuvent s'adapter compte tenu des paramètres actuels.
+
+Modifier les paramètres de façon appropriée (par exemple, choisir une hauteur de pin inférieur), ou réaligner le modèle de telle sorte qu'il est placé plus haut.</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentForAnyScanType</Keyword>
-      <Text>Toujours utiliser l'alignement du modèle (remplace Régler orientation des données de scan) </Text>
+      <Keyword>ModelImplantProcessor.Description</Keyword>
+      <Text>Concevoir des modèles d'implants (analogues de labo)</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
-      <Text>Réinitialiser align.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
-      <Text>Auto align.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextTab</Keyword>
-      <Text>Texte</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>Aligner modèle</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry</Keyword>
-      <Text>Aligner modèle </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.ShapeParameter</Keyword>
-      <Text>Paramètre de forme</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Pontic</Keyword>
-      <Text>Pontic</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Implant</Keyword>
-      <Text>Implant</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
-      <Text>Inlay</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
-      <Text>Base</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
-      <Text>Die</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextSize</Keyword>
-      <Text>Taille</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.TextThickness</Keyword>
-      <Text>Épaisseur</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.AddText</Keyword>
-      <Text>Ajouter texte</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.RemoveText</Keyword>
-      <Text>Supprimer texte</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SetTextPosition</Keyword>
-      <Text>Positioner</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.DefaultText</Keyword>
-      <Text>Texte par défaut</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.SubtractText</Keyword>
-      <Text>Soustraire texte </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Remove</Keyword>
-      <Text>Supprimer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessor.Edit</Keyword>
-      <Text>Editer</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Cancel.Title</Keyword>
-      <Text>Annuler</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreatorLibrary</Keyword>
-      <Text>Bibliothèque de modèles </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachment.SupportPins</Keyword>
-      <Text>Pins de support</Text>
+      <Keyword>ModelDieWithBore.InvalidAlignedInputPart</Keyword>
+      <Text>Certaines parties sont placées trop près de la base du modèle.
+Réaligner le scan ou modifier les pièces indiquées.</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\ModelCreator-french-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

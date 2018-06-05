@@ -1,87 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>LanguageId</Keyword>
       <Text>Sprache der Benutzeroberfläche</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UseUniversalNumberingSystem</Keyword>
-      <Text>US-amerikanisches Zahnschema verwenden</Text>
     </Translation>
     <Translation>
       <Keyword>UseWindowsCrosshair</Keyword>
       <Text>Windows-Standard-Fadenkreuzcursor verwenden</Text>
     </Translation>
     <Translation>
-      <Keyword>RestartToApplyChanges</Keyword>
-      <Text>Änderungen werden erst nach Neustart der Anwendung wirksam</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ErrorSavingUserSettings</Keyword>
-      <Text>Beim Speichern der Einstellungen ist ein Fehler aufgetreten.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ErrorCreateUserConfigDir</Keyword>
-      <Text>Beim Erzeugen des Verzeichnisses für die Benutzereinstellungen ist ein Fehler aufgetreten.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ExtensionRegistration</Keyword>
-      <Text>Dateien mit der DentalCAD-Anwendung öffnen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectAll</Keyword>
-      <Text>Alle auswählen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnselectAll</Keyword>
-      <Text>Keine auswählen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
-      <Text>Standard-3D-Maus-Hotkeys deaktivieren</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseRotationSpeed</Keyword>
-      <Text>Drehgeschwindigkeit der 3D-Maus</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseTranslationSpeed</Keyword>
-      <Text>Bewegungsgeschwindigkeit der 3D-Maus</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NonStandard3DMouse</Keyword>
-      <Text>Nichtstandard-Bewegungsmodus für 3D-Maus</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
-      <Text>OpenCL-Beschleunigung deaktivieren</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_AAMode</Keyword>
-      <Text>3D-Anzeige: Antialiasing</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_Shader</Keyword>
-      <Text>3D-Viewer: Shader-Unterstützung</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileLite</Keyword>
-      <Text>TruSmile Light (schneller, aber weniger realistisch)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileEnabledOnStart</Keyword>
-      <Text>TruSmile beim Starten aktivieren</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewClipPlaneLineDrawing</Keyword>
-      <Text>Schnittansicht: Schnittlinien anzeigen</Text>
+      <Keyword>DentalNotation.UseUniversalNumberingSystem</Keyword>
+      <Text>Universal-Zahnnummernschema (US)</Text>
     </Translation>
     <Translation>
       <Keyword>DentalNotation</Keyword>
@@ -96,12 +32,80 @@
       <Text>Palmer (Digital)</Text>
     </Translation>
     <Translation>
+      <Keyword>DentalNotation.FDITwoDigit</Keyword>
+      <Text>FDI World Dental Federation - Zahnnummernschema</Text>
+    </Translation>
+    <Translation>
+      <Keyword>RestartToApplyChanges</Keyword>
+      <Text>Änderungen werden erst nach Neustart der Anwendung wirksam</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorSavingUserSettings</Keyword>
+      <Text>Beim Speichern der Einstellungen ist ein Fehler aufgetreten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCreateUserConfigDir</Keyword>
+      <Text>Beim Erzeugen des Verzeichnisses für die Benutzereinstellungen ist ein Fehler aufgetreten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NonStandard3DMouse</Keyword>
+      <Text>Nichtstandard-Bewegungsmodus für 3D-Maus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExtensionRegistration</Keyword>
+      <Text>Dateien mit der DentalCAD-Anwendung öffnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectAll</Keyword>
+      <Text>Alle auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnselectAll</Keyword>
+      <Text>Keine auswählen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_AAMode</Keyword>
+      <Text>3D-Anzeige: Antialiasing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_Shader</Keyword>
+      <Text>3D-Viewer: Shader-Unterstützung</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TruSmileEnabledOnStart</Keyword>
+      <Text>TruSmile beim Starten aktivieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TruSmileLite</Keyword>
+      <Text>TruSmile Light (schneller, aber weniger realistisch)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseRotationSpeed</Keyword>
+      <Text>Drehgeschwindigkeit der 3D-Maus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseTranslationSpeed</Keyword>
+      <Text>Bewegungsgeschwindigkeit der 3D-Maus</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
+      <Text>OpenCL-Beschleunigung deaktivieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewClipPlaneLineDrawing</Keyword>
+      <Text>Schnittansichtslinien zeichnen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
+      <Text>Standard-3D-Maus-Hotkeys deaktivieren</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
       <Text>Universal-Zahnnummernschema (US)</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalNotation.FDITwoDigit</Keyword>
-      <Text>FDI World Dental Federation - Zahnnummernschema</Text>
+      <Keyword>UseUniversalNumberingSystem</Keyword>
+      <Text>US-amerikanisches Zahnschema verwenden</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.AssignedFileTypes</Keyword>
@@ -117,7 +121,7 @@
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Manage.Tooltip</Keyword>
-      <Text>Öffnet Dialog Windows-Standardanwendungen</Text>
+      <Text>Öffnet Windows-Standardanwendungen-Dialog</Text>
     </Translation>
     <Translation>
       <Keyword>FileTypeAssociationsManager.Refresh</Keyword>
@@ -133,7 +137,7 @@
     </Translation>
     <Translation>
       <Keyword>AppRegister.SingleFileExtRegistrationFailed</Keyword>
-      <Text>Ein Fehler ist beim Löschen der Verknüpfung für Dateityp '{0}' aufgetreten.
+      <Text>Ein Fehler ist aufgetreten beim Löschen der Verknüfung für Dateityp '{0}'.
 Details:
 {1}</Text>
     </Translation>
@@ -145,7 +149,7 @@ Fehlerdetails:
     </Translation>
     <Translation>
       <Keyword>AppRegister.FileExtRegistrationFailed</Keyword>
-      <Text>Ein Fehler ist beim Löschen von Dateitypverknüpfungen aufgetreten.
+      <Text>Ein Fehler ist aufgetretebn beim Löschen von Dateityp-Verknüpfungen.
 Fehlerdetails:
 {0}</Text>
     </Translation>
@@ -156,7 +160,7 @@ Fehler: {1}</Text>
     </Translation>
     <Translation>
       <Keyword>AppRegister.UpdateFileAssociationListFailed</Keyword>
-      <Text>Ein Fehler ist beim Aktualisieren der Dateitypliste aufgetreten.
+      <Text>Ein Fehler ist aufgetreten beim Aktualisieren der Dateityp-Liste.
 Fehlerdetails:
 {0}</Text>
     </Translation>
@@ -174,13 +178,11 @@ Fehlerdetails:
     </Translation>
     <Translation>
       <Keyword>AppRegister.ShowRegistrationDialog.IvalidOSVersion</Keyword>
-      <Text>Erweiterungsmanagement wird auf diesem Betriebssystem nicht unterstützt.</Text>
+      <Text>Erweiterungs-Management ist auf diesem Betriebssystem nicht unterstützt.</Text>
     </Translation>
     <Translation>
       <Keyword>AppRegister.RegisterApplicationForDefaultProgramsFailed</Keyword>
-      <Text>Ein Fehler ist bei der Registrierung der Software für den Windows-Standardprogrammdialog aufgetreten:
-{0}</Text>
+      <Text>Ein Fehler ist aufgetreten bei der Registrierung der Software für den Windows-Standardprogramm-Dialog:</Text>
     </Translation>
   </Translations>
-  <IncludeFiles />
 </TranslationContainer>

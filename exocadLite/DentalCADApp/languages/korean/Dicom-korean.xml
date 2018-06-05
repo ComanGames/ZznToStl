@@ -1,6 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>DentalProcessorControls.DicomViewControl.Title</Keyword>
       <Text>Dicom 뷰어</Text>
@@ -11,11 +17,11 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.View</Keyword>
-      <Text>보기</Text>
+      <Text>뷰(View)</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceGeneration</Keyword>
-      <Text>표면 생성</Text>
+      <Text>Surface generation</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Patients</Keyword>
@@ -27,39 +33,39 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesAvailable</Keyword>
-      <Text>슬라이스 활성화:</Text>
+      <Text>사용가능한 슬라이스:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SlicesCount</Keyword>
-      <Text>슬라이스 계산</Text>
+      <Text>Slice 갯수:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FileName</Keyword>
-      <Text>파일명:</Text>
+      <Text>파일 명:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Description</Keyword>
-      <Text>표현 방식</Text>
+      <Text>Description</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Value</Keyword>
-      <Text>값</Text>
+      <Text>수치</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Comment</Keyword>
-      <Text>메모:</Text>
+      <Text>설명:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Study</Keyword>
-      <Text>진단:</Text>
+      <Text>Study:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Series</Keyword>
-      <Text>시리즈:</Text>
+      <Text>Series:</Text>
     </Translation>
     <Translation>
       <Keyword>SelectDicom</Keyword>
-      <Text>데이터 선택</Text>
+      <Text>데이터 선택하기</Text>
     </Translation>
     <Translation>
       <Keyword>LoadDicom</Keyword>
@@ -67,11 +73,11 @@
     </Translation>
     <Translation>
       <Keyword>LoadDicom.ToolTip</Keyword>
-      <Text>선택된 데이터만 불러오기: Ctrl+Shift 누른 상태로</Text>
+      <Text>선택한 것만 불러오려면 Ctrl+Shift를 누르세요</Text>
     </Translation>
     <Translation>
       <Keyword>UnloadDicom</Keyword>
-      <Text>데이터 불러오지 않음</Text>
+      <Text>데이터 내리기</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.CancelDataLoad</Keyword>
@@ -79,15 +85,15 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.XRay</Keyword>
-      <Text>X-레이</Text>
+      <Text>X-Ray</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Isosurface</Keyword>
+      <Text>Isosurfaces</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Media</Keyword>
-      <Text>미디어</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Dicom.RestrictThreshold</Keyword>
-      <Text>한계 제한</Text>
+      <Text>Media</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Options</Keyword>
@@ -99,7 +105,7 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.VoxelSize</Keyword>
-      <Text>Voxel 크기</Text>
+      <Text>3D 화소의 크기</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration</Keyword>
@@ -107,11 +113,11 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Clip</Keyword>
-      <Text>동영상</Text>
+      <Text>Clip</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Registration.Help.PasteMatrixHere</Keyword>
-      <Text>여기에 매트릭스 붙여넣기</Text>
+      <Text>이곳에 매트릭스를 붙이세요</Text>
     </Translation>
     <Translation>
       <Keyword>Inverse</Keyword>
@@ -126,52 +132,52 @@
       <Text>최대</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.Opacity</Keyword>
-      <Text>불투명</Text>
+      <Keyword>Dicom.UseGradientMode</Keyword>
+      <Text>경사도 모드 사용하기</Text>
     </Translation>
     <Translation>
-      <Keyword>Dicom.UseGradientMode</Keyword>
-      <Text>그라데이션 모드 사용</Text>
+      <Keyword>Dicom.Opacity</Keyword>
+      <Text>불투명도</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SurfaceType</Keyword>
-      <Text>평면 종류</Text>
+      <Text>Surface type</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FaceSurface</Keyword>
-      <Text>안면</Text>
+      <Text>얼굴</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.GingivaSurface</Keyword>
-      <Text>치은</Text>
+      <Text>Gingiva</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.TeethSurface</Keyword>
-      <Text>치아</Text>
+      <Text>Teeth</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.BoneSurface</Keyword>
-      <Text>골</Text>
+      <Text>Bone</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.GenerateSurface</Keyword>
-      <Text>평면 생성</Text>
+      <Text>Generate surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.DeleteSurface</Keyword>
-      <Text>평면 삭제</Text>
+      <Text>Delete surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FlipSurface</Keyword>
-      <Text>면 뒤집기</Text>
+      <Text>Flip surface</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.ToogleLookThrough</Keyword>
-      <Text>Toogle 통해 보기</Text>
+      <Text>자세히 보기</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.LastGeneratedSurface</Keyword>
-      <Text>최종 생성 표면</Text>
+      <Text>최종적으로 생성된 표면</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Preview</Keyword>
@@ -179,19 +185,19 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Solid</Keyword>
-      <Text>고체</Text>
+      <Text>Solid</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.XRay</Keyword>
-      <Text>노이즈 한계</Text>
+      <Text>Noise 한계점</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Solid</Keyword>
-      <Text>노이즈 한계</Text>
+      <Text>Noise 한계점</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Iso</Keyword>
-      <Text>평면 한계</Text>
+      <Text>Surface threshold</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.Media</Keyword>
@@ -199,15 +205,15 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Iso</Keyword>
-      <Text>보조 평면 한계</Text>
+      <Text>Second surface threshold</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Media</Keyword>
-      <Text>고밀도 재료</Text>
+      <Text>Dense material</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SecondaryThreshold.Solid</Keyword>
-      <Text>밀도 표시</Text>
+      <Text>밀도 강조</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.XRay</Keyword>
@@ -215,19 +221,19 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.Iso</Keyword>
-      <Text>불투명</Text>
+      <Text>불투명도</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.Media</Keyword>
-      <Text>불투명</Text>
+      <Text>불투명도</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.Media</Keyword>
-      <Text>부드럽게</Text>
+      <Text>활택도</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.Solid</Keyword>
-      <Text>선명도 표시</Text>
+      <Text>흐릿함 강조</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterExponent.Media</Keyword>
@@ -235,27 +241,27 @@
     </Translation>
     <Translation>
       <Keyword>Dicom.FilterWidth.NaturalTexturing</Keyword>
-      <Text>그라데이션 가중치</Text>
+      <Text>경사도 가중치</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton_Tooltip</Keyword>
-      <Text>한계 슬라이드를 현재 공기 참조값으로 설정</Text>
+      <Text>Set threshold slider to current air reference value</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToTissueReferenceButton_Tooltip</Keyword>
-      <Text>계 슬라이드를 현재 조직 참조값으로 설정</Text>
+      <Text>Set threshold slider to current tissue reference value</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToBoneReferenceButton_Tooltip</Keyword>
-      <Text>계 슬라이드를 현재 조직 참조값으로 설정</Text>
+      <Text>Set threshold slider to current bone reference value</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToToothReferenceButton_Tooltip</Keyword>
-      <Text>계 슬라이드를 현재 치아 참조값으로 설정</Text>
+      <Text>Set threshold slider to current tooth reference value</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToAirReferenceButton.Text</Keyword>
-      <Text>공기</Text>
+      <Text>Air</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToTissueReferenceButton.Text</Keyword>
@@ -263,19 +269,19 @@
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToBoneReferenceButton.Text</Keyword>
-      <Text>골</Text>
+      <Text>Bone</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToToothReferenceButton.Text</Keyword>
-      <Text>치아</Text>
+      <Text>Tooth</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToReferenceLabel_Content</Keyword>
-      <Text>설정</Text>
+      <Text>Set to</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton_Tooltip</Keyword>
-      <Text>한계 슬라이드를 이전 한계값으로 설정</Text>
+      <Text>Set threshold slider to current user reference value</Text>
     </Translation>
     <Translation>
       <Keyword>IsoSetSliderToThresholdReferenceButton.Text</Keyword>
@@ -283,92 +289,108 @@
     </Translation>
     <Translation>
       <Keyword>ResultInformationGroupBoxHeader</Keyword>
-      <Text>결과 정보</Text>
+      <Text>결과정보</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageBelowLabelContent</Keyword>
-      <Text>하부 공차:</Text>
+      <Text>Below tolerance:</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageInsideLabelContent</Keyword>
-      <Text>내부 공차:</Text>
+      <Text>Inside tolerance:</Text>
     </Translation>
     <Translation>
       <Keyword>PercentageAboveLabelContent</Keyword>
-      <Text>상부 공차</Text>
+      <Text>Above tolerance:</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.IsoOptions</Keyword>
-      <Text>Isosurface 선택</Text>
+      <Text>Isosurface 옵션</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.XRayOptions</Keyword>
-      <Text>X-레이 옵션</Text>
+      <Text>X-Ray 옵션</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaOptions</Keyword>
-      <Text>미디어 옵션</Text>
+      <Text>Media 옵션</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.SolidOptions</Keyword>
-      <Text>고체 옵션</Text>
+      <Text>Solid options</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaCustomOptions</Keyword>
-      <Text>미디어(사용자) 옵션</Text>
+      <Text>Media (custom) 옵션</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.MediaCustom</Keyword>
-      <Text>미디어 (사용자)</Text>
+      <Text>Media (custom)</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.NaturalTexturing</Keyword>
-      <Text>고체(자연)</Text>
+      <Text>Solid (가색상)</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Threshold.MediaCustom</Keyword>
-      <Text>한계</Text>
+      <Text>한계점</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.Opacity.MediaCustom</Keyword>
-      <Text>불투명</Text>
+      <Text>불투명도</Text>
     </Translation>
     <Translation>
       <Keyword>testfunc.png.TransferFunctionDisplayName</Keyword>
-      <Text>갈색</Text>
+      <Text>Brown</Text>
     </Translation>
     <Translation>
       <Keyword>testfunc3.png.TransferFunctionDisplayName</Keyword>
-      <Text>녹색</Text>
+      <Text>Green</Text>
     </Translation>
     <Translation>
       <Keyword>ClearReferencesButton_Tooltip</Keyword>
-      <Text>현재 참고 자료를 삭제합니다.</Text>
+      <Text>현재 설정된 레퍼런스 삭제하기</Text>
     </Translation>
     <Translation>
       <Keyword>ClearReferencesButton_Content</Keyword>
-      <Text>참고자료
-삭제</Text>
+      <Text>Clear
+references</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.Iso</Keyword>
-      <Text>반투명 모드 사용</Text>
+      <Text>반 투명도 사용하기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.Threshold</Keyword>
+      <Text>한계점</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.SecondaryThreshold</Keyword>
+      <Text>Secondary Threshold</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterWidth</Keyword>
+      <Text>필터 폭</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Dicom.FilterExponent</Keyword>
+      <Text>필터 지수</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.Solid</Keyword>
-      <Text>반투명 모드 사용</Text>
+      <Text>반 투명도 사용하기</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.StippleAlpha.NaturalTexturing</Keyword>
-      <Text>반투명 모드 사용</Text>
+      <Text>반 투명도 사용하기</Text>
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningMessage</Keyword>
-      <Text>미디어 모드의 원활한 사용을 위하여 최소 2GB 메모리 이상의 그래픽 카드가 필요합니다. 계속 진행하시겠습니까?</Text>
+      <Text>미디어 모드 사용에 권장되는 최소 비디오 메모리인 2GB가 되지 않습니다. 계속하시겠습니까?</Text>
     </Translation>
     <Translation>
       <Keyword>DicomViewerMediaGraphicMemoryWarningCaption</Keyword>
-      <Text>그래픽 카드 메모리 경고</Text>
+      <Text>Video의 메모리 경고</Text>
     </Translation>
     <Translation>
       <Keyword>Dicom.BoneDensityReferences</Keyword>
@@ -379,7 +401,4 @@
       <Text>참고 자료 설정 시작</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\Dicom-korean-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

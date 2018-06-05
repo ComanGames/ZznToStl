@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ModelBuilderLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<BasePlateFilename>exo_baseplate_only.sdfa</BasePlateFilename>
+<PinsFilename>exo_pins.sdfa</PinsFilename>
+<UseExactPinMesh>true</UseExactPinMesh>
+
+<OcclusalPlane>
+	<DistanceToOrigin>18.96</DistanceToOrigin>
+	<Normal>
+	  <x>0</x>
+	  <y>0</y>
+	  <z>1</z>
+	</Normal>
+</OcclusalPlane>
+
+<UpperPlateOffset>
+	<Slope>	<x>0</x><y>0</y><z>0.5</z> </Slope>
+	<Intercept>	<x>30.05</x><y>-17.68</y><z>18.96</z> </Intercept>
+</UpperPlateOffset>
+<LowerPlateOffset>
+	<Slope>	<x>0</x><y>0</y><z>-0.5</z> </Slope>
+	<Intercept>	<x>30.05</x><y>-17.68</y><z>18.96</z> </Intercept>
+</LowerPlateOffset>
+
+<JawCurveControlPoints>
+	<Vec3>
+	  <x>-25.265466690063477</x>
+	  <y>-24.043010711669922</y>
+	  <z>0</z>
+	</Vec3>
+	<Vec3>
+	  <x>-31.952287673950195</x>
+	  <y>3.5653705596923828</y>
+	  <z>0</z>
+	</Vec3>
+	<Vec3>
+	  <x>0.24858641624450684</x>
+	  <y>61.768661499023438</y>
+	  <z>0</z>
+	</Vec3>
+	<Vec3>
+	  <x>32.449459075927734</x>
+	  <y>3.5653705596923828</y>
+	  <z>0</z>
+	</Vec3>
+	<Vec3>
+	  <x>25.763341903686523</x>
+	  <y>-24.043010711669922</y>
+	  <z>0</z>
+	</Vec3>
+</JawCurveControlPoints>
+<MinRequiredPrepPlateDist>8</MinRequiredPrepPlateDist>
+<Supplier>exocad GmbH</Supplier>
+<DisplayInformation>Baumann plate / exocad optimized</DisplayInformation>
+
+</ModelBuilderLibraryEntry>
+
+
+

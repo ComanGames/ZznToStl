@@ -1,149 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
-      <Keyword>ModelCreatorLibrary</Keyword>
-      <Text>モデルライブラリー</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AlignmentMightBeWrong</Keyword>
-      <Text>重ねあわせが正しく行われなかった可能性があります。模型の位置を確認してください。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
-      <Text>模型の種類:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachment.SupportPins</Keyword>
-      <Text>サポートピン</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneNextStepInfo</Keyword>
-      <Text>モデルクリエーターを閉じる。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertNextStepInfo</Keyword>
-      <Text>ウイザードを閉じてエキスパートモードに切り替える。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsNextStepInfo</Keyword>
-      <Text>CADを開始する</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DoneButton</Keyword>
-      <Text>完了</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.ExpertModeButton</Keyword>
-      <Text>エキスパートモード</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.DesignRestorationsButton</Keyword>
-      <Text>修復物の設計を行う</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateFreely</Keyword>
-      <Text>自由に移動</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateXY</Keyword>
-      <Text>XY平面で移動</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.TranslateZ</Keyword>
-      <Text>咬合軸にあわせて移動</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateFreely</Keyword>
-      <Text>自由に回転</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateZ</Keyword>
-      <Text>咬合軸にあわせて回転</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCreator.MovementRestriction.RotateNone</Keyword>
-      <Text>回転なし</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
-      <Text>重ね合わせ</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
-      <Text>自動で重ね合わせ</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
-      <Text>重ね合わせのリセット</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
-      <Text>咬合平面の干渉を自動で非表示</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.autoHideBasePlate</Keyword>
-      <Text>ベースプレートを自動で非表示</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MustCutMessage</Keyword>
-      <Text>支台歯と支台歯以外を分割する必要があります。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
-      <Text>プレパレーションの下の凹面</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Healthy</Keyword>
-      <Text>健常歯</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Pontic</Keyword>
-      <Text>ポンティック</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Implant</Keyword>
-      <Text>インプラント</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Stump</Keyword>
-      <Text>支台歯</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Inlay</Keyword>
-      <Text>インレー</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.Other</Keyword>
-      <Text>その他</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Run</Keyword>
-      <Text>実行</Text>
+      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
+      <Text>情報</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
-      <Text>模型の重ね合わせ</Text>
+      <Text>模型の整列</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.WizardNext</Keyword>
-      <Text> '次へ' をクリックして模型を重ね合わせます</Text>
+      <Text>「次へ」をクリックして模型を整列させる</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>模型の重ね合わせ</Text>
+      <Text>模型を整列</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.MenuEntry</Keyword>
-      <Text>模型の重ね合わせ</Text>
+      <Text>模型を整列</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.DescriptionText</Keyword>
-      <Text>模型の重ね合わせ中 ...</Text>
+      <Text>模型の整列...</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.ModelHeight</Keyword>
-      <Text>模型の高さ</Text>
+      <Text>模型高さ</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.CheckBox.ShowOcclusalPlane</Keyword>
@@ -151,11 +41,11 @@
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.LowerModelBoundingPlane</Keyword>
-      <Text>下顎模型の境界</Text>
+      <Text>下側模型の範囲</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.UpperModelBoundingPlane</Keyword>
-      <Text>上顎模型の境界</Text>
+      <Text>上側模型の範囲</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.OcclusalPlane</Keyword>
@@ -167,35 +57,35 @@
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.ModelHeight.Lower</Keyword>
-      <Text>下顎模型の高さ</Text>
+      <Text>下顎模型高さ</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.Title</Keyword>
-      <Text>模型の分割</Text>
+      <Text>模型のセグメント化</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックして模型を分割します</Text>
+      <Text>「次へ」をクリックして模型をセグメント化します</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>模型の分割</Text>
+      <Text>模型をセグメント化</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.MenuEntry</Keyword>
-      <Text>模型の分割</Text>
+      <Text>模型をセグメント化</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelSegmentationProcessor.DescriptionText</Keyword>
-      <Text>模型の分割中 ...</Text>
+      <Text>模型をセグメント化...</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessor.CutPlane</Keyword>
-      <Text>平面をカット</Text>
+      <Text>切削</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.CutWidth</Keyword>
-      <Text>幅をカット</Text>
+      <Text>切削幅</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.PlateClearance</Keyword>
@@ -203,11 +93,11 @@
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.hollowModel</Keyword>
-      <Text>模型の切り取り</Text>
+      <Text>中空模型</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.WallThickness</Keyword>
-      <Text>壁の厚さ</Text>
+      <Text>壁厚</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.PlaneSelection</Keyword>
@@ -218,102 +108,125 @@
       <Text>設定</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelSegmentationProcessorControl.PedestalHeight</Keyword>
-      <Text>台の高さ</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentationProcessorControl.MinimumThicknessAroundPins</Keyword>
-      <Text>ピン周辺の最小厚さ</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.Title</Keyword>
-      <Text>プレートなし模型のデザイン</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.Run</Keyword>
-      <Text>実行</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.Cancel</Keyword>
-      <Text>中止</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
-      <Text>フライス加工を想定</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
-      <Text>ベース</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
-      <Text>支台</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
-      <Text>ボトム</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.OmitPin</Keyword>
-      <Text>支台のピンを除外</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.ConcaveMould</Keyword>
-      <Text>凹面を追加</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.MillingTab</Keyword>
-      <Text>加工</Text>
+      <Text>プレートなし模型設計</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックして模型をデザインする</Text>
+      <Text>「次へ」をクリックして模型を設計する</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry.Plural</Keyword>
-      <Text>プレートなし模型の設計</Text>
+      <Text>プレートなし模型を設計</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.MenuEntry</Keyword>
-      <Text>プレートなし模型の設計</Text>
+      <Text>プレートなし模型を設計</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelDieWithBoreProcessor.DescriptionText</Keyword>
-      <Text>プレートなし模型の設計中...</Text>
+      <Text>プレートなし模型設計...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.pinHeight</Keyword>
+      <Text>ピン高さ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.shaftGap</Keyword>
+      <Text>軸の隙間</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.ditchWidth</Keyword>
+      <Text>溝幅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.ditchDepthAvg</Keyword>
+      <Text>溝の平均深さ</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveAdd</Keyword>
-      <Text>ピンのグルーブを追加</Text>
+      <Text>ピン溝を追加</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveWidth</Keyword>
+      <Text>溝の幅</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.bottomPinGrooveDepth</Keyword>
+      <Text>溝の深さ</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.hollowModel</Keyword>
-      <Text>模型の切り取り</Text>
+      <Text>中空模型</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.WallThicknessSlider</Keyword>
-      <Text>壁の厚さ</Text>
+      <Text>壁厚</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.MorphologicalClosureDiameter</Keyword>
-      <Text>内面を埋める直径</Text>
+      <Keyword>ModelBuilder.EditScanData</Keyword>
+      <Text>スキャンを編集</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
-      <Text>いくつかのパーツが模型のベースに近すぎます。
-	  再度重ねあわせを行うか、指示されたパーツを変更してください。</Text>
+      <Keyword>ModelBuilder.DeleteSuperfluousFilesIntro</Keyword>
+      <Text>現在のプロジェクトと模型設定では、以下の製作ファイルは不要なようです：</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignment.JawAddedOrRemovedSinceAlignment</Keyword>
-      <Text>重ね合わせ後に顎のパーツが追加、または削除されました。
-	  続行するために、再度重ね合わせを行ってください。</Text>
+      <Keyword>ModelBuilder.DeleteSuperfluousFilesQuestion</Keyword>
+      <Text>これらのファイルを削除しますか？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelStump.ReconstructionType</Keyword>
+      <Text>断端模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelHealthy.ReconstructionType</Keyword>
+      <Text>健全な模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelMissing.ReconstructionType</Keyword>
+      <Text>紛失した模型</Text>
     </Translation>
     <Translation>
       <Keyword>ModelBasePlates</Keyword>
-      <Text>模型のベースプレート</Text>
+      <Text>模型ベースプレート</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBasePlate</Keyword>
+      <Text>模型ベースプレート</Text>
     </Translation>
     <Translation>
       <Keyword>ModelComponents</Keyword>
       <Text>模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelBasePlatePins</Keyword>
+      <Text>模型ベースピン</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlatelessBase</Keyword>
+      <Text>模型ベース</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlatelessDie</Keyword>
+      <Text>模型ダイ</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeHealthy</Keyword>
+      <Text>健全なプレート付き模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeStump</Keyword>
+      <Text>プレート付き断端模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelPlateTypeMissing</Keyword>
+      <Text>紛失したプレート付き模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelCreatorModeConvertSceneQuestion</Keyword>
+      <Text>模型クリエイターモードが有効ですが、このシーンには模型タイプが含まれていません。
+このシーンを模型クリエイターを使用するように変換しますか？</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
@@ -321,151 +234,116 @@
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックしてアタッチメントを追加してください</Text>
+      <Text>「次へ」をクリックしてアタッチメントを追加</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
+      <Text>アタッチメントを追加</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
+      <Text>アタッチメントを追加</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
-      <Text>模型のアタッチメント ...</Text>
+      <Text>模型のアタッチメント...</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAttachmentProcessorControl.MovementRestrictions</Keyword>
-      <Text>追加の動きを制限</Text>
+      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
+      <Text>直径</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAttachmentProcessorControl.AttachmentSelection</Keyword>
-      <Text>アタッチメントを選択:</Text>
+      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
+      <Text>ミリングを予測</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.Title</Keyword>
-      <Text>模型歯牙の分割</Text>
+      <Keyword>ModelDieWithBoreProcessorControl.modelTab</Keyword>
+      <Text>模型</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックして模型歯牙を分割します</Text>
+      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
+      <Text>底部</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.MenuEntry.Plural</Keyword>
-      <Text>模型歯牙の分割</Text>
+      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
+      <Text>顎スキャンが上下反対に配置されているようです。後で正しい結果が得られなくなるおそれがあります。現在の配列で続行しますか？</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.MenuEntry</Keyword>
-      <Text>模型歯牙の分割</Text>
+      <Keyword>ModelAttachmentProcessor.PinObject</Keyword>
+      <Text>模型ピン</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToothSegmentationProcessor.DescriptionText</Keyword>
-      <Text>模型歯牙の分割中 ...</Text>
+      <Keyword>ModelAlignment.TranslateFreely</Keyword>
+      <Text>自由に移動</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentationProcessor.SegmentTooFarFromInlay</Keyword>
-      <Text>作成された分割は、存在するインレーのプレパレーションに一致しません。
-	  マージンラインが適切であるか確認してください。</Text>
+      <Keyword>ModelAlignment.TranslateXY</Keyword>
+      <Text>X/Y面に移動</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentationProcessor.FailedCreateSegmentRetry</Keyword>
-      <Text>歯牙の分割に失敗しました。マークされた部位を修正するか、マージンを再調整してください。</Text>
+      <Keyword>ModelAlignment.RotateFreely</Keyword>
+      <Text>自由に回転</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentation.brushSize</Keyword>
-      <Text>ブラシのサイズ:</Text>
+      <Keyword>ModelAlignment.RotateZ</Keyword>
+      <Text>咬合軸の周囲を回転</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentation.ResetSegmentation</Keyword>
-      <Text>修正をリセット</Text>
+      <Keyword>ModelAlignment.RotateNone</Keyword>
+      <Text>回転なし</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentation.ClearSegmentation</Keyword>
-      <Text>修正をクリア</Text>
+      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
+      <Text>位置合わせ</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToggleDieTypesProcessorControl.Legend.Detachable</Keyword>
-      <Text>可撤式</Text>
+      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
+      <Text>表示障害物を自動非表示</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToggleDieTypesProcessorControl.Hint</Keyword>
-      <Text>模型から可撤式にする歯牙を選択してください:</Text>
+      <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
+      <Text>形成部下の凹面</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelSegmentationProcessorControl.Legend.AsHealthy</Keyword>
-      <Text>健常歯</Text>
+      <Keyword>ModelAttachmentSelection</Keyword>
+      <Text>アタッチメントを追加</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.Title</Keyword>
-      <Text>支台歯を切り替える</Text>
+      <Keyword>PinParameterExplanation</Keyword>
+      <Text>ピンは上下の顎の関係性を定義するために使用できます。 
+
+以下のパラメータを設定し、ピンを配置する模型をクリックします。
+
+マウスの左ボタンを押しながら右クリックするとピンが削除されます。</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックして支台歯を切り替えます</Text>
+      <Keyword>ModelAttachmentExplanationBeforeSelection</Keyword>
+      <Text>アタッチメントをプラスチック製咬合器の接着剤などに付加します。
+まずアタッチメントのタイプを以下のリストから選択します。</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry.Plural</Keyword>
-      <Text>支台歯を切り替える</Text>
+      <Keyword>ModelAttachmentExplanationAfterSelection</Keyword>
+      <Text>上下いずれかの顎をクリックしてアタッチメントを配置します。</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.MenuEntry</Keyword>
-      <Text>支台歯を切り替える</Text>
+      <Keyword>ModelAttachmentExplanationAfterClickOnUpperJaw</Keyword>
+      <Text>以下のアタッチメントを配置:
+
+上顎
+
+赤色は模型に対してアタッチメントが近すぎるまたは遠すぎることを示します。
+
+マウスの左ボタンを押しながら右クリックするとアタッチメントを削除できます。</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelToggleDieTypesProcessor.DescriptionText</Keyword>
-      <Text>支台歯を切り替え中...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelFinishedBeforeDesignProcessor.Title</Keyword>
-      <Text>モデルクリエーターの終了</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpNotCalculating</Keyword>
-      <Text>計算が終了しました。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpCalculating</Keyword>
-      <Text>模型を作成しています。お待ちください。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelParameters</Keyword>
-      <Text>模型のパラメーターを変更中...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCalculationAbortedText</Keyword>
-      <Text>模型の計算が中断しました。計算を再開するためには'実行'をクリックしてください。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelHelpCalculationAborted</Keyword>
-      <Text>計算が中断されました</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelCalculationFinishedText</Keyword>
-      <Text>模型の計算が完了しました。結果を確認してください。例えばパラメーターの変更後など、計算を再度行う場合は、'実行'をクリックしてください。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.WizardNext</Keyword>
-      <Text>'次へ' をクリックしてラボアナログをロードしてください</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelImplantProcessor.DescriptionText</Keyword>
-      <Text>ラボアナログをロード中 ...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelSegmentation.WarningNoPinsSelected.Title</Keyword>
-      <Text>警告:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.GingivaIgnoredWarning</Keyword>
-      <Text>警告： 歯肉スキャンは無視されます！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelBuilder.GingivaNotSupported</Keyword>
-      <Text>模型での歯肉スキャンの再作成はサポートされません。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.FreeformModelProcessor.Title</Keyword>
-      <Text>模型のフリーフォーミング</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.FreeformModelProcessor.MenuEntry</Keyword>
-      <Text>模型のフリーフォーミング</Text>
+      <Keyword>ModelAttachmentExplanationAfterClickOnLowerJaw</Keyword>
+      <Text>以下のアタッチメントを配置:
+
+下顎
+
+赤色は模型に対してアタッチメントが近すぎるまたは遠すぎることを示します。
+
+マウスの左ボタンを押しながら右クリックするとアタッチメントを削除できます。</Text>
     </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\ModelCreator-japanese-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

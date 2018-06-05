@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Nobel Biocare® NobelActive® - NobelReplace® Conical Connection</DisplayInformation>
+  <Producer>Nobel Biocare®</Producer>
+  <SystemName>NobelActive® - NobelReplace® Conical Connection®</SystemName>
+  <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/scanmarker.stl</MarkerFilename>
+  <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_MScr_NP.stl</ScrewFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Nobel Biocare® NobelActive® - NobelReplace® Conical Connection series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>NBA3.0</Keyword>
+      <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Analog_3.0.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrKon_3.0.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD2433</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0502-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_3.0_FS.stl</SupportFilename>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.0502-InHex/2.5</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_3.0_FS.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.05020-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_3.0_FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.05020-InNohex/2.5</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_3.0_FS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2483</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2483</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.002-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2483 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2483</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.0020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.0020-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2493L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L20Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2493L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.00201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.00201-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2493L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L30Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2493L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.502-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.502-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5020-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50201-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 White Scanmarker</DisplayInformation>
+      <Keyword>NBA3.0mmk</Keyword>
+      <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Analog_3.0.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrKon_3.0.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD2433</LibraryIdentifier>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_3.0.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.05021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_3.0_FS.stl</SupportFilename>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.05021-InHex/2.5</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_3.0_FS.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.050201-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_3.0_FS.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SchrZr_3.0.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.050201-InNohex/2.5</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_3.0_FS.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.0021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2483</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2483</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.0021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2483 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2483</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.002010-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L20Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.002010-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2493L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L20Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2493L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.00211-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2493L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L30Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2493L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.00211-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2493L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_3.0L30Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_3.0L3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2493L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.5021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.5021-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50211-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L2.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50211-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L2.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.50212-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2433L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L3.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2433L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.50212-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2433L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_3.0L30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_3.0L3.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2433L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP</DisplayInformation>
+      <Keyword>NBANP</Keyword>
+      <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Implant_NP.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD2431</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_NP.stl</SupportFilename>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-InHex/2.5</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_NP.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-InNohex/2.5</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_NP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.4802-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.4802-InNohex/2.5</Keyword><DisplayInformation>No Hex Plane flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_NP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2481</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2481</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.002-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2481 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2481</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431</DisplayInformation>
+          <IsWithInterface>true</IsWithInterface>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NP.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NP.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431 Sealing Thread</DisplayInformation><IsWithInterface>true</IsWithInterface><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NP.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NP.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7022-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7022-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>NP White Scanmarker</DisplayInformation>
+      <Keyword>NBANPmmk</Keyword>
+      <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Implant_NP.stl</ImplantFilename>
+      <LibraryIdentifier>ZBCD2431</LibraryIdentifier>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_NP.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_NP.stl</SupportFilename>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-InHex/2.5</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_NP.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-InNohex/2.5</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_NP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.48021-InNohex</Keyword>
+          <DisplayInformation>No Hex Plane flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_NP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ZScr_NP.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.48021-InNohex/2.5</Keyword><DisplayInformation>No Hex Plane flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_NP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAE2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.0021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2481</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2481</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.00021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2481 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2481</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7020-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2491L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2491L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Parallel/2.5</Keyword><DisplayInformation>Parallel BSAB2491L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_NP_ZL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_NPL40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAB2491L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.7021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431</DisplayInformation>
+          <IsWithInterface>true</IsWithInterface>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NP.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NP.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.7021-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431 Sealing Thread</DisplayInformation><IsWithInterface>true</IsWithInterface><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NP.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NP.stl</ImplantFilename><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.702011-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.702011-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70211-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70211-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>4.70221-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2431L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2431L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>4.70221-Conical/2.5</Keyword><DisplayInformation>Conical BSAD2431L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_NPL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_NPL40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.5.stl</ScrewFilename><LibraryIdentifier>BSAD2431L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP</DisplayInformation>
+      <Keyword>NBARP</Keyword>
+      <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Implant_RP.stl</ImplantFilename>
+      <ScrewFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_MScr_RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD2432</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_RP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_RP.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_RP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.902-InNohex</Keyword>
+          <DisplayInformation>No Hex plane flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.902-InNohex/2.8</Keyword><DisplayInformation>No Hex plane flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_RP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1002-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2482</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2482</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1002-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2482 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2482</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1022-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RP.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1022-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RP.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.102-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1020-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1020-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>RP White Scanmarker</DisplayInformation>
+      <Keyword>NBARPmmk</Keyword>
+      <ImplantFilename>NB-A_Implant_RP.stl</ImplantFilename>
+      <ScrewFilename>NB-A_MScr_RP.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD2432</LibraryIdentifier>
+      <MarkerFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_SMKP_RP.stl</MarkerFilename>
+      <RegistrationClickCenter>
+        <x>0</x>
+        <y>2</y>
+        <z>6</z>
+      </RegistrationClickCenter>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_RP.stl</SupportFilename>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-InHex/2.8</Keyword><DisplayInformation>Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Hex_RP.stl</SupportFilename><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-InNohex/2.8</Keyword><DisplayInformation>No Hex flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHex_RP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>3.9021-InNohex</Keyword>
+          <DisplayInformation>No Hex plane flat screw</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_RP.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.9021-InNohex/2.8</Keyword><DisplayInformation>No Hex plane flat screw Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_NoHexFlat_RP.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAE2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2482</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_Z.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2482</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2482 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_Z.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2482</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.1021-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.1021-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10211-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB2492L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB2492L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10211-Parallel/2.8</Keyword><DisplayInformation>Parallel BSAB2492L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Parallel_RP_ZL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplParallel_RP40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><GeometryType>parallel</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAB2492L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10221-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RP.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10221-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RP.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10211-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L20</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL20.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP20.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L20</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10211-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L20 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL20.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP20.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L20</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.10201-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L30</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL30.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP30.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L30</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10201-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L30 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL30.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP30.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L30</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <ImplantSubtypeConfig>
+          <Keyword>5.102110-Conical</Keyword>
+          <DisplayInformation>Conical BSAD2432L40</DisplayInformation>
+          <SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL40.stl</SupportFilename>
+          <ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP40.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD2432L40</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>5.10211-Conical/2.8</Keyword><DisplayInformation>Conical BSAD2432L40 Sealing Thread</DisplayInformation><SupportFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_Conical_RPL40.stl</SupportFilename><ImplantFilename>../serie NB-A_Nobel BiocareTM-ActiveTM/NB-A_ImplConical_RP40.stl</ImplantFilename><IsWithInterface>true</IsWithInterface><IsWithRotationLock>false</IsWithRotationLock><GeometryType>conical</GeometryType><ScrewFilename>../serie NB-M_Nobel BiocareTM-MultiUnitAbutmentTM/OGew2.8.stl</ScrewFilename><LibraryIdentifier>BSAD2432L40</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

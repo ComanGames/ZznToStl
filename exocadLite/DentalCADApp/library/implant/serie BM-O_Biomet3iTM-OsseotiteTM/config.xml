@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Biomet3i® Osseotite®</DisplayInformation>
+  <Producer>Biomet3i®</Producer>
+  <SystemName>Osseotite®</SystemName>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <ScrewFilename>screw.stl</ScrewFilename>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Osseotite® series from Biomet 3i®</LegalInformation>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.4 mm</DisplayInformation>
+      <Keyword>BO3.4mm</Keyword>
+      <ImplantFilename>implant_3.4.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0931</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>3.4_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0931</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.4-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>3.4_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0931</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.6-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0981</DisplayInformation>
+          <SupportFilename>i-cemented_3.4.stl</SupportFilename>
+          <ImplantFilename>BSAB0951.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0981</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0931</DisplayInformation>
+          <SupportFilename>i-conical_3.4.stl</SupportFilename>
+          <ImplantFilename>BSAD0381.stl</ImplantFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0931</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.1 mm</DisplayInformation>
+      <Keyword>BO4.1mm</Keyword>
+      <ImplantFilename>implant_4.1.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0932</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>4.1_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0932</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.1-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>4.1_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0932</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0982</DisplayInformation>
+          <SupportFilename>i-cemented_4.1.stl</SupportFilename>
+          <ImplantFilename>BSAB0952.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0982</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.00-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0932</DisplayInformation>
+          <SupportFilename>i-conical_4.1.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>BSAD0382.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0932</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.0 mm</DisplayInformation>
+      <Keyword>BO5.0mm</Keyword>
+      <ImplantFilename>implant_5.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0933</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>5.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0933</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.0-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>5.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0933</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.3-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0983</DisplayInformation>
+          <SupportFilename>i-cemented_5.0.stl</SupportFilename>
+          <ImplantFilename>BSAB0953.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB0983</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.2-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0933</DisplayInformation>
+          <SupportFilename>i-conical_5.0.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>BSAD0383.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD0933</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>6.0 mm</DisplayInformation>
+      <Keyword>BO6.0mm</Keyword>
+      <ImplantFilename>implant_6.0.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD0934</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-OutHex</Keyword>
+          <DisplayInformation>Hex</DisplayInformation>
+          <SupportFilename>6.0_hex.stl</SupportFilename>
+          <LibraryIdentifier>BSAE0934</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-OutNohex</Keyword>
+          <DisplayInformation>No hex</DisplayInformation>
+          <SupportFilename>6.0_nohex.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE0934</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-Parallel</Keyword>
+          <DisplayInformation>Parallel BSAB0984</DisplayInformation>
+          <SupportFilename>i-cemented_6.0.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>BSAB0954.stl</ImplantFilename>
+          <GeometryType>parallel</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAB0984</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>6.0-Conical</Keyword>
+          <DisplayInformation>Conical BSAD0934</DisplayInformation>
+          <SupportFilename>i-conical_6.0.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ImplantFilename>BSAD0384.stl</ImplantFilename>
+          <GeometryType>conical</GeometryType>
+          <IsWithInterface>true</IsWithInterface>
+          <LibraryIdentifier>BSAD0934</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

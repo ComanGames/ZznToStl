@@ -1,57 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarning</Keyword>
-      <Text>Bereits geladene Elemente werden beim Laden ersetzt. Wirklich fortfahren?</Text>
+      <Text>Bereits geladene Element werden beim Laden ersetzt. Wirklich fortfahren?</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarningTitle</Keyword>
-      <Text>Situ-/Trainerpräparation: Bestätigen</Text>
+      <Text>Situ / Trainer-Präparation: Bestätigen</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.LoadDataError</Keyword>
       <Text>Daten konnten nicht aus dem Verzeichnis geladen werden:</Text>
     </Translation>
     <Translation>
+      <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
+      <Text>Das Verzeichnis muß zumindest die Dateien  {0}-preop.stl and {0}-instructor.stl enthalten.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.SelectDataFolder</Keyword>
+      <Text>Verzeichnis auswählen, aus dem Situ- / Trainer-Präparation geladen werden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepAssistLoadFromFolder</Keyword>
+      <Text>Situ / Trainerpräparation laden</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.Title</Keyword>
+      <Text>Präparations-Inspektion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry</Keyword>
+      <Text>Präparations-Inspektion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
+      <Text>Präparations-Inspektion</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointFrom</Keyword>
+      <Text>Punkt auf Trainer-Prep. setzen</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PreparationAssistProcessorControl.RegPointTo</Keyword>
+      <Text>Punkt auf Schüler-Prep. setzen</Text>
+    </Translation>
+    <Translation>
       <Keyword>LoadFilesOrNot</Keyword>
       <Text>Als Referenzdateien nutzen?</Text>
     </Translation>
     <Translation>
-      <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
-      <Text>Das Verzeichnis muss mindestens die Dateien  {0}-preop.stl and {0}-instructor.stl enthalten.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.SelectDataFolder</Keyword>
-      <Text>Verzeichnis auswählen, aus dem Situ-/ Trainerpräparation geladen wird</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PrepAssistLoadFromFolder</Keyword>
-      <Text>Situ-/Trainerpräparation laden</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.Title</Keyword>
-      <Text>Präparationsinspektion</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry</Keyword>
-      <Text>Präparationsinspektion</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
       <Text>'Weiter' um Referenz neu zu laden</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
-      <Text>Präparationsinspektion</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.RegPointFrom</Keyword>
-      <Text>Punkt auf Trainer-Präp. setzen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PreparationAssistProcessorControl.RegPointTo</Keyword>
-      <Text>Punkt auf Schüler-Präp. setzen</Text>
     </Translation>
     <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.DescriptionText</Keyword>
@@ -59,15 +65,7 @@
     </Translation>
     <Translation>
       <Keyword>PreparationAssistanceVisualize</Keyword>
-      <Text>Visualisierungstyp wählen</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LoadingPositioning</Keyword>
-      <Text>Laden/Positionieren</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PrepVisualization</Keyword>
-      <Text>Ansicht</Text>
+      <Text>Visualisierungs-Typ wählen</Text>
     </Translation>
     <Translation>
       <Keyword>preop</Keyword>
@@ -81,6 +79,13 @@
       <Keyword>pulpa</Keyword>
       <Text>pulpa</Text>
     </Translation>
+    <Translation>
+      <Keyword>LoadingPositioning</Keyword>
+      <Text>Laden/Positionieren</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepVisualization</Keyword>
+      <Text>Ansicht</Text>
+    </Translation>
   </Translations>
-  <IncludeFiles />
 </TranslationContainer>

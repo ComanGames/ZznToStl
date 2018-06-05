@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
-  <IncludeFiles></IncludeFiles>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>PreparationAssistProcessorControl.PreLoadWarning</Keyword>
       <Text>Los componentes existentes se sobrescribirán al cargar. ¿Realmente desea continuar?</Text>
@@ -13,10 +18,6 @@
     <Translation>
       <Keyword>PreparationAssistProcessorControl.LoadDataError</Keyword>
       <Text>No se han podido cargar los datos desde la carpeta:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LoadFilesOrNot</Keyword>
-      <Text>¿Está conforme con usar estos ficheros de referencia?</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistProcessorControl.FolderConstraint</Keyword>
@@ -39,11 +40,6 @@
       <Text>Inspeccionar Preparación...</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
-      <Text>Pulse 'Sig.' (Siguiente) para continuar
-Volver a Cargar la Referencia</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.MenuEntry.Plural</Keyword>
       <Text>Inspeccionar Preparación...</Text>
     </Translation>
@@ -56,16 +52,16 @@ Volver a Cargar la Referencia</Text>
       <Text>Seleccionar punto en la preparación de realizada.</Text>
     </Translation>
     <Translation>
+      <Keyword>LoadFilesOrNot</Keyword>
+      <Text>¿Está conforme con usar estos ficheros de referencia?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.PreparationAssistProcessor.WizardNext</Keyword>
+      <Text>'Sig.' para volver a cargar la referencia</Text>
+    </Translation>
+    <Translation>
       <Keyword>DentalProcessors.PreparationAssistProcessor.DescriptionText</Keyword>
       <Text>Cargar archivos de referencia</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LoadingPositioning</Keyword>
-      <Text>Cargar/Posición</Text>
-    </Translation>
-    <Translation>
-      <Keyword>PrepVisualization</Keyword>
-      <Text>Vista</Text>
     </Translation>
     <Translation>
       <Keyword>PreparationAssistanceVisualize</Keyword>
@@ -82,6 +78,14 @@ Volver a Cargar la Referencia</Text>
     <Translation>
       <Keyword>pulpa</Keyword>
       <Text>pulpa</Text>
+    </Translation>
+    <Translation>
+      <Keyword>LoadingPositioning</Keyword>
+      <Text>Cargar/Posición</Text>
+    </Translation>
+    <Translation>
+      <Keyword>PrepVisualization</Keyword>
+      <Text>Vista</Text>
     </Translation>
   </Translations>
 </TranslationContainer>

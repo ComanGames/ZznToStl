@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <GeometryType>internal</GeometryType>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Astratech® EV®</DisplayInformation>
+  <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/scanmarker.stl</MarkerFilename>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with EV System® from Astratech Astratech Implant System®</LegalInformation>
+  <SystemName>EV®</SystemName>
+  <Producer>Astratech®</Producer>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0</DisplayInformation>
+      <Keyword>AT30EV</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.0scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7631</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.25-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7601</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.45-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.0zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7631</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.9-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7681</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7681</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.431-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7631</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7631</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.0 White Scanmarker</DisplayInformation>
+      <Keyword>AT30EVmk</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.0scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anl.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/3.0_6mkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD7631</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.250-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7601</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.450-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.0zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7631</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.90-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7681</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7681</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.4310-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7631</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.0c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.0anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7631</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.6</DisplayInformation>
+      <Keyword>AT36EV</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7632</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.056-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6h_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.55-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6h_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.056-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.55-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.4-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7682</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7682</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.436-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7632</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>3.6 White Scanmarker</DisplayInformation>
+      <Keyword>AT36EVmk</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anl.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/3.0_6mkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD7632</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0560-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6h_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.550-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6h_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0560-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7602</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.550-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/3.6zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.40-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7682</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7682</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.4360-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7632</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/3.6c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/3.6anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7632</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.2</DisplayInformation>
+      <Keyword>AT42EV</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7633</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.733-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2h_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7330-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2h_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.733-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7330-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7683</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.934-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7633</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.2 White Scanmarker</DisplayInformation>
+      <Keyword>AT42EVmk</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anl.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/4.2mkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD7633</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7331-InHex</Keyword>
+          <DisplayInformation>Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2h_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7332-InHex</Keyword>
+          <DisplayInformation>Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2h_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7331-InNohex</Keyword>
+          <DisplayInformation>No Hex conical screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2nh_cs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7603</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.7332-InNohex</Keyword>
+          <DisplayInformation>No Hex flat screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2nh_fs.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.2zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7683</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7683</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.9341-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7633</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.2c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.2anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7633</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.8</DisplayInformation>
+      <Keyword>AT48EV</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7634</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.328-InHex</Keyword>
+          <DisplayInformation>Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8h_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7604</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.329-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8h_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.333-InNohex</Keyword>
+          <DisplayInformation>No Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8nh_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7604</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.329-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8nh_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7684</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7684</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.135-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7634</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>4.8 White Scanmarker</DisplayInformation>
+      <Keyword>AT48EVmk</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anl.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/4.8mkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD7634</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3280-InHex</Keyword>
+          <DisplayInformation>Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8h_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7604</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3290-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8h_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3330-InNohex</Keyword>
+          <DisplayInformation>No Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8nh_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7604</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.3290-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8nh_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.80-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7684</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7684</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.1350-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7634</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/4.8c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/4.8anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7634</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.4</DisplayInformation>
+      <Keyword>AT54EV</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anl.stl</ImplantFilename>
+      <LibraryIdentifier>ZBAD7635</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.833-InHex</Keyword>
+          <DisplayInformation>Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4h_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7605</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.834-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4h_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.833-InNohex</Keyword>
+          <DisplayInformation>No Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4nh_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7605</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.834-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4nh_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7685</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7685</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.635-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7635</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>5.4 White Scanmarker</DisplayInformation>
+      <Keyword>AT54EVmk</Keyword>
+      <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8scr.stl</ScrewFilename>
+      <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anl.stl</ImplantFilename>
+      <MarkerFilename>../serie AS-EV_AstratechTM-EVTM/5.4mkmk.stl</MarkerFilename>
+      <LibraryIdentifier>ZBCD7635</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8330-InHex</Keyword>
+          <DisplayInformation>Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4h_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7605</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8340-InHex</Keyword>
+          <DisplayInformation>Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4h_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8330-InNohex</Keyword>
+          <DisplayInformation>No Hex narrow screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4nh_ns.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <LibraryIdentifier>BSAE7605</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>4.8340-InNohex</Keyword>
+          <DisplayInformation>No Hex wide screw</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4nh_ws.stl</SupportFilename>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <ScrewFilename>../serie AS-EV_AstratechTM-EVTM/4.8zscr.stl</ScrewFilename>
+          <LibraryIdentifier>BSAE7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.60-Parallel</Keyword>
+          <DisplayInformation>Parallel BBSAB7685</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4pk.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anlp.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <GeometryType>parallel</GeometryType>
+          <LibraryIdentifier>BSAB7685</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>5.6350-Conical</Keyword>
+          <DisplayInformation>Conical BSAD7635</DisplayInformation>
+          <SupportFilename>../serie AS-EV_AstratechTM-EVTM/5.4c.stl</SupportFilename>
+          <ImplantFilename>../serie AS-EV_AstratechTM-EVTM/5.4anlc.stl</ImplantFilename>
+          <IsWithInterface>true</IsWithInterface>
+          <IsWithRotationLock>false</IsWithRotationLock>
+          <GeometryType>conical</GeometryType>
+          <LibraryIdentifier>BSAD7635</LibraryIdentifier>
+        </ImplantSubtypeConfig>
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+  </TypeConfig>
+</ImplantLibraryEntry>

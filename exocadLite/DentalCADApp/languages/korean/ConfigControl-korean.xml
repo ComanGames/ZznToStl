@@ -1,87 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-    <Translation>
-      <Keyword></Keyword>
-      <Text></Text>
-    </Translation>
--->
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>LanguageId</Keyword>
-      <Text>언어 선택</Text>
+      <Text>사용자 인터페이스 언어</Text>
     </Translation>
     <Translation>
       <Keyword>UseWindowsCrosshair</Keyword>
-      <Text>화살표 커서(Windows 기본값) 사용</Text>
+      <Text>십자형 기호 모양의 커스를 윈도우 디폴트로 사용</Text>
     </Translation>
     <Translation>
-      <Keyword>UseUniversalNumberingSystem</Keyword>
-      <Text>Universal 치아 번호 체계 (US) 사용</Text>
-    </Translation>
-    <Translation>
-      <Keyword>RestartToApplyChanges</Keyword>
-      <Text>변경된 내용을 적용하려면 프로그램을 다시 시작하십시오.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ErrorSavingUserSettings</Keyword>
-      <Text>사용자 설정을 저장하는 과정에서 오류가 발생하였습니다.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ErrorCreateUserConfigDir</Keyword>
-      <Text>사용자 설정 목록을 생성하는 과정에서 오류가 발생하였습니다.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ExtensionRegistration</Keyword>
-      <Text>불러올 수 있는 파일 양식 선택</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SelectAll</Keyword>
-      <Text>전부 선택</Text>
-    </Translation>
-    <Translation>
-      <Keyword>UnselectAll</Keyword>
-      <Text>전부 해제</Text>
-    </Translation>
-    <Translation>
-      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
-      <Text>표준 3D 마우스 단축키 비활성화</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseRotationSpeed</Keyword>
-      <Text>3D 마우스 회전 속도</Text>
-    </Translation>
-    <Translation>
-      <Keyword>3DMouseTranslationSpeed</Keyword>
-      <Text>3D 마우스 변환 속도</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NonStandard3DMouse</Keyword>
-      <Text>3D 마우스 비표준 동작 모드</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
-      <Text>OpenCL 가속기 비활성화</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_AAMode</Keyword>
-      <Text>3D-뷰어: Aliasing 방지</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewerRendererSettings_Shader</Keyword>
-      <Text>3D-뷰어: 색조(Shade) 지원</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileLite</Keyword>
-      <Text>TruSmile-Lite (속도 대비 품질 유지)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>TruSmileEnabledOnStart</Keyword>
-      <Text>시작 시, TruSmile 실행</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ViewClipPlaneLineDrawing</Keyword>
-      <Text>나누어 보기 라인 그리기</Text>
+      <Keyword>DentalNotation.UseUniversalNumberingSystem</Keyword>
+      <Text>Universal numbering system 약호 사용</Text>
     </Translation>
     <Translation>
       <Keyword>DentalNotation</Keyword>
@@ -92,15 +28,72 @@
       <Text>Palmer 표시법</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
-      <Text>Universal(US) 표시법</Text>
-    </Translation>
-    <Translation>
       <Keyword>DentalNotation.FDITwoDigit</Keyword>
       <Text>FDI 표시법</Text>
     </Translation>
+    <Translation>
+      <Keyword>RestartToApplyChanges</Keyword>
+      <Text>변경된 내용을 적용하려면 프로그램을 다시 시작하세요.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorSavingUserSettings</Keyword>
+      <Text>사용자가 설정한 내용을 저장하던 중 에러가 발생했습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorCreateUserConfigDir</Keyword>
+      <Text>사용자 설정 디렉토리를 생성하던 중에 에러가 발생했습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NonStandard3DMouse</Keyword>
+      <Text>3D 마우스를 위한 표준화되지 않은 운동모드</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ExtensionRegistration</Keyword>
+      <Text>DentalCAD application으로 이 파일들 열기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SelectAll</Keyword>
+      <Text>모두 선택</Text>
+    </Translation>
+    <Translation>
+      <Keyword>UnselectAll</Keyword>
+      <Text>모두 해제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_AAMode</Keyword>
+      <Text>Viewer Renderer 설정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TruSmileEnabledOnStart</Keyword>
+      <Text>리얼리티 모드로 시작</Text>
+    </Translation>
+    <Translation>
+      <Keyword>TruSmileLite</Keyword>
+      <Text>리얼리티 라이트</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseRotationSpeed</Keyword>
+      <Text>3D 마우스의 회전속도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>3DMouseTranslationSpeed</Keyword>
+      <Text>3D 마우스의 변환 속도</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewerRendererSettings_DisableOpenCL</Keyword>
+      <Text>Disable open CL acceleration</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ViewClipPlaneLineDrawing</Keyword>
+      <Text>Sectional view line drawing</Text>
+    </Translation>
+    <Translation>
+      <Keyword>InputMouse3DDisableButtonBindings</Keyword>
+      <Text>표준 3D 마우스 단축키 비활성화</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalNotation.UniversalNumberingSystem</Keyword>
+      <Text>Universal(US) 표시법</Text>
+    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\ConfigControl-korean-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

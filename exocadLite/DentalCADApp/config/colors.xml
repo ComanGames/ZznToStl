@@ -1,129 +1,115 @@
 <?xml version="1.0"?>
-<ArrayOfColorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
-
-<!-- Main CAD window: Background color, top -->
+<ArrayOfColorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ColorDefinition>
+    <Type>Gingiva</Type>
+    <Color>#CD5755</Color>
+    <SelectedColor>#6F6FED</SelectedColor>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>CrownPreparation</Type>
+    <Color>#a77830</Color>
+    <SelectedColor>#59a6ed</SelectedColor>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>Coping</Type>
+    <Color>#EFEFEF</Color>
+    <SelectedColor>#7bb3dd</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+  <!--<ColorDefinition>
+    <Type>CrownBottom</Type>
+    <Color>#e15c6e</Color>
+    <SelectedColor>#635ce1</SelectedColor>
+  </ColorDefinition> -->
+  <ColorDefinition>
+    <Type>InlayCavity</Type>
+    <Color>#e15c6e</Color>
+    <SelectedColor>#635ce1</SelectedColor>
+  </ColorDefinition>
+  <!--<ColorDefinition>
+    <Type>CrownBottom.NoCementGap</Type>
+    <Color>#e15c6e</Color>
+  </ColorDefinition> -->
+  <ColorDefinition>
+    <Type>LibraryModel</Type>
+    <Color>#FFFFFF</Color>
+    <SelectedColor>#8bb3ed</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+    <Opacity>0.9</Opacity>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>ReducedPontic</Type>
+    <Color>#FFFFAF</Color>
+    <SelectedColor>#8bb3ed</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
+  <ColorDefinition>
+    <Type>AnatomicPontic</Type>
+    <Color>#FFFF7F</Color>
+    <SelectedColor>#8bb3ed</SelectedColor>
+    <FreeformColor>#ffc001</FreeformColor>
+  </ColorDefinition>
   <ColorDefinition>
     <Type>ViewerBackgroundTop</Type>
-    <Color>#33424B</Color>
+    <Color>#FFEFEFEF</Color>
   </ColorDefinition>
-
-<!-- Main CAD window: Background color, bottom. Setting this differently than ViewerBackgroundTop will result in a gradient -->  
   <ColorDefinition>
     <Type>ViewerBackgroundBottom</Type>
-    <Color>#33424B</Color>
+    <Color>#FF333333</Color>
   </ColorDefinition>
-
-  
-  <!-- Menu: background color -->  
   <ColorDefinition>
-    <Type>MenuBackgroundColorUnselected</Type>
-    <Color>#2c2444</Color>
+    <Type>WaxupScan</Type>
+    <Color>#3c9867</Color>
+    <Opacity>0.7</Opacity>
   </ColorDefinition>
-
-  <!-- Menu: foreground color -->
   <ColorDefinition>
-    <Type>MenuTextColorUnselected</Type>
-    <Color>#FFFFFF</Color>
+    <Type>AnatomicWaxup</Type>
+    <Color>#3def91</Color>
+    <Opacity>0.7</Opacity>
   </ColorDefinition>
-
-  
-   <!-- Menu: background color of selected item. Can be same as BrandColor1MouseOver from XAML color config -->
   <ColorDefinition>
-    <Type>MenuBackgroundColorSelected</Type>
-    <Color>#584f7c</Color>
+    <Type>ReducedWaxup</Type>
+    <Color>#f38c13</Color>
   </ColorDefinition>
-  
-  <!-- Menu: foreground color of selected item -->
-   <ColorDefinition>
-    <Type>MenuTextColorSelected</Type>
-    <Color>#FFFFFF</Color>
+  <ColorDefinition>
+    <Type>AbutmentTop</Type>
+    <Color>#AFAF66</Color>
   </ColorDefinition>
-  
-  <!-- Menu: Color of headline text (can be similar to BrandColor2 from XAML colors) -->
-    <ColorDefinition>
-    <Type>MenuHeadlineFontColor</Type>
-    <Color>#ef895f</Color>
-  </ColorDefinition>
-
-  <!-- Menu: Color of additional help text in the menu. Can have a little less contrast to MenuBackgroundColorUnselected to be less obtrusive -->
-    <ColorDefinition>
-    <Type>MenuInfoTextFontColor</Type>
-    <Color>#6d6199</Color>
-  </ColorDefinition>
-  
-  
-   <!-- Menu: Color of the check box background -->
-      <ColorDefinition>
-    <Type>MenuCheckboxBackground</Type>
-    <Color>#FFFFFF</Color>
-  </ColorDefinition>
-  
-  <!-- Menu: Border color (if menu border is enabled in config) -->
-    <ColorDefinition>
-    <Type>MenuBorderColor</Type>
+  <ColorDefinition>
+    <Type>Abutment</Type>
     <Color>#FF0000</Color>
   </ColorDefinition>
-  
- <!-- Menu: Separator color -->
   <ColorDefinition>
-    <Type>MenuSeparatorColor</Type>
-    <Color>#584f7c</Color>
+    <Type>BarEditInterface</Type>
+    <Color>#85827e</Color>
+    <Shine>0</Shine>
   </ColorDefinition>
-  
-  <!-- Background color of the "sectional view bubble" during margin line detection -->
- <ColorDefinition>
-    <Type>CutViewBubbleBackground</Type>
-    <Color>#473a6d</Color>
-  </ColorDefinition>
-
-  <!-- Arrow color in the "sectional view bubble" during margin line detection -->
   <ColorDefinition>
-    <Type>CutViewBubbleArrow</Type>
-    <Color>#EE895F</Color>
+    <Type>BarLocator</Type>
+    <Color>#A6A57e</Color>
   </ColorDefinition>
-
-  <!-- Margin line color while drawing. See defaultcolors.xml for other margin-related color settings that can be added here -->
-   <ColorDefinition>
-    <Type>MarginColorOfLine</Type>
-    <Color>#473a6d</Color>
+  <ColorDefinition>
+    <Type>BarRider</Type>
+    <Color>#D6D87e</Color>
   </ColorDefinition>
-  
-  <!-- Color of menu icons, if ColorizeMenuIcons is set to true in config -->
-   <ColorDefinition>
-    <Type>MenuIconColor</Type>
-    <Color>#584f7c</Color>
+  <ColorDefinition>
+    <Type>StartMirrorHealthyToSituProcessorControlArrowLines</Type>
+    <Color>#000000</Color>
   </ColorDefinition>
-  
-    <!-- Background color for icon backgrounds #1, if icon background is enabled.
-         If multi-colored menu icon backgrounds are enabled in config (MenuIconFrameColorCount set to 2 or higher; max 8), 
-		 you can also set IconBackgroundMultiColor.1 to .7 to customize the other colors  -->
-    <ColorDefinition>
-    <Type>IconBackgroundMultiColor.0</Type>
-    <Color>#5b39b5</Color>
+  <ColorDefinition>
+    <Type>BiteSplint</Type>
+    <Color>#bfdfff</Color>
   </ColorDefinition>
-  
-  <!-- colors for some specific menu entries -->
-  
-        <ColorDefinition>
-    <Type>Screenshot</Type>
-    <Color>#00c0f2</Color>
+  <ColorDefinition>
+    <Type>BiteSplintTop</Type>
+    <Color>#bfdfff</Color>
   </ColorDefinition>
-  
-  
-      <ColorDefinition>
-    <Type>LoadProject</Type>
-    <Color>#cc7551</Color>
+  <ColorDefinition>
+    <Type>BiteSplintBottom</Type>
+    <Color>#bfdfff</Color>
   </ColorDefinition>
-  
-        <ColorDefinition>
-    <Type>LoadScene</Type>
-    <Color>#5737b2</Color>
+  <ColorDefinition>
+    <Type>NestingPreviewNestingViewerBackground</Type>
+    <Color>#222223</Color>
   </ColorDefinition>
-  
-      <ColorDefinition>
-    <Type>DicomView</Type>
-    <Color>#0a58c1</Color>
-  </ColorDefinition>
-
-  
- </ArrayOfColorDefinition>
+</ArrayOfColorDefinition>

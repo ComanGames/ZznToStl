@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
-  <IncludeFiles></IncludeFiles>
   <Translations>
-    <Translation>
-      <Keyword>CAMReader.FileReadFailed</Keyword>
-      <Text>Error al cargar el archivo {0}.
-Error:
-{1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
-      <Text>Error al leer la línea de margen {0}.
-Error:
-{1}</Text>
-    </Translation>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
       <Keyword>CAMReader.Load.NullArgument</Keyword>
       <Text>No se ha especificado ningún fichero CAM para cargar</Text>
@@ -54,6 +47,18 @@ Error:
     <Translation>
       <Keyword>CAMReader.Load.IncompleteData</Keyword>
       <Text>Información insuficiente para importar el proyecto CAM.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMReader.FileReadFailed</Keyword>
+      <Text>Error al cargar el archivo {0}.
+Error:
+{1}</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CAMJobReader.POL.XML.ParseFailed</Keyword>
+      <Text>Error al leer la línea de margen {0}.
+Error:
+{1}</Text>
     </Translation>
     <Translation>
       <Keyword>CAMJobReader.POL.XML.MarginNotFound</Keyword>

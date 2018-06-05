@@ -1,6 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
+    <Translation>
+      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
+      <Text>디지털 임프레션 모델 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessor.Info</Keyword>
+      <Text>정보</Text>
+    </Translation>
     <Translation>
       <Keyword>DentalProcessors.ModelAlignmentProcessor.Title</Keyword>
       <Text>모델 정렬</Text>
@@ -206,10 +220,6 @@
       <Text>자연치 모델 베이스</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelPlateTypeMixed</Keyword>
-      <Text>자연치 모델 베이스</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelPlateTypeStump</Keyword>
       <Text>지대치 모델 베이스</Text>
     </Translation>
@@ -223,12 +233,66 @@
 이 작업을 Model Creator에서 사용할 수 있도록 변환하시겠습니까?</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
-      <Text>모델 유형:</Text>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
+      <Text>모델 어태치먼트</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
+      <Text>'다음'을 클릭하여 어태치먼트를 추가</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
+      <Text>어태치먼트 추가</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
+      <Text>어태치먼트 추가</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
+      <Text>모델 어태치먼트 ...</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
+      <Text>지름</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
+      <Text>밀링툴 보정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
+      <Text>바닥</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
+      <Text>상악과 하악이 뒤바뀐 상태로 정렬된 것 같습니다. 잘못된 결과를 초래할 수 있습니다.
+
+현재 정렬을 계속 유지하시겠습니까?</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessor.PinObject</Keyword>
       <Text>모델 지원열</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignment.TranslateFreely</Keyword>
+      <Text>자유롭게 이동</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
+      <Text>정렬</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
+      <Text>장애물 자동 숨기기</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelSegmentationProcessorControl.concavityBelowPrep</Keyword>
+      <Text>마진 하방 오목한 부분</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelAlignmentProcessorControl.SelectModelType</Keyword>
+      <Text>모델 유형:</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreator.MovementRestriction.TranslateFreely</Keyword>
@@ -255,20 +319,12 @@
       <Text>회전 잠금</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelAlignmentProcessorControl.Alignment</Keyword>
-      <Text>정렬</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelAlignmentProcessorControl.AutoAlign</Keyword>
       <Text>자동 정렬</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAlignmentProcessorControl.ResetAlignment</Keyword>
       <Text>다시 정렬</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessorControl.CheckBox.hideOcclusalSurfaceObstructionCheckBox</Keyword>
-      <Text>장애물 자동 숨기기</Text>
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.autoHideBasePlate</Keyword>
@@ -300,7 +356,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelSegmentationProcessorControl.Run</Keyword>
-      <Text>실행!</Text>
+      <Text>실행</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.Run</Keyword>
@@ -311,24 +367,12 @@
       <Text>중지</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.millingDiameter</Keyword>
-      <Text>지름</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.AnticipateMilling</Keyword>
-      <Text>밀링툴 보정</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.baseModelTab</Keyword>
       <Text>베이스</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.dieTab</Keyword>
       <Text>다이</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelDieWithBoreProcessorControl.BottomTab</Keyword>
-      <Text>바닥</Text>
     </Translation>
     <Translation>
       <Keyword>ModelDieWithBoreProcessorControl.OmitPin</Keyword>
@@ -379,7 +423,7 @@
       <Text>마찰면 반지름</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelDieWithBore.InvalidAlignedInputPart</Keyword>
+      <Keyword>ModelAlignment.InvalidAlignedInputPart</Keyword>
       <Text>일부분이 모델 베이스와 너무 근접합니다.
 표시된 부분을 수정하거나 스캔 데이터를 다시 정렬하십시오.</Text>
     </Translation>
@@ -396,38 +440,8 @@
       <Text>랩 아날로그 유지</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.Title</Keyword>
-      <Text>모델 어태치먼트</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.WizardNext</Keyword>
-      <Text>'다음'을 클릭하여 어태치먼트를 추가</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry.Plural</Keyword>
-      <Text>어태치먼트 추가</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.MenuEntry</Keyword>
-      <Text>어태치먼트 추가</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DentalProcessors.ModelAttachmentProcessor.DescriptionText</Keyword>
-      <Text>모델 어태치먼트 ...</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelAttachmentProcessorControl.MovementRestrictions</Keyword>
       <Text>추가 움직임 제한</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAttachmentProcessorControl.AttachmentSelection</Keyword>
-      <Text>어태치먼트 선택:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelAlignmentProcessor.AlignmentUpsideDownMessageBox</Keyword>
-      <Text>상악과 하악이 뒤바뀐 상태로 정렬된 것 같습니다. 잘못된 결과를 초래할 수 있습니다.
-
-현재 정렬을 계속 유지하시겠습니까?</Text>
     </Translation>
     <Translation>
       <Keyword>ModelAttachmentProcessorControl.PinTab</Keyword>
@@ -504,18 +518,6 @@
       <Text>치아 분리 실패. 표시된 영역을 수정하거나 마진을 다시 지정하십시오.</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentationControl.KeepCorrectionQuestion</Keyword>
-      <Text>이미 선택되었습니다. 계속 유지하거나 마진에서 새로 선택하십시오.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationControl.KeepCorrection</Keyword>
-      <Text>현재 선택 유지</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationControl.ResetCorrection</Keyword>
-      <Text>현재 선택 생성</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelToothSegmentation.brushSize</Keyword>
       <Text>조각도 크기:</Text>
     </Translation>
@@ -526,48 +528,6 @@
     <Translation>
       <Keyword>ModelToothSegmentation.ToggleVisibility</Keyword>
       <Text>전환 시각화</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.RunFailed</Keyword>
-      <Text>죄송합니다, 치아를 분리할 수 없습니다.
-
-문제 해결을 위해 다음을 확인하십시오:
-
-- 수동으로 선택 영역을 수정하십시오. 분리되는 치아는 빨간색으로 표시됩니다. 스캔 데이터(인접치, 치은 등)은 녹색으로 표시됩니다. (아이콘 중 하나를 사용하여 빨간 또는 녹색 선택한 후)메쉬 상에 클릭하여 수정된 영역을 찾으십시오. 처음부터 다시 시작하려면, '전부 되돌리기'를 클릭하십시오.
-
-- 마진 위치를 수정하십시오. '마진 설정' 탭에서 마진라인을 편집하십시오.(예: 조절첨 추가하여 수정)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.MarginTab</Keyword>
-      <Text>마진</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.MarginHeader</Keyword>
-      <Text>조절점으로 마진 수정</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ToothMessage</Keyword>
-      <Text>다음 치아의 마진을 설정하십시오:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.Hint1</Keyword>
-      <Text>마진 수정을 위해 먼저 조절점을 설정하십시오. 그리고 '마진 적용'을 클릭하십시오.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ClearControlPoints</Keyword>
-      <Text>모든 조절점 삭제</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ApplyMargin</Keyword>
-      <Text>적용</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.CorrectHeader</Keyword>
-      <Text>수동으로 치아 탐색 최적화</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.HintSeg1</Keyword>
-      <Text>치아 테두리를 탐색하였습니다. 치아 영역을 지정하여 향상된 결과를 얻을 수 있습니다. 마우스 왼쪽 버튼을 클릭하여 영역을 표시하고 Shift + 마우스 왼쪽 버튼을 클릭하여 삭제할 수 있습니다.</Text>
     </Translation>
     <Translation>
       <Keyword>ModelToothSegmentationProcessorControl.ClearAllSpheres</Keyword>
@@ -619,10 +579,6 @@
       <Text>취소</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelToothSegmentationProcessorControl.ApplyCorrection</Keyword>
-      <Text>적용</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelToothSegmentationProcessorControl.NoSegmentationWarning</Keyword>
       <Text>치아가 분리되어 있지 않습니다. 치아를 분리하여 다이를 생성하는 작업이 필요합니다.</Text>
     </Translation>
@@ -640,7 +596,7 @@
     </Translation>
     <Translation>
       <Keyword>ModelCreatorFinishedDesignEverything</Keyword>
-      <Text>Model Creator 종료</Text>
+      <Text>Model Maker 종료</Text>
     </Translation>
     <Translation>
       <Keyword>ModelCreatorFinishedContinue</Keyword>
@@ -667,10 +623,6 @@
       <Text>Model Creator 마법사를 계속 진행하시겠습니까?</Text>
     </Translation>
     <Translation>
-      <Keyword>ModelCreatorModeAfterMergePartsByDefault</Keyword>
-      <Text>디지털 임프레션 모델 생성</Text>
-    </Translation>
-    <Translation>
       <Keyword>ModelHelpNotCalculating</Keyword>
       <Text>계산 종료</Text>
     </Translation>
@@ -694,8 +646,63 @@
       <Keyword>ModelCalculationFinishedText</Keyword>
       <Text>모델 계산이 완료되었습니다. 결과값을 확인하십시오. 변수값을 변경 등으로 다시 계산을 시작하려면 '실행'을 클릭하십시오.</Text>
     </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.KeepCorrectionQuestion</Keyword>
+      <Text>이미 선택되었습니다. 계속 유지하거나 마진에서 새로 선택하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.KeepCorrection</Keyword>
+      <Text>현재 선택 유지</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationControl.ResetCorrection</Keyword>
+      <Text>현재 선택 생성</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.RunFailed</Keyword>
+      <Text>죄송합니다, 치아를 분리할 수 없습니다.
+
+문제 해결을 위해 다음을 확인하십시오:
+
+- 수동으로 선택 영역을 수정하십시오. 분리되는 치아는 빨간색으로 표시됩니다. 스캔 데이터(인접치, 치은 등)은 녹색으로 표시됩니다. (아이콘 중 하나를 사용하여 빨간 또는 녹색 선택한 후)메쉬 상에 클릭하여 수정된 영역을 찾으십시오. 처음부터 다시 시작하려면, '전부 되돌리기'를 클릭하십시오.
+
+- 마진 위치를 수정하십시오. '마진 설정' 탭에서 마진라인을 편집하십시오.(예: 조절첨 추가하여 수정)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.MarginTab</Keyword>
+      <Text>마진</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.MarginHeader</Keyword>
+      <Text>조절점으로 마진 수정</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ToothMessage</Keyword>
+      <Text>다음 치아의 마진을 설정하십시오:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.Hint1</Keyword>
+      <Text>마진 수정을 위해 먼저 조절점을 설정하십시오. 그리고 '마진 적용'을 클릭하십시오.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ClearControlPoints</Keyword>
+      <Text>모든 조절점 삭제</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ApplyMargin</Keyword>
+      <Text>적용</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.CorrectHeader</Keyword>
+      <Text>수동으로 치아 탐색 최적화</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.HintSeg1</Keyword>
+      <Text>치아 테두리를 탐색하였습니다. 치아 영역을 지정하여 향상된 결과를 얻을 수 있습니다. 마우스 왼쪽 버튼을 클릭하여 영역을 표시하고 Shift + 마우스 왼쪽 버튼을 클릭하여 삭제할 수 있습니다.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ModelToothSegmentationProcessorControl.ApplyCorrection</Keyword>
+      <Text>적용</Text>
+    </Translation>
   </Translations>
-  <IncludeFiles>
-    <IncludeFile>missing\ModelCreator-korean-missing.xml</IncludeFile>
-  </IncludeFiles>
 </TranslationContainer>

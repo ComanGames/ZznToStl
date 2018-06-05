@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImplantLibraryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AxisOcclusal>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </AxisOcclusal>
+  <RegistrationClickCenter>
+    <x>0</x>
+    <y>0</y>
+    <z>6</z>
+  </RegistrationClickCenter>
+  <AxisAsymmetric>
+    <x>0</x>
+    <y>1</y>
+    <z>0</z>
+  </AxisAsymmetric>
+  <GeometryType>internal</GeometryType>
+  <MarkerFilename>scanmarker.stl</MarkerFilename>
+  <SupportOrientation>1</SupportOrientation>
+  <IsWithInterface>false</IsWithInterface>
+  <IsWithRotationLock>true</IsWithRotationLock>
+  <DisplayInformation>ZIRKONZAHN® Warantec® ONEPLANT®</DisplayInformation>
+  <Producer>Warantec®</Producer>
+  <SystemName>ONEPLANT®</SystemName>
+  <LegalInformation>To be used for testing purposes only - not for production
+Compatible with Warantec® ONEPLANT® series</LegalInformation>
+  <Supplier>Zirkonzahn Srl
+An der Ahr. 7
+I-39030 Gais
+Italy</Supplier>
+  <SupplierLink>http://www.zirkonzahn.com</SupplierLink>
+  <WarrantyInformation>DISCLAIMER OF WARRANTY
+  
+  
+THIS DATA IS PROVIDED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE, ACCURACY, OR MERCHANTABILITY. THE SELLER'S SALESPERSONS MAY HAVE MADE STATEMENTS ABOUT THIS DATA. ANY SUCH STATEMENTS DO NOT CONSTITUTE WARRANTIES AND SHALL NOT BE RELIED ON BY USER IN DECIDING WHETHER TO USE THIS DATA.
+
+THIS DATA IS PROVIDED WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES WHATSOEVER. BECAUSE OF THE DIVERSITY OF CONDITIONS AND HARDWARE UNDER WHICH THIS DATA MAY BE USED, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. THE USER IS ADVISED TO TEST THE DATA THOROUGHLY BEFORE RELYING ON IT. THE USER MUST ASSUME THE ENTIRE RISK OF USING THIS DATA AND ACCEPTS IT "WITH ALL ITS FAULTS". THE USER MUST ASSUME THE ENTIRE RISK OF USING THE PROGRAM.
+</WarrantyInformation>
+  <TypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>ONEPLANT</DisplayInformation>
+      <Keyword>op</Keyword>
+      <ImplantFilename>anl.stl</ImplantFilename>
+      <ScrewFilename>mscr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBAD4831</LibraryIdentifier>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.025-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF7481 - BSAF7481D14</DisplayInformation>
+          <SupportFilename>H-ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF7481;BSAF7481D14</LibraryIdentifier>
+          <InterfaceFilename>ra_als.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.123-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>H-mc.stl</SupportFilename><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.123-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>NH-mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <ImplantTypeConfig>
+      <DisplayInformation>ONEPLANT White Scanmarker</DisplayInformation>
+      <Keyword>opmmk</Keyword>
+      <ImplantFilename>anl.stl</ImplantFilename>
+      <RegistrationClickCenter>
+        <x>0.0</x>
+        <y>2.0</y>
+        <z>6.0</z>
+      </RegistrationClickCenter>
+      <ScrewFilename>mscr.stl</ScrewFilename>
+      <LibraryIdentifier>ZBCD4831</LibraryIdentifier>
+      <MarkerFilename>mkmkr.stl</MarkerFilename>
+      <SubtypeConfig>
+        <ImplantSubtypeConfig>
+          <Keyword>3.0250-Raw</Keyword>
+          <DisplayInformation>Hex Raw Abutment BSAF7481 - BSAF7481D14</DisplayInformation>
+          <SupportFilename>H-ra.stl</SupportFilename>
+          <LibraryIdentifier>BSAF7481;BSAF7481D14</LibraryIdentifier>
+          <InterfaceFilename>ra_als.stl</InterfaceFilename>
+        </ImplantSubtypeConfig>
+        <!--<ImplantSubtypeConfig><Keyword>3.1230-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>H-mc.stl</SupportFilename><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>-->
+        <!--<ImplantSubtypeConfig><Keyword>3.1230-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>NH-mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>-->
+      </SubtypeConfig>
+    </ImplantTypeConfig>
+    <!--<ImplantTypeConfig><DisplayInformation>ONEPLANT HDK</DisplayInformation><Keyword>opHDKmk</Keyword><ImplantFilename>anl.stl</ImplantFilename><RegistrationClickCenter><x>0.0</x><y>1.8</y><z>7.747</z></RegistrationClickCenter><ScrewFilename>mscr.stl</ScrewFilename><LibraryIdentifier>O-P</LibraryIdentifier><MarkerFilename>HDKmkr.stl</MarkerFilename><SubtypeConfig><ImplantSubtypeConfig><Keyword>3.0251-Raw</Keyword><DisplayInformation>Hex Raw Abutment BSAF7481 - BSAF7481D14</DisplayInformation><SupportFilename>H-ra.stl</SupportFilename><LibraryIdentifier>BSAF7481;BSAF7481D14</LibraryIdentifier><InterfaceFilename>ra_als.stl</InterfaceFilename></ImplantSubtypeConfig>/*<ImplantSubtypeConfig><Keyword>3.1231-InHex</Keyword><DisplayInformation>Hex</DisplayInformation><SupportFilename>H-mc.stl</SupportFilename><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>*//*<ImplantSubtypeConfig><Keyword>3.1231-InNohex</Keyword><DisplayInformation>No Hex</DisplayInformation><SupportFilename>NH-mc.stl</SupportFilename><IsWithRotationLock>false</IsWithRotationLock><LibraryIdentifier>BSAE7401</LibraryIdentifier></ImplantSubtypeConfig>*/</SubtypeConfig></ImplantTypeConfig>-->
+  </TypeConfig>
+</ImplantLibraryEntry>

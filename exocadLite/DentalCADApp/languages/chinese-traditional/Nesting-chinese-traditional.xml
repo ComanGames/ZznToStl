@@ -1,109 +1,849 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TranslationContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TranslationContainer>
   <Translations>
+    <!--
+<Translation>
+<Keyword></Keyword>
+<Text></Text>
+</Translation>
+-->
     <Translation>
-      <Keyword>Nesting.CreateSupports</Keyword>
-      <Text>生成支撐桿</Text>
+      <Keyword>Nesting.Material Block Transponder Active</Keyword>
+      <Text>材料塊(運行的)</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
-      <Text>重新載入刀具路徑</Text>
+      <Keyword>NestingBlock.Archive</Keyword>
+      <Text>存檔</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.HideCNCGraphics</Keyword>
-      <Text>隱藏刀具路徑</Text>
+      <Keyword>Nesting.ThumbnailIsMarkedLegacy</Keyword>
+      <Text>(遺留)</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
-      <Text>刀具路徑計算運行中</Text>
+      <Keyword>Nesting.AllowSupportToPreparationArea</Keyword>
+      <Text>頸緣線下允許放置支撐桿.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CalculateSimulationFile</Keyword>
-      <Text>刀具路徑模擬</Text>
+      <Keyword>Nesting.StampOutBlockHealing</Keyword>
+      <Text>重新載入原始瓷塊形狀</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
-      <Text>完成</Text>
+      <Keyword>Nesting.StampOutBlockHealingQuestion</Keyword>
+      <Text>你確定要重新載入原始瓷塊形狀嗎？此瓷塊以前研磨使用過的區域將會丟失！</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
-      <Text>停止</Text>
+      <Keyword>Nesting.OnlyOneConstructionAllowedForThisMaterialType</Keyword>
+      <Text>這樣的材料塊只是其中的一部分被允許嵌套。</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
-      <Text>運行中...</Text>
+      <Keyword>Nesting.OnlySingleTeethAllowedForThisMaterialType</Keyword>
+      <Text>只有單顆的牙齒允許被嵌套在這種瓷塊上。</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
-      <Text>刀具路徑計算完成!</Text>
+      <Keyword>SetFromView</Keyword>
+      <Text>從觀測設定</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
-      <Text>刀具路徑計算錯誤:</Text>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
+      <Text>您確定要取消刷新材料庫嗎? 此操作可能不能創建新的瓷塊.</Text>
     </Translation>
     <Translation>
-      <Keyword>MaxNestAngle</Keyword>
-      <Text>角度:</Text>
+      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
+      <Text>材料庫需要刷新一次, 但是可能需要很長時間.</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
-      <Text>嵌套...</Text>
+      <Keyword>Nesting.CNCConfigureMachine</Keyword>
+      <Text>機器配置</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
-      <Text>嵌套...</Text>
+      <Keyword>Nesting.CNCMachineSelector</Keyword>
+      <Text>選擇研磨儀</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
-      <Text>嵌套...</Text>
+      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
+      <Text>選擇刀具軌跡策略文件!</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
-      <Text>嵌套...</Text>
+      <Keyword>NestingBlock.ShowCNC</Keyword>
+      <Text>顯示刀具軌跡</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
-      <Text>加入嵌套隊列</Text>
+      <Keyword>Nesting.ShowCNC</Keyword>
+      <Text>顯示刀具軌跡</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
-      <Text>排隊嵌套</Text>
+      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
+      <Text>補償</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
-      <Text>排隊嵌套</Text>
+      <Keyword>Nesting.RunCNCControlHide</Keyword>
+      <Text>隱藏</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
-      <Text>排隊嵌套</Text>
+      <Keyword>Nesting.RunCNCControlClose</Keyword>
+      <Text>關閉</Text>
     </Translation>
     <Translation>
-      <Keyword>LoadNestingOnlyFailed</Keyword>
-      <Text>無法嵌套對象</Text>
+      <Keyword>Nesting.RunCNCControlCancel</Keyword>
+      <Text>取消</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.EstimateMillingAngles</Keyword>
-      <Text>估計研磨角度</Text>
+      <Keyword>Nesting.RunCNCControlExecute</Keyword>
+      <Text>開始</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.AngledWalls</Keyword>
-      <Text>有角度的側壁</Text>
+      <Keyword>Nesting.RunCNCControl</Keyword>
+      <Text>創建刀具軌跡</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingAction</Keyword>
-      <Text>嵌套操作</Text>
+      <Keyword>Nesting.CNCStrategySelector</Keyword>
+      <Text>選擇策略:</Text>
     </Translation>
     <Translation>
-      <Keyword>LoadNestingScene</Keyword>
-      <Text>載入嵌套場景...</Text>
+      <Keyword>Nesting.CNCSourceFile</Keyword>
+      <Text>刀具軌跡文件:</Text>
     </Translation>
     <Translation>
-      <Keyword>SaveNestingScene</Keyword>
-      <Text>保存嵌套場景...</Text>
+      <Keyword>LoadNestingData</Keyword>
+      <Text>導入文件</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingActions</Keyword>
-      <Text>嵌套操作</Text>
+      <Keyword>Nesting.SubObjectVisualize</Keyword>
+      <Text>顯示嵌套部件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SubObjectInfo</Keyword>
+      <Text>嵌套部件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
+      <Text>嵌套隊列使用存在的文件: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
+      <Text>材料塊(初始)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
+      <Text>以下文件將不再存在.它們現在會被刪除!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
+      <Text>嵌套內容信息</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
+      <Text>請指定一個批號</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
+      <Text>刀具軌跡文件可用. 您想要可視化它嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
+      <Text>(刀具軌跡可用)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
+      <Text>(已從隊列中移除)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsProduced</Keyword>
+      <Text>(已經被生產)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
+      <Text>(已經在刀具軌跡中)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsNested</Keyword>
+      <Text>(已嵌套)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
+      <Text>(不適合瓷塊)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsMarkedAsPossible</Keyword>
+      <Text>(當前標記)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
+      <Text>(當前嵌套)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNestingQueue</Keyword>
+      <Text>隱藏隊列</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UnloadFromQueue</Keyword>
+      <Text>移除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadFromQueue</Keyword>
+      <Text>加載</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueue</Keyword>
+      <Text>從隊列中移除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshNestingQueue</Keyword>
+      <Text>刷新隊列</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
+      <Text>刷新瓷塊庫</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportBlock</Keyword>
+      <Text>導入瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
+      <Text>列隊日期</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
+      <Text>項目目錄</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
+      <Text>名稱</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
+      <Text>修復體</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Reconstruction</Keyword>
+      <Text>修復體</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
+      <Text>無法初始化嵌套隊列, 請在'應用程序設定'中檢查嵌套隊列目錄</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibrary</Keyword>
+      <Text>瓷塊目錄 (顯示/隱藏)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueDir</Keyword>
+      <Text>嵌套隊列目錄: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueEmpty</Keyword>
+      <Text>嵌套隊列是空的</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
+      <Text>材料塊資料庫目錄: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Enqueue</Keyword>
+      <Text>列隊嵌套</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
+      <Text>此項目已經存在于嵌套隊列里, 確定要覆蓋它嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
+      <Text>確定要把這個瓷塊從嵌套中移除嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
+      <Text>確定要把這個修復體從嵌套中移除嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
+      <Text>這個瓷塊已經存在</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlockHeader</Keyword>
+      <Text>移除瓷塊？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
+      <Text>確定要從資料庫移除這個瓷塊嗎?(確定瓷塊上沒有可用的空間)?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
+      <Text>以下瓷塊文件將被刪除:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FixedReconstruction</Keyword>
+      <Text>已固定的修復體(無法改變)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
+      <Text>確定要從隊列中移除這個嗎? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.UnknownMaterial</Keyword>
+      <Text>_未知材料_</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialDescriptor.Unknown</Keyword>
+      <Text>???未知???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.PMMA</Keyword>
+      <Text>PMMA</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Zirkon</Keyword>
+      <Text>氧化鋯</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.Unknown</Keyword>
+      <Text>未知材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialType.All</Keyword>
+      <Text>任何材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
+      <Text>標記已研磨</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
+      <Text>確定刪除當前存在的刀具軌跡文件嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
+      <Text>刪除刀具軌跡文件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeProduction</Keyword>
+      <Text>研磨</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.InvokeCAM</Keyword>
+      <Text>CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Destroy</Keyword>
+      <Text>移除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Register</Keyword>
+      <Text>注冊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
+      <Text>顯示嵌套</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
+      <Text>顯示已生產</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
+      <Text>(已加工的)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
+      <Text>(余留的) </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
+      <Text>成功創建新的瓷塊！</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
+      <Text>請確認在你的實物瓷塊上標記瓷塊編號：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
+      <Text>請輸入瓷塊編碼!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
+      <Text>請在以下值之間定義瓷塊:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
+      <Text>請定義唯一的瓷塊編碼!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
+      <Text>接受并使用</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterBlockAccept</Keyword>
+      <Text>接受</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseButton</Keyword>
+      <Text>關閉</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton</Keyword>
+      <Text>清除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton</Keyword>
+      <Text>儲存</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveButton.ToolTip</Keyword>
+      <Text>保存當前的嵌套</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignScaleFactor</Keyword>
+      <Text>請設定縮放系數或是收縮比例!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
+      <Text>無效縮放系數/或收縮比例 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
+      <Text>輸入批號: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
+      <Text>輸入瓷塊識別碼: </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.Load</Keyword>
+      <Text>載入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.View3D</Keyword>
+      <Text> 3D嵌套視圖</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCreator</Keyword>
+      <Text>創建新瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockReject</Keyword>
+      <Text>取消</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlockAccept</Keyword>
+      <Text>Ok</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoubleClickToLoadBlank</Keyword>
+      <Text>雙擊材料庫瓷塊加載！</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoPreviewAvailable</Keyword>
+      <Text>此瓷塊沒有修復體可預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowingPreviewFor</Keyword>
+      <Text>顯示預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
+      <Text>類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
+      <Text>日期</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
+      <Text>% 縮收率</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
+      <Text>收縮比</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
+      <Text>厚度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
+      <Text>直徑</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
+      <Text>顏色類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
+      <Text>瓷塊識別碼</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
+      <Text>批號</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
+      <Text>描述</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
+      <Text>可用瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
+      <Text>可用瓷塊:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialType</Keyword>
+      <Text>選擇材料類型:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RegisterNewBlock</Keyword>
+      <Text>創建新的瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateNewBlock</Keyword>
+      <Text>創建新的瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
+      <Text>修復體預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
+      <Text>當前嵌套中的修復體</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
+      <Text>瓷塊庫預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SelectMaterialBlock</Keyword>
+      <Text>選擇瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
+      <Text>修復體的高度:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
+      <Text>無法創建瓷塊!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
+      <Text>下列材料樣板剛剛創建:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
+      <Text>確定要清除當前的嵌套嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
+      <Text>確定要關閉嵌套嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NestingQueueView</Keyword>
+      <Text>嵌套隊列</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ErrorLoadingFile</Keyword>
+      <Text>無法載入此文件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
+      <Text>確定要切換瓷塊嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
+      <Text>瓷塊正使用,確定要刪除它嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
+      <Text>已使用的瓷塊識別碼或者材料描述!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
+      <Text>確定在不選擇瓷塊下關閉材料庫嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSelector</Keyword>
+      <Text>選擇材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
+      <Text>材料庫縱覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
+      <Text>使用過的材料描述!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue</Keyword>
+      <Text>顯示隊列 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowSpacer</Keyword>
+      <Text>空間尺規</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
+      <Text>您想現在運行刀具軌跡計算嗎? </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSaveHeader</Keyword>
+      <Text>從隊列刪去零件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
+      <Text>您想從嵌套隊列中移除這些項目文件嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
+      <Text>先按'消除修復體'的按鍵,才能從瓷塊上移除現存材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
+      <Text>在所給的文件中無法找到可以嵌套的文件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
+      <Text>當前場景中無法列隊任何可嵌套的文件.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
+      <Text>當前項目中沒有可以嵌套的文件. 您想嵌套另外存在的項目嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
+      <Text>現在要嵌套此方案嗎? [是], 稍后嵌套此項目? [否], 或者繼續工作? [取消]</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueFailed</Keyword>
+      <Text>隊列失敗!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
+      <Text>成功加入文件到隊列:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingNesting</Keyword>
+      <Text>您想保存當前的嵌套嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
+      <Text>確定要儲存當前的瓷塊做為以后研磨使用嗎?  否則將來這瓷塊無法被再次使用!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView.Button</Keyword>
+      <Text>默認視圖</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDefaultView</Keyword>
+      <Text>默認視圖</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DumpData</Keyword>
+      <Text>清空資料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Duplicate</Keyword>
+      <Text>復制</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DestroyObject</Keyword>
+      <Text>從嵌套中刪除</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FinishNesting</Keyword>
+      <Text>保存嵌套</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
+      <Text>修復體超出允許范圍! 請將標示的修復體放置在可用的材料范圍內!(必要的話,關閉'調整平面'功能')!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
+      <Text>修復體放置位置超出可用材料范圍! 確定要繼續嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CloseNesting</Keyword>
+      <Text>關閉</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting</Keyword>
+      <Text>嵌套</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNesting</Keyword>
+      <Text>儲存</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RestrictToZ</Keyword>
+      <Text>鎖定傾斜/高度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupports</Keyword>
+      <Text>移除支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ModifySupports</Keyword>
+      <Text>修改支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EditSupports</Keyword>
+      <Text>編輯支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
+      <Text>從瓷塊嵌套對象通過拖動鼠標創建支撐桿
+ 鍵盤選項：
+  - 修改現有支撐桿（改變支撐點或直徑）
+  - Ctrl：刪除現有支撐桿
+  - SHIFT +Ctrl：切換到機器自動切斷支撐桿。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeSupports</Keyword>
+      <Text>修改支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
+      <Text>用鼠標移動嵌套對象
+ 鍵盤選項:
+- Ctrl: 旋轉牙齒</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PositionReconstructions</Keyword>
+      <Text>修復體位置</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameter</Keyword>
+      <Text>支撐桿直徑</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UpdateSupports</Keyword>
+      <Text>更新支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlock</Keyword>
+      <Text>修復體安全范圍</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveMaterialFromBlockNormal</Keyword>
+      <Text>消除重建模型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingScene</Keyword>
+      <Text>載入</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveNestingScene</Keyword>
+      <Text>儲存</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadBlock</Keyword>
+      <Text>載入瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SaveBlock</Keyword>
+      <Text>保存到文件</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateBlock</Keyword>
+      <Text>創建新瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor</Keyword>
+      <Text>描述:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialColor</Keyword>
+      <Text>顏色:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialType</Keyword>
+      <Text>形式:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
+      <Text>???未定義瓷塊描述???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
+      <Text>???未定義編號???</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockCode</Keyword>
+      <Text>瓷塊編碼:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
+      <Text>批號:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockID</Keyword>
+      <Text>瓷塊編號:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
+      <Text>請輸入瓷塊編號!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShrinkPercentage</Keyword>
+      <Text>收縮率 %:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ScalingFactor</Keyword>
+      <Text>收縮系數:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
+      <Text>高度:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
+      <Text>直徑:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
+      <Text>材料角度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialEmptySpace</Keyword>
+      <Text>安全范圍</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
+      <Text>您確定要刪除瓷塊信息嗎?刪除之后此瓷塊不能再被研磨!</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
+      <Text>瓷塊(已用完的)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
+      <Text>研磨后切掉支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Supports</Keyword>
+      <Text>支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowColliders</Keyword>
+      <Text>顯示邊框</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowMachineParts</Keyword>
+      <Text>顯示軌跡</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Stabilizer</Keyword>
+      <Text>加強板</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers</Keyword>
+      <Text>創建加強板</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaterialBlockProperties</Keyword>
+      <Text>瓷塊屬性</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
+      <Text>確定要合并當前的修復體頜從文件所載入的嵌套嗎？</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.StabilizerProblem</Keyword>
@@ -114,816 +854,108 @@
 3）請嘗試改變支撐桿在修復體上的位置或方向。</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.LoadNestingSceneQuestion</Keyword>
-      <Text>確定要合并當前的修復體頜從文件所載入的嵌套嗎？</Text>
+      <Keyword>NestingActions</Keyword>
+      <Text>嵌套操作</Text>
     </Translation>
     <Translation>
-      <Keyword>MaterialBlockProperties</Keyword>
-      <Text>瓷塊屬性</Text>
+      <Keyword>SaveNestingScene</Keyword>
+      <Text>保存嵌套場景...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CreateStabilizers</Keyword>
-      <Text>創建加強板</Text>
+      <Keyword>LoadNestingScene</Keyword>
+      <Text>載入嵌套場景...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.Stabilizer</Keyword>
-      <Text>加強板</Text>
+      <Keyword>NestingAction</Keyword>
+      <Text>嵌套操作</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowMachineParts</Keyword>
-      <Text>顯示夾具</Text>
+      <Keyword>Nesting.AngledWalls</Keyword>
+      <Text>有角度的內冠側壁</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowColliders</Keyword>
-      <Text>顯示邊框</Text>
+      <Keyword>Nesting.EstimateMillingAngles</Keyword>
+      <Text>估計研磨角度</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.Supports</Keyword>
-      <Text>支撐桿</Text>
+      <Keyword>LoadNestingOnlyFailed</Keyword>
+      <Text>無法嵌套對象</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.SupportDisconnectAfterMilling</Keyword>
-      <Text>研磨后切掉支撐桿</Text>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry</Keyword>
+      <Text>排隊嵌套</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockTransponderDestroyed</Keyword>
-      <Text>瓷塊(已用完的)</Text>
+      <Keyword>DentalProcessors.NestingQueueProcessor.MenuEntry.Plural</Keyword>
+      <Text>排隊嵌套</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockTransponderDestroyQuestion</Keyword>
-      <Text>您確定要刪除瓷塊信息嗎?刪除之后此瓷塊不能再被研磨!</Text>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Title</Keyword>
+      <Text>排隊嵌套</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialEmptySpace</Keyword>
-      <Text>安全范圍</Text>
+      <Keyword>DentalProcessors.NestingQueueProcessor.Button</Keyword>
+      <Text>嵌套...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialEmptySpaceAngle</Keyword>
-      <Text>材料角度</Text>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry</Keyword>
+      <Text>嵌套...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ChooseMaterialBlockGeometry.Diameter</Keyword>
-      <Text>直徑:</Text>
+      <Keyword>DentalProcessors.NestingProcessor.MenuEntry.Plural</Keyword>
+      <Text>嵌套...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ChooseMaterialBlockGeometry.Height</Keyword>
-      <Text>高度:</Text>
+      <Keyword>DentalProcessors.NestingProcessor.Title</Keyword>
+      <Text>嵌套...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ScalingFactor</Keyword>
-      <Text>收縮系數:</Text>
+      <Keyword>DentalProcessors.NestingProcessor.Button</Keyword>
+      <Text>嵌套...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShrinkPercentage</Keyword>
-      <Text>收縮率 %:</Text>
+      <Keyword>MaxNestAngle</Keyword>
+      <Text>角度:</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.PleaseSetMaterialBlockID</Keyword>
-      <Text>請輸入瓷塊編號!</Text>
+      <Keyword>Nesting.CNCCAMFinishedErrorMessage</Keyword>
+      <Text>刀具路徑計算錯誤:</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockID</Keyword>
-      <Text>瓷塊編號:</Text>
+      <Keyword>Nesting.CNCCAMFinishedSuccessfullyMessage</Keyword>
+      <Text>刀具路徑計算完成!</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockLotNr</Keyword>
-      <Text>批號:</Text>
+      <Keyword>Nesting.RunCNCProgressRunning</Keyword>
+      <Text>運行中...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockCode</Keyword>
-      <Text>瓷塊編碼:</Text>
+      <Keyword>Nesting.RunCNCProgressStoped</Keyword>
+      <Text>停止</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockID.Undefined</Keyword>
-      <Text>???未定義編號???</Text>
+      <Keyword>Nesting.RunCNCProgressFinished</Keyword>
+      <Text>完成</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialDescriptor.Undefined</Keyword>
-      <Text>???未定義瓷塊描述???</Text>
+      <Keyword>Nesting.CalculateSimulationFile</Keyword>
+      <Text>模擬</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialType</Keyword>
-      <Text>類型:</Text>
+      <Keyword>Nesting.RunCNCControlClosingButCalculationStillRunning</Keyword>
+      <Text>刀具路徑計算運行中</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialColor</Keyword>
-      <Text>顏色:</Text>
+      <Keyword>Nesting.HideCNCGraphics</Keyword>
+      <Text>隱藏刀具路徑</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialDescriptor</Keyword>
-      <Text>描述:</Text>
+      <Keyword>Nesting.ReloadCNCGraphics</Keyword>
+      <Text>重新載入刀具路徑</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CreateBlock</Keyword>
-      <Text>創建新瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SaveBlock</Keyword>
-      <Text>保存到文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadBlock</Keyword>
-      <Text>載入瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SaveNestingScene</Keyword>
-      <Text>儲存</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadNestingScene</Keyword>
-      <Text>載入</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveMaterialFromBlock</Keyword>
-      <Text>切除研磨區域</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.UpdateSupports</Keyword>
-      <Text>更新支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SupportDiameter</Keyword>
-      <Text>支撐桿直徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ArrangeObjects</Keyword>
-      <Text>用滑鼠排列</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ArrangeObjects.ToolTip</Keyword>
-      <Text>用鼠標移動嵌套對象
- 鍵盤選項:
-- Ctrl: 旋轉牙齒</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ArrangeSupports</Keyword>
-      <Text>修改支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ArrangeSupports.ToolTip</Keyword>
-      <Text>點擊修復體添加支撐桿，拖動并放置更改支撐桿位置，所以新的設置需點擊應用
-鍵盤選項：
-  - Shift:修改現有支撐桿位置（改變其直徑）
-  - Ctrl：刪除現有支撐桿
-  - SHIFT +Ctrl：切換到機器自動切斷支撐桿。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ModifySupports</Keyword>
-      <Text>修改支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DeleteSupports</Keyword>
-      <Text>移除支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RestrictToZ</Keyword>
-      <Text>鎖定傾斜/高度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SaveNesting</Keyword>
-      <Text>儲存</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting</Keyword>
-      <Text>嵌套</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CloseNesting</Keyword>
-      <Text>關閉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialOutsideBlockOccured</Keyword>
-      <Text>修復體放置位置超出可用材料范圍! 確定要繼續嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialOutsideBlockOccuredXY</Keyword>
-      <Text>修復體超出允許范圍! 請將標示的修復體放置在可用的材料范圍內!(如果需要請關閉取消勾選“鎖定傾斜/高度)!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FinishNesting</Keyword>
-      <Text>保存嵌套</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DestroyObject</Keyword>
-      <Text>從嵌套中刪除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Duplicate</Keyword>
-      <Text>復制</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DumpData</Keyword>
-      <Text>轉儲數據</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingDefaultView</Keyword>
-      <Text>默認視圖</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingDefaultView.Button</Keyword>
-      <Text>默認視圖</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskForSavingMaterialBlock</Keyword>
-      <Text>確定要儲存當前的瓷塊做為以后研磨使用嗎?  否則將來這瓷塊無法被再次使用!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskForSavingNesting</Keyword>
-      <Text>您想保存當前的嵌套嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EnqueueSucessfullyToFollowingFile</Keyword>
-      <Text>成功加入文件到隊列:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EnqueueFailed</Keyword>
-      <Text>隊列失敗!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DoYouWantToNestNowIfNotDoYouWantToEnqueueTheConstructionForNestingLater</Keyword>
-      <Text>現在要嵌套此方案嗎? [是], 稍后嵌套此項目? [否], 或者繼續工作? [取消]</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NothingToNestInCurrentProject</Keyword>
-      <Text>當前項目中沒有可以嵌套的文件. 您想嵌套另外的項目嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NoMergedPartsFoundInScene</Keyword>
-      <Text>當前場景中無法列隊任何可嵌套的文件.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NoMergedPartsFoundInFile</Keyword>
-      <Text>在所給的文件中無法找到可以嵌套的文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutClickedSinceMaterialBlockChanged</Keyword>
-      <Text>要從當前瓷塊移除現有的材料需先點擊按鈕“刪除修復體”</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveFromQueueAfterSave</Keyword>
-      <Text>下列項目文件將從嵌套隊列中移除：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCAMSoftwareQuestion</Keyword>
-      <Text>您想現在運行刀具軌跡計算嗎? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowNestingQueue</Keyword>
-      <Text>顯示隊列 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PleaseSetMaterialDescriptor</Keyword>
-      <Text>缺少材料描述!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockLibraryView</Keyword>
-      <Text>材料庫總覽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSelector</Keyword>
-      <Text>選擇材料</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ClosingLibraryWithoutMaterialBlock</Keyword>
-      <Text>確定在不選擇瓷塊關閉材料庫嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ClosingLibraryWithoutBlockIDorMaterialDescriptor</Keyword>
-      <Text>缺少瓷塊識別碼或者材料描述!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockDestroyInUse</Keyword>
-      <Text>瓷塊正在使用中,確定要刪除它嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyChangeMaterialBlock</Keyword>
-      <Text>確定要切換瓷塊嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ErrorLoadingFile</Keyword>
-      <Text>無法載入此文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingQueueView</Keyword>
-      <Text>嵌套隊列</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CloseWithoutSaveQuestion</Keyword>
-      <Text>確定要關閉嵌套嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyClearNestingQuestion</Keyword>
-      <Text>確定要清除當前的嵌套嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreatedMaterialPrototypes</Keyword>
-      <Text>下列材料樣板剛剛創建:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FailedToCreateMaterialBlock</Keyword>
-      <Text>無法創建瓷塊.
-詳情：
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaxReconstructionHeight</Keyword>
-      <Text>修復體高度（mm）:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SelectMaterialBlock</Keyword>
-      <Text>沒有選擇瓷塊。
-
-雙擊瓷塊列表中的瓷塊加載，或者單擊“添加瓷塊”來新建新的瓷塊。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibraryOverview</Keyword>
-      <Text>瓷塊庫預覽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReconstructionsInCurrentNesting</Keyword>
-      <Text>當前嵌套中的修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibraryReconstructionList</Keyword>
-      <Text>修復體預覽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateNewBlock</Keyword>
-      <Text>創建新的瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RegisterNewBlock</Keyword>
-      <Text>創建新的瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SelectMaterialType</Keyword>
-      <Text>選擇材料類型:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibraryBlockList</Keyword>
-      <Text>材料庫</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderThumbnail</Keyword>
-      <Text>可用瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialDescriptor</Keyword>
-      <Text>描述</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialBlockLotNr</Keyword>
-      <Text>批號</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialID</Keyword>
-      <Text>瓷塊識別碼</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialColor</Keyword>
-      <Text>顏色類型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderDiameter</Keyword>
-      <Text>直徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderHeight</Keyword>
-      <Text>厚度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderScaleFactor</Keyword>
-      <Text>收縮比</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderShrinkingPercentage</Keyword>
-      <Text>% 縮收率</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderFileDate</Keyword>
-      <Text>日期</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialType</Keyword>
-      <Text>類型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderMaterialCommands</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateBlockAccept</Keyword>
-      <Text>確定</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateBlockReject</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockCreator</Keyword>
-      <Text>創建新瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.View3D</Keyword>
-      <Text> 3D嵌套視圖</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.Load</Keyword>
-      <Text>載入...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSetIDHere</Keyword>
-      <Text>輸入瓷塊識別碼: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSetLotNr</Keyword>
-      <Text>輸入批號: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.InvalidScaleFactorOrShrinkPercentage</Keyword>
-      <Text>無效縮放系數/或收縮比例 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignScaleFactor</Keyword>
-      <Text>請設定縮放系數或是收縮比例!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SaveButton</Keyword>
-      <Text>保存</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ClearButton</Keyword>
-      <Text>清除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CloseButton</Keyword>
-      <Text>關閉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RegisterBlockAccept</Keyword>
-      <Text>接受</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RegisterBlockAcceptAndUse</Keyword>
-      <Text>接受并使用</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockIdentityBox</Keyword>
-      <Text>請定義唯一的瓷塊編碼!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockIdentityMessageBoundaries</Keyword>
-      <Text>請在以下數值之間定義瓷塊:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockIdentityMessage</Keyword>
-      <Text>請輸入瓷塊編碼!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SucessfullyCreatedMaterialBlock</Keyword>
-      <Text>成功地注冊新瓷塊! 請用這個瓷塊編碼標示實體瓷塊:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialThumbnailIsMarkedLegacy</Keyword>
-      <Text>(剩余的) </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialThumbnailIsMarkedAsProduced</Keyword>
-      <Text>(已加工的)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibraryShowProduced</Keyword>
-      <Text>顯示已生產</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingQueueShowNestingInfo</Keyword>
-      <Text>顯示瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.Register</Keyword>
-      <Text>注冊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.Destroy</Keyword>
-      <Text>移除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.InvokeCAM</Keyword>
-      <Text>CAM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.InvokeProduction</Keyword>
-      <Text>研磨</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.DeleteCNCFile</Keyword>
-      <Text>刪除刀具軌跡文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.DeleteCNCFileQuestion</Keyword>
-      <Text>確定刪除當前存在的刀具軌跡文件嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.MarkAsCurrentState</Keyword>
-      <Text>標記已研磨</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialType.All</Keyword>
-      <Text>任何材料</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialType.Unknown</Keyword>
-      <Text>未知材料</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialType.Zirkon</Keyword>
-      <Text>氧化鋯</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialType.PMMA</Keyword>
-      <Text>PMMA</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialDescriptor.Unknown</Keyword>
-      <Text>???未知???</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialType.UnknownMaterial</Keyword>
-      <Text>_未知材料_</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyRemoveFromQueue</Keyword>
-      <Text>確定要從隊列中移除嗎? </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FixedReconstruction</Keyword>
-      <Text>固定的修復體(無法改變)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeleted</Keyword>
-      <Text>以下瓷塊文件將被刪除:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DestroyMaterialBlock</Keyword>
-      <Text>確定要從資料庫移除此瓷塊嗎?
-
-請確保此瓷塊上沒有可用的區域.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockAlreadyExists</Keyword>
-      <Text>這個瓷塊已經存在</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyDestroyReconstruction</Keyword>
-      <Text>確定要把這個修復體從嵌套中移除嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyDestroyMaterialBlock</Keyword>
-      <Text>確定要把這個瓷塊從嵌套中移除嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EnqueueAlreadyExistsDoYouWantToOverwrite</Keyword>
-      <Text>此項目已經存在于嵌套隊列里, 確定要覆蓋它嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Enqueue</Keyword>
-      <Text>列隊嵌套</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibraryDirectory</Keyword>
-      <Text>材料塊資料庫目錄: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingQueueEmpty</Keyword>
-      <Text>嵌套隊列是空的</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingQueueDir</Keyword>
-      <Text>嵌套隊列目錄: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialLibrary</Keyword>
-      <Text>瓷塊目錄 (顯示/隱藏)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingQueueInitializationFailed</Keyword>
-      <Text>無法初始化嵌套隊列, 請在'應用程序設定'中檢查嵌套隊列目錄</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Reconstruction</Keyword>
-      <Text>修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueEntryThumbnail</Keyword>
-      <Text>修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueEntryDescriptor</Keyword>
-      <Text>名稱</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueEntryPath</Keyword>
-      <Text>項目目錄</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueFileDate</Keyword>
-      <Text>添加日期</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueButtons</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ImportBlock</Keyword>
-      <Text>導入瓷塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RefreshMaterialBlockLibrary</Keyword>
-      <Text>刷新瓷塊庫</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RefreshNestingQueue</Keyword>
-      <Text>刷新隊列</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveFromQueue</Keyword>
-      <Text>從隊列中移除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadFromQueue</Keyword>
-      <Text>加載</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.UnloadFromQueue</Keyword>
-      <Text>移除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CloseNestingQueue</Keyword>
-      <Text>隱藏隊列</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ThumbnailDiameter</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ThumbnailHeight</Keyword>
-      <Text></Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsCurrentlyUsed</Keyword>
-      <Text>(當前嵌套)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsMarkedAsPossible</Keyword>
-      <Text>(當前標記)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsMarkedAsImpossible</Keyword>
-      <Text>(不適合瓷塊)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsNested</Keyword>
-      <Text>(已嵌套)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsInCNCFile</Keyword>
-      <Text>(已經在刀具軌跡中)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsProduced</Keyword>
-      <Text>(已經完成生產)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntry.IsRemoved</Keyword>
-      <Text>(已從隊列中移除)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockHasCNCFile</Keyword>
-      <Text>(刀具軌跡可用)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NewCNCFileAvailableShowQuestion</Keyword>
-      <Text>刀具軌跡文件可用. 您想要可視化它嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockLotNrMessage</Keyword>
-      <Text>請指定一個批號</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueEntryViewInfoTitle</Keyword>
-      <Text>嵌套內容信息</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeDeletedMarkedAsCurrent</Keyword>
-      <Text>以下文件將不再存在.它們現在會被刪除!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MaterialBlock.BeforeStampOut</Keyword>
-      <Text>材料塊(初始)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.UsingExistingQueueFile</Keyword>
-      <Text>嵌套隊列使用存在的文件: </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SubObjectInfo</Keyword>
-      <Text>嵌套部件信息</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SubObjectVisualize</Keyword>
-      <Text>顯示嵌套部件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>LoadNestingData</Keyword>
-      <Text>導入文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCSourceFile</Keyword>
-      <Text>刀具軌跡文件:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCStrategySelector</Keyword>
-      <Text>選擇策略:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCNCControl</Keyword>
-      <Text>創建刀具軌跡</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCNCControlExecute</Keyword>
-      <Text>開始</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCNCControlCancel</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCNCControlClose</Keyword>
-      <Text>關閉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RunCNCControlHide</Keyword>
-      <Text>隱藏</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCStrategyControlOffset</Keyword>
-      <Text>補償</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowCNC</Keyword>
-      <Text>顯示刀具軌跡</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.ShowCNC</Keyword>
-      <Text>顯示刀具軌跡</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCControl.LoadStrategyFromFile.Title</Keyword>
-      <Text>選擇刀具軌跡策略文件!</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCMachineSelector</Keyword>
-      <Text>選擇研磨儀</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCConfigureMachine</Keyword>
-      <Text>機器配置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateMaterialBlockPrototypesNowQuestion</Keyword>
-      <Text>材料庫需要刷新一次, 但是可能需要很長時間.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateMaterialBlockPrototypesCancelQuestion</Keyword>
-      <Text>您確定要取消刷新材料庫嗎? 此操作可能不能創建新的瓷塊.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCView.TimeSlider</Keyword>
-      <Text>時間</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SupportPosition</Keyword>
-      <Text>支撐桿位置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueMaterial</Keyword>
-      <Text>材料</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCViewControl.Header</Keyword>
-      <Text>刀具路徑文件</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DeleteSupport</Keyword>
-      <Text>移除支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SimulateMilling</Keyword>
-      <Text>模擬CAM結果</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCooling</Keyword>
-      <Text>水冷卻</Text>
+      <Keyword>Nesting.CreateSupports</Keyword>
+      <Text>生成支撐桿</Text>
     </Translation>
     <Translation>
       <Keyword>NestingIsCreatingPrototypes</Keyword>
@@ -934,97 +966,250 @@
       <Text>刀具路徑視圖控制</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowAxes</Keyword>
-      <Text>顯示軸向</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNC.ShowHideTool</Keyword>
-      <Text>顯示/隱藏刀具</Text>
+      <Keyword>CNCViewControl.Header</Keyword>
+      <Text>刀具路徑文件</Text>
     </Translation>
     <Translation>
       <Keyword>CNCViewControl.CNCProcessHeader</Keyword>
       <Text>加工步驟</Text>
     </Translation>
     <Translation>
-      <Keyword>CNCToolSimulation</Keyword>
-      <Text>模擬</Text>
+      <Keyword>ToolCollisionCheck</Keyword>
+      <Text>可視化刀具區域</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CNCControlRecoToolTip</Keyword>
-      <Text>SHIFT+單擊刪除</Text>
+      <Keyword>SimulateMilling</Keyword>
+      <Text>模擬CAM結果</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCView.TimeSlider</Keyword>
+      <Text>時間</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCToolSimulation</Keyword>
+      <Text>模擬</Text>
     </Translation>
     <Translation>
       <Keyword>CNC.ShowHideCNC</Keyword>
       <Text>顯示/隱藏 刀具路徑</Text>
     </Translation>
     <Translation>
-      <Keyword>MaxNestUndercut</Keyword>
-      <Text>距離(毫米):</Text>
+      <Keyword>CNC.ShowHideTool</Keyword>
+      <Text>顯示/隱藏刀具</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialLibraryShowLegacy</Keyword>
-      <Text>顯示歷史</Text>
+      <Keyword>NestingBlock.RevertHistory</Keyword>
+      <Text>取消</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CNCFileName</Keyword>
-      <Text>刀具軌跡文件名</Text>
+      <Keyword>Nesting.DeleteStabilizer</Keyword>
+      <Text>刪除加強桿</Text>
     </Translation>
     <Translation>
-      <Keyword>CNCProblem.Collision</Keyword>
-      <Text>碰撞</Text>
+      <Keyword>Nesting.ToggleStabilizerSide</Keyword>
+      <Text>切換加強板</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingOverview</Keyword>
-      <Text>嵌套預覽</Text>
+      <Keyword>NestingBlock.EnqueueForProduction</Keyword>
+      <Text>加入生產列表</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineProperties</Keyword>
-      <Text>機器屬性</Text>
-    </Translation>
-    <Translation>
-      <Keyword>SetFromAxisZ</Keyword>
-      <Text>使用Z軸</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCProblemOccured</Keyword>
-      <Text>刀具軌跡問題 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>ToolCollisionCheck</Keyword>
-      <Text>可視化刀具區域</Text>
-    </Translation>
-    <Translation>
-      <Keyword>EditReconstructionHeader</Keyword>
-      <Text>文件導入刀CAM</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingDataImportTypeContextMenu</Keyword>
-      <Text>導入類型:</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PreparationMarginBottom</Keyword>
-      <Text>底部</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ClearButton.ToolTip</Keyword>
-      <Text>鼠標點擊“清除”刪除嵌套中的所有設計. 
-右鍵點擊“清除”按鍵刪除嵌套中的瓷塊.</Text>
+      <Keyword>Nesting.CNCControlRecoToolTip</Keyword>
+      <Text>SHIFT+單擊刪除</Text>
     </Translation>
     <Translation>
       <Keyword>FilterStrategyMaterial</Keyword>
       <Text>材料過濾</Text>
     </Translation>
     <Translation>
+      <Keyword>Nesting.ColumnHeaderNestingQueueMaterial</Keyword>
+      <Text>材料</Text>
+    </Translation>
+    <Translation>
       <Keyword>Nesting.FilterByMaterial</Keyword>
       <Text>過濾材料</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CNCSimulationTransparency</Keyword>
-      <Text>模擬</Text>
+      <Keyword>MaterialType.ByReconstructions</Keyword>
+      <Text>設計</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ToolTable</Keyword>
-      <Text>刀具庫</Text>
+      <Keyword>Nesting.QueueHideImpossible</Keyword>
+      <Text>隱藏太多</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowAxes</Keyword>
+      <Text>顯示軸</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MaxNestUndercut</Keyword>
+      <Text>距離(毫米):</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.EstimateUndercuts</Keyword>
+      <Text>估計倒凹</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerUseRotationQuestion</Keyword>
+      <Text>你要保持當前加強板的方向嗎？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.IsSupportUsedForNextStabilizer</Keyword>
+      <Text>連接下一個加強板</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StabilizerInvalidCannotBeSaved</Keyword>
+      <Text>加強板創建不正確，CAM無法存儲。你想從嵌套里刪除它嗎？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CreateStabilizers.ToolTip</Keyword>
+      <Text>按住SHIFT鍵在對側創建加強板.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDisconnectPercentage</Keyword>
+      <Text>切割比例</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
+      <Text>瓷塊(可用的)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockTransponderReactivateQuestion</Keyword>
+      <Text>瓷塊信息還是完整的確定要激活嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportPosition</Keyword>
+      <Text>支撐桿位置</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.DeleteSupport</Keyword>
+      <Text>移除支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>MachineOn</Keyword>
+      <Text>啟動機器</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowNestingQueue.ToolTip</Keyword>
+      <Text>顯示準備嵌套的修復體全部窗口.
+提示: 導入文件到嵌套隊列, 你可以用鼠標從資源管理器拖動文件到此位置添加它們到嵌套隊列</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ClearButton.ToolTip</Keyword>
+      <Text>鼠標左鍵點擊”清除“按鍵刪除嵌套中的所有設計. 
+鼠標右鍵點擊“清除”按鍵刪除嵌套中的瓷塊.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialLibraryShowLegacy</Keyword>
+      <Text>顯示歷史</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameterFromTopOrBottom</Keyword>
+      <Text>支撐桿直徑（Ctrl+Shift 添加）</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccuredWarningMessage</Keyword>
+      <Text>警告: 刀具軌跡計算時出錯; 可能會引起生產問題. </Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblemOccured</Keyword>
+      <Text>刀具軌跡問題 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemCancelProduction</Keyword>
+      <Text>取消使用此刀具軌跡的文件生產 (推薦)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCProblemContinueProduction</Keyword>
+      <Text>繼續用此刀具軌跡文件的生產 (危險)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.GenericCollisionOrToolSizeProblem</Keyword>
+      <Text>碰撞或刀具長度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>CNCProblem.Collision</Keyword>
+      <Text>碰撞</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ReactivateFixedConstruction</Keyword>
+      <Text>再次激活允許更改</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RollBack</Keyword>
+      <Text>返回？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockRevertToPreviousStateQuestion</Keyword>
+      <Text>您想恢復此材料到它的先前狀況嗎?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CNCFileName</Keyword>
+      <Text>刀具軌跡文件名</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingOverview</Keyword>
+      <Text>嵌套預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestedReconstructions</Keyword>
+      <Text>嵌套設計</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingQueueFiles</Keyword>
+      <Text>嵌套隊列項目</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.LoadedUnknownMaterialBlockType</Keyword>
+      <Text>載入瓷塊的類型未知. 此材料庫可能是過時的, 或此瓷塊文件太舊. 請重新創建瓷塊類型 (單擊 '創建新瓷塊')</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowFeatureLines</Keyword>
+      <Text>顯示設計的邊緣</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FilterByProjectName</Keyword>
+      <Text>目錄名稱</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ErrorNestingNestingModuleNotActivated</Keyword>
+      <Text>錯誤: 嵌套模塊沒有在此加密狗上激活 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PleaseSelectStrategy</Keyword>
+      <Text>請選擇策略</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion</Keyword>
+      <Text>這將從瓷塊剪切下材料并刪除設計. 請確認實體瓷塊在此位置已經被研磨.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.OnlyCNC</Keyword>
+      <Text>只刪除有計算刀具路徑的設計。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.StampOutReconstructionQuestion.All</Keyword>
+      <Text>移除所有設計</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.RemoveConstructionFromNestingThatIsInCNCQuestion</Keyword>
+      <Text>設計數據已經在CNC文件內. 你可以刪除此CNC文件或者從瓷塊中剪切下此設計.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCooling</Keyword>
+      <Text>水冷卻</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineProperties</Keyword>
+      <Text>機器屬性</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion</Keyword>
+      <Text>此機器是否可用水冷卻?</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous</Keyword>
+      <Text>應該使用哪種機器類型?</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes</Keyword>
@@ -1035,132 +1220,124 @@
       <Text>沒有水冷卻</Text>
     </Translation>
     <Translation>
+      <Keyword>Nesting.WaterCoolingFlagQuestion.QueryMachineSoftware</Keyword>
+      <Text>詢問機器軟件.</Text>
+    </Translation>
+    <Translation>
       <Keyword>Nesting.WaterCoolingDefaultSetting</Keyword>
       <Text>水冷卻緩存</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolName</Keyword>
-      <Text>刀具名</Text>
+      <Keyword>Nesting.CorrectInclination</Keyword>
+      <Text>維持傾斜度界限</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolLength</Keyword>
-      <Text>刀具長度</Text>
+      <Keyword>Nesting.CorrectInclination.Description</Keyword>
+      <Text>自動旋轉嵌套配件可以在機器限制角度內改變其傾斜度.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetAdd</Keyword>
-      <Text>添加刀具</Text>
+      <Keyword>Nesting.ResetInclination</Keyword>
+      <Text>重置傾斜度</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetRemove</Keyword>
-      <Text>刪除刀具</Text>
+      <Keyword>Nesting.ResetInclination.Description</Keyword>
+      <Text>重置到零傾斜度 (垂直研磨).</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetUp</Keyword>
-      <Text>向上</Text>
+      <Keyword>Nesting.Reset4Axis</Keyword>
+      <Text>重置為4軸研磨</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetDown</Keyword>
-      <Text>向下</Text>
+      <Keyword>Nesting.Reset4Axis.Description</Keyword>
+      <Text>自動旋轉嵌套配件可以調整4軸機器的研磨軸</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetReject</Keyword>
-      <Text>取消</Text>
+      <Keyword>Nesting.ResetNestAxesButton</Keyword>
+      <Text>重置研磨軸</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CreateMachineToolInLibrary</Keyword>
-      <Text>創建刀具</Text>
+      <Keyword>Nesting.FixNestAxesQuestion</Keyword>
+      <Text>自動旋轉嵌套文件？</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.RemoveMachineToolFromLibrary</Keyword>
-      <Text>刪除刀具</Text>
+      <Keyword>NestingDoesNotWorkForPartsThatWereNotSaved</Keyword>
+      <Text>嵌套文件沒有被保存. 確定要繼續嗎?</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolEditor</Keyword>
-      <Text>機器刀具編輯器</Text>
+      <Keyword>Nesting.FilterMaterialBlocksByMachine</Keyword>
+      <Text>按照機器過濾</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ToolLibraryView</Keyword>
-      <Text>顯示/隱藏刀具庫</Text>
+      <Keyword>Nesting.MachineInstallationIssue</Keyword>
+      <Text>警告：機器配置不可用</Text>
     </Translation>
     <Translation>
-      <Keyword>MachineToolSettings</Keyword>
-      <Text>定義刀具參數</Text>
+      <Keyword>Nesting.MachineIsNotConfiguredForInterop</Keyword>
+      <Text>警告: 選擇的機器類型沒有被exocam設置好, 任何未知機器不能使用并嵌套刀路計算. 請聯系您的軟件供應商來使用選擇的機器.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ImportConstructionButton</Keyword>
-      <Text>導入</Text>
+      <Keyword>Nesting.MachineNotAvailableForToothPathCalculation</Keyword>
+      <Text>警告: 選擇的機器沒有安裝exocam刀具路徑計算. 請聯系您的軟件供應商來使用選擇的機器.</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingDataImportWarningContextMenu</Keyword>
-      <Text>導入警告:</Text>
+      <Keyword>Nesting.MachineFromSceneFileDoesNotExist</Keyword>
+      <Text>警告: 載入的場景文件中的機器沒有設置此軟件. 請選擇合適的機器.</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingBlock.PrintOverview</Keyword>
-      <Text>打印總覽圖</Text>
+      <Keyword>NestingInterOpImportUnknownMachinesWarning</Keyword>
+      <Text>未知的機器顯示嵌套警告.</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingBlock.ShowOverview</Keyword>
-      <Text>顯示總覽圖</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting_EditReconstruction_ModifyMarginsButton.Text</Keyword>
-      <Text>更改邊緣</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting_EditReconstruction_AddPreparationMarginButton.Text</Keyword>
-      <Text>添加邊緣</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingFileImportHelp</Keyword>
-      <Text>請檢查所有邊緣線是否正確設定.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DeleteStabilizer</Keyword>
-      <Text>刪除加強板</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ToggleStabilizerSide</Keyword>
-      <Text>反轉加強板方向</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CreateStabilizers.ToolTip</Keyword>
-      <Text>按住SHIFT鍵在對側創建加強板.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SupportDisconnectPercentage</Keyword>
-      <Text>切除比例</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCProblem.GenericCollisionOrToolSizeProblem</Keyword>
-      <Text>碰撞或刀具長度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestedReconstructions</Keyword>
-      <Text>嵌套設計</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FilterByProjectName</Keyword>
-      <Text>目錄名稱</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PleaseSelectStrategy</Keyword>
-      <Text>請選擇策略</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCoolingFlagQuestion</Keyword>
-      <Text>此機器是否可用水冷卻?</Text>
+      <Keyword>Nesting.SelectedMachineTypeWasInvalid</Keyword>
+      <Text>請檢查選擇的機器</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.CNCConfigureMachineTools</Keyword>
-      <Text>配置工具...</Text>
+      <Text>配置工具</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.CNCConstructionTransparency</Keyword>
       <Text>設計</Text>
     </Translation>
     <Translation>
+      <Keyword>Nesting.CNCSimulationTransparency</Keyword>
+      <Text>模擬</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportInMiddle</Keyword>
+      <Text>切掉支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.CutSupportOnReconstruction</Keyword>
+      <Text>修剪支撐到表面</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InfoClickSupports</Keyword>
+      <Text>點擊支撐桿應用新的設置</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InfoClickReconstruction</Keyword>
+      <Text>點擊修復體添加支撐桿</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.InfoArrangeByMouse</Keyword>
+      <Text>拖動修復體放置于期望的位置.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTableCopyToClipboard</Keyword>
+      <Text>復制到剪貼板</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ToolTable</Keyword>
+      <Text>刀具庫</Text>
+    </Translation>
+    <Translation>
       <Keyword>Nesting.ToolTableEmpty</Keyword>
       <Text>空的刀具庫</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FreeToolSlot</Keyword>
+      <Text> - 空 - </Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.ToolSetConfigurationName</Keyword>
@@ -1175,48 +1352,96 @@
       <Text>刪除配置</Text>
     </Translation>
     <Translation>
+      <Keyword>Nesting.MachineToolSlot</Keyword>
+      <Text>刀具夾槽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolName</Keyword>
+      <Text>刀具名</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolType</Keyword>
+      <Text>刀具形狀</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolDiameter</Keyword>
+      <Text>刀具直徑</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolFluteLength</Keyword>
+      <Text>刀具凹槽長度 (工作區)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftLength</Keyword>
+      <Text>刀具柄長度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameter</Keyword>
+      <Text>刀具柄直徑</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLength</Keyword>
+      <Text>刀具長度</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolArbor</Keyword>
+      <Text>刀具刀桿頭(工作區幾何體)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolInvalidArborWarning</Keyword>
+      <Text>警告: 刀具刀頭似乎無效.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolLengthIncompatible</Keyword>
+      <Text>警告: 刀具長度好像與當前機器不兼容.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolShaftDiameterIncompatible</Keyword>
+      <Text>警告: 刀具柄直徑好像與當前機器不兼容.</Text>
+    </Translation>
+    <Translation>
       <Keyword>Nesting.MachineToolDescription</Keyword>
       <Text>刀具描述</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetReplace</Keyword>
+      <Text>更換機器內的刀具</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetAdd</Keyword>
+      <Text>添加刀具</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetRemove</Keyword>
+      <Text>去除工具</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetUp</Keyword>
+      <Text>向上</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineToolSetDown</Keyword>
+      <Text>向下</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.MachineToolSetAccept</Keyword>
       <Text>接受配置</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.CloneMachineToolFromLibrary</Keyword>
-      <Text>拷貝刀具</Text>
+      <Keyword>Nesting.MachineToolSetReject</Keyword>
+      <Text>取消</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolWithSameNameAlreadyExists</Keyword>
-      <Text>同名刀具已存在.</Text>
+      <Keyword>Nesting.PleaseEnterMachineToolSetConfigurationName</Keyword>
+      <Text>請為刀具配置給入描述名稱.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ReallyRemoveMachineToolQuestion</Keyword>
-      <Text>您真想從刀具庫中刪除此刀具嗎?</Text>
+      <Keyword>Nesting.InvalidMachineToolSetConfiguration</Keyword>
+      <Text>無效的機器刀具配置</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolSetConfigurator</Keyword>
-      <Text>調整機器刀具配置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCStrategyParameter</Keyword>
-      <Text>策略參數</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingPreparationMargin.FoundLine</Keyword>
-      <Text>找到的邊緣</Text>
-    </Translation>
-    <Translation>
-      <Keyword>HintNestingPreparationMarginDetection2</Keyword>
-      <Text>設計的邊緣</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Rotate4Axis180</Keyword>
-      <Text>旋轉180度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>DeleteMachineConfigurationQuestion</Keyword>
-      <Text>確定要刪除選擇的機器刀具配置嗎?</Text>
+      <Keyword>Nesting.WarningMachineToolIsIncompatibleToMachine</Keyword>
+      <Text>警告: 刀具配置好像與機器不兼容 (例如 無效的刀具長度或刀柄直徑).</Text>
     </Translation>
     <Translation>
       <Keyword>MachineToolSetConfiguration</Keyword>
@@ -1235,77 +1460,191 @@
       <Text>確定要刪除此存在的配置嗎?</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ReactivateFixedConstruction</Keyword>
-      <Text>再次激活允許更改</Text>
+      <Keyword>Nesting.CreateMachineToolInLibrary</Keyword>
+      <Text>創建刀具</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.InvalidMachineToolSetConfiguration</Keyword>
-      <Text>無效的機器刀具配置</Text>
+      <Keyword>Nesting.RemoveMachineToolFromLibrary</Keyword>
+      <Text>去除刀具</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.FreeToolSlot</Keyword>
-      <Text> - 空 - </Text>
+      <Keyword>Nesting.CloneMachineToolFromLibrary</Keyword>
+      <Text>拷貝刀具</Text>
     </Translation>
     <Translation>
-      <Keyword>MaterialType.ByReconstructions</Keyword>
-      <Text>設計</Text>
+      <Keyword>Nesting.MachineToolWithSameNameAlreadyExists</Keyword>
+      <Text>同名刀具已存在.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.QueueHideImpossible</Keyword>
-      <Text>隱藏太多</Text>
+      <Keyword>Nesting.ReallyRemoveMachineToolQuestion</Keyword>
+      <Text>您真想從刀具庫中刪除此刀具嗎?</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowNestingQueue.ToolTip</Keyword>
-      <Text>窗口顯示全部準備嵌套的修復體.
-提示: 導入文件到嵌套隊列, 你可以用鼠標從資源管理器拖動文件到此位置添加到嵌套隊列</Text>
+      <Keyword>Nesting.MachineToolEditor</Keyword>
+      <Text>機器刀具編輯器</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.SupportDiameterFromTopOrBottom</Keyword>
-      <Text>燒結桿直徑（Ctrl+Shift 添加）</Text>
+      <Keyword>Nesting.MachineToolSetConfigurator</Keyword>
+      <Text>調整機器刀具配置</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting_EditReconstruction_SetNoneButton.Text</Keyword>
-      <Text>僅預覽</Text>
+      <Keyword>Nesting.ToolLibraryView</Keyword>
+      <Text>顯示/隱藏刀具庫</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.AllowEditMarginByMouse</Keyword>
-      <Text>用鼠標編輯邊緣</Text>
+      <Keyword>MachineToolSettings</Keyword>
+      <Text>定義刀具參數</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ChangeConstructionType</Keyword>
-      <Text>改變設計類型</Text>
+      <Keyword>DeleteMachineConfigurationQuestion</Keyword>
+      <Text>確定要刪除選擇的機器刀具配置嗎?</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowReconstructionSelectionMessageBox.CurrentSelected</Keyword>
-      <Text>當前類型</Text>
+      <Keyword>OverwriteMachineConfigurationQuestion</Keyword>
+      <Text>確定要覆蓋選擇的機器刀具配置嗎?</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.UndefinedReconstructionType</Keyword>
-      <Text>未知/ 不支持</Text>
+      <Keyword>NestingMachineToolPathCalculationBy</Keyword>
+      <Text>刀具路徑</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.GlassHolderSlot1</Keyword>
-      <Text>中間 - 1</Text>
+      <Keyword>CNCStrategyParameter</Keyword>
+      <Text>策略參數</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.GlassHolderSlot2</Keyword>
-      <Text>左 - 2</Text>
+      <Keyword>Nesting.ImportConstructionButton</Keyword>
+      <Text>導入</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.GlassHolderSlot3</Keyword>
-      <Text>右 - 3</Text>
+      <Keyword>Nesting.ImportConstructionButtoningQueue.ToolTip</Keyword>
+      <Text>直接手動導入修復體文件到嵌套而不通過嵌套隊列. 
+提示: 您也可從資源管理器通過鼠標拖動文件到此界面或直接從3D嵌套界面導入.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnail</Keyword>
-      <Text>夾槽</Text>
+      <Keyword>Nesting.ImportNotPossibleForSelectedFiles</Keyword>
+      <Text>某些選擇的文件類型不能導入到嵌套</Text>
     </Translation>
     <Translation>
-      <Keyword>DentalProcessors.NestingPreparationMargin.Title</Keyword>
-      <Text>嵌套導入邊緣檢測</Text>
+      <Keyword>NestingDataImportWarning</Keyword>
+      <Text>嵌套導入外部數據時出現錯誤.
+此導入的文件不推薦研磨.
+執意研磨自擔風險!</Text>
     </Translation>
     <Translation>
-      <Keyword>ClickOnNestingPreparationMargin</Keyword>
-      <Text>單擊邊緣</Text>
+      <Keyword>NestingDataImportError</Keyword>
+      <Text>嵌套導入外部數據時出錯. 抱歉, 此數據集不可以導入.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportTypeContextMenu</Keyword>
+      <Text>導入類型:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingDataImportWarningContextMenu</Keyword>
+      <Text>導入警告:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FoundInvalidSupportsReallyContinue</Keyword>
+      <Text>嵌套內存在無效的支撐桿(紅色標示). 
+如果確定繼續, 刀具路徑計算時可能出錯或研磨結果很差.
+
+確定要繼續嗎? (不推薦此操作)</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed</Keyword>
+      <Text>執行4-軸模式加工</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MovementKeeps4AxisFixed.ToolTip</Keyword>
+      <Text>如果激活, 相對于機器限定軸此軟件不允許手動旋修復體的加工軸.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AbutmentTop</Keyword>
+      <Text>Custom Abutment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CrownBottom</Keyword>
+      <Text>Crown</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InlayBottom</Keyword>
+      <Text>Inlay/Veneer</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.BiteSplint</Keyword>
+      <Text>BiteSplint</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ReducedWaxup</Keyword>
+      <Text>ReducedWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Attachment</Keyword>
+      <Text>Attachment</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.PrimaryTelescope</Keyword>
+      <Text>Telescope</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.AnatomicWaxup</Keyword>
+      <Text>AnatomicWaxup</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Coping</Keyword>
+      <Text>Coping</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.CylinderCutting</Keyword>
+      <Text>Screw Channel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantDescriptor</Keyword>
+      <Text>Implant Info</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutHex</Keyword>
+      <Text>OutHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InHex</Keyword>
+      <Text>InHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.OutNoHex</Keyword>
+      <Text>OutNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InNoHex</Keyword>
+      <Text>InNoHex</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceConical</Keyword>
+      <Text>InterfaceConical</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.InterfaceParallel</Keyword>
+      <Text>InterfaceParallel</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Manual</Keyword>
+      <Text>Manual implant</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeContextMenu</Keyword>
+      <Text>可視化倒凹</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SurfaceVisualizationModeRefreshAllQuestion</Keyword>
+      <Text>您想可視化所有嵌套的修復體倒凹嗎?
+提示: 您可以通過鼠標下拉菜單選項: '可視化倒凹' 刷新修復體的顯像</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AssignMaterialBlockSlotNumber</Keyword>
+      <Text>請選擇夾槽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
+      <Text>夾槽號</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.ShowEditReconstructionControlContextMenu</Keyword>
@@ -1320,100 +1659,136 @@
       <Text>關閉編輯修復體窗口 ...</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.EditReconstructionControl.RejectChanges</Keyword>
-      <Text>拒絕并放棄所有更改</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingImportObject</Keyword>
-      <Text>嵌套導入設計</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.ShowInExplorer</Keyword>
-      <Text>在資源管理器中顯示</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowReconstructionSelectionMessageBox</Keyword>
-      <Text>請選擇設計的修復體類型</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting_EditReconstruction_SetInsertionDirectionButton.Text</Keyword>
-      <Text>設定就位方向</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSlotID</Keyword>
-      <Text>夾槽號</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockSlotNumber</Keyword>
-      <Text>請選擇夾具夾槽</Text>
-    </Translation>
-    <Translation>
       <Keyword>Nesting.EditReconstructionControl.AcceptChanges</Keyword>
       <Text>接受并在當前的嵌套中使用所有更改</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingMachineToolPathCalculationBy</Keyword>
-      <Text>刀具路徑</Text>
+      <Keyword>Nesting.EditReconstructionControl.RejectChanges</Keyword>
+      <Text>拒絕并放棄所有更改</Text>
     </Translation>
     <Translation>
-      <Keyword>OverwriteMachineConfigurationQuestion</Keyword>
-      <Text>確定要覆蓋選擇的機器刀具配置嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PleaseEnterMachineToolSetConfigurationName</Keyword>
-      <Text>請為刀具配置給入描述名稱.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolSlot</Keyword>
-      <Text>刀具夾槽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolType</Keyword>
-      <Text>刀具形狀</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolDiameter</Keyword>
-      <Text>刀具直徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolShaftLength</Keyword>
-      <Text>刀具柄長度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolShaftDiameter</Keyword>
-      <Text>刀具柄直徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolSetReplace</Keyword>
-      <Text>更換機器內的刀具</Text>
-    </Translation>
-    <Translation>
-      <Keyword>HintNestingPreparationMarginDetection1</Keyword>
-      <Text>設定至少4點來定義</Text>
+      <Keyword>Nesting.Rotate4Axis180</Keyword>
+      <Text>旋轉180度</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.Rotate4Axis180.Description</Keyword>
       <Text>圍繞Z軸旋轉180度來改善大小但保持4軸界限.</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingViewRotationAngle</Keyword>
-      <Text>旋轉視圖角度</Text>
+      <Keyword>NestingImportObject</Keyword>
+      <Text>嵌套導入設計</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingValueFromInterop</Keyword>
-      <Text>(互用性)</Text>
+      <Keyword>ClickOnNestingPreparationMargin</Keyword>
+      <Text>單擊邊緣</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.ShowBlock</Keyword>
-      <Text>顯示瓷塊</Text>
+      <Keyword>HintNestingPreparationMarginDetection1</Keyword>
+      <Text>設定至少4點來定義</Text>
+    </Translation>
+    <Translation>
+      <Keyword>HintNestingPreparationMarginDetection2</Keyword>
+      <Text>設計的邊緣</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingPreparationMargin.FoundLine</Keyword>
+      <Text>找到的邊緣</Text>
+    </Translation>
+    <Translation>
+      <Keyword>DentalProcessors.NestingPreparationMargin.Title</Keyword>
+      <Text>嵌套導入邊緣檢測</Text>
+    </Translation>
+    <Translation>
+      <Keyword>GeneratedOn</Keyword>
+      <Text>生成時間 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowInExplorer</Keyword>
+      <Text>在資源管理器中顯示</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.ShowOverview</Keyword>
+      <Text>顯示總覽圖</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.PrintOverview</Keyword>
+      <Text>打印總覽圖</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnail</Keyword>
+      <Text>夾槽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot1</Keyword>
+      <Text>中間 - I</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot2</Keyword>
+      <Text>左 - 2</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.GlassHolderSlot3</Keyword>
+      <Text>右 - 3</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.UndefinedReconstructionType</Keyword>
+      <Text>未知/ 不支持</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBoxHeader</Keyword>
+      <Text>選擇類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox</Keyword>
+      <Text>請選擇設計的修復體類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ShowReconstructionSelectionMessageBox.CurrentSelected</Keyword>
+      <Text>當前類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ChangeConstructionType</Keyword>
+      <Text>改變設計類型</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AllowEditMarginByMouse</Keyword>
+      <Text>用鼠標編輯邊緣</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.AddNewPreparationMarginToReconstructionQuestion</Keyword>
+      <Text>您想接受此修復體定義的邊緣嗎? 請注意此操作不可恢復, 但預備邊緣和就位方向以后可以調整.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.PreparationMarginBottom</Keyword>
+      <Text>底部</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetNoneButton.Text</Keyword>
+      <Text>僅預覽</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_SetInsertionDirectionButton.Text</Keyword>
+      <Text>設定就位方向</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_ModifyMarginsButton.Text</Keyword>
+      <Text>更改邊緣</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting_EditReconstruction_AddPreparationMarginButton.Text</Keyword>
+      <Text>添加邊緣</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting_EditReconstruction_SetOcclusalDirectionButton.Text</Keyword>
       <Text>設定咬合面的方向</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingSetInsertionDirectionHelp</Keyword>
-      <Text>用下面的按鈕設定就位方向</Text>
+      <Keyword>EditReconstructionHeader</Keyword>
+      <Text>文件導入刀CAM</Text>
+    </Translation>
+    <Translation>
+      <Keyword>SetFromAxisZ</Keyword>
+      <Text>使用Z軸</Text>
     </Translation>
     <Translation>
       <Keyword>ObjectLoadedWithoutMargins</Keyword>
@@ -1428,251 +1803,28 @@
 作為替代方法, 您必須使用下面的 "添加邊緣" 按鈕手動定義邊緣線 .</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingDataImportError</Keyword>
-      <Text>嵌套導入外部數據時出錯. 抱歉, 此數據集不可以導入.</Text>
+      <Keyword>NestingSetInsertionDirectionHelp</Keyword>
+      <Text>用下面的按鈕設定就位方向</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingDataImportWarning</Keyword>
-      <Text>嵌套導入外部數據時出現錯誤.
-此導入的文件不推薦研磨.
-執意研磨自擔風險!</Text>
+      <Keyword>NestingFileImportHelp</Keyword>
+      <Text>請檢查所有邊緣線是否正確設定.</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolArbor</Keyword>
-      <Text>刀具刀桿頭(工作區幾何體)</Text>
+      <Keyword>Nesting.ShowBlock</Keyword>
+      <Text>顯示瓷塊</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolInvalidArborWarning</Keyword>
-      <Text>警告: 刀具刀頭似乎無效.</Text>
+      <Keyword>NestingValueFromInterop</Keyword>
+      <Text>(互用性)</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.MachineToolFluteLength</Keyword>
-      <Text>刀具凹槽長度 (工作區)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingInterOpImportUnknownMachinesWarning</Keyword>
-      <Text>未知的機器顯示嵌套警告.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.EnqueueForProduction</Keyword>
-      <Text>加入生產列表</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.RevertHistory</Keyword>
-      <Text>撤銷</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EstimateUndercuts</Keyword>
-      <Text>可視化倒凹/角度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockTransponderActive</Keyword>
-      <Text>瓷塊(可用的)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCProblemCancelProduction</Keyword>
-      <Text>取消使用此刀具軌跡文件進行生產 (推薦)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCProblemContinueProduction</Keyword>
-      <Text>繼續用此刀具軌跡文件生產 (危險)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockRevertToPreviousStateQuestion</Keyword>
-      <Text>您想恢復此材料到它的先前狀況嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowFeatureLines</Keyword>
-      <Text>顯示設計的邊緣</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCoolingFlagQuestion.QueryMachineSoftware</Keyword>
-      <Text>詢問機器軟件.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ResetInclination</Keyword>
-      <Text>重置傾斜度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CorrectInclination</Keyword>
-      <Text>維持傾斜度界限</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ResetInclination.Description</Keyword>
-      <Text>重置到零傾斜度 (垂直研磨).</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ToolTableCopyToClipboard</Keyword>
-      <Text>復制到剪貼板</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MovementKeeps4AxisFixed</Keyword>
-      <Text>執行4-軸模式加工</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AddNewPreparationMarginToReconstructionQuestion</Keyword>
-      <Text>您想接受此修復體定義的邊緣嗎? 請注意此操作不可恢復, 但預備邊緣和就位方向以后可以調整.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ImportConstructionButtoningQueue.ToolTip</Keyword>
-      <Text>直接手動導入修復體文件到嵌套而不通過嵌套隊列. 
-提示: 您也可從資源管理器通過鼠標拖動文件到此界面或直接從3D嵌套界面導入.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ImportNotPossibleForSelectedFiles</Keyword>
-      <Text>所選擇的文件類型不能導入到嵌套</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FoundInvalidSupportsReallyContinue</Keyword>
-      <Text>嵌套內存在無效的支撐桿(紅色標示). 
-如果確定繼續, 刀具路徑計算時可能出錯或研磨結果很差.
-
-確定要繼續嗎? (不推薦此操作)</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MovementKeeps4AxisFixed.ToolTip</Keyword>
-      <Text>如果激活, 相對于機器限定軸此軟件不允許手動旋修復體的加工軸.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SurfaceVisualizationModeContextMenu</Keyword>
-      <Text>可視化倒凹</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SurfaceVisualizationModeRefreshAllQuestion</Keyword>
-      <Text>您想可視化所有嵌套的修復體倒凹嗎?
-提示: 您可以通過鼠標下拉菜單選項: '可視化倒凹' 刷新修復體的顯像</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockTransponderReactivateQuestion</Keyword>
-      <Text>瓷塊信息還是完整的確定要激活嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CNCProblemOccuredWarningMessage</Keyword>
-      <Text>警告: 刀具軌跡計算時出錯; 可能會引起生產問題. </Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingQueueFiles</Keyword>
-      <Text>嵌套隊列項目</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ErrorNestingNestingModuleNotActivated</Keyword>
-      <Text>錯誤: 嵌套模塊沒有在此加密狗上激活 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedUnknownMaterialBlockType</Keyword>
-      <Text>載入瓷塊的類型未知. 此材料庫可能是過時的, 或此瓷塊文件太舊. 請重新創建瓷塊類型 (單擊 '創建新瓷塊')</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveConstructionFromNestingThatIsInCNCQuestion</Keyword>
-      <Text>設計數據已經在CNC文件內. 你可以刪除此CNC文件或者從瓷塊中剪切下此設計.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutReconstructionQuestion</Keyword>
-      <Text>這將從瓷塊剪切下材料并刪除設計. 請確認實體瓷塊在此位置已經被研磨.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous</Keyword>
-      <Text>應該使用哪種機器類型?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Reset4Axis</Keyword>
-      <Text>重置為4軸研磨</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ResetNestAxesButton</Keyword>
-      <Text>重置研磨軸</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FixNestAxesQuestion</Keyword>
-      <Text>自動旋轉嵌套文件？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FilterMaterialBlocksByMachine</Keyword>
-      <Text>按照機器過濾</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WarningMachineToolIsIncompatibleToMachine</Keyword>
-      <Text>警告: 刀具配置好像與機器不兼容 (例如 無效的刀具長度或刀柄直徑).</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CorrectInclination.Description</Keyword>
-      <Text>自動旋轉嵌套配件可以在機器限制角度內改變其傾斜度.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Reset4Axis.Description</Keyword>
-      <Text>自動旋轉嵌套配件對齊研磨方向到4軸機器。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingDoesNotWorkForPartsThatWereNotSaved</Keyword>
-      <Text>嵌套文件沒有被保存. 確定要繼續嗎?</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CutSupportOnReconstruction</Keyword>
-      <Text>修剪支撐到表面</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CutSupportInMiddle</Keyword>
-      <Text>從中間切掉支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SelectedMachineTypeWasInvalid</Keyword>
-      <Text>請檢查選擇的機器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineFromSceneFileDoesNotExist</Keyword>
-      <Text>警告: 載入的場景文件中的機器沒有配置此軟件. 請手動選擇合適的機器.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineNotAvailableForToothPathCalculation</Keyword>
-      <Text>警告: 選擇的機器沒有安裝exocam刀具路徑計算. 請聯系您的軟件供應商來使用選擇的機器.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineIsNotConfiguredForInterop</Keyword>
-      <Text>警告: 選擇的機器類型沒有被exocam設置好, 任何未知機器不能使用并嵌套刀路計算. 請聯系您的軟件供應商來使用選擇的機器.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolLengthIncompatible</Keyword>
-      <Text>警告: 刀具長度好像與當前機器不兼容.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineToolShaftDiameterIncompatible</Keyword>
-      <Text>警告: 刀具柄直徑好像與當前機器不兼容.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>FixNestAxes</Keyword>
-      <Text>固定軸</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StabilizerUseRotationQuestion</Keyword>
-      <Text>你要保持當前加強板的方向嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.IsSupportUsedForNextStabilizer</Keyword>
-      <Text>連接下一個加強板</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StabilizerInvalidCannotBeSaved</Keyword>
-      <Text>加強板創建不正確，CAM無法存儲。你想從嵌套里刪除它嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SetCurrentNotPossibleWithCurrentLoadedBlock</Keyword>
-      <Text>當前加載的瓷塊不可設置為“標記為已使用”，請確定需要加載的和已加載的瓷塊不是相同的編號，然后重試。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutReconstructionQuestion.OnlyCNC</Keyword>
-      <Text>只刪除有計算刀具路徑的設計。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutReconstructionQuestion.All</Keyword>
-      <Text>移除所有設計</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ReconstructionSelector</Keyword>
-      <Text>選擇設計：</Text>
+      <Keyword>NestingViewRotationAngle</Keyword>
+      <Text>旋轉視圖角度</Text>
     </Translation>
     <Translation>
       <Keyword>NestingEmbeddedWindowClosingQuestion</Keyword>
-      <Text>你要關閉應用程序或返回設計過程嗎？</Text>
+      <Text>你要關閉應用程序或返回運行CAD嗎？</Text>
     </Translation>
     <Translation>
       <Keyword>NestingEmbeddedWindowReturnToCAD</Keyword>
@@ -1704,24 +1856,34 @@
     </Translation>
     <Translation>
       <Keyword>NestingFileImportHelp.ModifyMargins</Keyword>
-      <Text>可以點擊鼠標修改邊緣線或完成修改后點擊“下一步”</Text>
+      <Text>可以點擊鼠標修改已存在的邊緣線</Text>
     </Translation>
     <Translation>
       <Keyword>NestingFileImportHelp.SetInsertion</Keyword>
-      <Text>請定義修復體的就位方向。
-
-      提示：
-1.插入方向可以通過拖動箭頭或使用下面三個按鈕進行修改。
-
-2.綠色箭頭標記插入方向，藍色表示z軸。</Text>
+      <Text>通過移動箭頭修改就位方向  
+或者使用下面的三個按鈕。</Text>
     </Translation>
     <Translation>
       <Keyword>NestingFileImportHelp.SetOcclusal</Keyword>
-      <Text>輔助研磨方向 可以通過移動箭頭進行修改， 或者使用下面的三個按鈕。</Text>
+      <Text>輔助研磨方向 
+可以通過移動箭頭進行修改， 
+或者使用下面的三個按鈕。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>FixNestAxes</Keyword>
+      <Text>固定軸</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Material</Keyword>
+      <Text>材料</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.ImplantGeometry</Keyword>
+      <Text>ImplantGeometry</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.ImportBlockQuestion</Keyword>
-      <Text>導入材料塊？</Text>
+      <Text>導入材料塊</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.AssignMaterialColor</Keyword>
@@ -1729,15 +1891,55 @@
     </Translation>
     <Translation>
       <Keyword>NestingBlock.SlotsInProductionQueue</Keyword>
-      <Text>在生產隊列中的夾槽</Text>
+      <Text>在生產隊列中的位置</Text>
     </Translation>
     <Translation>
-      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrent</Keyword>
-      <Text>現在將以下材料塊標記為使用狀態。請確保它已經用于生產。</Text>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrentHelp</Keyword>
+      <Text>瓷塊已被標記為使用過。請確認您選擇的瓷塊與實物瓷塊是一樣的狀態！ 
+
+瓷塊狀態將被設定為當前狀態</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrentHelpPlural</Keyword>
+      <Text>瓷塊已被標記為使用過。請確認您選擇的瓷塊與實物瓷塊是一樣的狀態！ 
+
+下列瓷塊將被設置為當前狀態：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MetaData.Bar</Keyword>
+      <Text>Bar</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ReconstructionSelector</Keyword>
+      <Text>選擇設計：</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.DirectoriesWithNoValidDataDetectedDeleteQuestion</Keyword>
       <Text>嵌套庫被檢測到其中包含無效的嵌套數據。你想要刪除以下目錄嗎？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion</Keyword>
+      <Text>當前的嵌套是無效的，不能保存。 </Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard</Keyword>
+      <Text>放棄對當前嵌套的更改。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard.Description</Keyword>
+      <Text>當前嵌套所有最近發生的更改將丟失.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel</Keyword>
+      <Text>取消</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel.Description</Keyword>
+      <Text>保持當前的嵌套手動修復它</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.MachineSelectorNoMachineAvailable</Keyword>
+      <Text>無可用機器</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.ReallyChangeMaterialBlock.YesAndDiscardCurrentConstructions</Keyword>
@@ -1756,56 +1958,8 @@
       <Text>離開當前的嵌套，未保存的嵌套部分將轉移到新材料塊上。</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingBlock.Archive</Keyword>
-      <Text>存檔</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion</Keyword>
-      <Text>當前的嵌套是無效的不能保存。 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard</Keyword>
-      <Text>放棄對當前嵌套的更改。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Discard.Description</Keyword>
-      <Text>當前嵌套里所有最近的更改將丟失.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.SaveNotPossibleInCurrentStateQuestion.Cancel.Description</Keyword>
-      <Text>保持當前的嵌套手動修復它</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineSelectorNoMachineAvailable</Keyword>
-      <Text>無可用機器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AllowSupportToPreparationArea</Keyword>
-      <Text>頸緣線下允許放置支撐桿.</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutBlockHealing</Keyword>
-      <Text>重新載入原始瓷塊形狀</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StampOutBlockHealingQuestion</Keyword>
-      <Text>你確定要重新載入原始瓷塊形狀嗎？此瓷塊以前研磨使用過的區域將會丟失！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.OnlyOneConstructionAllowedForThisMaterialType</Keyword>
-      <Text>這樣的材料塊只是其中的一部分被允許嵌套。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.OnlySingleTeethAllowedForThisMaterialType</Keyword>
-      <Text>只有單顆的牙齒允許被嵌套在這種瓷塊上。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingGenericCAMAutoDetectionType.Text</Keyword>
-      <Text>自動偵測邊緣線/就位道</Text>
+      <Keyword>Nesting.SetCurrentNotPossibleWithCurrentLoadedBlock</Keyword>
+      <Text>加載的空白瓷塊“設置當前”不可用。請確定需要加載的和已加載的瓷塊不是相同的編號，然后重試。</Text>
     </Translation>
     <Translation>
       <Keyword>NestingGenericCAMAutoDetectionType.ReconstructionType</Keyword>
@@ -1815,6 +1969,19 @@
       <Keyword>NestingGenericCAMAutoDetectionType.Description</Keyword>
       <Text>警告：在刀具路徑計算時自動檢測路徑，所以用戶不能檢查，支配或改變自動檢測設計。
 因此，，如果可以導入其他文件，例如使用修復體信息，場景，或類似的文件，或定義手動繪制的邊緣和修復體類型，不建議使用此功能.</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionQuestion</Keyword>
+      <Text>確定使用自動檢測嗎？</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionTypeWarning</Keyword>
+      <Text>刀具路徑計算過程中自動檢測，這樣用戶即不可以檢查，也不可以影響或改變自動檢測設計。 
+因此，我們不建議使用此功能。 
+
+如果這個數據集有其他文件可以用（比如.constructionInfo，.asc/.pts/.xml或類似的信息文件），請在加載前將這些文件放置在與.STL文件相同的目錄下。 
+
+如果沒有其他文件可用時，我們建議手動定義頸緣線和修復體類型。</Text>
     </Translation>
     <Translation>
       <Keyword>NestingGenericCAMAutoDetectionType.Question</Keyword>
@@ -1827,6 +1994,10 @@
     <Translation>
       <Keyword>Nesting_EditReconstruction_AddImplantButton.Text</Keyword>
       <Text>添加種植體</Text>
+    </Translation>
+    <Translation>
+      <Keyword>NestingGenericCAMAutoDetectionType.Text</Keyword>
+      <Text>在CAM中自動檢測</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.ImplantForAbutmentNotDefined</Keyword>
@@ -1855,17 +2026,21 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.DataImportMarginAlignAllQuestion</Keyword>
-      <Text>你想重新按默認對齊方式導入數據嗎？請注意此操作可能會丟失以前的更改。
-警告：當導入的數據并沒有默認到Z-軸對齊時才使用此功能。</Text>
+      <Text>你想重新按默認對齊方式導入數據嗎？請注意，當你這樣做，可能會丟失以前的更改。
+警告：當導入數據時并沒有默認的Z-軸對齊時才使用此功能。</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.DataImportMarginAlignViewHelp</Keyword>
-      <Text>請通過預覽修復體頂部定義主軸線并點擊“設定當前視圖”
-
+      <Text>請定義數據的主軸線，
+通過查看頂部的設計，
+然后按下面的按鈕。
 提示：
-1.在大多數情況下，默認視圖設置（可點擊“默認視圖”）比較理想。
+1。在大多數情況下，建議的默認查看
+可通過頂部按鈕比較好。
 
-2.在極少的情況下，選擇上面的校正視圖按鈕或通過鼠標旋轉視圖。
+2。在極少的情況下，
+選擇正確的上面視圖按鈕，
+或通過鼠標旋轉。
 </Text>
     </Translation>
     <Translation>
@@ -1894,7 +2069,7 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.CNCStrategyParameterSelectionRequired</Keyword>
-      <Text>-- 選擇請求 - -</Text>
+      <Text>請求選擇</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.DataImportErrorRecoveringAttachmentFromLibrary</Keyword>
@@ -1906,101 +2081,12 @@
       <Text>修復體文件被沒有完全支持所需的功能的軟件書寫，（需要的合并和書寫的版本修復體信息：{0}）。</Text>
     </Translation>
     <Translation>
-      <Keyword>Blanks</Keyword>
-      <Text>瓷塊</Text>
+      <Keyword>Nesting.ShowCNCNotPossibleForThisMachine</Keyword>
+      <Text>很抱歉，當前機器的軟件配置無法加載此刀路進行可視化和診斷。</Text>
     </Translation>
     <Translation>
-      <Keyword>Queue</Keyword>
-      <Text>隊列</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SupportDiameterStabilizerToBlank</Keyword>
-      <Text>加強板支持桿直徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PositionReconstructions</Keyword>
-      <Text>修復體位置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EditSupports</Keyword>
-      <Text>編輯支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>MachineOn</Keyword>
-      <Text>選擇機器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveFromQueueAfterSaveHeader</Keyword>
-      <Text>從隊列刪去設計數據？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DoubleClickToLoadBlank</Keyword>
-      <Text>雙擊材料庫瓷塊加載！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Preview</Keyword>
-      <Text>預覽：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NoPreviewAvailable</Keyword>
-      <Text>此瓷塊上沒有修復體可預覽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowingPreviewFor</Keyword>
-      <Text>顯示預覽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SaveButton.ToolTip</Keyword>
-      <Text>保存當前嵌套到數據庫</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SucessfullyCreatedMaterialBlockHeader</Keyword>
-      <Text>成功創建新的瓷塊！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SucessfullyCreatedMaterialBlockText</Keyword>
-      <Text>請確認在你的實物瓷塊上標記瓷塊編號：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DestroyMaterialBlockHeader</Keyword>
-      <Text>移除瓷塊？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RollBack</Keyword>
-      <Text>返回？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ProjectDir</Keyword>
-      <Text>項目目錄</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MachineInstallationIssue</Keyword>
-      <Text>警告：機器配置不可用</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.InfoClickSupports</Keyword>
-      <Text>點擊支撐桿應用新的設置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.InfoClickReconstruction</Keyword>
-      <Text>點擊修復體添加支撐桿</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.InfoArrangeByMouse</Keyword>
-      <Text>拖動修復體放置于期望位置，使用Ctrl旋轉</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ImportConstructionToQueue.ToolTip</Keyword>
-      <Text>添加設計文件到嵌套隊列。 
-提示：您可以從資源管理器直接拖動需要嵌套的文件到嵌套3d視圖開始導入。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>GeneratedOn</Keyword>
-      <Text>生成時間 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowReconstructionSelectionMessageBoxHeader</Keyword>
-      <Text>選擇類型</Text>
+      <Keyword>NestingStabilizerAlternativeType</Keyword>
+      <Text>嵌套其他的加強桿</Text>
     </Translation>
     <Translation>
       <Keyword>ObjectLoadedWithoutMarginsHelp</Keyword>
@@ -2014,27 +2100,15 @@
     </Translation>
     <Translation>
       <Keyword>AddToothToBridge</Keyword>
-      <Text>添加牙橋缺失牙</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrentHelp</Keyword>
-      <Text>瓷塊已被標記為使用過。請確認您選擇的瓷塊與實物瓷塊是一樣的狀態！ 
-
-瓷塊狀態將被設定為當前狀態</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrentHelpPlural</Keyword>
-      <Text>瓷塊已被標記為使用過。請確認您選擇的瓷塊與實物瓷塊是一樣的狀態！ 
-
-下列瓷塊將被設置為當前狀態：</Text>
+      <Text>添加牙齒/牙橋</Text>
     </Translation>
     <Translation>
       <Keyword>NestingOptionsSupport</Keyword>
-      <Text>支撐桿選項</Text>
+      <Text>選擇支撐桿</Text>
     </Translation>
     <Translation>
       <Keyword>NestingOptionsArrange</Keyword>
-      <Text>位置選項</Text>
+      <Text>選擇位置</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.SelectMachine</Keyword>
@@ -2043,19 +2117,6 @@
     <Translation>
       <Keyword>NestingGenericCAMAutoDetectionType</Keyword>
       <Text>使用自動檢測</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingGenericCAMAutoDetectionQuestion</Keyword>
-      <Text>確定使用自動檢測嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingGenericCAMAutoDetectionTypeWarning</Keyword>
-      <Text>刀具路徑計算過程中自動檢測，這樣用戶即不可以檢查，也不可以影響或改變自動檢測設計。 
-因此，我們不建議使用此功能。 
-
-如果這個數據集有其他文件可以用（比如.constructionInfo，.asc/.pts/.xml或類似的信息文件），請在加載前將這些文件放置在與.STL文件相同的目錄下。 
-
-如果沒有其他文件可用時，我們建議手動定義頸緣線和修復體類型。</Text>
     </Translation>
     <Translation>
       <Keyword>NestingImportWizard.Next</Keyword>
@@ -2075,7 +2136,7 @@
  
 點擊頸緣線附近進行編輯。 
 
-所有頸緣線都沒問題點擊“下一步”。</Text>
+所有頸緣線都OK點擊“下一步”。</Text>
     </Translation>
     <Translation>
       <Keyword>NestingImportMenuHelp</Keyword>
@@ -2099,7 +2160,7 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.SortBy</Keyword>
-      <Text>分類：</Text>
+      <Text>分類...</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.Property</Keyword>
@@ -2108,10 +2169,6 @@
     <Translation>
       <Keyword>Nesting.SortFilterBy</Keyword>
       <Text>按...分類/過濾</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.Material</Keyword>
-      <Text>材料</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.HolderSlot</Keyword>
@@ -2123,7 +2180,7 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.ScaleFactorValidationError</Keyword>
-      <Text>材料必須有收縮比.</Text>
+      <Text>收縮比.</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.DefineBlankProperties</Keyword>
@@ -2135,7 +2192,7 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.ProceedToProduction</Keyword>
-      <Text>繼續生產加工</Text>
+      <Text>繼續生產</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.EmptyMaterialBlockList</Keyword>
@@ -2143,19 +2200,15 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.EmptyNestingQueueList</Keyword>
-      <Text>生產隊列為空，嘗試設計或導入新的修復體。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowCNCNotPossibleForThisMachine</Keyword>
-      <Text>很抱歉，當前機器的軟件配置無法加載此刀路進行可視化和診斷。</Text>
+      <Text>生產隊列為空。嘗試設計或導入新的修復體。</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.LoadingBlanks</Keyword>
       <Text>加載瓷塊庫...請稍候。這可能需要幾秒鐘才能完成。</Text>
     </Translation>
     <Translation>
-      <Keyword>NestingStabilizerAlternativeType</Keyword>
-      <Text>嵌套其他的加強桿</Text>
+      <Keyword>Nesting.ArrangeObjects</Keyword>
+      <Text>用滑鼠排列</Text>
     </Translation>
     <Translation>
       <Keyword>NestingPremillAbutmentFeatureQuestion</Keyword>
@@ -2200,6 +2253,39 @@
     <Translation>
       <Keyword>Nesting.SaveFailedBecauseWriteNestingFailed</Keyword>
       <Text>寫入嵌套到數據庫失敗</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Blanks</Keyword>
+      <Text>瓷塊</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Queue</Keyword>
+      <Text>隊列</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SucessfullyCreatedMaterialBlock</Keyword>
+      <Text>成功地注冊新瓷塊! 請用這個瓷塊編碼標示實體瓷塊:</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.FollowingMaterialBlockFilesWillBeMarkedAsCurrent</Keyword>
+      <Text>現在將以下材料塊標記為使用狀態。請確保它已經用于生產。</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.SupportDiameterStabilizerToBlank</Keyword>
+      <Text>加強板支持直徑</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.Preview</Keyword>
+      <Text>預覽：</Text>
+    </Translation>
+    <Translation>
+      <Keyword>ProjectDir</Keyword>
+      <Text>項目目錄</Text>
+    </Translation>
+    <Translation>
+      <Keyword>Nesting.ImportConstructionToQueue.ToolTip</Keyword>
+      <Text>添加設計文件到嵌套隊列。 
+提示：您可以從資源管理器直接拖動需要嵌套的文件到嵌套3d視圖開始導入。</Text>
     </Translation>
     <Translation>
       <Keyword>SimulateMilling.ToolTip</Keyword>
@@ -2369,7 +2455,7 @@
     </Translation>
     <Translation>
       <Keyword>Nesting.StabilizerLibraryControl.ErrorNoTrianglesInMesh</Keyword>
-      <Text>錯誤:此網格沒有任何三角網格。</Text>
+      <Text>錯誤:此網格沒有任何三角形。</Text>
     </Translation>
     <Translation>
       <Keyword>Nesting.CreateStabilizer.FromLibrary</Keyword>
@@ -2383,394 +2469,5 @@
       <Keyword>Nesting.ErrorRunningSimulationExe</Keyword>
       <Text>創建加強板</Text>
     </Translation>
-    <Translation>
-      <Keyword>Blanks.ToolTip</Keyword>
-      <Text>顯示/隱藏瓷塊庫</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ShowAxes.ToolTip</Keyword>
-      <Text>顯示/隱藏修復體軸向</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RestrictToZ.ToolTip</Keyword>
-      <Text>允許/禁止手動傾斜修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting_EditReconstruction_MatchPremillButton.Text</Keyword>
-      <Text>匹配預成接口</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingSetSecondaryDirectionHelp</Keyword>
-      <Text>使用下方按鈕設置第二就位道方向：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.STLImportUseExistingMarginQuestion</Keyword>
-      <Text>確定使用點擊的頸緣線嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.PartsWithNoValidStrategyExistQuestion</Keyword>
-      <Text>某些部件加工策略無效，
-確定禁止這些部件并繼續生產嗎？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.SelectedStrategyFileMissing</Keyword>
-      <Text>策略文件丟失</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReconstructionHasNoStrategy</Keyword>
-      <Text>無可用策略</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AllPartsHaveNoValidStrategy</Keyword>
-      <Text>錯誤：沒有選擇有效的策略生產加工部件！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StrategySelectionProblemTitle</Keyword>
-      <Text>嵌套策略問題</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.StrategySelectionProblemDetails</Keyword>
-      <Text>問題詳細信息：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>CAMProperties</Keyword>
-      <Text>屬性</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ReconstructionInfo</Keyword>
-      <Text>修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.EmptyNestingQueueIsLoading</Keyword>
-      <Text>生產隊列正在加載，請稍后...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.LoadProtoype</Keyword>
-      <Text>使用...</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.HolderConfiguration</Keyword>
-      <Text>夾柄配置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockMultiPreformSlotDisplayHeader</Keyword>
-      <Text>夾槽里的部件：</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockMultiPreformSlotDisplay</Keyword>
-      <Text>材料{0} 在夾槽 {1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.DentureTeethSetNotDefined</Keyword>
-      <Text>錯誤：本地嵌套不能正確配置生產中所需的成品牙集合：{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ActionButton.CustomerHelpNesting</Keyword>
-      <Text>CAM幫助</Text>
-    </Translation>
-    <Translation>
-      <Keyword>ActionButton.CustomerHelpNesting.ToolTip</Keyword>
-      <Text>打開CAM軟件手冊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockProductCode</Keyword>
-      <Text>產品代碼 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AssignMaterialBlockProductCodeMessage</Keyword>
-      <Text>請輸入產品代碼 </Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockWithProductCodeAlreadyExists</Keyword>
-      <Text>給定產品代碼的另一種材料塊已經存在。
-產品代碼：{0}
-位置：{1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeAlreadyExists</Keyword>
-      <Text>產品代碼已經被使用，請檢查你的材料塊，然后再試一次。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CouldNotResolveMaterialBlankFromProductCode</Keyword>
-      <Text>沒有找到與產品代碼相匹配的材料塊，請手動創建材料塊。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode</Keyword>
-      <Text>給定產品代碼的材料塊已經存在。
-想要加載它嗎？
-
-產品代碼：{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Load</Keyword>
-      <Text>加載</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Load.Description</Keyword>
-      <Text>給定產品代碼的現有材料塊將被載入。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Back</Keyword>
-      <Text>返回</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadMaterialBlankWithGivenProductCode.Back.Description</Keyword>
-      <Text>返回到“添加瓷塊”窗口</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachineAnyMore</Keyword>
-      <Text>裝入的瓷塊不在兼容當前的機器類型。該材料塊數據庫可能已過時，或瓷塊文件可能太舊。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.OldMachineDescriptor</Keyword>
-      <Text>舊機器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CurrentMachineWasSwitchedAutomatically</Keyword>
-      <Text>注意：機器選擇已自動更改為{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CurrentMachineWasSwitchedAutomaticallyToNone</Keyword>
-      <Text>注意：機器選擇已更改為無機器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NoMachineIsCompatibleWithTheGivenBlank</Keyword>
-      <Text>當前加載的瓷塊不兼容任何已安裝可用的設備。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToSelectACompatibleMachine.Cancel</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToSelectACompatibleMachine.Cancel.Description</Keyword>
-      <Text>停止當前加載過程</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine</Keyword>
-      <Text>加載的瓷塊{0}與所選擇的機器{1}不兼容。
-你要卸載當前瓷塊更改機器？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlankAndKeepReconstructions</Keyword>
-      <Text>是的，卸載瓷塊但保留修復體。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlankAndUnloadReconstructions</Keyword>
-      <Text>是的，卸載瓷塊和修復體。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.UnloadBlank</Keyword>
-      <Text>是的，卸載瓷塊。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.LoadedMaterialBlockTypeNotCompatibleWithMachine.DontChangeMachine</Keyword>
-      <Text>否，不更改機器類型選擇。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WarningMachineSlotIdChanged</Keyword>
-      <Text>注意：材料塊插槽名稱已從{0}更改為{1}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot</Keyword>
-      <Text>問題：刀具路徑已經存在于瓷塊中。
-你想如何操作？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.MarkAsCurrent</Keyword>
-      <Text>刀具路徑視為已加工過的區域</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.MarkAsCurrent.Description</Keyword>
-      <Text>部件及其已研磨的材料將從瓷塊中刪除</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.RemoveCNCFiles</Keyword>
-      <Text>刀具路徑視為未加工區域并刪除刀具路徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.RemoveCNCFiles.Description</Keyword>
-      <Text>如果你打算使用不同的夾具或不同的機器來加工這部分使用此選項。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.Cancel</Keyword>
-      <Text>取消</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.AskUserToHandleFilesInCNCBeforeChangingMachineOrSlot.Cancel.Description</Keyword>
-      <Text>不改變機器類型、插槽或夾具配置。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ErrorMachineDescriptorProblem</Keyword>
-      <Text>錯誤：機器或材料配置問題！</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.BlankIsNotCompatibleWithTheCurrentSelectedMachine</Keyword>
-      <Text>錯誤：當前的瓷塊無法在選定的機器上進行研磨。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.BlankIsNotCompatibleWithTheCurrentSelectedMachine.PleaseSelectCompatible</Keyword>
-      <Text>請選擇這些可用機器中的一臺：
-{0}</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlankColorValidationError</Keyword>
-      <Text>材料塊顏色是強制的。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingOpenMaterialBlankLibrary</Keyword>
-      <Text>材料庫</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingLoadedDesigns</Keyword>
-      <Text>已載入的設計</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingPremillAbutmentFeatureButton</Keyword>
-      <Text>使用預成基臺</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSlotHolder</Keyword>
-      <Text>夾具</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockHolderChange.ToolTip</Keyword>
-      <Text>更改將會把此材料塊移動到不同的機器夾具配置。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockSlotChange.ToolTip</Keyword>
-      <Text>更改將會把此材料塊移動到不同的機器插槽</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ErrorMaterialDescriptorMissingInConfiguration</Keyword>
-      <Text>錯誤，本地配置：{0}缺少材料描述信息</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.TypeProductCodeHere</Keyword>
-      <Text>根據產品代碼輸入/粘貼在這里創建材料塊</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryFileNameMisconfigured</Keyword>
-      <Text>產品代碼歷史文件的路徑配置不正確，請與經銷商聯系。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryFileNameDirCreationFailed</Keyword>
-      <Text>無法創建產品代碼歷史文件目錄。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryCheckFailed</Keyword>
-      <Text>檢查產品代碼是否已被使用時發生錯誤， 請再試一次。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.NestingMaterialBlockProductCodeHistoryLockFailed</Keyword>
-      <Text>鎖定歷史產品代碼更新時發生錯誤。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.GenerateFromProductCode</Keyword>
-      <Text>生成</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CodeContainsProductCodeOnly</Keyword>
-      <Text>輸入的字符串只包含產品代碼。請手動選擇瓷塊類型，產品代碼會自動完成</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingStrategyUseMultiPart</Keyword>
-      <Text>結合不同的刀具路徑</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.RemoveMaterialFromBlock.Description</Keyword>
-      <Text>如果修復體已經研磨請點擊。
-修復體將被刪除，已研磨過的區域將在瓷塊上顯示出來。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ReallyDestroyReconstructionBackToQueue</Keyword>
-      <Text>重新添加修復體到隊列中？</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ColumnHeaderNestingQueueProjectDirThumbnail</Keyword>
-      <Text>位置</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.InvokeProduction.Description</Keyword>
-      <Text>啟動CAM軟件研磨修復體</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.EnqueueForProduction.Description</Keyword>
-      <Text>計算研磨后的修復體將保留在CAM軟件里</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCProblemCancelProduction.Description</Keyword>
-      <Text>取消計算校正修復體位置或傾斜度</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.CNCProblemContinueProduction.Description</Keyword>
-      <Text>繼續計算修復體研磨刀路。在無法觸及的區域的將不會研磨。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.Yes.Description</Keyword>
-      <Text>采用水冷開始計算</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.WaterCoolingFlagQuestionAmbiguous.No.Description</Keyword>
-      <Text>干磨開始計算</Text>
-    </Translation>
-    <Translation>
-      <Keyword>NestingBlock.DeleteCNCFile.Description</Keyword>
-      <Text>點擊這里如果你還沒有研磨修復體。
-修復體將被刪除，研磨過的區域將被關閉。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCode.Hint</Keyword>
-      <Text>請在下面輸入產品代碼。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCode.Title</Keyword>
-      <Text>產品代碼編輯器</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCode</Keyword>
-      <Text>產品代碼</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeCopiedToClipboard</Keyword>
-      <Text>產品代碼已成功復制到剪貼板</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.InvalidProductCode</Keyword>
-      <Text>輸入的字符串不是有效的產品代碼，請檢查并再試一次。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeWithBlockInfoProhibited</Keyword>
-      <Text>在產品代碼描述區域允許只有代碼而無材料塊信息。如果要使用此代碼創建材料塊請使用產品代碼描述區域左邊的“生成”按鈕來創建。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing.Title</Keyword>
-      <Text>產品代碼丟失</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing</Keyword>
-      <Text>嵌套在材料塊中的修復體似乎需要產品代碼以確保正常在機器上進行研磨。
-但是所使用的材料塊沒有指定的產品代碼，請在下面選擇相應的操作。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing.DefineProductCode</Keyword>
-      <Text>定義產品代碼</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing.DefineProductCode.Description</Keyword>
-      <Text>下一步你將能夠自定義產品代碼。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing.SkipProductCodeAndProceedToProduction</Keyword>
-      <Text>跳過定義產品代碼</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.ProductCodeRequiredButMissing.SkipProductCodeAndProceedToProduction.Description</Keyword>
-      <Text>不指定產品代碼而繼續進行生產加工材料塊，機器可能拒絕加工。</Text>
-    </Translation>
-    <Translation>
-      <Keyword>Nesting.MaterialBlockLibraryView.MaterialBlockSlotIDThumbnailHolderOnly</Keyword>
-      <Text>夾具</Text>
-    </Translation>
   </Translations>
-  <IncludeFiles></IncludeFiles>
 </TranslationContainer>
