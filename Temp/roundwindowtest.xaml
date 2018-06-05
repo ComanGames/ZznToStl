@@ -1,0 +1,28 @@
+﻿<DentalData:RoundWindow
+	x:Class="DentalCADApp.RoundWindowTest" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:DentalData="clr-namespace:DentalData;assembly=DentalData"
+	Height="300"
+	Width="237"
+	BorderBrush="#FF000000"
+	BorderThickness="5" xmlns:dentalcadapp="clr-namespace:DentalCADApp">
+	<Grid
+		Background="#FF0000FF">
+		<Button
+			Name="button1"
+			Height="85"
+			Margin="0,0,101,0"
+			VerticalAlignment="Top">Button</Button>
+		<RadioButton
+			Name="radioButton1"
+			Height="16"
+			Margin="116,0,42,77"
+			VerticalAlignment="Bottom">RadioButton</RadioButton>
+		<Button
+			Name="button2"
+			Margin="73,102,8,113">Button</Button>
+		<CheckBox
+			Name="checkBox1"
+			Height="16"
+			Margin="14,0,8,11"
+			VerticalAlignment="Bottom">CheckBox</CheckBox>
+	</Grid>
+</DentalData:RoundWindow>

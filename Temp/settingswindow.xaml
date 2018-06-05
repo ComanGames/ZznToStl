@@ -1,0 +1,21 @@
+﻿<Window
+	x:Class="DentalCADApp.SettingsWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:configCtrl="clr-namespace:DentalConfigControl;assembly=DentalConfigControl" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="SettingsWindow"
+	SizeToContent="WidthAndHeight"
+	Width="Auto"
+	ResizeMode="NoResize" xmlns:dentalcadapp="clr-namespace:DentalCADApp">
+	<Grid
+		VerticalAlignment="Stretch">
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+		</Grid.RowDefinitions>
+		<configCtrl:ConfigControl
+			Name="configCtrl"
+			Grid.Row="0"
+			Margin="10,6,10,10"
+			HorizontalContentAlignment="Stretch" />
+	</Grid>
+</Window>

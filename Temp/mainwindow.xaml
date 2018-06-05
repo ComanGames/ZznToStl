@@ -1,0 +1,333 @@
+﻿<dentalprocessorcontrols:DentalCADWindow
+	x:Class="DentalCADApp.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:MyNamespace="clr-namespace:DentalProcessorControls;assembly=DentalProcessorControls" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:io="clr-namespace:System.IO;assembly=mscorlib" xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib" xmlns:gui="clr-namespace:DentalGUIHelper;assembly=DentalConfig" xmlns:DentalHelperLib="clr-namespace:DentalHelperLib;assembly=DentalHelperLib" xmlns:my="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+	MinHeight="500"
+	MinWidth="850" xmlns:dentalcadapp="clr-namespace:DentalCADApp" xmlns:dentalprocessorcontrols="clr-namespace:DentalProcessorControls;assembly=DentalProcessorControls"
+	KeyUp="Window_KeyUp"
+	PreviewKeyDown="Window_KeyDown"
+	KeyDown="Window_KeyDown"
+	Loaded="Window_Loaded">
+	<FrameworkElement.Resources>
+		<ResourceDictionary>
+			<Style
+				TargetType="{x:Type ListBoxItem}"
+				BasedOn="{StaticResource {x:Type ListBoxItem}}"
+				x:Key="nonSelectableListViewItemForCheckBoxSelection">
+				<Setter
+					Property="Template">
+					<Setter.Value>
+						<ControlTemplate
+							TargetType="{x:Type ListBoxItem}">
+							<Border
+								Name="OuterBorder"
+								SnapsToDevicePixels="True"
+								Background="{TemplateBinding Background}"
+								BorderBrush="{TemplateBinding BorderBrush}">
+								<Border
+									Name="InnerBorder"
+									Background="{DynamicResource ButtonInnerBackground}">
+									<ContentPresenter
+										VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+										Margin="0,0,0,0"
+										OpacityMask="{x:Null}" />
+								</Border>
+							</Border>
+						</ControlTemplate>
+					</Setter.Value>
+				</Setter>
+			</Style>
+			<DataTemplate
+				x:Key="optionSelectionTempate">
+				<CheckBox
+					Content="{Binding Description}"
+					IsChecked="{Binding IsSelected}" />
+			</DataTemplate>
+			<DataTemplate
+				DataType="{x:Type io:FileInfo}"
+				x:Key="sceneSelectionFileInfoTemplate">
+				<Grid
+					Margin="3">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition
+							Width="120" />
+						<ColumnDefinition />
+					</Grid.ColumnDefinitions>
+					<TextBlock
+						Margin="5"
+						Grid.Column="0"
+						FontSize="12"
+						FontFamily="Segoe UI"
+						Text="{Binding Path=LastWriteTime, StringFormat={}{0:yyyy-MM-dd HH:mm}}" />
+					<TextBlock
+						Margin="5"
+						Grid.Column="1"
+						FontSize="12"
+						FontFamily="Segoe UI"
+						FontWeight="Bold"
+						Text="{Binding Path=Name}" />
+				</Grid>
+			</DataTemplate>
+		</ResourceDictionary>
+	</FrameworkElement.Resources>
+	<DockPanel
+		Name="rootPanel">
+		<DockPanel
+			Name="rightPanel"
+			Dock="Right"
+			Background="{DynamicResource ToolbarBackgroundBrush}"
+			Width="120"
+			VerticalAlignment="Stretch">
+			<gui:WindowCommands
+				DockPanel.Dock="Top"
+				AutoHideOnMaximize="True" />
+			<Grid
+				VerticalAlignment="Stretch">
+				<ContentControl
+					Name="navigationBar"
+					VerticalAlignment="Stretch"
+					Margin="0,10">
+					<DockPanel
+						Name="navigationBarContent">
+						<StackPanel
+							Name="addCustomViewPanel"
+							DockPanel.Dock="Bottom">
+							<gui:ImageAndTextButton
+								Name="bAddCustomView"
+								Style="{DynamicResource ToolBarButton}"
+								Keyword="AddCustomView"
+								Click="OnAddCustomView" />
+							<StackPanel
+								Name="customViews" />
+							<UniformGrid
+								Columns="2"
+								HorizontalAlignment="Center"
+								Margin="0,10,0,15"
+								IsEnabled="{Binding AreDefaultViewButtonsEnabled}">
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="UpArrowIcon"
+									CommandParameter="5"
+									Click="OnButtonDefaultViewClick" />
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="DownArrowIcon"
+									CommandParameter="6"
+									Click="OnButtonDefaultViewClick" />
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="LeftArrowIcon"
+									CommandParameter="3"
+									Click="OnButtonDefaultViewClick" />
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="RightArrowIcon"
+									CommandParameter="4"
+									Click="OnButtonDefaultViewClick" />
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="InArrowIcon"
+									CommandParameter="1"
+									Click="OnButtonDefaultViewClick" />
+								<gui:ImageAndTextButton
+									Style="{DynamicResource DefaultViewButtonStyle}"
+									KeywordIcon="OutArrowIcon"
+									CommandParameter="2"
+									Click="OnButtonDefaultViewClick" />
+							</UniformGrid>
+						</StackPanel>
+						<StackPanel
+							Name="panelLoadSaveButtons"
+							DockPanel.Dock="Top"
+							Margin="0,5">
+							<gui:ImageAndTextButton
+								Name="actionButtonSaveScene"
+								Style="{DynamicResource ToolBarButton}"
+								Keyword="ActionButton.Save"
+								ToolTip="ActionButton.Save.ToolTip"
+								TextDock="Bottom"
+								Click="actionButtonSaveScene_Click"
+								MouseRightButtonDown="actionButtonSaveScene_RightClick" />
+							<gui:ImageAndTextButton
+								Name="actionButtonLoadProject"
+								Style="{DynamicResource ToolBarButton}"
+								Keyword="ActionButton.Load"
+								ToolTip="ActionButton.Load.ToolTip"
+								TextDock="Bottom"
+								Visibility="Collapsed"
+								Click="actionButtonLoadProject_Click"
+								MouseRightButtonDown="actionButtonLoadProject_MouseRightButtonDown" />
+						</StackPanel>
+						<StackPanel
+							Name="panelWizardExpertButton"
+							DockPanel.Dock="Top"
+							HorizontalAlignment="Stretch">
+							<gui:ImageAndTextButton
+								Name="actionButtonWizard"
+								Style="{DynamicResource ToolBarButton}"
+								Keyword="ActionButton.Wizard"
+								ToolTip="ActionButton.Wizard.ToolTip"
+								Click="actionButtonWizard_Click"
+								MouseRightButtonDown="actionButtonWizard_RightClick" />
+							<gui:ImageAndTextButton
+								Name="actionButtonExpert"
+								Style="{DynamicResource ToolBarButton}"
+								Keyword="ActionButton.Expert"
+								ToolTip="ActionButton.Expert.ToolTip"
+								Visibility="Collapsed"
+								Click="actionButtonExpert_Click"
+								MouseRightButtonDown="actionButtonExpert_RightClick" />
+						</StackPanel>
+						<ScrollViewer
+							Name="otherActionButtons"
+							HorizontalAlignment="Stretch"
+							HorizontalScrollBarVisibility="Disabled"
+							VerticalScrollBarVisibility="Auto">
+							<StackPanel
+								Orientation="Vertical"
+								HorizontalAlignment="Stretch">
+								<gui:ImageAndTextButton
+									Name="actionButtonTools"
+									Style="{DynamicResource ToolBarButton}"
+									Keyword="ActionButton.Tools"
+									ToolTip="ActionButton.Tools.ToolTip"
+									Click="OnButtonToolsClick"
+									MouseRightButtonDown="OnButtonToolsClick" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonArticulator"
+									Style="{DynamicResource ToolBarToggleButton}"
+									Visibility="Collapsed"
+									Keyword="ActionButton.Articulator"
+									ToolTip="ActionButton.Articulator.ToolTip"
+									Click="actionButtonArticulator_Click"
+									MouseRightButtonDown="actionButtonArticulator_MouseRightButtonDown" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonDistanceToAntagonist"
+									Style="{DynamicResource ToolBarToggleButton}"
+									Visibility="Collapsed"
+									Keyword="ActionButton.DistanceToAntagonist"
+									ToolTip="ActionButton.DistanceToAntagonist.ToolTip"
+									Click="actionButtonDistanceToAntagonist_Click" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonTruSmile"
+									Style="{DynamicResource ToolBarToggleButton}"
+									Visibility="Collapsed"
+									Keyword="ActionButton.TruSmile"
+									ToolTip="ActionButton.TruSmile.ToolTip"
+									Click="actionButtonTruSmile_Click" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonColorScan"
+									Style="{DynamicResource ToolBarToggleButton}"
+									Visibility="Collapsed"
+									Keyword="ActionButton.ColorScan"
+									ToolTip="ActionButton.ColorScan.ToolTip"
+									Click="actionButtonColorScan_Click" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonImplantPlanningViews"
+									Style="{DynamicResource ToolBarToggleButton}"
+									Keyword="ActionButton.ImplantPlanningViews"
+									ToolTip="ActionButton.ImplantPlanningViews.ToolTip"
+									Visibility="Collapsed"
+									PreviewMouseLeftButtonDown="actionButtonImplantPlanningViews_Click" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonShowHideGroups"
+									Style="{DynamicResource ToolBarToggleButton}"
+									KeywordText="DentalProcessorControls.GroupSelector.Title"
+									Keyword="ActionButton.ShowHideGroups"
+									Visibility="Collapsed"
+									TextBlock.TextAlignment="Center"
+									Click="OnActionButtonShowHideGroupsClick" />
+								<gui:ImageAndTextToggleButton
+									Name="actionButtonShowHideDicomViewer"
+									Style="{DynamicResource ToolBarToggleButton}"
+									KeywordText="DentalProcessorControls.DicomViewer.Title"
+									Keyword="ActionButton.ShowHideDicomViewer"
+									Visibility="Collapsed"
+									TextBlock.TextAlignment="Center"
+									Click="OnActionButtonShowHideDicomViewer_Click" />
+								<UniformGrid
+									Name="actionPannelImplantPlanningViews"
+									Rows="2"
+									Columns="2"
+									Margin="3"
+									Visibility="Collapsed">
+									<FrameworkElement.Resources>
+										<ResourceDictionary>
+											<Style
+												TargetType="{x:Type Button}"
+												x:Key="{x:Type Button}">
+												<Setter
+													Property="Margin"
+													Value="3" />
+											</Style>
+										</ResourceDictionary>
+									</FrameworkElement.Resources>
+								</UniformGrid>
+							</StackPanel>
+						</ScrollViewer>
+					</DockPanel>
+				</ContentControl>
+				<Label
+					Name="versionLabel"
+					Margin="0"
+					VerticalAlignment="Bottom"
+					HorizontalAlignment="Right"
+					Foreground="#FFFFFF"
+					Opacity="0.5" />
+			</Grid>
+		</DockPanel>
+		<Grid
+			Name="rootGrid">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition
+					Width="Auto" />
+				<ColumnDefinition
+					Width="*" />
+				<ColumnDefinition
+					Width="Auto" />
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition
+					Height="Auto" />
+				<RowDefinition
+					Height="*" />
+				<RowDefinition
+					Height="Auto" />
+				<RowDefinition
+					Height="Auto" />
+			</Grid.RowDefinitions>
+			<Grid
+				Name="topGrid"
+				Column="0"
+				Row="0"
+				ColumnSpan="3" />
+			<Grid
+				Name="bottomGrid"
+				Column="0"
+				Row="2"
+				ColumnSpan="3" />
+			<StackPanel
+				Name="expertModeToolbarPositioningPanel"
+				Height="0"
+				MinHeight="0"
+				Grid.Row="3"
+				Width="Auto"
+				Background="#FF808080"
+				Grid.ColumnSpan="3" />
+			<Grid
+				Name="leftGrid"
+				Column="0"
+				Row="1" />
+			<Grid
+				Name="rightGrid"
+				Column="2"
+				Row="1" />
+			<Grid
+				Name="sceneGrid"
+				FlowDirection="LeftToRight"
+				Column="1"
+				Row="1">
+				<my:WindowsFormsHost
+					Name="windowsFormsHost1" />
+			</Grid>
+		</Grid>
+	</DockPanel>
+</dentalprocessorcontrols:DentalCADWindow>
